@@ -1,62 +1,213 @@
-# Icarus Mods Collection
+# AgentKush's Icarus Mods
 
-![Author](https://img.shields.io/badge/author-AgentKush-green)
-![Mods](https://img.shields.io/badge/mods-17-blue)
-![License](https://img.shields.io/badge/license-Free%20to%20Use-brightgreen)
+[![Author](https://img.shields.io/badge/Author-AgentKush-green)]()
+[![Mods](https://img.shields.io/badge/Mods-17-blue)]()
+[![License](https://img.shields.io/badge/License-Free%20to%20Use-brightgreen)]()
+[![Install](https://img.shields.io/badge/Install-Mod%20Manager-orange)](https://github.com/Jimk72/Icarus_Software)
 
 A curated collection of quality-of-life modifications for **Icarus: First Cohort**. All mods are designed for use with [JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software).
 
 ---
 
-## 📦 Available Mods
+## 📋 Quick Navigation
 
-### Workshop & Items
-
-| Mod | Version | Description | Modifications |
-|-----|---------|-------------|---------------|
-| [Agent's BioLab](./Agents_BioLab) | 1.9 | All 10 Bio Lab Legendary weapons in Workshop | 22 |
-| [Individual Item Kits](./Agents_Individual_Item_Kits) | 2.0 | 1,396 individual items organized in 73 categories | 8,378 |
-| [Workshop Recyclers](./Workshop_Recyclers) | 4.0 | Two recyclers returning 100% of Workshop costs | 1,637 |
-| [Dev Tools Kit](./Dev_Tools_Kit) | 1.0.0 | 10 hidden developer tools (Thor Hammer, Transform Tool, etc.) | 42 |
-
-### Processing Speed
-
-| Mod | Version | Speed | Recipes |
-|-----|---------|-------|---------|
-| [FastProcessing 5x](./FastProcessing_All_5x) | 4.0 | 5x faster | 3,448 |
-| [FastProcessing 10x](./FastProcessing_All_10x) | 4.0 | 10x faster | 3,448 |
-| [FastProcessing 15x](./FastProcessing_All_15x) | 4.0 | 15x faster | 3,448 |
-| [FastProcessing 25x](./FastProcessing_All_25x) | 4.0 | 25x faster | 3,448 |
-| [FastProcessing Instant](./FastProcessing_Instant) | 4.0 | Instant | 3,448 |
-
-> ⚠️ **Note:** Use only ONE FastProcessing variant at a time.
-
-### Quality of Life
-
-| Mod | Version | Description | Modifications |
-|-----|---------|-------------|---------------|
-| [Indestructible Tools & Weapons](./Indestructible_Tools_Weapons) | 1.3 | Maximum durability on all equipment | 168 |
-| [No Food Spoilage](./No_Food_Spoilage) | 1.3 | Prevents food and volatile decay | 28 |
-| [Hidden Building Pieces](./Hidden_Building_Pieces) | 2.3.0 | 54 diagonal/curved building sets for 9 materials | 60 |
-| [Always Show Buildings](./Always_show_buildings_on_map) | 1.0 | Buildings always visible on map/minimap | 1 |
-| [Culinex Food Boost Fix](./Culinex_Food_Boost_Fix) | 1.0 | Fixes Chef's Backpack 25% food boost | 159 |
-
-### Character Modifiers
-
-| Mod | Version | Description | Modifications |
-|-----|---------|-------------|---------------|
-| [Modular Affliction Adjuster](./Modular_Affliction_Adjuster) | 2.0 | Reduces affliction penalties by ~50% | 110 |
-| [Modular Buff Enhancer](./Modular_Buff_Enhancer) | 1.1 | Increases buff effectiveness by ~50% | 239 |
-
-### Defense
-
-| Mod | Version | Description | Modifications |
-|-----|---------|-------------|---------------|
-| [Turret Variants](./Turret_Variants) | 2.3 | 15 new automated turret types with unique firing patterns | 135 |
+| Category | Mods | Description |
+|----------|------|-------------|
+| [Workshop & Items](#workshop--items) | 4 | BioLab weapons, item kits, recyclers, dev tools |
+| [Processing Speed](#processing-speed) | 5 | 5x, 10x, 15x, 25x, and Instant processing |
+| [Quality of Life](#quality-of-life) | 5 | Indestructible tools, no spoilage, hidden building pieces |
+| [Character Modifiers](#character-modifiers) | 2 | Affliction reduction, buff enhancement |
+| [Defense](#defense) | 1 | 15 automated turret variants |
 
 ---
 
-## 🔧 Installation
+## ⭐ Featured Mods
+
+| Mod | Why It's Great |
+|-----|----------------|
+| **Individual Item Kits** | 1,396 items in 73 categories — every item in the game, individually accessible |
+| **Workshop Recyclers** | Get 100% of Workshop costs back — perfect for experimenting |
+| **Hidden Building Pieces** | 54 diagonal/curved pieces for 9 materials — build circles and curves |
+| **Turret Variants** | 15 unique turrets with different firing patterns — automate your defense |
+
+---
+
+## 🏪 Workshop & Items
+
+### Agent's BioLab
+**Version 1.9** • 22 modifications
+
+All 10 Bio Lab Legendary weapons available in the Workshop. No more grinding for RNG drops — craft the exact legendary you want.
+
+**Included Weapons:**
+- All legendary melee weapons (Ape Club, etc.)
+- All legendary ranged weapons
+- Full crafting recipes in Workshop
+
+---
+
+### Individual Item Kits
+**Version 2.0** • 8,378 modifications
+
+The ultimate item access mod — **1,396 individual items** organized into **73 categories**. Every item in Icarus, available as individual workshop kits.
+
+**Categories include:**
+- All building materials (by tier and type)
+- All tools and weapons
+- All consumables and resources
+- All deployables and furniture
+- All armor and equipment
+
+---
+
+### Workshop Recyclers
+**Version 4.0** • 1,637 modifications
+
+Two recycler deployables that return **100% of Workshop item costs**. Perfect for testing builds or recovering resources from items you no longer need.
+
+**Features:**
+- Ren Recycler — returns Ren currency
+- Exotics Recycler — returns Exotic materials
+- Works with all Workshop items
+
+---
+
+### Dev Tools Kit
+**Version 1.0.0** • 42 modifications
+
+Access **10 hidden developer tools** normally unavailable to players:
+
+| Tool | Function |
+|------|----------|
+| Thor Hammer | Instant destruction/building |
+| Transform Tool | Move/rotate placed objects |
+| + 8 more | Various development utilities |
+
+---
+
+## ⚡ Processing Speed
+
+Speed up all crafting, smelting, and processing. Choose ONE variant based on your preference:
+
+| Mod | Version | Speed | Recipes Modified |
+|-----|---------|-------|------------------|
+| [FastProcessing 5x](FastProcessing_All_5x) | 4.0 | 5× faster | 3,448 |
+| [FastProcessing 10x](FastProcessing_All_10x) | 4.0 | 10× faster | 3,448 |
+| [FastProcessing 15x](FastProcessing_All_15x) | 4.0 | 15× faster | 3,448 |
+| [FastProcessing 25x](FastProcessing_All_25x) | 4.0 | 25× faster | 3,448 |
+| [FastProcessing Instant](FastProcessing_Instant) | 4.0 | Instant | 3,448 |
+
+> ⚠️ **Important:** Use only ONE FastProcessing variant at a time. They are not compatible with each other.
+
+**Coverage includes:**
+- Base game recipes (1,771)
+- Workshop Recyclers recipes (1,623)
+- Hidden Building Pieces recipes (54)
+
+---
+
+## 🛠️ Quality of Life
+
+### Indestructible Tools & Weapons
+**Version 1.3** • 168 modifications
+
+Maximum durability on all tools and weapons. Never repair again.
+
+**Affects:**
+- All craftable tools (axes, pickaxes, knives, etc.)
+- All craftable weapons (bows, spears, firearms)
+- All Workshop tools and weapons
+
+---
+
+### No Food Spoilage
+**Version 1.3** • 28 modifications
+
+Prevents food and volatile items from decaying. Your hard-earned meals stay fresh forever.
+
+**Affects:**
+- All food items
+- All volatile/unstable materials
+- Composter recipes updated for Week 213+ compatibility
+
+---
+
+### Hidden Building Pieces
+**Version 2.3.0** • 60 modifications
+
+Unlocks **54 diagonal and curved building pieces** for 9 different materials. Build circular towers, curved walls, and diagonal structures.
+
+**Materials supported:**
+- Wood, Stone, Concrete
+- Steel, Aluminum, Glass
+- And 3 more material types
+
+**Piece types:**
+- Diagonal walls and floors
+- Curved wall segments
+- Corner pieces
+
+---
+
+### Always Show Buildings on Map
+**Version 1.0** • 1 modification
+
+Buildings are always visible on the map and minimap, regardless of distance. Never lose track of your bases.
+
+---
+
+### Culinex Food Boost Fix
+**Version 1.0** • 159 modifications
+
+Fixes the Chef's Backpack 25% food boost that wasn't working correctly in vanilla.
+
+---
+
+## 👤 Character Modifiers
+
+### Modular Affliction Adjuster
+**Version 2.0** • 110 modifications
+
+Reduces affliction penalties by approximately **50%**. Debuffs still matter, but won't cripple your gameplay.
+
+**Affected afflictions:**
+- Poison, Bleeding, Burns
+- Broken bones, Hypothermia, Hyperthermia
+- Disease, Exhaustion, and more
+
+---
+
+### Modular Buff Enhancer
+**Version 1.1** • 239 modifications
+
+Increases buff effectiveness by approximately **50%**. Food, tonics, and equipment bonuses are more impactful.
+
+**Enhanced buffs:**
+- Food stat bonuses
+- Tonic effects
+- Equipment modifiers
+- Talent bonuses
+
+---
+
+## 🛡️ Defense
+
+### Turret Variants
+**Version 2.3** • 135 modifications
+
+Adds **15 new automated turret types** with unique firing patterns and behaviors.
+
+| Turret Type | Special Feature |
+|-------------|-----------------|
+| Rapid Fire | High rate of fire, lower damage |
+| Heavy | Slow fire, high damage |
+| Burst | 3-round bursts |
+| Sniper | Long range, precise |
+| + 11 more | Various specialized patterns |
+
+---
+
+## 📥 Installation
 
 1. Download and install [JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)
 2. Download the `.EXMODZ` file for your desired mod(s)
@@ -67,7 +218,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 
 ## ✅ Compatibility Matrix
 
-All mods are designed to work together. FastProcessing v4.0 includes full recipe coverage for:
+All mods are designed to work together. FastProcessing v4.0 includes full recipe coverage:
 
 | Mod | Base Game | Workshop Recyclers | Hidden Building |
 |-----|-----------|-------------------|-----------------|
@@ -80,14 +231,15 @@ All mods are designed to work together. FastProcessing v4.0 includes full recipe
 
 ## 📋 Mod Manager Integration
 
-This repository includes `modinfo.json` for integration with mod managers supporting external mod lists.
+This repository includes `modinfo.json` for integration with mod managers supporting external mod lists. Mods are automatically available in the Mod Manager database.
 
 ---
 
-## 📞 Contact
+## 🔗 Links
 
-- **Author:** AgentKush
 - **Repository:** [github.com/AgentKush/Icarus-mods](https://github.com/AgentKush/Icarus-mods)
+- **Mod Manager:** [JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)
+- **Community:** [Linkarus Discord](https://discord.gg/linkarus)
 
 ---
 
@@ -99,8 +251,23 @@ These mods are free to use, modify, and redistribute. Attribution appreciated bu
 
 ## 🕐 Changelog
 
-**January 17, 2026** - Agent's BioLab v1.9: Fixed Ape Club item reference (`LegendaryWeapon_ApeClub`) - icon and workshop craft now working
+### January 2026
 
-**January 17, 2026** - No Food Spoilage v1.3: Fixed composter recipe to use `Fish_Chunks` instead of deprecated `Raw_Fish` for Week 213+ tag-based crafting compatibility
+**January 17** — Agent's BioLab v1.9
+- Fixed Ape Club item reference (`LegendaryWeapon_ApeClub`)
+- Icon and workshop craft now working correctly
 
-**January 17, 2026** - Added Turret Variants v2.3 with 15 new automated turret types
+**January 17** — No Food Spoilage v1.3
+- Fixed composter recipe to use `Fish_Chunks` instead of deprecated `Raw_Fish`
+- Week 213+ tag-based crafting compatibility
+
+**January 17** — Turret Variants v2.3
+- Added 15 new automated turret types with unique firing patterns
+
+---
+
+## 📞 Contact
+
+**Author:** AgentKush
+
+For bug reports or feature requests, please [open an issue](https://github.com/AgentKush/Icarus-mods/issues).
