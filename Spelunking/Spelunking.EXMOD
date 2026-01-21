@@ -1,0 +1,36 @@
+{
+    "name": "Spelunking",
+    "author": "CritFail (Updated by AgentKush)",
+    "fileName": "Spelunking",
+    "version": "2.0",
+    "description": "Makes caves enjoyable! Underground buff gives +50 stamina instead of +25. Cave Sickness (Pneumonia) becomes a buff giving +75% max stamina, +25% regen, and +10% XP. Explore caves without penalty!",
+    "week": "",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Afflictions-D_ModifierStates.json",
+            "File_Items": [
+                {
+                    "Name": "Underground",
+                    "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Underground-ModifierName\", \"Spelunking!\")",
+                    "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Underground-ModifierDescription\", \"You are in a cave, not Tartarus' butthole. Enjoy the extra stamina you magnificent bastard.\")",
+                    "GrantedStats": {
+                        "(Value=\"BaseMaximumStamina_+\")": 50,
+                        "(Value=\"BaseStaminaActionCost_+%\")": -10,
+                        "(Value=\"BaseStaminaRegen_+%\")": 25
+                    }
+                },
+                {
+                    "Name": "Pneumonia",
+                    "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Pneumonia-ModifierName\", \"Cave? Sick!\")",
+                    "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pneumonia-ModifierDescription\", \"Caves are cool as fuck, you could stay down here forever!\")",
+                    "GrantedStats": {
+                        "(Value=\"BaseStaminaRegen_+%\")": 25,
+                        "(Value=\"BaseMaximumStamina_+%\")": 75,
+                        "(Value=\"BaseExperience_+%\")": 10
+                    }
+                }
+            ]
+        }
+    ]
+}
