@@ -1,8 +1,8 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "2.8.0",
-  "description": "Unlocks 54 hidden diagonal and curved building pieces for Concrete, Glass, Clay Brick, Stone, Scoria, Tempered Glass, Scoria Brick, Stone Brick, and Ice. ALSO adds 9 missing standard Ice building pieces (Wall, Floor, Ramp, Wall Angle, Beam, Roof Corner, Roof Half Pitch, Stairs, Floor Trapdoor). Adds missing Mesh_Ice_Kit (fixes ice building placement), fixes Ice_Wall_Curved type bug. All pieces can be repaired. Craft at appropriate benches (Ice is hand-craftable).",
+  "version": "2.9.0",
+  "description": "Unlocks 725 hidden building pieces: diagonal/curved pieces for 9 materials, frames (FullFrame/HalfFrame/Pillar) for 7 materials, and corner stairs for ALL 18 materials. Includes 91 building pieces, 263 skins, 89 crafting recipes. Every material now has corner stairs!",
   "fileName": "Hidden_Building_Pieces",
   "Level2": "True",
   "Rows": [

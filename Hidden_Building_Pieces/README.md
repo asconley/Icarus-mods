@@ -1,39 +1,55 @@
 # 🏗️ Hidden Building Pieces
 
-Unlocks **54 hidden diagonal and curved building pieces** for 9 materials in Icarus.
+Unlocks **725 hidden building items** including diagonal/curved pieces, frames, and corner stairs for Icarus.
 
 ## Features
 
-- **9 Materials:** Concrete, Glass, Clay Brick, Stone, Scoria, Tempered Glass, Stone Brick, Scoria Brick, Ice
-- **6 Piece Types per Material:** Diagonal Set, Curved Set, Wall Curved, Curved Wall Angles, Roof Curved Angles, Advanced Beam Set
-- **All pieces repairable** with hammers
-- **Proper textures** for all materials (Ice, Scoria, TemperedGlass, StoneBrick, ScoriaBrick)
-- **Ice pieces now craftable** (v2.3.0 fix)
+### Diagonal & Curved Pieces (9 Materials)
+- **Materials:** Concrete, Glass, Clay Brick, Stone, Scoria, Tempered Glass, Stone Brick, Scoria Brick, Ice
+- **6 Piece Types:** Diagonal Set, Curved Set, Wall Curved, Curved Wall Angles, Roof Curved Angles, Advanced Beam Set
 
-## Building Piece Types
+### Frame Pieces (7 Materials) - NEW in v2.9.0
+- **Materials:** ClayBrick, Ice, Glass, TemperedGlass, StoneBrick, ScoriaBrick, Scoria
+- **3 Piece Types:** FullFrame, HalfFrame, Pillar
 
-| Piece Type | Description |
-|------------|-------------|
-| Diagonal Set | Cross-tile diagonal pieces for angled structures |
-| Curved Set | Smooth curved building elements |
-| Wall Curved | Curved wall sections for rounded structures |
-| Curved Wall Angles | Angled curved walls in various configurations |
-| Roof Curved Angles | Curved roof pieces for domed ceilings |
-| Advanced Beam Set | Advanced diagonal beam structures |
+### Corner Stairs (ALL 18 Materials) - NEW in v2.9.0
+Every material that has stairs now has corner stairs:
+- Wood, Thatch, Clay Brick, Ice, Scoria, Glass, TemperedGlass
+- ScoriaBrick, Limestone, StoneBrick, Sandworm, ReinforcedWood, MetalGrate
+- *(Stone, Concrete, Iron, Interior_Wood, Aluminium already had corner stairs in base game)*
+
+## Stats
+
+| Category | Count |
+|----------|-------|
+| Building Pieces | 91 |
+| Building Skins | 263 |
+| Crafting Recipes | 89 |
+| Buildable Sets | 26 |
+| **Total Items** | **725** |
 
 ## Crafting Locations
 
+### Diagonal/Curved & Frames
 | Material | Crafting Station |
 |----------|-----------------|
-| Concrete | Cement Mixer, Masonry Bench T4 |
-| Glass | Glassworking Bench |
-| Clay Brick | Masonry Bench, Masonry Bench T3, T4 |
-| Stone | Masonry Bench, Masonry Bench T3, T4 |
-| Scoria | Masonry Bench, Masonry Bench T3, T4 |
-| Tempered Glass | Glassworking Bench |
-| Stone Brick | Masonry Bench, Masonry Bench T3, T4 |
-| Scoria Brick | Masonry Bench, Masonry Bench T3, T4 |
-| Ice | Hand-craftable (Character inventory) |
+| Concrete | Cement Mixer |
+| Glass / Tempered Glass | Glassworking Bench |
+| Clay Brick / Stone Brick / Scoria Brick | Masonry Bench |
+| Stone / Scoria | Masonry Bench |
+| Ice | Ice Workbench |
+
+### Corner Stairs
+| Material | Crafting Station |
+|----------|-----------------|
+| Wood / Sandworm / ReinforcedWood | Carpentry Bench |
+| Thatch | Crafting Bench |
+| Clay Brick / Stone Brick / Scoria Brick | Masonry Bench |
+| Scoria | Stone Furnace |
+| Ice | Ice Workbench |
+| Limestone | Concrete Furnace |
+| Glass / Tempered Glass | Glassworking Bench |
+| Metal Grate | Fabricator |
 
 ## Installation
 
@@ -55,39 +71,34 @@ Unlocks **54 hidden diagonal and curved building pieces** for 9 materials in Ica
 
 ## Changelog
 
+### v2.9.0
+- **CORNER STAIRS:** Added corner stairs for ALL 18 materials that have stairs
+  - New: Thatch, ScoriaBrick, Limestone, StoneBrick, Sandworm, ReinforcedWood, MetalGrate (14 pieces)
+  - Previously added: Wood, ClayBrick, Ice, Scoria, Glass, TemperedGlass (12 pieces)
+- **FRAMES:** Added FullFrame and HalfFrame pieces for 7 materials
+  - ClayBrick, Ice, Glass, TemperedGlass, StoneBrick, ScoriaBrick, Scoria
+  - TemperedGlass also gets Pillar (14 total frame pieces)
+- **RECIPE FIX:** Fixed all recipes to use correct RecipeSets format
+- Total items now 725 (was ~200)
+
+### v2.8.0
+- Added Wood diagonal building system
+- Added ClayBrick diagonal crafting recipes
+
 ### v2.6.0
 - **TEXTURE EXPANSION:** Added proper textures for Ice, Scoria, and TemperedGlass diagonal/curved pieces
-- Added 113 new D_BuildingSkins entries (Ice: 37, Scoria: 38, TemperedGlass: 38)
-- Total skin entries now 185 (was 72)
-- Materials Concrete, Glass, ClayBrick, and Stone use blueprint materials directly (no skin overrides needed)
+- Added 113 new D_BuildingSkins entries
 
 ### v2.3.0
 - **ICE FIX:** Ice diagonal/curved pieces now fully craftable and placeable
-- Added missing `Mesh_Ice_Kit` entry to D_Meshable (base game had incomplete implementation)
-- Fixed recipe structures from "Processors" to "RecipeSets" format
-- Added missing D_ItemsStatic entries for all Ice building pieces
-- Changed Ice recipe requirements from non-existent "Ice_Diagonal" talent to "None"
-- Note: Base game developers created Ice building definitions but never completed the mesh entries
+- Added missing `Mesh_Ice_Kit` entry to D_Meshable
 
 ### v2.2.0
 - **TEXTURE FIX:** Fixed greyed-out textures for Stone Brick and Scoria Brick pieces
-- Added 72 D_BuildingSkins entries using Scoria stone materials as visual fallback
-
-### v2.1.1
-- Fixed icon paths for Stone, Scoria, and Ice pieces
-- Fixed missing icons for Stone Brick and Scoria Brick
 
 ### v2.0.0
 - Expanded from 3 to 9 materials
 - Added Stone, Scoria, Tempered Glass, Stone Brick, Scoria Brick, and Ice
-- All 54 pieces now have crafting recipes
-- All pieces can be repaired
-
-### v1.0.7
-- Fixed EXMODZ folder structure for proper Mod Manager import
-
-### v1.0.6
-- Fixed all item names to exactly match game file references
 
 ### v1.0.0
 - Initial release with Concrete, Glass, and Clay Brick (18 pieces)

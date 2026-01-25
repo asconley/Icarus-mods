@@ -172,9 +172,9 @@
     {
       "name": "Hidden Building Pieces",
       "author": "AgentKush",
-      "version": "2.6.0",
+      "version": "2.9.0",
       "compatibility": "All",
-      "description": "Unlocks 54 hidden diagonal and curved building pieces for 9 materials: Concrete, Glass, Clay Brick, Stone, Scoria, Tempered Glass, Scoria Brick, Stone Brick, and Ice. All pieces now craftable including Ice.",
+      "description": "Unlocks 725 hidden building pieces including diagonal/curved pieces, frames (FullFrame, HalfFrame, Pillar), and corner stairs for ALL materials. 91 building pieces, 263 skins, 89 recipes across 18 materials.",
       "fileName": "Hidden_Building_Pieces",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/hidden_building.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
