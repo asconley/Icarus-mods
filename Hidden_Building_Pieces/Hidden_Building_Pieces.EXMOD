@@ -704,6 +704,36 @@
           "Buildable": {
             "RowName": "MetalGrate_CornerStairs"
           }
+        },
+        {
+          "Name": "Item_Limestone_Halfpiece",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Limestone Half Pieces"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Limestone_Building_0.T_ITEM_Limestone_Building_0",
+          "Description": {
+            "Key": "",
+            "SourceString": "A kit of half-sized limestone building elements including quarter floors."
+          },
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Halfpiece-FlavorText\", \"These sets are useful for creating walkways, balconies, trims and a range of other smaller constructions.\")",
+          "Weight": 2500,
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Metal_Grate_Halfpiece",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Metal Grate Half Pieces"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Metal_Grate_Building_0.T_ITEM_Metal_Grate_Building_0",
+          "Description": {
+            "Key": "",
+            "SourceString": "A kit of half-sized metal grate building elements including quarter floors."
+          },
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Halfpiece-FlavorText\", \"These sets are useful for creating walkways, balconies, trims and a range of other smaller constructions.\")",
+          "Weight": 100,
+          "MaxStack": 20
         }
       ]
     },
@@ -5287,6 +5317,180 @@
             ],
             "ParentTags": []
           }
+        },
+        {
+          "Name": "Limestone_Halfpiece",
+          "Meshable": {
+            "RowName": "Mesh_Limestone_Kit"
+          },
+          "Itemable": {
+            "RowName": "Item_Limestone_Halfpiece"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
+          "Buildable": {
+            "RowName": "Limestone_HalfNormal"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Durable": {
+            "RowName": "Limestone_Building"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "LimestoneDeployable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Concrete"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Concrete"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              }
+            ],
+            "ParentTags": []
+          }
+        },
+        {
+          "Name": "Metal_Grate_Halfpiece",
+          "Meshable": {
+            "RowName": "Mesh_MetalGrate_Kit"
+          },
+          "Itemable": {
+            "RowName": "Item_Metal_Grate_Halfpiece"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
+          "Buildable": {
+            "RowName": "Metal_Grate_HalfNormal"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Durable": {
+            "RowName": "MetalGrate_Building"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "MetalDeployable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Iron"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Iron"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              }
+            ],
+            "ParentTags": []
+          }
         }
       ]
     },
@@ -5819,6 +6023,18 @@
           "Name": "MetalGrate_CornerStairs",
           "ItemStaticData": {
             "RowName": "MetalGrate_CornerStairs"
+          }
+        },
+        {
+          "Name": "Limestone_Halfpiece",
+          "ItemStaticData": {
+            "RowName": "Limestone_Halfpiece"
+          }
+        },
+        {
+          "Name": "Metal_Grate_Halfpiece",
+          "ItemStaticData": {
+            "RowName": "Metal_Grate_Halfpiece"
           }
         }
       ]
@@ -9959,6 +10175,168 @@
           "Audio": {
             "RowName": "MasonryBench"
           }
+        },
+        {
+          "Name": "Recipe_Metal_Grate_HalfNormal",
+          "Requirement": {
+            "RowName": "Iron_Basic"
+          },
+          "RecipeSets": [
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator_T2",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "ResourceCostMultipliers": [
+            {
+              "Value": "BaseIronBuildingCraftingCost_+%"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 3
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Metal_Grate_HalfNormal",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Recipe_Limestone_Halfpiece",
+          "RequiredMillijoules": 7500,
+          "RecipeSets": [
+            {
+              "RowName": "Concrete_Furnace",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Concrete_Furnace_T2",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Concrete_Furnace_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Concrete_Furnace_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Ite_Ite",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Stone",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Limestone_Halfpiece",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Recipe_Metal_Grate_Halfpiece",
+          "RecipeSets": [
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator_T2",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 3
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Metal_Grate_Halfpiece",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
         }
       ]
     },
@@ -10930,6 +11308,35 @@
             "Key": "",
             "SourceString": "Corner stair pieces for MetalGrate buildings."
           }
+        },
+        {
+          "Name": "Metal_Grate_HalfNormal",
+          "Stability": {
+            "RowName": "Iron_General"
+          },
+          "Type": {
+            "RowName": "Iron"
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Metal_Grate_HalfNormal_HalfFloor"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Metal_Grate_HalfNormal_QuarterFloor"
+              }
+            }
+          ],
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Metal Grate Half Pieces"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Quarter floor and half pieces for metal grate buildings."
+          }
         }
       ]
     },
@@ -11594,6 +12001,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "ClayBrick_CornerStair_L"
           }
         },
         {
@@ -11605,6 +12015,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "ClayBrick_CornerStair_R"
           }
         },
         {
@@ -11616,6 +12029,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "Ice_CornerStair_L"
           }
         },
         {
@@ -11627,6 +12043,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "Ice_CornerStair_R"
           }
         },
         {
@@ -11638,6 +12057,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "Scoria_CornerStair_L"
           }
         },
         {
@@ -11649,6 +12071,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "Scoria_CornerStair_R"
           }
         },
         {
@@ -11715,6 +12140,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Stone.BP_Building_Stairs_Stone_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "TemperedGlass_Ramp_Stairs"
           }
         },
         {
@@ -11726,6 +12154,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_L.BP_Building_Stairs_Half_Stone_L_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "TemperedGlass_HalfStair_L"
           }
         },
         {
@@ -11737,6 +12168,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_R.BP_Building_Stairs_Half_Stone_R_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "TemperedGlass_HalfStair_R"
           }
         },
         {
@@ -11748,6 +12182,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "TemperedGlass_CornerStair_L"
           }
         },
         {
@@ -11759,6 +12196,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "TemperedGlass_CornerStair_R"
           }
         },
         {
@@ -11792,6 +12232,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "ScoriaBrick_CornerStair_L"
           }
         },
         {
@@ -11803,6 +12246,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "ScoriaBrick_CornerStair_R"
           }
         },
         {
@@ -11814,6 +12260,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "Limestone_CornerStair_L"
           }
         },
         {
@@ -11825,6 +12274,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "Limestone_CornerStair_R"
           }
         },
         {
@@ -11836,6 +12288,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "StoneBrick_CornerStair_L"
           }
         },
         {
@@ -11847,6 +12302,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "StoneBrick_CornerStair_R"
           }
         },
         {
@@ -11858,6 +12316,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "Sandworm_CornerStair_L"
           }
         },
         {
@@ -11869,6 +12330,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "Sandworm_CornerStair_R"
           }
         },
         {
@@ -11880,6 +12344,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "ReinforcedWood_CornerStair_L"
           }
         },
         {
@@ -11891,6 +12358,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "ReinforcedWood_CornerStair_R"
           }
         },
         {
@@ -11924,6 +12394,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "Clay_Brick_CornerStair_L"
           }
         },
         {
@@ -11935,6 +12408,20 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "Clay_Brick_CornerStair_R"
+          }
+        },
+        {
+          "Name": "Metal_Grate_HalfNormal_QuarterFloor",
+          "Type": {
+            "RowName": "Floor_Quarter"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Metal_Grate_Building_0.T_ITEM_Metal_Grate_Building_0",
+          "Blueprint": "/Game/BP/Building/Iron/BP_Building_Floor_Quarter_1_Iron.BP_Building_Floor_Quarter_1_Iron_C",
+          "Audio": {
+            "RowName": "Iron"
           }
         }
       ]
