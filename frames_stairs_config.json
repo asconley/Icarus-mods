@@ -1,0 +1,110 @@
+{
+  "frame_configs": [
+    {
+      "material": "ClayBrick",
+      "pieces": [
+        {
+          "name": "ClayBrick_Frame_FullFrame",
+          "base": "Stone_Frame_FullFrame",
+          "skin_base": "Clay_Brick_Frame_Pillar"
+        },
+        {
+          "name": "ClayBrick_Frame_HalfFrame",
+          "base": "Stone_Frame_HalfFrame",
+          "skin_base": "Clay_Brick_Frame_Pillar"
+        }
+      ]
+    },
+    {
+      "material": "Ice",
+      "pieces": [
+        {
+          "name": "Ice_Frame_FullFrame",
+          "base": "Stone_Frame_FullFrame",
+          "skin_base": "Ice_Frame_Pillar"
+        },
+        {
+          "name": "Ice_Frame_HalfFrame",
+          "base": "Stone_Frame_HalfFrame",
+          "skin_base": "Ice_Frame_Pillar"
+        }
+      ]
+    },
+    {
+      "material": "Glass",
+      "pieces": [
+        {
+          "name": "Glass_Frame_FullFrame",
+          "base": "Stone_Frame_FullFrame",
+          "skin_base": "Glass_Frame_Pillar"
+        },
+        {
+          "name": "Glass_Frame_HalfFrame",
+          "base": "Stone_Frame_HalfFrame",
+          "skin_base": "Glass_Frame_Pillar"
+        }
+      ]
+    },
+    {
+      "material": "TemperedGlass",
+      "pieces": [
+        {
+          "name": "TemperedGlass_Frame_FullFrame",
+          "base": "Stone_Frame_FullFrame",
+          "skin_base": "Glass_Frame_Pillar_Tempered"
+        },
+        {
+          "name": "TemperedGlass_Frame_HalfFrame",
+          "base": "Stone_Frame_HalfFrame",
+          "skin_base": "Glass_Frame_Pillar_Tempered"
+        },
+        {
+          "name": "TemperedGlass_Frame_Pillar",
+          "base": "Stone_Frame_Pillar",
+          "skin_base": "Glass_Frame_Pillar_Tempered"
+        }
+      ]
+    },
+    {
+      "material": "StoneBrick",
+      "pieces": [
+        {
+          "name": "StoneBrick_Frame_FullFrame",
+          "base": "Stone_Frame_FullFrame",
+          "skin_base": "Stone_Brick_Frame_Pillar"
+        },
+        {
+          "name": "StoneBrick_Frame_HalfFrame",
+          "base": "Stone_Frame_HalfFrame",
+          "skin_base": "Stone_Brick_Frame_Pillar"
+        }
+      ]
+    },
+    {
+      "material": "ScoriaBrick",
+      "pieces": [
+        {
+          "name": "ScoriaBrick_Frame_FullFrame",
+          "base": "Stone_Frame_FullFrame",
+          "skin_base": "Scoria_Brick_Frame_Pillar"
+        },
+        {
+          "name": "ScoriaBrick_Frame_HalfFrame",
+          "base": "Stone_Frame_HalfFrame",
+          "skin_base": "Scoria_Brick_Frame_Pillar"
+        }
+      ]
+    },
+    {
+      "material": "Scoria",
+      "pieces": [
+        {
+          "name": "Scoria_Frame_HalfFrame",
+          "base": "Stone_Frame_HalfFrame",
+          "skin_base": "Scoria_Frame_Pillar"
+        }
+      ]
+    }
+  ],
+  "frames_added": 14
+}
