@@ -172,9 +172,9 @@
     {
       "name": "Hidden Building Pieces",
       "author": "AgentKush",
-      "version": "2.9.0",
+      "version": "2.9.1",
       "compatibility": "All",
-      "description": "Unlocks 725 hidden building pieces including diagonal/curved pieces, frames (FullFrame, HalfFrame, Pillar), and corner stairs for ALL materials. 91 building pieces, 263 skins, 89 recipes across 18 materials.",
+      "description": "Unlocks 735 hidden building pieces including diagonal/curved pieces, frames, corner stairs for ALL materials, and Metal Grate quarter floor. 92 building pieces, 263 skins, 91 recipes.",
       "fileName": "Hidden_Building_Pieces",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/hidden_building.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
