@@ -8738,13 +8738,6 @@
           "RequiredTalent": {
             "RowName": "None"
           },
-          "Output": {
-            "Element": {
-              "RowName": "ClayBrick_Frame",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1
-          },
           "Input": [
             {
               "Element": {
@@ -8761,33 +8754,23 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "MasonryBench"
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T2"
+              "RowName": "Masonry_Bench_T2",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T3"
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T4"
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "MasonryBench"
-            },
-            {
-              "RowName": "MasonryBench_T2"
-            },
-            {
-              "RowName": "MasonryBench_T3"
-            },
-            {
-              "RowName": "MasonryBench_T4"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -8802,20 +8785,24 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "ClayBrick_Frame",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_Ice_Frame",
           "RequiredTalent": {
             "RowName": "None"
           },
-          "Output": {
-            "Element": {
-              "RowName": "Ice_Frame",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1
-          },
           "Input": [
             {
               "Element": {
@@ -8832,24 +8819,11 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "MasonryBench"
-            },
-            {
-              "RowName": "MasonryBench_T2"
-            },
-            {
-              "RowName": "MasonryBench_T3"
-            },
-            {
-              "RowName": "MasonryBench_T4"
+              "RowName": "Ice_Workbench",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "IceBench"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -8864,20 +8838,24 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ice_Frame",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_Glass_Frame",
           "RequiredTalent": {
             "RowName": "None"
           },
-          "Output": {
-            "Element": {
-              "RowName": "Glass_Frame",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1
-          },
           "Input": [
             {
               "Element": {
@@ -8894,18 +8872,23 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "GlassBench"
+              "RowName": "Glasswork_Bench",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "GlassBench_T4"
+              "RowName": "Glasswork_Bench_T2",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glasswork_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glasswork_Bench_T4",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "Glassblowing"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -8920,20 +8903,24 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Glass_Frame",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_TemperedGlass_Frame",
           "RequiredTalent": {
             "RowName": "None"
           },
-          "Output": {
-            "Element": {
-              "RowName": "TemperedGlass_Frame",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1
-          },
           "Input": [
             {
               "Element": {
@@ -8950,15 +8937,23 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "GlassBench_T4"
+              "RowName": "Glasswork_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glasswork_Bench_T2",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glasswork_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glasswork_Bench_T4",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "Glassblowing"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -8973,20 +8968,24 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "TemperedGlass_Frame",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_StoneBrick_Frame",
           "RequiredTalent": {
             "RowName": "None"
           },
-          "Output": {
-            "Element": {
-              "RowName": "StoneBrick_Frame",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1
-          },
           "Input": [
             {
               "Element": {
@@ -9003,33 +9002,23 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "MasonryBench"
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T2"
+              "RowName": "Masonry_Bench_T2",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T3"
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T4"
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "MasonryBench"
-            },
-            {
-              "RowName": "MasonryBench_T2"
-            },
-            {
-              "RowName": "MasonryBench_T3"
-            },
-            {
-              "RowName": "MasonryBench_T4"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -9044,20 +9033,24 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "StoneBrick_Frame",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_ScoriaBrick_Frame",
           "RequiredTalent": {
             "RowName": "None"
           },
-          "Output": {
-            "Element": {
-              "RowName": "ScoriaBrick_Frame",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1
-          },
           "Input": [
             {
               "Element": {
@@ -9074,33 +9067,23 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "MasonryBench"
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T2"
+              "RowName": "Masonry_Bench_T2",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T3"
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T4"
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "MasonryBench"
-            },
-            {
-              "RowName": "MasonryBench_T2"
-            },
-            {
-              "RowName": "MasonryBench_T3"
-            },
-            {
-              "RowName": "MasonryBench_T4"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -9115,20 +9098,24 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "ScoriaBrick_Frame",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_Wood_CornerStairs",
           "RequiredTalent": {
             "RowName": "None"
           },
-          "Output": {
-            "Element": {
-              "RowName": "Wood_CornerStairs",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1
-          },
           "Input": [
             {
               "Element": {
@@ -9145,33 +9132,23 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "CarpentryBench"
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "CarpentryBench_T2"
+              "RowName": "Carpentry_Bench_T2",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "CarpentryBench_T3"
+              "RowName": "Carpentry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "CarpentryBench_T4"
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "CarpentryBench"
-            },
-            {
-              "RowName": "CarpentryBench_T2"
-            },
-            {
-              "RowName": "CarpentryBench_T3"
-            },
-            {
-              "RowName": "CarpentryBench_T4"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -9186,20 +9163,24 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Wood_CornerStairs",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_ClayBrick_CornerStairs",
           "RequiredTalent": {
             "RowName": "None"
           },
-          "Output": {
-            "Element": {
-              "RowName": "ClayBrick_CornerStairs",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1
-          },
           "Input": [
             {
               "Element": {
@@ -9216,33 +9197,23 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "MasonryBench"
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T2"
+              "RowName": "Masonry_Bench_T2",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T3"
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T4"
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "MasonryBench"
-            },
-            {
-              "RowName": "MasonryBench_T2"
-            },
-            {
-              "RowName": "MasonryBench_T3"
-            },
-            {
-              "RowName": "MasonryBench_T4"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -9257,19 +9228,23 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "ClayBrick_CornerStairs",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_Ice_CornerStairs",
           "RequiredTalent": {
             "RowName": "None"
-          },
-          "Output": {
-            "Element": {
-              "RowName": "Ice_CornerStairs",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1
           },
           "Input": [
             {
@@ -9287,24 +9262,11 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "MasonryBench"
-            },
-            {
-              "RowName": "MasonryBench_T2"
-            },
-            {
-              "RowName": "MasonryBench_T3"
-            },
-            {
-              "RowName": "MasonryBench_T4"
+              "RowName": "Ice_Workbench",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "IceBench"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -9319,19 +9281,23 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ice_CornerStairs",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_Scoria_CornerStairs",
           "RequiredTalent": {
             "RowName": "None"
-          },
-          "Output": {
-            "Element": {
-              "RowName": "Scoria_CornerStairs",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1
           },
           "Input": [
             {
@@ -9349,27 +9315,23 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "MasonryBench_T3"
+              "RowName": "Stone_Furnace",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T4"
+              "RowName": "Stone_Furnace_T2",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Stone_Furnace_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Stone_Furnace_T4",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "StoneFurnace"
-            },
-            {
-              "RowName": "StoneFurnace_T2"
-            },
-            {
-              "RowName": "StoneFurnace_T3"
-            },
-            {
-              "RowName": "StoneFurnace_T4"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -9384,20 +9346,24 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Scoria_CornerStairs",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_Glass_Stairs",
           "RequiredTalent": {
             "RowName": "None"
           },
-          "Output": {
-            "Element": {
-              "RowName": "Glass_Stairs",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1
-          },
           "Input": [
             {
               "Element": {
@@ -9414,18 +9380,23 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "GlassBench"
+              "RowName": "Glasswork_Bench",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "GlassBench_T4"
+              "RowName": "Glasswork_Bench_T2",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glasswork_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glasswork_Bench_T4",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "Glassblowing"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -9440,20 +9411,24 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Glass_Stairs",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_TemperedGlass_Stairs",
           "RequiredTalent": {
             "RowName": "None"
           },
-          "Output": {
-            "Element": {
-              "RowName": "TemperedGlass_Stairs",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1
-          },
           "Input": [
             {
               "Element": {
@@ -9470,15 +9445,23 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "GlassBench_T4"
+              "RowName": "Glasswork_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glasswork_Bench_T2",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glasswork_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glasswork_Bench_T4",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "Glassblowing"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -9493,18 +9476,23 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "TemperedGlass_Stairs",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_Scoria_Frame",
           "RequiredTalent": {
             "RowName": "None"
-          },
-          "Output": {
-            "Element": {
-              "RowName": "Scoria_Frame"
-            },
-            "Count": 1
           },
           "Input": [
             {
@@ -9522,33 +9510,23 @@
           ],
           "RecipeSets": [
             {
-              "RowName": "MasonryBench"
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T2"
+              "RowName": "Masonry_Bench_T2",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T3"
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "MasonryBench_T4"
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
             }
           ],
           "Duration": 5.0,
-          "Processors": [
-            {
-              "RowName": "MasonryBench"
-            },
-            {
-              "RowName": "MasonryBench_T2"
-            },
-            {
-              "RowName": "MasonryBench_T3"
-            },
-            {
-              "RowName": "MasonryBench_T4"
-            }
-          ],
           "Inputs": [
             {
               "Element": {
@@ -9563,7 +9541,18 @@
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0
+          "CraftingDuration": 5.0,
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Scoria_Frame",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ]
         },
         {
           "Name": "Recipe_Thatch_CornerStairs",
@@ -9573,15 +9562,19 @@
           "RequiredMillijoules": 5000,
           "RecipeSets": [
             {
-              "RowName": "Masonry_Bench",
+              "RowName": "Crafting_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Masonry_Bench_T3",
+              "RowName": "Crafting_Bench_T2",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Masonry_Bench_T4",
+              "RowName": "Crafting_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench_T4",
               "DataTableName": "D_RecipeSets"
             }
           ],
@@ -9607,7 +9600,7 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Stone_Ramp",
+                "RowName": "Thatch_CornerStairs",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
@@ -9617,26 +9610,6 @@
           ],
           "Audio": {
             "RowName": "MasonryBench"
-          },
-          "Processors": [
-            {
-              "RowName": "CraftingBench"
-            },
-            {
-              "RowName": "CraftingBench_T2"
-            },
-            {
-              "RowName": "CraftingBench_T3"
-            },
-            {
-              "RowName": "CraftingBench_T4"
-            }
-          ],
-          "Output": {
-            "Element": {
-              "RowName": "Thatch_CornerStairs"
-            },
-            "Count": 1
           }
         },
         {
@@ -9648,6 +9621,10 @@
           "RecipeSets": [
             {
               "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T2",
               "DataTableName": "D_RecipeSets"
             },
             {
@@ -9681,7 +9658,7 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Stone_Ramp",
+                "RowName": "ScoriaBrick_CornerStairs",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
@@ -9691,26 +9668,6 @@
           ],
           "Audio": {
             "RowName": "MasonryBench"
-          },
-          "Processors": [
-            {
-              "RowName": "MasonryBench"
-            },
-            {
-              "RowName": "MasonryBench_T2"
-            },
-            {
-              "RowName": "MasonryBench_T3"
-            },
-            {
-              "RowName": "MasonryBench_T4"
-            }
-          ],
-          "Output": {
-            "Element": {
-              "RowName": "ScoriaBrick_CornerStairs"
-            },
-            "Count": 1
           }
         },
         {
@@ -9721,15 +9678,19 @@
           "RequiredMillijoules": 5000,
           "RecipeSets": [
             {
-              "RowName": "Masonry_Bench",
+              "RowName": "Concrete_Furnace",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Masonry_Bench_T3",
+              "RowName": "Concrete_Furnace_T2",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Masonry_Bench_T4",
+              "RowName": "Concrete_Furnace_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Concrete_Furnace_T4",
               "DataTableName": "D_RecipeSets"
             }
           ],
@@ -9755,7 +9716,7 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Stone_Ramp",
+                "RowName": "Limestone_CornerStairs",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
@@ -9765,26 +9726,6 @@
           ],
           "Audio": {
             "RowName": "MasonryBench"
-          },
-          "Processors": [
-            {
-              "RowName": "ConcreteFurnace"
-            },
-            {
-              "RowName": "ConcreteFurnace_T2"
-            },
-            {
-              "RowName": "ConcreteFurnace_T3"
-            },
-            {
-              "RowName": "ConcreteFurnace_T4"
-            }
-          ],
-          "Output": {
-            "Element": {
-              "RowName": "Limestone_CornerStairs"
-            },
-            "Count": 1
           }
         },
         {
@@ -9796,6 +9737,10 @@
           "RecipeSets": [
             {
               "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T2",
               "DataTableName": "D_RecipeSets"
             },
             {
@@ -9829,7 +9774,7 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Stone_Ramp",
+                "RowName": "StoneBrick_CornerStairs",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
@@ -9839,26 +9784,6 @@
           ],
           "Audio": {
             "RowName": "MasonryBench"
-          },
-          "Processors": [
-            {
-              "RowName": "MasonryBench"
-            },
-            {
-              "RowName": "MasonryBench_T2"
-            },
-            {
-              "RowName": "MasonryBench_T3"
-            },
-            {
-              "RowName": "MasonryBench_T4"
-            }
-          ],
-          "Output": {
-            "Element": {
-              "RowName": "StoneBrick_CornerStairs"
-            },
-            "Count": 1
           }
         },
         {
@@ -9869,15 +9794,19 @@
           "RequiredMillijoules": 5000,
           "RecipeSets": [
             {
-              "RowName": "Masonry_Bench",
+              "RowName": "Carpentry_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Masonry_Bench_T3",
+              "RowName": "Carpentry_Bench_T2",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Masonry_Bench_T4",
+              "RowName": "Carpentry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
               "DataTableName": "D_RecipeSets"
             }
           ],
@@ -9903,7 +9832,7 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Stone_Ramp",
+                "RowName": "Sandworm_CornerStairs",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
@@ -9913,26 +9842,6 @@
           ],
           "Audio": {
             "RowName": "MasonryBench"
-          },
-          "Processors": [
-            {
-              "RowName": "CarpentryBench"
-            },
-            {
-              "RowName": "CarpentryBench_T2"
-            },
-            {
-              "RowName": "CarpentryBench_T3"
-            },
-            {
-              "RowName": "CarpentryBench_T4"
-            }
-          ],
-          "Output": {
-            "Element": {
-              "RowName": "Sandworm_CornerStairs"
-            },
-            "Count": 1
           }
         },
         {
@@ -9943,15 +9852,19 @@
           "RequiredMillijoules": 5000,
           "RecipeSets": [
             {
-              "RowName": "Masonry_Bench",
+              "RowName": "Carpentry_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Masonry_Bench_T3",
+              "RowName": "Carpentry_Bench_T2",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Masonry_Bench_T4",
+              "RowName": "Carpentry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
               "DataTableName": "D_RecipeSets"
             }
           ],
@@ -9977,7 +9890,7 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Stone_Ramp",
+                "RowName": "ReinforcedWood_CornerStairs",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
@@ -9987,26 +9900,6 @@
           ],
           "Audio": {
             "RowName": "MasonryBench"
-          },
-          "Processors": [
-            {
-              "RowName": "CarpentryBench"
-            },
-            {
-              "RowName": "CarpentryBench_T2"
-            },
-            {
-              "RowName": "CarpentryBench_T3"
-            },
-            {
-              "RowName": "CarpentryBench_T4"
-            }
-          ],
-          "Output": {
-            "Element": {
-              "RowName": "ReinforcedWood_CornerStairs"
-            },
-            "Count": 1
           }
         },
         {
@@ -10017,15 +9910,19 @@
           "RequiredMillijoules": 5000,
           "RecipeSets": [
             {
-              "RowName": "Masonry_Bench",
+              "RowName": "Fabricator",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Masonry_Bench_T3",
+              "RowName": "Fabricator_T2",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Masonry_Bench_T4",
+              "RowName": "Fabricator_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator_T4",
               "DataTableName": "D_RecipeSets"
             }
           ],
@@ -10051,7 +9948,7 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Stone_Ramp",
+                "RowName": "MetalGrate_CornerStairs",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
@@ -10061,26 +9958,6 @@
           ],
           "Audio": {
             "RowName": "MasonryBench"
-          },
-          "Processors": [
-            {
-              "RowName": "Fabricator"
-            },
-            {
-              "RowName": "Fabricator_T2"
-            },
-            {
-              "RowName": "Fabricator_T3"
-            },
-            {
-              "RowName": "Fabricator_T4"
-            }
-          ],
-          "Output": {
-            "Element": {
-              "RowName": "MetalGrate_CornerStairs"
-            },
-            "Count": 1
           }
         }
       ]
