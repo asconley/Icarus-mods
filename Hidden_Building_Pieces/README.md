@@ -7,7 +7,7 @@ Unlocks **54 hidden diagonal and curved building pieces** for 9 materials in Ica
 - **9 Materials:** Concrete, Glass, Clay Brick, Stone, Scoria, Tempered Glass, Stone Brick, Scoria Brick, Ice
 - **6 Piece Types per Material:** Diagonal Set, Curved Set, Wall Curved, Curved Wall Angles, Roof Curved Angles, Advanced Beam Set
 - **All pieces repairable** with hammers
-- **Proper textures** for Stone Brick and Scoria Brick (fixed greyed-out appearance)
+- **Proper textures** for all materials (Ice, Scoria, TemperedGlass, StoneBrick, ScoriaBrick)
 - **Ice pieces now craftable** (v2.3.0 fix)
 
 ## Building Piece Types
@@ -54,6 +54,12 @@ Unlocks **54 hidden diagonal and curved building pieces** for 9 materials in Ica
 - ✅ Compatible with all DLCs
 
 ## Changelog
+
+### v2.6.0
+- **TEXTURE EXPANSION:** Added proper textures for Ice, Scoria, and TemperedGlass diagonal/curved pieces
+- Added 113 new D_BuildingSkins entries (Ice: 37, Scoria: 38, TemperedGlass: 38)
+- Total skin entries now 185 (was 72)
+- Materials Concrete, Glass, ClayBrick, and Stone use blueprint materials directly (no skin overrides needed)
 
 ### v2.3.0
 - **ICE FIX:** Ice diagonal/curved pieces now fully craftable and placeable
