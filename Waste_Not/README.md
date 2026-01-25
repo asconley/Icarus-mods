@@ -3,7 +3,7 @@
 Enhanced mining rewards mod for Icarus.
 
 **Author:** CritFail (Updated by AgentKush)  
-**Version:** 1.1  
+**Version:** 2.0  
 
 ---
 
@@ -59,6 +59,9 @@ Normal ore deposits drop extra resources of the same type:
 ---
 
 ## Changelog
+
+### v2.0
+- Week 213+ compatibility update
 
 ### v1.1
 - Added Lithium ore support (Normal and Dense)

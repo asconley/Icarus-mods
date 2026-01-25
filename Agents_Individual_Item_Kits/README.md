@@ -1,6 +1,6 @@
 # Agent's Individual Item Kits
 
-![Version](https://img.shields.io/badge/version-2.0-blue)
+![Version](https://img.shields.io/badge/version-2.1-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -62,6 +62,7 @@ A comprehensive Workshop expansion featuring 1,396 individual item kits. Each ki
 
 | Version | Changes |
 |---------|---------|
+| 2.1 | Week 213+ compatibility update |
 | 2.0 | Complete reorganization into 73 categories, revised pricing system |
 | 1.0 | Initial release |
 

@@ -47,7 +47,7 @@ All 10 Bio Lab Legendary weapons available in the Workshop. No more grinding for
 ---
 
 ### Individual Item Kits
-**Version 2.0** • 8,378 modifications
+**Version 2.1** • 8,378 modifications
 
 The ultimate item access mod — **1,396 individual items** organized into **73 categories**. Every item in Icarus, available as individual workshop kits.
 
@@ -61,7 +61,7 @@ The ultimate item access mod — **1,396 individual items** organized into **73 
 ---
 
 ### Workshop Recyclers
-**Version 4.0** • 1,637 modifications
+**Version 4.1** • 1,637 modifications
 
 Two recycler deployables that return **100% of Workshop item costs**. Perfect for testing builds or recovering resources from items you no longer need.
 
@@ -109,7 +109,7 @@ Speed up all crafting, smelting, and processing. Choose ONE variant based on you
 ## 🛠️ Quality of Life
 
 ### Indestructible Tools & Weapons
-**Version 1.3** • 168 modifications
+**Version 1.4** • 168 modifications
 
 Maximum durability on all tools and weapons. Never repair again.
 
@@ -252,6 +252,12 @@ These mods are free to use, modify, and redistribute. Attribution appreciated bu
 ## 🕐 Changelog
 
 ### January 2026
+
+**January 25** — Week 213+ Compatibility Updates
+- Individual Item Kits v2.1: Compatibility update
+- Indestructible Tools & Weapons v1.4: Compatibility update
+- Workshop Recyclers v4.1: Compatibility update
+- Waste Not v2.0: Compatibility update
 
 **January 17** — Agent's BioLab v1.9
 - Fixed Ape Club item reference (`LegendaryWeapon_ApeClub`)
