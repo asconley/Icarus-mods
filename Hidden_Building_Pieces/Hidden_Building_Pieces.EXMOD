@@ -606,6 +606,104 @@
           "Buildable": {
             "RowName": "TemperedGlass_Stairs"
           }
+        },
+        {
+          "Name": "Item_Thatch_CornerStairs",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Thatch Corner Stairs"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Thatch_Ramp_0.ITEM_Thatch_Ramp_0",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Ramp-Description\", \"A sturdy stone ramp or roof to resist the elements.\")",
+          "Weight": 5000,
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Thatch_CornerStairs"
+          }
+        },
+        {
+          "Name": "Item_ScoriaBrick_CornerStairs",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "ScoriaBrick Corner Stairs"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Scoria_Brick_Ramp_2.ITEM_Scoria_Brick_Ramp_2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Ramp-Description\", \"A sturdy stone ramp or roof to resist the elements.\")",
+          "Weight": 5000,
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ScoriaBrick_CornerStairs"
+          }
+        },
+        {
+          "Name": "Item_Limestone_CornerStairs",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Limestone Corner Stairs"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Limestone_Ramp_0.ITEM_Limestone_Ramp_0",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Ramp-Description\", \"A sturdy stone ramp or roof to resist the elements.\")",
+          "Weight": 5000,
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Limestone_CornerStairs"
+          }
+        },
+        {
+          "Name": "Item_StoneBrick_CornerStairs",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "StoneBrick Corner Stairs"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Stone_Brick_Ramp_2.ITEM_Stone_Brick_Ramp_2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Ramp-Description\", \"A sturdy stone ramp or roof to resist the elements.\")",
+          "Weight": 5000,
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "StoneBrick_CornerStairs"
+          }
+        },
+        {
+          "Name": "Item_Sandworm_CornerStairs",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Sandworm Corner Stairs"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Sandworm_Ramp_0.ITEM_Sandworm_Ramp_0",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Ramp-Description\", \"A sturdy stone ramp or roof to resist the elements.\")",
+          "Weight": 5000,
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Sandworm_CornerStairs"
+          }
+        },
+        {
+          "Name": "Item_ReinforcedWood_CornerStairs",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "ReinforcedWood Corner Stairs"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_ReinforcedWood_Ramp_0.ITEM_ReinforcedWood_Ramp_0",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Ramp-Description\", \"A sturdy stone ramp or roof to resist the elements.\")",
+          "Weight": 5000,
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ReinforcedWood_CornerStairs"
+          }
+        },
+        {
+          "Name": "Item_MetalGrate_CornerStairs",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "MetalGrate Corner Stairs"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Metal_Grate_Ramp_0.ITEM_Metal_Grate_Ramp_0",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Ramp-Description\", \"A sturdy stone ramp or roof to resist the elements.\")",
+          "Weight": 5000,
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "MetalGrate_CornerStairs"
+          }
         }
       ]
     },
@@ -4580,6 +4678,615 @@
               }
             ]
           }
+        },
+        {
+          "Name": "Thatch_CornerStairs",
+          "Meshable": {
+            "RowName": "Mesh_Thatch_Kit"
+          },
+          "Itemable": {
+            "RowName": "Item_Stone_Ramp"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
+          "Buildable": {
+            "RowName": "Stone_Ramp"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Durable": {
+            "RowName": "Thatch_Building"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "ThatchDeployable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              }
+            ],
+            "ParentTags": []
+          }
+        },
+        {
+          "Name": "ScoriaBrick_CornerStairs",
+          "Meshable": {
+            "RowName": "Mesh_Scoria_Brick_Kit"
+          },
+          "Itemable": {
+            "RowName": "Item_Stone_Ramp"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
+          "Buildable": {
+            "RowName": "Stone_Ramp"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Durable": {
+            "RowName": "Scoria_Brick_Building"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "StoneDeployable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              }
+            ],
+            "ParentTags": []
+          }
+        },
+        {
+          "Name": "Limestone_CornerStairs",
+          "Meshable": {
+            "RowName": "Mesh_Limestone_Kit"
+          },
+          "Itemable": {
+            "RowName": "Item_Stone_Ramp"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
+          "Buildable": {
+            "RowName": "Stone_Ramp"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Durable": {
+            "RowName": "Limestone_Building"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "StoneDeployable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              }
+            ],
+            "ParentTags": []
+          }
+        },
+        {
+          "Name": "StoneBrick_CornerStairs",
+          "Meshable": {
+            "RowName": "Mesh_Stone_Brick_Kit"
+          },
+          "Itemable": {
+            "RowName": "Item_Stone_Ramp"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
+          "Buildable": {
+            "RowName": "Stone_Ramp"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Durable": {
+            "RowName": "Stone_Brick_Building"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "StoneDeployable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              }
+            ],
+            "ParentTags": []
+          }
+        },
+        {
+          "Name": "Sandworm_CornerStairs",
+          "Meshable": {
+            "RowName": "Mesh_Sandworm_Kit"
+          },
+          "Itemable": {
+            "RowName": "Item_Stone_Ramp"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
+          "Buildable": {
+            "RowName": "Stone_Ramp"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Durable": {
+            "RowName": "Sandworm_Building"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "WoodDeployable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              }
+            ],
+            "ParentTags": []
+          }
+        },
+        {
+          "Name": "ReinforcedWood_CornerStairs",
+          "Meshable": {
+            "RowName": "Mesh_ReinforcedWood_Kit"
+          },
+          "Itemable": {
+            "RowName": "Item_Stone_Ramp"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
+          "Buildable": {
+            "RowName": "Stone_Ramp"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Durable": {
+            "RowName": "ReinforcedWood_Building"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "WoodDeployable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              }
+            ],
+            "ParentTags": []
+          }
+        },
+        {
+          "Name": "MetalGrate_CornerStairs",
+          "Meshable": {
+            "RowName": "Mesh_MetalGrate_Kit"
+          },
+          "Itemable": {
+            "RowName": "Item_Stone_Ramp"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
+          "Buildable": {
+            "RowName": "Stone_Ramp"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Durable": {
+            "RowName": "MetalGrate_Building"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "MetalDeployable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              }
+            ],
+            "ParentTags": []
+          }
         }
       ]
     },
@@ -5070,6 +5777,48 @@
           "Name": "TemperedGlass_Stairs",
           "ItemStaticData": {
             "RowName": "TemperedGlass_Stairs"
+          }
+        },
+        {
+          "Name": "Thatch_CornerStairs",
+          "ItemStaticData": {
+            "RowName": "Thatch_CornerStairs"
+          }
+        },
+        {
+          "Name": "ScoriaBrick_CornerStairs",
+          "ItemStaticData": {
+            "RowName": "ScoriaBrick_CornerStairs"
+          }
+        },
+        {
+          "Name": "Limestone_CornerStairs",
+          "ItemStaticData": {
+            "RowName": "Limestone_CornerStairs"
+          }
+        },
+        {
+          "Name": "StoneBrick_CornerStairs",
+          "ItemStaticData": {
+            "RowName": "StoneBrick_CornerStairs"
+          }
+        },
+        {
+          "Name": "Sandworm_CornerStairs",
+          "ItemStaticData": {
+            "RowName": "Sandworm_CornerStairs"
+          }
+        },
+        {
+          "Name": "ReinforcedWood_CornerStairs",
+          "ItemStaticData": {
+            "RowName": "ReinforcedWood_CornerStairs"
+          }
+        },
+        {
+          "Name": "MetalGrate_CornerStairs",
+          "ItemStaticData": {
+            "RowName": "MetalGrate_CornerStairs"
           }
         }
       ]
@@ -8815,6 +9564,524 @@
             }
           ],
           "CraftingDuration": 5.0
+        },
+        {
+          "Name": "Recipe_Thatch_CornerStairs",
+          "Requirement": {
+            "RowName": "Stone_Basic"
+          },
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "ResourceCostMultipliers": [
+            {
+              "Value": "BaseStoneBuildingCraftingCost_+%"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Fiber"
+              },
+              "Count": 30
+            },
+            {
+              "Element": {
+                "RowName": "Stick"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Stone_Ramp",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MasonryBench"
+          },
+          "Processors": [
+            {
+              "RowName": "CraftingBench"
+            },
+            {
+              "RowName": "CraftingBench_T2"
+            },
+            {
+              "RowName": "CraftingBench_T3"
+            },
+            {
+              "RowName": "CraftingBench_T4"
+            }
+          ],
+          "Output": {
+            "Element": {
+              "RowName": "Thatch_CornerStairs"
+            },
+            "Count": 1
+          }
+        },
+        {
+          "Name": "Recipe_ScoriaBrick_CornerStairs",
+          "Requirement": {
+            "RowName": "Stone_Basic"
+          },
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "ResourceCostMultipliers": [
+            {
+              "Value": "BaseStoneBuildingCraftingCost_+%"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Scoria_Brick"
+              },
+              "Count": 20
+            },
+            {
+              "Element": {
+                "RowName": "Tree_Sap"
+              },
+              "Count": 5
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Stone_Ramp",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MasonryBench"
+          },
+          "Processors": [
+            {
+              "RowName": "MasonryBench"
+            },
+            {
+              "RowName": "MasonryBench_T2"
+            },
+            {
+              "RowName": "MasonryBench_T3"
+            },
+            {
+              "RowName": "MasonryBench_T4"
+            }
+          ],
+          "Output": {
+            "Element": {
+              "RowName": "ScoriaBrick_CornerStairs"
+            },
+            "Count": 1
+          }
+        },
+        {
+          "Name": "Recipe_Limestone_CornerStairs",
+          "Requirement": {
+            "RowName": "Stone_Basic"
+          },
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "ResourceCostMultipliers": [
+            {
+              "Value": "BaseStoneBuildingCraftingCost_+%"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Ite_Ite"
+              },
+              "Count": 20
+            },
+            {
+              "Element": {
+                "RowName": "Stone"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Stone_Ramp",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MasonryBench"
+          },
+          "Processors": [
+            {
+              "RowName": "ConcreteFurnace"
+            },
+            {
+              "RowName": "ConcreteFurnace_T2"
+            },
+            {
+              "RowName": "ConcreteFurnace_T3"
+            },
+            {
+              "RowName": "ConcreteFurnace_T4"
+            }
+          ],
+          "Output": {
+            "Element": {
+              "RowName": "Limestone_CornerStairs"
+            },
+            "Count": 1
+          }
+        },
+        {
+          "Name": "Recipe_StoneBrick_CornerStairs",
+          "Requirement": {
+            "RowName": "Stone_Basic"
+          },
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "ResourceCostMultipliers": [
+            {
+              "Value": "BaseStoneBuildingCraftingCost_+%"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Stone_Brick"
+              },
+              "Count": 20
+            },
+            {
+              "Element": {
+                "RowName": "Tree_Sap"
+              },
+              "Count": 5
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Stone_Ramp",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MasonryBench"
+          },
+          "Processors": [
+            {
+              "RowName": "MasonryBench"
+            },
+            {
+              "RowName": "MasonryBench_T2"
+            },
+            {
+              "RowName": "MasonryBench_T3"
+            },
+            {
+              "RowName": "MasonryBench_T4"
+            }
+          ],
+          "Output": {
+            "Element": {
+              "RowName": "StoneBrick_CornerStairs"
+            },
+            "Count": 1
+          }
+        },
+        {
+          "Name": "Recipe_Sandworm_CornerStairs",
+          "Requirement": {
+            "RowName": "Stone_Basic"
+          },
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "ResourceCostMultipliers": [
+            {
+              "Value": "BaseStoneBuildingCraftingCost_+%"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood"
+              },
+              "Count": 15
+            },
+            {
+              "Element": {
+                "RowName": "Sandworm_Scale"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Stone_Ramp",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MasonryBench"
+          },
+          "Processors": [
+            {
+              "RowName": "CarpentryBench"
+            },
+            {
+              "RowName": "CarpentryBench_T2"
+            },
+            {
+              "RowName": "CarpentryBench_T3"
+            },
+            {
+              "RowName": "CarpentryBench_T4"
+            }
+          ],
+          "Output": {
+            "Element": {
+              "RowName": "Sandworm_CornerStairs"
+            },
+            "Count": 1
+          }
+        },
+        {
+          "Name": "Recipe_ReinforcedWood_CornerStairs",
+          "Requirement": {
+            "RowName": "Stone_Basic"
+          },
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "ResourceCostMultipliers": [
+            {
+              "Value": "BaseStoneBuildingCraftingCost_+%"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood"
+              },
+              "Count": 15
+            },
+            {
+              "Element": {
+                "RowName": "Beeswax"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Stone_Ramp",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MasonryBench"
+          },
+          "Processors": [
+            {
+              "RowName": "CarpentryBench"
+            },
+            {
+              "RowName": "CarpentryBench_T2"
+            },
+            {
+              "RowName": "CarpentryBench_T3"
+            },
+            {
+              "RowName": "CarpentryBench_T4"
+            }
+          ],
+          "Output": {
+            "Element": {
+              "RowName": "ReinforcedWood_CornerStairs"
+            },
+            "Count": 1
+          }
+        },
+        {
+          "Name": "Recipe_MetalGrate_CornerStairs",
+          "Requirement": {
+            "RowName": "Stone_Basic"
+          },
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "ResourceCostMultipliers": [
+            {
+              "Value": "BaseStoneBuildingCraftingCost_+%"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Screw"
+              },
+              "Count": 5
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Stone_Ramp",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MasonryBench"
+          },
+          "Processors": [
+            {
+              "RowName": "Fabricator"
+            },
+            {
+              "RowName": "Fabricator_T2"
+            },
+            {
+              "RowName": "Fabricator_T3"
+            },
+            {
+              "RowName": "Fabricator_T4"
+            }
+          ],
+          "Output": {
+            "Element": {
+              "RowName": "MetalGrate_CornerStairs"
+            },
+            "Count": 1
+          }
         }
       ]
     },
@@ -9472,12 +10739,12 @@
           "Variations": [
             {
               "Piece": {
-                "RowName": "ClayBrick_CornerStair_L"
+                "RowName": "Clay_Brick_CornerStair_L"
               }
             },
             {
               "Piece": {
-                "RowName": "ClayBrick_CornerStair_R"
+                "RowName": "Clay_Brick_CornerStair_R"
               }
             }
           ],
@@ -9576,6 +10843,216 @@
             }
           ],
           "Description": "NSLOCTEXT(\"D_Buildable\", \"TemperedGlass_Stairs-Description\", \"Tempered Glass Stairs including ramp, half, and corner variants\")"
+        },
+        {
+          "Name": "Thatch_CornerStairs",
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Ramp",
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Thatch_CornerStair_L"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Thatch_CornerStair_R"
+              }
+            }
+          ],
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Thatch Corner Stairs"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Corner stair pieces for Thatch buildings."
+          }
+        },
+        {
+          "Name": "ScoriaBrick_CornerStairs",
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Ramp",
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_CornerStair_L"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_CornerStair_R"
+              }
+            }
+          ],
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "ScoriaBrick Corner Stairs"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Corner stair pieces for ScoriaBrick buildings."
+          }
+        },
+        {
+          "Name": "Limestone_CornerStairs",
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Ramp",
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Limestone_CornerStair_L"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Limestone_CornerStair_R"
+              }
+            }
+          ],
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Limestone Corner Stairs"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Corner stair pieces for Limestone buildings."
+          }
+        },
+        {
+          "Name": "StoneBrick_CornerStairs",
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Ramp",
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "StoneBrick_CornerStair_L"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_CornerStair_R"
+              }
+            }
+          ],
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "StoneBrick Corner Stairs"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Corner stair pieces for StoneBrick buildings."
+          }
+        },
+        {
+          "Name": "Sandworm_CornerStairs",
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Ramp",
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Sandworm_CornerStair_L"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Sandworm_CornerStair_R"
+              }
+            }
+          ],
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Sandworm Corner Stairs"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Corner stair pieces for Sandworm buildings."
+          }
+        },
+        {
+          "Name": "ReinforcedWood_CornerStairs",
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Ramp",
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "ReinforcedWood_CornerStair_L"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ReinforcedWood_CornerStair_R"
+              }
+            }
+          ],
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "ReinforcedWood Corner Stairs"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Corner stair pieces for ReinforcedWood buildings."
+          }
+        },
+        {
+          "Name": "MetalGrate_CornerStairs",
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Ramp",
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "MetalGrate_CornerStair_L"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "MetalGrate_CornerStair_R"
+              }
+            }
+          ],
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "MetalGrate Corner Stairs"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Corner stair pieces for MetalGrate buildings."
+          }
         }
       ]
     },
@@ -10402,6 +11879,182 @@
             "RowName": "CornerStair_R"
           },
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_TemperedGlass_Ramp_0.T_ITEM_TemperedGlass_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "Thatch_CornerStair_L",
+          "Type": {
+            "RowName": "CornerStair_L"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Thatch_Ramp_0.ITEM_Thatch_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "Thatch_CornerStair_R",
+          "Type": {
+            "RowName": "CornerStair_R"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Thatch_Ramp_0.ITEM_Thatch_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "ScoriaBrick_CornerStair_L",
+          "Type": {
+            "RowName": "CornerStair_L"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Scoria_Brick_Ramp_2.ITEM_Scoria_Brick_Ramp_2",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "ScoriaBrick_CornerStair_R",
+          "Type": {
+            "RowName": "CornerStair_R"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Scoria_Brick_Ramp_2.ITEM_Scoria_Brick_Ramp_2",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "Limestone_CornerStair_L",
+          "Type": {
+            "RowName": "CornerStair_L"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Limestone_Ramp_0.ITEM_Limestone_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "Limestone_CornerStair_R",
+          "Type": {
+            "RowName": "CornerStair_R"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Limestone_Ramp_0.ITEM_Limestone_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "StoneBrick_CornerStair_L",
+          "Type": {
+            "RowName": "CornerStair_L"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Stone_Brick_Ramp_2.ITEM_Stone_Brick_Ramp_2",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "StoneBrick_CornerStair_R",
+          "Type": {
+            "RowName": "CornerStair_R"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Stone_Brick_Ramp_2.ITEM_Stone_Brick_Ramp_2",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "Sandworm_CornerStair_L",
+          "Type": {
+            "RowName": "CornerStair_L"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Sandworm_Ramp_0.ITEM_Sandworm_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "Sandworm_CornerStair_R",
+          "Type": {
+            "RowName": "CornerStair_R"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Sandworm_Ramp_0.ITEM_Sandworm_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "ReinforcedWood_CornerStair_L",
+          "Type": {
+            "RowName": "CornerStair_L"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_ReinforcedWood_Ramp_0.ITEM_ReinforcedWood_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "ReinforcedWood_CornerStair_R",
+          "Type": {
+            "RowName": "CornerStair_R"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_ReinforcedWood_Ramp_0.ITEM_ReinforcedWood_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "MetalGrate_CornerStair_L",
+          "Type": {
+            "RowName": "CornerStair_L"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Metal_Grate_Ramp_0.ITEM_Metal_Grate_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "MetalGrate_CornerStair_R",
+          "Type": {
+            "RowName": "CornerStair_R"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Metal_Grate_Ramp_0.ITEM_Metal_Grate_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "Clay_Brick_CornerStair_L",
+          "Type": {
+            "RowName": "CornerStair_L"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Clay_Brick_Ramp_2.ITEM_Clay_Brick_Ramp_2",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
+          "Audio": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "Clay_Brick_CornerStair_R",
+          "Type": {
+            "RowName": "CornerStair_R"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Clay_Brick_Ramp_2.ITEM_Clay_Brick_Ramp_2",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
             "RowName": "Stone"
@@ -12059,6 +13712,98 @@
         },
         {
           "Name": "ClayBrick_CornerStair_R",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_1_Scoria.M_BLD_Stairs_Brick_1_Scoria",
+            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement_Scoria.M_BLD_Stairs_Brick_Cement_Scoria",
+            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_2_Scoria.M_BLD_Stairs_Brick_2_Scoria"
+          }
+        },
+        {
+          "Name": "ScoriaBrick_CornerStair_L",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_1_Scoria.M_BLD_Stairs_Brick_1_Scoria",
+            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement_Scoria.M_BLD_Stairs_Brick_Cement_Scoria",
+            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_2_Scoria.M_BLD_Stairs_Brick_2_Scoria"
+          }
+        },
+        {
+          "Name": "ScoriaBrick_CornerStair_R",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_1_Scoria.M_BLD_Stairs_Brick_1_Scoria",
+            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement_Scoria.M_BLD_Stairs_Brick_Cement_Scoria",
+            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_2_Scoria.M_BLD_Stairs_Brick_2_Scoria"
+          }
+        },
+        {
+          "Name": "Limestone_CornerStair_L",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Concrete/Stairs_Concrete/M_BLD_Stairs_Limestone_Support.M_BLD_Stairs_Limestone_Support",
+            "1": "/Game/ASS/BLD/Concrete/Stairs_Concrete/M_BLD_Stairs_Limestone_Limestone.M_BLD_Stairs_Limestone_Limestone",
+            "2": "/Game/ASS/BLD/Concrete/M_BLD_Wall_Solid_Limestone_Fracture.M_BLD_Wall_Solid_Limestone_Fracture"
+          }
+        },
+        {
+          "Name": "Limestone_CornerStair_R",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Concrete/Stairs_Concrete/M_BLD_Stairs_Limestone_Support.M_BLD_Stairs_Limestone_Support",
+            "1": "/Game/ASS/BLD/Concrete/Stairs_Concrete/M_BLD_Stairs_Limestone_Limestone.M_BLD_Stairs_Limestone_Limestone",
+            "2": "/Game/ASS/BLD/Concrete/M_BLD_Wall_Solid_Limestone_Fracture.M_BLD_Wall_Solid_Limestone_Fracture"
+          }
+        },
+        {
+          "Name": "StoneBrick_CornerStair_L",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Stone_1.M_BLD_Stairs_Brick_Stone_1",
+            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement.M_BLD_Stairs_Brick_Cement",
+            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Stone_2.M_BLD_Stairs_Brick_Stone_2"
+          }
+        },
+        {
+          "Name": "StoneBrick_CornerStair_R",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Stone_1.M_BLD_Stairs_Brick_Stone_1",
+            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement.M_BLD_Stairs_Brick_Cement",
+            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Stone_2.M_BLD_Stairs_Brick_Stone_2"
+          }
+        },
+        {
+          "Name": "Sandworm_CornerStair_L",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Sandworm_A.M_BLD_Stairs_Wood_Sandworm_A",
+            "1": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Sandworm_B.M_BLD_Stairs_Wood_Sandworm_B"
+          }
+        },
+        {
+          "Name": "Sandworm_CornerStair_R",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Sandworm_A.M_BLD_Stairs_Wood_Sandworm_A",
+            "1": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Sandworm_B.M_BLD_Stairs_Wood_Sandworm_B"
+          }
+        },
+        {
+          "Name": "ReinforcedWood_CornerStair_L",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Beeswax_A.M_BLD_Stairs_Wood_Beeswax_A",
+            "1": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Beeswax_B.M_BLD_Stairs_Wood_Beeswax_B"
+          }
+        },
+        {
+          "Name": "ReinforcedWood_CornerStair_R",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Beeswax_A.M_BLD_Stairs_Wood_Beeswax_A",
+            "1": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Beeswax_B.M_BLD_Stairs_Wood_Beeswax_B"
+          }
+        },
+        {
+          "Name": "Clay_Brick_CornerStair_L",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_1_Scoria.M_BLD_Stairs_Brick_1_Scoria",
+            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement_Scoria.M_BLD_Stairs_Brick_Cement_Scoria",
+            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_2_Scoria.M_BLD_Stairs_Brick_2_Scoria"
+          }
+        },
+        {
+          "Name": "Clay_Brick_CornerStair_R",
           "BaseMeshMaterialSlotOverrides": {
             "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_1_Scoria.M_BLD_Stairs_Brick_1_Scoria",
             "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement_Scoria.M_BLD_Stairs_Brick_Cement_Scoria",
