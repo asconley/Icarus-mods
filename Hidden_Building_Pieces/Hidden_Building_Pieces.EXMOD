@@ -5249,6 +5249,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Clay_Brick_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5268,6 +5272,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Concrete_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5287,6 +5295,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Glass_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5306,6 +5318,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Ice_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5325,6 +5341,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Iron_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5344,6 +5364,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Limestone_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5363,6 +5387,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_ReinforcedWood_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5382,6 +5410,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Sandworm_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5401,6 +5433,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Scoria_Brick_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5420,6 +5456,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Scoria_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5439,6 +5479,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Stone_Brick_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5458,6 +5502,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Stone_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5477,6 +5525,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_TemperedGlass_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5496,6 +5548,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Thatch_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
@@ -5515,6 +5571,10 @@
           "Usable": {
             "RowName": "Place",
             "DataTableName": "D_Usable"
+          },
+          "Itemable": {
+            "RowName": "Item_Wood_RoofPeak",
+            "DataTableName": "D_Itemable"
           }
         },
         {
