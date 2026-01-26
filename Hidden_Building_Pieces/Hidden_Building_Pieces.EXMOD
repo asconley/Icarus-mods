@@ -2,7 +2,7 @@
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
   "version": "2.10.0",
-  "description": "Unlocks 810 hidden building pieces including diagonal sets, curved walls, corner stairs, frames, advanced beams, and roof peak connectors/caps for all materials",
+  "description": "Unlocks 800+ hidden building pieces including diagonal/curved sets, frames, corner stairs, and roof peak connectors/caps for all materials",
   "fileName": "Hidden_Building_Pieces",
   "Level2": "True",
   "Rows": [
@@ -25,7 +25,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Curved_Set_0.T_ITEM_ClayBrick_Curved_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Curved_Set-Description\", \"Curved diagonal set: Curved Floor, Curved Solid Wall, Curved Ramp Roof. 3 pieces for smooth curved structures.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ClayBrick_Curved_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Concrete_Curved_Set",
@@ -33,7 +37,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Concrete_Curved_Set_0.T_ITEM_Concrete_Curved_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Concrete_Curved_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Glass_Curved_Set",
@@ -41,7 +49,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Glass_Curved_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Glass_Curved_Set_Tempered",
@@ -49,7 +61,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Set_Tempered-Description\", \"A set of cross-tile curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Glass_Curved_Set_Tempered",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Ice_Curved_Set",
@@ -69,7 +85,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Brick_Floor_0.T_ITEM_Scoria_Brick_Floor_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ScoriaBrick_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ScoriaBrick_Curved_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Scoria_Curved_Set",
@@ -77,7 +97,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Curved_Set_1.T_ITEM_Scoria_Curved_Set_1",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Scoria_Curved_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_StoneBrick_Curved_Set",
@@ -85,7 +109,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Brick_Floor_0.T_ITEM_Stone_Brick_Floor_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_StoneBrick_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "StoneBrick_Curved_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Stone_Curved_Set",
@@ -93,7 +121,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Curved_Set_1.T_ITEM_Stone_Curved_Set_1",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Stone_Curved_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_ClayBrick_Diagonal_Set",
@@ -101,7 +133,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Diagonal_Set_0.T_ITEM_ClayBrick_Diagonal_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ClayBrick_Diagonal_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Concrete_Diagonal_Set",
@@ -109,7 +145,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Concrete_Diagonal_Set_0.T_ITEM_Concrete_Diagonal_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Concrete_Diagonal_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Glass_Diagonal_Set",
@@ -117,7 +157,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Diagonal_Set_0.T_ITEM_Glass_Diagonal_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Glass_Diagonal_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Glass_Diagonal_Set_Tempered",
@@ -125,7 +169,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Diagonal_Set_0.T_ITEM_Glass_Diagonal_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Set_Tempered-Description\", \"A set of cross-tile diagonal pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Glass_Diagonal_Set_Tempered",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_ScoriaBrick_Diagonal_Set",
@@ -133,7 +181,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Brick_Floor_0.T_ITEM_Scoria_Brick_Floor_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ScoriaBrick_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ScoriaBrick_Diagonal_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Scoria_Diagonal_Set",
@@ -141,7 +193,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Diagonal_Set_1.T_ITEM_Scoria_Diagonal_Set_1",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Scoria_Diagonal_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_StoneBrick_Diagonal_Set",
@@ -149,7 +205,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Brick_Floor_0.T_ITEM_Stone_Brick_Floor_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_StoneBrick_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "StoneBrick_Diagonal_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Stone_Diagonal_Set",
@@ -157,7 +217,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Diagonal_Set_1.T_ITEM_Stone_Diagonal_Set_1",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Stone_Diagonal_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Wood_Diagonal_Set",
@@ -189,7 +253,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Wall_Curved_0.T_ITEM_ClayBrick_Wall_Curved_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Wall_Curved-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ClayBrick_Wall_Curved",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Concrete_Wall_Curved",
@@ -197,7 +265,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Concrete_Wall_Curved_0.T_ITEM_Concrete_Wall_Curved_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Wall_Curved-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Concrete_Wall_Curved",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Glass_Wall_Curved",
@@ -205,7 +277,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Wall_Curved_0.T_ITEM_Glass_Wall_Curved_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Wall_Curved-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Glass_Wall_Curved",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Glass_Wall_Curved_Tempered",
@@ -213,7 +289,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Wall_Curved_0.T_ITEM_Glass_Wall_Curved_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Wall_Curved_Tempered-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Glass_Wall_Curved_Tempered",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Ice_Wall_Curved",
@@ -233,7 +313,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Brick_Wall_Angle_0.T_ITEM_Scoria_Brick_Wall_Angle_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ScoriaBrick_Wall_Curved-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ScoriaBrick_Wall_Curved",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Scoria_Wall_Curved",
@@ -241,7 +325,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Curved_Set_1.T_ITEM_Scoria_Curved_Set_1",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Wall_Curved-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Scoria_Wall_Curved",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_StoneBrick_Wall_Curved",
@@ -249,7 +337,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Brick_Wall_Angle_0.T_ITEM_Stone_Brick_Wall_Angle_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_StoneBrick_Wall_Curved-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "StoneBrick_Wall_Curved",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Stone_Wall_Curved",
@@ -257,7 +349,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Curved_Set_1.T_ITEM_Stone_Curved_Set_1",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Wall_Curved-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Stone_Wall_Curved",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Wood_Wall_Curved",
@@ -277,7 +373,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Diagonal_Curved_Wall_Angles_0.T_ITEM_ClayBrick_Diagonal_Curved_Wall_Angles_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ClayBrick_Diagonal_Curved_Wall_Angles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Concrete_Diagonal_Curved_Wall_Angles",
@@ -285,7 +385,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Concrete_Diagonal_Curved_Wall_Angles_0.T_ITEM_Concrete_Diagonal_Curved_Wall_Angles_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Concrete_Diagonal_Curved_Wall_Angles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Glass_Diagonal_Curved_Wall_Angles",
@@ -293,7 +397,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Diagonal_Curved_Wall_Angles_0.T_ITEM_Glass_Diagonal_Curved_Wall_Angles_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Glass_Diagonal_Curved_Wall_Angles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Glass_Diagonal_Curved_Wall_Angles_Tempered",
@@ -301,7 +409,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Diagonal_Curved_Wall_Angles_0.T_ITEM_Glass_Diagonal_Curved_Wall_Angles_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Curved_Wall_Angles_Tempered-Description\", \"A set of cross-tile curved walls in various angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Glass_Diagonal_Curved_Wall_Angles_Tempered",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_ScoriaBrick_Diagonal_Curved_Wall_Angles",
@@ -309,7 +421,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Brick_Wall_Angle_0.T_ITEM_Scoria_Brick_Wall_Angle_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ScoriaBrick_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ScoriaBrick_Diagonal_Curved_Wall_Angles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Scoria_Diagonal_Curved_Wall_Angles",
@@ -317,7 +433,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Diagonal_Curved_Wall_Angles_0.T_ITEM_Scoria_Diagonal_Curved_Wall_Angles_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Scoria_Diagonal_Curved_Wall_Angles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_StoneBrick_Diagonal_Curved_Wall_Angles",
@@ -325,7 +445,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Brick_Wall_Angle_0.T_ITEM_Stone_Brick_Wall_Angle_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_StoneBrick_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "StoneBrick_Diagonal_Curved_Wall_Angles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Stone_Diagonal_Curved_Wall_Angles",
@@ -333,7 +457,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Diagonal_Curved_Wall_Angles_0.T_ITEM_Stone_Diagonal_Curved_Wall_Angles_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Stone_Diagonal_Curved_Wall_Angles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Wood_Diagonal_Curved_Wall_Angles",
@@ -353,7 +481,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Roof_CurvedAngles_0.T_ITEM_ClayBrick_Roof_CurvedAngles_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ClayBrick_Roof_CurvedAngles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Concrete_Roof_CurvedAngles",
@@ -361,7 +493,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Concrete_Roof_CurvedAngles_0.T_ITEM_Concrete_Roof_CurvedAngles_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Concrete_Roof_CurvedAngles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Glass_Roof_CurvedAngles",
@@ -369,7 +505,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Roof_CurvedAngles_0.T_ITEM_Glass_Roof_CurvedAngles_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Glass_Roof_CurvedAngles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Glass_Roof_CurvedAngles_Tempered",
@@ -377,7 +517,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Roof_CurvedAngles_0.T_ITEM_Glass_Roof_CurvedAngles_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Roof_CurvedAngles_Tempered-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Glass_Roof_CurvedAngles_Tempered",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_ScoriaBrick_Roof_CurvedAngles",
@@ -385,7 +529,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Brick_Roof_Corner_0.T_ITEM_Scoria_Brick_Roof_Corner_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ScoriaBrick_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ScoriaBrick_Roof_CurvedAngles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Scoria_Roof_CurvedAngles",
@@ -393,7 +541,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Curved_Set_2.T_ITEM_Scoria_Curved_Set_2",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Scoria_Roof_CurvedAngles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_StoneBrick_Roof_CurvedAngles",
@@ -401,7 +553,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Brick_Roof_Corner_0.T_ITEM_Stone_Brick_Roof_Corner_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_StoneBrick_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "StoneBrick_Roof_CurvedAngles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Stone_Roof_CurvedAngles",
@@ -409,7 +565,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Curved_Set_2.T_ITEM_Stone_Curved_Set_2",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Stone_Roof_CurvedAngles",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Wood_Roof_CurvedAngles",
@@ -429,7 +589,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Advanced_Beam_Set_0.T_ITEM_ClayBrick_Advanced_Beam_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ClayBrick_Advanced_Beam_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Concrete_Advanced_Beam_Set",
@@ -437,7 +601,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Concrete_Advanced_Beam_Set_0.T_ITEM_Concrete_Advanced_Beam_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Concrete_Advanced_Beam_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Glass_Advanced_Beam_Set",
@@ -445,7 +613,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Advanced_Beam_Set_0.T_ITEM_Glass_Advanced_Beam_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Glass_Advanced_Beam_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Glass_Advanced_Beam_Set_Tempered",
@@ -453,7 +625,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Advanced_Beam_Set_0.T_ITEM_Glass_Advanced_Beam_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Advanced_Beam_Set_Tempered-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Glass_Advanced_Beam_Set_Tempered",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_ScoriaBrick_Advanced_Beam_Set",
@@ -461,7 +637,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Brick_Beam_0.T_ITEM_Scoria_Brick_Beam_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ScoriaBrick_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "ScoriaBrick_Advanced_Beam_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Scoria_Advanced_Beam_Set",
@@ -469,7 +649,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Advanced_Beam_Set_0.T_ITEM_Scoria_Advanced_Beam_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Scoria_Advanced_Beam_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_StoneBrick_Advanced_Beam_Set",
@@ -477,7 +661,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Brick_Beam_0.T_ITEM_Stone_Brick_Beam_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_StoneBrick_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "StoneBrick_Advanced_Beam_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Stone_Advanced_Beam_Set",
@@ -485,7 +673,11 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Advanced_Beam_Set_0.T_ITEM_Stone_Advanced_Beam_Set_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
           "Weight": 5000,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Stone_Advanced_Beam_Set",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Wood_Diagonal_Advanced_Beam_Set",
@@ -958,7 +1150,11 @@
           },
           "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Halfpiece-FlavorText\", \"These sets are useful for creating walkways, balconies, trims and a range of other smaller constructions.\")",
           "Weight": 2500,
-          "MaxStack": 20
+          "MaxStack": 20,
+          "Buildable": {
+            "RowName": "Limestone_Halfpiece",
+            "DataTableName": "D_Buildable"
+          }
         },
         {
           "Name": "Item_Metal_Grate_Halfpiece",
@@ -12621,6 +12817,1946 @@
             {
               "Piece": {
                 "RowName": "Clay_Brick_Beam_Curved_Diagonal_Down",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Concrete_Diagonal_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Concrete Diagonal Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Concrete diagonal building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Wall_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Wall_Angle_Left",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Wall_Angle_Left_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Wall_Angle_Right",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Wall_Angle_Right_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Concrete_Curved_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Concrete Curved Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Concrete curved building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Curved_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Curved_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Concrete_Wall_Curved",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Concrete Wall Curved"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Concrete curved wall pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Concrete_Wall_Curved_Angle_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Wall_Curved_Angle_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Wall_Curved_Angle_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Wall_Curved_Angle_R_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Concrete_Diagonal_Curved_Wall_Angles",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Concrete Diagonal Curved Wall Angles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Concrete diagonal curved wall angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Concrete_Roof_CurvedAngles",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Concrete Roof CurvedAngles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Concrete roof curved angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Concrete_Roof_CurvedAngle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Roof_CurvedAngle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Roof_CurvedAngle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Roof_CurvedAngle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Roof_CurvedAngle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Roof_CurvedAngle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Concrete_Advanced_Beam_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Concrete Advanced Beam Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Concrete advanced beam pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Beam_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Beam_Diagonal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Beam_Curved_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Beam_Curved_Diagonal_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Beam_Curved_Diagonal_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Beam_Curved_Diagonal_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Glass_Diagonal_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Diagonal Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass diagonal building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Wall_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Wall_Angle_Left",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Wall_Angle_Left_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Wall_Angle_Right",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Wall_Angle_Right_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Glass_Curved_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Curved Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass curved building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Curved_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Curved_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Glass_Wall_Curved",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Wall Curved"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass curved wall pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Glass_Wall_Curved_Angle_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Wall_Curved_Angle_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Wall_Curved_Angle_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Wall_Curved_Angle_R_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Glass_Diagonal_Curved_Wall_Angles",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Diagonal Curved Wall Angles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass diagonal curved wall angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Glass_Roof_CurvedAngles",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Roof CurvedAngles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass roof curved angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Glass_Roof_CurvedAngle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Roof_CurvedAngle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Roof_CurvedAngle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Roof_CurvedAngle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Roof_CurvedAngle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Roof_CurvedAngle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Glass_Advanced_Beam_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Advanced Beam Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass advanced beam pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Beam_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Beam_Diagonal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Beam_Curved_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Beam_Curved_Diagonal_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Beam_Curved_Diagonal_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Beam_Curved_Diagonal_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Stone_Diagonal_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Stone Diagonal Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Stone diagonal building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Wall_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Wall_Angle_Left",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Wall_Angle_Left_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Wall_Angle_Right",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Wall_Angle_Right_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Stone_Curved_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Stone Curved Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Stone curved building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Curved_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Curved_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Wall_Curved_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Stone_Wall_Curved",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Stone Wall Curved"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Stone curved wall pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Stone_Wall_Curved_Angle_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Wall_Curved_Angle_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Wall_Curved_Angle_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Wall_Curved_Angle_R_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Stone_Diagonal_Curved_Wall_Angles",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Stone Diagonal Curved Wall Angles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Stone diagonal curved wall angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Stone_Roof_CurvedAngles",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Stone Roof CurvedAngles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Stone roof curved angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Stone_Roof_CurvedAngle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Roof_CurvedAngle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Roof_CurvedAngle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Roof_CurvedAngle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Roof_CurvedAngle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Roof_CurvedAngle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Stone_Advanced_Beam_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Stone Advanced Beam Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Stone advanced beam pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Beam_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Beam_Diagonal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Beam_Curved_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Beam_Curved_Diagonal_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Beam_Curved_Diagonal_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Beam_Curved_Diagonal_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Scoria_Diagonal_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Scoria Diagonal Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Scoria diagonal building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Wall_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Wall_Angle_Left",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Wall_Angle_Left_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Wall_Angle_Right",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Wall_Angle_Right_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Scoria_Curved_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Scoria Curved Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Scoria curved building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Curved_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Curved_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Scoria_Wall_Curved",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Scoria Wall Curved"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Scoria curved wall pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Scoria_Wall_Curved_Angle_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Wall_Curved_Angle_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Wall_Curved_Angle_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Wall_Curved_Angle_R_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Scoria_Diagonal_Curved_Wall_Angles",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Scoria Diagonal Curved Wall Angles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Scoria diagonal curved wall angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Scoria_Roof_CurvedAngles",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Scoria Roof CurvedAngles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Scoria roof curved angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Scoria_Roof_CurvedAngle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Roof_CurvedAngle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Roof_CurvedAngle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Roof_CurvedAngle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Roof_CurvedAngle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Roof_CurvedAngle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Scoria_Advanced_Beam_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Scoria Advanced Beam Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Scoria advanced beam pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Beam_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Beam_Diagonal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Beam_Curved_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Beam_Curved_Diagonal_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Beam_Curved_Diagonal_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Beam_Curved_Diagonal_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "ScoriaBrick_Diagonal_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "ScoriaBrick Diagonal Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "ScoriaBrick diagonal building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Angle_Left",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Angle_Left_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Angle_Right",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Angle_Right_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "ScoriaBrick_Curved_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "ScoriaBrick Curved Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "ScoriaBrick curved building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Curved_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Curved_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "ScoriaBrick_Wall_Curved",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "ScoriaBrick Wall Curved"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "ScoriaBrick curved wall pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Wall_Curved_Angle_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Wall_Curved_Angle_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Wall_Curved_Angle_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Wall_Curved_Angle_R_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "ScoriaBrick_Diagonal_Curved_Wall_Angles",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "ScoriaBrick Diagonal Curved Wall Angles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "ScoriaBrick diagonal curved wall angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "ScoriaBrick_Roof_CurvedAngles",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "ScoriaBrick Roof CurvedAngles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "ScoriaBrick roof curved angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "ScoriaBrick_Advanced_Beam_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "ScoriaBrick Advanced Beam Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "ScoriaBrick advanced beam pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Diagonal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Curved_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Curved_Diagonal_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Curved_Diagonal_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Curved_Diagonal_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "StoneBrick_Diagonal_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "StoneBrick Diagonal Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "StoneBrick diagonal building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Wall_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Wall_Angle_Left",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Wall_Angle_Left_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Wall_Angle_Right",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Wall_Angle_Right_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "StoneBrick_Curved_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "StoneBrick Curved Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "StoneBrick curved building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Curved_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Curved_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "StoneBrick_Wall_Curved",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "StoneBrick Wall Curved"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "StoneBrick curved wall pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Wall_Curved_Angle_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Wall_Curved_Angle_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Wall_Curved_Angle_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Wall_Curved_Angle_R_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "StoneBrick_Diagonal_Curved_Wall_Angles",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "StoneBrick Diagonal Curved Wall Angles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "StoneBrick diagonal curved wall angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "StoneBrick_Roof_CurvedAngles",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "StoneBrick Roof CurvedAngles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "StoneBrick roof curved angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "StoneBrick_Advanced_Beam_Set",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "StoneBrick Advanced Beam Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "StoneBrick advanced beam pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Beam_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Beam_Diagonal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Beam_Curved_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Glass_Diagonal_Set_Tempered",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Diagonal Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass diagonal building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Angle_Left",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Angle_Left_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Angle_Right",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Angle_Right_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Glass_Curved_Set_Tempered",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Curved Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass curved building pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Curved_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Curved_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Solid",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Glass_Wall_Curved_Tempered",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Wall Curved"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass curved wall pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Wall_Curved_Angle_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Wall_Curved_Angle_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Wall_Curved_Angle_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Wall_Curved_Angle_R_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Glass_Diagonal_Curved_Wall_Angles_Tempered",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Diagonal Curved Wall Angles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass diagonal curved wall angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Glass_Roof_CurvedAngles_Tempered",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Roof CurvedAngles"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass roof curved angles."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Up_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Down_L_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Down_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Glass_Advanced_Beam_Set_Tempered",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Advanced Beam Set"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass advanced beam pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Diagonal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Curved_Horizontal",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Curved_Diagonal_Up_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Curved_Diagonal_Up_R",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Curved_Diagonal_Down_L",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "RepairItems": []
+        },
+        {
+          "Name": "Limestone_Halfpiece",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Limestone Half Pieces"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Limestone half and quarter floor pieces."
+          },
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Limestone_HalfPitch_LowerRoof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Limestone_HalfPitch_UpperRoof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Limestone_HalfPitch_LowerLeftWall",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Limestone_HalfPitch_UpperLeftWall",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Limestone_HalfPitch_LowerRightWall",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Limestone_HalfPitch_UpperRightWall",
                 "DataTableName": "D_BuildingPieces"
               }
             }
