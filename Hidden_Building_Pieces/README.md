@@ -31,7 +31,7 @@ Unlocks **876 hidden building items** including diagonal/curved pieces, frames, 
 |----------|-------|
 | Buildable Sets | 96 |
 | Building Pieces | 102 |
-| Building Skins | 272 |
+| Building Skins | 273 |
 | Itemables | 96 |
 | ItemsStatic | 104 |
 | ItemTemplates | 104 |
@@ -71,6 +71,17 @@ Unlocks **876 hidden building items** including diagonal/curved pieces, frames, 
 
 ## Changelog
 
+### v2.11.3
+- **TEXTURE FIX:** Updated all 40 StoneBrick curved/diagonal skins to use proper Stone Brick wall textures instead of grey stone textures
+
+### v2.11.2
+- **BUG FIX:** Added missing `Stability`, `Type`, and `PieceType` properties to all 82 buildables - fixes wrong textures and glass-like repair behavior on StoneBrick, ClayBrick, and other materials
+
+### v2.11.1
+- **BUG FIX:** Added missing `Diagonal_Ramp_Roof` and `Diagonal_Ramp_Roof_Invert` pieces to all Diagonal_Set buildables (Concrete, Glass, Stone, Scoria, ScoriaBrick, StoneBrick, ClayBrick, TemperedGlass)
+- **BUG FIX:** Fixed ScoriaBrick and Scoria frame building pieces missing skins
+- **BUG FIX:** Fixed TemperedGlass diagonal set using wrong piece names
+
 ### v2.11.0
 - **NEW FRAME MATERIALS:** Added 5 new frame materials with FullFrame, Pillar, and HalfFrame variations:
   - **Iron** (Machining Bench) - NEW
@@ -79,7 +90,6 @@ Unlocks **876 hidden building items** including diagonal/curved pieces, frames, 
   - **Sandworm** (Carpentry Bench) - NEW
   - **Scoria** - added Pillar & HalfFrame to existing FullFrame
 - Total frame materials: 11 (was 6)
-- Total items: 876
 
 ### v2.10.0
 - **ROOF PEAK SYSTEM:** Added connector and cap pieces for ALL 15 materials

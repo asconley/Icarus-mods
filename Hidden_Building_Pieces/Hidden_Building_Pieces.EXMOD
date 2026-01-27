@@ -1,8 +1,8 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "2.10.0",
-  "description": "Unlocks 800+ hidden building pieces including diagonal/curved sets, frames, corner stairs, and roof peak connectors/caps for all materials",
+  "version": "2.11.3",
+  "description": "Unlocks 876 hidden building pieces including diagonal/curved sets, frames (11 materials), corner stairs, and roof peak connectors/caps for all materials",
   "fileName": "Hidden_Building_Pieces",
   "Level2": "True",
   "Rows": [
@@ -12051,7 +12051,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"ClayBrick_Frame-Description\", \"Clay Brick Frame pieces including full frames, pillars, and half frames\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"ClayBrick_Frame-Description\", \"Clay Brick Frame pieces including full frames, pillars, and half frames\")",
+          "Stability": {
+            "RowName": "Clay_Brick_Beam"
+          },
+          "Type": {
+            "RowName": "Clay_Brick"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "Glass_Frame",
@@ -12072,7 +12079,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"Glass_Frame-Description\", \"Glass Frame pieces including full frames, pillars, and half frames\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Glass_Frame-Description\", \"Glass Frame pieces including full frames, pillars, and half frames\")",
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "Ice_Frame",
@@ -12093,7 +12107,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"Ice_Frame-Description\", \"Ice Frame pieces including full frames, pillars, and half frames\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Ice_Frame-Description\", \"Ice Frame pieces including full frames, pillars, and half frames\")",
+          "Stability": {
+            "RowName": "Ice_General"
+          },
+          "Type": {
+            "RowName": "Ice"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "ScoriaBrick_Frame",
@@ -12114,7 +12135,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"ScoriaBrick_Frame-Description\", \"Scoria Brick Frame pieces including full frames, pillars, and half frames\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"ScoriaBrick_Frame-Description\", \"Scoria Brick Frame pieces including full frames, pillars, and half frames\")",
+          "Stability": {
+            "RowName": "Clay_Brick_Beam"
+          },
+          "Type": {
+            "RowName": "Scoria_Brick"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "StoneBrick_Frame",
@@ -12135,7 +12163,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"StoneBrick_Frame-Description\", \"Stone Brick Frame pieces including full frames, pillars, and half frames\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"StoneBrick_Frame-Description\", \"Stone Brick Frame pieces including full frames, pillars, and half frames\")",
+          "Stability": {
+            "RowName": "Clay_Brick_Beam"
+          },
+          "Type": {
+            "RowName": "Stone_Brick"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "TemperedGlass_Frame",
@@ -12156,7 +12191,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"TemperedGlass_Frame-Description\", \"Tempered Glass Frame pieces including full frames, pillars, and half frames\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"TemperedGlass_Frame-Description\", \"Tempered Glass Frame pieces including full frames, pillars, and half frames\")",
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "ClayBrick_CornerStairs",
@@ -12172,7 +12214,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"ClayBrick_CornerStairs-Description\", \"Clay Brick Corner Stairs for smooth directional changes\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"ClayBrick_CornerStairs-Description\", \"Clay Brick Corner Stairs for smooth directional changes\")",
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Clay_Brick"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Ice_CornerStairs",
@@ -12188,7 +12237,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"Ice_CornerStairs-Description\", \"Ice Corner Stairs for smooth directional changes\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Ice_CornerStairs-Description\", \"Ice Corner Stairs for smooth directional changes\")",
+          "Stability": {
+            "RowName": "Ice_General"
+          },
+          "Type": {
+            "RowName": "Ice"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Limestone_CornerStairs",
@@ -12354,7 +12410,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"Scoria_CornerStairs-Description\", \"Scoria Corner Stairs for smooth directional changes\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Scoria_CornerStairs-Description\", \"Scoria Corner Stairs for smooth directional changes\")",
+          "Stability": {
+            "RowName": "Scoria_General"
+          },
+          "Type": {
+            "RowName": "Scoria"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "StoneBrick_CornerStairs",
@@ -12430,7 +12493,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"Wood_CornerStairs-Description\", \"Wood Corner Stairs for smooth directional changes\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Wood_CornerStairs-Description\", \"Wood Corner Stairs for smooth directional changes\")",
+          "Stability": {
+            "RowName": "Wood_General"
+          },
+          "Type": {
+            "RowName": "Wood"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Glass_Stairs",
@@ -12461,7 +12531,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"Glass_Stairs-Description\", \"Glass Stairs including ramp, half, and corner variants\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Glass_Stairs-Description\", \"Glass Stairs including ramp, half, and corner variants\")",
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "TemperedGlass_Stairs",
@@ -12492,7 +12569,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"TemperedGlass_Stairs-Description\", \"Tempered Glass Stairs including ramp, half, and corner variants\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"TemperedGlass_Stairs-Description\", \"Tempered Glass Stairs including ramp, half, and corner variants\")",
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Clay_Brick_RoofPeak_Set",
@@ -12518,7 +12602,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Clay_Brick"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Concrete_RoofPeak_Set",
@@ -12544,7 +12635,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Concrete_General"
+          },
+          "Type": {
+            "RowName": "Concrete"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Glass_RoofPeak_Set",
@@ -12570,7 +12668,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Ice_RoofPeak_Set",
@@ -12596,7 +12701,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Ice_General"
+          },
+          "Type": {
+            "RowName": "Ice"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Iron_RoofPeak_Set",
@@ -12622,7 +12734,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Iron_General"
+          },
+          "Type": {
+            "RowName": "Iron"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Limestone_RoofPeak_Set",
@@ -12648,7 +12767,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Limestone_General"
+          },
+          "Type": {
+            "RowName": "Limestone"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "ReinforcedWood_RoofPeak_Set",
@@ -12674,7 +12800,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Reinforced_Wood_General"
+          },
+          "Type": {
+            "RowName": "ReinforcedWood"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Sandworm_RoofPeak_Set",
@@ -12700,7 +12833,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Sandworm_General"
+          },
+          "Type": {
+            "RowName": "Sandworm"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Scoria_Brick_RoofPeak_Set",
@@ -12726,7 +12866,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Scoria_General"
+          },
+          "Type": {
+            "RowName": "Scoria"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Scoria_RoofPeak_Set",
@@ -12752,7 +12899,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Scoria_General"
+          },
+          "Type": {
+            "RowName": "Scoria"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Stone_Brick_RoofPeak_Set",
@@ -12778,7 +12932,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Stone_RoofPeak_Set",
@@ -12804,7 +12965,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "TemperedGlass_RoofPeak_Set",
@@ -12830,7 +12998,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Thatch_RoofPeak_Set",
@@ -12856,7 +13031,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Thatch_General"
+          },
+          "Type": {
+            "RowName": "Thatch"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Wood_RoofPeak_Set",
@@ -12882,7 +13064,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Wood_General"
+          },
+          "Type": {
+            "RowName": "Wood"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Metal_Grate_HalfNormal",
@@ -12890,7 +13079,7 @@
             "RowName": "Iron_General"
           },
           "Type": {
-            "RowName": "Iron"
+            "RowName": "MetalGrate"
           },
           "Variations": [
             {
@@ -12911,7 +13100,8 @@
           "Description": {
             "Key": "",
             "SourceString": "Quarter floor and half pieces for metal grate buildings."
-          }
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "ClayBrick_Diagonal_Set",
@@ -12961,7 +13151,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Clay_Brick"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "ClayBrick_Diagonal_Curved_Set",
@@ -12987,7 +13184,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Clay_Brick"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "ClayBrick_Wall_Curved",
@@ -13013,7 +13217,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Clay_Brick"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "ClayBrick_Diagonal_Curved_Wall_Angles",
@@ -13039,7 +13250,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Clay_Brick"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "ClayBrick_Roof_CurvedAngles",
@@ -13065,7 +13283,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Clay_Brick"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "ClayBrick_Advanced_Beam_Set",
@@ -13091,7 +13316,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_Beam"
+          },
+          "Type": {
+            "RowName": "Clay_Brick"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "Concrete_Diagonal_Set",
@@ -13153,7 +13385,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Concrete_General"
+          },
+          "Type": {
+            "RowName": "Concrete"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Concrete_Curved_Set",
@@ -13185,7 +13424,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Concrete_General"
+          },
+          "Type": {
+            "RowName": "Concrete"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Concrete_Wall_Curved",
@@ -13223,7 +13469,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Concrete_General"
+          },
+          "Type": {
+            "RowName": "Concrete"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Concrete_Diagonal_Curved_Wall_Angles",
@@ -13273,7 +13526,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Concrete_General"
+          },
+          "Type": {
+            "RowName": "Concrete"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Concrete_Roof_CurvedAngles",
@@ -13323,7 +13583,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Concrete_General"
+          },
+          "Type": {
+            "RowName": "Concrete"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Concrete_Advanced_Beam_Set",
@@ -13373,7 +13640,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Concrete_Beam"
+          },
+          "Type": {
+            "RowName": "Concrete"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "Glass_Diagonal_Set",
@@ -13435,7 +13709,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Glass_Curved_Set",
@@ -13467,7 +13748,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Glass_Wall_Curved",
@@ -13505,7 +13793,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Glass_Diagonal_Curved_Wall_Angles",
@@ -13555,7 +13850,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Glass_Roof_CurvedAngles",
@@ -13605,7 +13907,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Glass_Advanced_Beam_Set",
@@ -13655,7 +13964,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "Stone_Diagonal_Set",
@@ -13717,7 +14033,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Stone_Curved_Set",
@@ -13749,7 +14072,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Stone_Wall_Curved",
@@ -13787,7 +14117,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Stone_Diagonal_Curved_Wall_Angles",
@@ -13837,7 +14174,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Stone_Roof_CurvedAngles",
@@ -13887,7 +14231,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Stone_Advanced_Beam_Set",
@@ -13937,7 +14288,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_Beam"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "Scoria_Diagonal_Set",
@@ -13999,7 +14357,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Scoria"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Scoria_Curved_Set",
@@ -14031,7 +14396,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Scoria_General"
+          },
+          "Type": {
+            "RowName": "Scoria"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Scoria_Wall_Curved",
@@ -14069,7 +14441,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Stone"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Scoria_Diagonal_Curved_Wall_Angles",
@@ -14119,7 +14498,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Scoria"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Scoria_Roof_CurvedAngles",
@@ -14169,7 +14555,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_General"
+          },
+          "Type": {
+            "RowName": "Scoria"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Scoria_Advanced_Beam_Set",
@@ -14219,7 +14612,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Stone_Beam"
+          },
+          "Type": {
+            "RowName": "Scoria"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "ScoriaBrick_Diagonal_Set",
@@ -14281,7 +14681,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Scoria_Brick"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "ScoriaBrick_Curved_Set",
@@ -14313,7 +14720,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Scoria_Brick"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "ScoriaBrick_Wall_Curved",
@@ -14351,7 +14765,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Scoria_Brick"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "ScoriaBrick_Diagonal_Curved_Wall_Angles",
@@ -14401,7 +14822,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Scoria_Brick"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "ScoriaBrick_Roof_CurvedAngles",
@@ -14451,7 +14879,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Scoria_Brick"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "ScoriaBrick_Advanced_Beam_Set",
@@ -14501,7 +14936,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_Beam"
+          },
+          "Type": {
+            "RowName": "Scoria_Brick"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "StoneBrick_Diagonal_Set",
@@ -14563,7 +15005,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Stone_Brick"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "StoneBrick_Curved_Set",
@@ -14595,7 +15044,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Stone_Brick"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "StoneBrick_Wall_Curved",
@@ -14633,7 +15089,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Stone_Brick"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "StoneBrick_Diagonal_Curved_Wall_Angles",
@@ -14683,7 +15146,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Stone_Brick"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "StoneBrick_Roof_CurvedAngles",
@@ -14733,7 +15203,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_General"
+          },
+          "Type": {
+            "RowName": "Stone_Brick"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "StoneBrick_Advanced_Beam_Set",
@@ -14783,7 +15260,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Clay_Brick_Beam"
+          },
+          "Type": {
+            "RowName": "Stone_Brick"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "Glass_Diagonal_Set_Tempered",
@@ -14845,7 +15329,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Glass_Curved_Set_Tempered",
@@ -14877,7 +15368,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Glass_Wall_Curved_Tempered",
@@ -14915,7 +15413,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Glass_Diagonal_Curved_Wall_Angles_Tempered",
@@ -14965,7 +15470,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Glass_Roof_CurvedAngles_Tempered",
@@ -15015,7 +15527,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Ramp"
         },
         {
           "Name": "Glass_Advanced_Beam_Set_Tempered",
@@ -15065,7 +15584,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Glass_General"
+          },
+          "Type": {
+            "RowName": "Glass"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "Limestone_Halfpiece",
@@ -15115,7 +15641,14 @@
               }
             }
           ],
-          "RepairItems": []
+          "RepairItems": [],
+          "Stability": {
+            "RowName": "Limestone_General"
+          },
+          "Type": {
+            "RowName": "Limestone"
+          },
+          "PieceType": "Wall"
         },
         {
           "Name": "Iron_Frame",
@@ -15139,7 +15672,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"Iron_Frame-Description\", \"Iron frame pieces including full frames, pillars, and half frames.\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Iron_Frame-Description\", \"Iron frame pieces including full frames, pillars, and half frames.\")",
+          "Stability": {
+            "RowName": "Iron_General"
+          },
+          "Type": {
+            "RowName": "Iron"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "Limestone_Frame",
@@ -15163,7 +15703,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"Limestone_Frame-Description\", \"Limestone frame pieces including full frames, pillars, and half frames.\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Limestone_Frame-Description\", \"Limestone frame pieces including full frames, pillars, and half frames.\")",
+          "Stability": {
+            "RowName": "Concrete_Frame"
+          },
+          "Type": {
+            "RowName": "Limestone"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "ReinforcedWood_Frame",
@@ -15187,7 +15734,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"ReinforcedWood_Frame-Description\", \"Reinforced wood frame pieces including full frames, pillars, and half frames.\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"ReinforcedWood_Frame-Description\", \"Reinforced wood frame pieces including full frames, pillars, and half frames.\")",
+          "Stability": {
+            "RowName": "Reinforced_Wood_General"
+          },
+          "Type": {
+            "RowName": "ReinforcedWood"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "Sandworm_Frame",
@@ -15211,7 +15765,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"Sandworm_Frame-Description\", \"Sandworm scale frame pieces including full frames, pillars, and half frames.\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Sandworm_Frame-Description\", \"Sandworm scale frame pieces including full frames, pillars, and half frames.\")",
+          "Stability": {
+            "RowName": "Sandworm_General"
+          },
+          "Type": {
+            "RowName": "Sandworm"
+          },
+          "PieceType": "Frame"
         },
         {
           "Name": "Scoria_Frame",
@@ -15235,7 +15796,14 @@
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"Scoria_Frame-Description\", \"Scoria frame pieces including full frames, pillars, and half frames.\")"
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Scoria_Frame-Description\", \"Scoria frame pieces including full frames, pillars, and half frames.\")",
+          "Stability": {
+            "RowName": "Stone_Frame"
+          },
+          "Type": {
+            "RowName": "Scoria"
+          },
+          "PieceType": "Frame"
         }
       ]
     },
@@ -16469,240 +17037,240 @@
         {
           "Name": "StoneBrick_Roof_CurvedAngle_Up_L",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Roof_CurvedAngle_Up_Stone_L/M_BLD_Roof_CurvedAngle_Up_Stone_Scoria_L_A.M_BLD_Roof_CurvedAngle_Up_Stone_Scoria_L_A"
+            "0": "/Game/ASS/BLD/Brick/Roof_Brick/M_BLD_Roof_Brick_Stone_2.M_BLD_Roof_Brick_Stone_2"
           }
         },
         {
           "Name": "StoneBrick_Roof_CurvedAngle_Down_L",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Roof_CurvedAngle_Down_Stone_L/M_BLD_Roof_CurvedAngle_Down_Stone_Scoria_L_A.M_BLD_Roof_CurvedAngle_Down_Stone_Scoria_L_A"
+            "0": "/Game/ASS/BLD/Brick/Roof_Brick/M_BLD_Roof_Brick_Stone_2.M_BLD_Roof_Brick_Stone_2"
           }
         },
         {
           "Name": "StoneBrick_Roof_CurvedAngle_Up_L_Invert",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Roof_CurvedAngle_Up_Inverted_Stone_L/M_BLD_Roof_CurvedAngle_Up_Inverted_Stone_Scoria_L_A.M_BLD_Roof_CurvedAngle_Up_Inverted_Stone_Scoria_L_A"
+            "0": "/Game/ASS/BLD/Brick/Roof_Brick/M_BLD_Roof_Brick_Stone_2.M_BLD_Roof_Brick_Stone_2"
           }
         },
         {
           "Name": "StoneBrick_Roof_CurvedAngle_Down_L_Invert",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Roof_CurvedAngle_Down_Inverted_Stone_L/M_BLD_Roof_CurvedAngle_Down_Inverted_Stone_Scoria_L_A.M_BLD_Roof_CurvedAngle_Down_Inverted_Stone_Scoria_L_A"
+            "0": "/Game/ASS/BLD/Brick/Roof_Brick/M_BLD_Roof_Brick_Stone_2.M_BLD_Roof_Brick_Stone_2"
           }
         },
         {
           "Name": "StoneBrick_Roof_CurvedAngle_Up_R",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Roof_CurvedAngle_Up_Stone_R/M_BLD_Roof_CurvedAngle_Up_Stone_Scoria_R_A.M_BLD_Roof_CurvedAngle_Up_Stone_Scoria_R_A"
+            "0": "/Game/ASS/BLD/Brick/Roof_Brick/M_BLD_Roof_Brick_Stone_2.M_BLD_Roof_Brick_Stone_2"
           }
         },
         {
           "Name": "StoneBrick_Roof_CurvedAngle_Down_R",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Roof_CurvedAngle_Down_Stone_R/M_BLD_Roof_CurvedAngle_Down_Stone_Scoria_R_A.M_BLD_Roof_CurvedAngle_Down_Stone_Scoria_R_A"
+            "0": "/Game/ASS/BLD/Brick/Roof_Brick/M_BLD_Roof_Brick_Stone_2.M_BLD_Roof_Brick_Stone_2"
           }
         },
         {
           "Name": "StoneBrick_Roof_CurvedAngle_Up_R_Invert",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Roof_CurvedAngle_Up_Inverted_Stone_R/M_BLD_Roof_CurvedAngle_Up_Inverted_Stone_Scoria_R_A.M_BLD_Roof_CurvedAngle_Up_Inverted_Stone_Scoria_R_A"
+            "0": "/Game/ASS/BLD/Brick/Roof_Brick/M_BLD_Roof_Brick_Stone_2.M_BLD_Roof_Brick_Stone_2"
           }
         },
         {
           "Name": "StoneBrick_Roof_CurvedAngle_Down_R_Invert",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Roof_CurvedAngle_Down_Inverted_Stone_R/M_BLD_Roof_CurvedAngle_Down_Inverted_Stone_Scoria_R_A.M_BLD_Roof_CurvedAngle_Down_Inverted_Stone_Scoria_R_A"
+            "0": "/Game/ASS/BLD/Brick/Roof_Brick/M_BLD_Roof_Brick_Stone_2.M_BLD_Roof_Brick_Stone_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Solid",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_Diagonal_Solid_Stone/M_BLD_Wall_Diagonal_Solid_Stone_Scoria_A.M_BLD_Wall_Diagonal_Solid_Stone_Scoria_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_Diagonal_Solid_Stone/M_BLD_Wall_Diagonal_Solid_Stone_Scoria_B.M_BLD_Wall_Diagonal_Solid_Stone_Scoria_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Angle_Left",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_Diagonal_Angle_Stone_L/M_BLD_Wall_Diagonal_Angle_Stone_Scoria_L_A.M_BLD_Wall_Diagonal_Angle_Stone_Scoria_L_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_Diagonal_Angle_Stone_L/M_BLD_Wall_Diagonal_Angle_Stone_Scoria_L_B.M_BLD_Wall_Diagonal_Angle_Stone_Scoria_L_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Angle_Left_Invert",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_Diagonal_Angle_Stone_L_Inverted/M_BLD_Wall_Diagonal_Angle_Stone_Scoria_L_Inverted_A.M_BLD_Wall_Diagonal_Angle_Stone_Scoria_L_Inverted_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_Diagonal_Angle_Stone_L_Inverted/M_BLD_Wall_Diagonal_Angle_Stone_Scoria_L_Inverted_B.M_BLD_Wall_Diagonal_Angle_Stone_Scoria_L_Inverted_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Angle_Right",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_Diagonal_Angle_Stone_R/M_BLD_Wall_Diagonal_Angle_Stone_Scoria_R_A.M_BLD_Wall_Diagonal_Angle_Stone_Scoria_R_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_Diagonal_Angle_Stone_R/M_BLD_Wall_Diagonal_Angle_Stone_Scoria_R_B.M_BLD_Wall_Diagonal_Angle_Stone_Scoria_R_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Angle_Right_Invert",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_Diagonal_Angle_Stone_R_Inverted/M_BLD_Wall_Diagonal_Angle_Stone_Scoria_R_Inverted_A.M_BLD_Wall_Diagonal_Angle_Stone_Scoria_R_Inverted_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_Diagonal_Angle_Stone_R_Inverted/M_BLD_Wall_Diagonal_Angle_Stone_Scoria_R_Inverted_B.M_BLD_Wall_Diagonal_Angle_Stone_Scoria_R_Inverted_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Floor",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Floor_Diagonal_Stone/M_BLD_Floor_Diagonal_Stone_Scoria_A.M_BLD_Floor_Diagonal_Stone_Scoria_A",
-            "1": "/Game/ASS/BLD/Stone/Floor_Diagonal_Stone/M_BLD_Floor_Diagonal_Stone_Scoria_B.M_BLD_Floor_Diagonal_Stone_Scoria_B",
-            "2": "/Game/ASS/BLD/Stone/Floor_Diagonal_Stone/M_BLD_Floor_Diagonal_Stone_Scoria_C.M_BLD_Floor_Diagonal_Stone_Scoria_C"
+            "0": "/Game/ASS/BLD/Brick/Floor_Brick/M_BLD_Floor_Brick_Stone_1.M_BLD_Floor_Brick_Stone_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2",
+            "2": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Ramp_Roof",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Roof_Diagonal_Stone/M_BLD_Roof_Diagonal_Stone_Scoria_A.M_BLD_Roof_Diagonal_Stone_Scoria_A",
-            "1": "/Game/ASS/BLD/Stone/Roof_Diagonal_Stone/M_BLD_Roof_Diagonal_Inverted_Stone_Scoria_A.M_BLD_Roof_Diagonal_Inverted_Stone_Scoria_A"
+            "0": "/Game/ASS/BLD/Brick/Roof_Brick/M_BLD_Roof_Brick_Stone_2.M_BLD_Roof_Brick_Stone_2",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Beam_Horizontal",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Beam_Horizontal_Diagonal_Stone/M_BLD_Beam_Horizontal_Diagonal_Stone_Scoria_A.M_BLD_Beam_Horizontal_Diagonal_Stone_Scoria_A"
+            "0": "/Game/ASS/BLD/Brick/BeamDiagonal_Brick/M_BLD_BeamDiagonal_Brick_Stone.M_BLD_BeamDiagonal_Brick_Stone"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Beam_Diagonal",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Beam_Diagonal_Angle_Stone/M_BLD_Beam_Diagonal_Angle_Stone_Scoria_A.M_BLD_Beam_Diagonal_Angle_Stone_Scoria_A"
+            "0": "/Game/ASS/BLD/Brick/BeamDiagonal_Brick/M_BLD_BeamDiagonal_Brick_Stone.M_BLD_BeamDiagonal_Brick_Stone"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Curved_Floor",
           "BaseMeshMaterialSlotOverrides": {
-            "2": "/Game/ASS/BLD/Stone/Floor_Diagonal_Curved_Stone/M_BLD_Floor_Curved_Stone_Scoria_A.M_BLD_Floor_Curved_Stone_Scoria_A",
-            "0": "/Game/ASS/BLD/Stone/Floor_Diagonal_Curved_Stone/M_BLD_Floor_Curved_Stone_Scoria_B.M_BLD_Floor_Curved_Stone_Scoria_B",
-            "1": "/Game/ASS/BLD/Stone/Floor_Diagonal_Curved_Stone/M_BLD_Floor_Curved_Stone_Scoria_C.M_BLD_Floor_Curved_Stone_Scoria_C"
+            "2": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2",
+            "0": "/Game/ASS/BLD/Brick/Floor_Brick/M_BLD_Floor_Brick_Stone_1.M_BLD_Floor_Brick_Stone_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Curved_Ramp_Roof",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/RoofCorner_Curved_Stone/M_BLD_RoofCorner_Curved_Stone_Scoria.M_BLD_RoofCorner_Curved_Stone_Scoria"
+            "0": "/Game/ASS/BLD/Brick/Roof_Brick/M_BLD_Roof_Brick_Stone_2.M_BLD_Roof_Brick_Stone_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Beam_Curved_Horizontal",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Beam_Curved_Horizontal_Diagonal_Stone/M_BLD_Beam_Curved_Horizontal_Diagonal_Stone_Scoria_A.M_BLD_Beam_Curved_Horizontal_Diagonal_Stone_Scoria_A"
+            "0": "/Game/ASS/BLD/Brick/BeamDiagonal_Brick/M_BLD_BeamDiagonal_Brick_Stone.M_BLD_BeamDiagonal_Brick_Stone"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Beam_Curved_Diagonal",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Beam_Curved_Diagonal_Stone/M_BLD_Beam_Curved_Diagonal_Stone_Scoria_A.M_BLD_Beam_Curved_Diagonal_Stone_Scoria_A"
+            "0": "/Game/ASS/BLD/Brick/BeamDiagonal_Brick/M_BLD_BeamDiagonal_Brick_Stone.M_BLD_BeamDiagonal_Brick_Stone"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Curved_Solid",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_Curved_Stone/M_BLD_Wall_Curved_Stone_Scoria_A.M_BLD_Wall_Curved_Stone_Scoria_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_Curved_Stone/M_BLD_Wall_Curved_Stone_Scoria_B.M_BLD_Wall_Curved_Stone_Scoria_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_L",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Up_Stone_L/M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_L_A.M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_L_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Up_Stone_L/M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_L_B.M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_L_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_L",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Down_Stone_L/M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_L_A.M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_L_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Down_Stone_L/M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_L_B.M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_L_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_L_Invert",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Up_Stone_L_Inverted/M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_L_Inverted_A.M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_L_Inverted_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Up_Stone_L_Inverted/M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_L_Inverted_B.M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_L_Inverted_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_L_Invert",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Down_Stone_L_Inverted/M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_L_Inverted_A.M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_L_Inverted_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Down_Stone_L_Inverted/M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_L_Inverted_B.M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_L_Inverted_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_R",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Up_Stone_R/M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_R_A.M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_R_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Up_Stone_R/M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_R_B.M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_R_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_R",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Down_Stone_R/M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_R_A.M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_R_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Down_Stone_R/M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_R_B.M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_R_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_R_Invert",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Up_Stone_R_Inverted/M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_R_Inverted_A.M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_R_Inverted_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Up_Stone_R_Inverted/M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_R_Inverted_B.M_BLD_Wall_CurvedAngle_Up_Stone_Scoria_R_Inverted_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_R_Invert",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Down_Stone_R_Inverted/M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_R_Inverted_A.M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_R_Inverted_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_CurvedAngle_Down_Stone_R_Inverted/M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_R_Inverted_B.M_BLD_Wall_CurvedAngle_Down_Stone_Scoria_R_Inverted_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Ramp_Curved",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Roof_Curved_Stone/M_BLD_Roof_Curved_Stone_Scoria.M_BLD_Roof_Curved_Stone_Scoria"
+            "0": "/Game/ASS/BLD/Brick/Roof_Brick/M_BLD_Roof_Brick_Stone_2.M_BLD_Roof_Brick_Stone_2"
           }
         },
         {
           "Name": "StoneBrick_Wall_Curved_Angle_L",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_Angle_Curved_Stone_L/M_BLD_Wall_Angle_Curved_Stone_Scoria_L_A.M_BLD_Wall_Angle_Curved_Stone_Scoria_L_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_Angle_Curved_Stone_L/M_BLD_Wall_Angle_Curved_Stone_Scoria_L_B.M_BLD_Wall_Angle_Curved_Stone_Scoria_L_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Wall_Curved_Angle_L_Invert",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_Angle_Curved_Stone_L_Inverted/M_BLD_Wall_Angle_Curved_Stone_Scoria_L_Inverted_A.M_BLD_Wall_Angle_Curved_Stone_Scoria_L_Inverted_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_Angle_Curved_Stone_L_Inverted/M_BLD_Wall_Angle_Curved_Stone_Scoria_L_Inverted_B.M_BLD_Wall_Angle_Curved_Stone_Scoria_L_Inverted_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Wall_Curved_Angle_R",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_Angle_Curved_Stone_R/M_BLD_Wall_Angle_Curved_Stone_Scoria_R_A.M_BLD_Wall_Angle_Curved_Stone_Scoria_R_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_Angle_Curved_Stone_R/M_BLD_Wall_Angle_Curved_Stone_Scoria_R_B.M_BLD_Wall_Angle_Curved_Stone_Scoria_R_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Wall_Curved_Angle_R_Invert",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Wall_Angle_Curved_Stone_R_Inverted/M_BLD_Wall_Angle_Curved_Stone_Scoria_R_Inverted_A.M_BLD_Wall_Angle_Curved_Stone_Scoria_R_Inverted_A",
-            "1": "/Game/ASS/BLD/Stone/Wall_Angle_Curved_Stone_R_Inverted/M_BLD_Wall_Angle_Curved_Stone_Scoria_R_Inverted_B.M_BLD_Wall_Angle_Curved_Stone_Scoria_R_Inverted_B"
+            "0": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_1.M_BLD_Wall_Brick_Stone_L_1",
+            "1": "/Game/ASS/BLD/Brick/Wall_Brick/M_BLD_Wall_Brick_Stone_L_2.M_BLD_Wall_Brick_Stone_L_2"
           }
         },
         {
           "Name": "StoneBrick_Beam_Curved_Diagonal",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Beam_Angle_Curved_Stone/M_BLD_Beam_Angle_Curved_Stone_Scoria_A.M_BLD_Beam_Angle_Curved_Stone_Scoria_A"
+            "0": "/Game/ASS/BLD/Brick/BeamDiagonal_Brick/M_BLD_BeamDiagonal_Brick_Stone.M_BLD_BeamDiagonal_Brick_Stone"
           }
         },
         {
