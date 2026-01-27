@@ -1,7 +1,7 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "2.11.7",
+  "version": "2.11.8",
   "description": "Unlocks 876 hidden building pieces including diagonal/curved sets, frames (11 materials), corner stairs, and roof peak connectors/caps for all materials",
   "fileName": "Hidden_Building_Pieces",
   "Level2": "True",
@@ -4515,7 +4515,7 @@
             "RowName": "Place"
           },
           "Durable": {
-            "RowName": "MetalGrate_Building"
+            "RowName": "Iron_Building"
           },
           "Decayable": {
             "RowName": "Decay_General"
@@ -5660,7 +5660,7 @@
         {
           "Name": "TemperedGlass_RoofPeak",
           "Durable": {
-            "RowName": "TemperedGlass_Building",
+            "RowName": "Tempered_Glass_Building",
             "DataTableName": "D_Durability"
           },
           "Audio": {
@@ -5923,7 +5923,7 @@
             "RowName": "Place"
           },
           "Durable": {
-            "RowName": "MetalGrate_Building"
+            "RowName": "Iron_Building"
           },
           "Decayable": {
             "RowName": "Decay_General"
@@ -25985,7 +25985,180 @@
           }
         }
       ]
+    },
+    {
+      "CurrentFile": "/Game/Data/Traits/D_Durable",
+      "File_Items": [
+        {
+          "Name": "Thatch_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Wood_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Wood_Building_Refined",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Iron_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Aluminium_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Concrete_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Concrete_Mix",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Limestone_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Limestone",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Clay_Brick_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Bricks_Cement",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Scoria_Brick_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Bricks_Scoria",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Stone_Brick_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Bricks_Stone",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Ice_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Ice",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Glass_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Glass",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Tempered_Glass_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Tempered_Glass",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Sandworm_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Sandworm_Chitin",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "ReinforcedWood_Building",
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Refined_Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        }
+      ]
     }
   ],
-  "Version": "2.10.0"
+  "Version": "2.11.8"
 }

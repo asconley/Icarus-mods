@@ -71,6 +71,14 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 
 ## Changelog
 
+### v2.11.8
+- **REPAIR FIX:** Fixed 3 items referencing non-existent durability types
+  - `TemperedGlass_Building` → `Tempered_Glass_Building` (typo fix)
+  - `MetalGrate_Building` → `Iron_Building` (didn't exist)
+- **REPAIR ENHANCEMENT:** Added D_Durable entries with ItemsForRepair for 14 building types
+  - All building materials can now be repaired with a hammer using appropriate materials
+  - Thatch → Fiber, Wood → Wood, Concrete → Concrete_Mix, etc.
+
 ### v2.11.7
 - **TEXTURE FIX:** Fixed 24 buildables with wrong `Type` references causing wrong textures and glass-like break behavior
 - **TEXTURE FIX:** StoneBrick items now correctly use `Stone_Brick` type instead of `Stone`
