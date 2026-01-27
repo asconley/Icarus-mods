@@ -71,6 +71,12 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 
 ## Changelog
 
+### v2.11.6
+- **REPAIR FIX:** Fixed all 104 items having wrong `Building.*` tags - items now repair with correct materials
+- **REPAIR FIX:** Added missing `Building.*` and `Audio.Shelter` tags to all RoofPeak items
+- **AUDIO FIX:** Fixed Audio references for all materials (Brick, StoneDeployable, IceBuilding, WoodDeployable, etc.)
+- Tags fixed: ClayBrick, ScoriaBrick, StoneBrick, TemperedGlass, Limestone, MetalGrate, ReinforcedWood, Sandworm, Thatch items
+
 ### v2.11.5
 - **BUILDABLE FIX:** Fixed all RoofPeak sets that were empty - added Connector and Cap pieces for all 15 materials
 - **BUILDABLE FIX:** Fixed StoneBrick missing pieces - added 7 building pieces (diagonal invert, beam variants)

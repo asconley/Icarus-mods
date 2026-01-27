@@ -1,7 +1,7 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "2.11.5",
+  "version": "2.11.6",
   "description": "Unlocks 876 hidden building pieces including diagonal/curved sets, frames (11 materials), corner stairs, and roof peak connectors/caps for all materials",
   "fileName": "Hidden_Building_Pieces",
   "Level2": "True",
@@ -1305,7 +1305,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -1313,7 +1313,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ClayBrick"
               }
             ]
           }
@@ -1354,7 +1354,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -1452,7 +1452,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -1460,7 +1460,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ScoriaBrick"
               }
             ]
           }
@@ -1501,7 +1501,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -1550,7 +1550,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -1558,7 +1558,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.StoneBrick"
               }
             ]
           }
@@ -1599,7 +1599,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -1658,7 +1658,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Glass"
+                "TagName": "Building.GlassTempered"
               }
             ]
           }
@@ -1748,7 +1748,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -1756,7 +1756,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ClayBrick"
               }
             ]
           }
@@ -1799,7 +1799,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -1901,7 +1901,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -1909,7 +1909,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ScoriaBrick"
               }
             ]
           }
@@ -1952,7 +1952,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2003,7 +2003,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2011,7 +2011,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.StoneBrick"
               }
             ]
           }
@@ -2054,7 +2054,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2113,7 +2113,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Glass"
+                "TagName": "Building.GlassTempered"
               }
             ]
           }
@@ -2203,7 +2203,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2211,7 +2211,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ClayBrick"
               }
             ]
           }
@@ -2252,7 +2252,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2399,7 +2399,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2407,7 +2407,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ScoriaBrick"
               }
             ]
           }
@@ -2448,7 +2448,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2497,7 +2497,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2505,7 +2505,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.StoneBrick"
               }
             ]
           }
@@ -2546,7 +2546,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2605,7 +2605,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Glass"
+                "TagName": "Building.GlassTempered"
               }
             ]
           }
@@ -2695,7 +2695,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2703,7 +2703,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ClayBrick"
               }
             ]
           }
@@ -2744,7 +2744,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2842,7 +2842,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2850,7 +2850,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ScoriaBrick"
               }
             ]
           }
@@ -2891,7 +2891,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2940,7 +2940,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -2948,7 +2948,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.StoneBrick"
               }
             ]
           }
@@ -2989,7 +2989,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3048,7 +3048,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Glass"
+                "TagName": "Building.GlassTempered"
               }
             ]
           }
@@ -3138,7 +3138,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3146,7 +3146,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ClayBrick"
               }
             ]
           }
@@ -3187,7 +3187,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3285,7 +3285,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3293,7 +3293,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ScoriaBrick"
               }
             ]
           }
@@ -3334,7 +3334,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3383,7 +3383,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3391,7 +3391,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.StoneBrick"
               }
             ]
           }
@@ -3432,7 +3432,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3491,7 +3491,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Glass"
+                "TagName": "Building.GlassTempered"
               }
             ]
           }
@@ -3581,7 +3581,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3589,7 +3589,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ClayBrick"
               }
             ]
           }
@@ -3630,7 +3630,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3728,7 +3728,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3736,7 +3736,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ScoriaBrick"
               }
             ]
           }
@@ -3777,7 +3777,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3826,7 +3826,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3834,7 +3834,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.StoneBrick"
               }
             ]
           }
@@ -3875,7 +3875,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "Default"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -3934,7 +3934,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Glass"
+                "TagName": "Building.GlassTempered"
               }
             ]
           }
@@ -3997,7 +3997,7 @@
             "RowName": "Clay_Brick_Building"
           },
           "Audio": {
-            "RowName": "StoneDeployable"
+            "RowName": "Brick"
           },
           "Itemable": {
             "RowName": "Item_ClayBrick_Frame"
@@ -4049,7 +4049,7 @@
             "RowName": "Glass_Building"
           },
           "Audio": {
-            "RowName": "StoneDeployable"
+            "RowName": "Default"
           },
           "Itemable": {
             "RowName": "Item_Glass_Frame"
@@ -4101,7 +4101,7 @@
             "RowName": "Ice_Building"
           },
           "Audio": {
-            "RowName": "StoneDeployable"
+            "RowName": "IceBuilding"
           },
           "Itemable": {
             "RowName": "Item_Ice_Frame"
@@ -4153,7 +4153,7 @@
             "RowName": "Scoria_Brick_Building"
           },
           "Audio": {
-            "RowName": "StoneDeployable"
+            "RowName": "Brick"
           },
           "Itemable": {
             "RowName": "Item_ScoriaBrick_Frame"
@@ -4205,7 +4205,7 @@
             "RowName": "Stone_Brick_Building"
           },
           "Audio": {
-            "RowName": "StoneDeployable"
+            "RowName": "Brick"
           },
           "Itemable": {
             "RowName": "Item_StoneBrick_Frame"
@@ -4257,7 +4257,7 @@
             "RowName": "Tempered_Glass_Building"
           },
           "Audio": {
-            "RowName": "StoneDeployable"
+            "RowName": "Default"
           },
           "Itemable": {
             "RowName": "Item_TemperedGlass_Frame"
@@ -4292,7 +4292,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.TemperedGlass"
+                "TagName": "Building.GlassTempered"
               }
             ]
           },
@@ -4309,7 +4309,7 @@
             "RowName": "Clay_Brick_Building"
           },
           "Audio": {
-            "RowName": "StoneDeployable"
+            "RowName": "Brick"
           },
           "Itemable": {
             "RowName": "Item_ClayBrick_CornerStairs"
@@ -4358,7 +4358,7 @@
             "RowName": "Ice_Building"
           },
           "Audio": {
-            "RowName": "StoneDeployable"
+            "RowName": "IceBuilding"
           },
           "Itemable": {
             "RowName": "Item_Ice_CornerStairs"
@@ -4441,7 +4441,7 @@
           "Manual_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.Limestone"
               },
               {
                 "TagName": "Audio.Shelter"
@@ -4526,7 +4526,7 @@
           "Manual_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.Aluminium"
               },
               {
                 "TagName": "Audio.Shelter"
@@ -4619,7 +4619,7 @@
           "Manual_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.BeeswaxWood"
               },
               {
                 "TagName": "Audio.Shelter"
@@ -4708,7 +4708,7 @@
           "Manual_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.Sandworm"
               },
               {
                 "TagName": "Audio.Shelter"
@@ -4792,12 +4792,12 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "StoneDeployable"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.ScoriaBrick"
               },
               {
                 "TagName": "Audio.Shelter"
@@ -4930,12 +4930,12 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "StoneDeployable"
+            "RowName": "Brick"
           },
           "Manual_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.StoneBrick"
               },
               {
                 "TagName": "Audio.Shelter"
@@ -5019,12 +5019,12 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "ThatchDeployable"
+            "RowName": "Thatch_Buildable"
           },
           "Manual_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
+                "TagName": "Building.Thatch"
               },
               {
                 "TagName": "Audio.Shelter"
@@ -5128,7 +5128,7 @@
             "RowName": "Glass_Building"
           },
           "Audio": {
-            "RowName": "StoneDeployable"
+            "RowName": "Default"
           },
           "Itemable": {
             "RowName": "Item_Glass_Stairs"
@@ -5228,7 +5228,7 @@
             "RowName": "Tempered_Glass_Building"
           },
           "Audio": {
-            "RowName": "StoneDeployable"
+            "RowName": "Default"
           },
           "Itemable": {
             "RowName": "Item_TemperedGlass_Stairs"
@@ -5263,7 +5263,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.TemperedGlass"
+                "TagName": "Building.GlassTempered"
               }
             ]
           }
@@ -5275,8 +5275,7 @@
             "DataTableName": "D_Durability"
           },
           "Audio": {
-            "RowName": "BrickDeployable",
-            "DataTableName": "D_AudioAssets"
+            "RowName": "Brick"
           },
           "Buildable": {
             "RowName": "Clay_Brick_RoofPeak_Set",
@@ -5289,6 +5288,16 @@
           "Itemable": {
             "RowName": "Item_Clay_Brick_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.ClayBrick"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5298,8 +5307,7 @@
             "DataTableName": "D_Durability"
           },
           "Audio": {
-            "RowName": "ConcreteDeployable",
-            "DataTableName": "D_AudioAssets"
+            "RowName": "StoneDeployable"
           },
           "Buildable": {
             "RowName": "Concrete_RoofPeak_Set",
@@ -5312,6 +5320,16 @@
           "Itemable": {
             "RowName": "Item_Concrete_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Concrete"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5321,8 +5339,7 @@
             "DataTableName": "D_Durability"
           },
           "Audio": {
-            "RowName": "GlassDeployable",
-            "DataTableName": "D_AudioAssets"
+            "RowName": "Default"
           },
           "Buildable": {
             "RowName": "Glass_RoofPeak_Set",
@@ -5335,6 +5352,16 @@
           "Itemable": {
             "RowName": "Item_Glass_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Glass"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5344,8 +5371,7 @@
             "DataTableName": "D_Durability"
           },
           "Audio": {
-            "RowName": "IceDeployable",
-            "DataTableName": "D_AudioAssets"
+            "RowName": "IceBuilding"
           },
           "Buildable": {
             "RowName": "Ice_RoofPeak_Set",
@@ -5358,6 +5384,16 @@
           "Itemable": {
             "RowName": "Item_Ice_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Ice"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5381,6 +5417,16 @@
           "Itemable": {
             "RowName": "Item_Iron_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Aluminium"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5390,8 +5436,7 @@
             "DataTableName": "D_Durability"
           },
           "Audio": {
-            "RowName": "MetalDeployable",
-            "DataTableName": "D_AudioAssets"
+            "RowName": "StoneDeployable"
           },
           "Buildable": {
             "RowName": "Limestone_RoofPeak_Set",
@@ -5404,6 +5449,16 @@
           "Itemable": {
             "RowName": "Item_Limestone_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Limestone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5427,6 +5482,16 @@
           "Itemable": {
             "RowName": "Item_ReinforcedWood_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.BeeswaxWood"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5450,6 +5515,16 @@
           "Itemable": {
             "RowName": "Item_Sandworm_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Sandworm"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5459,8 +5534,7 @@
             "DataTableName": "D_Durability"
           },
           "Audio": {
-            "RowName": "BrickDeployable",
-            "DataTableName": "D_AudioAssets"
+            "RowName": "Brick"
           },
           "Buildable": {
             "RowName": "Scoria_Brick_RoofPeak_Set",
@@ -5473,6 +5547,16 @@
           "Itemable": {
             "RowName": "Item_Scoria_Brick_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.ScoriaBrick"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5496,6 +5580,16 @@
           "Itemable": {
             "RowName": "Item_Scoria_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Scoria"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5505,8 +5599,7 @@
             "DataTableName": "D_Durability"
           },
           "Audio": {
-            "RowName": "BrickDeployable",
-            "DataTableName": "D_AudioAssets"
+            "RowName": "Brick"
           },
           "Buildable": {
             "RowName": "Stone_Brick_RoofPeak_Set",
@@ -5519,6 +5612,16 @@
           "Itemable": {
             "RowName": "Item_Stone_Brick_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.StoneBrick"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5542,6 +5645,16 @@
           "Itemable": {
             "RowName": "Item_Stone_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5551,8 +5664,7 @@
             "DataTableName": "D_Durability"
           },
           "Audio": {
-            "RowName": "GlassDeployable",
-            "DataTableName": "D_AudioAssets"
+            "RowName": "Default"
           },
           "Buildable": {
             "RowName": "TemperedGlass_RoofPeak_Set",
@@ -5565,6 +5677,16 @@
           "Itemable": {
             "RowName": "Item_TemperedGlass_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.GlassTempered"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5574,8 +5696,7 @@
             "DataTableName": "D_Durability"
           },
           "Audio": {
-            "RowName": "ThatchDeployable",
-            "DataTableName": "D_AudioAssets"
+            "RowName": "Thatch_Buildable"
           },
           "Buildable": {
             "RowName": "Thatch_RoofPeak_Set",
@@ -5588,6 +5709,16 @@
           "Itemable": {
             "RowName": "Item_Thatch_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Thatch"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5611,6 +5742,16 @@
           "Itemable": {
             "RowName": "Item_Wood_RoofPeak",
             "DataTableName": "D_Itemable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Building.Wood"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ]
           }
         },
         {
@@ -5701,7 +5842,7 @@
             "RowName": "Decay_General"
           },
           "Audio": {
-            "RowName": "LimestoneDeployable"
+            "RowName": "StoneDeployable"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -5709,7 +5850,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Concrete"
+                "TagName": "Building.Limestone"
               }
             ]
           },
@@ -5796,7 +5937,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Iron"
+                "TagName": "Building.Aluminium"
               }
             ]
           },
@@ -5848,7 +5989,7 @@
             "RowName": "Iron_Building"
           },
           "Audio": {
-            "RowName": "IronDeployable"
+            "RowName": "MetalDeployable"
           },
           "Itemable": {
             "RowName": "Item_Iron_Frame",
@@ -5885,7 +6026,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Iron"
+                "TagName": "Building.Aluminium"
               }
             ]
           },
@@ -5939,7 +6080,7 @@
                 "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Building.Wood"
+                "TagName": "Building.BeeswaxWood"
               }
             ]
           },
@@ -5956,7 +6097,7 @@
             "RowName": "Wood_Building"
           },
           "Audio": {
-            "RowName": "WoodSandwormDeployable"
+            "RowName": "WoodDeployable"
           },
           "Itemable": {
             "RowName": "Item_Sandworm_Frame",
