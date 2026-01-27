@@ -71,6 +71,12 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 
 ## Changelog
 
+### v2.11.7
+- **TEXTURE FIX:** Fixed 24 buildables with wrong `Type` references causing wrong textures and glass-like break behavior
+- **TEXTURE FIX:** StoneBrick items now correctly use `Stone_Brick` type instead of `Stone`
+- **TEXTURE FIX:** TemperedGlass items now correctly use `Glass_Tempered` type instead of `Glass`
+- **TEXTURE FIX:** Fixed CornerStairs, RoofPeak, Frame, and Curved sets for all affected materials
+
 ### v2.11.6
 - **REPAIR FIX:** Fixed all 104 items having wrong `Building.*` tags - items now repair with correct materials
 - **REPAIR FIX:** Added missing `Building.*` and `Audio.Shelter` tags to all RoofPeak items

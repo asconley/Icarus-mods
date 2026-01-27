@@ -1,7 +1,7 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "2.11.6",
+  "version": "2.11.7",
   "description": "Unlocks 876 hidden building pieces including diagonal/curved sets, frames (11 materials), corner stairs, and roof peak connectors/caps for all materials",
   "fileName": "Hidden_Building_Pieces",
   "Level2": "True",
@@ -12583,7 +12583,7 @@
             "RowName": "Glass_General"
           },
           "Type": {
-            "RowName": "Glass"
+            "RowName": "Glass_Tempered"
           },
           "PieceType": "Frame",
           "Pieces": [
@@ -12666,7 +12666,7 @@
             "RowName": "Stone_General"
           },
           "Type": {
-            "RowName": "Stone"
+            "RowName": "Limestone"
           },
           "PieceType": "Ramp",
           "Variations": [
@@ -12704,7 +12704,7 @@
             "RowName": "Stone_General"
           },
           "Type": {
-            "RowName": "Stone"
+            "RowName": "Aluminium"
           },
           "PieceType": "Ramp",
           "Variations": [
@@ -12742,7 +12742,7 @@
             "RowName": "Stone_General"
           },
           "Type": {
-            "RowName": "Stone"
+            "RowName": "BeeswaxWood"
           },
           "PieceType": "Ramp",
           "Variations": [
@@ -12780,7 +12780,7 @@
             "RowName": "Stone_General"
           },
           "Type": {
-            "RowName": "Stone"
+            "RowName": "Sandworm"
           },
           "PieceType": "Ramp",
           "Variations": [
@@ -12818,7 +12818,7 @@
             "RowName": "Stone_General"
           },
           "Type": {
-            "RowName": "Stone"
+            "RowName": "Scoria_Brick"
           },
           "PieceType": "Ramp",
           "Variations": [
@@ -12887,7 +12887,7 @@
             "RowName": "Stone_General"
           },
           "Type": {
-            "RowName": "Stone"
+            "RowName": "Stone_Brick"
           },
           "PieceType": "Ramp",
           "Variations": [
@@ -12925,7 +12925,7 @@
             "RowName": "Stone_General"
           },
           "Type": {
-            "RowName": "Stone"
+            "RowName": "Thatch"
           },
           "PieceType": "Ramp",
           "Variations": [
@@ -13065,7 +13065,7 @@
             "RowName": "Glass_General"
           },
           "Type": {
-            "RowName": "Glass"
+            "RowName": "Glass_Tempered"
           },
           "PieceType": "Ramp",
           "Pieces": [
@@ -13267,7 +13267,7 @@
             "RowName": "Iron_General"
           },
           "Type": {
-            "RowName": "Iron"
+            "RowName": "Aluminium"
           },
           "PieceType": "Ramp",
           "Pieces": [
@@ -13349,7 +13349,7 @@
             "RowName": "Reinforced_Wood_General"
           },
           "Type": {
-            "RowName": "ReinforcedWood"
+            "RowName": "BeeswaxWood"
           },
           "PieceType": "Ramp",
           "Pieces": [
@@ -13431,7 +13431,7 @@
             "RowName": "Scoria_General"
           },
           "Type": {
-            "RowName": "Scoria"
+            "RowName": "Scoria_Brick"
           },
           "PieceType": "Ramp",
           "Pieces": [
@@ -13513,7 +13513,7 @@
             "RowName": "Stone_General"
           },
           "Type": {
-            "RowName": "Stone"
+            "RowName": "Stone_Brick"
           },
           "PieceType": "Ramp",
           "Pieces": [
@@ -13595,7 +13595,7 @@
             "RowName": "Glass_General"
           },
           "Type": {
-            "RowName": "Glass"
+            "RowName": "Glass_Tempered"
           },
           "PieceType": "Ramp",
           "Pieces": [
@@ -13695,7 +13695,7 @@
             "RowName": "Iron_General"
           },
           "Type": {
-            "RowName": "MetalGrate"
+            "RowName": "Aluminium"
           },
           "Variations": [
             {
@@ -15731,7 +15731,7 @@
             "RowName": "Stone_General"
           },
           "Type": {
-            "RowName": "Stone"
+            "RowName": "Scoria"
           },
           "PieceType": "Wall",
           "Pieces": [
@@ -17044,7 +17044,7 @@
             "RowName": "Glass_General"
           },
           "Type": {
-            "RowName": "Glass"
+            "RowName": "Glass_Tempered"
           },
           "PieceType": "Wall",
           "Pieces": [
@@ -17115,7 +17115,7 @@
             "RowName": "Glass_General"
           },
           "Type": {
-            "RowName": "Glass"
+            "RowName": "Glass_Tempered"
           },
           "PieceType": "Wall",
           "Pieces": [
@@ -17174,7 +17174,7 @@
             "RowName": "Glass_General"
           },
           "Type": {
-            "RowName": "Glass"
+            "RowName": "Glass_Tempered"
           },
           "PieceType": "Wall",
           "Pieces": [
@@ -17254,7 +17254,7 @@
             "RowName": "Glass_General"
           },
           "Type": {
-            "RowName": "Glass"
+            "RowName": "Glass_Tempered"
           },
           "PieceType": "Wall",
           "Pieces": [
@@ -17340,7 +17340,7 @@
             "RowName": "Glass_General"
           },
           "Type": {
-            "RowName": "Glass"
+            "RowName": "Glass_Tempered"
           },
           "PieceType": "Ramp",
           "Pieces": [
@@ -17423,7 +17423,7 @@
             "RowName": "Glass_General"
           },
           "Type": {
-            "RowName": "Glass"
+            "RowName": "Glass_Tempered"
           },
           "PieceType": "Frame",
           "Pieces": [
@@ -17560,7 +17560,7 @@
             "RowName": "Iron_General"
           },
           "Type": {
-            "RowName": "Iron"
+            "RowName": "Aluminium"
           },
           "PieceType": "Frame",
           "Pieces": [
@@ -17644,7 +17644,7 @@
             "RowName": "Reinforced_Wood_General"
           },
           "Type": {
-            "RowName": "ReinforcedWood"
+            "RowName": "BeeswaxWood"
           },
           "PieceType": "Frame",
           "Pieces": [
