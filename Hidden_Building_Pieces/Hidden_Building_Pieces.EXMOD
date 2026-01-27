@@ -12947,6 +12947,18 @@
                 "RowName": "Clay_Brick_Diagonal_Ramp",
                 "DataTableName": "D_BuildingPieces"
               }
+            },
+            {
+              "Piece": {
+                "RowName": "ClayBrick_Diagonal_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ClayBrick_Diagonal_Ramp_Roof_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
             }
           ],
           "RepairItems": []
@@ -13125,6 +13137,18 @@
             {
               "Piece": {
                 "RowName": "Concrete_Diagonal_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Concrete_Diagonal_Ramp_Roof_Invert",
                 "DataTableName": "D_BuildingPieces"
               }
             }
@@ -13397,6 +13421,18 @@
                 "RowName": "Glass_Diagonal_Floor",
                 "DataTableName": "D_BuildingPieces"
               }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Glass_Diagonal_Ramp_Roof_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
             }
           ],
           "RepairItems": []
@@ -13665,6 +13701,18 @@
             {
               "Piece": {
                 "RowName": "Stone_Diagonal_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Stone_Diagonal_Ramp_Roof_Invert",
                 "DataTableName": "D_BuildingPieces"
               }
             }
@@ -13937,6 +13985,18 @@
                 "RowName": "Scoria_Diagonal_Floor",
                 "DataTableName": "D_BuildingPieces"
               }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Diagonal_Ramp_Roof_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
             }
           ],
           "RepairItems": []
@@ -14205,6 +14265,18 @@
             {
               "Piece": {
                 "RowName": "ScoriaBrick_Diagonal_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ScoriaBrick_Diagonal_Ramp_Roof_Invert",
                 "DataTableName": "D_BuildingPieces"
               }
             }
@@ -14477,6 +14549,18 @@
                 "RowName": "StoneBrick_Diagonal_Floor",
                 "DataTableName": "D_BuildingPieces"
               }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "StoneBrick_Diagonal_Ramp_Roof_Invert",
+                "DataTableName": "D_BuildingPieces"
+              }
             }
           ],
           "RepairItems": []
@@ -14745,6 +14829,18 @@
             {
               "Piece": {
                 "RowName": "TemperedGlass_Diagonal_Floor",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Ramp_Roof",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "TemperedGlass_Diagonal_Ramp_Roof_Invert",
                 "DataTableName": "D_BuildingPieces"
               }
             }
@@ -15749,6 +15845,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Frame_Stone.BP_Building_Frame_Stone_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "ScoriaBrick_Frame"
           }
         },
         {
@@ -15760,6 +15859,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Frame_Angle_Stone.BP_Building_Frame_Angle_Stone_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "ScoriaBrick_Frame_HalfFrame"
           }
         },
         {
@@ -15771,6 +15873,9 @@
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Frame_Angle_Stone.BP_Building_Frame_Angle_Stone_C",
           "Audio": {
             "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "Scoria_Frame_HalfFrame"
           }
         },
         {
@@ -18155,6 +18260,12 @@
           "Name": "Scoria_Frame",
           "MaterialSet": {
             "RowName": "MaterialSet_Scoria"
+          }
+        },
+        {
+          "Name": "ScoriaBrick_Frame",
+          "MaterialSet": {
+            "RowName": "MaterialSet_Scoria_Brick"
           }
         }
       ]
