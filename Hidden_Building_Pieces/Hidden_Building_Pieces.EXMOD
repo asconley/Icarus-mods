@@ -24038,9 +24038,6 @@
       ]
     },
     {
-      "CurrentFile": "EndOfMod"
-    },
-    {
       "CurrentFile": "Building-D_BuildingSkins.json",
       "File_Items": [
         {
@@ -26158,6 +26155,9 @@
           ]
         }
       ]
+    },
+    {
+      "CurrentFile": "EndOfMod"
     }
   ],
   "Version": "2.11.8"
