@@ -27,7 +27,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 |-----|----------------|
 | **Individual Item Kits** | 1,396 items in 73 categories — every item in the game, individually accessible |
 | **Workshop Recyclers** | Get 100% of Workshop costs back — perfect for experimenting |
-| **Hidden Building Pieces** | 54 diagonal/curved pieces for 9 materials — build circles and curves |
+| **Hidden Building Pieces** | 876 hidden items — diagonal, curved, frames, corner stairs, roof peaks for 15 materials |
 | **Turret Variants** | 15 unique turrets with different firing patterns — automate your defense |
 
 ---
@@ -102,7 +102,7 @@ Speed up all crafting, smelting, and processing. Choose ONE variant based on you
 **Coverage includes:**
 - Base game recipes (1,771)
 - Workshop Recyclers recipes (1,623)
-- Hidden Building Pieces recipes (54)
+- Hidden Building Pieces recipes (104)
 
 ---
 
@@ -133,19 +133,21 @@ Prevents food and volatile items from decaying. Your hard-earned meals stay fres
 ---
 
 ### Hidden Building Pieces
-**Version 2.3.0** • 60 modifications
+**Version 2.11.3** • 876 modifications
 
-Unlocks **54 diagonal and curved building pieces** for 9 different materials. Build circular towers, curved walls, and diagonal structures.
+Unlocks **876 hidden building items** including diagonal/curved pieces, frames, corner stairs, half pieces, and roof peak connectors.
+
+**Features:**
+- Diagonal & Curved pieces for 9 materials
+- Frame pieces (FullFrame, Pillar, HalfFrame) for 11 materials
+- Corner Stairs for 11 materials
+- Roof Peak Connectors & Caps for 15 materials
+- Half/Quarter floor pieces for Limestone & Metal Grate
 
 **Materials supported:**
-- Wood, Stone, Concrete
-- Steel, Aluminum, Glass
-- And 3 more material types
-
-**Piece types:**
-- Diagonal walls and floors
-- Curved wall segments
-- Corner pieces
+- Wood, Stone, Concrete, Glass, Tempered Glass
+- Clay Brick, Stone Brick, Scoria, Scoria Brick
+- Ice, Iron, Limestone, Sandworm, Reinforced Wood, Thatch, Metal Grate
 
 ---
 
