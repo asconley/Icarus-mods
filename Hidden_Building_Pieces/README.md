@@ -1,6 +1,6 @@
 # 🏗️ Hidden Building Pieces
 
-Unlocks **876 hidden building items** including diagonal/curved pieces, frames, corner stairs, half pieces, and roof peak pieces for Icarus.
+Unlocks **104 hidden building items** including diagonal/curved pieces, frames, corner stairs, half pieces, and roof peak pieces for Icarus.
 
 ## Features
 
@@ -36,7 +36,7 @@ Unlocks **876 hidden building items** including diagonal/curved pieces, frames, 
 | ItemsStatic | 104 |
 | ItemTemplates | 104 |
 | Crafting Recipes | 104 |
-| **Total Items** | **906** |
+| **Total Items** | **104** |
 
 ## Crafting Locations
 
