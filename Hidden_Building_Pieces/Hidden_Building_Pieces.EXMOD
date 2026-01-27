@@ -25984,7 +25984,7 @@
       ]
     },
     {
-      "CurrentFile": "/Game/Data/Traits/D_Durable",
+      "CurrentFile": "Traits-D_Durable.json",
       "File_Items": [
         {
           "Name": "Thatch_Building",
@@ -26157,8 +26157,103 @@
       ]
     },
     {
+      "CurrentFile": "Items-Types-D_BuildingTypes.json",
+      "File_Items": [
+        {
+          "Name": "Thatch",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Wood",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Stone",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Concrete",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Aluminium",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Glass",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Scoria",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Clay_Brick",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Scoria_Brick",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Ice",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Limestone",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Stone_Brick",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Sandworm",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Glass_Tempered",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Beeswax_Wood",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 100
+          }
+        }
+      ]
+    },
+    {
       "CurrentFile": "EndOfMod"
     }
   ],
-  "Version": "2.11.8"
+  "Version": "2.11.9"
 }
