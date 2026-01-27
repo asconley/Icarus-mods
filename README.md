@@ -27,7 +27,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 |-----|----------------|
 | **Individual Item Kits** | 1,396 items in 73 categories — every item in the game, individually accessible |
 | **Workshop Recyclers** | Get 100% of Workshop costs back — perfect for experimenting |
-| **Hidden Building Pieces** | 876 hidden items — diagonal, curved, frames, corner stairs, roof peaks for 15 materials |
+| **Hidden Building Pieces** | 906 hidden items — diagonal, curved, frames, corner stairs, roof peaks for 15 materials |
 | **Turret Variants** | 15 unique turrets with different firing patterns — automate your defense |
 
 ---
@@ -133,7 +133,7 @@ Prevents food and volatile items from decaying. Your hard-earned meals stay fres
 ---
 
 ### Hidden Building Pieces
-**Version 2.11.3** • 876 modifications
+**Version 2.11.4** • 906 modifications
 
 Unlocks **876 hidden building items** including diagonal/curved pieces, frames, corner stairs, half pieces, and roof peak connectors.
 

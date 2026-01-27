@@ -30,13 +30,13 @@ Unlocks **876 hidden building items** including diagonal/curved pieces, frames, 
 | Category | Count |
 |----------|-------|
 | Buildable Sets | 96 |
-| Building Pieces | 102 |
-| Building Skins | 273 |
+| Building Pieces | 111 |
+| Building Skins | 290 |
 | Itemables | 96 |
 | ItemsStatic | 104 |
 | ItemTemplates | 104 |
 | Crafting Recipes | 104 |
-| **Total Items** | **876** |
+| **Total Items** | **906** |
 
 ## Crafting Locations
 
@@ -70,6 +70,13 @@ Unlocks **876 hidden building items** including diagonal/curved pieces, frames, 
 - ✅ Compatible with all DLCs
 
 ## Changelog
+
+### v2.11.4
+- **FRAME FIX:** Fixed frame pieces not deploying correctly - added missing Deployable references, Pieces arrays, and Skin linkages
+- **FRAME FIX:** Added 10 missing Pillar pieces (all materials now have FullFrame, Pillar, HalfFrame)
+- **FRAME FIX:** Added 17 missing building skins with proper material textures
+- **FRAME FIX:** Fixed 9 frame itemable icons to use proper frame icons instead of beam icons
+- **FRAME FIX:** Fixed 6 FullFrame pieces referencing wrong skins
 
 ### v2.11.3
 - **TEXTURE FIX:** Updated all 40 StoneBrick curved/diagonal skins to use proper Stone Brick wall textures instead of grey stone textures
