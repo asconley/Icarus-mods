@@ -30,8 +30,8 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 | Category | Count |
 |----------|-------|
 | Buildable Sets | 96 |
-| Building Pieces | 111 |
-| Building Skins | 290 |
+| Building Pieces | 500 |
+| Building Skins | 291 |
 | Itemables | 96 |
 | ItemsStatic | 104 |
 | ItemTemplates | 104 |
@@ -70,6 +70,16 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 - ✅ Compatible with all DLCs
 
 ## Changelog
+
+### v2.11.5
+- **BUILDABLE FIX:** Fixed all RoofPeak sets that were empty - added Connector and Cap pieces for all 15 materials
+- **BUILDABLE FIX:** Fixed StoneBrick missing pieces - added 7 building pieces (diagonal invert, beam variants)
+- **BUILDABLE FIX:** Fixed Scoria and ScoriaBrick Advanced Beam sets - added 9 missing beam pieces each
+- **BUILDABLE FIX:** Fixed Scoria/ScoriaBrick Wall_Curved sets - added missing curved diagonal beams
+- **BUILDABLE FIX:** Fixed diagonal/curved sets missing pieces across all materials
+- **BUILDABLE FIX:** Fixed Glass_Stairs, TemperedGlass_Stairs, Metal_Grate_HalfNormal, Limestone_Halfpiece
+- **BUILDABLE FIX:** Fixed Wood_Diagonal_Advanced_Beam_Set with all 5 beam pieces
+- Building pieces increased from 111 to 500
 
 ### v2.11.4
 - **FRAME FIX:** Fixed frame pieces not deploying correctly - added missing Deployable references, Pieces arrays, and Skin linkages
