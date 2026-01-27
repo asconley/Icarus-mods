@@ -172,9 +172,9 @@
     {
       "name": "Hidden Building Pieces",
       "author": "AgentKush",
-      "version": "2.10.0",
+      "version": "2.11.0",
       "compatibility": "All",
-      "description": "Unlocks 843 hidden building pieces including diagonal/curved sets, frames, corner stairs, roof peak connectors/caps for ALL 15 materials. 91 buildable sets, 92 building pieces, 263 skins, 101 recipes.",
+      "description": "Unlocks 876 hidden building pieces including diagonal/curved sets, frames (11 materials with FullFrame/Pillar/HalfFrame), corner stairs, roof peak connectors/caps. 96 buildable sets, 102 building pieces, 272 skins, 104 recipes.",
       "fileName": "Hidden_Building_Pieces",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/hidden_building.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",

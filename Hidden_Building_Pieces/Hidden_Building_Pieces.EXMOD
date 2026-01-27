@@ -837,6 +837,24 @@
             "SourceString": "Clay Brick diagonal curved building pieces."
           },
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Clay_Brick_Wall_0.ITEM_Clay_Brick_Wall_0"
+        },
+        {
+          "Name": "Item_Iron_Frame",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Frame-DisplayName\", \"Iron Frames\")",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Frame-Description\", \"Iron frame pieces including full frames, pillars, and half frames for structural support.\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Iron_Beam_1.ITEM_Iron_Beam_1"
+        },
+        {
+          "Name": "Item_ReinforcedWood_Frame",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ReinforcedWood_Frame-DisplayName\", \"Reinforced Wood Frames\")",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ReinforcedWood_Frame-Description\", \"Reinforced wood frame pieces including full frames, pillars, and half frames for structural support.\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ReinforcedWood_Beam_0.T_ITEM_ReinforcedWood_Beam_0"
+        },
+        {
+          "Name": "Item_Sandworm_Frame",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Frame-DisplayName\", \"Sandworm Frames\")",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Frame-Description\", \"Sandworm scale frame pieces including full frames, pillars, and half frames for structural support.\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Sandworm_Beam_0.T_ITEM_Sandworm_Beam_0"
         }
       ]
     },
@@ -5802,6 +5820,159 @@
             ],
             "ParentTags": []
           }
+        },
+        {
+          "Name": "Iron_Frame",
+          "Meshable": {
+            "RowName": "Mesh_Iron_Kit"
+          },
+          "Durable": {
+            "RowName": "Iron_Building"
+          },
+          "Audio": {
+            "RowName": "IronDeployable"
+          },
+          "Itemable": {
+            "RowName": "Item_Iron_Frame",
+            "DataTableName": "D_Itemable"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
+          "Buildable": {
+            "RowName": "Iron_Frame",
+            "DataTableName": "D_Buildable"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Iron"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "ReinforcedWood_Frame",
+          "Meshable": {
+            "RowName": "Mesh_Wood_Kit"
+          },
+          "Durable": {
+            "RowName": "Wood_Building"
+          },
+          "Audio": {
+            "RowName": "WoodDeployable"
+          },
+          "Itemable": {
+            "RowName": "Item_ReinforcedWood_Frame",
+            "DataTableName": "D_Itemable"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
+          "Buildable": {
+            "RowName": "ReinforcedWood_Frame",
+            "DataTableName": "D_Buildable"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Wood"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Sandworm_Frame",
+          "Meshable": {
+            "RowName": "Mesh_Wood_Kit"
+          },
+          "Durable": {
+            "RowName": "Wood_Building"
+          },
+          "Audio": {
+            "RowName": "WoodSandwormDeployable"
+          },
+          "Itemable": {
+            "RowName": "Item_Sandworm_Frame",
+            "DataTableName": "D_Itemable"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
+          "Buildable": {
+            "RowName": "Sandworm_Frame",
+            "DataTableName": "D_Buildable"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Sandworm"
+              }
+            ]
+          }
         }
       ]
     },
@@ -6427,6 +6598,27 @@
           "Name": "Metal_Grate_Halfpiece",
           "ItemStaticData": {
             "RowName": "Metal_Grate_Halfpiece"
+          }
+        },
+        {
+          "Name": "Iron_Frame",
+          "ItemStaticData": {
+            "RowName": "Iron_Frame",
+            "DataTableName": "D_ItemsStatic"
+          }
+        },
+        {
+          "Name": "ReinforcedWood_Frame",
+          "ItemStaticData": {
+            "RowName": "ReinforcedWood_Frame",
+            "DataTableName": "D_ItemsStatic"
+          }
+        },
+        {
+          "Name": "Sandworm_Frame",
+          "ItemStaticData": {
+            "RowName": "Sandworm_Frame",
+            "DataTableName": "D_ItemsStatic"
           }
         }
       ]
@@ -11154,6 +11346,182 @@
           "Audio": {
             "RowName": "MachiningBench"
           }
+        },
+        {
+          "Name": "Recipe_Iron_Frame",
+          "RequiredTalent": {
+            "RowName": "None"
+          },
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench_T2",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Aluminium_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Iron_Frame",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Default"
+          }
+        },
+        {
+          "Name": "Recipe_ReinforcedWood_Frame",
+          "RequiredTalent": {
+            "RowName": "None"
+          },
+          "RecipeSets": [
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T2",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 20
+            },
+            {
+              "Element": {
+                "RowName": "Beeswax",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            },
+            {
+              "Element": {
+                "RowName": "Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "ReinforcedWood_Frame",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Default"
+          }
+        },
+        {
+          "Name": "Recipe_Sandworm_Frame",
+          "RequiredTalent": {
+            "RowName": "None"
+          },
+          "RecipeSets": [
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T2",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 15
+            },
+            {
+              "Element": {
+                "RowName": "Sandworm_Scale",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Sandworm_Frame",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Default"
+          }
         }
       ]
     },
@@ -14652,6 +15020,126 @@
             }
           ],
           "RepairItems": []
+        },
+        {
+          "Name": "Iron_Frame",
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Iron_Frame_FullFrame",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Iron_Frame_Pillar",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Iron_Frame_HalfFrame",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Iron_Frame-Description\", \"Iron frame pieces including full frames, pillars, and half frames.\")"
+        },
+        {
+          "Name": "Limestone_Frame",
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Limestone_Frame_FullFrame",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Limestone_Frame_Pillar",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Limestone_Frame_HalfFrame",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Limestone_Frame-Description\", \"Limestone frame pieces including full frames, pillars, and half frames.\")"
+        },
+        {
+          "Name": "ReinforcedWood_Frame",
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "ReinforcedWood_Frame_FullFrame",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ReinforcedWood_Frame_Pillar",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "ReinforcedWood_Frame_HalfFrame",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"ReinforcedWood_Frame-Description\", \"Reinforced wood frame pieces including full frames, pillars, and half frames.\")"
+        },
+        {
+          "Name": "Sandworm_Frame",
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Sandworm_Frame_FullFrame",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Sandworm_Frame_Pillar",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Sandworm_Frame_HalfFrame",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Sandworm_Frame-Description\", \"Sandworm scale frame pieces including full frames, pillars, and half frames.\")"
+        },
+        {
+          "Name": "Scoria_Frame",
+          "Variations": [
+            {
+              "Piece": {
+                "RowName": "Scoria_Frame_FullFrame",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Frame_Pillar",
+                "DataTableName": "D_BuildingPieces"
+              }
+            },
+            {
+              "Piece": {
+                "RowName": "Scoria_Frame_HalfFrame",
+                "DataTableName": "D_BuildingPieces"
+              }
+            }
+          ],
+          "Description": "NSLOCTEXT(\"D_Buildable\", \"Scoria_Frame-Description\", \"Scoria frame pieces including full frames, pillars, and half frames.\")"
         }
       ]
     },
@@ -15737,6 +16225,132 @@
           "Blueprint": "/Game/BP/Building/Iron/BP_Building_Floor_Quarter_1_Iron.BP_Building_Floor_Quarter_1_Iron_C",
           "Audio": {
             "RowName": "Iron"
+          }
+        },
+        {
+          "Name": "Iron_Frame_FullFrame",
+          "Type": {
+            "RowName": "Frame_FullFrame"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Iron_Beam_1.ITEM_Iron_Beam_1",
+          "Blueprint": "/Game/BP/Building/Iron/BP_Building_Frame_Iron.BP_Building_Frame_Iron_C",
+          "Audio": {
+            "RowName": "Iron"
+          },
+          "Skin": {
+            "RowName": "Iron_Frame"
+          }
+        },
+        {
+          "Name": "Iron_Frame_HalfFrame",
+          "Type": {
+            "RowName": "Frame_HalfFrame"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Iron_Beam_1.ITEM_Iron_Beam_1",
+          "Blueprint": "/Game/BP/Building/Iron/BP_Building_Frame_Half_Iron.BP_Building_Frame_Half_Iron_C",
+          "Audio": {
+            "RowName": "Iron"
+          },
+          "Skin": {
+            "RowName": "Iron_Frame_HalfFrame"
+          }
+        },
+        {
+          "Name": "Limestone_Frame_FullFrame",
+          "Type": {
+            "RowName": "Frame_FullFrame"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Limestone_Frame_0.T_ITEM_Limestone_Frame_0",
+          "Blueprint": "/Game/BP/Building/Concrete/BP_Building_Frame_Concrete.BP_Building_Frame_Concrete_C",
+          "Audio": {
+            "RowName": "Concrete"
+          },
+          "Skin": {
+            "RowName": "Limestone_Frame"
+          }
+        },
+        {
+          "Name": "Limestone_Frame_HalfFrame",
+          "Type": {
+            "RowName": "Frame_HalfFrame"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Limestone_Frame_0.T_ITEM_Limestone_Frame_0",
+          "Blueprint": "/Game/BP/Building/Concrete/BP_Building_Frame_Half_Concrete.BP_Building_Frame_Half_Concrete_C",
+          "Audio": {
+            "RowName": "Concrete"
+          },
+          "Skin": {
+            "RowName": "Limestone_Frame_HalfFrame"
+          }
+        },
+        {
+          "Name": "ReinforcedWood_Frame_FullFrame",
+          "Type": {
+            "RowName": "Frame_FullFrame"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ReinforcedWood_Beam_0.T_ITEM_ReinforcedWood_Beam_0",
+          "Blueprint": "/Game/BP/Building/Wood/BP_Building_Frame_Wood.BP_Building_Frame_Wood_C",
+          "Audio": {
+            "RowName": "Wood"
+          },
+          "Skin": {
+            "RowName": "ReinforcedWood_Frame"
+          }
+        },
+        {
+          "Name": "ReinforcedWood_Frame_HalfFrame",
+          "Type": {
+            "RowName": "Frame_HalfFrame"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ReinforcedWood_Beam_0.T_ITEM_ReinforcedWood_Beam_0",
+          "Blueprint": "/Game/BP/Building/Wood/BP_Building_Frame_Half_Wood.BP_Building_Frame_Half_Wood_C",
+          "Audio": {
+            "RowName": "Wood"
+          },
+          "Skin": {
+            "RowName": "ReinforcedWood_Frame_HalfFrame"
+          }
+        },
+        {
+          "Name": "Sandworm_Frame_FullFrame",
+          "Type": {
+            "RowName": "Frame_FullFrame"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Sandworm_Beam_0.T_ITEM_Sandworm_Beam_0",
+          "Blueprint": "/Game/BP/Building/Wood/BP_Building_Frame_Wood.BP_Building_Frame_Wood_C",
+          "Audio": {
+            "RowName": "WoodSandworm"
+          },
+          "Skin": {
+            "RowName": "Sandworm_Frame"
+          }
+        },
+        {
+          "Name": "Sandworm_Frame_HalfFrame",
+          "Type": {
+            "RowName": "Frame_HalfFrame"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Sandworm_Beam_0.T_ITEM_Sandworm_Beam_0",
+          "Blueprint": "/Game/BP/Building/Wood/BP_Building_Frame_Half_Wood.BP_Building_Frame_Half_Wood_C",
+          "Audio": {
+            "RowName": "WoodSandworm"
+          },
+          "Skin": {
+            "RowName": "Sandworm_Frame_HalfFrame"
+          }
+        },
+        {
+          "Name": "Scoria_Frame_FullFrame",
+          "Type": {
+            "RowName": "Frame_FullFrame"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Scoria_Frame_0.ITEM_Scoria_Frame_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Frame_Stone.BP_Building_Frame_Stone_C",
+          "Audio": {
+            "RowName": "Stone"
+          },
+          "Skin": {
+            "RowName": "Scoria_Frame"
           }
         }
       ]
@@ -17487,6 +18101,60 @@
             "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_1_Scoria.M_BLD_Stairs_Brick_1_Scoria",
             "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement_Scoria.M_BLD_Stairs_Brick_Cement_Scoria",
             "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_2_Scoria.M_BLD_Stairs_Brick_2_Scoria"
+          }
+        },
+        {
+          "Name": "Iron_Frame_HalfFrame",
+          "MaterialSet": {
+            "RowName": "MaterialSet_Iron"
+          }
+        },
+        {
+          "Name": "Limestone_Frame_HalfFrame",
+          "MaterialSet": {
+            "RowName": "MaterialSet_Limestone"
+          }
+        },
+        {
+          "Name": "ReinforcedWood_Frame_HalfFrame",
+          "MaterialSet": {
+            "RowName": "MaterialSet_ReinforcedWood"
+          }
+        },
+        {
+          "Name": "Sandworm_Frame_HalfFrame",
+          "MaterialSet": {
+            "RowName": "MaterialSet_Sandworm"
+          }
+        },
+        {
+          "Name": "Iron_Frame",
+          "MaterialSet": {
+            "RowName": "MaterialSet_Iron"
+          }
+        },
+        {
+          "Name": "Limestone_Frame",
+          "MaterialSet": {
+            "RowName": "MaterialSet_Limestone"
+          }
+        },
+        {
+          "Name": "ReinforcedWood_Frame",
+          "MaterialSet": {
+            "RowName": "MaterialSet_ReinforcedWood"
+          }
+        },
+        {
+          "Name": "Sandworm_Frame",
+          "MaterialSet": {
+            "RowName": "MaterialSet_Sandworm"
+          }
+        },
+        {
+          "Name": "Scoria_Frame",
+          "MaterialSet": {
+            "RowName": "MaterialSet_Scoria"
           }
         }
       ]
