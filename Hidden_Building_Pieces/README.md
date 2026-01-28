@@ -1,6 +1,6 @@
 # 🏗️ Hidden Building Pieces
 
-Unlocks **104 hidden building items** including diagonal/curved pieces, frames, corner stairs, half pieces, and roof peak pieces for Icarus.
+Unlocks **104 hidden building items** including diagonal/curved pieces, frames, corner stairs, half pieces, and roof peak pieces for Icarus. All pieces are **storm immune** and **hammer repairable**.
 
 ## Features
 
@@ -70,6 +70,13 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 - ✅ Compatible with all DLCs
 
 ## Changelog
+
+### v2.11.9
+- **STORM IMMUNITY:** Added 100% wind damage resistance to all 15 building types
+  - All mod building pieces now take zero damage from storms
+  - Affects: Thatch, Wood, Stone, Concrete, Aluminium, Glass, Scoria, Clay_Brick, Scoria_Brick, Ice, Limestone, Stone_Brick, Sandworm, Glass_Tempered, Beeswax_Wood
+- **FIX:** Corrected D_Durable section path format for proper mod loading
+- **FIX:** Moved EndOfMod marker to correct position (was blocking D_BuildingSkins and D_Durable)
 
 ### v2.11.8
 - **REPAIR FIX:** Fixed 3 items referencing non-existent durability types

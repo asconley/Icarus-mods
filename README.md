@@ -133,9 +133,9 @@ Prevents food and volatile items from decaying. Your hard-earned meals stay fres
 ---
 
 ### Hidden Building Pieces
-**Version 2.11.4** • 104 craftable items
+**Version 2.11.9** • 104 craftable items
 
-Unlocks **104 hidden building items** including diagonal/curved pieces, frames, corner stairs, half pieces, and roof peak connectors.
+Unlocks **104 hidden building items** including diagonal/curved pieces, frames, corner stairs, half pieces, and roof peak connectors. **Storm immune** and **hammer repairable**.
 
 **Features:**
 - Diagonal & Curved pieces for 9 materials
