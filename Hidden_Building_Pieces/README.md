@@ -71,6 +71,12 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 
 ## Changelog
 
+### v2.11.10
+- **REPAIR FIX:** Added missing `Generated_Tags` with `Traits.Durable` to all 104 items
+  - This tag tells the game that items are repairable with a hammer
+  - Without it, the Durable trait reference was being ignored
+  - All items now properly register as having durability system enabled
+
 ### v2.11.9
 - **STORM IMMUNITY:** Added 100% wind damage resistance to all 15 building types
   - All mod building pieces now take zero damage from storms

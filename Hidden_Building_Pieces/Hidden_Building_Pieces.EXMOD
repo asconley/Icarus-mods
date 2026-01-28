@@ -1,7 +1,7 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "2.11.9",
+  "version": "2.11.10",
   "description": "Unlocks 876 hidden building pieces including diagonal/curved sets, frames (11 materials), corner stairs, and roof peak connectors/caps for all materials",
   "fileName": "Hidden_Building_Pieces",
   "Level2": "True",
@@ -910,6 +910,47 @@
                 "TagName": "Building.Ice"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -961,6 +1002,47 @@
                 "TagName": "Building.Ice"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1012,6 +1094,47 @@
                 "TagName": "Building.Ice"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1063,6 +1186,47 @@
                 "TagName": "Building.Ice"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1114,6 +1278,47 @@
                 "TagName": "Building.Ice"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1165,6 +1370,47 @@
                 "TagName": "Building.Ice"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1216,6 +1462,47 @@
                 "TagName": "Building.Ice"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1267,6 +1554,47 @@
                 "TagName": "Building.Ice"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1316,6 +1644,47 @@
                 "TagName": "Building.ClayBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ClayBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1365,6 +1734,47 @@
                 "TagName": "Building.Concrete"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Concrete"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1414,6 +1824,47 @@
                 "TagName": "Building.Glass"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Glass"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1463,6 +1914,47 @@
                 "TagName": "Building.ScoriaBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ScoriaBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1512,6 +2004,47 @@
                 "TagName": "Building.Scoria"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Scoria"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1561,6 +2094,47 @@
                 "TagName": "Building.StoneBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.StoneBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1610,6 +2184,47 @@
                 "TagName": "Building.Stone"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Stone"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1661,6 +2276,47 @@
                 "TagName": "Building.GlassTempered"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.GlassTempered"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1710,6 +2366,47 @@
                 "TagName": "Building.Wood"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Wood"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1759,6 +2456,47 @@
                 "TagName": "Building.ClayBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ClayBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1810,6 +2548,47 @@
                 "TagName": "Building.Concrete"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Concrete"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1861,6 +2640,47 @@
                 "TagName": "Building.Glass"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Glass"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1912,6 +2732,47 @@
                 "TagName": "Building.ScoriaBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ScoriaBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -1963,6 +2824,47 @@
                 "TagName": "Building.Scoria"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Scoria"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2014,6 +2916,47 @@
                 "TagName": "Building.StoneBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.StoneBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2065,6 +3008,47 @@
                 "TagName": "Building.Stone"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Stone"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2116,6 +3100,47 @@
                 "TagName": "Building.GlassTempered"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.GlassTempered"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2165,6 +3190,47 @@
                 "TagName": "Building.Wood"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Wood"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2214,6 +3280,47 @@
                 "TagName": "Building.ClayBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ClayBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2263,6 +3370,47 @@
                 "TagName": "Building.Concrete"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Concrete"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2312,6 +3460,47 @@
                 "TagName": "Building.Glass"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Glass"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2361,6 +3550,47 @@
                 "TagName": "Building.Ice"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2410,6 +3640,47 @@
                 "TagName": "Building.ScoriaBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ScoriaBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2459,6 +3730,47 @@
                 "TagName": "Building.Scoria"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Scoria"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2508,6 +3820,47 @@
                 "TagName": "Building.StoneBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.StoneBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2557,6 +3910,47 @@
                 "TagName": "Building.Stone"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Stone"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2608,6 +4002,47 @@
                 "TagName": "Building.GlassTempered"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.GlassTempered"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2657,6 +4092,47 @@
                 "TagName": "Building.Wood"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Wood"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2706,6 +4182,47 @@
                 "TagName": "Building.ClayBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ClayBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2755,6 +4272,47 @@
                 "TagName": "Building.Concrete"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Concrete"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2804,6 +4362,47 @@
                 "TagName": "Building.Glass"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Glass"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2853,6 +4452,47 @@
                 "TagName": "Building.ScoriaBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ScoriaBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2902,6 +4542,47 @@
                 "TagName": "Building.Scoria"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Scoria"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -2951,6 +4632,47 @@
                 "TagName": "Building.StoneBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.StoneBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3000,6 +4722,47 @@
                 "TagName": "Building.Stone"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Stone"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3051,6 +4814,47 @@
                 "TagName": "Building.GlassTempered"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.GlassTempered"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3100,6 +4904,47 @@
                 "TagName": "Building.Wood"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Wood"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3149,6 +4994,47 @@
                 "TagName": "Building.ClayBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ClayBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3198,6 +5084,47 @@
                 "TagName": "Building.Concrete"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Concrete"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3247,6 +5174,47 @@
                 "TagName": "Building.Glass"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Glass"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3296,6 +5264,47 @@
                 "TagName": "Building.ScoriaBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ScoriaBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3345,6 +5354,47 @@
                 "TagName": "Building.Scoria"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Scoria"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3394,6 +5444,47 @@
                 "TagName": "Building.StoneBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.StoneBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3443,6 +5534,47 @@
                 "TagName": "Building.Stone"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Stone"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3494,6 +5626,47 @@
                 "TagName": "Building.GlassTempered"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.GlassTempered"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3543,6 +5716,47 @@
                 "TagName": "Building.Wood"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Wood"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3592,6 +5806,47 @@
                 "TagName": "Building.ClayBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ClayBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3641,6 +5896,47 @@
                 "TagName": "Building.Concrete"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Concrete"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3690,6 +5986,47 @@
                 "TagName": "Building.Glass"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Glass"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3739,6 +6076,47 @@
                 "TagName": "Building.ScoriaBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ScoriaBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3788,6 +6166,47 @@
                 "TagName": "Building.Scoria"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Scoria"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3837,6 +6256,47 @@
                 "TagName": "Building.StoneBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.StoneBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3886,6 +6346,47 @@
                 "TagName": "Building.Stone"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Stone"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3937,6 +6438,47 @@
                 "TagName": "Building.GlassTempered"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.GlassTempered"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -3986,6 +6528,47 @@
                 "TagName": "Building.Wood"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Wood"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -4038,6 +6621,47 @@
           },
           "Deployable": {
             "RowName": "ClayBrick_Frame"
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ClayBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -4090,6 +6714,47 @@
           },
           "Deployable": {
             "RowName": "Glass_Frame"
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Glass"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -4142,6 +6807,47 @@
           },
           "Deployable": {
             "RowName": "Ice_Frame"
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -4194,6 +6900,47 @@
           },
           "Deployable": {
             "RowName": "ScoriaBrick_Frame"
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ScoriaBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -4246,6 +6993,47 @@
           },
           "Deployable": {
             "RowName": "StoneBrick_Frame"
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.StoneBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -4298,6 +7086,47 @@
           },
           "Deployable": {
             "RowName": "TemperedGlass_Frame"
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.GlassTempered"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -4347,6 +7176,47 @@
                 "TagName": "Building.ClayBrick"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.ClayBrick"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -4396,6 +7266,47 @@
                 "TagName": "Building.Ice"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -4451,12 +7362,6 @@
           "Generated_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
-              },
-              {
-                "TagName": "Audio.Shelter"
-              },
-              {
                 "TagName": "Traits.Meshable"
               },
               {
@@ -4482,6 +7387,15 @@
               },
               {
                 "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Building.Limestone"
+              },
+              {
+                "TagName": "Audio.Shelter"
               }
             ],
             "ParentTags": []
@@ -4536,12 +7450,6 @@
           "Generated_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
-              },
-              {
-                "TagName": "Audio.Shelter"
-              },
-              {
                 "TagName": "Traits.Meshable"
               },
               {
@@ -4567,6 +7475,15 @@
               },
               {
                 "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Building.Aluminium"
+              },
+              {
+                "TagName": "Audio.Shelter"
               }
             ],
             "ParentTags": []
@@ -4629,12 +7546,6 @@
           "Generated_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
-              },
-              {
-                "TagName": "Audio.Shelter"
-              },
-              {
                 "TagName": "Traits.Meshable"
               },
               {
@@ -4660,6 +7571,15 @@
               },
               {
                 "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Building.BeeswaxWood"
+              },
+              {
+                "TagName": "Audio.Shelter"
               }
             ],
             "ParentTags": []
@@ -4718,12 +7638,6 @@
           "Generated_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
-              },
-              {
-                "TagName": "Audio.Shelter"
-              },
-              {
                 "TagName": "Traits.Meshable"
               },
               {
@@ -4749,6 +7663,15 @@
               },
               {
                 "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Building.Sandworm"
+              },
+              {
+                "TagName": "Audio.Shelter"
               }
             ],
             "ParentTags": []
@@ -4807,12 +7730,6 @@
           "Generated_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
-              },
-              {
-                "TagName": "Audio.Shelter"
-              },
-              {
                 "TagName": "Traits.Meshable"
               },
               {
@@ -4838,6 +7755,15 @@
               },
               {
                 "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Building.ScoriaBrick"
+              },
+              {
+                "TagName": "Audio.Shelter"
               }
             ],
             "ParentTags": []
@@ -4890,6 +7816,47 @@
                 "TagName": "Building.Scoria"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Scoria"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -4945,12 +7912,6 @@
           "Generated_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
-              },
-              {
-                "TagName": "Audio.Shelter"
-              },
-              {
                 "TagName": "Traits.Meshable"
               },
               {
@@ -4976,6 +7937,15 @@
               },
               {
                 "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Building.StoneBrick"
+              },
+              {
+                "TagName": "Audio.Shelter"
               }
             ],
             "ParentTags": []
@@ -5034,12 +8004,6 @@
           "Generated_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Stone"
-              },
-              {
-                "TagName": "Audio.Shelter"
-              },
-              {
                 "TagName": "Traits.Meshable"
               },
               {
@@ -5065,6 +8029,15 @@
               },
               {
                 "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Building.Thatch"
+              },
+              {
+                "TagName": "Audio.Shelter"
               }
             ],
             "ParentTags": []
@@ -5117,6 +8090,47 @@
                 "TagName": "Building.Wood"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Wood"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5166,6 +8180,47 @@
                 "TagName": "Building.Glass"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Glass"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5217,6 +8272,47 @@
                 "TagName": "Building.Ice"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5266,6 +8362,47 @@
                 "TagName": "Building.GlassTempered"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.GlassTempered"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5298,6 +8435,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.ClayBrick"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5330,6 +8490,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.Concrete"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5362,6 +8545,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.Glass"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5394,6 +8600,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.Ice"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5427,6 +8656,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.Aluminium"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5459,6 +8711,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.Limestone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5492,6 +8767,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.BeeswaxWood"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5525,6 +8823,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.Sandworm"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5557,6 +8878,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.ScoriaBrick"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5590,6 +8934,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.Scoria"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5622,6 +8989,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.StoneBrick"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5655,6 +9045,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.Stone"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5687,6 +9100,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.GlassTempered"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5719,6 +9155,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.Thatch"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5752,6 +9211,29 @@
                 "TagName": "Audio.Shelter"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Building.Wood"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5803,6 +9285,47 @@
                 "TagName": "Building.Ice"
               }
             ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Ice"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -5857,12 +9380,6 @@
           "Generated_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Audio.Shelter"
-              },
-              {
-                "TagName": "Building.Concrete"
-              },
-              {
                 "TagName": "Traits.Meshable"
               },
               {
@@ -5888,6 +9405,15 @@
               },
               {
                 "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Limestone"
               }
             ],
             "ParentTags": []
@@ -5944,12 +9470,6 @@
           "Generated_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Audio.Shelter"
-              },
-              {
-                "TagName": "Building.Iron"
-              },
-              {
                 "TagName": "Traits.Meshable"
               },
               {
@@ -5975,6 +9495,15 @@
               },
               {
                 "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Aluminium"
               }
             ],
             "ParentTags": []
@@ -6032,6 +9561,47 @@
           },
           "Deployable": {
             "RowName": "Iron_Frame"
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Aluminium"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -6086,6 +9656,47 @@
           },
           "Deployable": {
             "RowName": "ReinforcedWood_Frame"
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.BeeswaxWood"
+              }
+            ],
+            "ParentTags": []
           }
         },
         {
@@ -6140,6 +9751,47 @@
           },
           "Deployable": {
             "RowName": "Sandworm_Frame"
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Buildable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              },
+              {
+                "TagName": "Traits.Decayable"
+              },
+              {
+                "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Sandworm"
+              }
+            ],
+            "ParentTags": []
           }
         }
       ]
@@ -25996,7 +29648,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 500
         },
         {
           "Name": "Wood_Building",
@@ -26008,7 +29661,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 1000
         },
         {
           "Name": "Wood_Building_Refined",
@@ -26020,7 +29674,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 1000
         },
         {
           "Name": "Iron_Building",
@@ -26032,7 +29687,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 1000
         },
         {
           "Name": "Concrete_Building",
@@ -26044,7 +29700,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 4000
         },
         {
           "Name": "Limestone_Building",
@@ -26056,7 +29713,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 4000
         },
         {
           "Name": "Clay_Brick_Building",
@@ -26068,7 +29726,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 3500
         },
         {
           "Name": "Scoria_Brick_Building",
@@ -26080,7 +29739,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 4500
         },
         {
           "Name": "Stone_Brick_Building",
@@ -26092,7 +29752,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 3500
         },
         {
           "Name": "Ice_Building",
@@ -26104,7 +29765,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 1000
         },
         {
           "Name": "Glass_Building",
@@ -26116,7 +29778,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 500
         },
         {
           "Name": "Tempered_Glass_Building",
@@ -26128,7 +29791,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 2500
         },
         {
           "Name": "Sandworm_Building",
@@ -26140,7 +29804,8 @@
               },
               "Amount": 1
             }
-          ]
+          ],
+          "Max_Durability": 3000
         },
         {
           "Name": "ReinforcedWood_Building",
@@ -26148,6 +29813,33 @@
             {
               "Item": {
                 "RowName": "Refined_Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ],
+          "Max_Durability": 5000
+        },
+        {
+          "Name": "Stone_Building",
+          "Max_Durability": 2500,
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Stone",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Name": "Scoria_Building",
+          "Max_Durability": 3000,
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Scoria",
                 "DataTableName": "D_ItemsStatic"
               },
               "Amount": 1
@@ -26255,5 +29947,5 @@
       "CurrentFile": "EndOfMod"
     }
   ],
-  "Version": "2.11.9"
+  "Version": "2.11.10"
 }
