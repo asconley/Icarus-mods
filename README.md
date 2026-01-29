@@ -255,6 +255,11 @@ These mods are free to use, modify, and redistribute. Attribution appreciated bu
 
 ### January 2026
 
+**January 28** — Hidden Building Pieces v2.11.10
+- Added missing `Traits.Durable` tag to all 104 items (fixes hammer repair)
+- Added storm immunity (100% wind damage resistance) for all building types
+- Fixed D_Durable path format and EndOfMod marker position
+
 **January 25** — Week 213+ Compatibility Updates
 - Individual Item Kits v2.1: Compatibility update
 - Indestructible Tools & Weapons v1.4: Compatibility update
