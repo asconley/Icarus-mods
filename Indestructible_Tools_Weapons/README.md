@@ -1,6 +1,6 @@
 # Indestructible Tools & Weapons
 
-![Version](https://img.shields.io/badge/version-1.4-blue)
+![Version](https://img.shields.io/badge/version-1.5-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -60,6 +60,7 @@ Eliminates equipment degradation by setting all durability values to the game's 
 
 | Version | Changes |
 |---------|---------|
+| 1.5 | Week 217 fix: LegendaryWeapon_ApeClub renamed to LegendaryWeapon_Ape_Club |
 | 1.4 | Week 213+ compatibility update |
 | 1.3 | Expanded coverage to 191 items including legendary weapons and Workshop gear |
 | 1.2 | Added building and deployable durability |

@@ -1,9 +1,9 @@
 # FastProcessing All 15x
 
-![Version](https://img.shields.io/badge/version-4.0-blue)
+![Version](https://img.shields.io/badge/version-4.1-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
-![Recipes](https://img.shields.io/badge/recipes-3,448-orange)
+![Recipes](https://img.shields.io/badge/recipes-3,436-orange)
 
 ## Overview
 
@@ -14,7 +14,7 @@ Reduces all crafting and processing times to ~6.7% of their original duration (1
 ### Speed Modification
 - **Processing Time:** Reduced to ~6.7% (15x faster)
 - **All Stations:** Every crafting bench, furnace, and processor affected
-- **Full Coverage:** 3,448 recipes modified
+- **Full Coverage:** 3,436 recipes modified
 
 ### Recipe Sources
 
@@ -23,18 +23,18 @@ Reduces all crafting and processing times to ~6.7% of their original duration (1
 | Base Game | 1,771 |
 | Workshop Recyclers | 1,623 |
 | Hidden Building Pieces | 54 |
-| **Total** | **3,448** |
+| **Total** | **3,436** |
 
 ## Technical Specifications
 
 | Metric | Value |
 |--------|-------|
-| Total Recipes | 3,448 |
+| Total Recipes | 3,436 |
 | Speed Multiplier | 15x |
 | Processing Reduction | ~93% |
 
 ### Files Modified
-- `Crafting-D_ProcessorRecipes.json` (3,448 entries)
+- `Crafting-D_ProcessorRecipes.json` (3,436 entries)
 
 ## Installation
 
@@ -60,16 +60,17 @@ Reduces all crafting and processing times to ~6.7% of their original duration (1
 
 | Variant | Speed | Recipes |
 |---------|-------|---------|
-| [FastProcessing 5x](../FastProcessing_All_5x) | 5x faster | 3,448 |
-| [FastProcessing 10x](../FastProcessing_All_10x) | 10x faster | 3,448 |
-| FastProcessing 15x | 15x faster | 3,448 |
-| [FastProcessing 25x](../FastProcessing_All_25x) | 25x faster | 3,448 |
-| [FastProcessing Instant](../FastProcessing_Instant) | Instant | 3,448 |
+| [FastProcessing 5x](../FastProcessing_All_5x) | 5x faster | 3,436 |
+| [FastProcessing 10x](../FastProcessing_All_10x) | 10x faster | 3,436 |
+| FastProcessing 15x | 15x faster | 3,436 |
+| [FastProcessing 25x](../FastProcessing_All_25x) | 25x faster | 3,436 |
+| [FastProcessing Instant](../FastProcessing_Instant) | Instant | 3,436 |
 
 ## Version History
 
 | Version | Changes |
 |---------|---------|
+| 4.1 | Week 217 update: Removed 16 consolidated lighting recipes, added 4 new recipes (Bone_ElephantTusks, Bulk_Shotgun_Shell_Slug, Shroud_Light, Spotlight) |
 | 4.0 | Added Workshop Recyclers + Hidden Building Pieces compatibility (1,807 → 3,448 recipes) |
 | 3.0 | Added 750 missing base game recipes (1,057 → 1,807) |
 | 2.0 | Initial release with 1,057 recipes |
