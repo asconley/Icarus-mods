@@ -1,6 +1,6 @@
 # Dev Tools Kit
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -39,12 +39,12 @@ All items appear in a new **"Developer Tools"** category in the Workshop.
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 42 |
+| Total Modifications | 47 |
 | Workshop Items Added | 10 |
 | Talent Entries | 10 |
 | Talent Trees | 1 |
 | D_Itemable Entries | 5 |
-| D_ItemsStatic Entries | 5 |
+| D_ItemsStatic Entries | 10 |
 | D_ItemTemplate Entries | 5 |
 
 ### Files Modified
@@ -86,6 +86,7 @@ All items appear in a new **"Developer Tools"** category in the Workshop.
 
 | Version | Changes |
 |---------|---------|
+| 1.1.0 | Fixed: Added Item.Meta tags to existing game dev items (Fireball, Inspection Tool, Bug Tool, Pyromancy Flame, Transform Tool) - now all 10 items appear in Workshop |
 | 1.0.0 | Initial release - 10 dev tools unlocked |
 
 ---
