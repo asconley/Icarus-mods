@@ -2,8 +2,8 @@
     "name": "FastProcessing_All_25x",
     "author": "AgentKush",
     "fileName": "FastProcessing_All_25x",
-    "version": "4.0",
-    "description": "All crafting and processing 25x faster! Contains 3448 recipes - base game + Workshop_Recyclers + Hidden_Building_Pieces compatibility.",
+    "version": "4.1",
+    "description": "All crafting and processing 25x faster! Contains 3436 recipes - base game + Workshop_Recyclers + Hidden_Building_Pieces compatibility. Updated for Week 217.",
     "week": "",
     "Level2": "True",
     "Rows": [
@@ -1691,10 +1691,6 @@
                     "RequiredMillijoules": 500
                 },
                 {
-                    "Name": "Worklamp_Directional",
-                    "RequiredMillijoules": 100
-                },
-                {
                     "Name": "Worklamp_OmniDirectional",
                     "RequiredMillijoules": 100
                 },
@@ -1737,10 +1733,6 @@
                 {
                     "Name": "Carpentry_Bench_T4",
                     "RequiredMillijoules": 600
-                },
-                {
-                    "Name": "Basic_Wall_Light",
-                    "RequiredMillijoules": 100
                 },
                 {
                     "Name": "GreenTea_Drink",
@@ -5187,14 +5179,6 @@
                     "RequiredMillijoules": 100
                 },
                 {
-                    "Name": "Exposed_Wall_Light",
-                    "RequiredMillijoules": 100
-                },
-                {
-                    "Name": "Single_Wall_Light",
-                    "RequiredMillijoules": 100
-                },
-                {
                     "Name": "Single_Ceiling_Light",
                     "RequiredMillijoules": 100
                 },
@@ -5276,10 +5260,6 @@
                 },
                 {
                     "Name": "Exposed_Ceiling_Light_Foggy",
-                    "RequiredMillijoules": 100
-                },
-                {
-                    "Name": "Exposed_Wall_Light_Foggy",
                     "RequiredMillijoules": 100
                 },
                 {
@@ -6173,14 +6153,6 @@
                 {
                     "Name": "Homestead_Barbed_Wire_Fence",
                     "RequiredMillijoules": 400
-                },
-                {
-                    "Name": "Homestead_Lamp_Ground",
-                    "RequiredMillijoules": 400
-                },
-                {
-                    "Name": "Homestead_Lamp_Wall",
-                    "RequiredMillijoules": 320
                 },
                 {
                     "Name": "Sandworm_Floor",
@@ -7275,10 +7247,6 @@
                     "RequiredMillijoules": 40
                 },
                 {
-                    "Name": "Recycle_Module_Animal_Highlighting",
-                    "RequiredMillijoules": 40
-                },
-                {
                     "Name": "Recycle_Axe_Inaris_Alpha",
                     "RequiredMillijoules": 40
                 },
@@ -7984,10 +7952,6 @@
                 },
                 {
                     "Name": "Recycle_Module_Night",
-                    "RequiredMillijoules": 40
-                },
-                {
-                    "Name": "Recycle_Module_Highlight",
                     "RequiredMillijoules": 40
                 },
                 {
@@ -9427,10 +9391,6 @@
                     "RequiredMillijoules": 40
                 },
                 {
-                    "Name": "Deconstruct_Worklamp_Directional",
-                    "RequiredMillijoules": 40
-                },
-                {
                     "Name": "Deconstruct_Worklamp_OmniDirectional",
                     "RequiredMillijoules": 40
                 },
@@ -9472,10 +9432,6 @@
                 },
                 {
                     "Name": "Deconstruct_Carpentry_Bench_T4",
-                    "RequiredMillijoules": 40
-                },
-                {
-                    "Name": "Deconstruct_Basic_Wall_Light",
                     "RequiredMillijoules": 40
                 },
                 {
@@ -12307,14 +12263,6 @@
                     "RequiredMillijoules": 40
                 },
                 {
-                    "Name": "Deconstruct_Exposed_Wall_Light",
-                    "RequiredMillijoules": 40
-                },
-                {
-                    "Name": "Deconstruct_Single_Wall_Light",
-                    "RequiredMillijoules": 40
-                },
-                {
                     "Name": "Deconstruct_Single_Ceiling_Light",
                     "RequiredMillijoules": 40
                 },
@@ -12388,10 +12336,6 @@
                 },
                 {
                     "Name": "Deconstruct_Exposed_Ceiling_Light_Foggy",
-                    "RequiredMillijoules": 40
-                },
-                {
-                    "Name": "Deconstruct_Exposed_Wall_Light_Foggy",
                     "RequiredMillijoules": 40
                 },
                 {
@@ -13163,14 +13107,6 @@
                     "RequiredMillijoules": 40
                 },
                 {
-                    "Name": "Deconstruct_Homestead_Lamp_Ground",
-                    "RequiredMillijoules": 40
-                },
-                {
-                    "Name": "Deconstruct_Homestead_Lamp_Wall",
-                    "RequiredMillijoules": 40
-                },
-                {
                     "Name": "Deconstruct_Sandworm_Floor",
                     "RequiredMillijoules": 40
                 },
@@ -13800,6 +13736,22 @@
                 },
                 {
                     "Name": "ClayBrick_Advanced_Beam_Set",
+                    "RequiredMillijoules": 100
+                },
+                {
+                    "Name": "Bone_ElephantTusks",
+                    "RequiredMillijoules": 100
+                },
+                {
+                    "Name": "Bulk_Shotgun_Shell_Slug",
+                    "RequiredMillijoules": 100
+                },
+                {
+                    "Name": "Shroud_Light",
+                    "RequiredMillijoules": 100
+                },
+                {
+                    "Name": "Spotlight",
                     "RequiredMillijoules": 100
                 }
             ]
