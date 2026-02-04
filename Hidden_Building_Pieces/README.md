@@ -98,6 +98,11 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 - **TEXTURE FIX:** TemperedGlass items now correctly use `Glass_Tempered` type instead of `Glass`
 - **TEXTURE FIX:** Fixed CornerStairs, RoofPeak, Frame, and Curved sets for all affected materials
 
+### v2.11.12
+- **OPTIMIZATION:** Minified JSON format - reduced EXMOD size from 2.4 MB to 548 KB (77% smaller)
+- **OPTIMIZATION:** Removed 14 duplicate entries (10 BuildingPieces, 4 BuildingSkins)
+- **OPTIMIZATION:** Removed 104 empty ParentTags arrays
+
 ### v2.11.11
 - **RECIPE FIX:** Fixed Recipe_Glass_Stairs - removed duplicate Input/Inputs fields, corrected bench names (Glasswork → Glassworking)
 - **RECIPE FIX:** Fixed Recipe_Glass_RoofPeak and Recipe_TemperedGlass_RoofPeak - added missing Requirement and Audio fields
