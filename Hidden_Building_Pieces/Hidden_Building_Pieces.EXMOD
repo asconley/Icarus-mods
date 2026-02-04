@@ -1,7 +1,7 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "2.11.10",
+  "version": "2.11.11",
   "description": "Unlocks 876 hidden building pieces including diagonal/curved sets, frames (11 materials), corner stairs, and roof peak connectors/caps for all materials",
   "fileName": "Hidden_Building_Pieces",
   "Level2": "True",
@@ -8517,39 +8517,71 @@
         },
         {
           "Name": "Glass_RoofPeak",
+          "Meshable": {
+            "RowName": "Mesh_Glass_Kit"
+          },
           "Durable": {
-            "RowName": "Glass_Building",
-            "DataTableName": "D_Durability"
+            "RowName": "Glass_Building"
           },
           "Audio": {
             "RowName": "Default"
           },
+          "Itemable": {
+            "RowName": "Item_Glass_RoofPeak"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
           "Buildable": {
-            "RowName": "Glass_RoofPeak_Set",
-            "DataTableName": "D_Buildable"
+            "RowName": "Glass_RoofPeak_Set"
           },
           "Usable": {
-            "RowName": "Place",
-            "DataTableName": "D_Usable"
+            "RowName": "Place"
           },
-          "Itemable": {
-            "RowName": "Item_Glass_RoofPeak",
-            "DataTableName": "D_Itemable"
+          "Decayable": {
+            "RowName": "Decay_General"
           },
           "Manual_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.Glass"
+                "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Audio.Shelter"
+                "TagName": "Building.Glass"
               }
             ]
           },
           "Generated_Tags": {
             "GameplayTags": [
               {
+                "TagName": "Traits.Meshable"
+              },
+              {
                 "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
               },
               {
                 "TagName": "Traits.Buildable"
@@ -8561,10 +8593,13 @@
                 "TagName": "Traits.Durable"
               },
               {
-                "TagName": "Building.Glass"
+                "TagName": "Traits.Decayable"
               },
               {
                 "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.Glass"
               }
             ],
             "ParentTags": []
@@ -9072,39 +9107,71 @@
         },
         {
           "Name": "TemperedGlass_RoofPeak",
+          "Meshable": {
+            "RowName": "Mesh_Glass_Kit"
+          },
           "Durable": {
-            "RowName": "Tempered_Glass_Building",
-            "DataTableName": "D_Durability"
+            "RowName": "Tempered_Glass_Building"
           },
           "Audio": {
             "RowName": "Default"
           },
+          "Itemable": {
+            "RowName": "Item_TemperedGlass_RoofPeak"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Hitable": {
+            "RowName": "Building"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Building"
+          },
           "Buildable": {
-            "RowName": "TemperedGlass_RoofPeak_Set",
-            "DataTableName": "D_Buildable"
+            "RowName": "TemperedGlass_RoofPeak_Set"
           },
           "Usable": {
-            "RowName": "Place",
-            "DataTableName": "D_Usable"
+            "RowName": "Place"
           },
-          "Itemable": {
-            "RowName": "Item_TemperedGlass_RoofPeak",
-            "DataTableName": "D_Itemable"
+          "Decayable": {
+            "RowName": "Decay_General"
           },
           "Manual_Tags": {
             "GameplayTags": [
               {
-                "TagName": "Building.GlassTempered"
+                "TagName": "Audio.Shelter"
               },
               {
-                "TagName": "Audio.Shelter"
+                "TagName": "Building.GlassTempered"
               }
             ]
           },
           "Generated_Tags": {
             "GameplayTags": [
               {
+                "TagName": "Traits.Meshable"
+              },
+              {
                 "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Hitable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
               },
               {
                 "TagName": "Traits.Buildable"
@@ -9116,10 +9183,13 @@
                 "TagName": "Traits.Durable"
               },
               {
-                "TagName": "Building.GlassTempered"
+                "TagName": "Traits.Decayable"
               },
               {
                 "TagName": "Audio.Shelter"
+              },
+              {
+                "TagName": "Building.GlassTempered"
               }
             ],
             "ParentTags": []
@@ -14177,68 +14247,55 @@
         },
         {
           "Name": "Recipe_Glass_Stairs",
-          "RequiredTalent": {
-            "RowName": "None"
+          "Requirement": {
+            "RowName": "Glassworking_Bench"
           },
-          "Input": [
-            {
-              "Element": {
-                "RowName": "Glass"
-              },
-              "Count": 20
-            },
-            {
-              "Element": {
-                "RowName": "Aluminium_Ingot"
-              },
-              "Count": 5
-            }
-          ],
           "RecipeSets": [
             {
-              "RowName": "Glasswork_Bench",
+              "RowName": "Glassworking_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Glasswork_Bench_T2",
+              "RowName": "Glassworking_Bench_T2",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Glasswork_Bench_T3",
+              "RowName": "Glassworking_Bench_T3",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Glasswork_Bench_T4",
+              "RowName": "Glassworking_Bench_T4",
               "DataTableName": "D_RecipeSets"
             }
           ],
-          "Duration": 5.0,
           "Inputs": [
             {
               "Element": {
-                "RowName": "Glass"
+                "RowName": "Glass",
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 20
             },
             {
               "Element": {
-                "RowName": "Silica"
+                "RowName": "Silica",
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10
             }
           ],
-          "CraftingDuration": 5.0,
           "Outputs": [
             {
               "Element": {
                 "RowName": "Glass_Stairs",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
-          ]
+          ],
+          "Audio": {
+            "RowName": "Default"
+          }
         },
         {
           "Name": "Recipe_Ice_Stairs",
@@ -14434,6 +14491,9 @@
         },
         {
           "Name": "Recipe_Glass_RoofPeak",
+          "Requirement": {
+            "RowName": "Glassworking_Bench"
+          },
           "RecipeSets": [
             {
               "RowName": "Glassworking_Bench",
@@ -14474,11 +14534,12 @@
                 "RowName": "Glass_RoofPeak",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
-          ]
+          ],
+          "Audio": {
+            "RowName": "Default"
+          }
         },
         {
           "Name": "Recipe_Ice_RoofPeak",
@@ -14895,6 +14956,9 @@
         },
         {
           "Name": "Recipe_TemperedGlass_RoofPeak",
+          "Requirement": {
+            "RowName": "Glassworking_Bench"
+          },
           "RecipeSets": [
             {
               "RowName": "Glassworking_Bench",
@@ -14935,11 +14999,12 @@
                 "RowName": "TemperedGlass_RoofPeak",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
-          ]
+          ],
+          "Audio": {
+            "RowName": "Default"
+          }
         },
         {
           "Name": "Recipe_Thatch_RoofPeak",
@@ -16642,34 +16707,47 @@
         },
         {
           "Name": "Glass_Stairs",
+          "DisplayName": {
+            "Key": "",
+            "SourceString": "Glass Stairs"
+          },
+          "Description": {
+            "Key": "",
+            "SourceString": "Glass Stairs including ramp, half, and corner variants."
+          },
           "Variations": [
             {
               "Piece": {
-                "RowName": "Glass_Ramp_Stairs"
+                "RowName": "Glass_Ramp_Stairs",
+                "DataTableName": "D_BuildingPieces"
               }
             },
             {
               "Piece": {
-                "RowName": "Glass_HalfStair_L"
+                "RowName": "Glass_HalfStair_L",
+                "DataTableName": "D_BuildingPieces"
               }
             },
             {
               "Piece": {
-                "RowName": "Glass_HalfStair_R"
+                "RowName": "Glass_HalfStair_R",
+                "DataTableName": "D_BuildingPieces"
               }
             },
             {
               "Piece": {
-                "RowName": "Glass_CornerStair_L"
+                "RowName": "Glass_CornerStair_L",
+                "DataTableName": "D_BuildingPieces"
               }
             },
             {
               "Piece": {
-                "RowName": "Glass_CornerStair_R"
+                "RowName": "Glass_CornerStair_R",
+                "DataTableName": "D_BuildingPieces"
               }
             }
           ],
-          "Description": "NSLOCTEXT(\"D_Buildable\", \"Glass_Stairs-Description\", \"Glass Stairs including ramp, half, and corner variants\")",
+          "RepairItems": [],
           "Stability": {
             "RowName": "Glass_General"
           },
@@ -16680,6 +16758,18 @@
           "Pieces": [
             {
               "RowName": "Glass_Ramp_Stairs"
+            },
+            {
+              "RowName": "Glass_HalfStair_L"
+            },
+            {
+              "RowName": "Glass_HalfStair_R"
+            },
+            {
+              "RowName": "Glass_CornerStair_L"
+            },
+            {
+              "RowName": "Glass_CornerStair_R"
             }
           ]
         },
@@ -22318,10 +22408,10 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Stone.BP_Building_Stairs_Stone_C",
           "Audio": {
-            "RowName": "Stone"
+            "RowName": "Glass"
           },
           "Skin": {
-            "RowName": "Glass_Ramp_Stairs"
+            "RowName": "Glass_Stairs"
           }
         },
         {
@@ -22332,7 +22422,7 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_L.BP_Building_Stairs_Half_Stone_L_C",
           "Audio": {
-            "RowName": "Stone"
+            "RowName": "Glass"
           },
           "Skin": {
             "RowName": "Glass_HalfStair_L"
@@ -22346,7 +22436,7 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_R.BP_Building_Stairs_Half_Stone_R_C",
           "Audio": {
-            "RowName": "Stone"
+            "RowName": "Glass"
           },
           "Skin": {
             "RowName": "Glass_HalfStair_R"
@@ -22360,7 +22450,7 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
           "Audio": {
-            "RowName": "Stone"
+            "RowName": "Glass"
           },
           "Skin": {
             "RowName": "Glass_CornerStair_L"
@@ -22374,7 +22464,7 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
-            "RowName": "Stone"
+            "RowName": "Glass"
           },
           "Skin": {
             "RowName": "Glass_CornerStair_R"
@@ -22388,10 +22478,10 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_TemperedGlass_Ramp_0.T_ITEM_TemperedGlass_Ramp_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Stone.BP_Building_Stairs_Stone_C",
           "Audio": {
-            "RowName": "Stone"
+            "RowName": "Glass"
           },
           "Skin": {
-            "RowName": "TemperedGlass_Ramp_Stairs"
+            "RowName": "TemperedGlass_Stairs"
           }
         },
         {
@@ -22402,7 +22492,7 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_TemperedGlass_Ramp_0.T_ITEM_TemperedGlass_Ramp_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_L.BP_Building_Stairs_Half_Stone_L_C",
           "Audio": {
-            "RowName": "Stone"
+            "RowName": "Glass"
           },
           "Skin": {
             "RowName": "TemperedGlass_HalfStair_L"
@@ -22416,7 +22506,7 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_TemperedGlass_Ramp_0.T_ITEM_TemperedGlass_Ramp_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_R.BP_Building_Stairs_Half_Stone_R_C",
           "Audio": {
-            "RowName": "Stone"
+            "RowName": "Glass"
           },
           "Skin": {
             "RowName": "TemperedGlass_HalfStair_R"
@@ -22430,7 +22520,7 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_TemperedGlass_Ramp_0.T_ITEM_TemperedGlass_Ramp_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
           "Audio": {
-            "RowName": "Stone"
+            "RowName": "Glass"
           },
           "Skin": {
             "RowName": "TemperedGlass_CornerStair_L"
@@ -22444,7 +22534,7 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_TemperedGlass_Ramp_0.T_ITEM_TemperedGlass_Ramp_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
           "Audio": {
-            "RowName": "Stone"
+            "RowName": "Glass"
           },
           "Skin": {
             "RowName": "TemperedGlass_CornerStair_R"
@@ -27686,6 +27776,146 @@
           "Audio": {
             "RowName": "Brick"
           }
+        },
+        {
+          "Name": "Glass_Ramp_Stairs",
+          "Type": {
+            "RowName": "Ramp_Stairs"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Stone.BP_Building_Stairs_Stone_C",
+          "Audio": {
+            "RowName": "Glass"
+          },
+          "Skin": {
+            "RowName": "Glass_Stairs"
+          }
+        },
+        {
+          "Name": "Glass_HalfStair_L",
+          "Type": {
+            "RowName": "Ramp_Stairs_Half_L"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_L.BP_Building_Stairs_Half_Stone_L_C",
+          "Audio": {
+            "RowName": "Glass"
+          },
+          "Skin": {
+            "RowName": "Glass_HalfStair_L"
+          }
+        },
+        {
+          "Name": "Glass_HalfStair_R",
+          "Type": {
+            "RowName": "Ramp_Stairs_Half_R"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_R.BP_Building_Stairs_Half_Stone_R_C",
+          "Audio": {
+            "RowName": "Glass"
+          },
+          "Skin": {
+            "RowName": "Glass_HalfStair_R"
+          }
+        },
+        {
+          "Name": "Glass_CornerStair_L",
+          "Type": {
+            "RowName": "CornerStair_L"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
+          "Audio": {
+            "RowName": "Glass"
+          },
+          "Skin": {
+            "RowName": "Glass_CornerStair_L"
+          }
+        },
+        {
+          "Name": "Glass_CornerStair_R",
+          "Type": {
+            "RowName": "CornerStair_R"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
+          "Audio": {
+            "RowName": "Glass"
+          },
+          "Skin": {
+            "RowName": "Glass_CornerStair_R"
+          }
+        },
+        {
+          "Name": "TemperedGlass_Ramp_Stairs",
+          "Type": {
+            "RowName": "Ramp_Stairs"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Stone.BP_Building_Stairs_Stone_C",
+          "Audio": {
+            "RowName": "Glass"
+          },
+          "Skin": {
+            "RowName": "TemperedGlass_Stairs"
+          }
+        },
+        {
+          "Name": "TemperedGlass_HalfStair_L",
+          "Type": {
+            "RowName": "Ramp_Stairs_Half_L"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_L.BP_Building_Stairs_Half_Stone_L_C",
+          "Audio": {
+            "RowName": "Glass"
+          },
+          "Skin": {
+            "RowName": "TemperedGlass_HalfStair_L"
+          }
+        },
+        {
+          "Name": "TemperedGlass_HalfStair_R",
+          "Type": {
+            "RowName": "Ramp_Stairs_Half_R"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_R.BP_Building_Stairs_Half_Stone_R_C",
+          "Audio": {
+            "RowName": "Glass"
+          },
+          "Skin": {
+            "RowName": "TemperedGlass_HalfStair_R"
+          }
+        },
+        {
+          "Name": "TemperedGlass_CornerStair_L",
+          "Type": {
+            "RowName": "CornerStair_L"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
+          "Audio": {
+            "RowName": "Glass"
+          },
+          "Skin": {
+            "RowName": "TemperedGlass_CornerStair_L"
+          }
+        },
+        {
+          "Name": "TemperedGlass_CornerStair_R",
+          "Type": {
+            "RowName": "CornerStair_R"
+          },
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
+          "Audio": {
+            "RowName": "Glass"
+          },
+          "Skin": {
+            "RowName": "TemperedGlass_CornerStair_R"
+          }
         }
       ]
     },
@@ -29631,6 +29861,76 @@
           "BaseMeshMaterialSlotOverrides": {
             "0": "/Game/ASS/BLD/Brick/BeamDiagonal_Brick/M_BLD_BeamDiagonal_Brick_Stone.M_BLD_BeamDiagonal_Brick_Stone",
             "1": "/Game/ASS/BLD/Brick/BeamDiagonal_Brick/M_BLD_BeamDiagonal_Brick_Cement.M_BLD_BeamDiagonal_Brick_Cement"
+          }
+        },
+        {
+          "Name": "Glass_Stairs",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
+            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
+          }
+        },
+        {
+          "Name": "Glass_HalfStair_L",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
+            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
+          }
+        },
+        {
+          "Name": "Glass_HalfStair_R",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
+            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
+          }
+        },
+        {
+          "Name": "Glass_CornerStair_L",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
+            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
+          }
+        },
+        {
+          "Name": "Glass_CornerStair_R",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
+            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
+          }
+        },
+        {
+          "Name": "TemperedGlass_Stairs",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
+            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
+          }
+        },
+        {
+          "Name": "TemperedGlass_HalfStair_L",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
+            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
+          }
+        },
+        {
+          "Name": "TemperedGlass_HalfStair_R",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
+            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
+          }
+        },
+        {
+          "Name": "TemperedGlass_CornerStair_L",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
+            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
+          }
+        },
+        {
+          "Name": "TemperedGlass_CornerStair_R",
+          "BaseMeshMaterialSlotOverrides": {
+            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
+            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
           }
         }
       ]

@@ -98,6 +98,13 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 - **TEXTURE FIX:** TemperedGlass items now correctly use `Glass_Tempered` type instead of `Glass`
 - **TEXTURE FIX:** Fixed CornerStairs, RoofPeak, Frame, and Curved sets for all affected materials
 
+### v2.11.11
+- **RECIPE FIX:** Fixed Recipe_Glass_Stairs - removed duplicate Input/Inputs fields, corrected bench names (Glasswork → Glassworking)
+- **RECIPE FIX:** Fixed Recipe_Glass_RoofPeak and Recipe_TemperedGlass_RoofPeak - added missing Requirement and Audio fields
+- **TRAIT FIX:** Fixed Glass_RoofPeak and TemperedGlass_RoofPeak in D_ItemsStatic - added missing Meshable, Interactable, Hitable, Focusable, Highlightable, Actionable, Decayable traits
+- **TEXTURE FIX:** Fixed all Glass and TemperedGlass stair building pieces using Ice skins instead of Glass skins
+- **SKIN FIX:** Added missing Skin references to Glass_CornerStair_L/R and TemperedGlass_CornerStair_L/R
+
 ### v2.11.6
 - **REPAIR FIX:** Fixed all 104 items having wrong `Building.*` tags - items now repair with correct materials
 - **REPAIR FIX:** Added missing `Building.*` and `Audio.Shelter` tags to all RoofPeak items
