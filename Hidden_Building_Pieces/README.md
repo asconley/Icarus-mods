@@ -71,6 +71,12 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 
 ## Changelog
 
+### v2.13.2
+- **PLACEMENT FIX:** Fixed 94 buildable entries missing `DataTableName` reference — pieces couldn't be placed
+- All 8 ClayBrick buildable sets (Diagonal, Curved, Wall Curved, Frames, CornerStairs, etc.) now placeable
+- Also fixed: Glass/Ice/ScoriaBrick/StoneBrick/TemperedGlass Frames, ALL CornerStairs across every material
+- Added missing ClayBrick Diagonal Wall Angle Invert variations (Left & Right)
+
 ### v2.13.1
 - **MATERIAL FIX:** Fixed 42 Stone diagonal/curved skins using Scoria textures instead of Stone
   - All Stone diagonal walls, floors, roofs, beams, and curved pieces now use plain Stone materials
