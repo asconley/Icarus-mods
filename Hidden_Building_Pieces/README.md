@@ -71,6 +71,11 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 
 ## Changelog
 
+### v2.13.1
+- **MATERIAL FIX:** Fixed 42 Stone diagonal/curved skins using Scoria textures instead of Stone
+  - All Stone diagonal walls, floors, roofs, beams, and curved pieces now use plain Stone materials
+  - Removed `_Scoria` suffix from all Stone skin material paths
+
 ### v2.13.0
 - **MATERIAL FIX:** Fixed 56 building skins rendering with wrong materials
   - 19 StoneBrick diagonal/curved pieces now use proper `Brick_Stone` wall/floor/roof/beam materials
