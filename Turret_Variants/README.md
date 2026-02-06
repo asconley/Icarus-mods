@@ -1,6 +1,6 @@
 # Turret Variants Mod
 
-**Version:** 2.3  
+**Version:** 2.4  
 **Author:** AgentKush  
 **Compatible with:** Icarus (JimK72's Mod Manager)
 
@@ -117,6 +117,13 @@ All turrets require the **Pistol Turret blueprint** to be unlocked first.
 4. Launch Icarus
 
 ## Changelog
+
+### Version 2.4
+- **Fixed turrets shooting backwards when placed on building pieces**
+  - Added missing `_C` class suffix to all DeployableBlueprint references (matching vanilla turret format)
+  - Reduced MuzzleYawExtents from 180° to role-appropriate values (60°-150°) to prevent 180° flip lock
+  - Reduced MuzzlePitchExtents from ±90° to ±50° to prevent shooting through floors
+  - Yaw values now vary by turret role: Snipers get narrow arcs, CQB turrets get wider arcs
 
 ### Version 2.3
 - Fixed broken recipes with invalid ingredient names:
