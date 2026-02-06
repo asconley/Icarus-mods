@@ -1,6 +1,6 @@
 # Turret Variants Mod
 
-**Version:** 2.4  
+**Version:** 2.5  
 **Author:** AgentKush  
 **Compatible with:** Icarus (JimK72's Mod Manager)
 
@@ -117,6 +117,12 @@ All turrets require the **Pistol Turret blueprint** to be unlocked first.
 4. Launch Icarus
 
 ## Changelog
+
+### Version 2.5
+- **REPAIR FIX:** All 15 turrets are now hammer repairable
+  - Added custom `Turret_Repairable` D_Durable entry with 10,000 durability and Electronics as repair material
+  - Changed all turret Durable references from `Deployable_10000` (no repair) to `Turret_Repairable`
+  - Added full `Generated_Tags` blocks with `Traits.Durable` and all required trait tags to all 15 turrets
 
 ### Version 2.4
 - **Fixed turrets shooting backwards when placed on building pieces**
