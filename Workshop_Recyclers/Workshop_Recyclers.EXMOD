@@ -1,8 +1,8 @@
 {
     "name": "Workshop Recyclers",
     "author": "AgentKush",
-    "version": "4.1",
-    "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling 309 workshop items AND 1396 crafted items back into materials. Compatible with Agent's BioLab and Hidden Building Pieces mods!",
+    "version": "4.2",
+    "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling workshop and crafted items back into materials. v4.2: Hammer repairable recyclers. Compatible with Agent's BioLab and Hidden Building Pieces mods!",
     "fileName": "Workshop_Recyclers",
     "Level2": "True",
     "Rows": [
@@ -101,7 +101,7 @@
                         "RowName": "T3_Exotic_Cleaner"
                     },
                     "Durable": {
-                        "RowName": "Deployable_2000"
+                        "RowName": "Recycler_Repairable"
                     },
                     "Inventory": {
                         "RowName": "Inventory_Cleaner_T3"
@@ -136,6 +136,53 @@
                                 "TagName": "Item.Deployable"
                             }
                         ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter.Check"
+                            },
+                            {
+                                "TagName": "Item.Deployable.Interior"
+                            },
+                            {
+                                "TagName": "Item.Deployable"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Focusable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Deployable"
+                            },
+                            {
+                                "TagName": "Traits.Durable"
+                            },
+                            {
+                                "TagName": "Traits.Inventory"
+                            },
+                            {
+                                "TagName": "Traits.Processing"
+                            }
+                        ],
+                        "ParentTags": []
                     }
                 },
                 {
@@ -165,7 +212,7 @@
                         "RowName": "Exotic_Processor"
                     },
                     "Durable": {
-                        "RowName": "Deployable_2000"
+                        "RowName": "Recycler_Repairable"
                     },
                     "Inventory": {
                         "RowName": "Processor_NoFuel"
@@ -197,6 +244,53 @@
                                 "TagName": "Item.Deployable"
                             }
                         ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter.Check"
+                            },
+                            {
+                                "TagName": "Item.Deployable.Interior"
+                            },
+                            {
+                                "TagName": "Item.Deployable"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Focusable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Deployable"
+                            },
+                            {
+                                "TagName": "Traits.Durable"
+                            },
+                            {
+                                "TagName": "Traits.Inventory"
+                            },
+                            {
+                                "TagName": "Traits.Processing"
+                            }
+                        ],
+                        "ParentTags": []
                     }
                 }
             ]
@@ -90654,6 +90748,25 @@
                     "Audio": {
                         "RowName": "ExoticProcessor"
                     }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Durable.json",
+            "File_Items": [
+                {
+                    "Name": "Recycler_Repairable",
+                    "Max_Durability": 2000,
+                    "Destroyed_At_Zero": true,
+                    "ItemsForRepair": [
+                        {
+                            "Item": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Amount": 1
+                        }
+                    ]
                 }
             ]
         }

@@ -1,6 +1,6 @@
 # Workshop Recyclers
 
-![Version](https://img.shields.io/badge/version-4.1-blue)
+![Version](https://img.shields.io/badge/version-4.2-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -123,6 +123,7 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 
 | Version | Changes |
 |---------|---------|
+| 4.2 | **REPAIR FIX:** Both recyclers now hammer repairable. Added custom `Recycler_Repairable` D_Durable entry with Electronics as repair material. Added full `Generated_Tags` with `Traits.Durable` and all required trait tags. |
 | 4.1 | Week 213+ compatibility update |
 | 4.0 | **Major update:** All workshop items now return 100% of original costs. Added 2 missing recipes (Shengong Delta Axe, PlantBoss Inhaler). Fixed 74 currency references (Exotic1 → Meta_Resource). Fixed 28 item name typos. Fixed hammer repair by using base game Deployable_2000 durability. |
 | 3.9 | Added missing Shengong Delta Axe recipe, fixed currency return amounts |
