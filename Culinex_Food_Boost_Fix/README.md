@@ -1,84 +1,39 @@
 # Culinex Food Boost Fix
 
-![Version](https://img.shields.io/badge/version-1.0-blue)
-![Author](https://img.shields.io/badge/author-AgentKush-green)
-![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
+**Version:** 1.1  
+**Author:** AgentKush
 
-## Overview
+## Description
 
-Fixes the Chef's Backpack (Culinex) 25% food effectiveness boost to work on ALL cooked foods. Also adds a butchery recipe to convert raw meat into raw chicken.
+Fixes the Culinex (Chef's Backpack) 25% food effectiveness boost so it actually works when cooking food while wearing the backpack.
 
-## The Problem
+The vanilla game gives the Chef's Backpack a 25% cooked food effectiveness bonus, but the devs forgot to hook it up to most food items. This means wearing the backpack while cooking has zero effect on the food's buff strength for nearly every recipe in the game.
 
-The Chef's Backpack grants `BaseCookedFoodModifierEffectiveness_+%: 25` but many food items in the game are missing the corresponding `CookedFoodModifierEffectiveness_+%` affector in their modifier data. This means foods like cakes, pies, and many other dishes don't receive the 25% effectiveness boost they should.
+This mod fixes **163 food items** so the 25% effectiveness boost from the Chef's Backpack properly applies when you cook while wearing it.
 
-## The Fix
+### How It Works
+- Equip the Culinex (Chef's) Backpack
+- Cook any food while wearing it
+- The resulting food will have 25% stronger buff stats
 
-This mod adds the `CookedFoodModifierEffectiveness_+%` affector to **158 food modifiers**, ensuring all cooked foods properly benefit from the Chef's Backpack bonus.
+### Bonus Feature
+- Adds Raw Chicken recipe to the Butchery Bench and Advanced Butchery Bench
 
-## Features
+## What's Fixed
 
-### Food Boost Fix
+- 163 food items now properly receive the backpack's 25% cooking boost
+- 15 fish-based foods preserve their existing Fish Food talent bonus alongside the backpack boost
+- Covers all cooked meals, dried/smoked meats, soups, pies, cakes, drinks, and more
+- Excludes non-player foods (animal feed, raw/spoiled items)
 
-| Category | Foods Fixed |
-|----------|-------------|
-| Cakes | Chocolate, Carrot, Coconut Cake Pieces |
-| Pies | Meat, Fruit, Vegetable, Pumpkin, Shepherds, Fish Fillet |
-| Meats | All cooked, dried, and smoked meats |
-| Fish | All cooked, grilled, fried, and dried fish |
-| Vegetables | All cooked vegetables and salads |
-| Soups | Corn, Mushroom, Tomato, French Onion |
-| Breads | All bread types, flatbread, rolls |
-| Desserts | Cookies, pastries, pavlova, sorbets |
-| Alcohol | Beer, Wine, Mead, Vodka, Tequila |
+## Changelog
 
-### Bonus: Raw Chicken Recipe
+### v1.1
+- Rebuilt from current game data (163 foods, up from 158)
+- Added 5 missing foods: Fruit Smoothie, Meta Soda, Milk, Strawberry Candy, Watermelon Lollypop
+- Fixed fish food items to preserve both Fish Food talent and Cooked Food backpack effectiveness
+- Updated description and version
 
-New butchery bench recipe:
-- **Input:** 1x Raw Meat
-- **Output:** 2x Raw Chicken
-- **Stations:** Butchery Bench, Advanced Butchery Bench
-
-## Technical Specifications
-
-| Metric | Value |
-|--------|-------|
-| Food Modifiers Fixed | 158 |
-| New Recipes Added | 1 |
-| Effectiveness Boost | +25% (with Chef's Backpack) |
-
-### Files Modified
-- `Modifiers-D_ModifierStates.json` (158 entries)
-- `Processors-D_ProcessorRecipes.json` (1 entry)
-
-## Installation
-
-1. Download the `.EXMODZ` file from this repository
-2. Open JimK72's Icarus Mod Manager
-3. Import the mod file
-4. Enable and launch Icarus
-
-## Gameplay Notes
-
-- Requires the Chef's Backpack to be equipped for the boost
-- The 25% boost applies to food buff effectiveness (stats granted)
-- Combines with the existing duration boost from the backpack
-- Raw chicken recipe provides an alternative source of chicken meat
-
-## Compatibility
-
-| Mod | Status |
-|-----|--------|
-| All AgentKush mods | ✅ Compatible |
-| Other D_ModifierStates mods | ⚠️ May conflict if modifying same foods |
-| Modular Buff Enhancer | ✅ Stacks with buff enhancements |
-
-## Version History
-
-| Version | Changes |
-|---------|---------|
-| 1.0 | Initial release - 158 foods fixed, raw chicken recipe added |
-
----
-
-*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+### v1.0
+- Initial release with 158 food items
+- Added Raw Chicken to Butchery Bench
