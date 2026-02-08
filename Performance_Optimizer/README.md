@@ -1,14 +1,14 @@
 # Agents Optimization Mod
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Author:** AgentKush  
 **Game:** Icarus  
 
 ## Description
 
-Comprehensive performance optimization mod that reduces creature load, slows horde intensity, extends item decay timers, boosts fuel efficiency, and adjusts weather storm durations.
+Comprehensive performance optimization mod that reduces creature load, slows horde intensity, extends item decay timers, boosts fuel efficiency, adjusts weather storm durations, and biases weather pools toward lighter particle effects.
 
-## Changes (298 Items across 6 Tables)
+## Changes (300 Items across 7 Tables)
 
 ### AI - Creature Spawns (D_AISpawnZones) - 160 entries
 - Reduced SpawnWeight for all creatures by ~40% across all biome zones
@@ -33,11 +33,27 @@ Comprehensive performance optimization mod that reduces creature load, slows hor
 ### Fuel Efficiency (D_Combustible) - 4 entries
 - All fuel MillijoulesProvided doubled (fuel lasts twice as long)
 
+### Weather Pool Biasing (D_WeatherPools) - 2 entries
+- T0 (light) weather weight boosted 2.5x — more calm/clear periods
+- T1 weather weight boosted 2x
+- T2 weather weight boosted 1.5x
+- T4 (heavy) storm weight halved
+- T5 storm weight reduced 70%
+- T6 (extreme) storm weight reduced 85%
+- Particle-heavy types (embers, acid rain, sand, whiteout, snow, toxic gas) get additional 30% weight reduction
+- Applies to All_Weather and All_Weather_MoreLight pools
+
 ## Installation
 
 Import `Agents_Optimization_Mod.EXMODZ` using JimK72's Icarus Mod Manager.
 
 ## Changelog
+
+### v1.2
+- Added D_WeatherPools biasing to reduce heavy particle storm frequency
+- Light weather (T0-T1) now heavily favored over severe storms (T5-T6)
+- Particle-heavy weather types get additional weight reduction
+- 300 items across 7 tables
 
 ### v1.1
 - Fixed invalid data fields that prevented mod from loading
