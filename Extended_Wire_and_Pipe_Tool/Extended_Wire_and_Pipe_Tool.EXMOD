@@ -1,0 +1,11 @@
+{
+    "name": "Extended Wire and Pipe Tool",
+    "author": "AgentKush",
+    "version": "1.0",
+    "description": "Extends power cable and water/fuel pipe connection range by 10x. Power cables reach 60m, water pipes 60m, biofuel pipes 60m, crude oil pipes 100m. Also extends tool trace distance for aiming at distant connection points. PAK mod - modifies BP_ActionableBehaviour_CurvedSplinePlace Blueprint.",
+    "fileName": "Extended_Wire_and_Pipe_Tool",
+    "imageURL": "",
+    "readmeURL": "",
+    "Level2": "True",
+    "Rows": []
+}

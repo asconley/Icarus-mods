@@ -1,7 +1,7 @@
 # AgentKush's Icarus Mods
 
 [![Author](https://img.shields.io/badge/Author-AgentKush-green)]()
-[![Mods](https://img.shields.io/badge/Mods-17-blue)]()
+[![Mods](https://img.shields.io/badge/Mods-18-blue)]()
 [![License](https://img.shields.io/badge/License-Free%20to%20Use-brightgreen)]()
 [![Install](https://img.shields.io/badge/Install-Mod%20Manager-orange)](https://github.com/Jimk72/Icarus_Software)
 
@@ -15,7 +15,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 |----------|------|-------------|
 | [Workshop & Items](#workshop--items) | 4 | BioLab weapons, item kits, recyclers, dev tools |
 | [Processing Speed](#processing-speed) | 5 | 5x, 10x, 15x, 25x, and Instant processing |
-| [Quality of Life](#quality-of-life) | 5 | Indestructible tools, no spoilage, hidden building pieces |
+| [Quality of Life](#quality-of-life) | 6 | Indestructible tools, no spoilage, hidden building pieces, extended wires |
 | [Character Modifiers](#character-modifiers) | 2 | Affliction reduction, buff enhancement |
 | [Defense](#defense) | 1 | 15 automated turret variants |
 
@@ -29,6 +29,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 | **Workshop Recyclers** | Get 100% of Workshop costs back — perfect for experimenting |
 | **Hidden Building Pieces** | 104 craftable items — diagonal, curved, frames, corner stairs, roof peaks for 15 materials |
 | **Turret Variants** | 15 unique turrets with different firing patterns — automate your defense |
+| **Extended Wire and Pipe Tool** | 10x range on all power cables and pipes — wire entire bases with ease |
 
 ---
 
@@ -165,6 +166,22 @@ Fixes the Chef's Backpack 25% food boost that wasn't working correctly in vanill
 
 ---
 
+### Extended Wire and Pipe Tool
+**Version 1.0** • PAK mod
+
+Extends the reach of **all cable and pipe tools** by 10x. No more daisy-chaining generators or placing water wheels every 6 metres.
+
+| Connection Type | Vanilla Range | Modded Range |
+|---|---|---|
+| Power Cables | 6m | **60m** |
+| Water Pipes | 6m | **60m** |
+| Biofuel Pipes | 6m | **60m** |
+| Crude Oil Pipes | 10m | **100m** |
+
+> ⚠️ **PAK mod** — This modifies a Blueprint asset rather than data tables. All players and the server must have it installed for multiplayer.
+
+---
+
 ## 👤 Character Modifiers
 
 ### Modular Affliction Adjuster
@@ -252,6 +269,14 @@ These mods are free to use, modify, and redistribute. Attribution appreciated bu
 ---
 
 ## 🕐 Changelog
+
+### February 2026
+
+**February 8** — Extended Wire and Pipe Tool v1.0
+- New PAK mod: 10x range extension for all power cables and pipes
+- Power cables, water pipes, biofuel pipes extended from 6m to 60m
+- Crude oil pipes extended from 10m to 100m
+- Tool trace distance extended for aiming at distant connection points
 
 ### January 2026
 
