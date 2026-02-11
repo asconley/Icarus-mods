@@ -1,6 +1,6 @@
 # Music Radio
 
-**Version:** 0.3  
+**Version:** 0.4  
 **Author:** AgentKush  
 **Mod Manager:** JimK72's Icarus Mod Manager  
 
@@ -50,6 +50,12 @@ Install via JimK72's Icarus Mod Manager. The EXMODZ package includes both the da
 - **Mod Framework:** JimK72's Icarus Mod Manager
 
 ## Changelog
+
+### v0.4
+- Re-imported FBX mesh with proper source textures (was using cooked assets)
+- Created proper PBR materials: M_Radio (albedo, normal, roughness, metallic, AO, emissive), M_Glass (translucent with opacity), M_Invisible (hides ground plane)
+- Fixed mesh ground plane visibility with invisible material
+- Full clean cook and repackage
 
 ### v0.3
 - Added 12 music tracks with spatial audio playback

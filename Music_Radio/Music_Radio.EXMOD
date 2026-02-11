@@ -2,8 +2,8 @@
     "name": "Music Radio",
     "author": "AgentKush",
     "fileName": "Music_Radio",
-    "version": "0.3",
-    "description": "Adds a placeable Music Radio with spatial audio playback. Place it near your base to enjoy 12 royalty-free tracks by Kevin MacLeod. Features custom Emergency Radio mesh with emissive display and randomized playlist. Requires MusicRadio_P.pak.",
+    "version": "0.4",
+    "description": "Adds a placeable Music Radio with spatial audio playback. Place it near your base to enjoy 12 royalty-free tracks by Kevin MacLeod. Features custom Emergency Radio mesh with emissive display and randomized playlist.",
     "week": "",
     "Level2": "True",
     "Rows": [

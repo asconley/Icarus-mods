@@ -263,9 +263,9 @@
     {
       "name": "Music Radio",
       "author": "AgentKush",
-      "version": "0.2",
+      "version": "0.4",
       "compatibility": "All",
-      "description": "Placeable Music Radio using the C0NT4CT Radio model. Craftable at Fabricator with Electronics, Copper Wire, Gold Wire, Steel. 750 HP durability, 1kg. Foundation release - audio playback coming in v0.3 via custom Blueprint.",
+      "description": "Placeable Music Radio with spatial audio. 12 royalty-free tracks by Kevin MacLeod. Custom Emergency Radio mesh with emissive display, translucent glass, and randomized playlist. Craftable at Fabricator/Manufacturer.",
       "fileName": "Music_Radio",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/music_radio.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Music_Radio/README.md",
