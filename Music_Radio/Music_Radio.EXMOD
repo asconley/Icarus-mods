@@ -1,0 +1,221 @@
+{
+    "name": "Music Radio",
+    "author": "AgentKush",
+    "fileName": "Music_Radio",
+    "version": "0.3",
+    "description": "Adds a placeable Music Radio with spatial audio playback. Place it near your base to enjoy 12 royalty-free tracks by Kevin MacLeod. Features custom Emergency Radio mesh with emissive display and randomized playlist. Requires MusicRadio_P.pak.",
+    "week": "",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Traits-D_Meshable.json",
+            "File_Items": [
+                {
+                    "Name": "Mesh_Mod_Music_Radio",
+                    "ItemMesh": "/Game/ASS/ITM/Mission_Radio/SK_ITM_Mission_Radio.SK_ITM_Mission_Radio",
+                    "EquipHandMesh": "/Game/ASS/ITM/Mission_Radio/SK_ITM_Mission_Radio.SK_ITM_Mission_Radio",
+                    "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Mission_Radio.BP_SkeletalItem_Mission_Radio_C"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Itemable.json",
+            "File_Items": [
+                {
+                    "Name": "Item_Mod_Music_Radio",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mod_Music_Radio-DisplayName\", \"Music Radio\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Mission_Radio.T_ITEM_Mission_Radio",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mod_Music_Radio-Description\", \"A portable music radio. Place it near your base to enjoy a randomized playlist of survival-themed tunes. Music plays with spatial audio - walk closer to hear it better.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mod_Music_Radio-FlavorText\", \"Every prospector needs a soundtrack.\")",
+                    "FieldGuideKeywords": [
+                        "NSLOCTEXT(\"D_Itemable\", \"Item_Mod_Music_Radio-FieldGuideKeywords-0\", \"radio\")"
+                    ],
+                    "Weight": 1000
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Deployable.json",
+            "File_Items": [
+                {
+                    "Name": "Mod_Music_Radio",
+                    "Variants": [
+                        {
+                            "RowName": "Mod_Music_Radio",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Deployables-D_DeployableSetup.json",
+            "File_Items": [
+                {
+                    "Name": "Mod_Music_Radio",
+                    "DeployableBlueprint": "/Game/MusicRadio/Blueprints/BP_MusicRadio.BP_MusicRadio_C",
+                    "PreviewStaticMesh": "/Game/MusicRadio/Meshes/p_33_radio_sf.p_33_radio_sf",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+                    "DeployCollisionExtentOffset": {
+                        "Z": -8
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemsStatic.json",
+            "File_Items": [
+                {
+                    "Name": "Mod_Music_Radio",
+                    "Meshable": {
+                        "RowName": "Mesh_Mod_Music_Radio"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Mod_Music_Radio"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "Mod_Music_Radio"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_750"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "MetalDeployable"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "FieldGuide.Equipment"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "FieldGuide.Equipment"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Deployable"
+                            },
+                            {
+                                "TagName": "Traits.Durable"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemTemplate.json",
+            "File_Items": [
+                {
+                    "Name": "Mod_Music_Radio",
+                    "ItemStaticData": {
+                        "RowName": "Mod_Music_Radio"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "File_Items": [
+                {
+                    "Name": "Mod_Music_Radio",
+                    "RequiredMillijoules": 15000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Copper_Wire",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Gold_Wire",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Mod_Music_Radio",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                }
+            ]
+        }
+    ]
+}

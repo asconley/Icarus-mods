@@ -259,6 +259,19 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Agents_Optimization_Mod.EXMODZ"
       }
+    },
+    {
+      "name": "Music Radio",
+      "author": "AgentKush",
+      "version": "0.2",
+      "compatibility": "All",
+      "description": "Placeable Music Radio using the C0NT4CT Radio model. Craftable at Fabricator with Electronics, Copper Wire, Gold Wire, Steel. 750 HP durability, 1kg. Foundation release - audio playback coming in v0.3 via custom Blueprint.",
+      "fileName": "Music_Radio",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/music_radio.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Music_Radio/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Music_Radio/Music_Radio.EXMODZ"
+      }
     }
   ]
 }
