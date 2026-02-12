@@ -54,7 +54,7 @@
             "File_Items": [
                 {
                     "Name": "Mod_Music_Radio",
-                    "DeployableBlueprint": "/Game/MusicRadio/Blueprints/BP_MusicRadio.BP_MusicRadio_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Campfire/BP_Campfire.BP_Campfire_C",
                     "PreviewStaticMesh": "/Game/MusicRadio/Meshes/p_33_radio_sf.p_33_radio_sf",
                     "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
                     "DeployCollisionExtentOffset": {
