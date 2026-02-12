@@ -55,7 +55,7 @@
                 {
                     "Name": "Mod_Music_Radio",
                     "DeployableBlueprint": "/Game/MusicRadio/Blueprints/BP_MusicRadio.BP_MusicRadio_C",
-                    "PreviewStaticMesh": "/Game/ASS/ITM/Mission_Radio/SM_ITM_Mission_Radio.SM_ITM_Mission_Radio",
+                    "PreviewStaticMesh": "/Game/MusicRadio/Meshes/p_33_radio_sf.p_33_radio_sf",
                     "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
                     "DeployCollisionExtentOffset": {
                         "Z": -8
