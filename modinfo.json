@@ -185,9 +185,9 @@
     {
       "name": "Workshop Recyclers",
       "author": "AgentKush",
-      "version": "4.2",
+      "version": "4.3",
       "compatibility": "All",
-      "description": "Two recycling machines based on Biofuel Bio-Cleaner (T3) and Organic Residue Cleanser (T4). 1,625 recipes returning 100% of original Workshop costs. Hammer repairable.",
+      "description": "Two recycling machines based on Biofuel Bio-Cleaner (T3) and Organic Residue Cleanser (T4). 1,657 recipes returning 100% of original Workshop costs. Hammer repairable. v4.3: Fixed 69 broken references, removed 62 deleted items, added 12 new Carbon Armor/Envirosuit/Module recipes.",
       "fileName": "Workshop_Recyclers",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/workshop_recyclers.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",

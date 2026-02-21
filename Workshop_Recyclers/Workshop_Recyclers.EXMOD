@@ -2,7 +2,7 @@
     "name": "Workshop Recyclers",
     "author": "AgentKush",
     "version": "4.3",
-    "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling workshop and crafted items back into materials. v4.3: Fixed 173 broken item references from game update renames, fixed output typos (Platinum_Sheath etc), removed 37 recipes for deprecated items, added recycler support for new workshop items. Compatible with Agent's BioLab and Hidden Building Pieces mods!",
+    "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling workshop and crafted items back into materials. v4.3: Fixed 173 broken item references from game update, removed 62 recipes for deleted items, added 16 new DLC/workshop content recipes. Compatible with Agent's BioLab and Hidden Building Pieces mods!",
     "fileName": "Workshop_Recyclers",
     "Level2": "True",
     "Rows": [
@@ -88006,6 +88006,558 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 30,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Carbon_Arms_Alpha",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Carbon_Arms_Alpha",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 75,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 15,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Carbon_Arms_Beta",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Carbon_Arms_Beta",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 75,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 15,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Carbon_Chest_Alpha",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Carbon_Chest_Alpha",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 75,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 15,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Carbon_Chest_Beta",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Carbon_Chest_Beta",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 75,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 15,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Carbon_Feet_Alpha",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Carbon_Feet_Alpha",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 75,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 15,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Carbon_Feet_Beta",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Carbon_Feet_Beta",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 75,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 15,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Carbon_Head_Alpha",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Carbon_Head_Alpha",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 75,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 15,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Carbon_Head_Beta",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Carbon_Head_Beta",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 75,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 15,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Carbon_Legs_Alpha",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Carbon_Legs_Alpha",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 75,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 15,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Carbon_Legs_Beta",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Carbon_Legs_Beta",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 75,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 15,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Envirosuit_Inaris_Alpha",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Envirosuit_Inaris_Alpha",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 425,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 85,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Module_WorldBoss",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_WorldBoss",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 125,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 25,
                             "DynamicProperties": [],
                             "Alterations": []
                         }

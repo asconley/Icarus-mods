@@ -16,7 +16,7 @@ Introduces two dedicated recycling machines that enable full material recovery f
 |---------------|-------|
 | Base Machine | Biofuel Bio-Cleaner (T3) |
 | Function | Converts Workshop items to currencies |
-| Recipes | 284 |
+| Recipes | 294 |
 | Returns | 100% of Ren, Exotics, or Red Exotics |
 | Repair Materials | Hammer (same as base machine) |
 
@@ -34,8 +34,8 @@ Introduces two dedicated recycling machines that enable full material recovery f
 
 | Metric | Value |
 |--------|-------|
-| Total Recipes | 1,645 |
-| Workshop Items Recyclable | 284 |
+| Total Recipes | 1,657 |
+| Workshop Items Recyclable | 294 |
 | Crafted Items Recyclable | 1,361 |
 
 ## Currency Returns
@@ -80,9 +80,9 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 1,658 |
+| Total Modifications | 1,670 |
 | New Machines | 2 |
-| Recipe Entries | 1,645 |
+| Recipe Entries | 1,657 |
 
 ### Files Modified
 - `Crafting-D_RecipeSets.json` (2 entries)
@@ -91,7 +91,7 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 - `Items-D_ItemsStatic.json` (2 entries)
 - `Items-D_ItemTemplate.json` (2 entries)
 - `Talents-D_Talents.json` (2 entries)
-- `Crafting-D_ProcessorRecipes.json` (1,645 entries)
+- `Crafting-D_ProcessorRecipes.json` (1,657 entries)
 - `Traits-D_Durable.json` (1 entry)
 
 ## Installation
@@ -124,7 +124,7 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 
 | Version | Changes |
 |---------|---------|
-| 4.3 | **Game update compatibility fix:** Fixed 113 broken item references from game renames (food items, furniture, trophies, building pieces, attachments). Removed 64 obsolete recipes (consolidated national flags, deleted workshop items). Fixed 36 output reference typos (Platinum_Shealth, Alphawolf_Head, etc). Added 2 missing envirosuit recipes (Deluxe, Shengong 2). |
+| 4.3 | **Game update compatibility fix (Feb 2026):** Fixed 57 broken D_ItemsStatic input references from game renames (food items, furniture, trophies, attachments, building pieces). Fixed 12 broken D_ItemTemplate output references (Platinum_Shealth→Sheath, Alphawolf_Head→AlphaWolf_Head, FactionMission→Faction_Mission, etc). Removed 62 recipes for items deleted from game (consolidated national flags, removed Meta_Modules, Larkwell White armor, Shengong hammers/sickles, old BioLab inhalers). Added 12 new recycler recipes: Carbon Armor Alpha/Beta full sets, Envirosuit Inaris, Module World Boss. |
 | 4.2 | **REPAIR FIX:** Both recyclers now hammer repairable. Added custom `Recycler_Repairable` D_Durable entry with Electronics as repair material. Added full `Generated_Tags` with `Traits.Durable` and all required trait tags. |
 | 4.1 | Week 213+ compatibility update |
 | 4.0 | **Major update:** All workshop items now return 100% of original costs. Added 2 missing recipes (Shengong Delta Axe, PlantBoss Inhaler). Fixed 74 currency references (Exotic1 → Meta_Resource). Fixed 28 item name typos. Fixed hammer repair by using base game Deployable_2000 durability. |
