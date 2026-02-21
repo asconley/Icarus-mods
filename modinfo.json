@@ -224,10 +224,10 @@
     {
       "name": "Waste Not",
       "author": "CritFail / AgentKush",
-      "version": "2.0",
+      "version": "2.1",
       "compatibility": "All",
-      "description": "Enhanced mining rewards. Boosted 'Waste Not' talent (10%/20%/30% secondary resources). Dense ores drop Exotics. Normal ores drop bonus resources of the same type.",
-      "fileName": "WasteNot",
+      "description": "Mining yields useful secondary resources instead of Stone. Normal ores give bonus of the same type, dense metal ores drop Exotics. Coal gives Charcoal, Ice gives Oxite. Covers all 26 mineable deposit types.",
+      "fileName": "Waste_Not",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/waste_not.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Waste_Not/README.md",
       "files": {
