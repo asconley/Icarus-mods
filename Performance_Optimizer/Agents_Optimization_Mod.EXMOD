@@ -2,8 +2,8 @@
   "name": "Agents Optimization Mod",
   "author": "AgentKush",
   "fileName": "Agents_Optimization_Mod",
-  "version": "1.2",
-  "description": "Performance optimization - reduces creature spawn weights and counts, slows horde spawns, extends decay timers, boosts fuel efficiency, and adjusts weather storm durations.",
+  "version": "2.0",
+  "description": "Comprehensive FPS optimization - PAK config overrides (foliage/shadow/fog/LOD reduction) plus data table changes (reduced spawns, slower hordes, extended decay, boosted fuel, weather tuning).",
   "Level2": "True",
   "Rows": [
     {

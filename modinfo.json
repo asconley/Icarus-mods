@@ -250,14 +250,15 @@
     {
       "name": "Agents Optimization Mod",
       "author": "AgentKush",
-      "version": "1.2",
+      "version": "2.0",
       "compatibility": "All",
-      "description": "Performance optimization - reduces creature spawn weights and counts, slows horde spawns, extends decay timers, boosts fuel efficiency, adjusts weather durations, and biases weather pools toward lighter particle effects. 300 items across 7 tables.",
+      "description": "Comprehensive FPS optimization - PAK config overrides (foliage/shadow/fog/LOD reduction) plus data table changes (reduced spawns, slower hordes, extended decay, boosted fuel, weather tuning). PAK + EXMODZ required.",
       "fileName": "Agents_Optimization_Mod",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/banner.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/README.md",
       "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Agents_Optimization_Mod.EXMODZ"
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Agents_Optimization_Mod.EXMODZ",
+        "pak": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Performance_Optimizer_P.pak"
       }
     },
     {
