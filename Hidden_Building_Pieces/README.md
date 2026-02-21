@@ -71,6 +71,12 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 
 ## Changelog
 
+### v2.13.3
+- **RECIPE FIX (Feb 2026 update):** Fixed 5 broken recipe material references
+  - Limestone CornerStairs/RoofPeak/Halfpiece: corrupted `Ite_Ite` → `Stone`
+  - Scoria RoofPeak: corrupted `Ite_Scoria` → `Scoria`
+  - Iron Frame: `Aluminium_Ingot` → `Aluminium` (renamed in game data)
+
 ### v2.13.2
 - **PLACEMENT FIX:** Fixed 94 buildable entries missing `DataTableName` reference — pieces couldn't be placed
 - All 8 ClayBrick buildable sets (Diagonal, Curved, Wall Curved, Frames, CornerStairs, etc.) now placeable
