@@ -107,9 +107,9 @@
     {
       "name": "FastProcessing Instant",
       "author": "AgentKush",
-      "version": "4.1",
+      "version": "4.2",
       "compatibility": "All",
-      "description": "All crafting and processing instant. 3,436 recipes including base game, Workshop Recyclers, and Hidden Building Pieces. Zero wait time. Use only ONE FastProcessing variant.",
+      "description": "All crafting and processing instant. 3,677 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix.",
       "fileName": "FastProcessing_Instant",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/fast_instant.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",
