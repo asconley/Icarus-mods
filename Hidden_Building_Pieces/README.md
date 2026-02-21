@@ -73,9 +73,21 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 
 ### v2.13.4
 - **CURVED ROOF FIX:** Added missing `Ramp_Curved` piece to 7 Wall_Curved buildable sets
-  - Stone, Concrete, Glass, Scoria, ScoriaBrick, StoneBrick, TemperedGlass all had the curved roof piece removed from their Variations array
+  - Stone, Concrete, Glass, Scoria, ScoriaBrick, StoneBrick, TemperedGlass all had the curved roof piece missing from their Variations array
   - The curved roof was in the Pieces array but not in Variations, making it impossible to select when placing
   - Fixes player-reported "curved roof disappeared" issue
+- **RECIPE SET FIX:** Fixed 49 recipes with broken/renamed crafting bench references
+  - 17 recipes were fully broken (uncraftable at any station): ClayBrick, Wood, Glass, TemperedGlass, and Ice sets
+  - ClayBrick recipes: `MasonryBench` (no underscore) → `Masonry_Bench`
+  - Wood recipes: `CarpentryBench` → `Carpentry_Bench` + `Carpentry_Bench_T4`
+  - Glass/TemperedGlass recipes: `Glasswork_Bench` → `Glassworking_Bench`
+  - Ice recipes: `Ice_Workbench` → `Character` (hand-craftable, matching game)
+  - Removed 32 dead bench tier references (_T2/_T3/_T4 consolidated by game update)
+- **BUILDING TYPE FIX:** Fixed `BeeswaxWood` → `Beeswax_Wood` for 3 ReinforcedWood buildable sets
+- **REPAIR MATERIAL FIX:** Fixed 8 broken repair item references in D_Durable
+  - `Aluminium_Ingot` → `Aluminium`, `Bricks_Scoria` → `Scoria_Brick`, `Bricks_Stone` → `Stone_Brick`
+  - `Refined_Wood` → `Wood_Refined`, `Limestone` → `Concrete_Mix`, `Bricks_Cement` → `Concrete_Mix`
+  - `Tempered_Glass` → `Silica`, `Sandworm_Chitin` → `Sandworm_Scale`
 
 ### v2.13.3
 - **RECIPE FIX (Feb 2026 update):** Fixed 5 broken recipe material references

@@ -10664,13 +10664,13 @@
                     "Name": "Recipe_ClayBrick_Diagonal_Set",
                     "RecipeSets": [
                         {
-                            "RowName": "MasonryBench"
+                            "RowName": "Masonry_Bench"
                         },
                         {
-                            "RowName": "MasonryBench_T3"
+                            "RowName": "Masonry_Bench_T3"
                         },
                         {
-                            "RowName": "MasonryBench_T4"
+                            "RowName": "Masonry_Bench_T4"
                         }
                     ],
                     "Inputs": [
@@ -11027,16 +11027,10 @@
                     "Name": "Recipe_Wood_Diagonal_Set",
                     "RecipeSets": [
                         {
-                            "RowName": "CarpentryBench"
+                            "RowName": "Carpentry_Bench"
                         },
                         {
-                            "RowName": "CarpentryBench_T2"
-                        },
-                        {
-                            "RowName": "CarpentryBench_T3"
-                        },
-                        {
-                            "RowName": "CarpentryBench_T4"
+                            "RowName": "Carpentry_Bench_T4"
                         }
                     ],
                     "Inputs": [
@@ -11067,13 +11061,13 @@
                     "Name": "Recipe_ClayBrick_Diagonal_Curved_Set",
                     "RecipeSets": [
                         {
-                            "RowName": "MasonryBench"
+                            "RowName": "Masonry_Bench"
                         },
                         {
-                            "RowName": "MasonryBench_T3"
+                            "RowName": "Masonry_Bench_T3"
                         },
                         {
-                            "RowName": "MasonryBench_T4"
+                            "RowName": "Masonry_Bench_T4"
                         }
                     ],
                     "Inputs": [
@@ -11430,16 +11424,10 @@
                     "Name": "Recipe_Wood_Diagonal_Curved_Set",
                     "RecipeSets": [
                         {
-                            "RowName": "CarpentryBench"
+                            "RowName": "Carpentry_Bench"
                         },
                         {
-                            "RowName": "CarpentryBench_T2"
-                        },
-                        {
-                            "RowName": "CarpentryBench_T3"
-                        },
-                        {
-                            "RowName": "CarpentryBench_T4"
+                            "RowName": "Carpentry_Bench_T4"
                         }
                     ],
                     "Inputs": [
@@ -11470,13 +11458,13 @@
                     "Name": "Recipe_ClayBrick_Wall_Curved",
                     "RecipeSets": [
                         {
-                            "RowName": "MasonryBench"
+                            "RowName": "Masonry_Bench"
                         },
                         {
-                            "RowName": "MasonryBench_T3"
+                            "RowName": "Masonry_Bench_T3"
                         },
                         {
-                            "RowName": "MasonryBench_T4"
+                            "RowName": "Masonry_Bench_T4"
                         }
                     ],
                     "Inputs": [
@@ -11864,16 +11852,10 @@
                     "Name": "Recipe_Wood_Wall_Curved",
                     "RecipeSets": [
                         {
-                            "RowName": "CarpentryBench"
+                            "RowName": "Carpentry_Bench"
                         },
                         {
-                            "RowName": "CarpentryBench_T2"
-                        },
-                        {
-                            "RowName": "CarpentryBench_T3"
-                        },
-                        {
-                            "RowName": "CarpentryBench_T4"
+                            "RowName": "Carpentry_Bench_T4"
                         }
                     ],
                     "Inputs": [
@@ -11904,13 +11886,13 @@
                     "Name": "Recipe_ClayBrick_Diagonal_Curved_Wall_Angles",
                     "RecipeSets": [
                         {
-                            "RowName": "MasonryBench"
+                            "RowName": "Masonry_Bench"
                         },
                         {
-                            "RowName": "MasonryBench_T3"
+                            "RowName": "Masonry_Bench_T3"
                         },
                         {
-                            "RowName": "MasonryBench_T4"
+                            "RowName": "Masonry_Bench_T4"
                         }
                     ],
                     "Inputs": [
@@ -12267,16 +12249,10 @@
                     "Name": "Recipe_Wood_Diagonal_Curved_Wall_Angles",
                     "RecipeSets": [
                         {
-                            "RowName": "CarpentryBench"
+                            "RowName": "Carpentry_Bench"
                         },
                         {
-                            "RowName": "CarpentryBench_T2"
-                        },
-                        {
-                            "RowName": "CarpentryBench_T3"
-                        },
-                        {
-                            "RowName": "CarpentryBench_T4"
+                            "RowName": "Carpentry_Bench_T4"
                         }
                     ],
                     "Inputs": [
@@ -12307,13 +12283,13 @@
                     "Name": "Recipe_ClayBrick_Roof_CurvedAngles",
                     "RecipeSets": [
                         {
-                            "RowName": "MasonryBench"
+                            "RowName": "Masonry_Bench"
                         },
                         {
-                            "RowName": "MasonryBench_T3"
+                            "RowName": "Masonry_Bench_T3"
                         },
                         {
-                            "RowName": "MasonryBench_T4"
+                            "RowName": "Masonry_Bench_T4"
                         }
                     ],
                     "Inputs": [
@@ -12670,16 +12646,10 @@
                     "Name": "Recipe_Wood_Roof_CurvedAngles",
                     "RecipeSets": [
                         {
-                            "RowName": "CarpentryBench"
+                            "RowName": "Carpentry_Bench"
                         },
                         {
-                            "RowName": "CarpentryBench_T2"
-                        },
-                        {
-                            "RowName": "CarpentryBench_T3"
-                        },
-                        {
-                            "RowName": "CarpentryBench_T4"
+                            "RowName": "Carpentry_Bench_T4"
                         }
                     ],
                     "Inputs": [
@@ -12710,13 +12680,13 @@
                     "Name": "Recipe_ClayBrick_Advanced_Beam_Set",
                     "RecipeSets": [
                         {
-                            "RowName": "MasonryBench"
+                            "RowName": "Masonry_Bench"
                         },
                         {
-                            "RowName": "MasonryBench_T3"
+                            "RowName": "Masonry_Bench_T3"
                         },
                         {
-                            "RowName": "MasonryBench_T4"
+                            "RowName": "Masonry_Bench_T4"
                         }
                     ],
                     "Inputs": [
@@ -13073,16 +13043,10 @@
                     "Name": "Recipe_Wood_Diagonal_Advanced_Beam_Set",
                     "RecipeSets": [
                         {
-                            "RowName": "CarpentryBench"
+                            "RowName": "Carpentry_Bench"
                         },
                         {
-                            "RowName": "CarpentryBench_T2"
-                        },
-                        {
-                            "RowName": "CarpentryBench_T3"
-                        },
-                        {
-                            "RowName": "CarpentryBench_T4"
+                            "RowName": "Carpentry_Bench_T4"
                         }
                     ],
                     "Inputs": [
@@ -13131,10 +13095,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Masonry_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Masonry_Bench_T2",
                             "DataTableName": "D_RecipeSets"
                         },
                         {
@@ -13193,19 +13153,7 @@
                     ],
                     "RecipeSets": [
                         {
-                            "RowName": "Glasswork_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glasswork_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glasswork_Bench_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glasswork_Bench_T4",
+                            "RowName": "Glassworking_Bench",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -13256,7 +13204,7 @@
                     ],
                     "RecipeSets": [
                         {
-                            "RowName": "Ice_Workbench",
+                            "RowName": "Character",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -13308,10 +13256,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Masonry_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Masonry_Bench_T2",
                             "DataTableName": "D_RecipeSets"
                         },
                         {
@@ -13374,10 +13318,6 @@
                             "DataTableName": "D_RecipeSets"
                         },
                         {
-                            "RowName": "Masonry_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
                             "RowName": "Masonry_Bench_T3",
                             "DataTableName": "D_RecipeSets"
                         },
@@ -13433,19 +13373,7 @@
                     ],
                     "RecipeSets": [
                         {
-                            "RowName": "Glasswork_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glasswork_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glasswork_Bench_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glasswork_Bench_T4",
+                            "RowName": "Glassworking_Bench",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -13497,10 +13425,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Masonry_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Masonry_Bench_T2",
                             "DataTableName": "D_RecipeSets"
                         },
                         {
@@ -13559,7 +13483,7 @@
                     ],
                     "RecipeSets": [
                         {
-                            "RowName": "Ice_Workbench",
+                            "RowName": "Character",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -13598,18 +13522,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Concrete_Furnace",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Concrete_Furnace_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Concrete_Furnace_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Concrete_Furnace_T4",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -13655,18 +13567,6 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Fabricator_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Fabricator_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Fabricator_T4",
-                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "ResourceCostMultipliers": [
@@ -13710,14 +13610,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Carpentry_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Carpentry_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Carpentry_Bench_T3",
                             "DataTableName": "D_RecipeSets"
                         },
                         {
@@ -13769,14 +13661,6 @@
                             "DataTableName": "D_RecipeSets"
                         },
                         {
-                            "RowName": "Carpentry_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Carpentry_Bench_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
                             "RowName": "Carpentry_Bench_T4",
                             "DataTableName": "D_RecipeSets"
                         }
@@ -13822,10 +13706,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Masonry_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Masonry_Bench_T2",
                             "DataTableName": "D_RecipeSets"
                         },
                         {
@@ -13892,18 +13772,6 @@
                         {
                             "RowName": "Stone_Furnace",
                             "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Stone_Furnace_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Stone_Furnace_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Stone_Furnace_T4",
-                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Duration": 5.0,
@@ -13941,10 +13809,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Masonry_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Masonry_Bench_T2",
                             "DataTableName": "D_RecipeSets"
                         },
                         {
@@ -13997,18 +13861,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Crafting_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Crafting_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Crafting_Bench_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Crafting_Bench_T4",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -14069,14 +13921,6 @@
                             "DataTableName": "D_RecipeSets"
                         },
                         {
-                            "RowName": "Carpentry_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Carpentry_Bench_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
                             "RowName": "Carpentry_Bench_T4",
                             "DataTableName": "D_RecipeSets"
                         }
@@ -14115,18 +13959,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Glassworking_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glassworking_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glassworking_Bench_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glassworking_Bench_T4",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -14211,19 +14043,7 @@
                     ],
                     "RecipeSets": [
                         {
-                            "RowName": "Glasswork_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glasswork_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glasswork_Bench_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glasswork_Bench_T4",
+                            "RowName": "Glassworking_Bench",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -14258,10 +14078,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Masonry_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Masonry_Bench_T2",
                             "DataTableName": "D_RecipeSets"
                         },
                         {
@@ -14305,18 +14121,6 @@
                         {
                             "RowName": "Cement_Mixer",
                             "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Cement_Mixer_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Cement_Mixer_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Cement_Mixer_T4",
-                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -14353,18 +14157,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Glassworking_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glassworking_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glassworking_Bench_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glassworking_Bench_T4",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -14430,18 +14222,6 @@
                         {
                             "RowName": "Machining_Bench",
                             "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Machining_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Machining_Bench_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Machining_Bench_T4",
-                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -14476,18 +14256,6 @@
                         {
                             "RowName": "Concrete_Furnace",
                             "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Concrete_Furnace_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Concrete_Furnace_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Concrete_Furnace_T4",
-                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -14521,14 +14289,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Carpentry_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Carpentry_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Carpentry_Bench_T3",
                             "DataTableName": "D_RecipeSets"
                         },
                         {
@@ -14567,10 +14327,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Masonry_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Masonry_Bench_T2",
                             "DataTableName": "D_RecipeSets"
                         },
                         {
@@ -14616,10 +14372,6 @@
                             "DataTableName": "D_RecipeSets"
                         },
                         {
-                            "RowName": "Masonry_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
                             "RowName": "Masonry_Bench_T3",
                             "DataTableName": "D_RecipeSets"
                         },
@@ -14660,18 +14412,6 @@
                         {
                             "RowName": "Stone_Furnace",
                             "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Stone_Furnace_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Stone_Furnace_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Stone_Furnace_T4",
-                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -14705,10 +14445,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Masonry_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Masonry_Bench_T2",
                             "DataTableName": "D_RecipeSets"
                         },
                         {
@@ -14754,10 +14490,6 @@
                             "DataTableName": "D_RecipeSets"
                         },
                         {
-                            "RowName": "Masonry_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
                             "RowName": "Masonry_Bench_T3",
                             "DataTableName": "D_RecipeSets"
                         },
@@ -14800,18 +14532,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Glassworking_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glassworking_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glassworking_Bench_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Glassworking_Bench_T4",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -14886,14 +14606,6 @@
                             "DataTableName": "D_RecipeSets"
                         },
                         {
-                            "RowName": "Carpentry_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Carpentry_Bench_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
                             "RowName": "Carpentry_Bench_T4",
                             "DataTableName": "D_RecipeSets"
                         }
@@ -14962,18 +14674,6 @@
                         {
                             "RowName": "Concrete_Furnace",
                             "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Concrete_Furnace_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Concrete_Furnace_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Concrete_Furnace_T4",
-                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -15013,18 +14713,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Fabricator",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Fabricator_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Fabricator_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Fabricator_T4",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -15071,18 +14759,6 @@
                         {
                             "RowName": "Machining_Bench",
                             "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Machining_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Machining_Bench_T3",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Machining_Bench_T4",
-                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -15122,14 +14798,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Carpentry_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Carpentry_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Carpentry_Bench_T3",
                             "DataTableName": "D_RecipeSets"
                         },
                         {
@@ -15181,14 +14849,6 @@
                     "RecipeSets": [
                         {
                             "RowName": "Carpentry_Bench",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Carpentry_Bench_T2",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Carpentry_Bench_T3",
                             "DataTableName": "D_RecipeSets"
                         },
                         {
@@ -16309,7 +15969,7 @@
                         "RowName": "Stone_General"
                     },
                     "Type": {
-                        "RowName": "BeeswaxWood"
+                        "RowName": "Beeswax_Wood"
                     },
                     "PieceType": "Ramp",
                     "Variations": [
@@ -16960,7 +16620,7 @@
                         "RowName": "Reinforced_Wood_General"
                     },
                     "Type": {
-                        "RowName": "BeeswaxWood"
+                        "RowName": "Beeswax_Wood"
                     },
                     "PieceType": "Ramp",
                     "Pieces": [
@@ -21485,7 +21145,7 @@
                         "RowName": "Reinforced_Wood_General"
                     },
                     "Type": {
-                        "RowName": "BeeswaxWood"
+                        "RowName": "Beeswax_Wood"
                     },
                     "PieceType": "Frame",
                     "Pieces": [
@@ -31286,7 +30946,7 @@
                     "ItemsForRepair": [
                         {
                             "Item": {
-                                "RowName": "Aluminium_Ingot",
+                                "RowName": "Aluminium",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Amount": 1
@@ -31312,7 +30972,7 @@
                     "ItemsForRepair": [
                         {
                             "Item": {
-                                "RowName": "Limestone",
+                                "RowName": "Concrete_Mix",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Amount": 1
@@ -31325,7 +30985,7 @@
                     "ItemsForRepair": [
                         {
                             "Item": {
-                                "RowName": "Bricks_Cement",
+                                "RowName": "Concrete_Mix",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Amount": 1
@@ -31338,7 +30998,7 @@
                     "ItemsForRepair": [
                         {
                             "Item": {
-                                "RowName": "Bricks_Scoria",
+                                "RowName": "Scoria_Brick",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Amount": 1
@@ -31351,7 +31011,7 @@
                     "ItemsForRepair": [
                         {
                             "Item": {
-                                "RowName": "Bricks_Stone",
+                                "RowName": "Stone_Brick",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Amount": 1
@@ -31390,7 +31050,7 @@
                     "ItemsForRepair": [
                         {
                             "Item": {
-                                "RowName": "Tempered_Glass",
+                                "RowName": "Silica",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Amount": 1
@@ -31403,7 +31063,7 @@
                     "ItemsForRepair": [
                         {
                             "Item": {
-                                "RowName": "Sandworm_Chitin",
+                                "RowName": "Sandworm_Scale",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Amount": 1
@@ -31416,7 +31076,7 @@
                     "ItemsForRepair": [
                         {
                             "Item": {
-                                "RowName": "Refined_Wood",
+                                "RowName": "Wood_Refined",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Amount": 1
