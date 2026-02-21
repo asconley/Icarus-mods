@@ -1,41 +1,35 @@
 # No Food Spoilage
 
-![Version](https://img.shields.io/badge/version-1.3-blue)
+![Version](https://img.shields.io/badge/version-1.4-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
 ## Overview
 
-Eliminates food decay mechanics, allowing all perishable items to remain fresh indefinitely. Includes optional composter recipes for manual conversion when desired.
+Eliminates food spoilage mechanics, allowing all perishable items to remain fresh indefinitely. Includes 85 composter recipes for manual conversion to Spoiled Meat when needed for crafting.
 
 ## Features
 
-### Items Preserved
+### Spoilage Disabled (20 Decay Types)
 
-| Category | Examples |
-|----------|----------|
-| Raw Meat | Bear, wolf, deer, fish, exotic meats |
-| Cooked Food | All prepared meals and dishes |
-| Vegetables | Crops, gathered plants, mushrooms |
-| Fruits | Berries, harvested fruits |
-| Fish | All fish varieties |
-| Volatile Substances | Unstable materials, reactive compounds |
+All food-related decay entries set to SpoilTime=0, covering raw meats, cooked food, dried/smoked meats, fruits, vegetables, fish, dairy, bait, ice, frozen food, and volatile substances.
 
-### Composter Integration
+### Composter Recipes (85 Total)
 
-8 optional composter recipes included for manual item conversion when organic breakdown is desired.
+Manual conversion of any raw meat or fish into Spoiled Meat via the Composter:
 
-## Technical Specifications
-
-| Metric | Value |
-|--------|-------|
-| Total Modifications | 28 |
-| Decay Items Disabled | 20 |
-| Composter Recipes | 8 |
+| Category | Count | Examples |
+|----------|-------|----------|
+| Raw Meats | 8 | Raw Meat, Gamey, Soft, Stringy, White, Bacon, Chicken, Raw Fish |
+| Special Meats | 2 | Giant Steak, Fatty T-Bone |
+| Fish Fillets | 2 | Freshwater Fillet, Saltwater Fillet |
+| Grilled Fish | 2 | Grilled Freshwater, Grilled Saltwater |
+| Individual Fish | 19 | Fish 01-19 (base variants) |
+| Fish Variants | 52 | Fish 01-19 Var2/3/4 |
 
 ### Files Modified
 - `Traits-D_Decayable.json` (20 entries)
-- `Crafting-D_ProcessorRecipes.json` (8 entries)
+- `Crafting-D_ProcessorRecipes.json` (85 entries)
 
 ## Installation
 
@@ -44,18 +38,11 @@ Eliminates food decay mechanics, allowing all perishable items to remain fresh i
 3. Import the mod file
 4. Enable and launch Icarus
 
-## Gameplay Notes
-
-- Freshness indicators remain visible but items do not spoil
-- Ideal for Open World mode and extended missions
-- Allows stockpiling supplies without time pressure
-- Composter recipes provide optional manual conversion
-
 ## Compatibility
 
 | Mod | Status |
 |-----|--------|
-| FastProcessing (v4.0+) | ✅ Full recipe support |
+| FastProcessing (all variants) | ✅ Compatible |
 | All AgentKush mods | ✅ Compatible |
 | Other D_Decayable mods | ⚠️ May conflict |
 
@@ -63,10 +50,11 @@ Eliminates food decay mechanics, allowing all perishable items to remain fresh i
 
 | Version | Changes |
 |---------|---------|
-| 1.3 | Fixed composter recipe to use `Fish_Chunks` instead of deprecated `Raw_Fish` (Week 213+ compatibility) |
+| 1.4 | Added 77 composter recipes: all individual fish (19 base + 51 variants), Giant Steak, Fatty T-Bone, Raw Fish, fish fillets, grilled fish. Total composter recipes: 85. |
+| 1.3 | Week 213+ compatibility update |
 | 1.2 | Added 8 composter recipes for manual conversion |
 | 1.1 | Added volatile substance preservation |
-| 1.0 | Initial release with food items |
+| 1.0 | Initial release |
 
 ---
 

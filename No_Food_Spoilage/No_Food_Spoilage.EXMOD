@@ -1,8 +1,8 @@
 {
     "name": "No Food Spoilage",
     "author": "AgentKush",
-    "version": "1.3",
-    "description": "Prevents all food items and volatile substances from spoiling. Includes composter recipes to manually create Spoiled Meat from raw meats and fish chunks.",
+    "version": "1.4",
+    "description": "Prevents all food items and volatile substances from spoiling. Includes 87 composter recipes to manually create Spoiled Meat from raw meats, fish, and fillets.",
     "fileName": "No_Food_Spoilage",
     "imageURL": "",
     "readmeURL": "",
@@ -11,26 +11,151 @@
         {
             "CurrentFile": "Traits-D_Decayable.json",
             "File_Items": [
-                {"Name": "Decay_Raw_Meat", "DecayTime": 300, "SpoilTime": 0, "SpoiledItem": {"RowName": "None", "DataTableName": "D_ItemTemplate"}},
-                {"Name": "Decay_CookedMeat_Generic", "DecayTime": 300, "SpoilTime": 0, "SpoiledItem": {"RowName": "None", "DataTableName": "D_ItemTemplate"}},
-                {"Name": "Decay_Food_Generic", "DecayTime": 300, "SpoilTime": 0},
-                {"Name": "Decay_Food_OneDay", "DecayTime": 300, "SpoilTime": 0},
-                {"Name": "Decay_Food_ThreeDay", "DecayTime": 300, "SpoilTime": 0},
-                {"Name": "Decay_Ice", "DecayTime": 300, "SpoilTime": 0},
-                {"Name": "Decay_Coconut_Young", "DecayTime": 600, "SpoilTime": 0, "SpoiledItem": {"RowName": "None", "DataTableName": "D_ItemTemplate"}},
-                {"Name": "Decay_Coconut_Mid", "DecayTime": 600, "SpoilTime": 0, "SpoiledItem": {"RowName": "None", "DataTableName": "D_ItemTemplate"}},
-                {"Name": "Decay_Coconut_Mature", "DecayTime": 600, "SpoilTime": 0, "SpoiledItem": {"RowName": "None", "DataTableName": "D_ItemTemplate"}},
-                {"Name": "Decay_Bait", "DecayTime": 600, "SpoilTime": 0},
-                {"Name": "Decay_Fruit_Vegetable", "DecayTime": 300, "SpoilTime": 0, "SpoiledItem": {"RowName": "None", "DataTableName": "D_ItemTemplate"}},
-                {"Name": "Decay_Dried_Meat", "DecayTime": 300, "SpoilTime": 0, "SpoiledItem": {"RowName": "None", "DataTableName": "D_ItemTemplate"}},
-                {"Name": "Decay_Dried_Vegetable", "DecayTime": 300, "SpoilTime": 0, "SpoiledItem": {"RowName": "None", "DataTableName": "D_ItemTemplate"}},
-                {"Name": "Decay_Smoked_Meat", "DecayTime": 300, "SpoilTime": 0, "SpoiledItem": {"RowName": "None", "DataTableName": "D_ItemTemplate"}},
-                {"Name": "Decay_Raw_Chicken", "DecayTime": 300, "SpoilTime": 0, "SpoiledItem": {"RowName": "None", "DataTableName": "D_ItemTemplate"}},
-                {"Name": "Decay_Frozen_Food", "DecayTime": 200, "SpoilTime": 0},
-                {"Name": "Decay_Milk", "DecayTime": 300, "SpoilTime": 0, "bEmptyContainer": true},
-                {"Name": "Decay_Cream", "DecayTime": 300, "SpoilTime": 0},
-                {"Name": "Decay_Dried_Fish", "DecayTime": 300, "SpoilTime": 0},
-                {"Name": "Decay_Volatile_Substance", "DecayTime": 300, "SpoilTime": 0, "SpoiledItem": {"RowName": "None", "DataTableName": "D_ItemTemplate"}}
+                {
+                    "Name": "Decay_Raw_Meat",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_CookedMeat_Generic",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Food_Generic",
+                    "DecayTime": 300,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Food_OneDay",
+                    "DecayTime": 300,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Food_ThreeDay",
+                    "DecayTime": 300,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Ice",
+                    "DecayTime": 300,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Coconut_Young",
+                    "DecayTime": 600,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Coconut_Mid",
+                    "DecayTime": 600,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Coconut_Mature",
+                    "DecayTime": 600,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Bait",
+                    "DecayTime": 600,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Fruit_Vegetable",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Dried_Meat",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Dried_Vegetable",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Smoked_Meat",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Raw_Chicken",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Frozen_Food",
+                    "DecayTime": 200,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Milk",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "bEmptyContainer": true
+                },
+                {
+                    "Name": "Decay_Cream",
+                    "DecayTime": 300,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Dried_Fish",
+                    "DecayTime": 300,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Volatile_Substance",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                }
             ]
         },
         {
@@ -38,54 +163,2303 @@
             "File_Items": [
                 {
                     "Name": "Spoil_Raw_Meat",
-                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [{"Element": {"RowName": "Raw_Meat", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
-                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Raw_Meat",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
                 },
                 {
                     "Name": "Spoil_Fish_Chunks",
-                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [{"Element": {"RowName": "Fish_Chunks", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
-                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_Chunks",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
                 },
                 {
                     "Name": "Spoil_Raw_Chicken",
-                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [{"Element": {"RowName": "Raw_Chicken", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
-                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Raw_Chicken",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
                 },
                 {
                     "Name": "Spoil_Raw_Bacon",
-                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [{"Element": {"RowName": "Raw_Bacon", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
-                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Raw_Bacon",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
                 },
                 {
                     "Name": "Spoil_Gamey_Meat",
-                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [{"Element": {"RowName": "Gamey_Meat", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
-                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Gamey_Meat",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
                 },
                 {
                     "Name": "Spoil_Soft_Meat",
-                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [{"Element": {"RowName": "Soft_Meat", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
-                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Soft_Meat",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
                 },
                 {
                     "Name": "Spoil_Stringy_Meat",
-                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [{"Element": {"RowName": "Stringy_Meat", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
-                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stringy_Meat",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
                 },
                 {
                     "Name": "Spoil_White_Meat",
-                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [{"Element": {"RowName": "White_Meat", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
-                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "White_Meat",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fatty_Tbone",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fatty_Tbone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_01",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_01",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_01_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_01_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_01_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_01_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_01_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_01_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_02",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_02",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_02_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_02_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_02_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_02_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_02_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_02_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_03",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_03",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_03_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_03_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_03_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_03_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_03_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_03_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_04",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_04",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_04_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_04_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_04_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_04_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_04_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_04_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_05",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_05",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_05_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_05_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_05_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_05_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_05_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_05_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_06",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_06",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_06_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_06_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_06_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_06_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_06_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_06_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_07",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_07",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_07_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_07_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_07_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_07_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_07_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_07_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_08",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_08",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_08_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_08_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_08_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_08_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_08_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_08_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_09",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_09",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_09_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_09_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_09_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_09_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_09_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_09_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_10",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_10",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_10_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_10_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_10_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_10_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_10_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_10_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_11",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_11",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_11_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_11_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_11_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_11_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_11_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_11_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_12",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_12",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_12_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_12_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_12_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_12_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_12_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_12_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_13",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_13",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_13_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_13_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_13_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_13_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_13_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_13_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_14",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_14",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_14_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_14_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_14_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_14_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_14_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_14_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_15",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_15",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_16",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_16",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_17",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_17",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_17_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_17_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_17_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_17_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_17_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_17_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_18",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_18",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_18_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_18_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_18_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_18_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_18_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_18_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_19",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_19",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_19_Var2",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_19_Var2",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_19_Var3",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_19_Var3",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Fish_19_Var4",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fish_19_Var4",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Freshwater_Fish_Fillet",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Freshwater_Fish_Fillet",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Giant_Steak",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Giant_Steak",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Grilled_Freshwater_Fish",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Grilled_Freshwater_Fish",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Grilled_Saltwater_Fish",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Grilled_Saltwater_Fish",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Raw_Fish",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Raw_Fish",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Spoil_Saltwater_Fish_Fillet",
+                    "RecipeSets": [
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Saltwater_Fish_Fillet",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Spoiled_Meat",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ]
                 }
             ]
         },
-        {"CurrentFile": "EndOfMod"}
+        {
+            "CurrentFile": "EndOfMod"
+        }
     ]
 }
