@@ -71,6 +71,13 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 
 ## Changelog
 
+### v2.13.6
+- **TEXTURE FIX:** Updated 40 building skins to match current game material paths
+  - 28 ScoriaBrick diagonal/curved pieces: Game added dedicated piece-specific materials (walls, floors, beams, roofs) replacing generic Wall_Brick and Floor_Brick textures
+  - 8 ScoriaBrick roof curved angles: Updated to proper directional Left/Right material variants
+  - 3 Frame Pillars: Limestone (3-slot Limestone-specific), ReinforcedWood (Beeswax variant), Sandworm (Sandworm variant)
+  - 1 Scoria_Frame_HalfFrame: Cleared removed material overrides to match game
+
 ### v2.13.5
 - **PIECES ARRAY FIX:** Fixed 20 broken building piece references across 10 buildable sets
   - Removed generic `_Beam_Curved_Diagonal` entries, replaced with correct `_Up`/`_Down`/`_L`/`_R` directional variants in 8 beam sets (Ice, Wood, Scoria, ScoriaBrick, StoneBrick)
