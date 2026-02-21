@@ -1,17 +1,17 @@
 # Agent's Individual Item Kits
 
-![Version](https://img.shields.io/badge/version-2.1-blue)
+![Version](https://img.shields.io/badge/version-3.0-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
 ## Overview
 
-A comprehensive Workshop expansion featuring 1,396 individual item kits. Each kit contains a single item, enabling precise inventory management and eliminating the need to craft items from scratch.
+A comprehensive Workshop expansion featuring 2,052 individual item kits. Each kit contains a single item, enabling precise inventory management and eliminating the need to craft items from scratch.
 
 ## Features
 
-- **1,396 Individual Items** — Every craftable item and raw material available separately
-- **73 Organized Categories** — Intuitive grouping with visual spacing for easy navigation
+- **2,052 Individual Items** — Every craftable item and raw material available separately
+- **Organized Categories** — Intuitive grouping with visual spacing for easy navigation
 - **Dynamic Pricing** — Fair costs based on item complexity and rarity (5–300 credits)
 - **Search Optimized** — Find any item instantly through Workshop search
 
@@ -19,29 +19,27 @@ A comprehensive Workshop expansion featuring 1,396 individual item kits. Each ki
 
 | Tier | Credit Range | Item Examples |
 |------|--------------|---------------|
-| Basic | 5–20 | Raw materials, fibers, basic ores |
-| Standard | 25–50 | Processed materials, ingots, simple components |
-| Advanced | 75–150 | Complex crafted items, mid-tier equipment |
-| Premium | 200–300 | Rare materials, high-tier gear, specialized items |
+| Basic | 5–10 | Seeds, raw materials, basic ores |
+| Standard | 20–35 | Food, building pieces, ammo, equipment |
+| Advanced | 50–75 | Backpacks, legendary weapons, workshop animals, spacesuits |
+| Premium | 100–300 | Rare materials, high-tier gear, specialized items |
 
 ## Technical Specifications
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 8,378 |
-| Individual Items | 1,396 |
-| Categories | 73 |
+| Individual Items | 2,052 |
 | Price Range | 5–300 credits |
 
 ### Files Modified
-- `Items-D_ItemsStatic.json` (1,396 entries)
-- `Traits-D_Itemable.json` (1,396 entries)
-- `Items-D_ItemTemplate.json` (1,396 entries)
-- `Traits-D_Consumable.json` (1,396 entries)
+- `Items-D_ItemsStatic.json` (2,052 entries)
+- `Traits-D_Itemable.json` (2,052 entries)
+- `Items-D_ItemTemplate.json` (2,052 entries)
+- `Traits-D_Consumable.json` (2,052 entries)
 - `Talents-D_TalentArchetypes.json` (1 entry)
 - `Talents-D_TalentTrees.json` (1 entry)
-- `Talents-D_Talents.json` (1,396 entries)
-- `MetaWorkshop-D_WorkshopItems.json` (1,396 entries)
+- `Talents-D_Talents.json` (2,052 entries)
+- `MetaWorkshop-D_WorkshopItems.json` (2,052 entries)
 
 ## Installation
 
@@ -62,6 +60,7 @@ A comprehensive Workshop expansion featuring 1,396 individual item kits. Each ki
 
 | Version | Changes |
 |---------|---------|
+| 3.0 | Added 657 new kits (fish, flags, props, seeds, food, animals, building pieces, envirosuits, legendary weapons, ammo, backpacks, and more). Fixed 4 broken item references (Fatty_TBone, Platinum_Sheath, Pyritic_Crust_Platinium, Waterbomb). Total: 2,052 kits. |
 | 2.1 | Week 213+ compatibility update |
 | 2.0 | Complete reorganization into 73 categories, revised pricing system |
 | 1.0 | Initial release |
