@@ -13218,7 +13218,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Frost"
+                                "RowName": "Ice"
                             },
                             "Count": 10
                         }
@@ -13381,7 +13381,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Tempered_Glass"
+                                "RowName": "Glass"
                             },
                             "Count": 20
                         },
@@ -13497,7 +13497,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Frost"
+                                "RowName": "Ice"
                             },
                             "Count": 10
                         }
@@ -13778,7 +13778,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Scoria_Ore"
+                                "RowName": "Scoria"
                             },
                             "Count": 20
                         },
@@ -14051,7 +14051,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Tempered_Glass"
+                                "RowName": "Glass"
                             },
                             "Count": 20
                         },
@@ -15164,7 +15164,10 @@
                             "RowName": "Ice_Ramp_Curved"
                         },
                         {
-                            "RowName": "Ice_Beam_Curved_Diagonal"
+                            "RowName": "Ice_Beam_Curved_Diagonal_Up"
+                        },
+                        {
+                            "RowName": "Ice_Beam_Curved_Diagonal_Down"
                         }
                     ]
                 },
@@ -15555,13 +15558,25 @@
                             "RowName": "Wood_Diagonal_Beam_Diagonal"
                         },
                         {
-                            "RowName": "Wood_Beam_Curved_Diagonal"
+                            "RowName": "Wood_Beam_Curved_Diagonal_Up"
+                        },
+                        {
+                            "RowName": "Wood_Beam_Curved_Diagonal_Down"
                         },
                         {
                             "RowName": "Wood_Diagonal_Beam_Curved_Horizontal"
                         },
                         {
-                            "RowName": "Wood_Diagonal_Beam_Curved_Diagonal"
+                            "RowName": "Wood_Diagonal_Beam_Curved_Diagonal_Up_L"
+                        },
+                        {
+                            "RowName": "Wood_Diagonal_Beam_Curved_Diagonal_Up_R"
+                        },
+                        {
+                            "RowName": "Wood_Diagonal_Beam_Curved_Diagonal_Down_L"
+                        },
+                        {
+                            "RowName": "Wood_Diagonal_Beam_Curved_Diagonal_Down_R"
                         }
                     ]
                 },
@@ -16341,7 +16356,19 @@
                     "PieceType": "Ramp",
                     "Pieces": [
                         {
-                            "RowName": "Glass_Ramp_Stairs_Tempered"
+                            "RowName": "TemperedGlass_Ramp_Stairs"
+                        },
+                        {
+                            "RowName": "TemperedGlass_HalfStair_L"
+                        },
+                        {
+                            "RowName": "TemperedGlass_HalfStair_R"
+                        },
+                        {
+                            "RowName": "TemperedGlass_CornerStair_L"
+                        },
+                        {
+                            "RowName": "TemperedGlass_CornerStair_R"
                         }
                     ]
                 },
@@ -16993,13 +17020,10 @@
                     "PieceType": "Wall",
                     "Pieces": [
                         {
-                            "RowName": "Metal_Grate_Half_Normal_HalfFloor"
+                            "RowName": "Metal_Grate_HalfNormal_HalfFloor"
                         },
                         {
-                            "RowName": "Metal_Grate_Half_Normal_HalfRampRight"
-                        },
-                        {
-                            "RowName": "Metal_Grate_Half_Normal_HalfRampLeft"
+                            "RowName": "Metal_Grate_HalfNormal_QuarterFloor"
                         }
                     ]
                 },
@@ -19234,9 +19258,6 @@
                             "RowName": "Scoria_Ramp_Curved"
                         },
                         {
-                            "RowName": "Scoria_Beam_Curved_Diagonal"
-                        },
-                        {
                             "RowName": "Scoria_Beam_Curved_Diagonal_Up"
                         },
                         {
@@ -19470,9 +19491,6 @@
                     },
                     "PieceType": "Frame",
                     "Pieces": [
-                        {
-                            "RowName": "Scoria_Beam_Curved_Diagonal"
-                        },
                         {
                             "RowName": "Scoria_Diagonal_Beam_Horizontal"
                         },
@@ -19723,9 +19741,6 @@
                             "RowName": "ScoriaBrick_Ramp_Curved"
                         },
                         {
-                            "RowName": "ScoriaBrick_Beam_Curved_Diagonal"
-                        },
-                        {
                             "RowName": "ScoriaBrick_Beam_Curved_Diagonal_Up"
                         },
                         {
@@ -19959,9 +19974,6 @@
                     },
                     "PieceType": "Frame",
                     "Pieces": [
-                        {
-                            "RowName": "ScoriaBrick_Beam_Curved_Diagonal"
-                        },
                         {
                             "RowName": "ScoriaBrick_Diagonal_Beam_Horizontal"
                         },
@@ -20212,9 +20224,6 @@
                             "RowName": "StoneBrick_Ramp_Curved"
                         },
                         {
-                            "RowName": "StoneBrick_Beam_Curved_Diagonal"
-                        },
-                        {
                             "RowName": "StoneBrick_Beam_Curved_Diagonal_Down"
                         },
                         {
@@ -20449,16 +20458,10 @@
                     "PieceType": "Frame",
                     "Pieces": [
                         {
-                            "RowName": "StoneBrick_Beam_Curved_Diagonal"
+                            "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Up_L"
                         },
                         {
-                            "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal"
-                        },
-                        {
-                            "RowName": "StoneBrick_Beam_Curved_Diagonal_Down"
-                        },
-                        {
-                            "RowName": "StoneBrick_Beam_Curved_Diagonal_Up"
+                            "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Up_R"
                         },
                         {
                             "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Down_L"
@@ -20467,10 +20470,10 @@
                             "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Down_R"
                         },
                         {
-                            "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Up_L"
+                            "RowName": "StoneBrick_Beam_Curved_Diagonal_Down"
                         },
                         {
-                            "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Up_R"
+                            "RowName": "StoneBrick_Beam_Curved_Diagonal_Up"
                         }
                     ]
                 },
@@ -21015,22 +21018,22 @@
                     "PieceType": "Wall",
                     "Pieces": [
                         {
-                            "RowName": "Limestone_Half_Normal_HalfFloor"
+                            "RowName": "Limestone_HalfNormal_HalfFloor"
                         },
                         {
-                            "RowName": "Limestone_Half_Normal_QuarterFloor"
+                            "RowName": "Limestone_HalfNormal_QuarterFloor"
                         },
                         {
-                            "RowName": "Limestone_Half_Normal_HalfRampRight"
+                            "RowName": "Limestone_HalfNormal_HalfRampRight"
                         },
                         {
-                            "RowName": "Limestone_Half_Normal_HalfRampLeft"
+                            "RowName": "Limestone_HalfNormal_HalfRampLeft"
                         },
                         {
-                            "RowName": "Limestone_Half_Normal_HalfWallLower"
+                            "RowName": "Limestone_HalfNormal_HalfWallLower"
                         },
                         {
-                            "RowName": "Limestone_Half_Normal_HalfWallUpper"
+                            "RowName": "Limestone_HalfNormal_HalfWallUpper"
                         }
                     ]
                 },
@@ -30895,6 +30898,78 @@
                     "Name": "Stone_Roof_CurvedAngle_Down_R_Invert",
                     "BaseMeshMaterialSlotOverrides": {
                         "0": "/Game/ASS/BLD/Stone/Roof_CurvedAngle_Down_Inverted_Stone_R/M_BLD_Roof_CurvedAngle_Down_Inverted_Stone_R_A.M_BLD_Roof_CurvedAngle_Down_Inverted_Stone_R_A"
+                    }
+                },
+                {
+                    "Name": "Wood_CornerStair_L",
+                    "BaseMeshMaterialSlotOverrides": {
+                        "0": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_A.M_BLD_Stairs_Wood_A",
+                        "1": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_B.M_BLD_Stairs_Wood_B"
+                    }
+                },
+                {
+                    "Name": "Wood_CornerStair_R",
+                    "BaseMeshMaterialSlotOverrides": {
+                        "0": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_A.M_BLD_Stairs_Wood_A",
+                        "1": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_B.M_BLD_Stairs_Wood_B"
+                    }
+                },
+                {
+                    "Name": "Thatch_CornerStair_L",
+                    "BaseMeshMaterialSlotOverrides": {
+                        "0": "/Game/ASS/BLD/Thatch/Stairs_Thatch/M_BLD_Stairs_Thatch_A.M_BLD_Stairs_Thatch_A",
+                        "1": "/Game/ASS/BLD/Thatch/Stairs_Thatch/M_BLD_Stairs_Thatch_B.M_BLD_Stairs_Thatch_B"
+                    }
+                },
+                {
+                    "Name": "Thatch_CornerStair_R",
+                    "BaseMeshMaterialSlotOverrides": {
+                        "0": "/Game/ASS/BLD/Thatch/Stairs_Thatch/M_BLD_Stairs_Thatch_A.M_BLD_Stairs_Thatch_A",
+                        "1": "/Game/ASS/BLD/Thatch/Stairs_Thatch/M_BLD_Stairs_Thatch_B.M_BLD_Stairs_Thatch_B"
+                    }
+                },
+                {
+                    "Name": "MetalGrate_CornerStair_L",
+                    "BaseMeshMaterialSlotOverrides": {
+                        "0": "/Game/ASS/BLD/Iron/Stairs_Iron/M_BLD_Stairs_Iron_MetalGrate_A.M_BLD_Stairs_Iron_MetalGrate_A",
+                        "1": "/Game/ASS/BLD/Iron/Stairs_Iron/M_BLD_Stairs_Iron_MetalGrate_B.M_BLD_Stairs_Iron_MetalGrate_B"
+                    }
+                },
+                {
+                    "Name": "MetalGrate_CornerStair_R",
+                    "BaseMeshMaterialSlotOverrides": {
+                        "0": "/Game/ASS/BLD/Iron/Stairs_Iron/M_BLD_Stairs_Iron_MetalGrate_A.M_BLD_Stairs_Iron_MetalGrate_A",
+                        "1": "/Game/ASS/BLD/Iron/Stairs_Iron/M_BLD_Stairs_Iron_MetalGrate_B.M_BLD_Stairs_Iron_MetalGrate_B"
+                    }
+                },
+                {
+                    "Name": "Metal_Grate_HalfNormal_QuarterFloor",
+                    "BaseMeshMaterialSlotOverrides": {
+                        "0": "/Game/ASS/BLD/Iron/Floor_Iron/M_BLD_Floor_Iron_MetalGrate.M_BLD_Floor_Iron_MetalGrate"
+                    }
+                },
+                {
+                    "Name": "ClayBrick_Diagonal_Beam_Curved_Diagonal_Up_L",
+                    "BaseMeshMaterialSlotOverrides": {
+                        "0": "/Game/ASS/BLD/Brick/BeamDiagonal_Brick/M_BLD_BeamDiagonal_Brick_Scoria.M_BLD_BeamDiagonal_Brick_Scoria"
+                    }
+                },
+                {
+                    "Name": "ClayBrick_Diagonal_Beam_Curved_Diagonal_Up_R",
+                    "BaseMeshMaterialSlotOverrides": {
+                        "0": "/Game/ASS/BLD/Brick/BeamDiagonal_Brick/M_BLD_BeamDiagonal_Brick_Scoria.M_BLD_BeamDiagonal_Brick_Scoria"
+                    }
+                },
+                {
+                    "Name": "ClayBrick_Diagonal_Beam_Curved_Diagonal_Down_L",
+                    "BaseMeshMaterialSlotOverrides": {
+                        "0": "/Game/ASS/BLD/Brick/BeamDiagonal_Brick/M_BLD_BeamDiagonal_Brick_Scoria.M_BLD_BeamDiagonal_Brick_Scoria"
+                    }
+                },
+                {
+                    "Name": "ClayBrick_Diagonal_Beam_Curved_Diagonal_Down_R",
+                    "BaseMeshMaterialSlotOverrides": {
+                        "0": "/Game/ASS/BLD/Brick/BeamDiagonal_Brick/M_BLD_BeamDiagonal_Brick_Scoria.M_BLD_BeamDiagonal_Brick_Scoria"
                     }
                 }
             ]

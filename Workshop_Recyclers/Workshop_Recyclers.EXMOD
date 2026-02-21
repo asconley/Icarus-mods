@@ -980,7 +980,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 10,
@@ -1063,7 +1063,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 10,
@@ -1109,7 +1109,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 10,
@@ -1155,7 +1155,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 10,
@@ -1201,7 +1201,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 10,
@@ -1247,7 +1247,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 10,
@@ -1293,7 +1293,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 10,
@@ -1339,7 +1339,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 10,
@@ -1459,7 +1459,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -1579,7 +1579,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -1625,7 +1625,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -1745,7 +1745,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -1791,7 +1791,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -1948,7 +1948,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -2142,7 +2142,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -2854,7 +2854,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 25,
@@ -2974,7 +2974,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 25,
@@ -3094,7 +3094,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 25,
@@ -3214,7 +3214,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 25,
@@ -3260,7 +3260,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
@@ -3306,7 +3306,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
@@ -3648,7 +3648,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -3694,7 +3694,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -4073,7 +4073,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 10,
@@ -4119,7 +4119,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 10,
@@ -4156,7 +4156,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 400,
@@ -4193,7 +4193,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 400,
@@ -4230,7 +4230,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 400,
@@ -4267,7 +4267,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 400,
@@ -4674,7 +4674,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 400,
@@ -4711,7 +4711,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 400,
@@ -4785,7 +4785,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 400,
@@ -4822,7 +4822,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 400,
@@ -4942,7 +4942,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -4988,7 +4988,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5034,7 +5034,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5080,7 +5080,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5126,7 +5126,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5172,7 +5172,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5218,7 +5218,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5264,7 +5264,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5310,7 +5310,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5356,7 +5356,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5402,7 +5402,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5448,7 +5448,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5494,7 +5494,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
@@ -5540,7 +5540,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5586,7 +5586,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5660,7 +5660,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 500,
@@ -5697,7 +5697,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 400,
@@ -5817,7 +5817,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 150,
@@ -5863,7 +5863,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -5946,7 +5946,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
@@ -7311,7 +7311,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
@@ -8504,7 +8504,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 75,
@@ -8550,7 +8550,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 75,
@@ -8596,7 +8596,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 75,
@@ -8642,7 +8642,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 75,
@@ -8688,7 +8688,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 75,
@@ -8734,7 +8734,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -8780,7 +8780,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -8826,7 +8826,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -8872,7 +8872,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
@@ -8918,7 +8918,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -8964,7 +8964,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -9010,7 +9010,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 75,
@@ -9056,7 +9056,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 75,
@@ -9102,7 +9102,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 75,
@@ -9148,7 +9148,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 75,
@@ -9194,7 +9194,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 75,
@@ -9231,7 +9231,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 400,
@@ -9268,7 +9268,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 200,
@@ -9314,7 +9314,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 200,
@@ -9360,7 +9360,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 200,
@@ -9443,7 +9443,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -9563,7 +9563,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -9683,7 +9683,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -9729,7 +9729,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -27928,7 +27928,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Faction_Mission_Tech1",
+                                "RowName": "FactionMission_Tech1",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -27937,7 +27937,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Faction_Mission_Tech2",
+                                "RowName": "FactionMission_Tech2",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -27946,7 +27946,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Faction_Mission_Tech3",
+                                "RowName": "FactionMission_Tech3",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -27983,7 +27983,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Faction_Mission_Tech1",
+                                "RowName": "FactionMission_Tech1",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -27992,7 +27992,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Faction_Mission_Tech2",
+                                "RowName": "FactionMission_Tech2",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -28001,7 +28001,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Faction_Mission_Tech3",
+                                "RowName": "FactionMission_Tech3",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -28038,7 +28038,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Mission_High_Tech_1",
+                                "RowName": "Mission_HighTech_1",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -28047,7 +28047,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Mission_High_Tech_2",
+                                "RowName": "Mission_HighTech_2",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -28056,7 +28056,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Mission_High_Tech_3",
+                                "RowName": "Mission_HighTech_3",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -29668,7 +29668,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 4,
@@ -30327,7 +30327,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "AlphaWolf_Head",
+                                "RowName": "Alphawolf_Head",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -36303,7 +36303,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Feet_Hands_Attachment_Fall_Resistance_1",
+                                "RowName": "Feet_Arms_Attachment_Fall_Resistance_1",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -38614,7 +38614,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 2,
@@ -42260,7 +42260,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Saddle_Mount",
+                                "RowName": "Saddle_Standard",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -42378,7 +42378,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 30,
@@ -42451,7 +42451,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 30,
@@ -48203,7 +48203,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 8,
@@ -48989,7 +48989,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -49035,7 +49035,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -49090,7 +49090,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -55916,7 +55916,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Rabbit_Variant_Head",
+                                "RowName": "Rabbit_Varient_Head",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -61048,7 +61048,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 6,
@@ -61194,7 +61194,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "AlphaWolf_Head",
+                                "RowName": "Alphawolf_Head",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -61542,7 +61542,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Fatty_TBone",
+                                "RowName": "Fatty_Tbone",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -62222,7 +62222,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 16,
@@ -63668,7 +63668,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Saddle_Mount",
+                                "RowName": "Saddle_Standard",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -63750,7 +63750,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Saddle_Mount",
+                                "RowName": "Saddle_Standard",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -63832,7 +63832,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Saddle_Mount",
+                                "RowName": "Saddle_Standard",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -63969,7 +63969,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Stone_Curved_Set",
+                                "RowName": "Stone_Diagonal_Curved_Set",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -64161,7 +64161,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Stone_Advanced_Beams_Set",
+                                "RowName": "Stone_Advanced_Beam_Set",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -64353,7 +64353,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Scoria_Curved_Set",
+                                "RowName": "Scoria_Diagonal_Curved_Set",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -68021,7 +68021,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 2,
@@ -72664,7 +72664,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "AlphaWolf_Head",
+                                "RowName": "Alphawolf_Head",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -72710,7 +72710,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "AlphaWolf_Head",
+                                "RowName": "Alphawolf_Head",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -72756,7 +72756,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "AlphaWolf_Head",
+                                "RowName": "Alphawolf_Head",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -82968,7 +82968,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -86558,7 +86558,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -86641,7 +86641,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1000,
@@ -86678,7 +86678,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1000,
@@ -86715,7 +86715,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1000,
@@ -86752,7 +86752,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1000,
@@ -86789,7 +86789,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1000,
@@ -86826,7 +86826,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1000,
@@ -86863,7 +86863,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1000,
@@ -86900,7 +86900,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1000,
@@ -86937,7 +86937,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1000,
@@ -86974,7 +86974,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1000,
@@ -88002,7 +88002,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Ingot",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 30,
@@ -88048,7 +88048,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 15,
@@ -88094,7 +88094,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 15,
@@ -88140,7 +88140,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 15,
@@ -88186,7 +88186,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 15,
@@ -88232,7 +88232,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 15,
@@ -88278,7 +88278,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 15,
@@ -88324,7 +88324,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 15,
@@ -88370,7 +88370,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 15,
@@ -88416,7 +88416,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 15,
@@ -88462,7 +88462,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 15,
@@ -88508,7 +88508,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 85,
@@ -88554,7 +88554,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Meta_Resource",
+                                "RowName": "MetaResource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 25,

@@ -124,6 +124,7 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 
 | Version | Changes |
 |---------|---------|
+| 4.4 | **Broken output reference fix:** Fixed 135 recipe output references. `Meta_Resource` → `MetaResource` (78 recipes), `Platinum_Sheath` → `Platinum_Ingot` (12 recipes), `AlphaWolf_Head` → `Alphawolf_Head`, `Faction_Mission_Tech` → `FactionMission_Tech`, `Mission_High_Tech` → `Mission_HighTech`, `Saddle_Mount` → `Saddle_Standard`, `Feet_Hands` → `Feet_Arms`, `Rabbit_Variant_Head` → `Rabbit_Varient_Head`, `Fatty_TBone` → `Fatty_Tbone`. |
 | 4.3 | **Game update compatibility fix (Feb 2026):** Fixed 57 broken D_ItemsStatic input references from game renames (food items, furniture, trophies, attachments, building pieces). Fixed 12 broken D_ItemTemplate output references (Platinum_Shealth→Sheath, Alphawolf_Head→AlphaWolf_Head, FactionMission→Faction_Mission, etc). Removed 62 recipes for items deleted from game (consolidated national flags, removed Meta_Modules, Larkwell White armor, Shengong hammers/sickles, old BioLab inhalers). Added 12 new recycler recipes: Carbon Armor Alpha/Beta full sets, Envirosuit Inaris, Module World Boss. |
 | 4.2 | **REPAIR FIX:** Both recyclers now hammer repairable. Added custom `Recycler_Repairable` D_Durable entry with Electronics as repair material. Added full `Generated_Tags` with `Traits.Durable` and all required trait tags. |
 | 4.1 | Week 213+ compatibility update |

@@ -71,6 +71,17 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 
 ## Changelog
 
+### v2.13.5
+- **PIECES ARRAY FIX:** Fixed 20 broken building piece references across 10 buildable sets
+  - Removed generic `_Beam_Curved_Diagonal` entries, replaced with correct `_Up`/`_Down`/`_L`/`_R` directional variants in 8 beam sets (Ice, Wood, Scoria, ScoriaBrick, StoneBrick)
+  - Fixed TemperedGlass_Stairs: `Glass_Ramp_Stairs_Tempered` → 5 correct TemperedGlass piece names
+  - Fixed Metal_Grate_HalfNormal: `Half_Normal_*` → `HalfNormal_*` naming correction
+  - Fixed Limestone_Halfpiece: same `Half_Normal` → `HalfNormal` underscore fix for 6 pieces
+- **RECIPE INPUT FIX:** Fixed 5 recipes with renamed crafting material inputs
+  - `Frost` → `Ice` (Ice Frame, Ice CornerStairs)
+  - `Tempered_Glass` → `Glass` (TemperedGlass Frame, TemperedGlass Stairs)
+  - `Scoria_Ore` → `Scoria` (Scoria CornerStairs)
+
 ### v2.13.4
 - **CURVED ROOF FIX:** Added missing `Ramp_Curved` piece to 7 Wall_Curved buildable sets
   - Stone, Concrete, Glass, Scoria, ScoriaBrick, StoneBrick, TemperedGlass all had the curved roof piece missing from their Variations array
