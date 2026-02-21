@@ -2,7 +2,7 @@
     "name": "Dev Tools Kit",
     "author": "AgentKush",
     "fileName": "Dev_Tools_Kit",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Unlocks 10 hidden developer tools from the workshop including Thor Hammer (fly mode), Fireball, Inspection Tool, Transform Tool, Destroy Tool, and more. Free to research and craft!",
     "week": "",
     "Level2": "True",
@@ -53,14 +53,14 @@
                 {
                     "Name": "Item_Dev_Unobtainable_Tool",
                     "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Dev_Unobtainable_Tool-DisplayName\", \"Unobtainable Tool\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Host.Icon_Host",
+                    "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_CrateEquipment.Icon_Map_CrateEquipment",
                     "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Dev_Unobtainable_Tool-Description\", \"Left click to prevent deployable from being picked up.\")",
                     "Weight": 10
                 },
                 {
                     "Name": "Item_Test_Seed",
                     "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Test_Seed-DisplayName\", \"Test Seed\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_SeedPouch_Wheat.ITEM_SeedPouch_Wheat",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Red_Exotic_Seed.ITEM_Red_Exotic_Seed",
                     "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Test_Seed-Description\", \"A mysterious test seed from the developers.\")",
                     "Weight": 10,
                     "MaxStack": 100
@@ -68,7 +68,7 @@
                 {
                     "Name": "Item_Proxy_Dropship",
                     "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Proxy_Dropship-DisplayName\", \"Deployable Dropship\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_DropPod.ITEM_DropPod",
+                    "Icon": "/Game/Assets/2DArt/UI/Logos/Icon_Icarus.Icon_Icarus",
                     "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Proxy_Dropship-Description\", \"Place your own dropship anywhere!\")",
                     "Weight": 50000
                 }

@@ -1,6 +1,6 @@
 # Dev Tools Kit
 
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.1-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -86,6 +86,7 @@ All items appear in a new **"Developer Tools"** category in the Workshop.
 
 | Version | Changes |
 |---------|---------|
+| 1.1.1 | Updated 3 item icons to match current game data: Unobtainable Tool (→ CrateEquipment icon), Test Seed (→ Red Exotic Seed icon), Deployable Dropship (→ Icarus logo icon). |
 | 1.1.0 | Fixed: Added Item.Meta tags to existing game dev items (Fireball, Inspection Tool, Bug Tool, Pyromancy Flame, Transform Tool) - now all 10 items appear in Workshop |
 | 1.0.0 | Initial release - 10 dev tools unlocked |
 
