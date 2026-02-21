@@ -1,8 +1,8 @@
 {
     "name": "Workshop Recyclers",
     "author": "AgentKush",
-    "version": "4.3",
-    "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling workshop and crafted items back into materials. v4.3: Fixed 173 broken item references from game update renames, fixed output typos (Platinum_Sheath etc), removed 37 recipes for deprecated items, added recycler support for new workshop items. Compatible with Agent's BioLab and Hidden Building Pieces mods!",
+    "version": "4.2",
+    "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling workshop and crafted items back into materials. v4.2: Hammer repairable recyclers. Compatible with Agent's BioLab and Hidden Building Pieces mods!",
     "fileName": "Workshop_Recyclers",
     "Level2": "True",
     "Rows": [
@@ -6181,6 +6181,52 @@
                     }
                 },
                 {
+                    "Name": "Recycle_Axe_Shengong_Delta",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Axe_Shengong_Delta",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 250,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
                     "Name": "Recycle_Axe_Shengong_Echo",
                     "RequiredMillijoules": 1000,
                     "RecipeSets": [
@@ -6308,6 +6354,135 @@
                         {
                             "Element": {
                                 "RowName": "Meta_Spear_Shengong_Echo",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 150,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Hammer_Shengong_Charlie",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Hammer_Shengong_Charlie",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 250,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Hammer_Shengong_Delta",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Hammer_Shengong_Delta",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 250,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Hammer_Shengong_Echo",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Hammer_Shengong_Echo",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -7241,89 +7416,6 @@
                     }
                 },
                 {
-                    "Name": "Recycle_Envirosuit_Deluxe",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Envirosuit_Deluxe",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Envirosuit_Shengong_2",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Envirosuit_Shengong_2",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 100,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
                     "Name": "Recycle_Module_Temperature",
                     "RequiredMillijoules": 1000,
                     "RecipeSets": [
@@ -7562,6 +7654,43 @@
                         {
                             "Element": {
                                 "RowName": "Meta_Heated_Canteen_Larkwell",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Heated_Canteen_Inaris",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Canteen_Inaris",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -9207,6 +9336,191 @@
                     }
                 },
                 {
+                    "Name": "Recycle_Larkwell_Armor_White_Head",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Larkwell_Armor_White_Head",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Larkwell_Armor_White_Chest",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Larkwell_Armor_White_Chest",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Larkwell_Armor_White_Arms",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Larkwell_Armor_White_Arms",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Larkwell_Armor_White_Legs",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Larkwell_Armor_White_Legs",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Larkwell_Armor_White_Feet",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Larkwell_Armor_White_Feet",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
                     "Name": "Recycle_Sickle_Inaris_00",
                     "RequiredMillijoules": 1000,
                     "RecipeSets": [
@@ -9373,6 +9687,117 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 200,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Sickle_Shengong_01",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Sickle_Shengong_01",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 150,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Sickle_Shengong_02",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Sickle_Shengong_02",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 400,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Shield_9Diamonds",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Shield_9Diamonds",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10000,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -10408,6 +10833,558 @@
                     }
                 },
                 {
+                    "Name": "Recycle_Module_Food",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_Food",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Module_Oxygen",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_Oxygen",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Module_Water",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_Water",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Module_TamedDamage",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_TamedDamage",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Module_Melee",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_Melee",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Module_HeatResist",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_HeatResist",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Module_ColdResist",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_ColdResist",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Module_ExposureResist",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_ExposureResist",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Module_ItemWear",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_ItemWear",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Module_Night",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_Night",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Module_Highlight",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_Highlight",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Module_StaminaRegen",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Module_StaminaRegen",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 50,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
                     "Name": "Recycle_Hydrazine_Cooker",
                     "RequiredMillijoules": 1000,
                     "RecipeSets": [
@@ -11006,6 +11983,154 @@
                         {
                             "Element": {
                                 "RowName": "Meta_Biolab_Inhaler_SwampApe",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 100,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Biolab_Inhaler_Scyther",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Biolab_Inhaler_Scyther",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 100,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Biolab_Inhaler_Thornet",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Biolab_Inhaler_Thornet",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 100,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Biolab_Inhaler_PlantBoss",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Biolab_Inhaler_PlantBoss",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ren",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 100,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Biolab_Inhaler_GiantCat",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Biolab_Inhaler_GiantCat",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -12103,6 +13228,52 @@
                     }
                 },
                 {
+                    "Name": "Deconstruct_Thatch_Frame",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Thatch_Frame",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fiber",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 40,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stick",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 6,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
                     "Name": "Deconstruct_Thatch_Beam",
                     "RequiredMillijoules": 1000,
                     "RecipeSets": [
@@ -12875,6 +14046,52 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 6,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Wood_Frame",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Wood_Frame",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fiber",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 24,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Wood",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 40,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -14817,7 +16034,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Kit_Skinning_Bench",
+                                "RowName": "Skinning_Bench",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -15000,7 +16217,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Kit_Stone_Furnace",
+                                "RowName": "Stone_Furnace",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -18159,7 +19376,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Glass_Window",
+                                "RowName": "Heavy_Glass_Window",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -18794,6 +20011,52 @@
                     }
                 },
                 {
+                    "Name": "Deconstruct_Wood_Frame_CarpentryBench",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Wood_Frame",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fiber",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 9,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Wood",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 30,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
                     "Name": "Deconstruct_Wood_Floor_CarpentryBench",
                     "RequiredMillijoules": 1000,
                     "RecipeSets": [
@@ -18978,6 +20241,52 @@
                     }
                 },
                 {
+                    "Name": "Deconstruct_Interior_Wood_Frame",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Wood_Frame_Refined",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Wood_Refined",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Copper_Nail",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 12,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
                     "Name": "Deconstruct_Interior_Wood_Floor",
                     "RequiredMillijoules": 1000,
                     "RecipeSets": [
@@ -19061,6 +20370,98 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 4,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Interior_Wood_Halfpiece",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Wood_Refined_Halfpiece",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Wood_Refined",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Copper_Nail",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Interior_Wood_Half_Pitch",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Wood_Refined_Half_Pitch",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Wood_Refined",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Copper_Nail",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -25024,7 +26425,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "FirePit",
+                                "RowName": "Firepit",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -25573,7 +26974,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "PolarBear_Head",
+                                "RowName": "Polarbear_Head_Armor",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -25637,7 +27038,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Polarbear_Chest",
+                                "RowName": "Polarbear_Chest_Armor",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -25701,7 +27102,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Polarbear_Arms",
+                                "RowName": "Polarbear_Arm_Armor",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -25765,7 +27166,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Polarbear_Legs",
+                                "RowName": "Polarbear_Leg_Armor",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -25829,7 +27230,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Polarbear_Feet",
+                                "RowName": "Polarbear_Feet_Armor",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -26407,7 +27808,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Antipoison_Tonic",
+                                "RowName": "AntiPoison_Tonic",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -26572,7 +27973,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Antiparasitic_Pill",
+                                "RowName": "Anitparasitic_Pill",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -26636,7 +28037,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Antipoison_Tonic",
+                                "RowName": "AntiPoison_Tonic",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -27919,7 +29320,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "FactionMission_TechRecombined",
+                                "RowName": "Faction_Mission_RecombinedTech",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -27928,7 +29329,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Faction_Mission_Tech1",
+                                "RowName": "FactionMission_Tech1",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -27937,7 +29338,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Faction_Mission_Tech2",
+                                "RowName": "FactionMission_Tech2",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -27946,7 +29347,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Faction_Mission_Tech3",
+                                "RowName": "FactionMission_Tech3",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -27983,7 +29384,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Faction_Mission_Tech1",
+                                "RowName": "FactionMission_Tech1",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -27992,7 +29393,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Faction_Mission_Tech2",
+                                "RowName": "FactionMission_Tech2",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -28001,7 +29402,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Faction_Mission_Tech3",
+                                "RowName": "FactionMission_Tech3",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -28029,7 +29430,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Mission_HighTech_Assembled",
+                                "RowName": "Mission_High_Tech_Assembled",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -28038,7 +29439,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Mission_High_Tech_1",
+                                "RowName": "Mission_HighTech_1",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -28047,7 +29448,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Mission_High_Tech_2",
+                                "RowName": "Mission_HighTech_2",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -28056,7 +29457,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Mission_High_Tech_3",
+                                "RowName": "Mission_HighTech_3",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -28240,7 +29641,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Meat_Stew",
+                                "RowName": "Meat_Stew",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -28295,7 +29696,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Fried_Soy_Beans",
+                                "RowName": "Fried_Soy_Beans",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -28350,7 +29751,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Roasted_Vegetables",
+                                "RowName": "Roasted_Vegetables",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -28405,7 +29806,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Fruit_Salad",
+                                "RowName": "Fruit_Salad",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -28451,7 +29852,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Wild_Salad",
+                                "RowName": "Wild_Salad",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -28497,7 +29898,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Creamed_Corn",
+                                "RowName": "Creamed_Corn",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -28589,7 +29990,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Fruit_Pie",
+                                "RowName": "Fruit_Pie",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -28644,7 +30045,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Meat_Pie",
+                                "RowName": "Meat_Pie",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -28708,7 +30109,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Vegetable_Pie",
+                                "RowName": "Vegetable_Pie",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -28772,7 +30173,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Pumpkin_Bread",
+                                "RowName": "Pumpkin_Bread",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -28818,7 +30219,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Pickled_Carrot",
+                                "RowName": "Pickled_Carrot",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -29257,7 +30658,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Light_Worklamp_Directional",
+                                "RowName": "Worklamp_Directional",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -29321,7 +30722,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Light_Worklamp_Omnidirectional",
+                                "RowName": "Worklamp_OmniDirectional",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -29668,7 +31069,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 4,
@@ -30309,7 +31710,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Alphawolf_Trophy",
+                                "RowName": "AlphaWolf_Trophy",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -30327,7 +31728,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "AlphaWolf_Head",
+                                "RowName": "Alphawolf_Head",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -31106,7 +32507,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Water_Pump",
+                                "RowName": "Kit_Water_Pump",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -35580,7 +36981,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Target_Bullseye",
+                                "RowName": "Bullseye_Target",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -36212,7 +37613,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Feet_Arms_Attachment_Fall_Resistance_1",
+                                "RowName": "Feet_Hands_Attachment_Fall_Resistance_1",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -36267,7 +37668,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Feet_Arms_Attachment_Fall_Resistance_2",
+                                "RowName": "Feet_Hands_Attachment_Fall_Resistance_2",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -36303,7 +37704,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Feet_Hands_Attachment_Fall_Resistance_1",
+                                "RowName": "Feet_Arms_Attachment_Fall_Resistance_1",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -38184,7 +39585,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Ranged_Weapon_Attachment_Animal_Highlight",
+                                "RowName": "Ranged_Weapon_Attachment_Animal_Hightlight",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -38486,7 +39887,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Electric_Armor_Bench",
+                                "RowName": "Electric_Armour_Bench",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -38614,7 +40015,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 2,
@@ -38642,7 +40043,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Saddle_Standard",
+                                "RowName": "Saddle_Mount",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -38917,7 +40318,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Wooden_Shield",
+                                "RowName": "Shield_Wooden",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -39441,7 +40842,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Clay_Brick_TrapDoor",
+                                "RowName": "Claybrick_Trapdoor",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -39588,7 +40989,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Saddle_Standard_Bag",
+                                "RowName": "Saddle_Bag_Mount",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -41191,7 +42592,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Hearty_Salad",
+                                "RowName": "Hearty_Salad",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -41237,7 +42638,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Pickled_Tomato",
+                                "RowName": "Pickled_Tomato",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -41292,7 +42693,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Potato_Carrot_Fries",
+                                "RowName": "Potato_Carrot_Fries",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -41347,7 +42748,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Potato_Bread",
+                                "RowName": "Potato_Bread",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -41393,7 +42794,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Shepherds_Pie",
+                                "RowName": "Shepherds_Pie",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -42023,7 +43424,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "WaterWheel_Generator",
+                                "RowName": "Waterwheel_Generator",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -42260,7 +43661,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Saddle_Mount",
+                                "RowName": "Saddle_Standard",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -42378,7 +43779,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 30,
@@ -42451,7 +43852,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 30,
@@ -46119,7 +47520,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Carved_Chair_Living_2Seater",
+                                "RowName": "Carved_Chair_2Seater",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -46174,7 +47575,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Carved_Chair_Living_3Seater",
+                                "RowName": "Carved_Chair_3Seater",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -48203,7 +49604,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 8,
@@ -48249,7 +49650,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Shield_Composites",
+                                "RowName": "Shield_Composite",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -48989,7 +50390,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -49035,7 +50436,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -49090,7 +50491,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -53749,7 +55150,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Seed_Bread",
+                                "RowName": "Seed_Bread",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -53795,7 +55196,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Berry_Bar",
+                                "RowName": "Berry_Bar",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -53841,7 +55242,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Animal_Feed",
+                                "RowName": "Animal_Feed",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -54694,7 +56095,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "BrownBear_Armor_Head",
+                                "RowName": "Brownbear_Head",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -55898,7 +57299,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Pygmy_Lop_Trophy",
+                                "RowName": "Pygmy_Lopp_Trophy",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -55916,7 +57317,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Rabbit_Variant_Head",
+                                "RowName": "Rabbit_Varient_Head",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -56431,7 +57832,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Metal_Table_Round",
+                                "RowName": "Metal_Table",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -56891,7 +58292,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Metal_Candle",
+                                "RowName": "Metal_Candles",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -56946,7 +58347,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Metal_Candle",
+                                "RowName": "Metal_Candles",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -57056,7 +58457,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Metal_Stool",
+                                "RowName": "Metal_Metal_Stool",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -57102,7 +58503,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Metal_Nightstand",
+                                "RowName": "Metal_Metal_Nightstand",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -57157,7 +58558,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Metal_Bed",
+                                "RowName": "Metal_Metal_Bed",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -57212,7 +58613,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Metal_Bookshelf",
+                                "RowName": "Metal_Metal_Bookshelf",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -57258,7 +58659,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Metal_Lamp",
+                                "RowName": "Metal_Metal_Lamp",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -57313,7 +58714,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Metal_Coffeetable",
+                                "RowName": "Metal_Metal_CoffeeTable",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -59130,7 +60531,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Brutalist_Candle",
+                                "RowName": "Brutalist_Candles",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -59176,7 +60577,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Brutalist_Candle",
+                                "RowName": "Brutalist_Candles",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -61048,7 +62449,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 6,
@@ -61194,7 +62595,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "AlphaWolf_Head",
+                                "RowName": "Alphawolf_Head",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -61542,7 +62943,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Fatty_TBone",
+                                "RowName": "Fatty_Tbone",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -62222,7 +63623,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 16,
@@ -63100,7 +64501,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Food_Honey_Bar",
+                                "RowName": "Honey_Bar",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -63210,7 +64611,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Saddle_BearHide",
+                                "RowName": "Saddle_Bearhide",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -63668,7 +65069,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Saddle_Mount",
+                                "RowName": "Saddle_Standard",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -63750,7 +65151,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Saddle_Mount",
+                                "RowName": "Saddle_Standard",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -63832,7 +65233,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Saddle_Mount",
+                                "RowName": "Saddle_Standard",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -64673,7 +66074,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Platinium_Shovel",
+                                "RowName": "Platinum_Shovel",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -68021,7 +69422,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 2,
@@ -68681,7 +70082,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Kitchen_Corner_Bench",
+                                "RowName": "Kitchen_Corner",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -68745,7 +70146,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Advanced_Kitchen_Corner_Bench",
+                                "RowName": "Advanced_Kitchen_Corner",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -70229,7 +71630,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Item_Medicine_Bag",
+                                "RowName": "Medicine_Bag",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -70448,7 +71849,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "LightningRod_Platinum",
+                                "RowName": "Lightning_Rod_Platnium",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -70649,7 +72050,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Butchery_Bench",
+                                "RowName": "Advanced_Butchery_Bench",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -72206,7 +73607,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Quailty_Fertilizer",
+                                "RowName": "Quality_Fertilizer",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -72664,7 +74065,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "AlphaWolf_Head",
+                                "RowName": "Alphawolf_Head",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -72710,7 +74111,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "AlphaWolf_Head",
+                                "RowName": "Alphawolf_Head",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -72756,7 +74157,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "AlphaWolf_Head",
+                                "RowName": "Alphawolf_Head",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -72912,7 +74313,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Scorpion_Boss_Trophy_Chair",
+                                "RowName": "Scorpion_Boss_Trophy_Throne",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -73789,7 +75190,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Lava_Hunter_Chair",
+                                "RowName": "Lava_Hunter_Trophy_Chair",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -73862,7 +75263,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Lava_Hunter_Feature",
+                                "RowName": "Lava_Hunter_Trophy_Feature",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -77721,7 +79122,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Mission_Stasis_Bag",
+                                "RowName": "Stasis_Bag",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -79633,7 +81034,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Bacon_Sandwich",
+                                "RowName": "Bacon_Sandwhich",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 3
@@ -82968,7 +84369,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -86113,6 +87514,1340 @@
                     }
                 },
                 {
+                    "Name": "Deconstruct_National_Flag_NewZealand",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_NewZealand",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Australia",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Australia",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Belgium",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Belgium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Brazil",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Brazil",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Canada",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Canada",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_China",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_China",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Czech",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Czech",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Denmark",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Denmark",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_EuropeanUnion",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_EuropeanUnion",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Finland",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Finland",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_France",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_France",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Germany",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Germany",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Hungry",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Hungry",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Italy",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Italy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Japan",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Japan",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Netherlands",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Netherlands",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Norway",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Norway",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Romania",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Romania",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Russia",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Russia",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_SouthAfrica",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_SouthAfrica",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_SouthKorea",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_SouthKorea",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Spain",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Spain",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Sweden",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Sweden",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Switzerland",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Switzerland",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Taiwan",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Taiwan",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Turkey",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Turkey",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_Ukraine",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_Ukarine",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_UnitedKingdom",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_UnitedKingdom",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_National_Flag_UnitedStates",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "NationalFlag_UnitedStates",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
                     "Name": "Deconstruct_Flat_Solar_Panel",
                     "RequiredMillijoules": 1000,
                     "RecipeSets": [
@@ -86558,7 +89293,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -86780,7 +89515,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "LegendaryWeapon_Ape_Club",
+                                "RowName": "LegendaryWeapon_ApeClub",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -88002,7 +90737,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Platinum_Sheath",
+                                "RowName": "Platinum_Shealth",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 30,

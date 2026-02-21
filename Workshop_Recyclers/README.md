@@ -1,6 +1,6 @@
 # Workshop Recyclers
 
-![Version](https://img.shields.io/badge/version-4.2-blue)
+![Version](https://img.shields.io/badge/version-4.3-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -16,7 +16,7 @@ Introduces two dedicated recycling machines that enable full material recovery f
 |---------------|-------|
 | Base Machine | Biofuel Bio-Cleaner (T3) |
 | Function | Converts Workshop items to currencies |
-| Recipes | 282 |
+| Recipes | 284 |
 | Returns | 100% of Ren, Exotics, or Red Exotics |
 | Repair Materials | Hammer (same as base machine) |
 
@@ -26,7 +26,7 @@ Introduces two dedicated recycling machines that enable full material recovery f
 |---------------|-------|
 | Base Machine | Organic Residue Cleanser (T4) |
 | Function | Breaks down crafted items into base materials |
-| Recipes | 1,343 |
+| Recipes | 1,361 |
 | Use Case | Recover materials from obsolete equipment |
 | Repair Materials | Hammer (same as base machine) |
 
@@ -34,9 +34,9 @@ Introduces two dedicated recycling machines that enable full material recovery f
 
 | Metric | Value |
 |--------|-------|
-| Total Recipes | 1,625 |
-| Workshop Items Recyclable | 282 |
-| Crafted Items Recyclable | 1,343 |
+| Total Recipes | 1,645 |
+| Workshop Items Recyclable | 284 |
+| Crafted Items Recyclable | 1,361 |
 
 ## Currency Returns
 
@@ -80,9 +80,9 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 1,637 |
+| Total Modifications | 1,658 |
 | New Machines | 2 |
-| Recipe Entries | 1,625 |
+| Recipe Entries | 1,645 |
 
 ### Files Modified
 - `Crafting-D_RecipeSets.json` (2 entries)
@@ -91,7 +91,8 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 - `Items-D_ItemsStatic.json` (2 entries)
 - `Items-D_ItemTemplate.json` (2 entries)
 - `Talents-D_Talents.json` (2 entries)
-- `Crafting-D_ProcessorRecipes.json` (1,625 entries)
+- `Crafting-D_ProcessorRecipes.json` (1,645 entries)
+- `Traits-D_Durable.json` (1 entry)
 
 ## Installation
 
@@ -123,6 +124,7 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 
 | Version | Changes |
 |---------|---------|
+| 4.3 | **Game update compatibility fix:** Fixed 113 broken item references from game renames (food items, furniture, trophies, building pieces, attachments). Removed 64 obsolete recipes (consolidated national flags, deleted workshop items). Fixed 36 output reference typos (Platinum_Shealth, Alphawolf_Head, etc). Added 2 missing envirosuit recipes (Deluxe, Shengong 2). |
 | 4.2 | **REPAIR FIX:** Both recyclers now hammer repairable. Added custom `Recycler_Repairable` D_Durable entry with Electronics as repair material. Added full `Generated_Tags` with `Traits.Durable` and all required trait tags. |
 | 4.1 | Week 213+ compatibility update |
 | 4.0 | **Major update:** All workshop items now return 100% of original costs. Added 2 missing recipes (Shengong Delta Axe, PlantBoss Inhaler). Fixed 74 currency references (Exotic1 → Meta_Resource). Fixed 28 item name typos. Fixed hammer repair by using base game Deployable_2000 durability. |
