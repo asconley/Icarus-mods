@@ -55,9 +55,9 @@
     {
       "name": "FastProcessing All 5x",
       "author": "AgentKush",
-      "version": "4.1",
+      "version": "4.2",
       "compatibility": "All",
-      "description": "All crafting and processing 5x faster. 3,436 recipes including base game, Workshop Recyclers, and Hidden Building Pieces. Use only ONE FastProcessing variant.",
+      "description": "All crafting and processing 5x faster. 3,747 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix.",
       "fileName": "FastProcessing_All_5x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/fast_5x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/README.md",
@@ -133,9 +133,9 @@
     {
       "name": "No Food Spoilage",
       "author": "AgentKush",
-      "version": "1.3",
+      "version": "1.4",
       "compatibility": "All",
-      "description": "Prevents all food items and volatile substances from spoiling. Includes 8 composter recipes for optional manual conversion to Spoiled Meat.",
+      "description": "Prevents all food items and volatile substances from spoiling. Includes 85 composter recipes to manually create Spoiled Meat from raw meats, fish, and fillets.",
       "fileName": "No_Food_Spoilage",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/no_spoil.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",
