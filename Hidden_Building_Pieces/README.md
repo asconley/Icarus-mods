@@ -71,6 +71,12 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 
 ## Changelog
 
+### v2.13.4
+- **CURVED ROOF FIX:** Added missing `Ramp_Curved` piece to 7 Wall_Curved buildable sets
+  - Stone, Concrete, Glass, Scoria, ScoriaBrick, StoneBrick, TemperedGlass all had the curved roof piece removed from their Variations array
+  - The curved roof was in the Pieces array but not in Variations, making it impossible to select when placing
+  - Fixes player-reported "curved roof disappeared" issue
+
 ### v2.13.3
 - **RECIPE FIX (Feb 2026 update):** Fixed 5 broken recipe material references
   - Limestone CornerStairs/RoofPeak/Halfpiece: corrupted `Ite_Ite` → `Stone`

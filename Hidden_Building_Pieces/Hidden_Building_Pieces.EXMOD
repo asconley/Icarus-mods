@@ -1,7 +1,7 @@
 {
     "name": "Hidden Building Pieces",
     "author": "AgentKush",
-    "version": "2.13.3",
+    "version": "2.13.4",
     "description": "Unlocks 876 hidden building pieces including diagonal/curved sets, frames (11 materials), corner stairs, and roof peak connectors/caps for all materials",
     "fileName": "Hidden_Building_Pieces",
     "Level2": "True",
@@ -18092,6 +18092,12 @@
                                 "RowName": "Concrete_Wall_Curved_Angle_R_Invert",
                                 "DataTableName": "D_BuildingPieces"
                             }
+                        },
+                        {
+                            "Piece": {
+                                "RowName": "Concrete_Ramp_Curved",
+                                "DataTableName": "D_BuildingPieces"
+                            }
                         }
                     ],
                     "RepairItems": [],
@@ -18567,6 +18573,12 @@
                         {
                             "Piece": {
                                 "RowName": "Glass_Wall_Curved_Angle_R_Invert",
+                                "DataTableName": "D_BuildingPieces"
+                            }
+                        },
+                        {
+                            "Piece": {
+                                "RowName": "Glass_Ramp_Curved",
                                 "DataTableName": "D_BuildingPieces"
                             }
                         }
@@ -19046,6 +19058,12 @@
                                 "RowName": "Stone_Wall_Curved_Angle_R_Invert",
                                 "DataTableName": "D_BuildingPieces"
                             }
+                        },
+                        {
+                            "Piece": {
+                                "RowName": "Stone_Ramp_Curved",
+                                "DataTableName": "D_BuildingPieces"
+                            }
                         }
                     ],
                     "RepairItems": [],
@@ -19521,6 +19539,12 @@
                         {
                             "Piece": {
                                 "RowName": "Scoria_Wall_Curved_Angle_R_Invert",
+                                "DataTableName": "D_BuildingPieces"
+                            }
+                        },
+                        {
+                            "Piece": {
+                                "RowName": "Scoria_Ramp_Curved",
                                 "DataTableName": "D_BuildingPieces"
                             }
                         }
@@ -20006,6 +20030,12 @@
                                 "RowName": "ScoriaBrick_Wall_Curved_Angle_R_Invert",
                                 "DataTableName": "D_BuildingPieces"
                             }
+                        },
+                        {
+                            "Piece": {
+                                "RowName": "ScoriaBrick_Ramp_Curved",
+                                "DataTableName": "D_BuildingPieces"
+                            }
                         }
                     ],
                     "RepairItems": [],
@@ -20489,6 +20519,12 @@
                                 "RowName": "StoneBrick_Wall_Curved_Angle_R_Invert",
                                 "DataTableName": "D_BuildingPieces"
                             }
+                        },
+                        {
+                            "Piece": {
+                                "RowName": "StoneBrick_Ramp_Curved",
+                                "DataTableName": "D_BuildingPieces"
+                            }
                         }
                     ],
                     "RepairItems": [],
@@ -20964,6 +21000,12 @@
                         {
                             "Piece": {
                                 "RowName": "TemperedGlass_Wall_Curved_Angle_R_Invert",
+                                "DataTableName": "D_BuildingPieces"
+                            }
+                        },
+                        {
+                            "Piece": {
+                                "RowName": "TemperedGlass_Ramp_Curved",
                                 "DataTableName": "D_BuildingPieces"
                             }
                         }
