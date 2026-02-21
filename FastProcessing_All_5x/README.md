@@ -3,7 +3,7 @@
 ![Version](https://img.shields.io/badge/version-4.2-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
-![Recipes](https://img.shields.io/badge/recipes-3,747-orange)
+![Recipes](https://img.shields.io/badge/recipes-3,677-orange)
 
 ## Overview
 
@@ -14,7 +14,7 @@ Reduces all crafting and processing times to 20% of their original duration (5x 
 ### Speed Modification
 - **Processing Time:** Reduced to 20% (5x faster)
 - **All Stations:** Every crafting bench, furnace, and processor affected
-- **Full Coverage:** 3,747 recipes modified
+- **Full Coverage:** 3,677 recipes modified
 
 ### Recipe Sources
 
@@ -26,11 +26,10 @@ Reduces all crafting and processing times to 20% of their original duration (5x 
 | No Food Spoilage | 85 |
 | Turret Variants | 15 |
 | Culinex Food Boost Fix | 1 |
-| FastProcessing Custom | 70 |
-| **Total** | **3,747** |
+| **Total** | **3,677** |
 
 ### Files Modified
-- `Crafting-D_ProcessorRecipes.json` (3,747 entries)
+- `Crafting-D_ProcessorRecipes.json` (3,677 entries)
 
 ## Installation
 
@@ -59,17 +58,17 @@ Reduces all crafting and processing times to 20% of their original duration (5x 
 
 | Variant | Speed | Recipes |
 |---------|-------|---------|
-| FastProcessing 5x | 5x faster | 3,747 |
-| [FastProcessing 10x](../FastProcessing_All_10x) | 10x faster | 3,747 |
-| [FastProcessing 15x](../FastProcessing_All_15x) | 15x faster | 3,747 |
-| [FastProcessing 25x](../FastProcessing_All_25x) | 25x faster | 3,747 |
-| [FastProcessing Instant](../FastProcessing_Instant) | Instant | 3,747 |
+| FastProcessing 5x | 5x faster | 3,677 |
+| [FastProcessing 10x](../FastProcessing_All_10x) | 10x faster | 3,677 |
+| [FastProcessing 15x](../FastProcessing_All_15x) | 15x faster | 3,677 |
+| [FastProcessing 25x](../FastProcessing_All_25x) | 25x faster | 3,677 |
+| [FastProcessing Instant](../FastProcessing_Instant) | Instant | 3,677 |
 
 ## Version History
 
 | Version | Changes |
 |---------|---------|
-| 4.2 | Added 102 new game recipes (Homestead, Animal, Truffle), 227 mod recipes (HBP frames/corners/roofpeaks, No Food Spoilage composters, Turret Variants, new WR entries). Removed 11 orphaned old HBP recipes. Total: 3,747. |
+| 4.2 | Added 102 new game recipes (Homestead, Animal, Truffle), 227 mod recipes (HBP frames/corners/roofpeaks, No Food Spoilage composters, Turret Variants, new WR entries). Removed 70 orphaned recipes. Total: 3,677. |
 | 4.1 | Week 217 update: Removed 16 consolidated lighting recipes, added 4 new recipes |
 | 4.0 | Added Workshop Recyclers + Hidden Building Pieces compatibility |
 | 3.0 | Added 750 missing base game recipes |
