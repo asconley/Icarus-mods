@@ -1,7 +1,7 @@
 {
   "name": "Agents Optimization Mod",
   "author": "AgentKush",
-  "fileName": "Agents_Optimization_Mod",
+  "fileName": "Performance_Optimizer",
   "version": "2.0",
   "description": "Comprehensive FPS optimization - PAK config overrides (foliage/shadow/fog/LOD reduction) plus data table changes (reduced spawns, slower hordes, extended decay, boosted fuel, weather tuning).",
   "Level2": "True",

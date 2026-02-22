@@ -1,7 +1,7 @@
 {
   "name": "ModularAfflictionAdjuster",
   "author": "AgentKush",
-  "fileName": "ModularAfflictionAdjuster",
+  "fileName": "Modular_Affliction_Adjuster",
   "version": "2.0",
   "description": "Comprehensive affliction adjustment - reduces stat penalties by ~50%, extends escalation times by ~50%, and reduces damage over time by ~50%. Covers all 80+ player afflictions including diseases, wounds, temperature, poisons, weather exposure, and exotic debuffs.",
   "week": "",

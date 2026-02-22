@@ -511,7 +511,7 @@
             },
             {
               "Element": {
-                "RowName": "Spoiled_Food",
+                "RowName": "Spoiled_Meat",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 10
@@ -709,7 +709,7 @@
             },
             {
               "Element": {
-                "RowName": "Spoiled_Food",
+                "RowName": "Spoiled_Meat",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 15

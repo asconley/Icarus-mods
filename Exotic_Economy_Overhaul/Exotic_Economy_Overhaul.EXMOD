@@ -2,524 +2,32 @@
   "name": "Exotic Economy Overhaul",
   "author": "AgentKush",
   "fileName": "Exotic_Economy_Overhaul",
-  "version": "1.0",
-  "description": "Full exotic currency exchange system with 34 recipes. Convert between exotic types, buy rare materials with exotics, sell surplus ores for exotics. All at Fabricator.",
+  "version": "1.1",
+  "description": "27 currency exchange recipes. Convert between Ren, Exotics, and ingots. Bulk ore processing and material trading.",
   "Level2": "True",
   "Rows": [
     {
       "CurrentFile": "Crafting-D_ProcessorRecipes.json",
       "File_Items": [
         {
-          "Name": "Exchange_Exotic_Desert_to_Exotic_Arctic",
+          "Name": "Ren_To_Steel",
           "RecipeSets": [
             {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Desert",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Arctic",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Exchange_Exotic_Desert_to_Exotic_Swamp",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Desert",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Swamp",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Exchange_Exotic_Desert_to_Exotic_Forest",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Desert",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Forest",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Exchange_Exotic_Arctic_to_Exotic_Desert",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Arctic",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Desert",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Exchange_Exotic_Arctic_to_Exotic_Swamp",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Arctic",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Swamp",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Exchange_Exotic_Arctic_to_Exotic_Forest",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Arctic",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Forest",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Exchange_Exotic_Swamp_to_Exotic_Desert",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Swamp",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Desert",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Exchange_Exotic_Swamp_to_Exotic_Arctic",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Swamp",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Arctic",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Exchange_Exotic_Swamp_to_Exotic_Forest",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Swamp",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Forest",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Exchange_Exotic_Forest_to_Exotic_Desert",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Forest",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Desert",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Exchange_Exotic_Forest_to_Exotic_Arctic",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Forest",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Arctic",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Exchange_Exotic_Forest_to_Exotic_Swamp",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Forest",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic_Swamp",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Buy_Electronics",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
+              "RowName": "Machining_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 20
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Electronics",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 5,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Buy_Carbon_Fiber",
-          "RecipeSets": [
-            {
               "RowName": "Fabricator",
               "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
             }
           ],
           "Inputs": [
             {
               "Element": {
-                "RowName": "Exotic",
+                "RowName": "Ren",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 15
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Carbon_Fiber",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 10,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Buy_Epoxy",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 10
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Epoxy",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 10,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Buy_Steel_Ingot",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 15
+              "Count": 50
             }
           ],
           "Outputs": [
@@ -528,34 +36,34 @@
                 "RowName": "Steel_Ingot",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 10,
+              "Count": 20,
               "DynamicProperties": [],
               "Alterations": []
             }
           ],
           "Audio": {
-            "RowName": "Fabricator"
+            "RowName": "MachiningBench"
           }
         },
         {
-          "Name": "Buy_Titanium_Ingot",
+          "Name": "Ren_To_Titanium",
           "RecipeSets": [
             {
-              "RowName": "Fabricator",
+              "RowName": "Machining_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Fabricator_T4",
+              "RowName": "Fabricator",
               "DataTableName": "D_RecipeSets"
             }
           ],
           "Inputs": [
             {
               "Element": {
-                "RowName": "Exotic",
+                "RowName": "Ren",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 20
+              "Count": 100
             }
           ],
           "Outputs": [
@@ -564,34 +72,34 @@
                 "RowName": "Titanium_Ingot",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 10,
               "DynamicProperties": [],
               "Alterations": []
             }
           ],
           "Audio": {
-            "RowName": "Fabricator"
+            "RowName": "MachiningBench"
           }
         },
         {
-          "Name": "Buy_Platinum_Ingot",
+          "Name": "Ren_To_Platinum",
           "RecipeSets": [
             {
-              "RowName": "Fabricator",
+              "RowName": "Machining_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Fabricator_T4",
+              "RowName": "Fabricator",
               "DataTableName": "D_RecipeSets"
             }
           ],
           "Inputs": [
             {
               "Element": {
-                "RowName": "Exotic",
+                "RowName": "Ren",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 15
+              "Count": 150
             }
           ],
           "Outputs": [
@@ -606,34 +114,34 @@
             }
           ],
           "Audio": {
-            "RowName": "Fabricator"
+            "RowName": "MachiningBench"
           }
         },
         {
-          "Name": "Buy_Gold_Ingot",
+          "Name": "Ren_To_Gold",
           "RecipeSets": [
             {
-              "RowName": "Fabricator",
+              "RowName": "Machining_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Fabricator_T4",
+              "RowName": "Fabricator",
               "DataTableName": "D_RecipeSets"
             }
           ],
           "Inputs": [
             {
               "Element": {
-                "RowName": "Exotic",
+                "RowName": "Ren",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 10
+              "Count": 200
             }
           ],
           "Outputs": [
             {
               "Element": {
-                "RowName": "Gold_Ingot",
+                "RowName": "Refined_Gold",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 5,
@@ -642,28 +150,100 @@
             }
           ],
           "Audio": {
-            "RowName": "Fabricator"
+            "RowName": "MachiningBench"
           }
         },
         {
-          "Name": "Buy_Composites",
+          "Name": "Ren_To_Electronics",
           "RecipeSets": [
             {
-              "RowName": "Fabricator",
+              "RowName": "Machining_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Fabricator_T4",
+              "RowName": "Fabricator",
               "DataTableName": "D_RecipeSets"
             }
           ],
           "Inputs": [
             {
               "Element": {
-                "RowName": "Exotic",
+                "RowName": "Ren",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 25
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Ren_To_Carbon_Fiber",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 75
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Carbon_Fiber",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Ren_To_Composites",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
             }
           ],
           "Outputs": [
@@ -678,70 +258,34 @@
             }
           ],
           "Audio": {
-            "RowName": "Fabricator"
+            "RowName": "MachiningBench"
           }
         },
         {
-          "Name": "Buy_Glass",
+          "Name": "Ren_To_Epoxy",
           "RecipeSets": [
             {
-              "RowName": "Fabricator",
+              "RowName": "Machining_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Fabricator_T4",
+              "RowName": "Fabricator",
               "DataTableName": "D_RecipeSets"
             }
           ],
           "Inputs": [
             {
               "Element": {
-                "RowName": "Exotic",
+                "RowName": "Ren",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 8
+              "Count": 25
             }
           ],
           "Outputs": [
             {
               "Element": {
-                "RowName": "Glass",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 10,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Buy_Concrete_Mix",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 10
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Concrete_Mix",
+                "RowName": "Epoxy",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
@@ -750,306 +294,18 @@
             }
           ],
           "Audio": {
-            "RowName": "Fabricator"
+            "RowName": "MachiningBench"
           }
         },
         {
-          "Name": "Buy_Gunpowder",
+          "Name": "Steel_To_Ren",
           "RecipeSets": [
             {
-              "RowName": "Fabricator",
+              "RowName": "Machining_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 15
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Gunpowder",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 20,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Buy_Steel_Screw",
-          "RecipeSets": [
-            {
               "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 10
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Steel_Screw",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 20,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Buy_Refined_Metal",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 8
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Refined_Metal",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 20,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Buy_Copper_Ingot",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 8
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Copper_Ingot",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 10,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Buy_Aluminum_Ingot",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 12
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Aluminum_Ingot",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 10,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Sell_Gold_Ore",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Gold_Ore",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 50
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 5,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Sell_Platinum_Ore",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Platinum_Ore",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 50
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 8,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Sell_Titanium_Ore",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Titanium_Ore",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 50
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 10,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Sell_Steel_Ingot",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
               "DataTableName": "D_RecipeSets"
             }
           ],
@@ -1059,40 +315,76 @@
                 "RowName": "Steel_Ingot",
                 "DataTableName": "D_ItemsStatic"
               },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 100,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Titanium_To_Ren",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Titanium_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
               "Count": 20
             }
           ],
           "Outputs": [
             {
               "Element": {
-                "RowName": "Exotic",
+                "RowName": "Ren",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 100,
               "DynamicProperties": [],
               "Alterations": []
             }
           ],
           "Audio": {
-            "RowName": "Fabricator"
+            "RowName": "MachiningBench"
           }
         },
         {
-          "Name": "Sell_Electronics",
+          "Name": "Platinum_To_Ren",
           "RecipeSets": [
             {
-              "RowName": "Fabricator",
+              "RowName": "Machining_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Fabricator_T4",
+              "RowName": "Fabricator",
               "DataTableName": "D_RecipeSets"
             }
           ],
           "Inputs": [
             {
               "Element": {
-                "RowName": "Electronics",
+                "RowName": "Platinum_Ingot",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 10
@@ -1101,70 +393,34 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Exotic",
+                "RowName": "Ren",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 8,
+              "Count": 100,
               "DynamicProperties": [],
               "Alterations": []
             }
           ],
           "Audio": {
-            "RowName": "Fabricator"
+            "RowName": "MachiningBench"
           }
         },
         {
-          "Name": "Sell_Composites",
+          "Name": "Gold_To_Ren",
           "RecipeSets": [
             {
-              "RowName": "Fabricator",
+              "RowName": "Machining_Bench",
               "DataTableName": "D_RecipeSets"
             },
             {
-              "RowName": "Fabricator_T4",
+              "RowName": "Fabricator",
               "DataTableName": "D_RecipeSets"
             }
           ],
           "Inputs": [
             {
               "Element": {
-                "RowName": "Composites",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 10
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Exotic",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 5,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
-        },
-        {
-          "Name": "Sell_Diamond",
-          "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator_T4",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Diamond_Ore",
+                "RowName": "Refined_Gold",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 5
@@ -1173,16 +429,536 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Exotic",
+                "RowName": "Ren",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 15,
+              "Count": 100,
               "DynamicProperties": [],
               "Alterations": []
             }
           ],
           "Audio": {
-            "RowName": "Fabricator"
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Bulk_Exotic_Processing",
+          "RecipeSets": [
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Exotic_Red_Raw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 20
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Condense_Exotics",
+          "RecipeSets": [
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Condensed_Exotics",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 5,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Expand_Exotics",
+          "RecipeSets": [
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Condensed_Exotic",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 2,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Exotic_To_Ren",
+          "RecipeSets": [
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 200,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Condensed_To_Ren",
+          "RecipeSets": [
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Condensed_Exotic",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 100,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Copper_To_Steel",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Refined_Copper",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 3,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Steel_To_Titanium",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Titanium_Ingot",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 3,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Titanium_To_Platinum",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Titanium_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Platinum_Ingot",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 2,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Gold_To_Platinum",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Refined_Gold",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 3
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Platinum_Ingot",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 2,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Platinum_To_Gold",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Platinum_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 3
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Refined_Gold",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 2,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Bulk_Copper_Smelt",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Copper_Ore",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Refined_Copper",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 25,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Bulk_Gold_Smelt",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Gold_Ore",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 20
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Refined_Gold",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Ren_To_Gunpowder",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 25
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Gunpowder",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Ren_To_Volatile",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Volatile_Substance",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Ren_To_Cold_Steel",
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 150
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Cold_Steel_Ingot",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 5,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
           }
         }
       ]

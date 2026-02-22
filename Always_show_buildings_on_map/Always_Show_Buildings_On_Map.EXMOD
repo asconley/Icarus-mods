@@ -1,7 +1,7 @@
 {
   "name": "Always_Show_Buildings_On_Map",
   "author": "AgentKush",
-  "fileName": "Always_Show_Buildings_On_Map",
+  "fileName": "Always_show_buildings_on_map",
   "version": "1.0",
   "description": "Always shows player-built structures on the map and minimap without requiring any special stats or radar. Buildings will always display the home icon.",
   "week": "",

@@ -264,7 +264,7 @@
     {
       "name": "Tier Upgrade Forge",
       "author": "AgentKush",
-      "version": "1.0",
+      "version": "1.1",
       "compatibility": "All",
       "description": "Upgrade tools and weapons to the next tier without rebuilding from scratch. 26 upgrade recipes across pickaxes, axes, knives, spears, swords, and bows.",
       "fileName": "Tier_Upgrade_Forge",
@@ -288,7 +288,7 @@
     {
       "name": "Exotic Economy Overhaul",
       "author": "AgentKush",
-      "version": "1.0",
+      "version": "1.1",
       "compatibility": "All",
       "description": "Full exotic currency exchange system with 34 recipes. Convert between exotic types, buy rare materials with exotics, sell surplus ores for exotics. All at Fabricator.",
       "fileName": "Exotic_Economy_Overhaul",
@@ -319,6 +319,78 @@
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Trap_Defense_Expansion/README.md",
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Trap_Defense_Expansion/Trap_Defense_Expansion.EXMODZ"
+      }
+    },
+    {
+      "name": "Stack Size Overhaul",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Increases stack sizes on 1,232 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. Unstackable items unchanged.",
+      "fileName": "Stack_Size_Overhaul",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/Stack_Size_Overhaul.EXMODZ"
+      }
+    },
+    {
+      "name": "Faster Crafting",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Halves crafting time on 952 recipes across all workbenches. Minimum 500mJ to prevent instant-craft.",
+      "fileName": "Faster_Crafting",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Crafting/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Crafting/Faster_Crafting.EXMODZ"
+      }
+    },
+    {
+      "name": "Extended Spoil Timers",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Extends decay timers on 29 items. Food 5x longer, other decay 3x longer. Not compatible with Hardcore Rebalance Pack.",
+      "fileName": "Extended_Spoil_Timers",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Spoil_Timers/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Spoil_Timers/Extended_Spoil_Timers.EXMODZ"
+      }
+    },
+    {
+      "name": "Ammo Crafting Overhaul",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "50 new ammo recipes. 50x batch crafting for all arrow and bullet types including special ammo. Plus 8 ammo conversion recipes.",
+      "fileName": "Ammo_Crafting_Overhaul",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/Ammo_Crafting_Overhaul.EXMODZ"
+      }
+    },
+    {
+      "name": "Fish and Farming Boost",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "335 changes: crops grow 2x faster, harvests +50%, +2 cultivations, fish spawns doubled, fish quality +50%.",
+      "fileName": "Fish_Farming_Boost",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Fish_Farming_Boost/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Fish_Farming_Boost/Fish_Farming_Boost.EXMODZ"
+      }
+    },
+    {
+      "name": "Creature Drop Enhancer",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Doubles all creature butchery and skinning outputs across 62 recipes. 2x leather, bone, fur, meat, and rare drops.",
+      "fileName": "Creature_Drop_Enhancer",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer/Creature_Drop_Enhancer.EXMODZ"
       }
     }
   ]
