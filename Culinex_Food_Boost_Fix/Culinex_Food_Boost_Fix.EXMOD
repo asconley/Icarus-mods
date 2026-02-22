@@ -2,7 +2,7 @@
   "name": "Culinex_Food_Boost_Fix",
   "author": "AgentKush",
   "fileName": "Culinex_Food_Boost_Fix",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Fixes Culinex (Chef's Backpack) 25% food effectiveness boost to apply to all cooked foods. Also adds raw chicken to the butchery bench.",
   "week": "",
   "Level2": "True",
@@ -46,6 +46,9 @@
           "Name": "Coconut",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -53,6 +56,9 @@
         {
           "Name": "Coconut_Mid",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -62,6 +68,9 @@
           "Name": "Coconut_Mature",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -70,6 +79,9 @@
           "Name": "Berry",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -77,6 +89,9 @@
         {
           "Name": "Watermelon",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -113,6 +128,9 @@
           "Name": "Cooked_Corn",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -120,6 +138,9 @@
         {
           "Name": "Cooked_Pumpkin",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -129,6 +150,9 @@
           "Name": "Cooked_Squash",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -136,6 +160,9 @@
         {
           "Name": "Cooked_Carrot",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -145,6 +172,9 @@
           "Name": "Cooked_Mushroom",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -152,6 +182,9 @@
         {
           "Name": "Corn_Soup",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -161,6 +194,9 @@
           "Name": "Mushroom_Soup",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -169,6 +205,9 @@
           "Name": "Fruit_Salad",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -176,6 +215,9 @@
         {
           "Name": "Wild_Salad",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -192,6 +234,9 @@
         {
           "Name": "Fried_Soy_Beans",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -212,6 +257,9 @@
           "Name": "Roasted_Vegetables",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -219,6 +267,9 @@
         {
           "Name": "Creamed_Corn",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -236,6 +287,9 @@
           "Name": "Fruit_Pie",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -252,6 +306,9 @@
           "Name": "Vegetable_Pie",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -267,6 +324,9 @@
         {
           "Name": "Pumpkin_Bread",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -287,6 +347,9 @@
           "Name": "Picked_Carrot",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -294,6 +357,9 @@
         {
           "Name": "Jar_Jam",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -303,6 +369,9 @@
           "Name": "Dried_Giant_Steak",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -310,6 +379,9 @@
         {
           "Name": "Dried_Fatty_Tbone",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -319,6 +391,9 @@
           "Name": "Dried_Gamey_Meat",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -326,6 +401,9 @@
         {
           "Name": "Dried_Stringy_Meat",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -335,6 +413,9 @@
           "Name": "Dried_Soft_Meat",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -342,6 +423,9 @@
         {
           "Name": "Dried_White_Meat",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -367,6 +451,9 @@
           "Name": "Cooked_Potato",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -374,6 +461,9 @@
         {
           "Name": "Cooked_Tomato",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -383,6 +473,9 @@
           "Name": "Hearty_Salad",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -390,6 +483,9 @@
         {
           "Name": "Tomato_Soup",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -399,6 +495,9 @@
           "Name": "Picked_Tomato",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -407,6 +506,9 @@
           "Name": "Potato_Carrot_Fries",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -414,6 +516,9 @@
         {
           "Name": "Potato_Bread",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -431,6 +536,9 @@
           "Name": "Cooked_Soy_Bean",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -438,6 +546,9 @@
         {
           "Name": "Dried_Tomato",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -447,6 +558,9 @@
           "Name": "Dried_Avocado",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -454,6 +568,9 @@
         {
           "Name": "Dried_Rhubarb",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -463,6 +580,9 @@
           "Name": "Cooked_Rhubarb",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -470,6 +590,9 @@
         {
           "Name": "Cooked_Kumara",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -479,6 +602,9 @@
           "Name": "Stuffed_Avocado",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -486,6 +612,9 @@
         {
           "Name": "Mixed_Berries",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -495,6 +624,9 @@
           "Name": "Rhubarb_Stew",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -502,6 +634,9 @@
         {
           "Name": "Fried_Chunky_Vegetables",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -511,6 +646,9 @@
           "Name": "Pickled_Avocado",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -518,6 +656,9 @@
         {
           "Name": "Strawberry_Jam",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -543,6 +684,9 @@
           "Name": "Vegetable_Roll",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -550,6 +694,9 @@
         {
           "Name": "Fruit_Muffin",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -677,6 +824,9 @@
           "Name": "Seed_Bread",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -684,6 +834,9 @@
         {
           "Name": "Berry_Bar",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -693,6 +846,9 @@
           "Name": "Seed_Crackers",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -700,6 +856,9 @@
         {
           "Name": "Smoked_Giant_Steak",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -709,6 +868,9 @@
           "Name": "Smoked_Fatty_Tbone",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -716,6 +878,9 @@
         {
           "Name": "Smoked_Gamey_Meat",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -725,6 +890,9 @@
           "Name": "Smoked_Stringy_Meat",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -733,6 +901,9 @@
           "Name": "Smoked_Soft_Meat",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -740,6 +911,9 @@
         {
           "Name": "Smoked_White_Meat",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -771,6 +945,9 @@
           "Name": "Dried_Meat_Generic",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "BaseDriedMeatModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -778,6 +955,9 @@
         {
           "Name": "Smoked_Meat_Generic",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "BaseDriedMeatModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -803,6 +983,9 @@
           "Name": "Smoked_Bacon",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "DriedMeatModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -826,6 +1009,9 @@
         {
           "Name": "Honey_Bar",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -883,6 +1069,9 @@
           "Name": "Smashed_Avocado",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -915,6 +1104,9 @@
           "Name": "Kiwi_Fruit",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -922,6 +1114,9 @@
         {
           "Name": "Dried_Kiwifruit",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -931,6 +1126,9 @@
           "Name": "Kiwifruit_Jam",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -938,6 +1136,9 @@
         {
           "Name": "Kiwifruit_Sorbet",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -947,6 +1148,9 @@
           "Name": "Fruit_Snack_Pack",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -954,6 +1158,9 @@
         {
           "Name": "Fruit_Smoothie",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -1099,6 +1306,9 @@
           "Name": "Banana",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1106,6 +1316,9 @@
         {
           "Name": "Banana_Bread",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -1115,6 +1328,9 @@
           "Name": "Cooked_Onion",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1122,6 +1338,9 @@
         {
           "Name": "Caramelized_Onions",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -1131,6 +1350,9 @@
           "Name": "French_Onion_Soup",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1138,6 +1360,9 @@
         {
           "Name": "Onion_Rings",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -1147,6 +1372,9 @@
           "Name": "Onion_Souffle",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1155,6 +1383,9 @@
           "Name": "Cooked_Agave",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1162,6 +1393,9 @@
         {
           "Name": "Agave_Syrup",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -1179,6 +1413,9 @@
           "Name": "Glazed_Carrots",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1187,6 +1424,9 @@
           "Name": "Pumpkin_Pie",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1194,6 +1434,9 @@
         {
           "Name": "Cooked_PricklyPear",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -1211,6 +1454,9 @@
           "Name": "PricklyPear_Jelly",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1219,6 +1465,9 @@
           "Name": "PricklyPear_Muffins",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1226,6 +1475,9 @@
         {
           "Name": "Cooked_Garlic",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -1243,6 +1495,9 @@
           "Name": "Garlic_Bread",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1250,6 +1505,9 @@
         {
           "Name": "Garlic_Pizza",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -1259,6 +1517,9 @@
           "Name": "Smoked_Garlic",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1266,6 +1527,9 @@
         {
           "Name": "Cooked_Truffle",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -1291,6 +1555,9 @@
           "Name": "Truffle_Focaccia",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1299,6 +1566,9 @@
           "Name": "Truffle_Pasta",
           "ModifierEffectivenessAffectors": [
             {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
+            {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
@@ -1306,6 +1576,9 @@
         {
           "Name": "Truffle_Fries",
           "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            },
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
@@ -1353,6 +1626,102 @@
         },
         {
           "Name": "Cooked_White_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Banana",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Banana_Porridge",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Banana_Tart",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Banana_Toast",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Banana_Chips",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Frozen_Banana",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Thermos_Cocoa_Modifier",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Thermos_Coffee_Modifier",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Thermos_GreenTea_Modifier",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Thermos_HoneyTea",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Thermos_IceWater",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Thermos_WildTea_Modifier",
           "ModifierEffectivenessAffectors": [
             {
               "Value": "CookedFoodModifierEffectiveness_+%"
