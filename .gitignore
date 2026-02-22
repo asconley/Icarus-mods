@@ -1,13 +1,3 @@
-# Mod Manager temp files
-*.pak
-*.bak
-TempDownload/
-tempMod/
-
-# Local scripts (don't upload)
-create_exmodz.ps1
-UPDATE_AND_PUSH.bat
-
 # OS files
 .DS_Store
 Thumbs.db
@@ -17,8 +7,8 @@ desktop.ini
 .vscode/
 .idea/
 
-# Build folders
-Extracted Mods/
+# Temp scripts
 *.py
-temp_skins2.ps1
-Hidden_Building_Pieces/HBP_Asset_Audit_Report.md
+
+# Build artifacts
+Performance_Optimizer/PAK_Build/
