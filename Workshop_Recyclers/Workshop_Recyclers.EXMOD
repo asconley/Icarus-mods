@@ -1,7 +1,7 @@
 {
     "name": "Workshop Recyclers",
     "author": "AgentKush",
-    "version": "4.3",
+    "version": "4.4",
     "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling workshop and crafted items back into materials. v4.3: Fixed 173 broken item references from game update, removed 62 recipes for deleted items, added 16 new DLC/workshop content recipes. Compatible with Agent's BioLab and Hidden Building Pieces mods!",
     "fileName": "Workshop_Recyclers",
     "Level2": "True",

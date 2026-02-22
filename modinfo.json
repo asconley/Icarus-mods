@@ -260,19 +260,6 @@
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Agents_Optimization_Mod.EXMODZ",
         "pak": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Performance_Optimizer_P.pak"
       }
-    },
-    {
-      "name": "Music Radio",
-      "author": "AgentKush",
-      "version": "0.4",
-      "compatibility": "All",
-      "description": "Placeable Music Radio with spatial audio. 12 royalty-free tracks by Kevin MacLeod. Custom Emergency Radio mesh with emissive display, translucent glass, and randomized playlist. Craftable at Fabricator/Manufacturer.",
-      "fileName": "Music_Radio",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/music_radio.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Music_Radio/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Music_Radio/Music_Radio.EXMODZ"
-      }
     }
   ]
 }
