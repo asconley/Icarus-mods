@@ -87,7 +87,7 @@ You die on Hard, you lose the mission. No second chances.
 ## Installation
 
 1. Install JimK72's Icarus Mod Manager
-2. Place the `.EXMODZ` file in your Mod Manager mods folder
+2. Import the `.EXMODZ` file in your Mod Manager
 3. Enable the mod and launch Icarus
 
 ## Compatibility
