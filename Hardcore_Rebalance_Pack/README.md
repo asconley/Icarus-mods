@@ -1,14 +1,50 @@
 # Hardcore Rebalance Pack
 
-**Version:** 1.3  
+**Version:** 1.5  
 **Author:** AgentKush  
-**Mod Manager:** JimK72's Icarus Mod Manager
+**Mod Manager:** JimK72's Icarus Mod Manager  
+**Type:** EXMOD + PAK (includes binary curve modifications)
 
 ## Overview
 
-For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 10 data tables across spawns, difficulty, missions, weather, decay, and introduces the **Alpha Hunter System** — named boss creatures that roam every biome and drop actual gear when killed. Now with **limited lives** across all difficulty levels.
+For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 12 data tables plus binary growth curves. Features the **Alpha Hunter System** (12 named bosses), **limited lives**, **level cap 170** (unlock ALL talents and blueprints), **deadlier lightning storms**, **boosted kill XP**, **difficulty-scaled rewards**, and much more.
 
 ## What's Changed
+
+### v1.5 - Harder AND More Rewarding
+
+**Level Cap 170 (PAK mod):**
+- Talent points scale to 280 (all 280 talents unlockable)
+- Blueprint points scale to 586 (all 586 blueprints unlockable)
+- Solo talent points scale to 135 (all prospect talents unlockable)
+- Binary UE4 growth curves modified via pak file override
+
+**+50% Kill XP across 111 creatures:**
+- Wolves: 1500 → 2250 | Bears: 2000 → 3000 | Polar Bears: 3000 → 4500
+- Bosses: 25000 → 37500 | Alpha Wolf: 2000 → 3000
+- All passive/hostile creatures scaled proportionally
+
+**Difficulty-Scaled XP Bonus:**
+- Easy: +10% world XP | Medium: +20% world XP
+
+**Difficulty-Scaled Durability Bonus:**
+- Easy: +20% item durability | Medium: +35% | Hard: +50%
+
+**Deadly Lightning Storms (tiered by difficulty):**
+
+| Difficulty | Lightning Freq | Player Hit Chance | Building Hit | Tree Hit |
+|------------|---------------|-------------------|-------------|----------|
+| Easy | +40% | +50% | +30% | +50% |
+| Medium | +75% | +100% (2x) | +60% | +80% |
+| Hard | +150% | +200% (3x) | +100% (2x) | +150% |
+
+**No Juvenile Spawns on Hard+:**
+- `WorldDisableJuvenileSpawning` enabled — no more easy kills on Hard difficulty
+
+**Enhanced Animal Awareness (all difficulties):**
+- Aggressive perception radius: +30% Easy / +40% Medium / +65% Hard
+- Neutral perception radius: +20% Easy / +30% Medium / +55% Hard
+- Medium: +15% NPC movement speed | Hard: +25% movement speed
 
 ### v1.3 - Limited Lives System
 **152 missions modified with tiered respawn limits:**
@@ -17,47 +53,24 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 |------------|-------|---------|
 | Easy | 3 lives | Unlimited |
 | Medium | 1 life | Unlimited |
-| Hard | **PERMADEATH** (0 lives) | 3 lives |
-| Extreme | **PERMADEATH** (0 lives) | 3 lives |
-
-You die on Hard, you lose the mission. No second chances.
+| Hard | **PERMADEATH** | 3 lives |
+| Extreme | **PERMADEATH** | 3 lives |
 
 ### v1.2 - Alpha Hunter System
-**12 New Alpha Hunter Variants** — Named boss creatures with boss map icons, boosted stats, and unique abilities:
-
-**Forest Hunters:**
-- Feral Packmaster / Bloodfang Alpha / Shadow Stalker (wolf) — +200% HP, +30% damage, hemorrhage attacks
-- Ironhide Mauler / Grizzled Titan / Forest Warden (bear) — +350% HP, +40% damage, 20% physical resist, blunt trauma
-- Apex Prowler / Silent Killer (lion) — +250% HP, +35% damage, +20% speed, bleed attacks
-
-**Arctic Hunters:**
-- Frostbitten Juggernaut / Glacial Devastator (polar bear) — +400% HP, +50% damage, 30% resist, freeze + blunt trauma
-- Blizzard Fang / Icevein Predator / Howling Wraith (wolf) — +300% HP, +35% damage, +25% speed, freeze + hemorrhage
-- Tundra Colossus / Permafrost Behemoth (mammoth) — +500% HP, +60% damage, 35% resist, massive blunt trauma
-
-**Desert/Volcanic Hunters:**
-- Venomspine Patriarch / Deathsting Overlord (scorpion) — +400% HP, +45% damage, poison sting + slow
-- Sandstorm Ravager / Dune Shredder (hyena) — +300% HP, +40% damage, +30% speed, hemorrhage
-- Magma Hound / Obsidian Ravager (rockdog) — +350% HP, +45% damage, 25% resist
-- Ashen Terror / Sulfur Fiend (batdog) — +300% HP, +40% damage, +25% speed, bleed
-
-**Swamp Hunters:**
-- Bog Horror / Deathmaw Lurker (crocodile) — +350% HP, +45% damage, 30% resist, wound attacks
-- Thornspine Matriarch / Quillbeast Prime (needler) — +300% HP, +35% melee, +40% projectile damage, deep wound
+**12 Named Alpha Hunter variants** with boss map icons, boosted stats, and unique abilities across all biomes.
 
 **4 Tiered Gear Loot Tables:**
-- **Forest Tier:** Steel/Platinum tools, Ghillie/Hunter armor, Longbow/Crossbow, 2% legendary chance
-- **Arctic Tier:** Platinum/Titanium tools, Fur/Polar Bear armor, Pistols/Rifles, 2% legendary chance
-- **Desert/Volcanic Tier:** Titanium tools, CHAC firearms, Obsidian/Scale armor, 3% legendary chance
-- **Swamp Tier:** Platinum/Titanium tools, Hunter/Caveworm armor, Compound Bow, 2% legendary chance
+- **Forest:** Steel/Platinum tools, Ghillie/Hunter armor, Longbow/Crossbow, legendary chance
+- **Arctic:** Platinum/Titanium tools, Fur/Polar Bear armor, Pistols/Rifles, legendary chance
+- **Desert/Volcanic:** Titanium tools, firearms, Obsidian/Scale armor, legendary chance
+- **Swamp:** Platinum/Titanium tools, Hunter/Caveworm armor, legendary chance
 
-**8 Enhanced Boss Loot Tables** — every existing boss now drops weapons, armor, and has a 2-3% legendary weapon chance.
-
-**255 Alpha Spawn Points** injected across 148 zones in all biomes.
+**8 Enhanced Boss Loot Tables** — every existing boss drops weapons, armor, and has legendary weapon chance.
+**255 Alpha Spawn Points** across 148 zones in all biomes.
 
 ### v1.1 - Mission Difficulty
-- 6 modified D_ProspectStats entries (difficulty modifiers across Easy/Medium/Hard)
 - 155 mission timer reductions (~35% cut across all timed missions)
+- Brutal NPC modifiers per difficulty
 
 ### v1.0 - Base Hardcore
 - +50% spawn density across 160 zones
@@ -67,29 +80,45 @@ You die on Hard, you lose the mission. No second chances.
 - Halved decay timers (32 entries)
 - Halved fuel burn times (4 entries)
 
-## Data Tables Modified (10)
+## Data Tables Modified (12)
 
 | Table | Entries | Description |
 |-------|---------|-------------|
-| AI-D_AISpawnZones.json | 160 | +50% spawn weights + 255 alpha hunter spawn points |
-| AI-D_AutonomousSpawns.json | 22 | +60% world spawns |
-| AI-D_EpicCreatures.json | 12 | 12 new Hunter alpha variants |
-| Items-D_ItemRewards.json | 12 | 4 new + 8 enhanced loot tables |
-| Horde-D_HordeWave.json | 21 | +60% horde intensity |
-| Weather-D_WeatherEvents.json | 109 | -40% storm safe duration |
-| Traits-D_Decayable.json | 32 | Halved decay timers |
-| Traits-D_Combustible.json | 4 | Halved fuel burn |
-| Stats-D_ProspectStats.json | 6 | Brutal difficulty modifiers |
-| Prospects-D_ProspectList.json | 155 | ~35% timer reduction + limited lives (152 missions) |
+| AI-D_AISpawnZones | 160 | +50% spawn weights + 255 alpha hunter spawn points |
+| AI-D_AutonomousSpawns | 22 | +60% world spawns |
+| AI-D_EpicCreatures | 12 | 12 alpha hunter variants |
+| Items-D_ItemRewards | 12 | 4 new + 8 enhanced loot tables |
+| Horde-D_HordeWave | 21 | +60% horde intensity |
+| Weather-D_WeatherEvents | 109 | -40% storm safe duration |
+| Traits-D_Decayable | 32 | Halved decay timers |
+| Traits-D_Combustible | 4 | Halved fuel burn |
+| Stats-D_ProspectStats | 15 | Difficulty modifiers, storms, XP, durability, juveniles |
+| Prospects-D_ProspectList | 155 | Timer reductions + limited lives + new stat assignments |
+| Experience-D_ExperienceEvents | 111 | +50% kill XP |
+| Character-D_CharacterGrowth | 1 | MaxDisplayLevel 170 |
 
-**Total: 533 modified entries across 10 data tables**
+**Total: 654 modified entries across 12 data tables + 3 binary curve overrides**
+
+## PAK File Contents
+
+The included `Hardcore_Rebalance_Pack_P.pak` overrides 3 UE4 CurveFloat assets:
+
+| Asset | Change |
+|-------|--------|
+| C_PlayerTalentGrowth | Level 60→170 cap, 90→280 total talent points |
+| C_PlayerBlueprintGrowth | Level 51→170 cap, 179→586 total blueprint points |
+| C_SoloTalentGrowth | Level 60→170 cap, 30→135 total solo talent points |
 
 ## Installation
 
 1. Install JimK72's Icarus Mod Manager
 2. Import the `.EXMODZ` file in your Mod Manager
-3. Enable the mod and launch Icarus
+3. Place `Hardcore_Rebalance_Pack_P.pak` in your Icarus mods folder:
+   `<Icarus Install>/Icarus/Content/Paks/mods/`
+4. Enable the EXMOD and launch Icarus
+
+**Both the EXMOD and PAK are required for full functionality.**
 
 ## Compatibility
 
-This mod modifies spawn zones, creature definitions, loot tables, weather, decay, fuel, difficulty stats, and mission timers/difficulty settings. It may conflict with other mods that touch the same tables.
+Modifies spawn zones, creature definitions, loot tables, weather, decay, fuel, difficulty stats, mission timers/difficulty, XP events, and character growth. May conflict with other mods touching the same tables. The PAK file overrides vanilla growth curves.
