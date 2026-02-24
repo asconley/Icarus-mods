@@ -43,7 +43,7 @@ A collection of mods for **Icarus: First Cohort**. All mods use [JimK72's Icarus
 | [Turret Variants](Turret_Variants) | 2.5 | 15 automated turret variants. Hammer repairable. |
 | [Trap and Defense Expansion](Trap_Defense_Expansion) | 1.1 | 23 defense recipes. Unlocks 4 elemental landmines previously enemy-only. |
 | [Ammo Crafting Overhaul](Ammo_Crafting_Overhaul) | 1.0 | 50 new ammo recipes. 50x batch crafting + 8 conversion recipes. |
-| [Armor Set Bonuses Enhanced](Armor_Set_Bonuses_Enhanced) | 1.0 | All 33 armor set bonuses boosted. +75% positive stats, +50% resistances. |
+| [Armor Set Bonuses Enhanced](Armor_Set_Bonuses_Enhanced) | 2.0 | 3-piece partial bonuses for mix-and-match builds + boosted 5-piece bonuses across all 33 sets. |
 
 ## Economy & Crafting
 
