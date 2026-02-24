@@ -29,9 +29,9 @@
     {
       "name": "Culinex Food Boost Fix",
       "author": "AgentKush",
-      "version": "1.2",
+      "version": "2.0",
       "compatibility": "All",
-      "description": "Fixes Chef's Backpack 25% food effectiveness boost to work on all 175 cooked foods (also works with Larkwell White armor set +20%). Fixed 91 items that were losing vanilla talent bonuses. Includes banana foods, thermos drinks, and raw chicken butchery recipe.",
+      "description": "Fixes Chef's Backpack 25% food effectiveness boost to work on all 169 cooked foods (also works with Larkwell White armor set +20%). v2.0: Fixed critical bug where Level2 merge couldn't add missing affector fields - switched to Level1 full row replacement. Fixed recipe path. Updated to current game data.",
       "fileName": "Culinex_Food_Boost_Fix",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Culinex_Food_Boost_Fix.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/README.md",

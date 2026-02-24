@@ -1,6 +1,6 @@
 # Culinex Food Boost Fix
 
-**Version:** 1.2  
+**Version:** 2.0  
 **Author:** AgentKush
 
 ## Description
@@ -9,7 +9,7 @@ Fixes the Culinex (Chef's Backpack) 25% food effectiveness boost so it actually 
 
 The vanilla game gives the Chef's Backpack a 25% cooked food effectiveness bonus, but the devs forgot to hook it up to most food items. This means wearing the backpack while cooking has zero effect on the food's buff strength for nearly every recipe in the game.
 
-This mod fixes **175 food items** so the 25% effectiveness boost from the Chef's Backpack properly applies when you cook while wearing it.
+This mod fixes **169 food items** so the 25% effectiveness boost from the Chef's Backpack properly applies when you cook while wearing it.
 
 ### How It Works
 - Equip the Culinex (Chef's) Backpack
@@ -22,13 +22,20 @@ This mod fixes **175 food items** so the 25% effectiveness boost from the Chef's
 
 ## What's Fixed
 
-- 175 food items now properly receive the backpack's 25% cooking boost
+- 169 food items now properly receive the backpack's 25% cooking boost
 - 15 fish-based foods preserve their existing Fish Food talent bonus alongside the backpack boost
-- 91 fruit/vege, dried meat, and smoked meat items now preserve their vanilla talent bonuses (FruitAndVege, DriedMeat, etc.) alongside the backpack boost
+- Fruit/vege, dried meat, and smoked meat items preserve their vanilla talent bonuses (FruitAndVege, DriedMeat, etc.) alongside the backpack boost
 - Covers all cooked meals, dried/smoked meats, soups, pies, cakes, drinks, and more
 - Excludes non-player foods (animal feed, raw/spoiled items)
 
 ## Changelog
+
+### v2.0
+- **Major fix:** Switched from Level2 (field merge) to Level1 (full row replacement) to fix the Culinex boost not applying
+- Root cause: most food entries don't have a `ModifierEffectivenessAffectors` field in the game data (it's inherited from defaults), so Level2 merges couldn't add the field — the boost was silently failing on nearly all foods
+- Fixed recipe path from `Processors-D_ProcessorRecipes.json` to `Crafting-D_ProcessorRecipes.json`
+- Removed 6 banana food entries that no longer exist in the game (Cooked_Banana, Banana_Porridge, Banana_Tart, Banana_Toast, Dried_Banana_Chips, Frozen_Banana)
+- Updated all 169 food entries to match current game data
 
 ### v1.2
 - Added 12 new food items (175 total, up from 163)
