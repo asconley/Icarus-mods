@@ -7,7 +7,7 @@
 
 ## Overview
 
-For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 11 data tables and AI perception blueprints. Features the **Alpha Hunter System** (12 named bosses), **limited lives**, **deadlier lightning storms**, **boosted kill XP**, **difficulty-scaled rewards**, **wall-attack fix**, and much more.
+For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 11 data tables and AI perception blueprints. Features the **Alpha Hunter System** (12 named bosses), **limited lives**, **deadlier lightning storms**, **boosted kill XP**, **difficulty-scaled rewards**, **wall-attack fix**, **workshop loot drops**, and full coverage across all maps including Open World and Outposts.
 
 ## What's Changed
 
@@ -31,6 +31,12 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 - **Sandworm:** Sandworm Inhaler (15%), Heat/Exposure Resist (6%), Tech Backpack (4%), Antipoison Charlie (4%), Module Alpha (3%), Dropship Beacon (4%)
 
 **Exotic Creatures** (+3 items): Movement module (5%), Repair Kit (4%), Shengong Bandage (3%)
+
+**Full Map Coverage — 12 previously missing prospects added:**
+- **Open World:** Prometheus and Styx now get hardcore storms, durability bonuses, XP bonuses, and limited lives
+- **Outposts:** All 10 Outpost missions (Forest, Arctic, Desert, IceVolcano, Olympus, 012) now get full hardcore stats including limited lives
+- **Spawn Zone:** PRO_Volcanic_SulfurPools added with +50% density
+- Open World and Outposts are persistent — running out of lives sends you back to the station, but your world and progress are preserved
 
 ### v1.6 - Wall Attack Fix (Blueprint Override)
 
@@ -104,7 +110,7 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 
 | Table | Entries | Description |
 |-------|---------|-------------|
-| AI-D_AISpawnZones | 160 | +50% spawn weights + 255 alpha hunter spawn points |
+| AI-D_AISpawnZones | 161 | +50% spawn weights + 255 alpha hunter spawn points |
 | AI-D_AutonomousSpawns | 22 | +60% world spawns |
 | AI-D_EpicCreatures | 12 | 12 alpha hunter variants |
 | Items-D_ItemRewards | 12 | 4 new + 8 enhanced loot tables |
@@ -113,10 +119,10 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 | Traits-D_Decayable | 32 | Halved decay timers |
 | Traits-D_Combustible | 4 | Halved fuel burn |
 | Stats-D_ProspectStats | 14 | Difficulty modifiers, storms, XP, durability |
-| Prospects-D_ProspectList | 155 | Timer reductions + limited lives + new stat assignments |
+| Prospects-D_ProspectList | 167 | Timer reductions + limited lives + new stat assignments |
 | Experience-D_ExperienceEvents | 111 | +50% kill XP |
 
-**Total: 652 modified entries across 11 data tables + 1 blueprint override**
+**Total: 665 modified entries across 11 data tables + 1 blueprint override**
 
 ## Blueprint Override
 
