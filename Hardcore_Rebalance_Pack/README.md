@@ -73,7 +73,7 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 - Medium: +15% NPC movement speed | Hard: +25% movement speed
 
 ### v1.3 - Limited Lives System
-**152 missions modified with tiered respawn limits:**
+**167 prospects modified with tiered respawn limits** (all missions, Open World, and Outposts):
 
 | Difficulty | Lives | Vanilla |
 |------------|-------|---------|
@@ -99,7 +99,7 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 - Brutal NPC modifiers per difficulty
 
 ### v1.0 - Base Hardcore
-- +50% spawn density across 160 zones
+- +50% spawn density across 161 zones
 - +60% autonomous spawns (22 entries)
 - +60% horde wave intensity (21 entries)
 - -40% storm safe time (109 weather events)
