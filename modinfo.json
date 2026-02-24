@@ -403,6 +403,19 @@
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer.EXMODZ"
       },
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Drop_Enhancer.png"
+    },
+    {
+      "name": "Creature Difficulty Scaling",
+      "author": "AgentKush",
+      "version": "2.0",
+      "compatibility": "All",
+      "description": "Full creature difficulty overhaul for level 500 cap. Scales all 161 spawn zones (max level 500), buffs 136 creatures by tier, adds player-level scaling rules. Designed for JimK72 Level Cap 500 mod.",
+      "fileName": "Creature_Difficulty_Scaling",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/Creature_Difficulty_Scaling.EXMODZ"
+      },
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Difficulty_Scaling.png"
     }
   ]
 }
