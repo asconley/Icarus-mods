@@ -3,11 +3,11 @@
 **Version:** 1.6  
 **Author:** AgentKush  
 **Mod Manager:** JimK72's Icarus Mod Manager  
-**Type:** EXMOD + PAK + Blueprint Override
+**Type:** EXMOD + Blueprint Override
 
 ## Overview
 
-For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 12 data tables, binary growth curves, and AI perception blueprints. Features the **Alpha Hunter System** (12 named bosses), **limited lives**, **level cap 170** (unlock ALL talents and blueprints), **deadlier lightning storms**, **boosted kill XP**, **difficulty-scaled rewards**, **wall-attack fix**, and much more.
+For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 11 data tables and AI perception blueprints. Features the **Alpha Hunter System** (12 named bosses), **limited lives**, **deadlier lightning storms**, **boosted kill XP**, **difficulty-scaled rewards**, **wall-attack fix**, and much more.
 
 ## What's Changed
 
@@ -20,12 +20,6 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 - Blueprint override delivered via EXMODZ (same approach as Extended Wire and Pipe Tool mod)
 
 ### v1.5 - Harder AND More Rewarding
-
-**Level Cap 170 (PAK mod):**
-- Talent points scale to 280 (all 280 talents unlockable)
-- Blueprint points scale to 586 (all 586 blueprints unlockable)
-- Solo talent points scale to 135 (all prospect talents unlockable)
-- Binary UE4 growth curves modified via pak file override
 
 **+50% Kill XP across 111 creatures:**
 - Wolves: 1500 → 2250 | Bears: 2000 → 3000 | Polar Bears: 3000 → 4500
@@ -88,7 +82,7 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 - Halved decay timers (32 entries)
 - Halved fuel burn times (4 entries)
 
-## Data Tables Modified (12)
+## Data Tables Modified (11)
 
 | Table | Entries | Description |
 |-------|---------|-------------|
@@ -100,22 +94,11 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 | Weather-D_WeatherEvents | 109 | -40% storm safe duration |
 | Traits-D_Decayable | 32 | Halved decay timers |
 | Traits-D_Combustible | 4 | Halved fuel burn |
-| Stats-D_ProspectStats | 14 | Difficulty modifiers, storms, XP, durability, juveniles |
+| Stats-D_ProspectStats | 14 | Difficulty modifiers, storms, XP, durability |
 | Prospects-D_ProspectList | 155 | Timer reductions + limited lives + new stat assignments |
 | Experience-D_ExperienceEvents | 111 | +50% kill XP |
-| Character-D_CharacterGrowth | 1 | MaxDisplayLevel 170 |
 
-**Total: 653 modified entries across 12 data tables + 3 binary curve overrides + 1 blueprint override**
-
-## PAK File Contents
-
-The included `Hardcore_Rebalance_Pack_P.pak` overrides 3 UE4 CurveFloat assets:
-
-| Asset | Change |
-|-------|--------|
-| C_PlayerTalentGrowth | Level 60→170 cap, 90→280 total talent points |
-| C_PlayerBlueprintGrowth | Level 51→170 cap, 179→586 total blueprint points |
-| C_SoloTalentGrowth | Level 60→170 cap, 30→135 total solo talent points |
+**Total: 652 modified entries across 11 data tables + 1 blueprint override**
 
 ## Blueprint Override
 
@@ -129,12 +112,8 @@ The EXMODZ includes a modified `BP_IcarusNPCGOAPController` (the main AI control
 
 1. Install JimK72's Icarus Mod Manager
 2. Import the `.EXMODZ` file in your Mod Manager
-3. Place `Hardcore_Rebalance_Pack_P.pak` in your Icarus mods folder:
-   `<Icarus Install>/Icarus/Content/Paks/mods/`
-4. Enable the EXMOD and launch Icarus
-
-**Both the EXMOD and PAK are required for full functionality.**
+3. Enable the mod and launch Icarus
 
 ## Compatibility
 
-Modifies spawn zones, creature definitions, loot tables, weather, decay, fuel, difficulty stats, mission timers/difficulty, XP events, character growth, and AI perception. May conflict with other mods touching the same tables or BP_IcarusNPCGOAPController. The PAK file overrides vanilla growth curves.
+Modifies spawn zones, creature definitions, loot tables, weather, decay, fuel, difficulty stats, mission timers/difficulty, XP events, and AI perception. May conflict with other mods touching the same tables or BP_IcarusNPCGOAPController.
