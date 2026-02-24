@@ -7,51 +7,17 @@
 
 ## Overview
 
-For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 11 data tables, binary growth curves, and AI blueprints. Features the **Alpha Hunter System** (12 named bosses), **limited lives**, **level cap 170** (unlock ALL talents and blueprints), **enraged creatures**, **deadlier lightning storms**, **boosted kill XP**, **difficulty-scaled rewards**, **wall-attack fix**, **workshop loot drops**, and full coverage across all maps including Open World and Outposts.
+For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 11 data tables, binary growth curves, and AI blueprints. Features the **Alpha Hunter System** (12 named bosses), **limited lives**, **level cap 170** (unlock ALL talents and blueprints), **enraged creatures** (3x faster rage, 4.5x longer cooldown), **survival pressure** (reduced HP + slower crafting), **revenge spawns** (longer delays + further distances), **creature scaling on all difficulties**, **deadlier lightning storms**, **boosted kill XP**, **difficulty-scaled rewards**, **wall-attack fix**, **workshop loot drops**, and full coverage across all 167 prospects including Open World and Outposts.
 
 ## What's Changed
 
-### v1.8 - Enraged Creatures + Level Cap 170
+### v1.8 - Enraged Creatures + Survival Pressure + Creature Scaling
 
 **Enraged Creatures (Blueprint Override):**
 - Creatures enrage 3x faster in combat (CombatSecondsUntilMaximum: 15 → 5 seconds)
 - Enrage cooldown reduced from 45s to 10s — creatures stay aggressive much longer
 - Affects all hostile wildlife: wolves, bears, cougars, boars, and bosses
 - Combined with the existing wall-attack fix, this makes combat genuinely threatening — creatures won't give up or calm down easily
-
-**Level Cap 170 (PAK mod):**
-- Talent points scale to 280 (all 280 talents unlockable)
-- Blueprint points scale to 586 (all 586 blueprints unlockable)
-- Solo talent points scale to 135 (all prospect talents unlockable)
-- Binary UE4 growth curves modified via pak file override
-- Set MaxDisplayLevel to 170 via D_CharacterGrowth
-
-### v1.7 - Workshop Loot Drops + Full Map Coverage + Survival Pressure
-
-**89 workshop items added to monster loot tables** — thematically matched to each creature and biome:
-
-**Alpha Hunter Loot (biome-tiered):**
-- **Forest** (+9 items): Printed tools (8%), Carry Weight module (7%), Animal Healthbar module (6%), Survival Backpack (6%), Shengong Canteen (5%), Antipoison Vaccine (5%), Repair Kit (7%)
-- **Swamp** (+9 items): Poison Resistance module (7%), Consumption/Wounds modules (6%), Medic Backpack (5%), Inaris Canteen (5%), Antiparasitic/Antipoison Vaccines (5-6%), O2 Tank (4%), Radar (4%)
-- **Arctic** (+9 items): Cold Resist module (7%), Temperature/Extremes modules (5-6%), Explorer's Backpack (5%), Heated Canteen (5%), Larkwell O2 Tank (5%), Antibiotic Vaccine (5%), Deep Ore Scanner (4%), Extractor (3%)
-- **Desert** (+10 items): Heat Resist module (7%), Exposure Resist module (6%), Module Alpha (4%), Tech Backpack (5%), O2 Tank (5%), Antibiotic Vaccine Charlie (4%), Extractor (4%), Deep Ore Scanner (4%), Creature Scanner (3%), Dropship Beacon (3%)
-
-**Boss Loot (+7 each, matching inhaler + thematic gear):**
-- **Alpha Wolf:** AlphaWolf Inhaler (15%), Animal Healthbar/Highlighting (8%), Hunter's Backpack (5%), Movement module (4%)
-- **Scorpion:** Scorpion Inhaler (15%), Poison Resist (8%), Heat Resist (6%), Antipoison Vaccines (3-6%), Tech Backpack (4%)
-- **Slug:** Hammerhead Inhaler (15%), Caving module (8%), Night Vision (6%), Mining Backpack (5%), Highlight module (5%)
-- **Ice Mammoth:** IceMammoth Inhaler (15%), Cold Resist (8%), Temperature (6%), Explorer's Backpack (5%), Heated Canteen (6%), Extremes module (5%)
-- **Rock Golem:** RockGolem Inhaler (15%), Fire Resist (6%), Deep Ore Scanner (6%), Mining Backpack (6%), Extractor (5%), Carry Weight (6%), Item Wear (4%)
-- **Ape:** SwampApe Inhaler (15%), Poison Resist (6%), Melee module (6%), Medic Backpack (5%), Stamina Regen (5%), Wounds module (5%)
-- **Sandworm:** Sandworm Inhaler (15%), Heat/Exposure Resist (6%), Tech Backpack (4%), Antipoison Charlie (4%), Module Alpha (3%), Dropship Beacon (4%)
-
-**Exotic Creatures** (+3 items): Movement module (5%), Repair Kit (4%), Shengong Bandage (3%)
-
-**Full Map Coverage — 12 previously missing prospects added:**
-- **Open World:** Prometheus and Styx now get hardcore storms, durability bonuses, XP bonuses, and limited lives
-- **Outposts:** All 10 Outpost missions (Forest, Arctic, Desert, IceVolcano, Olympus, 012) now get full hardcore stats including limited lives
-- **Spawn Zone:** PRO_Volcanic_SulfurPools added with +50% density
-- Open World and Outposts are persistent — running out of lives sends you back to the station, but your world and progress are preserved
 
 **Survival Pressure System — scaled by difficulty:**
 
@@ -81,6 +47,33 @@ When you die, you wait longer and spawn further from your body. On Hard, that's 
 | Medium | +40% | +20% | +15% | +40% aggressive |
 | Hard | +80% | +50% | +25% | +65% aggressive |
 
+### v1.7 - Workshop Loot Drops + Full Map Coverage
+
+**89 workshop items added to monster loot tables** — thematically matched to each creature and biome:
+
+**Alpha Hunter Loot (biome-tiered):**
+- **Forest** (+9 items): Printed tools (8%), Carry Weight module (7%), Animal Healthbar module (6%), Survival Backpack (6%), Shengong Canteen (5%), Antipoison Vaccine (5%), Repair Kit (7%)
+- **Swamp** (+9 items): Poison Resistance module (7%), Consumption/Wounds modules (6%), Medic Backpack (5%), Inaris Canteen (5%), Antiparasitic/Antipoison Vaccines (5-6%), O2 Tank (4%), Radar (4%)
+- **Arctic** (+9 items): Cold Resist module (7%), Temperature/Extremes modules (5-6%), Explorer's Backpack (5%), Heated Canteen (5%), Larkwell O2 Tank (5%), Antibiotic Vaccine (5%), Deep Ore Scanner (4%), Extractor (3%)
+- **Desert** (+10 items): Heat Resist module (7%), Exposure Resist module (6%), Module Alpha (4%), Tech Backpack (5%), O2 Tank (5%), Antibiotic Vaccine Charlie (4%), Extractor (4%), Deep Ore Scanner (4%), Creature Scanner (3%), Dropship Beacon (3%)
+
+**Boss Loot (+7 each, matching inhaler + thematic gear):**
+- **Alpha Wolf:** AlphaWolf Inhaler (15%), Animal Healthbar/Highlighting (8%), Hunter's Backpack (5%), Movement module (4%)
+- **Scorpion:** Scorpion Inhaler (15%), Poison Resist (8%), Heat Resist (6%), Antipoison Vaccines (3-6%), Tech Backpack (4%)
+- **Slug:** Hammerhead Inhaler (15%), Caving module (8%), Night Vision (6%), Mining Backpack (5%), Highlight module (5%)
+- **Ice Mammoth:** IceMammoth Inhaler (15%), Cold Resist (8%), Temperature (6%), Explorer's Backpack (5%), Heated Canteen (6%), Extremes module (5%)
+- **Rock Golem:** RockGolem Inhaler (15%), Fire Resist (6%), Deep Ore Scanner (6%), Mining Backpack (6%), Extractor (5%), Carry Weight (6%), Item Wear (4%)
+- **Ape:** SwampApe Inhaler (15%), Poison Resist (6%), Melee module (6%), Medic Backpack (5%), Stamina Regen (5%), Wounds module (5%)
+- **Sandworm:** Sandworm Inhaler (15%), Heat/Exposure Resist (6%), Tech Backpack (4%), Antipoison Charlie (4%), Module Alpha (3%), Dropship Beacon (4%)
+
+**Exotic Creatures** (+3 items): Movement module (5%), Repair Kit (4%), Shengong Bandage (3%)
+
+**Full Map Coverage — 12 previously missing prospects added:**
+- **Open World:** Prometheus and Styx now get hardcore storms, durability bonuses, XP bonuses, and limited lives
+- **Outposts:** All 10 Outpost missions (Forest, Arctic, Desert, IceVolcano, Olympus, 012) now get full hardcore stats including limited lives
+- **Spawn Zone:** PRO_Volcanic_SulfurPools added with +50% density
+- Open World and Outposts are persistent — running out of lives sends you back to the station, but your world and progress are preserved
+
 ### v1.6 - Wall Attack Fix (Blueprint Override)
 
 **Animals Can No Longer Attack Through Walls:**
@@ -90,6 +83,13 @@ When you die, you wait longer and spawn further from your body. On Hard, that's 
 - Blueprint override delivered via EXMODZ
 
 ### v1.5 - Harder AND More Rewarding
+
+**Level Cap 170 (PAK mod):**
+- Talent points scale to 280 (all 280 talents unlockable)
+- Blueprint points scale to 586 (all 586 blueprints unlockable)
+- Solo talent points scale to 135 (all prospect talents unlockable)
+- Binary UE4 growth curves modified via pak file override
+- Set MaxDisplayLevel to 170 via D_CharacterGrowth
 
 **+50% Kill XP across 111 creatures:**
 - Wolves: 1500 → 2250 | Bears: 2000 → 3000 | Polar Bears: 3000 → 4500
