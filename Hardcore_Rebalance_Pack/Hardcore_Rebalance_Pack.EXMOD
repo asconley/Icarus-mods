@@ -15151,12 +15151,6 @@
           }
         },
         {
-          "Name": "Hardcore_NoJuveniles",
-          "WorldStats": {
-            "(Value=\"WorldDisableJuvenileSpawning_?\")": 1
-          }
-        },
-        {
           "Name": "Hardcore_Durability_Easy",
           "WorldStats": {
             "(Value=\"WorldItemDurability_+%\")": 20
@@ -15277,10 +15271,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -15379,10 +15369,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -15483,10 +15469,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -15585,10 +15567,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -15689,10 +15667,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -15791,10 +15765,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -15895,10 +15865,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -15997,10 +15963,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -16101,10 +16063,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -16203,10 +16161,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -16307,10 +16261,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -16409,10 +16359,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -16513,10 +16459,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -16615,10 +16557,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -16719,10 +16657,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -16821,10 +16755,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -16925,10 +16855,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -17027,10 +16953,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -17131,10 +17053,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -17233,10 +17151,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -17337,10 +17251,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -17439,10 +17349,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -17543,10 +17449,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -17645,10 +17547,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -17749,10 +17647,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -17851,10 +17745,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -17955,10 +17845,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -18057,10 +17943,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -18161,10 +18043,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -18263,10 +18141,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -18367,10 +18241,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -18469,10 +18339,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -18573,10 +18439,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -18675,10 +18537,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -18779,10 +18637,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -18881,10 +18735,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -18985,10 +18835,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -19087,10 +18933,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -19191,10 +19033,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -19293,10 +19131,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -19397,10 +19231,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -19499,10 +19329,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -19603,10 +19429,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -19705,10 +19527,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -19809,10 +19627,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -19911,10 +19725,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -20015,10 +19825,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -20117,10 +19923,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -20221,10 +20023,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -20323,10 +20121,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -20427,10 +20221,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -20529,10 +20319,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -20633,10 +20419,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -20735,10 +20517,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -20839,10 +20617,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -20941,10 +20715,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -21045,10 +20815,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -21147,10 +20913,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -21251,10 +21013,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -21353,10 +21111,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -21457,10 +21211,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -21559,10 +21309,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -21663,10 +21409,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -21765,10 +21507,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -21869,10 +21607,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -21971,10 +21705,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -22075,10 +21805,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -22177,10 +21903,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -22281,10 +22003,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -22383,10 +22101,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -22487,10 +22201,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -22589,10 +22299,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -22693,10 +22399,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -22795,10 +22497,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -22899,10 +22597,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -23001,10 +22695,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -23105,10 +22795,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -23207,10 +22893,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -23311,10 +22993,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -23413,10 +23091,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -23517,10 +23191,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -23619,10 +23289,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -23723,10 +23389,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -23825,10 +23487,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -23929,10 +23587,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -24027,10 +23681,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -24131,10 +23781,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -24229,10 +23875,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -24333,10 +23975,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -24435,10 +24073,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -24539,10 +24173,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -24637,10 +24267,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -24741,10 +24367,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -24839,10 +24461,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -24939,10 +24557,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -25037,10 +24651,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -25137,10 +24747,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -25236,10 +24842,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -25334,10 +24936,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -25438,10 +25036,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -25540,10 +25134,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -25644,10 +25234,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -25746,10 +25332,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -25850,10 +25432,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -25953,10 +25531,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -26051,10 +25625,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -26151,10 +25721,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -26250,10 +25816,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -26348,10 +25910,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -26452,10 +26010,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -26554,10 +26108,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -26658,10 +26208,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -26760,10 +26306,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -26864,10 +26406,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -26966,10 +26504,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -27070,10 +26604,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -27172,10 +26702,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -27276,10 +26802,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -27378,10 +26900,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -27482,10 +27000,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -27584,10 +27098,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -27688,10 +27198,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -27790,10 +27296,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -27894,10 +27396,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -27996,10 +27494,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -28100,10 +27594,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -28203,10 +27693,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -28301,10 +27787,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -28405,10 +27887,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -28507,10 +27985,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -28611,10 +28085,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -28713,10 +28183,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -28817,10 +28283,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -28919,10 +28381,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -29023,10 +28481,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -29125,10 +28579,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -29229,10 +28679,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -29331,10 +28777,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -29435,10 +28877,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -29537,10 +28975,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -29641,10 +29075,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -29743,10 +29173,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -29847,10 +29273,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -29949,10 +29371,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -30053,10 +29471,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -30155,10 +29569,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -30259,10 +29669,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -30361,10 +29767,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -30465,10 +29867,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -30567,10 +29965,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],
@@ -30671,10 +30065,6 @@
                 {
                   "RowName": "Hardcore_Durability_Hard",
                   "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
-                  "DataTableName": "D_ProspectStats"
                 }
               ],
               "Forecast": {
@@ -30773,10 +30163,6 @@
                 },
                 {
                   "RowName": "Hardcore_Durability_Hard",
-                  "DataTableName": "D_ProspectStats"
-                },
-                {
-                  "RowName": "Hardcore_NoJuveniles",
                   "DataTableName": "D_ProspectStats"
                 }
               ],

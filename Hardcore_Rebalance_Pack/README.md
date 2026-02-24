@@ -1,6 +1,6 @@
 # Hardcore Rebalance Pack
 
-**Version:** 1.5  
+**Version:** 1.5.1  
 **Author:** AgentKush  
 **Mod Manager:** JimK72's Icarus Mod Manager  
 **Type:** EXMOD + PAK (includes binary curve modifications)
@@ -92,12 +92,12 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 | Weather-D_WeatherEvents | 109 | -40% storm safe duration |
 | Traits-D_Decayable | 32 | Halved decay timers |
 | Traits-D_Combustible | 4 | Halved fuel burn |
-| Stats-D_ProspectStats | 15 | Difficulty modifiers, storms, XP, durability, juveniles |
+| Stats-D_ProspectStats | 14 | Difficulty modifiers, storms, XP, durability, juveniles |
 | Prospects-D_ProspectList | 155 | Timer reductions + limited lives + new stat assignments |
 | Experience-D_ExperienceEvents | 111 | +50% kill XP |
 | Character-D_CharacterGrowth | 1 | MaxDisplayLevel 170 |
 
-**Total: 654 modified entries across 12 data tables + 3 binary curve overrides**
+**Total: 653 modified entries across 12 data tables + 3 binary curve overrides**
 
 ## PAK File Contents
 
