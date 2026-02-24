@@ -1,6 +1,6 @@
 # Hardcore Rebalance Pack
 
-**Version:** 1.6  
+**Version:** 1.7  
 **Author:** AgentKush  
 **Mod Manager:** JimK72's Icarus Mod Manager  
 **Type:** EXMOD + Blueprint Override
@@ -10,6 +10,27 @@
 For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 11 data tables and AI perception blueprints. Features the **Alpha Hunter System** (12 named bosses), **limited lives**, **deadlier lightning storms**, **boosted kill XP**, **difficulty-scaled rewards**, **wall-attack fix**, and much more.
 
 ## What's Changed
+
+### v1.7 - Workshop Loot Drops
+
+**89 workshop items added to monster loot tables** — thematically matched to each creature and biome:
+
+**Alpha Hunter Loot (biome-tiered):**
+- **Forest** (+9 items): Printed tools (8%), Carry Weight module (7%), Animal Healthbar module (6%), Survival Backpack (6%), Shengong Canteen (5%), Antipoison Vaccine (5%), Repair Kit (7%)
+- **Swamp** (+9 items): Poison Resistance module (7%), Consumption/Wounds modules (6%), Medic Backpack (5%), Inaris Canteen (5%), Antiparasitic/Antipoison Vaccines (5-6%), O2 Tank (4%), Radar (4%)
+- **Arctic** (+9 items): Cold Resist module (7%), Temperature/Extremes modules (5-6%), Explorer's Backpack (5%), Heated Canteen (5%), Larkwell O2 Tank (5%), Antibiotic Vaccine (5%), Deep Ore Scanner (4%), Extractor (3%)
+- **Desert** (+10 items): Heat Resist module (7%), Exposure Resist module (6%), Module Alpha (4%), Tech Backpack (5%), O2 Tank (5%), Antibiotic Vaccine Charlie (4%), Extractor (4%), Deep Ore Scanner (4%), Creature Scanner (3%), Dropship Beacon (3%)
+
+**Boss Loot (+7 each, matching inhaler + thematic gear):**
+- **Alpha Wolf:** AlphaWolf Inhaler (15%), Animal Healthbar/Highlighting (8%), Hunter's Backpack (5%), Movement module (4%)
+- **Scorpion:** Scorpion Inhaler (15%), Poison Resist (8%), Heat Resist (6%), Antipoison Vaccines (3-6%), Tech Backpack (4%)
+- **Slug:** Hammerhead Inhaler (15%), Caving module (8%), Night Vision (6%), Mining Backpack (5%), Highlight module (5%)
+- **Ice Mammoth:** IceMammoth Inhaler (15%), Cold Resist (8%), Temperature (6%), Explorer's Backpack (5%), Heated Canteen (6%), Extremes module (5%)
+- **Rock Golem:** RockGolem Inhaler (15%), Fire Resist (6%), Deep Ore Scanner (6%), Mining Backpack (6%), Extractor (5%), Carry Weight (6%), Item Wear (4%)
+- **Ape:** SwampApe Inhaler (15%), Poison Resist (6%), Melee module (6%), Medic Backpack (5%), Stamina Regen (5%), Wounds module (5%)
+- **Sandworm:** Sandworm Inhaler (15%), Heat/Exposure Resist (6%), Tech Backpack (4%), Antipoison Charlie (4%), Module Alpha (3%), Dropship Beacon (4%)
+
+**Exotic Creatures** (+3 items): Movement module (5%), Repair Kit (4%), Shengong Bandage (3%)
 
 ### v1.6 - Wall Attack Fix (Blueprint Override)
 
