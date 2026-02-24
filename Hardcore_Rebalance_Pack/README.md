@@ -1,17 +1,32 @@
 # Hardcore Rebalance Pack
 
-**Version:** 1.7  
+**Version:** 1.8  
 **Author:** AgentKush  
 **Mod Manager:** JimK72's Icarus Mod Manager  
-**Type:** EXMOD + Blueprint Override
+**Type:** EXMOD + PAK (includes binary curve modifications + blueprint overrides)
 
 ## Overview
 
-For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 11 data tables and AI perception blueprints. Features the **Alpha Hunter System** (12 named bosses), **limited lives**, **deadlier lightning storms**, **boosted kill XP**, **difficulty-scaled rewards**, **wall-attack fix**, **workshop loot drops**, and full coverage across all maps including Open World and Outposts.
+For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 11 data tables, binary growth curves, and AI blueprints. Features the **Alpha Hunter System** (12 named bosses), **limited lives**, **level cap 170** (unlock ALL talents and blueprints), **enraged creatures**, **deadlier lightning storms**, **boosted kill XP**, **difficulty-scaled rewards**, **wall-attack fix**, **workshop loot drops**, and full coverage across all maps including Open World and Outposts.
 
 ## What's Changed
 
-### v1.7 - Workshop Loot Drops
+### v1.8 - Enraged Creatures + Level Cap 170
+
+**Enraged Creatures (Blueprint Override):**
+- Creatures enrage 3x faster in combat (CombatSecondsUntilMaximum: 15 → 5 seconds)
+- Enrage cooldown reduced from 45s to 10s — creatures stay aggressive much longer
+- Affects all hostile wildlife: wolves, bears, cougars, boars, and bosses
+- Combined with the existing wall-attack fix, this makes combat genuinely threatening — creatures won't give up or calm down easily
+
+**Level Cap 170 (PAK mod):**
+- Talent points scale to 280 (all 280 talents unlockable)
+- Blueprint points scale to 586 (all 586 blueprints unlockable)
+- Solo talent points scale to 135 (all prospect talents unlockable)
+- Binary UE4 growth curves modified via pak file override
+- Set MaxDisplayLevel to 170 via D_CharacterGrowth
+
+### v1.7 - Workshop Loot Drops + Full Map Coverage + Survival Pressure
 
 **89 workshop items added to monster loot tables** — thematically matched to each creature and biome:
 
@@ -37,6 +52,34 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 - **Outposts:** All 10 Outpost missions (Forest, Arctic, Desert, IceVolcano, Olympus, 012) now get full hardcore stats including limited lives
 - **Spawn Zone:** PRO_Volcanic_SulfurPools added with +50% density
 - Open World and Outposts are persistent — running out of lives sends you back to the station, but your world and progress are preserved
+
+**Survival Pressure System — scaled by difficulty:**
+
+| Difficulty | Player Max Health | Crafting Speed |
+|------------|------------------|----------------|
+| Easy | -5% | -10% slower |
+| Medium | -15% | -15% slower |
+| Hard/Extreme | -25% | -25% slower |
+
+You're squishier and more vulnerable while crafting. No more tanking hits while casually building gear.
+
+**Revenge Spawns — death has real consequences:**
+
+| Difficulty | Respawn Delay | Respawn Distance |
+|------------|--------------|-----------------|
+| Easy | +10 seconds | +50 meters |
+| Medium | +20 seconds | +100 meters |
+| Hard/Extreme | +30 seconds | +200 meters |
+
+When you die, you wait longer and spawn further from your body. On Hard, that's a 30-second death screen and a 200m trek back to your grave — if something doesn't find you first.
+
+**Creature Scaling on ALL Difficulties** — creatures are now tougher even on Easy/Medium, not just Hard:
+
+| Difficulty | NPC Health | NPC Melee | NPC Speed | Perception |
+|------------|-----------|-----------|-----------|------------|
+| Easy | +20% | +10% | — | +30% aggressive |
+| Medium | +40% | +20% | +15% | +40% aggressive |
+| Hard | +80% | +50% | +25% | +65% aggressive |
 
 ### v1.6 - Wall Attack Fix (Blueprint Override)
 
@@ -118,25 +161,43 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 | Weather-D_WeatherEvents | 109 | -40% storm safe duration |
 | Traits-D_Decayable | 32 | Halved decay timers |
 | Traits-D_Combustible | 4 | Halved fuel burn |
-| Stats-D_ProspectStats | 14 | Difficulty modifiers, storms, XP, durability |
+| Stats-D_ProspectStats | 20 | Difficulty modifiers, storms, XP, durability, survival pressure, respawn penalties |
 | Prospects-D_ProspectList | 167 | Timer reductions + limited lives + new stat assignments |
 | Experience-D_ExperienceEvents | 111 | +50% kill XP |
 
-**Total: 665 modified entries across 11 data tables + 1 blueprint override**
+**Total: 671 modified entries across 11 data tables + 3 binary curve overrides + 2 blueprint overrides**
 
-## Blueprint Override
+## PAK File Contents
 
-The EXMODZ includes a modified `BP_IcarusNPCGOAPController` (the main AI controller for all creatures):
+The included `Hardcore_Rebalance_Pack_P.pak` overrides binary UE4 assets:
 
-| Property | Vanilla | Modded | Effect |
-|----------|---------|--------|--------|
-| AutoSuccessRangeFromLastSeenLocation | 350 | **0** | Creatures must have line of sight to detect players |
+| Asset | Change |
+|-------|--------|
+| C_PlayerTalentGrowth | Level 60→170 cap, 90→280 total talent points |
+| C_PlayerBlueprintGrowth | Level 51→170 cap, 179→586 total blueprint points |
+| C_SoloTalentGrowth | Level 60→170 cap, 30→135 total solo talent points |
+| BP_IcarusNPCGOAPController | AutoSuccessRangeFromLastSeenLocation: 350→0 (wall-attack fix) |
+| BP_IcarusGOAPMotivation_Enraged | CombatSecondsUntilMaximum: 15→5, DefaultCooldownTime: 45→10 |
+
+## Blueprint Overrides
+
+The PAK includes modified AI blueprints:
+
+| Blueprint | Property | Vanilla | Modded | Effect |
+|-----------|----------|---------|--------|--------|
+| BP_IcarusNPCGOAPController | AutoSuccessRangeFromLastSeenLocation | 350 | **0** | Creatures must have line of sight to detect players |
+| BP_IcarusGOAPMotivation_Enraged | CombatSecondsUntilMaximum | 15 | **5** | Creatures enrage 3x faster in combat |
+| BP_IcarusGOAPMotivation_Enraged | DefaultCooldownTime | 45 | **10** | Enrage lasts much longer before wearing off |
 
 ## Installation
 
 1. Install JimK72's Icarus Mod Manager
 2. Import the `.EXMODZ` file in your Mod Manager
-3. Enable the mod and launch Icarus
+3. Place `Hardcore_Rebalance_Pack_P.pak` in your Icarus mods folder:
+   `<Icarus Install>/Icarus/Content/Paks/mods/`
+4. Enable the EXMOD and launch Icarus
+
+**Both the EXMOD and PAK are required for full functionality.**
 
 ## Compatibility
 
