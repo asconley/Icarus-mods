@@ -17,7 +17,7 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 - Zeroed `AutoSuccessRangeFromLastSeenLocation` in `BP_IcarusNPCGOAPController` — the root cause of animals detecting and attacking players through building walls
 - Vanilla had this set to 350 units, allowing AI to skip line-of-sight checks within that range of where they last saw you
 - Now ALL creature detection requires actual line of sight — no more bears mauling you through stone walls
-- Blueprint override delivered via EXMODZ (same approach as Extended Wire and Pipe Tool mod)
+- Blueprint override delivered via EXMODZ
 
 ### v1.5 - Harder AND More Rewarding
 
