@@ -1,15 +1,23 @@
 # Hardcore Rebalance Pack
 
-**Version:** 1.5.1  
+**Version:** 1.6  
 **Author:** AgentKush  
 **Mod Manager:** JimK72's Icarus Mod Manager  
-**Type:** EXMOD + PAK (includes binary curve modifications)
+**Type:** EXMOD + PAK + Blueprint Override
 
 ## Overview
 
-For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 12 data tables plus binary growth curves. Features the **Alpha Hunter System** (12 named bosses), **limited lives**, **level cap 170** (unlock ALL talents and blueprints), **deadlier lightning storms**, **boosted kill XP**, **difficulty-scaled rewards**, and much more.
+For survivors who think Icarus is too easy. This is a comprehensive hardcore overhaul that touches 12 data tables, binary growth curves, and AI perception blueprints. Features the **Alpha Hunter System** (12 named bosses), **limited lives**, **level cap 170** (unlock ALL talents and blueprints), **deadlier lightning storms**, **boosted kill XP**, **difficulty-scaled rewards**, **wall-attack fix**, and much more.
 
 ## What's Changed
+
+### v1.6 - Wall Attack Fix (Blueprint Override)
+
+**Animals Can No Longer Attack Through Walls:**
+- Zeroed `AutoSuccessRangeFromLastSeenLocation` in `BP_IcarusNPCGOAPController` — the root cause of animals detecting and attacking players through building walls
+- Vanilla had this set to 350 units, allowing AI to skip line-of-sight checks within that range of where they last saw you
+- Now ALL creature detection requires actual line of sight — no more bears mauling you through stone walls
+- Blueprint override delivered via EXMODZ (same approach as Extended Wire and Pipe Tool mod)
 
 ### v1.5 - Harder AND More Rewarding
 
@@ -97,7 +105,7 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 | Experience-D_ExperienceEvents | 111 | +50% kill XP |
 | Character-D_CharacterGrowth | 1 | MaxDisplayLevel 170 |
 
-**Total: 653 modified entries across 12 data tables + 3 binary curve overrides**
+**Total: 653 modified entries across 12 data tables + 3 binary curve overrides + 1 blueprint override**
 
 ## PAK File Contents
 
@@ -108,6 +116,14 @@ The included `Hardcore_Rebalance_Pack_P.pak` overrides 3 UE4 CurveFloat assets:
 | C_PlayerTalentGrowth | Level 60→170 cap, 90→280 total talent points |
 | C_PlayerBlueprintGrowth | Level 51→170 cap, 179→586 total blueprint points |
 | C_SoloTalentGrowth | Level 60→170 cap, 30→135 total solo talent points |
+
+## Blueprint Override
+
+The EXMODZ includes a modified `BP_IcarusNPCGOAPController` (the main AI controller for all creatures):
+
+| Property | Vanilla | Modded | Effect |
+|----------|---------|--------|--------|
+| AutoSuccessRangeFromLastSeenLocation | 350 | **0** | Creatures must have line of sight to detect players |
 
 ## Installation
 
@@ -121,4 +137,4 @@ The included `Hardcore_Rebalance_Pack_P.pak` overrides 3 UE4 CurveFloat assets:
 
 ## Compatibility
 
-Modifies spawn zones, creature definitions, loot tables, weather, decay, fuel, difficulty stats, mission timers/difficulty, XP events, and character growth. May conflict with other mods touching the same tables. The PAK file overrides vanilla growth curves.
+Modifies spawn zones, creature definitions, loot tables, weather, decay, fuel, difficulty stats, mission timers/difficulty, XP events, character growth, and AI perception. May conflict with other mods touching the same tables or BP_IcarusNPCGOAPController. The PAK file overrides vanilla growth curves.
