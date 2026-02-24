@@ -40,9 +40,6 @@ For survivors who think Icarus is too easy. This is a comprehensive hardcore ove
 | Medium | +75% | +100% (2x) | +60% | +80% |
 | Hard | +150% | +200% (3x) | +100% (2x) | +150% |
 
-**No Juvenile Spawns on Hard+:**
-- `WorldDisableJuvenileSpawning` enabled — no more easy kills on Hard difficulty
-
 **Enhanced Animal Awareness (all difficulties):**
 - Aggressive perception radius: +30% Easy / +40% Medium / +65% Hard
 - Neutral perception radius: +20% Easy / +30% Medium / +55% Hard
