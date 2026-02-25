@@ -4469,6 +4469,482 @@
               "Value": "CookedFoodModifierEffectiveness_+%"
             }
           ]
+        },
+        {
+          "Name": "Thermos_Coffee_With_Cream",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_Coffee_With_Cream-ModifierName\", \"Hot Coffee with Cream\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_Coffee_With_Cream-ModifierDescription\", \"Keeps you warm, boosts energy.\\n\\n— Chef’s Backpack (+25%) —\\n+1250 Internal Temp\\n+31% Max Stamina\\n+31% Stamina Regen\")",
+          "GrantedStats": {
+            "(Value=\"BaseInternalTemperatureModification_+\")": 1000,
+            "(Value=\"BaseMaximumStamina_+%\")": 25,
+            "(Value=\"BaseStaminaRegen_+%\")": 25
+          },
+          "MergeType": "Replace",
+          "bEffectsNPCs": false,
+          "RemovedOnClick": true,
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Raw_Food",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Food.Icon_Food'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Raw_Food-ModifierName\", \"Raw Food\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Raw_Food-ModifierDescription\", \"Slight health boost.\\n\\n— Chef’s Backpack (+25%) —\\n+38 Max Health\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseMaximumHealth_+\")": 30
+          },
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "Replace",
+          "bEffectsNPCs": false,
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Spoiled_Meat",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Spoiled_Meat.ITEM_Spoiled_Meat'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Spoiled_Meat-ModifierName\", \"Spoiled Meat\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Spoiled_Meat-ModifierDescription\", \"Boosts your stamina, health and regeneration.\\n\\n— Chef’s Backpack (+25%) —\\n+31 Max Stamina\\n+31 Max Health\\n+12 Health Regen/min\\n+12% Stamina Regen\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseMaximumStamina_+\")": 25,
+            "(Value=\"BaseMaximumHealth_+\")": 25,
+            "(Value=\"BaseHealthRegenPerMinute_+\")": 10,
+            "(Value=\"BaseStaminaRegen_+%\")": 10
+          },
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsNPCs": false,
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Seed",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Seed.T_ITEM_Seed'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Seed-ModifierName\", \"Seeds\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Seed-ModifierDescription\", \"Boosts stamina and reduces stamina cost\\n\\n— Chef’s Backpack (+25%) —\\n-12% Tool Stamina Cost\\n+19 Max Stamina\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseToolStaminaActionCost_+%\")": -10,
+            "(Value=\"BaseMaximumStamina_+\")": 15
+          },
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsNPCs": false,
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Animal_Feed",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Feed.T_ITEM_Animal_Feed'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed-ModifierName\", \"Animal Feed\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed-ModifierDescription\", \"Increases animal stamina and stamina regeneration. Improves heat and cold resistance.\\n\\n— Feed Buff (+25%) —\\n+156 Max Stamina\\n+62% Stamina Regen\\n+6% Heat Resist\\n+6% Cold Resist\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseMaximumStamina_+\")": 125,
+            "(Value=\"BaseStaminaRegen_+%\")": 50,
+            "(Value=\"BaseHeatResistance_%\")": 5,
+            "(Value=\"BaseColdResistance_%\")": 5
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false,
+          "RemovedOnClick": true
+        },
+        {
+          "Name": "Animal_Feed_Bean",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Feed_Bean.T_ITEM_Animal_Feed_Bean'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Bean-ModifierName\", \"Survival Animal Feed\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Bean-ModifierDescription\", \"Increases animal health and health regeneration.\\n\\n— Feed Buff (+25%) —\\n+219 Max Health\\n+125% Health Regen\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseMaximumHealth_+\")": 175,
+            "(Value=\"BaseHealthRegen_+%\")": 100
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false
+        },
+        {
+          "Name": "Animal_Feed_Carrot",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Feed_Carrot.T_ITEM_Animal_Feed_Carrot'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Carrot-ModifierName\", \"Sprinters Animal Feed\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Carrot-ModifierDescription\", \"Increases animal sprint speed at the cost of greatly increased stamina consumption.\\n\\n— Feed Buff (+25%) —\\n+94% Stamina Cost\\n+25% Sprint Speed\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseStaminaActionCost_+%\")": 75,
+            "(Value=\"BaseSprintSpeed_+%\")": 20
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false
+        },
+        {
+          "Name": "Animal_Feed_CarryWeight",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Feed.T_ITEM_Animal_Feed'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_CarryWeight-ModifierName\", \"Animal Feed (Carry Weight)\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_CarryWeight-ModifierDescription\", \"Buffs Animals Carry Weight\\n\\n— Feed Buff (+25%) —\\n+125 Carry Weight\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseWeightCapacity_+\")": 100
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false
+        },
+        {
+          "Name": "Animal_Feed_Corn",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Feed_Corn.T_ITEM_Animal_Feed_Corn'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Corn-ModifierName\", \"Endurance Animal Feed\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Corn-ModifierDescription\", \"Greatly reduces animal stamina consumption while slightly reducing animal sprint speed.\\n\\n— Feed Buff (+25%) —\\n-94% Stamina Cost\\n-31% Sprint Speed\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseStaminaActionCost_+%\")": -75,
+            "(Value=\"BaseSprintSpeed_+%\")": -25
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false
+        },
+        {
+          "Name": "Animal_Feed_High_Quality",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_Animal_Feed_High_Quality.T_Animal_Feed_High_Quality'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_High_Quality-ModifierName\", \"High Quality Animal Feed\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_High_Quality-ModifierDescription\", \"Increases animal food buff effectiveness, health regeneration and stamina regeneration.\\n\\n— Feed Buff (+25%) —\\n+31% Fruit/Veg Buff Effectiveness\\n+31% Health Regen\\n+31% Stamina Regen\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 25,
+            "(Value=\"BaseHealthRegen_+%\")": 25,
+            "(Value=\"BaseStaminaRegen_+%\")": 25
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false
+        },
+        {
+          "Name": "Animal_Feed_Mushroom",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Feed_Mushroom.T_ITEM_Animal_Feed_Mushroom'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Mushroom-ModifierName\", \"Mountaineering Animal Feed\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Mushroom-ModifierDescription\", \"Reduces animal fall damage and jumping stamina costs.\\n\\n— Feed Buff (+25%) —\\n+62% Fall Damage Resist\\n-62% Jump Stamina Cost\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseFallDamageResistance_%\")": 50,
+            "(Value=\"BaseJumpingStaminaActionCost_+%\")": -50
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false
+        },
+        {
+          "Name": "Animal_Feed_Potato",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Feed_Potato.T_ITEM_Animal_Feed_Potato'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Potato-ModifierName\", \"Volcanic Animal Feed\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Potato-ModifierDescription\", \"Increases animal heat resistance, fire damage resistance and resistance to fire damage while in lava.\\n\\n— Feed Buff (+25%) —\\n+62% Fire Damage Resist\\n+62% Lava Fire Resist\\n+19% Heat Resist\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFireDamageResistanceWhileInLava_%\")": 50,
+            "(Value=\"BaseHeatResistance_%\")": 15
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false
+        },
+        {
+          "Name": "Animal_Feed_Pumpkin",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Feed_Pumpkin.T_ITEM_Animal_Feed_Pumpkin'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Pumpkin-ModifierName\", \"Arctic Animal Feed\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Pumpkin-ModifierDescription\", \"Increases animal movement speed in the arctic, cold resistance, and reduces food consumption.\\n\\n— Feed Buff (+25%) —\\n+19% Arctic Move Speed\\n+19% Cold Resist\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseArcticMovementSpeed_+%\")": 15,
+            "(Value=\"BaseFoodConsumption_+%\")": -30,
+            "(Value=\"BaseColdResistance_%\")": 15
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false
+        },
+        {
+          "Name": "Animal_Feed_Speed",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Feed.T_ITEM_Animal_Feed'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Speed-ModifierName\", \"Animal Feed (Speed)\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Speed-ModifierDescription\", \"Buffs Animals Speed\\n\\n— Feed Buff (+25%) —\\n+31% Move Speed\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseMovementSpeed_+%\")": 25
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false
+        },
+        {
+          "Name": "Animal_Feed_Squash",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Feed_Squash.T_ITEM_Animal_Feed_Squash'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Squash-ModifierName\", \"Desert Animal Feed\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Feed_Squash-ModifierDescription\", \"Increases animal movement speed in the desert, heat resistance, and reduces water consumption.\\n\\n— Feed Buff (+25%) —\\n+19% Desert Move Speed\\n+19% Heat Resist\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseDesertMovementSpeed_+%\")": 15,
+            "(Value=\"BaseWaterConsumption_+%\")": -30,
+            "(Value=\"BaseHeatResistance_%\")": 15
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false
+        },
+        {
+          "Name": "Animal_Gruel_Fish",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Gruel_Fish.T_ITEM_Animal_Gruel_Fish'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Gruel_Fish-ModifierName\", \"Animal Fish Gruel\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Gruel_Fish-ModifierDescription\", \"Small Increase to Maximum Stamina and Regen\\n\\n— Feed Buff (+25%) —\\n+31 Max Stamina\\n+62% Stamina Regen\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseMaximumStamina_+\")": 25,
+            "(Value=\"BaseStaminaRegen_+%\")": 50
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false,
+          "RemovedOnClick": true
+        },
+        {
+          "Name": "Animal_Gruel_Fruit",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Gruel_Fruit.T_ITEM_Animal_Gruel_Fruit'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Gruel_Fruit-ModifierName\", \"Animal Fruit Gruel\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Gruel_Fruit-ModifierDescription\", \"Small Increase to Physical Resistant and Melee Damage\\n\\n— Feed Buff (+25%) —\\n+6% Physical Resist\\n+6% Melee Damage\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 5,
+            "(Value=\"BaseMeleeDamage_+%\")": 5
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false,
+          "RemovedOnClick": true
+        },
+        {
+          "Name": "Animal_Gruel_Meat",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Gruel_Meat.T_ITEM_Animal_Gruel_Meat'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Gruel_Meat-ModifierName\", \"Animal Meat Gruel\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Gruel_Meat-ModifierDescription\", \"Small Increase to Maximum Health and Regen\\n\\n— Feed Buff (+25%) —\\n+31 Max Health\\n+62% Health Regen\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseMaximumHealth_+\")": 25,
+            "(Value=\"BaseHealthRegen_+%\")": 50
+          },
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false,
+          "RemovedOnClick": true,
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Animal_Gruel_Vegetable",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Animal_Gruel_Vege.T_ITEM_Animal_Gruel_Vege'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Gruel_Vegetable-ModifierName\", \"Animal Vegetable Gruel\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Gruel_Vegetable-ModifierDescription\", \"Small Increases to Hot and Cold Resistance\\n\\n— Feed Buff (+25%) —\\n+12% Heat Resist\\n+12% Cold Resist\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseHeatResistance_%\")": 10,
+            "(Value=\"BaseColdResistance_%\")": 10
+          },
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ],
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false,
+          "RemovedOnClick": true
+        },
+        {
+          "Name": "Filtered_Trough_Water",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Water_Purified.T_ICON_Water_Purified'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Filtered_Trough_Water-ModifierName\", \"Filtered Trough Water\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Filtered_Trough_Water-ModifierDescription\", \"Water that has undergone a filtration process.\\n\\n— Feed Buff (+25%) —\\n+125% Stamina Regen\")",
+          "GrantedStats": {
+            "(Value=\"BaseWaterConsumption_+%\")": -15,
+            "(Value=\"BaseFoodConsumption_+%\")": -15,
+            "(Value=\"BaseStaminaRegen_+%\")": 100
+          },
+          "MergeType": "Stack",
+          "bEffectsPlayers": false,
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ]
         }
       ]
     },

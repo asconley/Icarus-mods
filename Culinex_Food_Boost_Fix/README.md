@@ -33,6 +33,10 @@ This mod fixes **169 food items** so the 25% effectiveness boost from the Chef's
 ### v2.3
 - Simplified tooltips: show only boosted values (base stats already visible in yellow section)
 - Cleaner format matches yellow stat style: +375 Max Health
+- Added missing Thermos Coffee With Cream (player consumable)
+- Added Raw Food, Spoiled Meat, and Seed entries
+- Added 15 Animal Feeds, 4 Animal Gruels, and Filtered Trough Water
+- Mod now covers 189 entries total (up from 169)
 
 ### v2.2
 - Cleaned up tooltip formatting: em dashes on header, blank line gap between description and backpack stats
