@@ -1,6 +1,6 @@
 # Culinex Food Boost Fix
 
-**Version:** 2.0  
+**Version:** 2.1  
 **Author:** AgentKush
 
 ## Description
@@ -29,6 +29,9 @@ This mod fixes **169 food items** so the 25% effectiveness boost from the Chef's
 - Excludes non-player foods (animal feed, raw/spoiled items)
 
 ## Changelog
+
+### v2.1
+- Added Chef's Backpack boosted stats to all food tooltips so you can see the +25% values at a glance
 
 ### v2.0
 - **Major fix:** Switched from Level2 (field merge) to Level1 (full row replacement) to fix the Culinex boost not applying
