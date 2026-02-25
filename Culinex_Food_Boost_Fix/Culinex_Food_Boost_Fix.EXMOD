@@ -2,7 +2,7 @@
   "name": "Culinex_Food_Boost_Fix",
   "author": "AgentKush",
   "fileName": "Culinex_Food_Boost_Fix",
-  "version": "2.1",
+  "version": "2.3",
   "description": "Fixes Culinex (Chef's Backpack) 25% food effectiveness boost to apply to all cooked foods. Also adds raw chicken to the butchery bench.",
   "week": "",
   "Level2": "False",
@@ -14,7 +14,7 @@
           "Name": "Beer",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_BeerBottle.ITEM_BeerBottle'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Beer-ModifierName\", \"Beer\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Beer-ModifierDescription\", \"Boosts max stamina and regeneration. | With Chef's Backpack: Stamina Regen +125%, Max Stamina +156\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Beer-ModifierDescription\", \"Boosts max stamina and regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125% Stamina Regen\\n+156 Max Stamina\")",
           "GrantedStats": {
             "(Value=\"BaseStaminaRegen_+%\")": 100,
             "(Value=\"BaseMaximumStamina_+\")": 125,
@@ -37,7 +37,7 @@
           "Name": "Wine",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_WineBottle.ITEM_WineBottle'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Wine-ModifierName\", \"Wine\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Wine-ModifierDescription\", \"Boosts max stamina and regeneration. | With Chef's Backpack: Stamina Regen +125%, Max Stamina +156\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Wine-ModifierDescription\", \"Boosts max stamina and regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125% Stamina Regen\\n+156 Max Stamina\")",
           "GrantedStats": {
             "(Value=\"BaseStaminaRegen_+%\")": 100,
             "(Value=\"BaseMaximumStamina_+\")": 125,
@@ -60,7 +60,7 @@
           "Name": "Meta_Ration",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_MetaRation_1.ITEM_MetaRation_1'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Ration-ModifierName\", \"Emergency Rations\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Ration-ModifierDescription\", \"Keeps hunger at bay longer. | With Chef's Backpack: Stamina Regen +12%, Health Regen +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Ration-ModifierDescription\", \"Keeps hunger at bay longer.\\n\\n— Chef\\'s Backpack (+25%) —\\n+12% Stamina Regen\\n+12% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseStaminaRegen_+%\")": 10,
@@ -86,7 +86,7 @@
           "Name": "Meta_Soda",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_MetaRation_10.ITEM_MetaRation_10'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Soda-ModifierName\", \"All Go\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Soda-ModifierDescription\", \"Keeps hunger at bay longer. | With Chef's Backpack: Health Regen +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Soda-ModifierDescription\", \"Keeps hunger at bay longer.\\n\\n— Chef\\'s Backpack (+25%) —\\n+12% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseHealthRegen_+%\")": 10,
             "(Value=\"BaseWaterConsumption_+%\")": -10,
@@ -109,7 +109,7 @@
           "Name": "Coconut",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Coconut_Young.ITEM_Coconut_Young'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut-ModifierName\", \"Young Coconut\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut-ModifierDescription\", \"Boosts health for a short time. | With Chef's Backpack: Max Health +31\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut-ModifierDescription\", \"Boosts health for a short time.\\n\\n— Chef\\'s Backpack (+25%) —\\n+31 Max Health\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 25,
@@ -135,7 +135,7 @@
           "Name": "Coconut_Mid",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Coconut_Ripe.ITEM_Coconut_Ripe'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Mid-ModifierName\", \"Ripe Coconut\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Mid-ModifierDescription\", \"Boosts health for a short time. | With Chef's Backpack: Max Health +94\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Mid-ModifierDescription\", \"Boosts health for a short time.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -161,7 +161,7 @@
           "Name": "Coconut_Mature",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Coconut_Mature.ITEM_Coconut_Mature'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Mature-ModifierName\", \"Mature Coconut\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Mature-ModifierDescription\", \"Boosts health for a short time. | With Chef's Backpack: Max Health +62\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Mature-ModifierDescription\", \"Boosts health for a short time.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Health\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 50,
@@ -187,7 +187,7 @@
           "Name": "Berry",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Berries.ITEM_Berries'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Berry-ModifierName\", \"Berry\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Berry-ModifierDescription\", \"Boosts stamina for a short time. | With Chef's Backpack: Max Stamina +62\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Berry-ModifierDescription\", \"Boosts stamina for a short time.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Stamina\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 50,
@@ -213,7 +213,7 @@
           "Name": "Watermelon",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Watermelon.ITEM_Watermelon'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Watermelon-ModifierName\", \"Watermelon\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Watermelon-ModifierDescription\", \"Boosts stamina and improves water consumption for a short time. | With Chef's Backpack: Max Stamina +62\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Watermelon-ModifierDescription\", \"Boosts stamina and improves water consumption for a short time.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Stamina\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 50,
@@ -239,7 +239,7 @@
           "Name": "CookedFish",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Fish.ITEM_Cooked_Fish'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"CookedFish-ModifierName\", \"Steamed Fish\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"CookedFish-ModifierDescription\", \"Lifts stamina, improves health and regeneration. | With Chef's Backpack: Max Health +94, Stamina Regen +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"CookedFish-ModifierDescription\", \"Lifts stamina, improves health and regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+25% Stamina Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -265,7 +265,7 @@
           "Name": "CookedMeat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Meat.ITEM_Cooked_Meat'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"CookedMeat-ModifierName\", \"Cooked Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"CookedMeat-ModifierDescription\", \"Boosts your health and health regeneration. | With Chef's Backpack: Max Health +94, Health Regen +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"CookedMeat-ModifierDescription\", \"Boosts your health and health regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+25% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -288,7 +288,7 @@
           "Name": "Cooked_Prime_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Prime_Meat.ITEM_Cooked_Prime_Meat'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Prime_Meat-ModifierName\", \"Cooked Prime Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Prime_Meat-ModifierDescription\", \"Boosts your stamina, health and regeneration. | With Chef's Backpack: Max Stamina +125, Max Health +188, BaseHealthRegenPerMinute_+ +25, XP +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Prime_Meat-ModifierDescription\", \"Boosts your stamina, health and regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n+188 Max Health\\n+25 BaseHealthRegenPerMinute_+\\n+6% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -313,7 +313,7 @@
           "Name": "Cooked_Corn",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_CharredCorn.ITEM_CharredCorn'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Corn-ModifierName\", \"Charred Corn\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Corn-ModifierDescription\", \"Enhances stamina and improves endurance.  | With Chef's Backpack: Max Stamina +94, BaseStaminaActionCost_+% -12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Corn-ModifierDescription\", \"Enhances stamina and improves endurance. \\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n-12% BaseStaminaActionCost_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -339,7 +339,7 @@
           "Name": "Cooked_Pumpkin",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_GrilledPumpkin.ITEM_GrilledPumpkin'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Pumpkin-ModifierName\", \"Grilled Pumpkin\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Pumpkin-ModifierDescription\", \"Boosts stamina and exposure resistance. | With Chef's Backpack: Max Stamina +94, Exposure Resist +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Pumpkin-ModifierDescription\", \"Boosts stamina and exposure resistance.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+6% Exposure Resist\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -365,7 +365,7 @@
           "Name": "Cooked_Squash",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_RoastSquash.ITEM_RoastSquash'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Squash-ModifierName\", \"Roast Squash\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Squash-ModifierDescription\", \"Boosts stamina for a period. | With Chef's Backpack: Max Stamina +94, Melee Damage +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Squash-ModifierDescription\", \"Boosts stamina for a period.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+6% Melee Damage\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -391,7 +391,7 @@
           "Name": "Cooked_Carrot",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_BarbequeCarrot.ITEM_BarbequeCarrot'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Carrot-ModifierName\", \"Barbeque Carrot\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Carrot-ModifierDescription\", \"Lifts stamina a little. | With Chef's Backpack: Max Stamina +94, BaseProjectileDamage_+% +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Carrot-ModifierDescription\", \"Lifts stamina a little.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+6% BaseProjectileDamage_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -417,7 +417,7 @@
           "Name": "Cooked_Mushroom",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_SearedMushroom.ITEM_SearedMushroom'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Mushroom-ModifierName\", \"Seared Mushroom\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Mushroom-ModifierDescription\", \"Boosts health and stamina regeneration. | With Chef's Backpack: Max Health +94, Stamina Regen +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Mushroom-ModifierDescription\", \"Boosts health and stamina regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+6% Stamina Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -443,7 +443,7 @@
           "Name": "Corn_Soup",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_CornSoup.ITEM_CornSoup'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Corn_Soup-ModifierName\", \"Corn Soup\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Corn_Soup-ModifierDescription\", \"Boosts stamina and improve endurance noticeably. | With Chef's Backpack: Max Stamina +125, BaseStaminaActionCost_+% -25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Corn_Soup-ModifierDescription\", \"Boosts stamina and improve endurance noticeably.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n-25% BaseStaminaActionCost_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -469,7 +469,7 @@
           "Name": "Mushroom_Soup",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_MushroomSoup.ITEM_MushroomSoup'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Mushroom_Soup-ModifierName\", \"Mushroom Soup\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Mushroom_Soup-ModifierDescription\", \"Boosts health and stamina regeneration. | With Chef's Backpack: Max Health +125, Stamina Regen +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Mushroom_Soup-ModifierDescription\", \"Boosts health and stamina regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Health\\n+12% Stamina Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 100,
@@ -495,7 +495,7 @@
           "Name": "Fruit_Salad",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FruitSalad.ITEM_FruitSalad'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Salad-ModifierName\", \"Fruit Salad\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Salad-ModifierDescription\", \"Lifts health and stamina. | With Chef's Backpack: Max Health +94, Max Stamina +94\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Salad-ModifierDescription\", \"Lifts health and stamina.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+94 Max Stamina\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -523,7 +523,7 @@
           "Name": "Wild_Salad",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FieldSalad.ITEM_FieldSalad'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Wild_Salad-ModifierName\", \"Wild Salad\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Wild_Salad-ModifierDescription\", \"A solid stamina boost. | With Chef's Backpack: Max Stamina +188, Exposure Resist +12%, Melee Damage +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Wild_Salad-ModifierDescription\", \"A solid stamina boost.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+12% Exposure Resist\\n+12% Melee Damage\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -550,7 +550,7 @@
           "Name": "Meat_Stew",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_MeatStew.ITEM_MeatStew'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meat_Stew-ModifierName\", \"Stew\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meat_Stew-ModifierDescription\", \"Boosts health and stamina. Increases stamina regeneration. | With Chef's Backpack: Max Health +188, Max Stamina +94, Stamina Regen +12%, Health Regen +12%, BaseProjectileDamage_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meat_Stew-ModifierDescription\", \"Boosts health and stamina. Increases stamina regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+94 Max Stamina\\n+12% Stamina Regen\\n+12% Health Regen\\n+12% BaseProjectileDamage_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -576,7 +576,7 @@
           "Name": "Fried_Soy_Beans",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FriedSoyBeans.ITEM_FriedSoyBeans'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Soy_Beans-ModifierName\", \"Soy Fry\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Soy_Beans-ModifierDescription\", \"Boosts health and stamina. Increases damage with projectiles. | With Chef's Backpack: Max Health +188, Max Stamina +94, BaseProjectileDamage_+% +12%, Stamina Regen +12%, Health Regen +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Soy_Beans-ModifierDescription\", \"Boosts health and stamina. Increases damage with projectiles.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+94 Max Stamina\\n+12% BaseProjectileDamage_+%\\n+12% Stamina Regen\\n+12% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -605,7 +605,7 @@
           "Name": "Fish_Dish",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FishDish.ITEM_FishDish'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Dish-ModifierName\", \"Fish Curry\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Dish-ModifierDescription\", \"Large health boost. | With Chef's Backpack: Max Health +281, Health Regen +12%, Stamina Regen +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Dish-ModifierDescription\", \"Large health boost.\\n\\n— Chef\\'s Backpack (+25%) —\\n+281 Max Health\\n+12% Health Regen\\n+12% Stamina Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 225,
@@ -632,7 +632,7 @@
           "Name": "Roasted_Vegetables",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_RoastVeges.ITEM_RoastVeges'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roasted_Vegetables-ModifierName\", \"Roast Vegetables\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roasted_Vegetables-ModifierDescription\", \"Massive stamina boost. | With Chef's Backpack: Max Stamina +281, Exposure Resist +12%, Melee Damage +12%, BaseProjectileDamage_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roasted_Vegetables-ModifierDescription\", \"Massive stamina boost.\\n\\n— Chef\\'s Backpack (+25%) —\\n+281 Max Stamina\\n+12% Exposure Resist\\n+12% Melee Damage\\n+12% BaseProjectileDamage_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 225,
@@ -660,7 +660,7 @@
           "Name": "Creamed_Corn",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_CreamedCorn.ITEM_CreamedCorn'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Creamed_Corn-ModifierName\", \"Creamed Corn\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Creamed_Corn-ModifierDescription\", \"Boosts health and stamina. Reduces stamina costs. | With Chef's Backpack: Max Stamina +94, Max Health +188, BaseStaminaActionCost_+% -12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Creamed_Corn-ModifierDescription\", \"Boosts health and stamina. Reduces stamina costs.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+188 Max Health\\n-12% BaseStaminaActionCost_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -687,7 +687,7 @@
           "Name": "FlatBread",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Food_Flatbread.ITEM_Food_Flatbread'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"FlatBread-ModifierName\", \"Flatbread\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"FlatBread-ModifierDescription\", \"Boosts regeneration strongly for stamina. | With Chef's Backpack: Stamina Regen +125%, XP +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"FlatBread-ModifierDescription\", \"Boosts regeneration strongly for stamina.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125% Stamina Regen\\n+6% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseStaminaRegen_+%\")": 100,
@@ -711,7 +711,7 @@
           "Name": "Fruit_Pie",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FruitPie.ITEM_FruitPie'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Pie-ModifierName\", \"Fruit Pie\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Pie-ModifierDescription\", \"Lifts health, boosts stamina significantly. | With Chef's Backpack: Max Health +94, Max Stamina +188, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Pie-ModifierDescription\", \"Lifts health, boosts stamina significantly.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+188 Max Stamina\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -740,7 +740,7 @@
           "Name": "Meat_Pie",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_MeatPie.ITEM_MeatPie'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meat_Pie-ModifierName\", \"Meat Pie\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meat_Pie-ModifierDescription\", \"Big health boost, reduces exposure damage. | With Chef's Backpack: Max Health +281, Exposure Resist +19%, Stamina Regen +19%, Health Regen +19%, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meat_Pie-ModifierDescription\", \"Big health boost, reduces exposure damage.\\n\\n— Chef\\'s Backpack (+25%) —\\n+281 Max Health\\n+19% Exposure Resist\\n+19% Stamina Regen\\n+19% Health Regen\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 225,
@@ -766,7 +766,7 @@
           "Name": "Vegetable_Pie",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_VegePie.ITEM_VegePie'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Vegetable_Pie-ModifierName\", \"Vegetable Pie\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Vegetable_Pie-ModifierDescription\", \"Solid stamina and health boost | With Chef's Backpack: Max Health +188, Max Stamina +188, BaseStaminaActionCost_+% -19%, Melee Damage +19%, Health Regen +19%, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Vegetable_Pie-ModifierDescription\", \"Solid stamina and health boost\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+188 Max Stamina\\n-19% BaseStaminaActionCost_+%\\n+19% Melee Damage\\n+19% Health Regen\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -796,7 +796,7 @@
           "Name": "Bread",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Food_Bread.ITEM_Food_Bread'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Bread-ModifierName\", \"Bread\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Bread-ModifierDescription\", \"Boosts stamina considerably. | With Chef's Backpack: Max Stamina +156, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Bread-ModifierDescription\", \"Boosts stamina considerably.\\n\\n— Chef\\'s Backpack (+25%) —\\n+156 Max Stamina\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 125,
@@ -819,7 +819,7 @@
           "Name": "Pumpkin_Bread",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_PumpkinBread.ITEM_PumpkinBread'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Pumpkin_Bread-ModifierName\", \"Pumpkin Bread\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pumpkin_Bread-ModifierDescription\", \"Stamina boost, reduces exposure damage. | With Chef's Backpack: Max Stamina +188, Exposure Resist +19%, XP +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pumpkin_Bread-ModifierDescription\", \"Stamina boost, reduces exposure damage.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+19% Exposure Resist\\n+19% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -846,7 +846,7 @@
           "Name": "Crumbed_Fish",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_CrumbedFishFillet.ITEM_CrumbedFishFillet'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Crumbed_Fish-ModifierName\", \"Crumbed Fish\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crumbed_Fish-ModifierDescription\", \"Boosts health and stamina. | With Chef's Backpack: Max Health +188, Max Stamina +94, Stamina Regen +19%, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crumbed_Fish-ModifierDescription\", \"Boosts health and stamina.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+94 Max Stamina\\n+19% Stamina Regen\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -874,7 +874,7 @@
           "Name": "Picked_Carrot",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_PickledCarrot.ITEM_PickledCarrot'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Picked_Carrot-ModifierName\", \"Pickled Carrot\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Picked_Carrot-ModifierDescription\", \"Boosts max stamina and projectile damage, and increases shared experience gained. | With Chef's Backpack: Max Stamina +188, BaseProjectileDamage_+% +25%, BaseSharedExperience_+% +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Picked_Carrot-ModifierDescription\", \"Boosts max stamina and projectile damage, and increases shared experience gained.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+25% BaseProjectileDamage_+%\\n+25% BaseSharedExperience_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -901,7 +901,7 @@
           "Name": "Jar_Jam",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Jar_Jam.ITEM_Jar_Jam'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Jar_Jam-ModifierName\", \"Jammed\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Jar_Jam-ModifierDescription\", \"Boosts max stamina and reduces water consumption. | With Chef's Backpack: Max Stamina +156, BaseSharedExperience_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Jar_Jam-ModifierDescription\", \"Boosts max stamina and reduces water consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+156 Max Stamina\\n+12% BaseSharedExperience_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 125,
@@ -928,7 +928,7 @@
           "Name": "Dried_Giant_Steak",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Prime_MeatDried.ITEM_Cooked_Prime_MeatDried'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Giant_Steak-ModifierName\", \"Dried Giant Steak\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Giant_Steak-ModifierDescription\", \"Boosts health and health regen, and slows hunger | With Chef's Backpack: Max Health +125, Health Regen +31%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Giant_Steak-ModifierDescription\", \"Boosts health and health regen, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Health\\n+31% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 100,
@@ -955,7 +955,7 @@
           "Name": "Dried_Fatty_Tbone",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_TboneDried.ITEM_Meat_TboneDried'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Fatty_Tbone-ModifierName\", \"Dried Fatty T-Bone\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Fatty_Tbone-ModifierDescription\", \"Boosts health, meat yield from animals, and slows hunger | With Chef's Backpack: Max Health +94, BaseMeatHarvestedFromAnimals_+% +31%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Fatty_Tbone-ModifierDescription\", \"Boosts health, meat yield from animals, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+31% BaseMeatHarvestedFromAnimals_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -982,7 +982,7 @@
           "Name": "Dried_Gamey_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_GameyDried.ITEM_Meat_GameyDried'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Gamey_Meat-ModifierName\", \"Dried Game Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Gamey_Meat-ModifierDescription\", \"Boosts health, melee damage, and slows hunger | With Chef's Backpack: Max Health +94, Melee Damage +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Gamey_Meat-ModifierDescription\", \"Boosts health, melee damage, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+19% Melee Damage\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -1009,7 +1009,7 @@
           "Name": "Dried_Stringy_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_StringyDried.ITEM_Meat_StringyDried'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Stringy_Meat-ModifierName\", \"Dried Stringy Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Stringy_Meat-ModifierDescription\", \"Boosts stamina, attack speed, and slows hunger | With Chef's Backpack: Max Stamina +94, BaseAttackSpeed_+% +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Stringy_Meat-ModifierDescription\", \"Boosts stamina, attack speed, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+19% BaseAttackSpeed_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -1036,7 +1036,7 @@
           "Name": "Dried_Soft_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_SoftDried.ITEM_Meat_SoftDried'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Soft_Meat-ModifierName\", \"Dried Soft Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Soft_Meat-ModifierDescription\", \"Boosts stamina, stamina regeneration, and slows hunger | With Chef's Backpack: Max Stamina +125, Stamina Regen +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Soft_Meat-ModifierDescription\", \"Boosts stamina, stamina regeneration, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n+19% Stamina Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -1063,7 +1063,7 @@
           "Name": "Dried_White_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_WhiteDried.ITEM_Meat_WhiteDried'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_White_Meat-ModifierName\", \"Dried White Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_White_Meat-ModifierDescription\", \"Boosts stamina, exposure resistance, and slows hunger | With Chef's Backpack: Max Stamina +94, Exposure Resist +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_White_Meat-ModifierDescription\", \"Boosts stamina, exposure resistance, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+12% Exposure Resist\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -1090,7 +1090,7 @@
           "Name": "Cooked_Bacon",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Bacon.ITEM_Cooked_Bacon'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Bacon-ModifierName\", \"Cooked Bacon\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Bacon-ModifierDescription\", \"Increases experience gained, boosts health and stamina. | With Chef's Backpack: XP +19%, Max Health +94, Max Stamina +94\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Bacon-ModifierDescription\", \"Increases experience gained, boosts health and stamina.\\n\\n— Chef\\'s Backpack (+25%) —\\n+19% XP\\n+94 Max Health\\n+94 Max Stamina\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseExperience_+%\")": 15,
@@ -1114,7 +1114,7 @@
           "Name": "Crispy_Bacon",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Bacon_Crispy.ITEM_Bacon_Crispy'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Crispy_Bacon-ModifierName\", \"Crispy Bacon\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crispy_Bacon-ModifierDescription\", \"Increases experience gained, grants a large boost to health and stamina, plus critical damage | With Chef's Backpack: XP +19%, Max Health +112, Max Stamina +112, BaseCriticalDamage_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crispy_Bacon-ModifierDescription\", \"Increases experience gained, grants a large boost to health and stamina, plus critical damage\\n\\n— Chef\\'s Backpack (+25%) —\\n+19% XP\\n+112 Max Health\\n+112 Max Stamina\\n+12% BaseCriticalDamage_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseExperience_+%\")": 15,
@@ -1139,7 +1139,7 @@
           "Name": "Cooked_Potato",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_CrisphyPotato.ITEM_CrisphyPotato'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Potato-ModifierName\", \"Crispy Potato\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Potato-ModifierDescription\", \"Lifts stamina, reduces food need. | With Chef's Backpack: Max Stamina +94\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Potato-ModifierDescription\", \"Lifts stamina, reduces food need.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -1165,7 +1165,7 @@
           "Name": "Cooked_Tomato",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FriedTomato.ITEM_FriedTomato'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Tomato-ModifierName\", \"Fried Tomato\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Tomato-ModifierDescription\", \"Lifts stamina, increases health regeneration. | With Chef's Backpack: Max Stamina +94, Health Regen +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Tomato-ModifierDescription\", \"Lifts stamina, increases health regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+12% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -1191,7 +1191,7 @@
           "Name": "Hearty_Salad",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_HeartySalad.ITEM_HeartySalad'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Hearty_Salad-ModifierName\", \"Hearty Salad\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Hearty_Salad-ModifierDescription\", \"Lifts health, stamina and health regen. | With Chef's Backpack: Max Health +94, Max Stamina +94, Health Regen +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Hearty_Salad-ModifierDescription\", \"Lifts health, stamina and health regen.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+94 Max Stamina\\n+25% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -1218,7 +1218,7 @@
           "Name": "Tomato_Soup",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_TomatoSoup.ITEM_TomatoSoup'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Tomato_Soup-ModifierName\", \"Tomato Soup\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Tomato_Soup-ModifierDescription\", \"Boosts stamina and improve health regeneration noticeably. | With Chef's Backpack: Max Stamina +125, Health Regen +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Tomato_Soup-ModifierDescription\", \"Boosts stamina and improve health regeneration noticeably.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n+25% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -1244,7 +1244,7 @@
           "Name": "Picked_Tomato",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_PickedTomato.ITEM_PickedTomato'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Picked_Tomato-ModifierName\", \"Pickled Tomato\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Picked_Tomato-ModifierDescription\", \"Boosts max stamina and health regeneration, and increases shared experience gained. | With Chef's Backpack: Max Stamina +188, Health Regen +25%, BaseSharedExperience_+% +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Picked_Tomato-ModifierDescription\", \"Boosts max stamina and health regeneration, and increases shared experience gained.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+25% Health Regen\\n+25% BaseSharedExperience_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -1271,7 +1271,7 @@
           "Name": "Potato_Carrot_Fries",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_PotatoCarrotFries.ITEM_PotatoCarrotFries'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Potato_Carrot_Fries-ModifierName\", \"Potato and Carrot Fries\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Potato_Carrot_Fries-ModifierDescription\", \"Boosts health and stamina. Increase health regeneration and projectile damage, reduce food consumption. | With Chef's Backpack: Max Health +188, Max Stamina +94, Health Regen +12%, BaseProjectileDamage_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Potato_Carrot_Fries-ModifierDescription\", \"Boosts health and stamina. Increase health regeneration and projectile damage, reduce food consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+94 Max Stamina\\n+12% Health Regen\\n+12% BaseProjectileDamage_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -1300,7 +1300,7 @@
           "Name": "Potato_Bread",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_PotatoBread.ITEM_PotatoBread'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Potato_Bread-ModifierName\", \"Potato Bread\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Potato_Bread-ModifierDescription\", \"Stamina boost, reduces food consumption. | With Chef's Backpack: Max Stamina +188, XP +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Potato_Bread-ModifierDescription\", \"Stamina boost, reduces food consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+19% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -1327,7 +1327,7 @@
           "Name": "Shepherds_Pie",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_ShepherdsPie.ITEM_ShepherdsPie'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Shepherds_Pie-ModifierName\", \"Shepherd\\'s Pie\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Shepherds_Pie-ModifierDescription\", \"Big health boost, lifts stamina, boosts health regeneration and reduces food consumption. | With Chef's Backpack: Max Health +281, Max Stamina +94, Health Regen +50%, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Shepherds_Pie-ModifierDescription\", \"Big health boost, lifts stamina, boosts health regeneration and reduces food consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+281 Max Health\\n+94 Max Stamina\\n+50% Health Regen\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 225,
@@ -1353,7 +1353,7 @@
           "Name": "Cooked_Soy_Bean",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_CrunchySoybeans.ITEM_CrunchySoybeans'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Soy_Bean-ModifierName\", \"Crunchy Soy Bean\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Soy_Bean-ModifierDescription\", \"Enhances health and health regen. | With Chef's Backpack: Max Health +94, Health Regen +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Soy_Bean-ModifierDescription\", \"Enhances health and health regen.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+12% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -1379,7 +1379,7 @@
           "Name": "Dried_Tomato",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_DriedTomato.ITEM_DriedTomato'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Tomato-ModifierName\", \"Dried Tomato\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Tomato-ModifierDescription\", \"Lifts stamina and health regeneration, reduces food need. | With Chef's Backpack: Max Stamina +94, Health Regen +38%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Tomato-ModifierDescription\", \"Lifts stamina and health regeneration, reduces food need.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+38% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -1406,7 +1406,7 @@
           "Name": "Dried_Avocado",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_DriedAvocado.ITEM_DriedAvocado'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Avocado-ModifierName\", \"Dried Avocado\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Avocado-ModifierDescription\", \"Lifts stamina, greatly reduces food need. | With Chef's Backpack: Max Stamina +94\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Avocado-ModifierDescription\", \"Lifts stamina, greatly reduces food need.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -1432,7 +1432,7 @@
           "Name": "Dried_Rhubarb",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_DriedRhubarb.ITEM_DriedRhubarb'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Rhubarb-ModifierName\", \"Dried Rhubarb\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Rhubarb-ModifierDescription\", \"Lifts stamina, reduces oxygen consumption and food need. | With Chef's Backpack: Max Stamina +94\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Rhubarb-ModifierDescription\", \"Lifts stamina, reduces oxygen consumption and food need.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -1459,7 +1459,7 @@
           "Name": "Cooked_Rhubarb",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_SautedRhubarb.ITEM_SautedRhubarb'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Rhubarb-ModifierName\", \"Sauteed Rhubarb\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Rhubarb-ModifierDescription\", \"Lifts stamina, reduces oxygen consumption. | With Chef's Backpack: Max Stamina +94\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Rhubarb-ModifierDescription\", \"Lifts stamina, reduces oxygen consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -1485,7 +1485,7 @@
           "Name": "Cooked_Kumara",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_BroiledKumara.ITEM_BroiledKumara'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Kumara-ModifierName\", \"Broiled Kumara\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Kumara-ModifierDescription\", \"Lifts stamina and attack speed. | With Chef's Backpack: Max Stamina +94, BaseAttackSpeed_+% +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Kumara-ModifierDescription\", \"Lifts stamina and attack speed.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+6% BaseAttackSpeed_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -1511,7 +1511,7 @@
           "Name": "Stuffed_Avocado",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_StuffedAvocado.ITEM_StuffedAvocado'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Stuffed_Avocado-ModifierName\", \"Stuffed Avocado\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Stuffed_Avocado-ModifierDescription\", \"Lifts health, health regeneration and stamina, and reduces food consumption | With Chef's Backpack: Max Health +94, Max Stamina +94, Health Regen +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Stuffed_Avocado-ModifierDescription\", \"Lifts health, health regeneration and stamina, and reduces food consumption\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+94 Max Stamina\\n+12% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -1539,7 +1539,7 @@
           "Name": "Mixed_Berries",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_MixedBerries.ITEM_MixedBerries'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Mixed_Berries-ModifierName\", \"Mixed Berries\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Mixed_Berries-ModifierDescription\", \"Boosts stamina, reduces water consumption and increases experience gained. | With Chef's Backpack: Max Stamina +188, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Mixed_Berries-ModifierDescription\", \"Boosts stamina, reduces water consumption and increases experience gained.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -1566,7 +1566,7 @@
           "Name": "Rhubarb_Stew",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_RhubarbStew.ITEM_RhubarbStew'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Rhubarb_Stew-ModifierName\", \"Rhubarb Stew\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Rhubarb_Stew-ModifierDescription\", \"Boosts stamina, reduces oxygen, water and stamina consumption | With Chef's Backpack: Max Stamina +281, BaseStaminaActionCost_+% -12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Rhubarb_Stew-ModifierDescription\", \"Boosts stamina, reduces oxygen, water and stamina consumption\\n\\n— Chef\\'s Backpack (+25%) —\\n+281 Max Stamina\\n-12% BaseStaminaActionCost_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 225,
@@ -1594,7 +1594,7 @@
           "Name": "Fried_Chunky_Vegetables",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FriedChunkyVeges.ITEM_FriedChunkyVeges'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Chunky_Vegetables-ModifierName\", \"Fried Chunky Vegetables\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Chunky_Vegetables-ModifierDescription\", \"Lifts health, stamina, exposure resistance and attack speed | With Chef's Backpack: Max Health +94, Max Stamina +188, Exposure Resist +12%, BaseAttackSpeed_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Chunky_Vegetables-ModifierDescription\", \"Lifts health, stamina, exposure resistance and attack speed\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+188 Max Stamina\\n+12% Exposure Resist\\n+12% BaseAttackSpeed_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -1622,7 +1622,7 @@
           "Name": "Pickled_Avocado",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_PickledAvocado.ITEM_PickledAvocado'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Pickled_Avocado-ModifierName\", \"Pickled Avocado\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pickled_Avocado-ModifierDescription\", \"Boosts stamina, reduces food consumption and increases shared experience gained. | With Chef's Backpack: Max Stamina +188, BaseSharedExperience_+% +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pickled_Avocado-ModifierDescription\", \"Boosts stamina, reduces food consumption and increases shared experience gained.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+25% BaseSharedExperience_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -1649,7 +1649,7 @@
           "Name": "Strawberry_Jam",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_RasberryJam.ITEM_RasberryJam'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Strawberry_Jam-ModifierName\", \"Strawberry Jam\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Strawberry_Jam-ModifierDescription\", \"Boosts stamina, increases experience gained and shared experience gained. | With Chef's Backpack: Max Stamina +156, XP +25%, BaseSharedExperience_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Strawberry_Jam-ModifierDescription\", \"Boosts stamina, increases experience gained and shared experience gained.\\n\\n— Chef\\'s Backpack (+25%) —\\n+156 Max Stamina\\n+25% XP\\n+12% BaseSharedExperience_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 125,
@@ -1676,7 +1676,7 @@
           "Name": "Shepherds_Roll",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_ShepherdsRoll.ITEM_ShepherdsRoll'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Shepherds_Roll-ModifierName\", \"Shepherd\\'s Roll\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Shepherds_Roll-ModifierDescription\", \"Boosts health, stamina, attack speed, health regeneration and projectile damage. | With Chef's Backpack: Max Health +188, Max Stamina +188, Health Regen +19%, BaseAttackSpeed_+% +19%, BaseProjectileDamage_+% +19%, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Shepherds_Roll-ModifierDescription\", \"Boosts health, stamina, attack speed, health regeneration and projectile damage.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+188 Max Stamina\\n+19% Health Regen\\n+19% BaseAttackSpeed_+%\\n+19% BaseProjectileDamage_+%\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -1703,7 +1703,7 @@
           "Name": "Savory_Roll",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_SavouryRoll.ITEM_SavouryRoll'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Savory_Roll-ModifierName\", \"Savory Roll\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Savory_Roll-ModifierDescription\", \"Big health boost, lifts stamina, reduces food consumption, boosts stamina regeneration and health regeneration. | With Chef's Backpack: Max Health +281, Max Stamina +94, Stamina Regen +19%, Health Regen +38%, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Savory_Roll-ModifierDescription\", \"Big health boost, lifts stamina, reduces food consumption, boosts stamina regeneration and health regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+281 Max Health\\n+94 Max Stamina\\n+19% Stamina Regen\\n+38% Health Regen\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 225,
@@ -1730,7 +1730,7 @@
           "Name": "Vegetable_Roll",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_VegetableRoll.ITEM_VegetableRoll'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Vegetable_Roll-ModifierName\", \"Vegetable Roll\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Vegetable_Roll-ModifierDescription\", \"Boosts health, stamina, health regeneration, exposure resistance and reduces oxygen consumption | With Chef's Backpack: Max Health +188, Max Stamina +188, Exposure Resist +19%, Health Regen +38%, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Vegetable_Roll-ModifierDescription\", \"Boosts health, stamina, health regeneration, exposure resistance and reduces oxygen consumption\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+188 Max Stamina\\n+19% Exposure Resist\\n+38% Health Regen\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -1760,7 +1760,7 @@
           "Name": "Fruit_Muffin",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FuitMuffin.ITEM_FuitMuffin'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Muffin-ModifierName\", \"Fruit Muffin\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Muffin-ModifierDescription\", \"Big boost to stamina and experience gained, reduces water consumption | With Chef's Backpack: Max Stamina +281, XP +44%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Muffin-ModifierDescription\", \"Big boost to stamina and experience gained, reduces water consumption\\n\\n— Chef\\'s Backpack (+25%) —\\n+281 Max Stamina\\n+44% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 225,
@@ -1787,7 +1787,7 @@
           "Name": "Fried_Fish_Chunks",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Fried_Fish_Chunks.ITEM_Fried_Fish_Chunks'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Fish_Chunks-ModifierName\", \"Fried Fish Chunks\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Fish_Chunks-ModifierDescription\", \"Boosts your health and health regeneration. | With Chef's Backpack: Max Health +94, Stamina Regen +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Fish_Chunks-ModifierDescription\", \"Boosts your health and health regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+12% Stamina Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -1813,7 +1813,7 @@
           "Name": "Fish_Chunk_Stew",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Fish_Chunk_Stew.ITEM_Fish_Chunk_Stew'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Chunk_Stew-ModifierName\", \"Fish Chunk Stew\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Chunk_Stew-ModifierDescription\", \"Boosts your health and stamina, stamina regeneration and melee damage, and reduces stamina consumption. | With Chef's Backpack: Max Health +188, Max Stamina +94, Stamina Regen +12%, BaseStaminaActionCost_+% -12%, Melee Damage +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Chunk_Stew-ModifierDescription\", \"Boosts your health and stamina, stamina regeneration and melee damage, and reduces stamina consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+94 Max Stamina\\n+12% Stamina Regen\\n-12% BaseStaminaActionCost_+%\\n+6% Melee Damage\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -1842,7 +1842,7 @@
           "Name": "Dried_Freshwater_Fillet",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Dried_Fishwater_Fish.ITEM_Dried_Fishwater_Fish'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Freshwater_Fillet-ModifierName\", \"Dried Freshwater Fillet\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Freshwater_Fillet-ModifierDescription\", \"Boosts health, stamina regeneration and health regeneration, and slows hunger | With Chef's Backpack: Max Health +94, Stamina Regen +19%, Health Regen +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Freshwater_Fillet-ModifierDescription\", \"Boosts health, stamina regeneration and health regeneration, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+19% Stamina Regen\\n+6% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -1870,7 +1870,7 @@
           "Name": "Dried_Saltwater_Fillet",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Dried_Saltwater_Fish.ITEM_Dried_Saltwater_Fish'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Saltwater_Fillet-ModifierName\", \"Dried Saltwater Fillet\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Saltwater_Fillet-ModifierDescription\", \"Boosts health, stamina regeneration and exposure resistance, and slows hunger | With Chef's Backpack: Max Health +94, Stamina Regen +19%, Exposure Resist +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Saltwater_Fillet-ModifierDescription\", \"Boosts health, stamina regeneration and exposure resistance, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+19% Stamina Regen\\n+6% Exposure Resist\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -1898,7 +1898,7 @@
           "Name": "Freshwater_Fillet_Curry",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Fish_Curry.ITEM_Fish_Curry'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Freshwater_Fillet_Curry-ModifierName\", \"Freshwater Fillet Curry\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Freshwater_Fillet_Curry-ModifierDescription\", \"Greatly boosts health, health regeneration and stamina regeneration. | With Chef's Backpack: Max Health +281, Health Regen +19%, Stamina Regen +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Freshwater_Fillet_Curry-ModifierDescription\", \"Greatly boosts health, health regeneration and stamina regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+281 Max Health\\n+19% Health Regen\\n+19% Stamina Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 225,
@@ -1925,7 +1925,7 @@
           "Name": "Saltwater_Fillet_Sashimi",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Fish_Sashimi.ITEM_Fish_Sashimi'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Saltwater_Fillet_Sashimi-ModifierName\", \"Saltwater Fillet Sashimi\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Saltwater_Fillet_Sashimi-ModifierDescription\", \"Boosts health, stamina, stamina regeneration, exposure resistance and projectile damage. | With Chef's Backpack: Max Health +94, Max Stamina +94, Stamina Regen +19%, Exposure Resist +6%, BaseProjectileDamage_+% +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Saltwater_Fillet_Sashimi-ModifierDescription\", \"Boosts health, stamina, stamina regeneration, exposure resistance and projectile damage.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+94 Max Stamina\\n+19% Stamina Regen\\n+6% Exposure Resist\\n+6% BaseProjectileDamage_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -1954,7 +1954,7 @@
           "Name": "Pickled_Freshwater_Fillet",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Fried_Pickled.ITEM_Fried_Pickled'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Pickled_Freshwater_Fillet-ModifierName\", \"Pickled Freshwater Fillet\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pickled_Freshwater_Fillet-ModifierDescription\", \"Boosts health, health regeneraiton and stamina regeneration, and shared experience gain. | With Chef's Backpack: Max Health +188, Stamina Regen +38%, Health Regen +12%, BaseSharedExperience_+% +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pickled_Freshwater_Fillet-ModifierDescription\", \"Boosts health, health regeneraiton and stamina regeneration, and shared experience gain.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+38% Stamina Regen\\n+12% Health Regen\\n+25% BaseSharedExperience_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -1979,7 +1979,7 @@
           "Name": "Crumbed_Saltwater_Fillet",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_CrumbedFishFillet.ITEM_CrumbedFishFillet'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Crumbed_Saltwater_Fillet-ModifierName\", \"Crumbed Saltwater Fillet\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crumbed_Saltwater_Fillet-ModifierDescription\", \"Boosts health and stamina, stamina regeneration, exposure resistance, and experience gain. | With Chef's Backpack: Max Health +188, Max Stamina +94, Stamina Regen +19%, Exposure Resist +6%, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crumbed_Saltwater_Fillet-ModifierDescription\", \"Boosts health and stamina, stamina regeneration, exposure resistance, and experience gain.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+94 Max Stamina\\n+19% Stamina Regen\\n+6% Exposure Resist\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -2008,7 +2008,7 @@
           "Name": "Fish_Fillet_Pie",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Fish_Pie.ITEM_Fish_Pie'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Fillet_Pie-ModifierName\", \"Fish Fillet Pie\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Fillet_Pie-ModifierDescription\", \"Greatly boosts health, stamina regeneration, exposure resistance, and experience gain. | With Chef's Backpack: Max Health +281, Health Regen +6%, Stamina Regen +38%, Exposure Resist +6%, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Fillet_Pie-ModifierDescription\", \"Greatly boosts health, stamina regeneration, exposure resistance, and experience gain.\\n\\n— Chef\\'s Backpack (+25%) —\\n+281 Max Health\\n+6% Health Regen\\n+38% Stamina Regen\\n+6% Exposure Resist\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 225,
@@ -2037,7 +2037,7 @@
           "Name": "Grilled_Freshwater_Fillet",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Grilled_Freshwater_Fish.ITEM_Grilled_Freshwater_Fish'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Grilled_Freshwater_Fillet-ModifierName\", \"Grilled Freshwater Fillet\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Grilled_Freshwater_Fillet-ModifierDescription\", \"Boosts your health and health regeneration. | With Chef's Backpack: Max Health +94, Stamina Regen +19%, Health Regen +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Grilled_Freshwater_Fillet-ModifierDescription\", \"Boosts your health and health regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+19% Stamina Regen\\n+6% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -2064,7 +2064,7 @@
           "Name": "Grilled_Saltwater_Fillet",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Grilled_Saltwater_Fish.ITEM_Grilled_Saltwater_Fish'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Grilled_Saltwater_Fillet-ModifierName\", \"Grilled Saltwater Fillet\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Grilled_Saltwater_Fillet-ModifierDescription\", \"Boosts your health and health regeneration. | With Chef's Backpack: Max Health +94, Stamina Regen +19%, Exposure Resist +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Grilled_Saltwater_Fillet-ModifierDescription\", \"Boosts your health and health regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+19% Stamina Regen\\n+6% Exposure Resist\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -2091,7 +2091,7 @@
           "Name": "Seed_Bread",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Seed_Bread.T_ITEM_Seed_Bread'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Seed_Bread-ModifierName\", \"Seed Bread\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Seed_Bread-ModifierDescription\", \"Boosts stamina considerably, reduces stamina cost of tool actions. | With Chef's Backpack: Max Stamina +188, BaseToolStaminaActionCost_+% -25%, XP +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Seed_Bread-ModifierDescription\", \"Boosts stamina considerably, reduces stamina cost of tool actions.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n-25% BaseToolStaminaActionCost_+%\\n+19% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -2118,7 +2118,7 @@
           "Name": "Berry_Bar",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Seed_Bar.T_ITEM_Seed_Bar'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Berry_Bar-ModifierName\", \"Berry & Seed Bar\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Berry_Bar-ModifierDescription\", \"Boosts stamina, reduces stamina cost of tool actions and water consumption. | With Chef's Backpack: Max Stamina +94, BaseToolStaminaActionCost_+% -12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Berry_Bar-ModifierDescription\", \"Boosts stamina, reduces stamina cost of tool actions and water consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n-12% BaseToolStaminaActionCost_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -2145,7 +2145,7 @@
           "Name": "Seed_Crackers",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Seed_Crackers.T_ITEM_Seed_Crackers'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Seed_Crackers-ModifierName\", \"Seed Cracker\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Seed_Crackers-ModifierDescription\", \"Boosts stamina, reduces stamina cost of tool actions. | With Chef's Backpack: Max Stamina +125, BaseToolStaminaActionCost_+% -19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Seed_Crackers-ModifierDescription\", \"Boosts stamina, reduces stamina cost of tool actions.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n-19% BaseToolStaminaActionCost_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -2171,7 +2171,7 @@
           "Name": "Smoked_Giant_Steak",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Giant_Steak_Smoked.T_ITEM_Giant_Steak_Smoked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Giant_Steak-ModifierName\", \"Melon Smoked Giant Steak\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Giant_Steak-ModifierDescription\", \"Boosts health and health regen, and slows hunger | With Chef's Backpack: Max Health +156, Max Stamina +94, Health Regen +125%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Giant_Steak-ModifierDescription\", \"Boosts health and health regen, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+156 Max Health\\n+94 Max Stamina\\n+125% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 125,
@@ -2200,7 +2200,7 @@
           "Name": "Smoked_Fatty_Tbone",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fatty_TBone_Smoked.T_ITEM_Fatty_TBone_Smoked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Fatty_Tbone-ModifierName\", \"Coffee Smoked Fatty Tbone\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Fatty_Tbone-ModifierDescription\", \"Boosts health, meat yield from animals, and slows hunger | With Chef's Backpack: Max Health +219, BaseMeatHarvestedFromAnimals_+% +62%, Health Regen +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Fatty_Tbone-ModifierDescription\", \"Boosts health, meat yield from animals, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+219 Max Health\\n+62% BaseMeatHarvestedFromAnimals_+%\\n+25% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 175,
@@ -2228,7 +2228,7 @@
           "Name": "Smoked_Gamey_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Gamey_Meat_Smoked.T_ITEM_Gamey_Meat_Smoked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Gamey_Meat-ModifierName\", \"Gorse Smoked Gamey Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Gamey_Meat-ModifierDescription\", \"Boosts health, melee damage, and slows hunger | With Chef's Backpack: Max Health +125, Max Stamina +125, Melee Damage +31%, Health Regen +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Gamey_Meat-ModifierDescription\", \"Boosts health, melee damage, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Health\\n+125 Max Stamina\\n+31% Melee Damage\\n+25% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 100,
@@ -2258,7 +2258,7 @@
           "Name": "Smoked_Stringy_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Stringy_Meat_Smoked.T_ITEM_Stringy_Meat_Smoked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Stringy_Meat-ModifierName\", \"Stringy Jerky\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Stringy_Meat-ModifierDescription\", \"Boosts stamina, attack speed, and slows hunger | With Chef's Backpack: Max Health +94, Max Stamina +156, BaseAttackSpeed_+% +31%, Health Regen +62%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Stringy_Meat-ModifierDescription\", \"Boosts stamina, attack speed, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+156 Max Stamina\\n+31% BaseAttackSpeed_+%\\n+62% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -2287,7 +2287,7 @@
           "Name": "Smoked_Soft_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Soft_Meat_Smoked.T_ITEM_Soft_Meat_Smoked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Soft_Meat-ModifierName\", \"Cocoa Smoked Soft Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Soft_Meat-ModifierDescription\", \"Boosts stamina, stamina regeneration, and slows hunger | With Chef's Backpack: Max Stamina +219, Stamina Regen +125%, Health Regen +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Soft_Meat-ModifierDescription\", \"Boosts stamina, stamina regeneration, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+219 Max Stamina\\n+125% Stamina Regen\\n+25% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 175,
@@ -2315,7 +2315,7 @@
           "Name": "Smoked_White_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_White_Meat_Smoked.T_ITEM_White_Meat_Smoked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_White_Meat-ModifierName\", \"White Jerky\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_White_Meat-ModifierDescription\", \"Boosts stamina, exposure resistance, and slows hunger | With Chef's Backpack: Max Health +156, Max Stamina +94, Exposure Resist +19%, Health Regen +62%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_White_Meat-ModifierDescription\", \"Boosts stamina, exposure resistance, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+156 Max Health\\n+94 Max Stamina\\n+19% Exposure Resist\\n+62% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 125,
@@ -2344,7 +2344,7 @@
           "Name": "Smoked_Freshwater_Fillet",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Freshwater_Fillet_Smoked.T_ITEM_Freshwater_Fillet_Smoked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Freshwater_Fillet-ModifierName\", \"Tea Smoked Freshwater Fillet\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Freshwater_Fillet-ModifierDescription\", \"Boosts health, stamina regeneration and health regeneration, and slows hunger | With Chef's Backpack: Max Health +94, Max Stamina +94, Stamina Regen +31%, Health Regen +62%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Freshwater_Fillet-ModifierDescription\", \"Boosts health, stamina regeneration and health regeneration, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+94 Max Stamina\\n+31% Stamina Regen\\n+62% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -2373,7 +2373,7 @@
           "Name": "Smoked_Saltwater_Fillet",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Saltwater_Fillet_Smoked.T_ITEM_Saltwater_Fillet_Smoked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Saltwater_Fillet-ModifierName\", \"Berry Smoked Saltwater Fillet\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Saltwater_Fillet-ModifierDescription\", \"Boosts health, stamina regeneration and exposure resistance, and slows hunger | With Chef's Backpack: Max Health +94, Max Stamina +94, Stamina Regen +31%, Exposure Resist +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Saltwater_Fillet-ModifierDescription\", \"Boosts health, stamina regeneration and exposure resistance, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+94 Max Stamina\\n+31% Stamina Regen\\n+6% Exposure Resist\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -2403,7 +2403,7 @@
           "Name": "Dried_Meat_Generic",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Generic_Meat_Dried.T_ITEM_Generic_Meat_Dried'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Meat_Generic-ModifierName\", \"Basic Dried Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Meat_Generic-ModifierDescription\", \"Boosts health, stamina regeneration and exposure resistance, and slows hunger | With Chef's Backpack: Max Health +94, Health Regen +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Meat_Generic-ModifierDescription\", \"Boosts health, stamina regeneration and exposure resistance, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+25% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -2430,7 +2430,7 @@
           "Name": "Smoked_Meat_Generic",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Generic_Meat_Smoked.T_ITEM_Generic_Meat_Smoked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Meat_Generic-ModifierName\", \"Plain Jerky\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Meat_Generic-ModifierDescription\", \"Boosts health and health regeneration, and slows hunger | With Chef's Backpack: Max Health +188, Health Regen +75%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Meat_Generic-ModifierDescription\", \"Boosts health and health regeneration, and slows hunger\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+75% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -2457,7 +2457,7 @@
           "Name": "Honey_Jar",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Honey_Jar.T_ITEM_Honey_Jar'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Jar-ModifierName\", \"Jarred Honey\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Jar-ModifierDescription\", \"Boosts Stamina, Food Modifier Duration and Shared Experience. | With Chef's Backpack: Max Stamina +156, BaseFoodModifierDuration_+% +25%, BaseSharedExperience_+% +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Jar-ModifierDescription\", \"Boosts Stamina, Food Modifier Duration and Shared Experience.\\n\\n— Chef\\'s Backpack (+25%) —\\n+156 Max Stamina\\n+25% BaseFoodModifierDuration_+%\\n+25% BaseSharedExperience_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 125,
@@ -2481,7 +2481,7 @@
           "Name": "Honey",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Honey.T_ITEM_Honey'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Honey-ModifierName\", \"Honey\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey-ModifierDescription\", \"Small Stamina and Food Modifier Duration Boost | With Chef's Backpack: Max Stamina +62, BaseFoodModifierDuration_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey-ModifierDescription\", \"Small Stamina and Food Modifier Duration Boost\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Stamina\\n+12% BaseFoodModifierDuration_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 50,
@@ -2504,7 +2504,7 @@
           "Name": "Smoked_Bacon",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_SmokedBacon.ITEM_SmokedBacon'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Bacon-ModifierName\", \"Honey Smoked Bacon\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Bacon-ModifierDescription\", \"Boosts Stamina, Health Regen, Experience. Also reduces food consumption. | With Chef's Backpack: Max Stamina +94, Max Health +94, Health Regen +25%, XP +19%, BaseFoodModifierDuration_+% +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Bacon-ModifierDescription\", \"Boosts Stamina, Health Regen, Experience. Also reduces food consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+94 Max Health\\n+25% Health Regen\\n+19% XP\\n+25% BaseFoodModifierDuration_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -2534,7 +2534,7 @@
           "Name": "Honey_Pastry",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Honey_Glazed_Pastry.T_ITEM_Honey_Glazed_Pastry'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Pastry-ModifierName\", \"Honey Glazed Pastry\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Pastry-ModifierDescription\", \"Increases Experience, and Food Modifier Duration. | With Chef's Backpack: Max Stamina +188, BaseFoodModifierDuration_+% +44%, XP +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Pastry-ModifierDescription\", \"Increases Experience, and Food Modifier Duration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+44% BaseFoodModifierDuration_+%\\n+19% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -2558,7 +2558,7 @@
           "Name": "Honey_Mead",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Honey_Mead.T_ITEM_Honey_Mead'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Mead-ModifierName\", \"Honey Mead\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Mead-ModifierDescription\", \"Boosts max stamina and food modifier duration. | With Chef's Backpack: Max Stamina +156, Stamina Regen +125%, BaseFoodModifierDuration_+% +38%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Mead-ModifierDescription\", \"Boosts max stamina and food modifier duration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+156 Max Stamina\\n+125% Stamina Regen\\n+38% BaseFoodModifierDuration_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 125,
@@ -2582,7 +2582,7 @@
           "Name": "Honey_Bar",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Honey_Bar.T_ITEM_Honey_Bar'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Bar-ModifierName\", \"Honeycomb Bar\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Bar-ModifierDescription\", \"Boosts stamina, reduces stamina cost of tool actions and increases food modifiers | With Chef's Backpack: Max Stamina +94, BaseToolStaminaActionCost_+% -12%, BaseFoodModifierDuration_+% +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Bar-ModifierDescription\", \"Boosts stamina, reduces stamina cost of tool actions and increases food modifiers\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n-12% BaseToolStaminaActionCost_+%\\n+19% BaseFoodModifierDuration_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -2609,7 +2609,7 @@
           "Name": "Cooked_Eggs",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fried_Egg.T_ITEM_Fried_Egg'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Eggs-ModifierName\", \"Cooked Egg\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Eggs-ModifierDescription\", \"Boosts your health and grants a chance of additional stone when mining. | With Chef's Backpack: Max Health +94, Secondary Resource Chance +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Eggs-ModifierDescription\", \"Boosts your health and grants a chance of additional stone when mining.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+12% Secondary Resource\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -2632,7 +2632,7 @@
           "Name": "Mushroom_Omlette",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Mushroom_Omlette.T_ITEM_Mushroom_Omlette'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Mushroom_Omlette-ModifierName\", \"Mushroom Omlette\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Mushroom_Omlette-ModifierDescription\", \"Boosts your health, grants a chance of additional stone when mining and stamina regeneration.  | With Chef's Backpack: Max Health +188, Secondary Resource Chance +19%, Stamina Regen +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Mushroom_Omlette-ModifierDescription\", \"Boosts your health, grants a chance of additional stone when mining and stamina regeneration. \\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+19% Secondary Resource\\n+12% Stamina Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -2656,7 +2656,7 @@
           "Name": "Egg_Salad",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Tomato_Eggs.T_ITEM_Tomato_Eggs'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Egg_Salad-ModifierName\", \"Tomato & Egg Bowl\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Egg_Salad-ModifierDescription\", \"Boosts your health and stamina, grants a chance of additional stone when mining, and increased projectile damage. | With Chef's Backpack: Max Health +94, Max Stamina +94, Secondary Resource Chance +19%, BaseProjectileDamage_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Egg_Salad-ModifierDescription\", \"Boosts your health and stamina, grants a chance of additional stone when mining, and increased projectile damage.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+94 Max Stamina\\n+19% Secondary Resource\\n+12% BaseProjectileDamage_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -2681,7 +2681,7 @@
           "Name": "Pickled_Eggs",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Pickled_Eggs.T_ITEM_Pickled_Eggs'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Pickled_Eggs-ModifierName\", \"Pickled Eggs\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pickled_Eggs-ModifierDescription\", \"Boosts your stamina, grants a chance of additional stone when mining and increases shared experience gain. | With Chef's Backpack: Max Stamina +188, Secondary Resource Chance +25%, BaseSharedExperience_+% +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pickled_Eggs-ModifierDescription\", \"Boosts your stamina, grants a chance of additional stone when mining and increases shared experience gain.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+25% Secondary Resource\\n+25% BaseSharedExperience_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -2705,7 +2705,7 @@
           "Name": "Big_Breakfast",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Big_Breakfast.T_ITEM_Big_Breakfast'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Big_Breakfast-ModifierName\", \"Big Breakfast\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Big_Breakfast-ModifierDescription\", \"Greatly boosts your health, boosts your stamina and health regeneration, grants a chance of additional stone when mining and reduces your food consumption. | With Chef's Backpack: Max Health +281, Max Stamina +94, Secondary Resource Chance +31%, Health Regen +19%, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Big_Breakfast-ModifierDescription\", \"Greatly boosts your health, boosts your stamina and health regeneration, grants a chance of additional stone when mining and reduces your food consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+281 Max Health\\n+94 Max Stamina\\n+31% Secondary Resource\\n+19% Health Regen\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 225,
@@ -2733,7 +2733,7 @@
           "Name": "Scrambled_Eggs",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Scrambled_Eggs.T_ITEM_Scrambled_Eggs'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Scrambled_Eggs-ModifierName\", \"Scrambled Eggs\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Scrambled_Eggs-ModifierDescription\", \"Boosts your health and stamina, grants a chance of additional stone when mining, and increases experience gained. | With Chef's Backpack: Max Health +62, Max Stamina +125, Secondary Resource Chance +31%, XP +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Scrambled_Eggs-ModifierDescription\", \"Boosts your health and stamina, grants a chance of additional stone when mining, and increases experience gained.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Health\\n+125 Max Stamina\\n+31% Secondary Resource\\n+19% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 50,
@@ -2758,7 +2758,7 @@
           "Name": "Smashed_Avocado",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Smashed_Avocado.T_ITEM_Smashed_Avocado'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smashed_Avocado-ModifierName\", \"Smashed Avocado\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smashed_Avocado-ModifierDescription\", \"Boosts your stamina, reduces food consumption and increases experience gained. | With Chef's Backpack: Max Stamina +188, XP +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smashed_Avocado-ModifierDescription\", \"Boosts your stamina, reduces food consumption and increases experience gained.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+19% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -2785,7 +2785,7 @@
           "Name": "Grilled_Chicken",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Grilled_Chicken.T_ITEM_Grilled_Chicken'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Grilled_Chicken-ModifierName\", \"Chargrilled Chicken\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Grilled_Chicken-ModifierDescription\", \"Boosts your health and exposure resistance, and grants a chance of additional stone when mining. | With Chef's Backpack: Max Health +188, Max Stamina +125, Exposure Resist +12%, Secondary Resource Chance +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Grilled_Chicken-ModifierDescription\", \"Boosts your health and exposure resistance, and grants a chance of additional stone when mining.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+125 Max Stamina\\n+12% Exposure Resist\\n+12% Secondary Resource\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -2810,7 +2810,7 @@
           "Name": "Fried_Chicken",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fried_Chicken.T_ITEM_Fried_Chicken'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Chicken-ModifierName\", \"Fried Chicken\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Chicken-ModifierDescription\", \"Boosts your health and exposure resistance, and grants a chance of additional stone when mining. | With Chef's Backpack: Max Health +250, Max Stamina +188, Exposure Resist +19%, Secondary Resource Chance +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Chicken-ModifierDescription\", \"Boosts your health and exposure resistance, and grants a chance of additional stone when mining.\\n\\n— Chef\\'s Backpack (+25%) —\\n+250 Max Health\\n+188 Max Stamina\\n+19% Exposure Resist\\n+19% Secondary Resource\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 200,
@@ -2835,7 +2835,7 @@
           "Name": "Roast_Chicken",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roast_Chicken.T_ITEM_Roast_Chicken'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Chicken-ModifierName\", \"Roast Chicken\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Chicken-ModifierDescription\", \"Boosts your health and exposure resistance, and grants a chance of additional stone when mining. | With Chef's Backpack: Max Health +312, Max Stamina +250, Exposure Resist +31%, Secondary Resource Chance +31%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Chicken-ModifierDescription\", \"Boosts your health and exposure resistance, and grants a chance of additional stone when mining.\\n\\n— Chef\\'s Backpack (+25%) —\\n+312 Max Health\\n+250 Max Stamina\\n+31% Exposure Resist\\n+31% Secondary Resource\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 250,
@@ -2860,7 +2860,7 @@
           "Name": "Kiwi_Fruit",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Kiwi_Fruit.ITEM_Kiwi_Fruit'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwi_Fruit-ModifierName\", \"Kiwi Fruit\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwi_Fruit-ModifierDescription\", \"Provides Stamina and Cave Sickness Resistance. | With Chef's Backpack: Max Stamina +62, BasePneumoniaResistance_% +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwi_Fruit-ModifierDescription\", \"Provides Stamina and Cave Sickness Resistance.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Stamina\\n+6% BasePneumoniaResistance_%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 50,
@@ -2886,7 +2886,7 @@
           "Name": "Dried_Kiwifruit",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Kiwifruit_Chips.T_ITEM_Kiwifruit_Chips'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Kiwifruit-ModifierName\", \"Dried Kiwifruit Chips\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Kiwifruit-ModifierDescription\", \"Provides Stamina and Cave Sickness Resistance. | With Chef's Backpack: Max Stamina +94, BasePneumoniaResistance_% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Kiwifruit-ModifierDescription\", \"Provides Stamina and Cave Sickness Resistance.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+12% BasePneumoniaResistance_%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -2913,7 +2913,7 @@
           "Name": "Kiwifruit_Jam",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Kiwifruit_Jam.T_ITEM_Kiwifruit_Jam'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwifruit_Jam-ModifierName\", \"Kiwifruit Jam\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwifruit_Jam-ModifierDescription\", \"Provides a large Stamina boost, extra experience and Cave Sickness Resistance. | With Chef's Backpack: Max Stamina +156, XP +25%, BasePneumoniaResistance_% +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwifruit_Jam-ModifierDescription\", \"Provides a large Stamina boost, extra experience and Cave Sickness Resistance.\\n\\n— Chef\\'s Backpack (+25%) —\\n+156 Max Stamina\\n+25% XP\\n+25% BasePneumoniaResistance_%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 125,
@@ -2940,7 +2940,7 @@
           "Name": "Kiwifruit_Sorbet",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Kiwifruit_Sorbet.T_ITEM_Kiwifruit_Sorbet'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwifruit_Sorbet-ModifierName\", \"Kiwifruit Sorbet\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwifruit_Sorbet-ModifierDescription\", \"Provides a large Stamina boost, extra experience and large Cave Sickness Resistance. | With Chef's Backpack: Max Stamina +188, XP +38%, BasePneumoniaResistance_% +56%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwifruit_Sorbet-ModifierDescription\", \"Provides a large Stamina boost, extra experience and large Cave Sickness Resistance.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+38% XP\\n+56% BasePneumoniaResistance_%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -2967,7 +2967,7 @@
           "Name": "Fruit_Snack_Pack",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Snack_Pack.T_ITEM_Snack_Pack'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Snack_Pack-ModifierName\", \"Fruit Snack Pack\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Snack_Pack-ModifierDescription\", \"A collect of fruit which provides a variety of buffs. | With Chef's Backpack: Max Health +94, Max Stamina +94, BasePneumoniaResistance_% +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Snack_Pack-ModifierDescription\", \"A collect of fruit which provides a variety of buffs.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+94 Max Stamina\\n+19% BasePneumoniaResistance_%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -2995,7 +2995,7 @@
           "Name": "Fruit_Smoothie",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Smoothie-ModifierName\", \"Fruit Smoothie\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Smoothie-ModifierDescription\", \"Refreshing tangy drink. | With Chef's Backpack: XP +12%, BasePneumoniaResistance_% +38%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Smoothie-ModifierDescription\", \"Refreshing tangy drink.\\n\\n— Chef\\'s Backpack (+25%) —\\n+12% XP\\n+38% BasePneumoniaResistance_%\")",
           "GrantedStats": {
             "(Value=\"BaseExperience_+%\")": 10,
             "(Value=\"BasePneumoniaResistance_%\")": 30
@@ -3020,7 +3020,7 @@
           "Name": "Choc_Chip_Cookie",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Choc_Chip_Cookie.T_ITEM_Choc_Chip_Cookie'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Choc_Chip_Cookie-ModifierName\", \"Chocolate Chip Cookie\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Choc_Chip_Cookie-ModifierDescription\", \"Provides buffs good for bow combat. | With Chef's Backpack: Max Stamina +219, BaseChargeSpeed_+% +38%, Reload Speed +19%, Secondary Resource Chance +12%, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Choc_Chip_Cookie-ModifierDescription\", \"Provides buffs good for bow combat.\\n\\n— Chef\\'s Backpack (+25%) —\\n+219 Max Stamina\\n+38% BaseChargeSpeed_+%\\n+19% Reload Speed\\n+12% Secondary Resource\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 175,
@@ -3047,7 +3047,7 @@
           "Name": "Coconut_Cookie",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Coconut_Cookie.T_ITEM_Coconut_Cookie'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Cookie-ModifierName\", \"Chewy Coconut Cookie\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Cookie-ModifierDescription\", \"Provides buffs good for firearm combat. | With Chef's Backpack: Max Stamina +219, BaseChargeSpeed_+% +19%, Reload Speed +38%, Crafting Speed +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Cookie-ModifierDescription\", \"Provides buffs good for firearm combat.\\n\\n— Chef\\'s Backpack (+25%) —\\n+219 Max Stamina\\n+19% BaseChargeSpeed_+%\\n+38% Reload Speed\\n+12% Crafting Speed\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 175,
@@ -3073,7 +3073,7 @@
           "Name": "Strawberry_Candy",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Strawberry_Candy.T_ITEM_Strawberry_Candy'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Strawberry_Candy-ModifierName\", \"Strawberry Hard Candy\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Strawberry_Candy-ModifierDescription\", \"Provides a quick movement speed boost. | With Chef's Backpack: Move Speed +31%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Strawberry_Candy-ModifierDescription\", \"Provides a quick movement speed boost.\\n\\n— Chef\\'s Backpack (+25%) —\\n+31% Move Speed\")",
           "GrantedStats": {
             "(Value=\"BaseMovementSpeed_+%\")": 25
           },
@@ -3094,7 +3094,7 @@
           "Name": "Watermelon_Lollypop",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Watermelon_Lollypop.T_ITEM_Watermelon_Lollypop'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Watermelon_Lollypop-ModifierName\", \"Watermelon Lollypop\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Watermelon_Lollypop-ModifierDescription\", \"Provides a quick burst of energy that reduces movement speed penalties. | With Chef's Backpack: BaseOverencumberedPenalty_+% -62%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Watermelon_Lollypop-ModifierDescription\", \"Provides a quick burst of energy that reduces movement speed penalties.\\n\\n— Chef\\'s Backpack (+25%) —\\n-62% BaseOverencumberedPenalty_+%\")",
           "GrantedStats": {
             "(Value=\"BaseOverencumberedPenalty_+%\")": -50
           },
@@ -3115,7 +3115,7 @@
           "Name": "Energy_Bar",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Energy_Bar.T_ITEM_Energy_Bar'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Energy_Bar-ModifierName\", \"Energy Bar\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Energy_Bar-ModifierDescription\", \"Provides buffs good for being on the go. | With Chef's Backpack: Max Stamina +125, BaseToolStaminaActionCost_+% -12%, BaseChargeSpeed_+% +12%, Reload Speed +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Energy_Bar-ModifierDescription\", \"Provides buffs good for being on the go.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n-12% BaseToolStaminaActionCost_+%\\n+12% BaseChargeSpeed_+%\\n+12% Reload Speed\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -3141,7 +3141,7 @@
           "Name": "Caramel_Fruit_Tart",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Caramel_Fruit_Tart.T_ITEM_Caramel_Fruit_Tart'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Caramel_Fruit_Tart-ModifierName\", \"Caramel Berry Tart\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Caramel_Fruit_Tart-ModifierDescription\", \"Good all round adventuring and combat. | With Chef's Backpack: Max Stamina +188, BaseChargeSpeed_+% +19%, Reload Speed +19%, BasePneumoniaResistance_% +19%, Secondary Resource Chance +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Caramel_Fruit_Tart-ModifierDescription\", \"Good all round adventuring and combat.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+19% BaseChargeSpeed_+%\\n+19% Reload Speed\\n+19% BasePneumoniaResistance_%\\n+12% Secondary Resource\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -3168,7 +3168,7 @@
           "Name": "Salted_Caramel_Pastry",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Salted_Caramel_Pastry.T_ITEM_Salted_Caramel_Pastry'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Salted_Caramel_Pastry-ModifierName\", \"Salted Caramel Pastry\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Salted_Caramel_Pastry-ModifierDescription\", \"Provides buffs focused on ranged combat | With Chef's Backpack: Max Stamina +188, BaseChargeSpeed_+% +31%, Reload Speed +31%, XP +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Salted_Caramel_Pastry-ModifierDescription\", \"Provides buffs focused on ranged combat\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Stamina\\n+31% BaseChargeSpeed_+%\\n+31% Reload Speed\\n+19% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 150,
@@ -3193,7 +3193,7 @@
           "Name": "Chocolate_Cake_Piece",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Chocolate_Cake_Piece.T_ITEM_Chocolate_Cake_Piece'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Chocolate_Cake_Piece-ModifierName\", \"Chocolate Cake Piece\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Chocolate_Cake_Piece-ModifierDescription\", \"A decadent cake, good for health and regen. | With Chef's Backpack: Max Health +375, Max Stamina +250, XP +31%, Stamina Regen +250%, Health Regen +250%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Chocolate_Cake_Piece-ModifierDescription\", \"A decadent cake, good for health and regen.\\n\\n— Chef\\'s Backpack (+25%) —\\n+375 Max Health\\n+250 Max Stamina\\n+31% XP\\n+250% Stamina Regen\\n+250% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 300,
@@ -3220,7 +3220,7 @@
           "Name": "Carrot_Cake_Piece",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Carrot_Cake_Piece.T_ITEM_Carrot_Cake_Piece'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Carrot_Cake_Piece-ModifierName\", \"Carrot Cake Piece\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Carrot_Cake_Piece-ModifierDescription\", \"A rich cake, good for ranged combat. | With Chef's Backpack: Max Health +125, Max Stamina +125, XP +31%, BaseChargeSpeed_+% +38%, Reload Speed +38%, Health Regen +62%, BaseProjectileDamage_+% +38%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Carrot_Cake_Piece-ModifierDescription\", \"A rich cake, good for ranged combat.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Health\\n+125 Max Stamina\\n+31% XP\\n+38% BaseChargeSpeed_+%\\n+38% Reload Speed\\n+62% Health Regen\\n+38% BaseProjectileDamage_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 100,
@@ -3248,7 +3248,7 @@
           "Name": "Coconut_Cake_Piece",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Coconut_Cake_Piece.T_ITEM_Coconut_Cake_Piece'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Cake_Piece-ModifierName\", \"Coconut Cake Piece\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Cake_Piece-ModifierDescription\", \"A light cake good for crafting and using tools.  | With Chef's Backpack: Max Health +312, Max Stamina +312, XP +31%, BaseToolStaminaActionCost_+% -50%, Health Regen +62%, Crafting Speed +62%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Cake_Piece-ModifierDescription\", \"A light cake good for crafting and using tools. \\n\\n— Chef\\'s Backpack (+25%) —\\n+312 Max Health\\n+312 Max Stamina\\n+31% XP\\n-50% BaseToolStaminaActionCost_+%\\n+62% Health Regen\\n+62% Crafting Speed\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 250,
@@ -3275,7 +3275,7 @@
           "Name": "Cheese",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cheese.T_ITEM_Cheese'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese-ModifierName\", \"Cheese\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese-ModifierDescription\", \"Provides a Health Boost. | With Chef's Backpack: Max Health +125, BaseSharedExperience_+% +12%, Health Regen +31%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese-ModifierDescription\", \"Provides a Health Boost.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Health\\n+12% BaseSharedExperience_+%\\n+31% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 100,
@@ -3299,7 +3299,7 @@
           "Name": "Milk",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Resource_Milk.T_ICON_Resource_Milk'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Milk-ModifierName\", \"Milk\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Milk-ModifierDescription\", \"Gives you strong bones. | With Chef's Backpack: BaseSharedExperience_+% +12%, BaseFallDamageResistance_% +12%, Stamina Regen +50%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Milk-ModifierDescription\", \"Gives you strong bones.\\n\\n— Chef\\'s Backpack (+25%) —\\n+12% BaseSharedExperience_+%\\n+12% BaseFallDamageResistance_%\\n+50% Stamina Regen\")",
           "GrantedStats": {
             "(Value=\"BaseSharedExperience_+%\")": 10,
             "(Value=\"BaseFallDamageResistance_%\")": 10,
@@ -3322,7 +3322,7 @@
           "Name": "Cheese_Roll",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cheese_Roll.T_ITEM_Cheese_Roll'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese_Roll-ModifierName\", \"Cheese Roll\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese_Roll-ModifierDescription\", \"Provides a boost to health, stamina, health regeneration, stamina regeneration and experience gained and granted to allies.  | With Chef's Backpack: Max Health +188, Max Stamina +156, BaseSharedExperience_+% +12%, XP +12%, Health Regen +31%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese_Roll-ModifierDescription\", \"Provides a boost to health, stamina, health regeneration, stamina regeneration and experience gained and granted to allies. \\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+156 Max Stamina\\n+12% BaseSharedExperience_+%\\n+12% XP\\n+31% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -3349,7 +3349,7 @@
           "Name": "Cheese_Pizza",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cheese_Pizza.T_ITEM_Cheese_Pizza'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese_Pizza-ModifierName\", \"Cheese Pizza\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese_Pizza-ModifierDescription\", \"Provides a boost to health, stamina, stamina regeneration and experience gained and granted to allies.  | With Chef's Backpack: Max Health +156, Max Stamina +94, BaseSharedExperience_+% +12%, XP +6%, Stamina Regen +62%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese_Pizza-ModifierDescription\", \"Provides a boost to health, stamina, stamina regeneration and experience gained and granted to allies. \\n\\n— Chef\\'s Backpack (+25%) —\\n+156 Max Health\\n+94 Max Stamina\\n+12% BaseSharedExperience_+%\\n+6% XP\\n+62% Stamina Regen\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 125,
@@ -3375,7 +3375,7 @@
           "Name": "Pavlova",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Pavlova.T_ITEM_Pavlova'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Pavlova-ModifierName\", \"Pavlova\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pavlova-ModifierDescription\", \"Provides a boost to health, stamina and ranged combat. Grants resistance to cave sickness and a chance to gain extra stone while mining. | With Chef's Backpack: Max Health +156, Max Stamina +94, Secondary Resource Chance +25%, BasePneumoniaResistance_% +25%, Reload Speed +12%, BaseChargeSpeed_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pavlova-ModifierDescription\", \"Provides a boost to health, stamina and ranged combat. Grants resistance to cave sickness and a chance to gain extra stone while mining.\\n\\n— Chef\\'s Backpack (+25%) —\\n+156 Max Health\\n+94 Max Stamina\\n+25% Secondary Resource\\n+25% BasePneumoniaResistance_%\\n+12% Reload Speed\\n+12% BaseChargeSpeed_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 125,
@@ -3402,7 +3402,7 @@
           "Name": "Strawberries_And_Cream",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_BerriesAndCream.T_ITEM_BerriesAndCream'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Strawberries_And_Cream-ModifierName\", \"Strawberries and Cream\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Strawberries_And_Cream-ModifierDescription\", \"Provides a boost to health and stamina, and a significant boost to experience gain. | With Chef's Backpack: Max Health +62, Max Stamina +125, XP +38%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Strawberries_And_Cream-ModifierDescription\", \"Provides a boost to health and stamina, and a significant boost to experience gain.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Health\\n+125 Max Stamina\\n+38% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 50,
@@ -3426,7 +3426,7 @@
           "Name": "Bacon_Sandwich",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Bacon_Sandwich.T_ITEM_Bacon_Sandwich'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Bacon_Sandwich-ModifierName\", \"Bacon Butty\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Bacon_Sandwich-ModifierDescription\", \"Provides a boost to health, stamina, health regeneration, experience gained and critical damage. | With Chef's Backpack: Max Health +188, Max Stamina +156, Health Regen +31%, XP +31%, BaseCriticalDamage_+% +31%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Bacon_Sandwich-ModifierDescription\", \"Provides a boost to health, stamina, health regeneration, experience gained and critical damage.\\n\\n— Chef\\'s Backpack (+25%) —\\n+188 Max Health\\n+156 Max Stamina\\n+31% Health Regen\\n+31% XP\\n+31% BaseCriticalDamage_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -3452,7 +3452,7 @@
           "Name": "Banana",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Banana.T_ITEM_Banana'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Banana-ModifierName\", \"Banana\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Banana-ModifierDescription\", \"Boosts stamina for a short time. | With Chef's Backpack: Max Stamina +125\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Banana-ModifierDescription\", \"Boosts stamina for a short time.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -3478,7 +3478,7 @@
           "Name": "Banana_Bread",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Banana_Bread.T_ITEM_Banana_Bread'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Banana_Bread-ModifierName\", \"Banana Bread\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Banana_Bread-ModifierDescription\", \"Boosts Health, Stamina and Experience. Decreases Food Consumption. | With Chef's Backpack: Max Health +250, Health Regen +62%, Max Stamina +250, Stamina Regen +62%, BaseStaminaRegenDelay_+% -62%, XP +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Banana_Bread-ModifierDescription\", \"Boosts Health, Stamina and Experience. Decreases Food Consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+250 Max Health\\n+62% Health Regen\\n+250 Max Stamina\\n+62% Stamina Regen\\n-62% BaseStaminaRegenDelay_+%\\n+12% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 200,
@@ -3509,7 +3509,7 @@
           "Name": "Cooked_Onion",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cooked_Onion.T_ITEM_Cooked_Onion'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Onion-ModifierName\", \"Grilled Onion\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Onion-ModifierDescription\", \"Increases Harvesting Rewards and Threat Against Animals. Decreases Food Consumption. | With Chef's Backpack: Max Stamina +94, BaseForagingHarvestingRewards_+% +6%, BaseAnimalThreatModifier_+% +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Onion-ModifierDescription\", \"Increases Harvesting Rewards and Threat Against Animals. Decreases Food Consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+6% BaseForagingHarvestingRewards_+%\\n+6% BaseAnimalThreatModifier_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -3537,7 +3537,7 @@
           "Name": "Caramelized_Onions",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Caramelized_Onion.T_ITEM_Caramelized_Onion'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Caramelized_Onions-ModifierName\", \"Caramelized Onions\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Caramelized_Onions-ModifierDescription\", \"Boosts max Stamina and Harvesting Rewards, and Increases Threat Against Animals. | With Chef's Backpack: Max Stamina +125, BaseAnimalThreatModifier_+% +12%, BaseForagingHarvestingRewards_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Caramelized_Onions-ModifierDescription\", \"Boosts max Stamina and Harvesting Rewards, and Increases Threat Against Animals.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n+12% BaseAnimalThreatModifier_+%\\n+12% BaseForagingHarvestingRewards_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -3564,7 +3564,7 @@
           "Name": "French_Onion_Soup",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Onion_Soup.T_ITEM_Onion_Soup'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"French_Onion_Soup-ModifierName\", \"French Onion Soup\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"French_Onion_Soup-ModifierDescription\", \"Boosts max Stamina and Health, Increases Harvesting Rewards, and Increases Threat Against Animals. | With Chef's Backpack: Max Stamina +62, Max Health +62, BaseAnimalThreatModifier_+% +12%, BaseForagingHarvestingRewards_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"French_Onion_Soup-ModifierDescription\", \"Boosts max Stamina and Health, Increases Harvesting Rewards, and Increases Threat Against Animals.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Stamina\\n+62 Max Health\\n+12% BaseAnimalThreatModifier_+%\\n+12% BaseForagingHarvestingRewards_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 50,
@@ -3592,7 +3592,7 @@
           "Name": "Onion_Rings",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Onion_Rings.T_ITEM_Onion_Rings'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Onion_Rings-ModifierName\", \"Onion Rings\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Onion_Rings-ModifierDescription\", \"Boosts max Stamina and Regen, Increases Harvesting Rewards, and Increases Threat Against Animals. | With Chef's Backpack: Max Stamina +62, Stamina Regen +12%, BaseAnimalThreatModifier_+% +12%, BaseForagingHarvestingRewards_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Onion_Rings-ModifierDescription\", \"Boosts max Stamina and Regen, Increases Harvesting Rewards, and Increases Threat Against Animals.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Stamina\\n+12% Stamina Regen\\n+12% BaseAnimalThreatModifier_+%\\n+12% BaseForagingHarvestingRewards_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 50,
@@ -3620,7 +3620,7 @@
           "Name": "Onion_Souffle",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Onion_Souffle.T_ITEM_Onion_Souffle'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Onion_Souffle-ModifierName\", \"Onion Souffle\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Onion_Souffle-ModifierDescription\", \"Boosts max Stamina, Harvesting Rewards, and Increases Threat Against Animals. Grants a chance of additional stone when mining. | With Chef's Backpack: Max Stamina +125, Secondary Resource Chance +12%, BaseAnimalThreatModifier_+% +12%, BaseForagingHarvestingRewards_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Onion_Souffle-ModifierDescription\", \"Boosts max Stamina, Harvesting Rewards, and Increases Threat Against Animals. Grants a chance of additional stone when mining.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n+12% Secondary Resource\\n+12% BaseAnimalThreatModifier_+%\\n+12% BaseForagingHarvestingRewards_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -3648,7 +3648,7 @@
           "Name": "Cooked_Agave",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cooked_Agave.T_ITEM_Cooked_Agave'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Agave-ModifierName\", \"Charred Agave\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Agave-ModifierDescription\", \"Increases Explosive Damage and Decreases Food Consumption. | With Chef's Backpack: Max Health +62, BaseExplosiveDamage_+% +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Agave-ModifierDescription\", \"Increases Explosive Damage and Decreases Food Consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Health\\n+6% BaseExplosiveDamage_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 50,
@@ -3675,7 +3675,7 @@
           "Name": "Agave_Syrup",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Agave_Syrup.T_ITEM_Agave_Syrup'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Agave_Syrup-ModifierName\", \"Agave Syrup\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Agave_Syrup-ModifierDescription\", \"Increases Explosive Damage. | With Chef's Backpack: Max Health +62, BaseExplosiveDamage_+% +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Agave_Syrup-ModifierDescription\", \"Increases Explosive Damage.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Health\\n+6% BaseExplosiveDamage_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 50,
@@ -3701,7 +3701,7 @@
           "Name": "Tequila",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Tequila.T_ITEM_Tequila'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Tequila-ModifierName\", \"Tequila\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Tequila-ModifierDescription\", \"Increases Explosive Damage, Temperature and Melee Resistance. Increased Thirst. | With Chef's Backpack: Max Health +62, BaseExplosiveDamage_+% +6%, BaseMeleeDamageResistance_% +12%, BaseColdResistance_% +6%, BaseHeatResistance_% +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Tequila-ModifierDescription\", \"Increases Explosive Damage, Temperature and Melee Resistance. Increased Thirst.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Health\\n+6% BaseExplosiveDamage_+%\\n+12% BaseMeleeDamageResistance_%\\n+6% BaseColdResistance_%\\n+6% BaseHeatResistance_%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 50,
@@ -3728,7 +3728,7 @@
           "Name": "Glazed_Carrots",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Glazed_Carrots.T_ITEM_Glazed_Carrots'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Glazed_Carrots-ModifierName\", \"Glazed Carrots\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Glazed_Carrots-ModifierDescription\", \"Increases Explosive and Projectile Damage. Decreases Food Consumption. | With Chef's Backpack: Max Stamina +62, BaseExplosiveDamage_+% +6%, BaseProjectileDamage_+% +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Glazed_Carrots-ModifierDescription\", \"Increases Explosive and Projectile Damage. Decreases Food Consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Stamina\\n+6% BaseExplosiveDamage_+%\\n+6% BaseProjectileDamage_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 50,
@@ -3755,7 +3755,7 @@
           "Name": "Pumpkin_Pie",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Pumpkin_Pie.T_ITEM_Pumpkin_Pie'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Pumpkin_Pie-ModifierName\", \"Pumpkin Pie\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pumpkin_Pie-ModifierDescription\", \"Increases Explosive Damage and Exposure Resistance. Decreases Food Consumption. | With Chef's Backpack: Max Health +125, Max Stamina +94, BaseExplosiveDamage_+% +6%, Exposure Resist +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pumpkin_Pie-ModifierDescription\", \"Increases Explosive Damage and Exposure Resistance. Decreases Food Consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Health\\n+94 Max Stamina\\n+6% BaseExplosiveDamage_+%\\n+12% Exposure Resist\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 100,
@@ -3783,7 +3783,7 @@
           "Name": "Cooked_PricklyPear",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cooked_PricklyPear.T_ITEM_Cooked_PricklyPear'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_PricklyPear-ModifierName\", \"Burnt Prickly Pear\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_PricklyPear-ModifierDescription\", \"Adds a Chance to Return Melee Damage to Attacker. Decreases Food Consumption. | With Chef's Backpack: Max Stamina +62, BaseChanceToReturnDamage_% +12%, BaseDamageReturned_% +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_PricklyPear-ModifierDescription\", \"Adds a Chance to Return Melee Damage to Attacker. Decreases Food Consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Stamina\\n+12% BaseChanceToReturnDamage_%\\n+19% BaseDamageReturned_%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 50,
@@ -3811,7 +3811,7 @@
           "Name": "PricklyPear_Margarita",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_PricklyPear_Margarita.T_ITEM_PricklyPear_Margarita'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"PricklyPear_Margarita-ModifierName\", \"Prickly Pear Margarita\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"PricklyPear_Margarita-ModifierDescription\", \"Increases Explosive Damage and Melee Resistance. Adds a Chance to Return Melee Damage to Attacker. | With Chef's Backpack: Max Health +62, BaseExplosiveDamage_+% +6%, BaseMeleeDamageResistance_% +12%, BaseColdResistance_% +6%, BaseHeatResistance_% +6%, BaseChanceToReturnDamage_% +12%, BaseDamageReturned_% +31%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"PricklyPear_Margarita-ModifierDescription\", \"Increases Explosive Damage and Melee Resistance. Adds a Chance to Return Melee Damage to Attacker.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Health\\n+6% BaseExplosiveDamage_+%\\n+12% BaseMeleeDamageResistance_%\\n+6% BaseColdResistance_%\\n+6% BaseHeatResistance_%\\n+12% BaseChanceToReturnDamage_%\\n+31% BaseDamageReturned_%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 50,
@@ -3840,7 +3840,7 @@
           "Name": "PricklyPear_Jelly",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_PricklyPear_Jelly.T_ITEM_PricklyPear_Jelly'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"PricklyPear_Jelly-ModifierName\", \"Prickly Pear Jelly\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"PricklyPear_Jelly-ModifierDescription\", \"Increases Explosive Damage and Experience. Adds a Chance to Return Melee Damage to Attacker. | With Chef's Backpack: Max Stamina +62, BaseExplosiveDamage_+% +6%, BaseSharedExperience_+% +12%, XP +12%, BaseChanceToReturnDamage_% +12%, BaseDamageReturned_% +31%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"PricklyPear_Jelly-ModifierDescription\", \"Increases Explosive Damage and Experience. Adds a Chance to Return Melee Damage to Attacker.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Stamina\\n+6% BaseExplosiveDamage_+%\\n+12% BaseSharedExperience_+%\\n+12% XP\\n+12% BaseChanceToReturnDamage_%\\n+31% BaseDamageReturned_%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 50,
@@ -3870,7 +3870,7 @@
           "Name": "PricklyPear_Muffins",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_PricklyPear_Muffin.T_ITEM_PricklyPear_Muffin'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"PricklyPear_Muffins-ModifierName\", \"Prickly Pear Muffins\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"PricklyPear_Muffins-ModifierDescription\", \"Increases Explosive Damage and Experience. Adds a Chance to Return Melee Damage to Attacker. | With Chef's Backpack: BaseExplosiveDamage_+% +6%, Max Stamina +188, BaseChanceToReturnDamage_% +12%, BaseDamageReturned_% +31%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"PricklyPear_Muffins-ModifierDescription\", \"Increases Explosive Damage and Experience. Adds a Chance to Return Melee Damage to Attacker.\\n\\n— Chef\\'s Backpack (+25%) —\\n+6% BaseExplosiveDamage_+%\\n+188 Max Stamina\\n+12% BaseChanceToReturnDamage_%\\n+31% BaseDamageReturned_%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseExplosiveDamage_+%\")": 5,
@@ -3898,7 +3898,7 @@
           "Name": "Cooked_Garlic",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cooked_Garlic.T_ITEM_Cooked_Garlic'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Garlic-ModifierName\", \"Seared Garlic\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Garlic-ModifierDescription\", \"Increases Health Regen and Threat Against Animals. Decreases Food Consumption. | With Chef's Backpack: Max Health +62, Health Regen +19%, BaseAnimalThreatModifier_+% +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Garlic-ModifierDescription\", \"Increases Health Regen and Threat Against Animals. Decreases Food Consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Health\\n+19% Health Regen\\n+6% BaseAnimalThreatModifier_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 50,
@@ -3926,7 +3926,7 @@
           "Name": "Garlic_Butter",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Garlic_Butter.T_ITEM_Garlic_Butter'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Garlic_Butter-ModifierName\", \"Garlic Butter\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Garlic_Butter-ModifierDescription\", \"Increases Health Regen and Threat Against Animals. | With Chef's Backpack: Max Health +62, Health Regen +19%, BaseAnimalThreatModifier_+% +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Garlic_Butter-ModifierDescription\", \"Increases Health Regen and Threat Against Animals.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Health\\n+19% Health Regen\\n+6% BaseAnimalThreatModifier_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 50,
@@ -3950,7 +3950,7 @@
           "Name": "Garlic_Bread",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Garlic_Bread.T_ITEM_Garlic_Bread'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Garlic_Bread-ModifierName\", \"Garlic Bread\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Garlic_Bread-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption. | With Chef's Backpack: Max Health +62, Health Regen +44%, BaseAnimalThreatModifier_+% +12%, XP +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Garlic_Bread-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+62 Max Health\\n+44% Health Regen\\n+12% BaseAnimalThreatModifier_+%\\n+25% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 50,
@@ -3979,7 +3979,7 @@
           "Name": "Garlic_Pizza",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Garlic_Pizza.T_ITEM_Garlic_Pizza'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Garlic_Pizza-ModifierName\", \"Garlic Pizza\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Garlic_Pizza-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption. | With Chef's Backpack: Max Health +94, Health Regen +44%, Max Stamina +62, BaseAnimalThreatModifier_+% +12%, XP +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Garlic_Pizza-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+44% Health Regen\\n+62 Max Stamina\\n+12% BaseAnimalThreatModifier_+%\\n+25% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -4009,7 +4009,7 @@
           "Name": "Smoked_Garlic",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Smoked_Garlic.T_ITEM_Smoked_Garlic'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Garlic-ModifierName\", \"Smoked Garlic\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Garlic-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption. | With Chef's Backpack: Max Health +94, Health Regen +31%, BaseAnimalThreatModifier_+% +12%, XP +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Garlic-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+31% Health Regen\\n+12% BaseAnimalThreatModifier_+%\\n+25% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -4038,7 +4038,7 @@
           "Name": "Cooked_Truffle",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cooked_Truffle.T_ITEM_Cooked_Truffle'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Truffle-ModifierName\", \"Toasted Truffle\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Truffle-ModifierDescription\", \"Increases Taming Speed of Nearby Creatures. Decreases Threat Against Animals and Food Consumption. | With Chef's Backpack: Max Stamina +94, BaseAnimalThreatModifier_+% -6%, GrantedAuraTamingSpeed_? +1\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Truffle-ModifierDescription\", \"Increases Taming Speed of Nearby Creatures. Decreases Threat Against Animals and Food Consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n-6% BaseAnimalThreatModifier_+%\\n+1 GrantedAuraTamingSpeed_?\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -4066,7 +4066,7 @@
           "Name": "Vodka",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Vodka.T_ITEM_Vodka'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Vodka-ModifierName\", \"Vodka\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Vodka-ModifierDescription\", \"Increases Explosive Damage, Temperature and Projectile Resistance. Increased Thirst. | With Chef's Backpack: Max Stamina +94, BaseExplosiveDamage_+% +6%, BaseProjectileDamageResistance_+% +12%, BaseColdResistance_% +6%, BaseHeatResistance_% +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Vodka-ModifierDescription\", \"Increases Explosive Damage, Temperature and Projectile Resistance. Increased Thirst.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+6% BaseExplosiveDamage_+%\\n+12% BaseProjectileDamageResistance_+%\\n+6% BaseColdResistance_%\\n+6% BaseHeatResistance_%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -4093,7 +4093,7 @@
           "Name": "Truffle_Vodka",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Truffle_Vodka.T_ITEM_Truffle_Vodka'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Vodka-ModifierName\", \"Truffle Vodka\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Vodka-ModifierDescription\", \"Increases Explosive Damage, Thirst, Temperature and Projectile Resistance. Increased Taming Speed of Nearby Creatures. | With Chef's Backpack: Max Stamina +94, BaseExplosiveDamage_+% +6%, BaseProjectileDamageResistance_+% +12%, BaseColdResistance_% +6%, BaseHeatResistance_% +6%, BaseAnimalThreatModifier_+% -6%, GrantedAuraTamingSpeed_? +1\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Vodka-ModifierDescription\", \"Increases Explosive Damage, Thirst, Temperature and Projectile Resistance. Increased Taming Speed of Nearby Creatures.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Stamina\\n+6% BaseExplosiveDamage_+%\\n+12% BaseProjectileDamageResistance_+%\\n+6% BaseColdResistance_%\\n+6% BaseHeatResistance_%\\n-6% BaseAnimalThreatModifier_+%\\n+1 GrantedAuraTamingSpeed_?\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -4122,7 +4122,7 @@
           "Name": "Truffle_Focaccia",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Truffle_Focaccia.T_ITEM_Truffle_Focaccia'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Focaccia-ModifierName\", \"Truffle Focaccia\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Focaccia-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption. | With Chef's Backpack: Max Health +94, Health Regen +44%, BaseAnimalThreatModifier_+% +12%, XP +12%, BaseSharedExperience_+% +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Focaccia-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+44% Health Regen\\n+12% BaseAnimalThreatModifier_+%\\n+12% XP\\n+12% BaseSharedExperience_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -4152,7 +4152,7 @@
           "Name": "Truffle_Pasta",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Truffle_Pasta.T_ITEM_Truffle_Pasta'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Pasta-ModifierName\", \"Truffle Pasta\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Pasta-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption. Grants a Chance of Additional Stone when Mining. | With Chef's Backpack: Max Health +156, Health Regen +44%, BaseAnimalThreatModifier_+% +12%, XP +12%, BaseSharedExperience_+% +12%, Secondary Resource Chance +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Pasta-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption. Grants a Chance of Additional Stone when Mining.\\n\\n— Chef\\'s Backpack (+25%) —\\n+156 Max Health\\n+44% Health Regen\\n+12% BaseAnimalThreatModifier_+%\\n+12% XP\\n+12% BaseSharedExperience_+%\\n+12% Secondary Resource\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 125,
@@ -4183,7 +4183,7 @@
           "Name": "Truffle_Fries",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Truffle_Fries.T_ITEM_Truffle_Fries'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Fries-ModifierName\", \"Truffle Fries\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Fries-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption. Grants a Chance of Additional Stone when Mining. | With Chef's Backpack: Max Health +94, Health Regen +44%, BaseAnimalThreatModifier_+% +12%, XP +12%, BaseSharedExperience_+% +12%, BaseMaximumStamina_+% +19%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Fries-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption. Grants a Chance of Additional Stone when Mining.\\n\\n— Chef\\'s Backpack (+25%) —\\n+94 Max Health\\n+44% Health Regen\\n+12% BaseAnimalThreatModifier_+%\\n+12% XP\\n+12% BaseSharedExperience_+%\\n+19% BaseMaximumStamina_+%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumHealth_+\")": 75,
@@ -4214,7 +4214,7 @@
           "Name": "Cooked_Giant_Steak",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Prime_Meat.ITEM_Cooked_Prime_Meat'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Giant_Steak-ModifierName\", \"Cooked Giant Steak\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Giant_Steak-ModifierDescription\", \"Boosts your stamina, health and regeneration. | With Chef's Backpack: Max Stamina +125, Max Health +188, Health Regen +62%, XP +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Giant_Steak-ModifierDescription\", \"Boosts your stamina, health and regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n+188 Max Health\\n+62% Health Regen\\n+6% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -4239,7 +4239,7 @@
           "Name": "Cooked_Fatty_TBone",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_TboneCooked.ITEM_Meat_TboneCooked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Fatty_TBone-ModifierName\", \"Cooked Fatty T-Bone\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Fatty_TBone-ModifierDescription\", \"Boosts your stamina, health and meat harvested. | With Chef's Backpack: Max Stamina +125, Max Health +188, BaseMeatHarvestedFromAnimals_+% +50%, XP +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Fatty_TBone-ModifierDescription\", \"Boosts your stamina, health and meat harvested.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n+188 Max Health\\n+50% BaseMeatHarvestedFromAnimals_+%\\n+6% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -4264,7 +4264,7 @@
           "Name": "Cooked_Gamey_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_GameyCooked.ITEM_Meat_GameyCooked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Gamey_Meat-ModifierName\", \"Cooked Gamey Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Gamey_Meat-ModifierDescription\", \"Boosts your stamina, health and melee damage. | With Chef's Backpack: Max Stamina +125, Max Health +188, Melee Damage +19%, XP +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Gamey_Meat-ModifierDescription\", \"Boosts your stamina, health and melee damage.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n+188 Max Health\\n+19% Melee Damage\\n+6% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -4289,7 +4289,7 @@
           "Name": "Cooked_Stringy_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_StringyCooked.ITEM_Meat_StringyCooked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Stringy_Meat-ModifierName\", \"Cooked Stringy Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Stringy_Meat-ModifierDescription\", \"Boosts your stamina, health and attack speed. | With Chef's Backpack: Max Stamina +125, Max Health +188, BaseAttackSpeed_+% +25%, XP +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Stringy_Meat-ModifierDescription\", \"Boosts your stamina, health and attack speed.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n+188 Max Health\\n+25% BaseAttackSpeed_+%\\n+6% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -4314,7 +4314,7 @@
           "Name": "Cooked_Soft_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_SoftCooked.ITEM_Meat_SoftCooked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Soft_Meat-ModifierName\", \"Cooked Soft Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Soft_Meat-ModifierDescription\", \"Boosts your stamina, health and stamina regeneration. | With Chef's Backpack: Max Stamina +125, Max Health +188, Stamina Regen +62%, XP +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Soft_Meat-ModifierDescription\", \"Boosts your stamina, health and stamina regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n+188 Max Health\\n+62% Stamina Regen\\n+6% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -4339,7 +4339,7 @@
           "Name": "Cooked_White_Meat",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_WhiteCooked.ITEM_Meat_WhiteCooked'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_White_Meat-ModifierName\", \"Cooked White Meat\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_White_Meat-ModifierDescription\", \"Boosts your stamina, health and exposure resistance. | With Chef's Backpack: Max Stamina +125, Max Health +188, Exposure Resist +25%, XP +6%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_White_Meat-ModifierDescription\", \"Boosts your stamina, health and exposure resistance.\\n\\n— Chef\\'s Backpack (+25%) —\\n+125 Max Stamina\\n+188 Max Health\\n+25% Exposure Resist\\n+6% XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 100,
@@ -4364,7 +4364,7 @@
           "Name": "Thermos_Cocoa_Modifier",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_Cocoa_Modifier-ModifierName\", \"Hot Cocoa\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_Cocoa_Modifier-ModifierDescription\", \"Keeps you warm, slows hunger. | With Chef's Backpack: BaseInternalTemperatureModification_+ +1250\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_Cocoa_Modifier-ModifierDescription\", \"Keeps you warm, slows hunger.\\n\\n— Chef\\'s Backpack (+25%) —\\n+1250 BaseInternalTemperatureModification_+\")",
           "GrantedStats": {
             "(Value=\"BaseFoodConsumption_+%\")": -25,
             "(Value=\"BaseInternalTemperatureModification_+\")": 1000
@@ -4382,7 +4382,7 @@
           "Name": "Thermos_Coffee_Modifier",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_Coffee_Modifier-ModifierName\", \"Hot Coffee\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_Coffee_Modifier-ModifierDescription\", \"Keeps you warm, boosts energy. | With Chef's Backpack: BaseInternalTemperatureModification_+ +1250, BaseMaximumStamina_+% +12%, Stamina Regen +12%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_Coffee_Modifier-ModifierDescription\", \"Keeps you warm, boosts energy.\\n\\n— Chef\\'s Backpack (+25%) —\\n+1250 BaseInternalTemperatureModification_+\\n+12% BaseMaximumStamina_+%\\n+12% Stamina Regen\")",
           "GrantedStats": {
             "(Value=\"BaseInternalTemperatureModification_+\")": 1000,
             "(Value=\"BaseMaximumStamina_+%\")": 10,
@@ -4401,7 +4401,7 @@
           "Name": "Thermos_GreenTea_Modifier",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_GreenTea_Modifier-ModifierName\", \"Hot Tea\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_GreenTea_Modifier-ModifierDescription\", \"Keeps you warm, boosts health regeneration. | With Chef's Backpack: Health Regen +31%, BaseInternalTemperatureModification_+ +1250\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_GreenTea_Modifier-ModifierDescription\", \"Keeps you warm, boosts health regeneration.\\n\\n— Chef\\'s Backpack (+25%) —\\n+31% Health Regen\\n+1250 BaseInternalTemperatureModification_+\")",
           "GrantedStats": {
             "(Value=\"BaseHealthRegen_+%\")": 25,
             "(Value=\"BaseInternalTemperatureModification_+\")": 1000
@@ -4419,7 +4419,7 @@
           "Name": "Thermos_HoneyTea",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_HoneyTea-ModifierName\", \"Honey Tea\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_HoneyTea-ModifierDescription\", \"Keeps you warm, reduces parasitic and bacterial infection durations. | With Chef's Backpack: BaseInternalTemperatureModification_+ +1250, BaseParasiticModifierDuration_+% -31%, BaseBacterialModifierDuration_+% -31%, BaseFoodModifierDuration_+% +25%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_HoneyTea-ModifierDescription\", \"Keeps you warm, reduces parasitic and bacterial infection durations.\\n\\n— Chef\\'s Backpack (+25%) —\\n+1250 BaseInternalTemperatureModification_+\\n-31% BaseParasiticModifierDuration_+%\\n-31% BaseBacterialModifierDuration_+%\\n+25% BaseFoodModifierDuration_+%\")",
           "GrantedStats": {
             "(Value=\"BaseInternalTemperatureModification_+\")": 1000,
             "(Value=\"BaseParasiticModifierDuration_+%\")": -25,
@@ -4439,7 +4439,7 @@
           "Name": "Thermos_IceWater",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_IceWater-ModifierName\", \"Ice Cool Water\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_IceWater-ModifierDescription\", \"Refreshing ice cold water keeps you cooler for longer. | With Chef's Backpack: BaseInternalTemperatureModification_+ -1875\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_IceWater-ModifierDescription\", \"Refreshing ice cold water keeps you cooler for longer.\\n\\n— Chef\\'s Backpack (+25%) —\\n-1875 BaseInternalTemperatureModification_+\")",
           "GrantedStats": {
             "(Value=\"BaseInternalTemperatureModification_+\")": -1500
           },
@@ -4456,7 +4456,7 @@
           "Name": "Thermos_WildTea_Modifier",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_WildTea_Modifier-ModifierName\", \"Gorse Tea\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_WildTea_Modifier-ModifierDescription\", \"Keeps you warm, slows thirst. | With Chef's Backpack: BaseInternalTemperatureModification_+ +1250\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_WildTea_Modifier-ModifierDescription\", \"Keeps you warm, slows thirst.\\n\\n— Chef\\'s Backpack (+25%) —\\n+1250 BaseInternalTemperatureModification_+\")",
           "GrantedStats": {
             "(Value=\"BaseWaterConsumption_+%\")": -25,
             "(Value=\"BaseInternalTemperatureModification_+\")": 1000

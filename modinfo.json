@@ -29,9 +29,9 @@
     {
       "name": "Culinex Food Boost Fix",
       "author": "AgentKush",
-      "version": "2.1",
+      "version": "2.3",
       "compatibility": "All",
-      "description": "Fixes Chef's Backpack 25% food effectiveness boost to work on all 169 cooked foods (also works with Larkwell White armor set +20%). v2.1: Food tooltips now show boosted stats with Chef's Backpack equipped.",
+      "description": "Fixes Chef's Backpack 25% food effectiveness boost to work on all 169 cooked foods. Food tooltips show boosted stats with Chef's Backpack equipped.",
       "fileName": "Culinex_Food_Boost_Fix",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Culinex_Food_Boost_Fix.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/README.md",
