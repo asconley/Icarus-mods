@@ -1,6 +1,6 @@
 # Culinex Food Boost Fix
 
-**Version:** 2.3  
+**Version:** 2.4  
 **Author:** AgentKush
 
 ## Description
@@ -29,6 +29,10 @@ This mod fixes **169 food items** so the 25% effectiveness boost from the Chef's
 - Excludes non-player foods (animal feed, raw/spoiled items)
 
 ## Changelog
+
+### v2.4
+- Added Food Rating system (S/A/B/C/D) based on stats-per-stomach-slot efficiency
+- S ★★★★★ (top 10%) | A ★★★★ (top 30%) | B ★★★ (top 55%) | C ★★ (top 80%) | D ★ (bottom 20%)
 
 ### v2.3
 - Simplified tooltips: show only boosted values (base stats already visible in yellow section)
