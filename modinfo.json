@@ -418,17 +418,17 @@
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Difficulty_Scaling.png"
     },
     {
-      "name": "Character Customization Plus",
+      "name": "More Eye Colours",
       "author": "AgentKush",
-      "version": "1.4",
+      "version": "2.0",
       "compatibility": "All",
-      "description": "Expands character creation with unlocked content, 25 new eye colors, 6 suit colors, 18 tattoo/accent colors, and 6 cap/hair colors. Fixes Deluxe Edition suit swatch.",
-      "fileName": "CharacterCustomizationPlus",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/CharacterCustomizationPlus/README.md",
+      "description": "Massive eye color expansion - 60 new colors across greens, ambers, purples, blues, greys, reds, and exotics (69 total). Plus unlocked hidden content.",
+      "fileName": "MoreEyeColours",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/MoreEyeColours/README.md",
       "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/CharacterCustomizationPlus/CharacterCustomizationPlus.EXMODZ"
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/MoreEyeColours/MoreEyeColours.EXMODZ"
       },
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/CharacterCustomizationPlus.png"
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/MoreEyeColours.png"
     }
   ]
 }
