@@ -429,6 +429,19 @@
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/MoreEyeColours/MoreEyeColours.EXMODZ"
       },
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/MoreEyeColours.png"
-    }
+    },
+    {
+      "name": "Night Vision Goggles",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Unlocks the hidden Night Vision system built into Icarus. Craft Night Vision Goggles at the Fabricator - equip and right-click to toggle green-tinted enhanced vision with 8x brightness.",
+      "fileName": "NightVisionGoggles",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/NightVisionGoggles.EXMODZ"
+      },
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png"
+    },
   ]
 }
