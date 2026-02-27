@@ -416,6 +416,19 @@
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/Creature_Difficulty_Scaling.EXMODZ"
       },
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Difficulty_Scaling.png"
+    },
+    {
+      "name": "Character Customization Plus",
+      "author": "AgentKush",
+      "version": "1.4",
+      "compatibility": "All",
+      "description": "Expands character creation with unlocked content, 25 new eye colors, 6 suit colors, 18 tattoo/accent colors, and 6 cap/hair colors. Fixes Deluxe Edition suit swatch.",
+      "fileName": "CharacterCustomizationPlus",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/CharacterCustomizationPlus/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/CharacterCustomizationPlus/CharacterCustomizationPlus.EXMODZ"
+      },
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/CharacterCustomizationPlus.png"
     }
   ]
 }
