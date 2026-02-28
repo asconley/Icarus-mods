@@ -1,169 +1,91 @@
-# Turret Variants Mod
+# Turret Variants
 
-**Version:** 2.5  
+**Version:** 3.0  
 **Author:** AgentKush  
-**Compatible with:** Icarus (JimK72's Mod Manager)
 
-## Description
+Adds 15 new automated turret variants with unique characteristics. All variants require the Pistol Turret blueprint unlock.
 
-This mod adds **15 new automated turret variants** to Icarus, each with unique characteristics, firing patterns, and ammo types to fit any defensive strategy.
+## v3.0 Changes — LOS Fix + Proper Ammo Types
 
-## All Turrets Overview
+### LOS Fix (PAK mod)
+Turrets no longer shoot through walls, terrain, and building pieces. The fix patches the AI perception system (`BP_ProxyPerceptionPawn`) to:
+- Remove the 25% grace radius that kept targets "perceived" after breaking line of sight
+- Tighten the vision cone from 120° to 90° to reduce blind-spot detections
 
-| Turret | Ammo | Range | Burst | Cooldown | Role |
-|--------|------|-------|-------|----------|------|
-| **Rock Thrower** | Pistol | 40m | 1 | 2.0s | Budget defense |
-| **Bow** | Pistol | 60m | 1 | 2.0s | Primitive option |
-| **Crossbow** | Pistol | 55m | 1 | 2.5s | Silent defense |
-| **Rapid Crossbow** | Pistol | 45m | 3 | 1.5s | Silent burst fire |
-| **Pistol** | Pistol | 40m | 3 | 1.2s | Cheap & fast |
-| **SMG** | Pistol | 35m | 8 | 1.0s | Close quarters |
-| **Assault Rifle** | Rifle | 50m | 5 | 1.5s | All-rounder |
-| **Storm** | Rifle | 40m | 12 | 1.8s | Rapid suppression |
-| **Minigun** | Rifle | 45m | 20 | 2.0s | Maximum dakka |
-| **Rifle** | Rifle | 75m | 3 | 2.5s | Precision burst |
-| **Javelin** | Rifle | 70m | 1 | 4.0s | High damage |
-| **Shotblaster** | Shotgun | 25m | 2 | 2.5s | Close devastation |
-| **Flamethrower** | Shotgun | 15m | 40 | 2.0s | Area denial |
-| **Sniper** | Rifle | 100m | 1 | 6.0s | Long range |
-| **Heavy Sniper** | Rifle | 150m | 1 | 10.0s | Extreme range |
+**Re-patching after game update:** Run `turret_los_patcher.py` after re-exporting game files with FModel.
 
----
+### Proper Ammo Type Matching
+Each turret now accepts only thematically appropriate ammunition:
 
-## Turret Categories
-
-### Budget/Early Game
-| Turret | Cost Tier | Best For |
-|--------|-----------|----------|
-| Rock Thrower | Steel | Cheap pistol ammo |
-| Bow | Steel | Use excess arrows |
-| Pistol | Steel | Affordable pistol ammo |
-
-### Mid Game
-| Turret | Cost Tier | Best For |
-|--------|-----------|----------|
-| Crossbow | Steel | Silent kills |
-| Rapid Crossbow | Steel | Silent burst damage |
-| SMG | Steel | Door/choke defense |
-| Assault Rifle | Titanium | Balanced defense |
-| Shotblaster | Titanium | Close range obliteration |
-
-### Late Game
-| Turret | Cost Tier | Best For |
-|--------|-----------|----------|
-| Rifle | Titanium | Precision long range |
-| Javelin | Titanium | High damage single targets |
-| Storm | Titanium | Swarm suppression |
-| Minigun | Titanium | Maximum firepower |
-| Flamethrower | Titanium | Area denial |
-| Sniper | Titanium | Long range elimination |
-| Heavy Sniper | Titanium | Extreme range picks |
-
----
-
-## Crafting Requirements
-
-All turrets require the **Pistol Turret blueprint** to be unlocked first.
-
-### Steel-Tier Turrets
-| Turret | Materials |
-|--------|-----------|
-| **Rock Thrower** | 30 Steel Ingot, 10 Electronics, 15 Stick, 10 Rope |
-| **Bow** | 30 Steel Ingot, 15 Electronics, 20 Stick, 10 Rope |
-| **Crossbow** | 40 Steel Ingot, 20 Electronics, 10 Carbon Fiber, 8 Epoxy |
-| **Rapid Crossbow** | 45 Steel Ingot, 25 Electronics, 15 Carbon Fiber, 12 Epoxy |
-| **Pistol** | 30 Steel Ingot, 15 Electronics, 5 Carbon Fiber, 10 Steel Screw |
-| **SMG** | 35 Steel Ingot, 20 Electronics, 8 Carbon Fiber, 15 Steel Screw |
-
-### Titanium-Tier Turrets
-| Turret | Materials |
-|--------|-----------|
-| **Javelin** | 35 Titanium Ingot, 20 Electronics, 25 Stick, 15 Rope |
-| **Assault Rifle** | 40 Titanium Ingot, 25 Electronics, 15 Carbon Fiber, 20 Steel Screw |
-| **Rifle** | 45 Titanium Ingot, 25 Electronics, 15 Carbon Fiber, 5 Glass |
-| **Storm** | 50 Titanium Ingot, 35 Electronics, 20 Carbon Fiber, 25 Steel Screw |
-| **Minigun** | 60 Titanium Ingot, 40 Electronics, 25 Carbon Fiber, 30 Steel Screw |
-| **Sniper** | 50 Titanium Ingot, 30 Electronics, 20 Carbon Fiber, 10 Glass |
-| **Heavy Sniper** | 70 Titanium Ingot, 45 Electronics, 30 Carbon Fiber, 15 Glass |
-| **Shotblaster** | 40 Titanium Ingot, 20 Electronics, 25 Steel Ingot, 15 Steel Screw |
-| **Flamethrower** | 45 Titanium Ingot, 25 Electronics, 30 Steel Ingot, 20 Composites |
-
----
-
-## Tactical Combinations
-
-### Perimeter Defense
-- **Outer Ring:** Heavy Sniper + Sniper (pick off distant threats)
-- **Mid Ring:** Rifle + Assault Rifle (suppress approaching enemies)
-- **Inner Ring:** Shotblaster + Flamethrower (last line devastation)
-
-### Choke Point Defense
-- **SMG + Storm** - Wall of bullets at doorways
-- **Shotblaster** - Nothing gets through
-
-### Silent Base
-- **Crossbow + Rapid Crossbow** - Silent kills, no attention drawn
-
-### Budget Defense Network
-- **Rock Thrower + Bow + Pistol** - All cheap ammo options
-
----
+| Turret | Tier | Ammo Type | Category |
+|--------|------|-----------|----------|
+| Rock Thrower | Budget | Stone | Rock_Golem_Gun |
+| Bow | Budget | Arrows (36 types) | AllArrows |
+| Crossbow | Budget | Bolts (18 types) | AllBolts |
+| Rapid Crossbow | Budget | Bolts (18 types) | AllBolts |
+| Pistol | Budget | 9mm Rounds | AllPistol |
+| SMG | Budget | 9mm Rounds | AllSubmachineGuns |
+| Assault Rifle | Mid | 5.56mm Rounds | AllAssaultRifle |
+| Storm | Mid | 5.56mm Rounds | AllAssaultRifle |
+| Rifle | Mid | 7.62mm Rounds | AllRifle |
+| Minigun | Mid | 7.62mm Rounds | AllRifle |
+| Javelin | Mid | Javelins/Spears (16 types) | AllJavelins |
+| Sniper | Late | 12.7mm Rounds | AllSnipers |
+| Heavy Sniper | Late | 12.7mm Rounds | AllSnipers |
+| Shotblaster | Mid | 12-Gauge Shells | AllShotgun |
+| Flamethrower | Late | Biofuel | BioFuel |
 
 ## Installation
 
-1. Download `Turret_Variants.EXMODZ`
-2. Place in Icarus Mod Manager's mods folder
-3. Enable in Mod Manager
-4. Launch Icarus
+### EXMOD (data tables — required)
+Install via JimK72's Mod Manager or extract `Turret_Variants.EXMODZ`.
 
-## Changelog
+### PAK (LOS fix — optional but recommended)
+Copy `Turret_Variants_LOS_Fix_P.pak` to:
+```
+<Game Install>\Icarus\Content\Paks\mods\
+```
 
-### Version 2.5
-- **REPAIR FIX:** All 15 turrets are now hammer repairable
-  - Added custom `Turret_Repairable` D_Durable entry with 10,000 durability and Electronics as repair material
-  - Changed all turret Durable references from `Deployable_10000` (no repair) to `Turret_Repairable`
-  - Added full `Generated_Tags` blocks with `Traits.Durable` and all required trait tags to all 15 turrets
+## Budget Turrets (Steel-tier crafting)
+- **Rock Thrower** — Single shot, wide spread. Range: 40m. Ammo: Stone
+- **Bow** — Single shot, wide arc. Range: 60m. Ammo: Arrows
+- **Crossbow** — Single shot, high accuracy. Range: 55m. Ammo: Bolts
+- **Rapid Crossbow** — 3-shot bursts, fast reload. Range: 45m. Ammo: Bolts
+- **Pistol** — 3-round bursts, wide arc. Range: 40m. Ammo: 9mm Rounds
+- **SMG** — 8-round bursts, wide arc. Range: 35m. Ammo: 9mm Rounds
 
-### Version 2.4
-- **Fixed turrets shooting backwards when placed on building pieces**
-  - Added missing `_C` class suffix to all DeployableBlueprint references (matching vanilla turret format)
-  - Reduced MuzzleYawExtents from 180° to role-appropriate values (60°-150°) to prevent 180° flip lock
-  - Reduced MuzzlePitchExtents from ±90° to ±50° to prevent shooting through floors
-  - Yaw values now vary by turret role: Snipers get narrow arcs, CQB turrets get wider arcs
+## Mid/Late Game Turrets (Titanium-tier crafting)
+- **Assault Rifle** — 5-round bursts, fast tracking. Range: 50m. Ammo: 5.56mm Rounds
+- **Storm** — 12-round storms, extreme rate. Range: 40m. Ammo: 5.56mm Rounds
+- **Rifle** — 3-round bursts, high accuracy. Range: 75m. Ammo: 7.62mm Rounds
+- **Minigun** — 20-round bursts, extreme fire rate. Range: 45m. Ammo: 7.62mm Rounds
+- **Javelin** — Single shot, high damage. Range: 70m. Ammo: Javelins/Spears
+- **Sniper** — Extreme range, pinpoint accuracy. Range: 100m. Ammo: 12.7mm Rounds
+- **Heavy Sniper** — Single shot, max range. Range: 150m. Ammo: 12.7mm Rounds
+- **Shotblaster** — 2-shot burst, massive spread. Range: 25m. Ammo: 12-Gauge Shells
+- **Flamethrower** — 40-shot stream, area denial. Range: 15m. Ammo: Biofuel
 
-### Version 2.3
-- Fixed broken recipes with invalid ingredient names:
-  - `Refined_Wood` → `Stick` (Bow, Javelin, Rock turrets)
-  - `Rubber` → `Composites` (Flamethrower turret)
-  - `Iron_Ingot` → `Steel_Ingot` (Rock turret)
+## Version History
+- **v3.0** — LOS fix PAK (turrets stop shooting through walls) + proper ammo type matching (arrows, bolts, javelins, stones, biofuel) + updated descriptions
+- **v2.5** — Hammer repairable turrets (custom Turret_Repairable D_Durable entry)
+- **v2.4** — Fixed backwards shooting (_C class suffix fix) + reduced yaw/pitch extents
+- **v2.3** — Fixed broken crafting recipes
+- **v2.2** — Tightened targeting parameters
+- **v2.1** — Initial 15-variant release
 
-### Version 2.2
-- Tightened targeting parameters to reduce wasted shots on obscured targets
-- Reduced `PermitBeginFireAngle` across all turrets for more precise aiming
-- Reduced `CheckTargetPeriod` for faster target re-evaluation
+## Data Tables Modified
+- D_Turret (15 entries)
+- D_DeployableSetup (15 entries)
+- D_Deployable (15 entries)
+- D_ItemsStatic (15 entries)
+- D_Itemable (15 entries)
+- D_ItemTemplate (15 entries)
+- D_Talents (15 entries)
+- D_ProcessorRecipes (15 entries)
+- D_Durable (1 entry)
 
-### Version 2.1
-- Technical improvements to turret data structure
-
-### Version 1.2
-- Added Rifle Turret (7.62mm, 3-round precision bursts)
-- Added Pistol Turret (9mm, fast tracking, wide arc)
-- Added Shotblaster Turret (double-barrel devastation)
-- Added Rapid Crossbow Turret (silent 3-bolt bursts)
-- Added Storm Turret (12-round rapid fire)
-- Added Heavy Sniper Turret (15,000m range!)
-
-### Version 1.1
-- Added SMG, Javelin, Flamethrower, Rock, Minigun turrets
-
-### Version 1.0
-- Initial release with Crossbow, Bow, Sniper, Assault Rifle turrets
-
----
-
-## Known Limitations
-
-- Turrets use base game blueprints (BP_Pistol_Turret, BP_Rifle_Turret, BP_Shotgun_Turret) which means:
-  - Line-of-sight validation is handled by the blueprint, not data tables
-  - Targeting behavior (hostile creatures only) is blueprint-controlled
-- These are cosmetic/balance mods only - full AI behavior changes require Unreal Engine blueprint modifications
+## Files
+- `Turret_Variants.EXMOD` — Data table modifications
+- `Turret_Variants.EXMODZ` — Packaged for Mod Manager
+- `Turret_Variants_LOS_Fix_P.pak` — Blueprint patch for LOS validation
+- `turret_los_patcher.py` — Auto-patcher script (re-run after game updates)

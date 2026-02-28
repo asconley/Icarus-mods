@@ -211,9 +211,9 @@
     {
       "name": "Turret Variants",
       "author": "AgentKush",
-      "version": "2.5",
+      "version": "3.0",
       "compatibility": "All",
-      "description": "15 new automated turret variants with unique firing patterns. v2.5: Hammer repairable + backwards shooting fix. Includes Crossbow, Bow, Sniper, Assault Rifle, SMG, Javelin, Flamethrower, Rock, Minigun, Rifle, Pistol, Shotblaster, Rapid Crossbow, Storm, and Heavy Sniper turrets.",
+      "description": "15 new automated turret variants with unique firing patterns. v3.0: LOS fix PAK (turrets stop shooting through walls) + proper ammo matching (arrows, bolts, javelins, stones, biofuel). Includes Crossbow, Bow, Sniper, Assault Rifle, SMG, Javelin, Flamethrower, Rock, Minigun, Rifle, Pistol, Shotblaster, Rapid Crossbow, Storm, and Heavy Sniper turrets.",
       "fileName": "Turret_Variants",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
@@ -442,6 +442,6 @@
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/NightVisionGoggles.EXMODZ"
       },
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png"
-    },
+    }
   ]
 }
