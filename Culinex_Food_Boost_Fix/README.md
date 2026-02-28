@@ -1,6 +1,6 @@
 # Culinex Food Boost Fix
 
-**Version:** 2.4  
+**Version:** 2.5  
 **Author:** AgentKush
 
 ## Description
@@ -30,6 +30,10 @@ This mod fixes **169 food items** so the 25% effectiveness boost from the Chef's
 
 ## Changelog
 
+### v2.5
+- Added Animal Gruel Rotten and Animal Silage entries
+- Mod now covers 191 entries total
+
 ### v2.4
 - Added Food Rating system (S/A/B/C/D) based on stats-per-stomach-slot efficiency
 - S ★★★★★ (top 10%) | A ★★★★ (top 30%) | B ★★★ (top 55%) | C ★★ (top 80%) | D ★ (bottom 20%)
@@ -39,8 +43,8 @@ This mod fixes **169 food items** so the 25% effectiveness boost from the Chef's
 - Cleaner format matches yellow stat style: +375 Max Health
 - Added missing Thermos Coffee With Cream (player consumable)
 - Added Raw Food, Spoiled Meat, and Seed entries
-- Added 15 Animal Feeds, 4 Animal Gruels, and Filtered Trough Water
-- Mod now covers 189 entries total (up from 169)
+- Added 15 Animal Feeds, 5 Animal Gruels, Animal Silage, and Filtered Trough Water
+- Mod now covers 191 entries total (up from 169)
 
 ### v2.2
 - Cleaned up tooltip formatting: em dashes on header, blank line gap between description and backpack stats

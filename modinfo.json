@@ -29,9 +29,9 @@
     {
       "name": "Culinex Food Boost Fix",
       "author": "AgentKush",
-      "version": "2.4",
+      "version": "2.5",
       "compatibility": "All",
-      "description": "Fixes Chef's Backpack 25% food effectiveness boost for all 189 foods including animal feeds. Tooltips show boosted stats and Food Rating (S/A/B/C/D) based on efficiency per stomach slot.",
+      "description": "Fixes Chef's Backpack 25% food effectiveness boost for all 191 foods including animal feeds. Tooltips show boosted stats and Food Rating (S/A/B/C/D) based on efficiency per stomach slot.",
       "fileName": "Culinex_Food_Boost_Fix",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Culinex_Food_Boost_Fix.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/README.md",

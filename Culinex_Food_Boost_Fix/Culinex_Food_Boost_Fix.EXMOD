@@ -2,7 +2,7 @@
   "name": "Culinex_Food_Boost_Fix",
   "author": "AgentKush",
   "fileName": "Culinex_Food_Boost_Fix",
-  "version": "2.4",
+  "version": "2.5",
   "description": "Fixes Culinex (Chef's Backpack) 25% food effectiveness boost to apply to all cooked foods. Also adds raw chicken to the butchery bench.",
   "week": "",
   "Level2": "False",
@@ -4940,6 +4940,55 @@
           },
           "MergeType": "Stack",
           "bEffectsPlayers": false,
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Animal_Gruel_Rotten",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Rotten_Gruel.T_ITEM_Rotten_Gruel'",
+          "Type": "Debuff",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Gruel_Rotten-ModifierName\", \"Stale Animal Gruel\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Gruel_Rotten-ModifierDescription\", \"Small Decrease to Maximum Stamina and Experience Gain\\n\\n— Feed Buff (+25%) —\\n-6 Max Stamina\\n-6% XP\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseMaximumStamina_+\")": -5,
+            "(Value=\"BaseExperience_+%\")": -5
+          },
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false,
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "FruitAndVegeModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Animal_Silage",
+          "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Silage.T_ITEM_Silage'",
+          "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Silage-ModifierName\", \"Silage\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Silage-ModifierDescription\", \"Slightly Increases Food Modifier Duration\\n\\n— Feed Buff (+25%) —\\n+12% Food Buff Duration\")",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseFoodModifierDuration_+%\")": 10
+          },
+          "ModifierLifetimeAffectors": [
+            {
+              "Value": "FoodModifierDuration_+%"
+            }
+          ],
+          "MergeType": "LongestDuration",
+          "bEffectsPlayers": false,
+          "SaveToDatabase": false,
+          "RemovedOnClick": true,
           "ModifierEffectivenessAffectors": [
             {
               "Value": "FruitAndVegeModifierEffectiveness_+%"
