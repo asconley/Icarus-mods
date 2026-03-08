@@ -1,108 +1,144 @@
-# AgentKush's Icarus Mods
+# 🛸 AgentKush's Icarus Mods
 
-[![Mods](https://img.shields.io/badge/Mods-34-blue)]()
-[![License](https://img.shields.io/badge/License-Free%20to%20Use-brightgreen)]()
-[![Install](https://img.shields.io/badge/Install-Mod%20Manager-orange)](https://github.com/Jimk72/Icarus_Software)
+<div align="center">
 
-A collection of mods for **Icarus: First Cohort**. All mods use [JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software).
+[![Mods](https://img.shields.io/badge/Mods-34-blue?style=for-the-badge)]()
+[![Items Added](https://img.shields.io/badge/Items%20Added-2000%2B-purple?style=for-the-badge)]()
+[![Recipes Modified](https://img.shields.io/badge/Recipes-10%2C000%2B-orange?style=for-the-badge)]()
+[![License](https://img.shields.io/badge/License-Free%20to%20Use-brightgreen?style=for-the-badge)]()
 
----
+**A comprehensive mod collection for [Icarus: First Cohort](https://store.steampowered.com/app/1149460/Icarus/)**
 
-## Workshop & Items
+All mods require **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)** · `📦 EXMODZ format` · `✅ All DLCs compatible`
 
-| Mod | Ver | Description |
-|-----|-----|-------------|
-| [Agent's BioLab](Agents_BioLab) | 1.9 | All 10 Bio Lab Legendary weapons in the Workshop. 1,000 Exotics each. |
-| [Agent's Individual Item Kits](Agents_Individual_Item_Kits) | 3.0 | 2,052 individual item kits. Fair pricing based on complexity (5–300 credits). |
-| [Workshop Recyclers](Workshop_Recyclers) | 4.6 | Two recycling machines with 1,717 recipes returning 100% Workshop costs including correct exotic types. |
-| [Dev Tools Kit](Dev_Tools_Kit) | 1.1.1 | Unlocks 10 hidden developer tools including Thor's Hammer (fly mode). Free to craft. |
-| [Night Vision Goggles](NightVisionGoggles) | 1.1 | Crafts hidden NV Goggles using the game's built-in night vision system. Toggle with secondary action. |
-
-## Building & Construction
-
-| Mod | Ver | Description |
-|-----|-----|-------------|
-| [Hidden Building Pieces](Hidden_Building_Pieces) | 2.13.7 | 104 hidden building item types — diagonal/curved sets, frames, corner stairs, roof peaks. 1,175 pieces, 757 skins. |
-| [Extended Wire and Pipe Tool](Extended_Wire_and_Pipe_Tool) | 1.0 | 10x range for power cables and pipes. PAK mod — all players + server required. |
-| [Always Show Buildings on Map](Always_show_buildings_on_map) | 1.0 | Buildings always visible on map/minimap without radar. |
-
-## Processing Speed
-
-| Mod | Ver | Description |
-|-----|-----|-------------|
-| [FastProcessing 5x](FastProcessing_All_5x) | 4.3 | 4,028 recipes at 5x speed. Use only ONE variant. |
-| [FastProcessing 10x](FastProcessing_All_10x) | 4.3 | 4,028 recipes at 10x speed. Use only ONE variant. |
-| [FastProcessing 15x](FastProcessing_All_15x) | 4.3 | 4,028 recipes at 15x speed. Use only ONE variant. |
-| [FastProcessing 25x](FastProcessing_All_25x) | 4.3 | 4,028 recipes at 25x speed. Use only ONE variant. |
-| [FastProcessing Instant](FastProcessing_Instant) | 4.3 | 4,028 recipes instant. Use only ONE variant. |
-| [Faster Crafting](Faster_Crafting) | 1.1 | Halves crafting time on 2,163 recipes. Minimum 500mJ. |
-
-
-## Combat & Defense
-
-| Mod | Ver | Description |
-|-----|-----|-------------|
-| [Turret Variants](Turret_Variants) | 3.0 | 15 automated turret variants. LOS fix PAK (no more shooting through walls). Proper ammo matching. |
-| [Trap and Defense Expansion](Trap_Defense_Expansion) | 1.1 | 23 defense recipes. Unlocks 4 elemental landmines previously enemy-only. |
-| [Ammo Crafting Overhaul](Ammo_Crafting_Overhaul) | 1.0 | 50 new ammo recipes. 50x batch crafting + 8 conversion recipes. |
-| [Armor Set Bonuses Enhanced](Armor_Set_Bonuses_Enhanced) | 2.0 | 3-piece partial bonuses for mix-and-match builds + boosted 5-piece bonuses across all 33 sets. |
-
-## Economy & Crafting
-
-| Mod | Ver | Description |
-|-----|-----|-------------|
-| [Exotic Economy Overhaul](Exotic_Economy_Overhaul) | 1.1 | 34 currency exchange recipes at Fabricator. Convert between exotic types, buy/sell materials. |
-| [Tier Upgrade Forge](Tier_Upgrade_Forge) | 1.1 | 26 upgrade recipes. Trade up through tiers at Anvil Bench. |
-| [Waste Not](Waste_Not) | 2.2 | Mining yields useful secondary resources instead of Stone. 33 deposit types. Originally by CritFail. |
-
-## Survival & Resources
-
-| Mod | Ver | Description |
-|-----|-----|-------------|
-| [No Food Spoilage](No_Food_Spoilage) | 1.8 | All food and volatiles never spoil. 85 composter recipes for Spoiled Meat. |
-| [Extended Spoil Timers](Extended_Spoil_Timers) | 1.1 | Food 5x longer, other decay 3x longer. 32 items total. |
-| [Indestructible Tools & Weapons](Indestructible_Tools_Weapons) | 1.6 | 192 items set to never break. Tools, weapons, armor, buildings, stations. |
-| [Stack Size Overhaul](Stack_Size_Overhaul) | 1.1 | 1,268 items. Resources/ammo 5x, everything else 3x. Cap 9999. |
-| [Creature Drop Enhancer](Creature_Drop_Enhancer) | 1.0 | 2x all butchery and skinning outputs across 62 recipes. |
-| [Fish and Farming Boost](Fish_Farming_Boost) | 1.1 | 390 changes. 2x crop growth, +50% harvests, doubled fish spawns. DLC plants included. |
-
-## Character
-
-| Mod | Ver | Description |
-|-----|-----|-------------|
-| [Modular Affliction Adjuster](Modular_Affliction_Adjuster) | 2.0 | All 80+ afflictions reduced ~50% penalties, +50% escalation time, -50% DoT. |
-| [Modular Buff Enhancer](Modular_Buff_Enhancer) | 1.1 | 83 core buffs + 156 food buffs boosted ~50%. |
-| [Culinex Food Boost Fix](Culinex_Food_Boost_Fix) | 2.6 | Fixes Chef's Backpack 25% food boost on all 206 foods/drinks/tonics. Food Rating (S–D) tooltips. |
-| [More Eye Colours](MoreEyeColours) | 2.0 | 60 new eye colors (69 total) across greens, ambers, purples, blues, greys, reds, and exotics. |
-
-## Difficulty & Performance
-
-| Mod | Ver | Description |
-|-----|-----|-------------|
-| [Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | 1.9 | Comprehensive hardcore overhaul. Alpha hunters, limited lives, enraged creatures, survival pressure, creature scaling, deadly storms, wall-attack fix. EXMOD + PAK required. |
-| [Creature Difficulty Scaling](Creature_Difficulty_Scaling) | 2.0 | Full creature scaling for level 500 cap. 161 spawn zones + 136 creatures buffed by tier. Designed for JimK72 Level Cap 500. |
-| [Performance Optimizer](Performance_Optimizer) | 2.1 | FPS optimization via PAK config overrides + data table changes. EXMOD + PAK required. |
-
+</div>
 
 ---
 
-## Installation
-
-1. Install [JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)
-2. Download the `.EXMODZ` file for your mod
-3. Import into Mod Manager and enable
-4. Launch Icarus
-
-Mods marked **PAK required** also need a `.pak` file placed in `<Icarus Install>/Icarus/Content/Paks/mods/`.
-
-## Compatibility
-
-- **FastProcessing** — use only ONE variant at a time
-- **Hardcore Rebalance** — not compatible with Performance Optimizer or Extended Spoil Timers
-- **No Food Spoilage** — not compatible with Extended Spoil Timers
-- **PAK mods** (Extended Wire, Turret Variants LOS Fix, Hardcore Rebalance, Performance Optimizer) — all players + server must have them in multiplayer
-- All other mods are fully compatible with each other
+> **Legend:** `📦 EXMOD only` · `🔧 PAK required` (install `.pak` → `Icarus/Content/Paks/mods/`)  
+> PAK mods require **all players + server** to have them installed in multiplayer.
 
 ---
 
-**Author:** AgentKush | [Open an issue](https://github.com/AgentKush/Icarus-mods/issues) for bugs or requests
+## 🏪 Workshop & Items
+
+| Mod | Ver | Description |
+|-----|:---:|-------------|
+| [🧬 Agent's BioLab](Agents_BioLab) | `1.9` | All 10 Bio Lab Legendary weapons in the Workshop — 1,000 Exotics each |
+| [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `3.0` | 2,052 individual item kits with fair pricing (5–300 credits) |
+| [♻️ Workshop Recyclers](Workshop_Recyclers) | `4.6` | 2 recycling machines · 1,717 recipes · 100% Workshop cost refund including correct exotic types |
+| [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.1` | 10 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |
+| [👁️ Night Vision Goggles](NightVisionGoggles) | `1.1` | Unlocks the hidden NV system — craft goggles at Fabricator, toggle with secondary action |
+
+
+## 🏗️ Building & Construction
+
+| Mod | Ver | Description |
+|-----|:---:|-------------|
+| [🧱 Hidden Building Pieces](Hidden_Building_Pieces) | `2.13.7` | 104 hidden item types — diagonal/curved sets, frames, corner stairs, roof peaks · **1,175 pieces · 757 skins** · Storm immune + hammer repairable |
+| [⚡ Extended Wire and Pipe Tool](Extended_Wire_and_Pipe_Tool) | `1.0` | 🔧 10× range on all cables and pipes — power/water/biofuel 60m, crude oil 100m |
+| [🗺️ Always Show Buildings on Map](Always_show_buildings_on_map) | `1.0` | Buildings always visible on map and minimap — no radar required |
+
+---
+
+## ⚡ Processing Speed
+
+> ⚠️ **Use only ONE FastProcessing variant at a time.** They all modify the same recipes.
+
+| Mod | Ver | Speed | Recipes |
+|-----|:---:|:-----:|:-------:|
+| [FastProcessing 5x](FastProcessing_All_5x) | `4.3` | 5× faster | 4,028 |
+| [FastProcessing 10x](FastProcessing_All_10x) | `4.3` | 10× faster | 4,028 |
+| [FastProcessing 15x](FastProcessing_All_15x) | `4.3` | 15× faster | 4,028 |
+| [FastProcessing 25x](FastProcessing_All_25x) | `4.3` | 25× faster | 4,028 |
+| [FastProcessing Instant](FastProcessing_Instant) | `4.3` | ⚡ Instant | 4,028 |
+| [⚒️ Faster Crafting](Faster_Crafting) | `1.1` | 2× faster (active crafting only) | 2,163 |
+
+*FastProcessing covers passive processors (furnaces, refineries). Faster Crafting covers active workbench crafting. They stack.*
+
+---
+
+## ⚔️ Combat & Defense
+
+| Mod | Ver | Description |
+|-----|:---:|-------------|
+| [🎯 Turret Variants](Turret_Variants) | `3.0` | 🔧 15 automated turret variants · LOS fix (no wall-shooting) · Proper ammo matching (arrows/bolts/javelins/biofuel) |
+| [💣 Trap and Defense Expansion](Trap_Defense_Expansion) | `1.1` | 23 defense recipes · Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) previously enemy-only |
+| [🪃 Ammo Crafting Overhaul](Ammo_Crafting_Overhaul) | `1.0` | 50× batch crafting for all arrow and bullet types · 8 ammo conversion recipes |
+| [🛡️ Armor Set Bonuses Enhanced](Armor_Set_Bonuses_Enhanced) | `2.0` | 3-piece partial bonuses for mix-and-match builds + boosted 5-piece bonuses across all 33 sets |
+
+
+## 💰 Economy & Crafting
+
+| Mod | Ver | Description |
+|-----|:---:|-------------|
+| [💎 Exotic Economy Overhaul](Exotic_Economy_Overhaul) | `1.1` | 34 exchange recipes — convert exotic types, buy/sell materials, bulk ore processing. All at Fabricator |
+| [🔨 Tier Upgrade Forge](Tier_Upgrade_Forge) | `1.1` | 26 upgrade recipes — trade up through tool and weapon tiers at the Anvil Bench |
+| [⛏️ Waste Not](Waste_Not) | `2.2` | Mining yields useful secondary resources instead of Stone · 33 deposit types · *Originally by CritFail* |
+
+---
+
+## 🎒 Survival & Resources
+
+| Mod | Ver | Description |
+|-----|:---:|-------------|
+| [🥩 No Food Spoilage](No_Food_Spoilage) | `1.8` | All food and volatiles never spoil · 85 composter recipes to still make Spoiled Meat manually |
+| [⏱️ Extended Spoil Timers](Extended_Spoil_Timers) | `1.1` | Food 5× longer · Other decay 3× longer · 32 items total *(not compatible with No Food Spoilage)* |
+| [🔩 Indestructible Tools & Weapons](Indestructible_Tools_Weapons) | `1.6` | 192 items set to max durability — tools, weapons, armor, buildings, crafting stations |
+| [📦 Stack Size Overhaul](Stack_Size_Overhaul) | `1.1` | 1,268 items — resources/ammo 5×, everything else 3×, cap 9,999 |
+| [🐾 Creature Drop Enhancer](Creature_Drop_Enhancer) | `1.0` | 2× all butchery and skinning outputs across 62 recipes |
+| [🌾 Fish and Farming Boost](Fish_Farming_Boost) | `1.1` | 390 changes — 2× crop growth, +50% harvests, doubled fish spawns, DLC plants included |
+
+---
+
+## 🧬 Character
+
+| Mod | Ver | Description |
+|-----|:---:|-------------|
+| [🩹 Modular Affliction Adjuster](Modular_Affliction_Adjuster) | `2.0` | 80+ afflictions reduced ~50% penalties · +50% escalation time · -50% damage over time |
+| [💊 Modular Buff Enhancer](Modular_Buff_Enhancer) | `1.1` | 83 core buffs + 156 food buffs all boosted ~50% — stacks with talent bonuses |
+| [🍳 Culinex Food Boost Fix](Culinex_Food_Boost_Fix) | `2.6` | Fixes Chef's Backpack 25% food boost on all 206 foods/drinks/tonics · Food Rating (S–D) tooltips |
+| [👁️ More Eye Colours](MoreEyeColours) | `2.0` | 60 new eye colors (69 total) — greens, ambers, purples, blues, greys, reds, and exotics |
+
+
+## ☠️ Difficulty & Performance
+
+| Mod | Ver | Description |
+|-----|:---:|-------------|
+| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `1.9` | 🔧 The full brutal experience — alpha hunters · limited lives (permadeath on Hard) · enraged creatures · survival pressure · creature scaling · deadly storms · wall-attack fix · 167 prospects covered |
+| [🦁 Creature Difficulty Scaling](Creature_Difficulty_Scaling) | `2.0` | Full creature overhaul for level 500 cap · 161 spawn zones rescaled · 136 creatures buffed by tier · Designed for JimK72 Level Cap 500 |
+| [📈 Performance Optimizer](Performance_Optimizer) | `2.1` | 🔧 FPS boost via PAK engine overrides (foliage/shadows/fog/LOD) + data table changes (spawns/hordes/weather) |
+
+---
+
+## 🚀 Quick Start
+
+```
+1. Install  →  JimK72's Icarus Mod Manager  (github.com/Jimk72/Icarus_Software)
+2. Download →  The .EXMODZ file for any mod you want
+3. Import   →  Drag into Mod Manager and enable
+4. PAK mods →  Also copy the .pak file to: Icarus/Content/Paks/mods/
+5. Launch   →  Start Icarus and enjoy
+```
+
+---
+
+## ⚠️ Compatibility Notes
+
+| Rule | Mods Affected |
+|------|---------------|
+| Use **only one** at a time | All FastProcessing variants (5×/10×/15×/25×/Instant) |
+| **Not compatible** with each other | No Food Spoilage ↔ Extended Spoil Timers |
+| **Not compatible** with each other | Hardcore Rebalance Pack ↔ Extended Spoil Timers |
+| Multiplayer: **all players + server** must install | Extended Wire · Turret Variants LOS Fix · Hardcore Rebalance · Performance Optimizer |
+| Everything else | ✅ Fully compatible with each other |
+
+---
+
+<div align="center">
+
+**Made by AgentKush** · [🐛 Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [📥 Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free to use. If you enjoy them, leave a ⭐ on the repo!*
+
+</div>
