@@ -2,7 +2,7 @@
   "name": "Stack Size Overhaul",
   "author": "AgentKush",
   "fileName": "Stack_Size_Overhaul",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Increases stack sizes on 1232 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. Unstackable items unchanged.",
   "Level2": "True",
   "Rows": [
@@ -4936,6 +4936,150 @@
         {
           "Name": "Item_Animal_Gruel_Fish",
           "MaxStack": 75
+        },
+        {
+          "Name": "Item_Agave",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Agave_Seed",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Agave_Syrup",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Animal_Gruel_Rotten",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Animal_Silage",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Caramelized_Onions",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Cooked_Agave",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Cooked_Garlic",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Cooked_Onion",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Cooked_PricklyPear",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Fertility_Serum_Raptor",
+          "MaxStack": 10
+        },
+        {
+          "Name": "Item_Fertility_Serum_Slinker",
+          "MaxStack": 10
+        },
+        {
+          "Name": "Item_French_Onion_Soup",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Garlic",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Garlic_Bread",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Garlic_Butter",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Garlic_Pizza",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Garlic_Seed",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Glazed_Carrots",
+          "MaxStack": 10
+        },
+        {
+          "Name": "Item_Onion",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Onion_Rings",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Onion_Seed",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Onion_Souffle",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_PricklyPear",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_PricklyPear_Jelly",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_PricklyPear_Margarita",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_PricklyPear_Muffins",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_PricklyPear_Seed",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Pumpkin_Pie",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Sandwyrm_Queen_Head",
+          "MaxStack": 5
+        },
+        {
+          "Name": "Item_Smoked_Garlic",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Tequila",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Truffle_Fries",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Truffle_Vodka",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Vodka",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Yeti_Head",
+          "MaxStack": 5
         }
       ]
     }

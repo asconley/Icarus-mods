@@ -69,3 +69,7 @@ Eliminates equipment degradation by setting all durability values to the game's 
 ---
 
 *Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+
+## Changelog
+### v1.6 (2026-03-08)
+- Added Sandwyrm_Gear row - covers Sandwyrm Backpack

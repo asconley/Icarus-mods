@@ -2,7 +2,7 @@
   "name": "Fish and Farming Boost",
   "author": "AgentKush",
   "fileName": "Fish_Farming_Boost",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Farming and fishing overhaul with 335 changes. Crops grow 2x faster, harvest yields +50%, +2 cultivations per plot, fish spawn rates doubled, fish quality +50%.",
   "Level2": "True",
   "Rows": [
@@ -632,6 +632,226 @@
         {
           "Name": "Truffle_Growth_05",
           "TimeToNextState": 2400
+        },
+        {
+          "Name": "Agave_Growth_01",
+          "TimeToNextState": 113
+        },
+        {
+          "Name": "Agave_Growth_02",
+          "TimeToNextState": 226
+        },
+        {
+          "Name": "Agave_Growth_03",
+          "TimeToNextState": 339
+        },
+        {
+          "Name": "Agave_Growth_04",
+          "TimeToNextState": 677
+        },
+        {
+          "Name": "Agave_Growth_05",
+          "TimeToNextState": 2708
+        },
+        {
+          "Name": "Agave_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Avocado_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Banana_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Beans_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "BerryBush_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Bramble_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Carrot_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Cocoa_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Coconut_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Coffee_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Corn_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Fiber_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Garlic_Growth_01",
+          "TimeToNextState": 113
+        },
+        {
+          "Name": "Garlic_Growth_02",
+          "TimeToNextState": 226
+        },
+        {
+          "Name": "Garlic_Growth_03",
+          "TimeToNextState": 339
+        },
+        {
+          "Name": "Garlic_Growth_04",
+          "TimeToNextState": 677
+        },
+        {
+          "Name": "Garlic_Growth_05",
+          "TimeToNextState": 2708
+        },
+        {
+          "Name": "Garlic_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "GreenTea_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Kiwi_Fruit_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Kumara_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Lily_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Mushroom_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Onion_Growth_01",
+          "TimeToNextState": 113
+        },
+        {
+          "Name": "Onion_Growth_02",
+          "TimeToNextState": 226
+        },
+        {
+          "Name": "Onion_Growth_03",
+          "TimeToNextState": 339
+        },
+        {
+          "Name": "Onion_Growth_04",
+          "TimeToNextState": 677
+        },
+        {
+          "Name": "Onion_Growth_05",
+          "TimeToNextState": 2708
+        },
+        {
+          "Name": "Onion_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Potato_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "PricklyPear_Growth_01",
+          "TimeToNextState": 113
+        },
+        {
+          "Name": "PricklyPear_Growth_02",
+          "TimeToNextState": 226
+        },
+        {
+          "Name": "PricklyPear_Growth_03",
+          "TimeToNextState": 339
+        },
+        {
+          "Name": "PricklyPear_Growth_04",
+          "TimeToNextState": 677
+        },
+        {
+          "Name": "PricklyPear_Growth_05",
+          "TimeToNextState": 2708
+        },
+        {
+          "Name": "PricklyPear_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Pumpkin_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Red_Exotic_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "ReedFlower_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Rhubarb_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Squash_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Stawberry_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Sugar_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Test_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Tomato_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Truffle_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Watermelon_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Wheat_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "WildTea_Growth_Dead",
+          "TimeToNextState": 1
+        },
+        {
+          "Name": "Yeast_Growth_Dead",
+          "TimeToNextState": 1
         }
       ]
     },

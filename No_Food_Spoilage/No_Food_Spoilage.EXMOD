@@ -1,7 +1,7 @@
 {
   "name": "No Food Spoilage",
   "author": "AgentKush",
-  "version": "1.5",
+  "version": "1.6",
   "description": "Prevents all food items and volatile substances from spoiling. Includes 85 composter recipes to manually create Spoiled Meat from raw meats, fish, and fillets.",
   "fileName": "No_Food_Spoilage",
   "imageURL": "",
@@ -149,6 +149,24 @@
         },
         {
           "Name": "Decay_Volatile_Substance",
+          "DecayTime": 300,
+          "SpoilTime": 0,
+          "SpoiledItem": {
+            "RowName": "None",
+            "DataTableName": "D_ItemTemplate"
+          }
+        },
+        {
+          "Name": "Decay_General",
+          "DecayTime": 300,
+          "SpoilTime": 0,
+          "SpoiledItem": {
+            "RowName": "None",
+            "DataTableName": "D_ItemTemplate"
+          }
+        },
+        {
+          "Name": "Decay_MetaItem",
           "DecayTime": 300,
           "SpoilTime": 0,
           "SpoiledItem": {

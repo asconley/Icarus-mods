@@ -77,3 +77,7 @@ Reduces all crafting and processing times to ~6.7% of their original duration (1
 ---
 
 *Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+
+## Changelog
+### v4.3 (2026-03-08)
+- Added 351 new recipes from latest update/DLC

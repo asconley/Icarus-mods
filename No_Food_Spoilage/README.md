@@ -10,6 +10,8 @@ Prevents all food items and volatile substances from spoiling by setting SpoilTi
 - Volatile Substance decay also disabled
 
 ## Changelog
+### v1.6 (2026-03-08)
+- Added Decay_General and Decay_MetaItem for full coverage
 
 ### v1.5
 - Verified all 20 decay types are current with latest game data

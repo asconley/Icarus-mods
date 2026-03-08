@@ -21,3 +21,7 @@ Import `Stack_Size_Overhaul.EXMODZ` via Icarus Mod Manager.
 ## Version History
 
 - **v1.0** - Initial release, 1,232 items modified
+
+## Changelog
+### v1.1 (2026-03-08)
+- Added 36 new DLC items: Agave, Garlic, Onion, PricklyPear foods + trophies

@@ -70,6 +70,8 @@ Every mineable deposit now drops something useful as a secondary resource instea
 ---
 
 ## Changelog
+### v2.2 (2026-03-08)
+- Added 7 new voxel types: Exotic_Normal, Frozen_Ore, Limestone_Dense, Limestone_Normal, Random_Normal, Research_Normal, Salt_Normal
 
 | Version | Changes |
 |---------|---------|

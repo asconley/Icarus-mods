@@ -44,3 +44,7 @@ Import `Extended_Spoil_Timers.EXMODZ` via Icarus Mod Manager.
 ## Version History
 
 - **v1.0** - Initial release, 29 decay timers extended
+
+## Changelog
+### v1.1 (2026-03-08)
+- Added Decay_Arrow, Decay_Delivery_Object, Decay_Quick rows

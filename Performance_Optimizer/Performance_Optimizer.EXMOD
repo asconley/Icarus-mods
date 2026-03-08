@@ -2,7 +2,7 @@
   "name": "Agents Optimization Mod",
   "author": "AgentKush",
   "fileName": "Performance_Optimizer",
-  "version": "2.0",
+  "version": "2.1",
   "description": "Comprehensive FPS optimization - PAK config overrides (foliage/shadow/fog/LOD reduction) plus data table changes (reduced spawns, slower hordes, extended decay, boosted fuel, weather tuning).",
   "Level2": "True",
   "Rows": [
@@ -115,6 +115,26 @@
           "Name": "NPC_Outpost",
           "MaxSpawnCount": 1,
           "MaxDistanceToPlayers": 22500
+        },
+        {
+          "Name": "Dragonfly_Nest",
+          "MaxSpawnCount": 3,
+          "MaxDistanceToPlayers": 30000
+        },
+        {
+          "Name": "FleshSac_Floater",
+          "MaxSpawnCount": 15,
+          "MaxDistanceToPlayers": 30000
+        },
+        {
+          "Name": "SandScuttle",
+          "MaxSpawnCount": 1,
+          "MaxDistanceToPlayers": 2000
+        },
+        {
+          "Name": "SulphurWorm",
+          "MaxSpawnCount": 1,
+          "MaxDistanceToPlayers": 5000
         }
       ]
     },
@@ -12858,6 +12878,18 @@
               },
               {
                 "RowName": "Dragonfly_Nest",
+                "DataTableName": "D_AutonomousSpawns"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "PRO_Volcanic_SulfurPools",
+          "Creatures": {
+            "BiomeSpawnDensity": 5,
+            "RelevantAutonomousSpawners": [
+              {
+                "RowName": "Gas_Flyer",
                 "DataTableName": "D_AutonomousSpawns"
               }
             ]

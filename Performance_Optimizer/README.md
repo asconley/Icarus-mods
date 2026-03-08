@@ -73,6 +73,8 @@ Comprehensive performance optimization mod combining engine-level config overrid
 2. Import `Agents_Optimization_Mod.EXMODZ` using JimK72's Icarus Mod Manager
 
 ## Changelog
+### v2.1 (2026-03-08)
+- Added PRO_Volcanic_SulfurPools spawn zone + 4 new autonomous spawns
 
 ### v2.0
 - **NEW: PAK engine overrides** — foliage, shadows, fog, renderer, textures

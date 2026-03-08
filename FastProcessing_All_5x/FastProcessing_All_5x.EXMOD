@@ -2,7 +2,7 @@
   "name": "FastProcessing_All_5x",
   "author": "AgentKush",
   "fileName": "FastProcessing_All_5x",
-  "version": "4.2",
+  "version": "4.3",
   "description": "All crafting and processing 5x faster. 3677 recipes including base game, Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, and Culinex Food Boost Fix. Use only ONE FastProcessing variant.",
   "week": "",
   "Level2": "True",
@@ -14716,6 +14716,1410 @@
         },
         {
           "Name": "Zebrah_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Advanced_Orbital_Exchange_Interface",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Agave_Seeds",
+          "RequiredMillijoules": 3000
+        },
+        {
+          "Name": "Alloy_Armor_Arms",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Alloy_Armor_Chest",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Alloy_Armor_Feet",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Alloy_Armor_Head",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Alloy_Armor_Legs",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Aluminium_Screw",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Animal_Silage_Fiber",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Animal_Silage_Grain",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "AssaultRifle_Round_Lithium",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "AssaultRifle_Round_Uranium",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Attachment_Armor_Comfort_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Armor_Comfort_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Arms_FistDamage_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Arms_FistDamage_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Arms_ThrowAccuracy_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Arms_ThrowAccuracy_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Axe_FellingDamage_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Axe_FellingDamage_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Axe_FellingYield_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Axe_FellingYield_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Chest_Oxygen_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Chest_Oxygen_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Chest_StomachCapacity_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_ClayYield_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_ClayYield_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Guns_Damage_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Guns_Damage_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Guns_ExtendedAmmo_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Guns_ExtendedAmmo_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Knife_VestigeChance_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Knife_VestigeChance_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Laser_Converison_Electric",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Laser_Converison_Fire",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Laser_Converison_Frost",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Laser_Converison_Poison",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Legs_Jump_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Legs_Jump_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_ObsidianYield_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_ObsidianYield_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Pickaxe_BauxiteYield_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Pickaxe_BauxiteYield_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Pickaxe_MiningRadius_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Pickaxe_MiningRadius_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Pistol_Accuracy_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Pistol_Accuracy_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Rifle_Accuracy_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Rifle_Accuracy_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_ScoriaYield_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_ScoriaYield_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Sledgehammer_Slow2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Sledgehammer_Slow_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Tool_Durability_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Tool_Durability_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Attachment_Tool_StaminaCost_1",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Attachment_Tool_StaminaCost_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Banana_Porridge",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Banana_Tart",
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Battery_T3_Shelf_Lithium",
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Battery_T4_Shelf_Lithium",
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Biofuel_10",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Biomass_To_Ape_Bicep",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Ape_Hide",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_BlackFur",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_BlackWolfTooth",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Frozen_Wool",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Golem_Core",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Ice_Fragment",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Lava_Hunter_Horn",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Lava_Hunter_Magma",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Rock_Fragment",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_SandwormScale",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_SandwormTendon",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Sandwyrm_Egg",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Scorpion_Carapace",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Scorpion_Sac",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Slug_Skin",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Slug_Slime",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Blood_Thinning_Tonic_0",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Bounder_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Bull_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Bounder_Desert",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Chew",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Mange_Wolf",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Orka",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Slinker",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Storca",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_TundraMonkey",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Tundra_Deer",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Chainsaw",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Charging_Station_Wall",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Checkered_Flag",
+          "RequiredMillijoules": 3000
+        },
+        {
+          "Name": "Chew_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "ClayBrick_Advanced_Beams_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "ClayBrick_Curved_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "ClayBrick_Diagonal_Curved_Wall_Angles",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "ClayBrick_Diagonal_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "ClayBrick_Roof_CurvedAngles",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "ClayBrick_Wall_Curved",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Cold_Steel_Ingot_2",
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Common_Vestige",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Concrete_Advanced_Beams_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Concrete_Curved_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Concrete_Diagonal_Curved_Wall_Angles",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Concrete_Diagonal_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Concrete_Roof_CurvedAngles",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Concrete_Wall_Curved",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Cooked_Banana",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Creature_Bait_Orka",
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Creature_Bait_Storca",
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Creature_Bait_Tundra_Monkey",
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Crude_Oil_Power_Generator",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Crude_Oil_Refiner",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Crushed_Limestone",
+          "RequiredMillijoules": 50
+        },
+        {
+          "Name": "Deep_Mining_Drill_Oil",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Dragonfly_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Dried_Banana",
+          "RequiredMillijoules": 3500
+        },
+        {
+          "Name": "Drink_PricklyPear_Margarita",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Drink_Tequila",
+          "RequiredMillijoules": 10000
+        },
+        {
+          "Name": "Drink_Truffle_Vodka",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Drink_Vodka",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Dust_Copper",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Dust_Gold",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Dust_Iron",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Farmer_Plant_Extract",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Farmer_Plant_Fruit",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Farmer_Plant_Grain",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Farmer_Plant_Herb",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Farmer_Plant_Speciality",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Farmer_Plant_Vegetable",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fertility_Serum_Raptor",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Fertility_Serum_Raptor_Exotic",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Fertility_Serum_Slinker",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Fertility_Serum_Slinker_Exotic",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Fisher_Freshwater_Fish",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fisher_Saltwater_Fish",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fisher_Unique_Fish",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Flare_Blue",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Flare_Green",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Flare_Red",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Flare_Yellow",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Flaregun",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Flat_Solar_Panel_Lithium",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Flightless_Tank_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Flying_Tank_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Food_Agave_Syrup",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Food_Banana_Bread",
+          "RequiredMillijoules": 3000
+        },
+        {
+          "Name": "Food_Banana_Toast",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Food_Caramelized_Onion",
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Food_Cooked_Agave",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Food_Cooked_Garlic",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Food_Cooked_Onion",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Food_Cooked_PricklyPear",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Food_French_Onion_Soup",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Food_Garlic_Bread",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Food_Garlic_Butter",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Food_Garlic_Pizza",
+          "RequiredMillijoules": 6000
+        },
+        {
+          "Name": "Food_Glazed_Carrots",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Food_Gruel",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Food_Onion_Rings",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Food_Onion_Souffle",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Food_Oxy",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Food_PricklyPear_Jelly",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Food_PricklyPear_Muffins",
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Food_Pumpkin_Pie",
+          "RequiredMillijoules": 3000
+        },
+        {
+          "Name": "Food_Ration",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Food_Smoked_Garlic",
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Food_Soda",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Food_Truffle_Fries",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Fortification_Concrete_Gate",
+          "RequiredMillijoules": 2300
+        },
+        {
+          "Name": "Fortification_Concrete_Platform",
+          "RequiredMillijoules": 2300
+        },
+        {
+          "Name": "Fortification_Concrete_Spike",
+          "RequiredMillijoules": 2300
+        },
+        {
+          "Name": "Fortification_Concrete_Walkway",
+          "RequiredMillijoules": 2300
+        },
+        {
+          "Name": "Fortification_Concrete_Wall",
+          "RequiredMillijoules": 2300
+        },
+        {
+          "Name": "Fortification_Stone_Gate",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Fortification_Stone_Platform",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Fortification_Stone_Spikes",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Fortification_Stone_Walkways",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Fortification_Stone_Wall",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Frozen_Banana",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Fur_Stack",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Garlic_Seeds",
+          "RequiredMillijoules": 3000
+        },
+        {
+          "Name": "Geothermal_Bat_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Geothermal_Spider_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Ghost_Crocodile_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Giant_Roach_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Glass_Advanced_Beams_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Glass_Advanced_Beams_Set_Tempered",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Glass_Curved_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Glass_Curved_Set_Tempered",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Glass_Diagonal_Curved_Wall_Angles",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Glass_Diagonal_Curved_Wall_Angles_Tempered",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Glass_Diagonal_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Glass_Diagonal_Set_Tempered",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Glass_Roof_CurvedAngles",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Glass_Roof_CurvedAngles_Tempered",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Glass_Wall_Curved",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Glass_Wall_Curved_Tempered",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Hazmat_Arms",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Hazmat_Chest",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Hazmat_Feet",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Hazmat_Head",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Hazmat_Legs",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Hopping_Creature_Swamp_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Hopping_Creature_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Ice_Beam",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Ice_Floor",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Ice_Ramp",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Ice_Roof_Corner",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Ice_Wall",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Ice_Wall_Angle",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Jackhammer",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Landing_Pad",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Laser_Pistol",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Limestone_Beam",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Limestone_Concrete_Mix",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Limestone_Fertilizer",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Limestone_Floor",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Limestone_Frame",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Limestone_Glass",
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Limestone_Half_Pitch",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Limestone_Halfpiece",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Limestone_Ramp",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Limestone_Roof_Corner",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Limestone_Wall",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Limestone_Wall_Angled",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Lithium_Arrow",
+          "RequiredMillijoules": 50
+        },
+        {
+          "Name": "Lithium_Axe",
+          "RequiredMillijoules": 16000
+        },
+        {
+          "Name": "Lithium_Bolt",
+          "RequiredMillijoules": 50
+        },
+        {
+          "Name": "Lithium_Bow",
+          "RequiredMillijoules": 16000
+        },
+        {
+          "Name": "Lithium_Crossbow",
+          "RequiredMillijoules": 16000
+        },
+        {
+          "Name": "Lithium_Knife",
+          "RequiredMillijoules": 16000
+        },
+        {
+          "Name": "Lithium_Pickaxe",
+          "RequiredMillijoules": 16000
+        },
+        {
+          "Name": "Lithium_Refined",
+          "RequiredMillijoules": 6000
+        },
+        {
+          "Name": "Lithium_Shield",
+          "RequiredMillijoules": 16000
+        },
+        {
+          "Name": "Lithium_Sickle",
+          "RequiredMillijoules": 16000
+        },
+        {
+          "Name": "Lithium_Sledge",
+          "RequiredMillijoules": 16000
+        },
+        {
+          "Name": "Lithium_Spear",
+          "RequiredMillijoules": 16000
+        },
+        {
+          "Name": "Lithium_Throwing_Knife",
+          "RequiredMillijoules": 16000
+        },
+        {
+          "Name": "Lithium_Throwing_Spear",
+          "RequiredMillijoules": 16000
+        },
+        {
+          "Name": "Mange_Wolf_Alpha_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Mange_Wolf_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Manufacturer",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Metal_Grate_Floor",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Metal_Grate_Stairs",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Miner_Armor_Arms",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Miner_Armor_Chest",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Miner_Armor_Feet",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Miner_Armor_Head",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Miner_Armor_Legs",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Mining_Laser",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Mission_Drone_Navigation",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Mission_Drone_Rotor",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Mission_Makeshift_Beacon",
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Nailgun",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Natural_Oil_Refiner",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Oil_Barrel",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Oil_Can",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Oil_Compounds",
+          "RequiredMillijoules": 4800
+        },
+        {
+          "Name": "Oil_Epoxy",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Oil_Plastics",
+          "RequiredMillijoules": 3000
+        },
+        {
+          "Name": "Oil_Synthetics",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Onion_Seeds",
+          "RequiredMillijoules": 3000
+        },
+        {
+          "Name": "Organic_Extractor",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Orka_Arctic_Trophy",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Pipe_Tool_Biofuel",
+          "RequiredMillijoules": 10000
+        },
+        {
+          "Name": "Pipe_Tool_Crude_Oil",
+          "RequiredMillijoules": 10000
+        },
+        {
+          "Name": "Pistol_Round_Lithium",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Pistol_Round_Uranium",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Polarbear_Head_Armor_Yeti",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Polymerizer",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Powerbank",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Powerbank_2",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "PricklyPear_Seeds",
+          "RequiredMillijoules": 3000
+        },
+        {
+          "Name": "Pump_Jack",
+          "RequiredMillijoules": 10000
+        },
+        {
+          "Name": "Pyritic_Crust_Limestone",
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Rabbit_Varient_Snow_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Radiation_Protection_Armor_Arms",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Radiation_Protection_Armor_Chest",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Radiation_Protection_Armor_Feet",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Radiation_Protection_Armor_Head",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Radiation_Protection_Armor_Legs",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Radiation_Tracker",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Radiation_Transfusion",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Raptor_Desert_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Raptor_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Rare_Vestige",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Reaver_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Red_Exotic_Seed",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Refined_Iron_Wood_2",
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Rifle_Round_Lithium",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Rifle_Round_Uranium",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Rooster_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Rotten_Gruel",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Saddle_Raptor",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Sandscuttle_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Sandwyrm_Backpack",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Sandwyrm_Biomass",
+          "RequiredMillijoules": 30000
+        },
+        {
+          "Name": "Sandwyrm_Bow",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Sandwyrm_Lantern",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Sandwyrm_Lure",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Sandwyrm_Target",
+          "RequiredMillijoules": 1500
+        },
+        {
+          "Name": "Sandwyrm_Throne",
+          "RequiredMillijoules": 3000
+        },
+        {
+          "Name": "ScoriaBrick_Advanced_Beams_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "ScoriaBrick_Curved_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "ScoriaBrick_Diagonal_Curved_Wall_Angles",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "ScoriaBrick_Diagonal_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "ScoriaBrick_Roof_CurvedAngles",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "ScoriaBrick_Wall_Curved",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Shaped_Ruby",
+          "RequiredMillijoules": 6000
+        },
+        {
+          "Name": "Shotgun_Shell_Lithium",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Shotgun_Shell_Uranium",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Slinker_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Solar_Panel_Lithium",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Soy_Milk",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Speeder_Kit",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Steel_Bloom_Limestone",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Stomper_Matriach_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Stomper_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "StoneBrick_Advanced_Beams_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "StoneBrick_Curved_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "StoneBrick_Diagonal_Curved_Wall_Angles",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "StoneBrick_Diagonal_Set",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "StoneBrick_Roof_CurvedAngles",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "StoneBrick_Wall_Curved",
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Storca_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Submachine_Gun_Sandwyrm",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "Submachine_Gun_Scout",
+          "RequiredMillijoules": 2000
+        },
+        {
+          "Name": "SulfurWorm_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Synthetic_Armor_Arms",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Synthetic_Armor_Chest",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Synthetic_Armor_Feet",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Synthetic_Armor_Head",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Synthetic_Armor_Legs",
+          "RequiredMillijoules": 4000
+        },
+        {
+          "Name": "Telsa_Coil",
+          "RequiredMillijoules": 40000
+        },
+        {
+          "Name": "Thumper_Sandworm",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Tundra_Deer_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Tundra_Monkey_Trophy",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Uncommon_Vestige",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Unique_Vestige",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Uranium",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Uranium_Arrow",
+          "RequiredMillijoules": 50
+        },
+        {
+          "Name": "Uranium_Bolt",
+          "RequiredMillijoules": 50
+        },
+        {
+          "Name": "Uranium_Collector",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Uranium_Converter",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Uranium_Generator",
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Uranium_Platinum",
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Uranium_Titanium",
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Volatile_Substance_3",
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Yeti_Trophy",
           "RequiredMillijoules": 0
         }
       ]

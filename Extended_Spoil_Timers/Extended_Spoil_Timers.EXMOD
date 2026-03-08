@@ -2,7 +2,7 @@
   "name": "Extended Spoil Timers",
   "author": "AgentKush",
   "fileName": "Extended_Spoil_Timers",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Extends decay timers on 29 items. Food spoilage 5x longer, other decay 3x longer. Arrows and transient items unchanged.",
   "Level2": "True",
   "Rows": [
@@ -124,6 +124,18 @@
         {
           "Name": "Decay_Dried_Fish",
           "DecayTime": 1500
+        },
+        {
+          "Name": "Decay_Arrow",
+          "DecayTime": 180
+        },
+        {
+          "Name": "Decay_Delivery_Object",
+          "DecayTime": 60
+        },
+        {
+          "Name": "Decay_Quick",
+          "DecayTime": 60
         }
       ]
     }

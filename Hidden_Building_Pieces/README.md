@@ -70,6 +70,10 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 - ✅ Compatible with all DLCs
 
 ## Changelog
+### v2.13.7 (2026-03-08)
+- Added 675 new building pieces from DLC update
+- Added 296 new building skins (Ice building set)
+- Added 6 new building types (Dirt, Interior_Wood, Invalid, Iron, Metal_Grate, Steel)
 
 ### v2.13.6
 - **TEXTURE FIX:** Updated 40 building skins to match current game material paths

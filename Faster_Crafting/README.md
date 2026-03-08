@@ -20,3 +20,7 @@ Import `Faster_Crafting.EXMODZ` via Icarus Mod Manager.
 ## Version History
 
 - **v1.0** - Initial release, 952 recipes halved
+
+## Changelog
+### v1.1 (2026-03-08)
+- Added 1211 missing recipes from latest update/DLC

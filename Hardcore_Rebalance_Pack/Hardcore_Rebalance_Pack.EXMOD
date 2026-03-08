@@ -2,7 +2,7 @@
   "name": "Hardcore Rebalance Pack",
   "author": "AgentKush",
   "fileName": "Hardcore_Rebalance_Pack",
-  "version": "1.8",
+  "version": "1.9",
   "description": "For survivors who think Icarus is too easy. 671 changes across 11 data tables + 2 blueprint overrides. ALPHA HUNTERS (12 named bosses across 255 spawn points with workshop item drops). LIMITED LIVES (Easy=3, Medium=1, Hard=PERMADEATH). ENRAGED CREATURES (3x faster rage, 4.5x longer cooldown). SURVIVAL PRESSURE (reduced HP + slower crafting). REVENGE SPAWNS (longer delays + further distances). CREATURE SCALING on all difficulties. DEADLY LIGHTNING STORMS. BOOSTED KILL XP. WALL-ATTACK FIX. Full coverage across 167 prospects.",
   "Level2": "True",
   "Rows": [
@@ -13324,6 +13324,26 @@
           "Name": "NPC_Outpost",
           "MaxSpawnCount": 3,
           "MaxDistanceToPlayers": 45000
+        },
+        {
+          "Name": "Dragonfly_Nest",
+          "MaxSpawnCount": 7,
+          "MaxDistanceToPlayers": 30000
+        },
+        {
+          "Name": "FleshSac_Floater",
+          "MaxSpawnCount": 37,
+          "MaxDistanceToPlayers": 30000
+        },
+        {
+          "Name": "SandScuttle",
+          "MaxSpawnCount": 4,
+          "MaxDistanceToPlayers": 2000
+        },
+        {
+          "Name": "SulphurWorm",
+          "MaxSpawnCount": 4,
+          "MaxDistanceToPlayers": 5000
         }
       ]
     },

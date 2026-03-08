@@ -93,6 +93,8 @@ For survivors who think Icarus is too easy. Comprehensive hardcore overhaul with
 All players AND the server must have this mod installed.
 
 ## Changelog
+### v1.9 (2026-03-08)
+- Added Dragonfly_Nest, FleshSac_Floater, SandScuttle, SulphurWorm autonomous spawns
 
 ### v1.8
 - Enraged creatures: 3x faster rage, 4.5x longer cooldown (blueprint override)

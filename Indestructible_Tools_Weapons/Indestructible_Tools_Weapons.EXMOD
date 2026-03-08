@@ -1,7 +1,7 @@
 {
   "name": "Indestructible Tools & Weapons",
   "author": "AgentKush",
-  "version": "1.5",
+  "version": "1.6",
   "description": "All tools, weapons, armor, buildings, doors, and crafting stations will never break. Sets durability to max cap (12,700,000).",
   "fileName": "Indestructible_Tools_Weapons",
   "imageURL": "",
@@ -2418,6 +2418,19 @@
           "Name": "LightningRod_Platinum",
           "Max_Durability": 2000000,
           "Destroyed_At_Zero": true
+        },
+        {
+          "Name": "Sandwyrm_Gear",
+          "Max_Durability": 12700000,
+          "ItemsForRepair": [
+            {
+              "Item": {
+                "RowName": "Sandwyrm_Egg",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Amount": 1
+            }
+          ]
         }
       ]
     }

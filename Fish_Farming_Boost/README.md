@@ -38,3 +38,7 @@ Import `Fish_Farming_Boost.EXMODZ` via Icarus Mod Manager.
 ## Version History
 
 - **v1.0** - Initial release, 335 changes across 4 data tables
+
+## Changelog
+### v1.1 (2026-03-08)
+- Added 55 new farming growth states for DLC plants (Agave, Garlic, Onion, PricklyPear + dead states for all crops)
