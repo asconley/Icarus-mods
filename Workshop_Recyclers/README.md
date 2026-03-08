@@ -1,6 +1,6 @@
 # Workshop Recyclers
 
-![Version](https://img.shields.io/badge/version-4.3-blue)
+![Version](https://img.shields.io/badge/version-4.6-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -16,7 +16,7 @@ Introduces two dedicated recycling machines that enable full material recovery f
 |---------------|-------|
 | Base Machine | Biofuel Bio-Cleaner (T3) |
 | Function | Converts Workshop items to currencies |
-| Recipes | 294 |
+| Recipes | 354 |
 | Returns | 100% of Ren, Exotics, or Red Exotics |
 | Repair Materials | Hammer (same as base machine) |
 
@@ -26,7 +26,7 @@ Introduces two dedicated recycling machines that enable full material recovery f
 |---------------|-------|
 | Base Machine | Organic Residue Cleanser (T4) |
 | Function | Breaks down crafted items into base materials |
-| Recipes | 1,361 |
+| Recipes | 1,363 |
 | Use Case | Recover materials from obsolete equipment |
 | Repair Materials | Hammer (same as base machine) |
 
@@ -34,9 +34,9 @@ Introduces two dedicated recycling machines that enable full material recovery f
 
 | Metric | Value |
 |--------|-------|
-| Total Recipes | 1,657 |
-| Workshop Items Recyclable | 294 |
-| Crafted Items Recyclable | 1,361 |
+| Total Recipes | 1,717 |
+| Workshop Items Recyclable | 354 |
+| Crafted Items Recyclable | 1,363 |
 
 ## Currency Returns
 
@@ -80,9 +80,9 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 1,670 |
+| Total Modifications | 1,730 |
 | New Machines | 2 |
-| Recipe Entries | 1,657 |
+| Recipe Entries | 1,717 |
 
 ### Files Modified
 - `Crafting-D_RecipeSets.json` (2 entries)
@@ -91,7 +91,7 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 - `Items-D_ItemsStatic.json` (2 entries)
 - `Items-D_ItemTemplate.json` (2 entries)
 - `Talents-D_Talents.json` (2 entries)
-- `Crafting-D_ProcessorRecipes.json` (1,657 entries)
+- `Crafting-D_ProcessorRecipes.json` (1,717 entries)
 - `Traits-D_Durable.json` (1 entry)
 
 ## Installation
@@ -124,6 +124,8 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 
 | Version | Changes |
 |---------|---------|
+| 4.6 | Fixed 47 recipes to return correct exotic items (Biomass, Uranium, Exotic Red, MetaResource) instead of Ren. |
+| 4.5 | Added 60 new recycle recipes for DLC workshop items (Agave_Seed, BioLab inhalers, Bulky Armor, Axe_Shengong_Delta and 56 more). |
 | 4.4 | **Broken output reference fix:** Fixed 135 recipe output references. `Meta_Resource` → `MetaResource` (78 recipes), `Platinum_Sheath` → `Platinum_Ingot` (12 recipes), `AlphaWolf_Head` → `Alphawolf_Head`, `Faction_Mission_Tech` → `FactionMission_Tech`, `Mission_High_Tech` → `Mission_HighTech`, `Saddle_Mount` → `Saddle_Standard`, `Feet_Hands` → `Feet_Arms`, `Rabbit_Variant_Head` → `Rabbit_Varient_Head`, `Fatty_TBone` → `Fatty_Tbone`. |
 | 4.3 | **Game update compatibility fix (Feb 2026):** Fixed 57 broken D_ItemsStatic input references from game renames (food items, furniture, trophies, attachments, building pieces). Fixed 12 broken D_ItemTemplate output references (Platinum_Shealth→Sheath, Alphawolf_Head→AlphaWolf_Head, FactionMission→Faction_Mission, etc). Removed 62 recipes for items deleted from game (consolidated national flags, removed Meta_Modules, Larkwell White armor, Shengong hammers/sickles, old BioLab inhalers). Added 12 new recycler recipes: Carbon Armor Alpha/Beta full sets, Envirosuit Inaris, Module World Boss. |
 | 4.2 | **REPAIR FIX:** Both recyclers now hammer repairable. Added custom `Recycler_Repairable` D_Durable entry with Electronics as repair material. Added full `Generated_Tags` with `Traits.Durable` and all required trait tags. |
@@ -143,11 +145,3 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 ---
 
 *Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
-
-## Changelog
-### v4.6 (2026-03-08)
-- Fixed 47 recipes: outputs now exactly match ReplicationCost (Credits->Ren + exotic items returned as actual items)
-- Affected: BioLab Inhalers (Biomass), Bulky Armor + Solar Backpack (Uranium), Shengong/Larkwell/Inaris items (Exotic_Red), Modules (MetaResource), Envirosuit_Larkwell_White, Explorers_Backpack, Sickle_Shengong/Inaris, Hammer_Shengong
-### v4.5 (2026-03-08)
-- Added 60 new recycle recipes for DLC workshop items
-- New: Agave_Seed, AntiRadiation_Injection, Axe_Shengong_Delta, Beehive_Starter_Kit, Biolab_Inhaler_GiantCat, Biolab_Inhaler_PlantBoss, Biolab_Inhaler_Scyther, Biolab_Inhaler_Thornet, Bulky_Armor_Arms, Bulky_Armor_Chest +50 more

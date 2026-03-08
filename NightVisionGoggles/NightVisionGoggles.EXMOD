@@ -1,125 +1,132 @@
 {
-  "FormatVersion": 2,
-  "File_Items": [
+  "name": "Night Vision Goggles",
+  "author": "AgentKush",
+  "fileName": "NightVisionGoggles",
+  "version": "1.1",
+  "description": "Adds craftable Night Vision Goggles using the game built-in NV system. Craft at Fabricator with Electronics, Glass and Epoxy.",
+  "week": "",
+  "Level2": "True",
+  "Rows": [
     {
-      "AssetPathName": "/Game/data/Items/D_ItemsStatic.D_ItemsStatic",
-      "ChangeType": "RowAdd",
-      "RowData": {
-        "Name": "NightVision",
-        "Meshable": {
-          "RowName": "Mesh_NightVision"
-        },
-        "Itemable": {
-          "RowName": "Item_NightVision"
-        },
-        "Interactable": {
-          "RowName": "Item"
-        },
-        "Focusable": {
-          "RowName": "Focusable_1H"
-        },
-        "Highlightable": {
-          "RowName": "Generic"
-        },
-        "Actionable": {
-          "RowName": "NightVision"
-        },
-        "Decayable": {
-          "RowName": "Decay_General"
-        },
-        "Audio": {
-          "RowName": "Default"
-        },
-        "Manual_Tags": {
-          "GameplayTags": [
+      "CurrentFile": "Items-D_ItemsStatic.json",
+      "File_Items": [
+        {
+          "Name": "NightVision",
+          "Meshable": {
+            "RowName": "Mesh_NightVision"
+          },
+          "Itemable": {
+            "RowName": "Item_NightVision"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "NightVision"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Tool"
+              },
+              {
+                "TagName": "FieldGuide.Equipment"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Items-D_ItemTemplate.json",
+      "File_Items": [
+        {
+          "Name": "NightVision",
+          "ItemStaticData": {
+            "RowName": "NightVision"
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Traits-D_Itemable.json",
+      "File_Items": [
+        {
+          "Name": "Item_NightVision",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_NightVision-DisplayName\", \"Night Vision Goggles\")",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_NightVision-Description\", \"Advanced optical device that amplifies ambient light, allowing clear vision in darkness. Toggle with secondary action.\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_NightVision-FlavorText\", \"Standard issue for deep cave exploration. The green tint takes some getting used to.\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Binoculars.ITEM_Binoculars",
+          "Weight": 500
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+      "File_Items": [
+        {
+          "Name": "NightVision",
+          "RecipeSets": [
             {
-              "TagName": "Item.Tool"
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
             },
             {
-              "TagName": "FieldGuide.Equipment"
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
             }
-          ]
-        }
-      }
-    },
-    {
-      "AssetPathName": "/Game/data/Items/D_ItemTemplate.D_ItemTemplate",
-      "ChangeType": "RowAdd",
-      "RowData": {
-        "Name": "NightVision",
-        "ItemStaticData": {
-          "RowName": "NightVision"
-        }
-      }
-    },
-    {
-      "AssetPathName": "/Game/data/Crafting/D_ProcessorRecipes.D_ProcessorRecipes",
-      "ChangeType": "RowAdd",
-      "RowData": {
-        "Name": "NightVision",
-        "Requirement": {
-          "RowName": "None"
-        },
-        "RecipeSets": [
-          {
-            "RowName": "Fabricator",
-            "DataTableName": "D_RecipeSets"
-          },
-          {
-            "RowName": "Manufacturer",
-            "DataTableName": "D_RecipeSets"
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 4
+            },
+            {
+              "Element": {
+                "RowName": "Glass",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "NightVision",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
           }
-        ],
-        "Inputs": [
-          {
-            "Element": {
-              "RowName": "Electronics",
-              "DataTableName": "D_ItemsStatic"
-            },
-            "Count": 4
-          },
-          {
-            "Element": {
-              "RowName": "Glass",
-              "DataTableName": "D_ItemsStatic"
-            },
-            "Count": 2
-          },
-          {
-            "Element": {
-              "RowName": "Epoxy",
-              "DataTableName": "D_ItemsStatic"
-            },
-            "Count": 2
-          }
-        ],
-        "Outputs": [
-          {
-            "Element": {
-              "RowName": "NightVision",
-              "DataTableName": "D_ItemTemplate"
-            },
-            "Count": 1,
-            "DynamicProperties": [],
-            "Alterations": []
-          }
-        ],
-        "Audio": {
-          "RowName": "Fabricator"
         }
-      }
-    },
-    {
-      "AssetPathName": "/Game/data/Traits/D_Itemable.D_Itemable",
-      "ChangeType": "RowModify",
-      "RowData": {
-        "Name": "Item_NightVision",
-        "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_NightVision-DisplayName\", \"Night Vision Goggles\")",
-        "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_NightVision-Description\", \"Advanced optical device that amplifies ambient light, allowing clear vision in darkness. Toggle with secondary action.\")",
-        "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_NightVision-FlavorText\", \"Standard issue for deep cave exploration. The green tint takes some getting used to.\")",
-        "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Binoculars.ITEM_Binoculars",
-        "Weight": 500
-      }
+      ]
     }
   ]
 }

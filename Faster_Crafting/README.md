@@ -1,6 +1,8 @@
 # Faster Crafting
 
-Halves crafting time on 952 recipes across every workbench in the game. Minimum 500 millijoules to prevent instant-craft exploits.
+**Author:** AgentKush | **Version:** 1.1
+
+Halves crafting time on **2,163 recipes** across every workbench in the game. Minimum 500 millijoules to prevent instant-craft exploits.
 
 ## Changes
 
@@ -17,10 +19,14 @@ This is different from the FastProcessing mods which speed up passive processor 
 
 Import `Faster_Crafting.EXMODZ` via Icarus Mod Manager.
 
-## Version History
-
-- **v1.0** - Initial release, 952 recipes halved
-
 ## Changelog
-### v1.1 (2026-03-08)
-- Added 1211 missing recipes from latest update/DLC
+
+### v1.1
+- Added 1,211 missing recipes from latest update/DLC (total: 2,163)
+
+### v1.0
+- Initial release, 952 recipes halved
+
+---
+
+*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*

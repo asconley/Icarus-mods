@@ -1,6 +1,6 @@
 # 🏗️ Hidden Building Pieces
 
-Unlocks **104 hidden building items** including diagonal/curved pieces, frames, corner stairs, half pieces, and roof peak pieces for Icarus. All pieces are **storm immune** and **hammer repairable**.
+Unlocks **104 hidden building item types** across multiple material sets including diagonal/curved pieces, frames, corner stairs, half pieces, and roof peak pieces for Icarus. All pieces are **storm immune** and **hammer repairable**.
 
 ## Features
 
@@ -30,8 +30,8 @@ Unlocks **104 hidden building items** including diagonal/curved pieces, frames, 
 | Category | Count |
 |----------|-------|
 | Buildable Sets | 96 |
-| Building Pieces | 500 |
-| Building Skins | 461 |
+| Building Pieces | 1,175 |
+| Building Skins | 757 |
 | Itemables | 96 |
 | ItemsStatic | 104 |
 | ItemTemplates | 104 |

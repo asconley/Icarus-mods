@@ -1,6 +1,6 @@
 # Stack Size Overhaul
 
-Increases stack sizes on 1,232 items across the game. Basic resources and ammo get 5x, everything else gets 3x. Unstackable items (tools, weapons, armor) are unchanged.
+Increases stack sizes on 1,268 items across the game. Basic resources and ammo get 5x, everything else gets 3x. Unstackable items (tools, weapons, armor) are unchanged.
 
 ## Changes
 
@@ -12,7 +12,7 @@ Increases stack sizes on 1,232 items across the game. Basic resources and ammo g
 | Food/Drinks | **3x** | Berries 100→300, Meals 10→30 |
 | All others | **3x** | Max cap 9999 |
 
-292 items at 5x, 940 items at 3x. Unstackable items left at 1.
+328 items at 5x, 940 items at 3x. Unstackable items left at 1.
 
 ## Installation
 
@@ -20,8 +20,5 @@ Import `Stack_Size_Overhaul.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
 
+- **v1.1** - Added 36 new DLC items: Agave, Garlic, Onion, PricklyPear foods + trophies
 - **v1.0** - Initial release, 1,232 items modified
-
-## Changelog
-### v1.1 (2026-03-08)
-- Added 36 new DLC items: Agave, Garlic, Onion, PricklyPear foods + trophies

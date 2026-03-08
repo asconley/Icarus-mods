@@ -1,35 +1,35 @@
-# FastProcessing All 10x
+# FastProcessing 10x
 
-![Version](https://img.shields.io/badge/version-4.2-blue)
+![Version](https://img.shields.io/badge/version-4.3-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
-![Recipes](https://img.shields.io/badge/recipes-3,677-orange)
+![Recipes](https://img.shields.io/badge/recipes-4,028-orange)
 
 ## Overview
 
-Reduces all crafting and processing times to 10% of their original duration (10x speed increase). Includes complete compatibility with all AgentKush mod recipes.
+Reduces all crafting and processing times to 10% of their original duration (10x faster). Includes complete compatibility with all AgentKush mod recipes.
 
 ## Features
 
 ### Speed Modification
 - **Processing Time:** Reduced to 10% (10x faster)
 - **All Stations:** Every crafting bench, furnace, and processor affected
-- **Full Coverage:** 3,677 recipes modified
+- **Full Coverage:** 4,028 recipes modified
 
 ### Recipe Sources
 
 | Source | Recipe Count |
 |--------|--------------|
-| Base Game | 1,815 |
-| Workshop Recyclers | 1,657 |
+| Base Game | 2,107 |
+| Workshop Recyclers | 1,717 |
 | Hidden Building Pieces | 104 |
 | No Food Spoilage | 85 |
 | Turret Variants | 15 |
-| Culinex Food Boost Fix | 1 |
-| **Total** | **3,677** |
+| **Total** | **4,028** |
 
 ### Files Modified
-- `Crafting-D_ProcessorRecipes.json` (3,677 entries)
+- `Crafting-D_ProcessorRecipes.json` (4,028 entries)
+
 
 ## Installation
 
@@ -46,7 +46,7 @@ Reduces all crafting and processing times to 10% of their original duration (10x
 
 | Mod | Status |
 |-----|--------|
-| Workshop Recyclers | ✅ All 1,657 recipes included |
+| Workshop Recyclers | ✅ All 1,717 recipes included |
 | Hidden Building Pieces | ✅ All 104 recipes included |
 | No Food Spoilage | ✅ All 85 composter recipes included |
 | Turret Variants | ✅ All 15 recipes included |
@@ -54,30 +54,37 @@ Reduces all crafting and processing times to 10% of their original duration (10x
 | All AgentKush mods | ✅ Compatible |
 | Other FastProcessing variants | ❌ Use only one |
 
+
 ## Related Variants
 
 | Variant | Speed | Recipes |
 |---------|-------|---------|
-| [FastProcessing 5x](../FastProcessing_All_5x) | 5x faster | 3,677 |
-| FastProcessing 10x | 10x faster | 3,677 |
-| [FastProcessing 15x](../FastProcessing_All_15x) | 15x faster | 3,677 |
-| [FastProcessing 25x](../FastProcessing_All_25x) | 25x faster | 3,677 |
-| [FastProcessing Instant](../FastProcessing_Instant) | Instant | 3,677 |
+| [FastProcessing 5x](../FastProcessing_All_5x) | 5x faster | 4,028 |
+| **10x** | **10x faster** | 4,028 |
+| [FastProcessing 15x](../FastProcessing_All_15x) | 15x faster | 4,028 |
+| [FastProcessing 25x](../FastProcessing_All_25x) | 25x faster | 4,028 |
+| [Instant](../FastProcessing_Instant) | Instant | 4,028 |
 
-## Version History
+## Changelog
 
-| Version | Changes |
-|---------|---------|
-| 4.2 | Added 102 new game recipes (Homestead, Animal, Truffle), 227 mod recipes (HBP frames/corners/roofpeaks, No Food Spoilage composters, Turret Variants, new WR entries). Removed 70 orphaned recipes. Total: 3,677. |
-| 4.1 | Week 217 update: Removed 16 consolidated lighting recipes, added 4 new recipes |
-| 4.0 | Added Workshop Recyclers + Hidden Building Pieces compatibility |
-| 3.0 | Added 750 missing base game recipes |
-| 2.0 | Initial release |
+### v4.3
+- Added 351 new recipes from latest update/DLC (total: 4,028)
+
+### v4.2
+- Added 102 new game recipes (Homestead, Animal, Truffle), 227 mod recipes (HBP frames/corners/roofpeaks, No Food Spoilage composters, Turret Variants, new WR entries). Removed 70 orphaned recipes.
+
+### v4.1
+- Week 217 update: Removed 16 consolidated lighting recipes, added 4 new recipes
+
+### v4.0
+- Added Workshop Recyclers + Hidden Building Pieces compatibility
+
+### v3.0
+- Added 750 missing base game recipes
+
+### v2.0
+- Initial release
 
 ---
 
 *Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
-
-## Changelog
-### v4.3 (2026-03-08)
-- Added 351 new recipes from latest update/DLC

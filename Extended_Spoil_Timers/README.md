@@ -1,6 +1,8 @@
 # Extended Spoil Timers
 
-Extends decay timers on 29 items. Food spoilage lasts 5x longer, other decay items last 3x longer. Arrows and transient objects unchanged.
+**Author:** AgentKush | **Version:** 1.1
+
+Extends decay timers on 32 items. Food spoilage lasts 5x longer, other decay items last 3x longer.
 
 ## Changes
 
@@ -26,25 +28,27 @@ Extends decay timers on 29 items. Food spoilage lasts 5x longer, other decay ite
 | Tree Trunks | 10 min | 30 min |
 | Advanced Leather | 5 min | 15 min |
 | Volatile Substance | 5 min | 15 min |
-
-### Unchanged
-- Arrows (60s — intentional short life)
-- Quick-decay items (1s)
-- Delivery objects (10s)
+| Arrows | 60 sec | 180 sec |
+| Delivery Objects | 10 sec | 30 sec |
+| Quick-decay | 1 sec | 3 sec |
 
 ## Compatibility
 
 - ⚠️ **Not compatible with Hardcore Rebalance Pack** — both modify D_Decayable in opposite directions
-- ✅ Compatible with Performance Optimizer (which also extends decay, they'll stack)
+- ✅ Compatible with Performance Optimizer (decay extensions stack)
 
 ## Installation
 
 Import `Extended_Spoil_Timers.EXMODZ` via Icarus Mod Manager.
 
-## Version History
-
-- **v1.0** - Initial release, 29 decay timers extended
-
 ## Changelog
-### v1.1 (2026-03-08)
-- Added Decay_Arrow, Decay_Delivery_Object, Decay_Quick rows
+
+### v1.1
+- Added Decay_Arrow, Decay_Delivery_Object, Decay_Quick rows (32 total)
+
+### v1.0
+- Initial release, 29 decay timers extended
+
+---
+
+*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*

@@ -1,4 +1,4 @@
-# Hardcore Rebalance Pack v1.8
+# Hardcore Rebalance Pack v1.9
 
 For survivors who think Icarus is too easy. Comprehensive hardcore overhaul with 671 changes across 11 data tables + 2 blueprint overrides.
 

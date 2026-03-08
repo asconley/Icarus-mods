@@ -3,7 +3,7 @@
 Better secondary resources from mining in Icarus.
 
 **Author:** CritFail (Updated by AgentKush)  
-**Version:** 2.1  
+**Version:** 2.2  
 
 ---
 
@@ -68,27 +68,3 @@ Every mineable deposit now drops something useful as a secondary resource instea
 3. Enable the mod and merge
 
 ---
-
-## Changelog
-### v2.2 (2026-03-08)
-- Added 7 new voxel types: Exotic_Normal, Frozen_Ore, Limestone_Dense, Limestone_Normal, Random_Normal, Research_Normal, Salt_Normal
-
-| Version | Changes |
-|---------|---------|
-| 2.1 | Added 16 new deposits: all Normal ore types now give bonus resources (8 same-type, 4 Exotics for rare ores). Coal Normal+Dense now give Charcoal. Ice Normal+Dense now give Oxite. Total coverage: 26 deposit types. |
-| 2.0 | Week 213+ compatibility update |
-| 1.1 | Added Lithium and Ruby ore support (Dense) |
-| 1.0 | Initial release by CritFail - Dense ores drop Exotics |
-
----
-
-## Compatibility
-
-This mod modifies:
-- `World-D_VoxelSetupData.json`
-
-May conflict with other mods that modify voxel mining data.
-
----
-
-*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*

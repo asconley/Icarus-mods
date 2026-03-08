@@ -1,6 +1,6 @@
-# Agents Optimization Mod
+# Performance Optimizer
 
-**Version:** 2.0  
+**Version:** 2.1  
 **Author:** AgentKush  
 **Game:** Icarus  
 
@@ -71,30 +71,3 @@ Comprehensive performance optimization mod combining engine-level config overrid
 
 1. Copy `Performance_Optimizer_P.pak` to your game's `Icarus\Content\Paks\mods\` folder
 2. Import `Agents_Optimization_Mod.EXMODZ` using JimK72's Icarus Mod Manager
-
-## Changelog
-### v2.1 (2026-03-08)
-- Added PRO_Volcanic_SulfurPools spawn zone + 4 new autonomous spawns
-
-### v2.0
-- **NEW: PAK engine overrides** — foliage, shadows, fog, renderer, textures
-- Foliage/grass density reduced 30-50% at the engine level
-- Shadow resolution and cascade counts reduced across all quality presets
-- Volumetric fog disabled on Low, optimized on all other presets
-- Ray tracing and RTXGI fully disabled
-- Mesh distance fields disabled, reflection capture resolution halved
-- Virtual texture upload rate and streaming pools optimized
-- Post processing bloom and AO quality scaled down
-
-### v1.2
-- Added D_WeatherPools biasing to reduce heavy particle storm frequency
-- Light weather (T0-T1) heavily favored over severe storms (T5-T6)
-- Particle-heavy weather types get additional weight reduction
-- 300 items across 7 tables
-
-### v1.1
-- Fixed invalid data fields that prevented mod from loading
-- Rebuilt using correct game data structures
-
-### v1.0
-- Initial release
