@@ -29,6 +29,9 @@ This mod fixes **169 food items** so the 25% effectiveness boost from the Chef's
 - Excludes non-player foods (animal feed, raw/spoiled items)
 
 ## Changelog
+### v2.6 (2026-03-08)
+- Added 15 new DLC food/drink/tonic modifier states with Chef's Backpack bonus descriptions
+- Added: AntiRadiation_Tonic (no stats, copied as-is), Antibiotic_Tonic (no stats, copied as-is), Antiparasitic_Tonic (no stats, copied as-is), Antipoison_Tonic (no stats, copied as-is), Ape_Tonic, Blood_Thinning_Tonic (no stats, copied as-is), Cooked_Banana, Drink_Cooling, Drink_Energised, Drink_Heated, Drink_Water, Health_Enhancement_Tonic, Stamina_Enhancement_Tonic, Strength_Enhancement_Tonic, Sustenence_Enhancement_Tonic
 
 ### v2.5
 - Added Animal Gruel Rotten and Animal Silage entries

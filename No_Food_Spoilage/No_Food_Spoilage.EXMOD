@@ -1,7 +1,7 @@
 {
   "name": "No Food Spoilage",
   "author": "AgentKush",
-  "version": "1.6",
+  "version": "1.8",
   "description": "Prevents all food items and volatile substances from spoiling. Includes 85 composter recipes to manually create Spoiled Meat from raw meats, fish, and fillets.",
   "fileName": "No_Food_Spoilage",
   "imageURL": "",

@@ -10,6 +10,12 @@ Prevents all food items and volatile substances from spoiling by setting SpoilTi
 - Volatile Substance decay also disabled
 
 ## Changelog
+### v1.8 (2026-03-08)
+- Corrected Spoil_ composter recipes: now only covers raw meat and raw fish items
+- Removed incorrect composter entries for tonics, bandages, cooked foods, etc.
+### v1.7 (2026-03-08)
+- Added 238 missing Spoil_ composter recipes for DLC foods/tonics/consumables
+- New items can now be manually composted: Banana foods, Agave foods, Garlic/Onion dishes, Cheese/Dairy, Tonics, Vaccines, Bandages and more
 ### v1.6 (2026-03-08)
 - Added Decay_General and Decay_MetaItem for full coverage
 
