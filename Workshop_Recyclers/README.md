@@ -143,3 +143,11 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 ---
 
 *Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+
+## Changelog
+### v4.6 (2026-03-08)
+- Fixed 47 recipes: outputs now exactly match ReplicationCost (Credits->Ren + exotic items returned as actual items)
+- Affected: BioLab Inhalers (Biomass), Bulky Armor + Solar Backpack (Uranium), Shengong/Larkwell/Inaris items (Exotic_Red), Modules (MetaResource), Envirosuit_Larkwell_White, Explorers_Backpack, Sickle_Shengong/Inaris, Hammer_Shengong
+### v4.5 (2026-03-08)
+- Added 60 new recycle recipes for DLC workshop items
+- New: Agave_Seed, AntiRadiation_Injection, Axe_Shengong_Delta, Beehive_Starter_Kit, Biolab_Inhaler_GiantCat, Biolab_Inhaler_PlantBoss, Biolab_Inhaler_Scyther, Biolab_Inhaler_Thornet, Bulky_Armor_Arms, Bulky_Armor_Chest +50 more

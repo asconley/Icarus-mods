@@ -185,9 +185,9 @@
     {
       "name": "Workshop Recyclers",
       "author": "AgentKush",
-      "version": "4.4",
+      "version": "4.6",
       "compatibility": "All",
-      "description": "Two recycling machines based on Biofuel Bio-Cleaner (T3) and Organic Residue Cleanser (T4). 1,657 recipes returning 100% of original Workshop costs. Hammer repairable. v4.4: Fixed 138 broken item references (Meta_Resource, Platinum_Sheath, FactionMission_Tech, AlphaWolf_Head, etc).",
+      "description": "Two recycling machines based on Biofuel Bio-Cleaner (T3) and Organic Residue Cleanser (T4). 1,717 recipes returning 100% of original Workshop costs - Credits as Ren, each exotic type returned as the actual exotic item. Hammer repairable. v4.6: Fixed 47 recipes to return correct exotic items (Biomass, Uranium, Exotic Red, MetaResource) instead of Ren.",
       "fileName": "Workshop_Recyclers",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Workshop_Recyclers.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
