@@ -25,7 +25,8 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/Agents_BioLab.EXMODZ"
       }
-    },    {
+    },
+    {
       "name": "Culinex Food Boost Fix",
       "author": "AgentKush",
       "version": "2.6",
@@ -50,12 +51,13 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/Dev_Tools_Kit.EXMODZ"
       }
-    },    {
+    },
+    {
       "name": "FastProcessing All 5x",
       "author": "AgentKush",
-      "version": "4.3",
+      "version": "4.4",
       "compatibility": "All",
-      "description": "All crafting and processing 5x faster. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix.",
+      "description": "All crafting and processing 5x faster. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix. Fixed water going negative during crafting.",
       "fileName": "FastProcessing_All_5x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_5x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/README.md",
@@ -66,9 +68,9 @@
     {
       "name": "FastProcessing All 10x",
       "author": "AgentKush",
-      "version": "4.3",
+      "version": "4.4",
       "compatibility": "All",
-      "description": "All crafting and processing 10x faster. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix.",
+      "description": "All crafting and processing 10x faster. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix. Fixed water going negative during crafting.",
       "fileName": "FastProcessing_All_10x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_10x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/README.md",
@@ -79,21 +81,22 @@
     {
       "name": "FastProcessing All 15x",
       "author": "AgentKush",
-      "version": "4.3",
+      "version": "4.4",
       "compatibility": "All",
-      "description": "All crafting and processing 15x faster. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix.",
+      "description": "All crafting and processing 15x faster. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix. Fixed water going negative during crafting.",
       "fileName": "FastProcessing_All_15x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_15x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/README.md",
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/FastProcessing_All_15x.EXMODZ"
       }
-    },    {
+    },
+    {
       "name": "FastProcessing All 25x",
       "author": "AgentKush",
-      "version": "4.3",
+      "version": "4.4",
       "compatibility": "All",
-      "description": "All crafting and processing 25x faster. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix.",
+      "description": "All crafting and processing 25x faster. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix. Fixed water going negative during crafting.",
       "fileName": "FastProcessing_All_25x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_25x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_25x/README.md",
@@ -104,9 +107,9 @@
     {
       "name": "FastProcessing Instant",
       "author": "AgentKush",
-      "version": "4.3",
+      "version": "4.4",
       "compatibility": "All",
-      "description": "All crafting and processing instant. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix.",
+      "description": "All crafting and processing instant. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix. Fixed water going negative during crafting.",
       "fileName": "FastProcessing_Instant",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",
@@ -126,7 +129,8 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/Indestructible_Tools_Weapons.EXMODZ"
       }
-    },    {
+    },
+    {
       "name": "No Food Spoilage",
       "author": "AgentKush",
       "version": "1.8",
@@ -164,7 +168,8 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Buff_Enhancer/Modular_Buff_Enhancer.EXMODZ"
       }
-    },    {
+    },
+    {
       "name": "Hidden Building Pieces",
       "author": "AgentKush",
       "version": "2.13.7",
@@ -202,7 +207,8 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Always_show_buildings_on_map/Always_show_buildings_on_map.EXMODZ"
       }
-    },    {
+    },
+    {
       "name": "Turret Variants",
       "author": "AgentKush",
       "version": "3.0",
@@ -240,7 +246,8 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Wire_and_Pipe_Tool/Extended_Wire_and_Pipe_Tool.EXMODZ"
       }
-    },    {
+    },
+    {
       "name": "Performance Optimizer",
       "author": "AgentKush",
       "version": "2.1",
@@ -279,7 +286,8 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Armor_Set_Bonuses_Enhanced/Armor_Set_Bonuses_Enhanced.EXMODZ"
       }
-    },    {
+    },
+    {
       "name": "Exotic Economy Overhaul",
       "author": "AgentKush",
       "version": "1.1",
@@ -317,7 +325,8 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Trap_Defense_Expansion/Trap_Defense_Expansion.EXMODZ"
       }
-    },    {
+    },
+    {
       "name": "Stack Size Overhaul",
       "author": "AgentKush",
       "version": "1.1",
@@ -355,7 +364,8 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Spoil_Timers/Extended_Spoil_Timers.EXMODZ"
       }
-    },    {
+    },
+    {
       "name": "Ammo Crafting Overhaul",
       "author": "AgentKush",
       "version": "1.0",
@@ -393,7 +403,8 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer/Creature_Drop_Enhancer.EXMODZ"
       }
-    },    {
+    },
+    {
       "name": "Creature Difficulty Scaling",
       "author": "AgentKush",
       "version": "2.0",

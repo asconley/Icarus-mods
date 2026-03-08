@@ -1,90 +1,42 @@
-# FastProcessing 15x
+# FastProcessing All 15x v4.4
 
-![Version](https://img.shields.io/badge/version-4.3-blue)
-![Author](https://img.shields.io/badge/author-AgentKush-green)
-![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
-![Recipes](https://img.shields.io/badge/recipes-4,028-orange)
+All crafting and processing speeds set to **15x** faster across 4028 recipes.
 
-## Overview
+## What's Included
 
-Reduces all crafting and processing times to 6.67% of their original duration (15x faster). Includes complete compatibility with all AgentKush mod recipes.
-
-## Features
-
-### Speed Modification
-- **Processing Time:** Reduced to 6.67% (15x faster)
-- **All Stations:** Every crafting bench, furnace, and processor affected
-- **Full Coverage:** 4,028 recipes modified
-
-### Recipe Sources
-
-| Source | Recipe Count |
-|--------|--------------|
-| Base Game | 2,107 |
-| Workshop Recyclers | 1,717 |
-| Hidden Building Pieces | 104 |
-| No Food Spoilage | 85 |
-| Turret Variants | 15 |
-| **Total** | **4,028** |
-
-### Files Modified
-- `Crafting-D_ProcessorRecipes.json` (4,028 entries)
-
-
-## Installation
-
-1. Download the `.EXMODZ` file from this repository
-2. Open JimK72's Icarus Mod Manager
-3. Import the mod file
-4. Enable and launch Icarus
+Covers all base game recipes plus compatibility with:
+- Workshop Recyclers
+- Hidden Building Pieces
+- No Food Spoilage
+- Turret Variants
+- Culinex Food Boost Fix
 
 ## Important Notes
 
-> ⚠️ **Use only ONE FastProcessing variant at a time.** Multiple speed mods will conflict.
+- **Use only ONE FastProcessing variant at a time** (5x, 10x, 15x, 25x, or Instant)
+- Compatible with other EXMODZ mods
+- Multiplayer compatible — all players need the same mod installed
 
-## Compatibility
+## Technical Details
 
-| Mod | Status |
-|-----|--------|
-| Workshop Recyclers | ✅ All 1,717 recipes included |
-| Hidden Building Pieces | ✅ All 104 recipes included |
-| No Food Spoilage | ✅ All 85 composter recipes included |
-| Turret Variants | ✅ All 15 recipes included |
-| Culinex Food Boost Fix | ✅ Included |
-| All AgentKush mods | ✅ Compatible |
-| Other FastProcessing variants | ❌ Use only one |
+- Modifies `RequiredMillijoules` in `D_ProcessorRecipes` for each recipe
+- Water-consuming recipes have a minimum floor of 500 MJ to prevent the water system from going negative
+- Recipes without water/fluid requirements use standard speed calculations
 
+## Installation
 
-## Related Variants
-
-| Variant | Speed | Recipes |
-|---------|-------|---------|
-| [FastProcessing 5x](../FastProcessing_All_5x) | 5x faster | 4,028 |
-| [FastProcessing 10x](../FastProcessing_All_10x) | 10x faster | 4,028 |
-| **15x** | **15x faster** | 4,028 |
-| [FastProcessing 25x](../FastProcessing_All_25x) | 25x faster | 4,028 |
-| [Instant](../FastProcessing_Instant) | Instant | 4,028 |
+1. Download the `.EXMODZ` file
+2. Place in your Mod Manager's mod folder
+3. Enable in JimK72's Mod Manager
+4. Launch Icarus
 
 ## Changelog
 
+### v4.4
+- **Fixed:** Water going into negatives when crafting recipes that consume water (soups, dough, pickled items, geode lamps, etc.)
+- Applied 500 MJ minimum floor to all 68 water-consuming recipes
+- Non-water recipes unchanged
+
 ### v4.3
-- Added 351 new recipes from latest update/DLC (total: 4,028)
-
-### v4.2
-- Added 102 new game recipes (Homestead, Animal, Truffle), 227 mod recipes (HBP frames/corners/roofpeaks, No Food Spoilage composters, Turret Variants, new WR entries). Removed 70 orphaned recipes.
-
-### v4.1
-- Week 217 update: Removed 16 consolidated lighting recipes, added 4 new recipes
-
-### v4.0
-- Added Workshop Recyclers + Hidden Building Pieces compatibility
-
-### v3.0
-- Added 750 missing base game recipes
-
-### v2.0
-- Initial release
-
----
-
-*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+- Updated for latest game patch
+- Added new recipes from recent updates

@@ -2,8 +2,8 @@
   "name": "FastProcessing_Instant",
   "author": "AgentKush",
   "fileName": "FastProcessing_Instant",
-  "version": "4.3",
-  "description": "All crafting and processing instant. 3677 recipes including base game, Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, and Culinex Food Boost Fix. Use only ONE FastProcessing variant.",
+  "version": "4.4",
+  "description": "All crafting and processing instant. 3677 recipes including base game, Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, and Culinex Food Boost Fix. Use only ONE FastProcessing variant. Fixed water going negative during crafting.",
   "week": "",
   "Level2": "True",
   "Rows": [
@@ -1740,7 +1740,7 @@
         },
         {
           "Name": "Choc_Chip_Cookie",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Chocolate_Cake",
@@ -1752,7 +1752,7 @@
         },
         {
           "Name": "Clay_Brick",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Clay_Brick_Beam",
@@ -1840,7 +1840,7 @@
         },
         {
           "Name": "Coconut_Cookie",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Coconut_Seeds_Mid",
@@ -7752,11 +7752,11 @@
         },
         {
           "Name": "Dough_Bread",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Dough_Flatbread",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Dreadwing_Trophy",
@@ -8024,7 +8024,7 @@
         },
         {
           "Name": "Fire_Extinguisher",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Firepit",
@@ -8152,11 +8152,11 @@
         },
         {
           "Name": "Food_Corn_Soup",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Creamed_Corn",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Crumbed_Saltwater_Fillet",
@@ -8168,7 +8168,7 @@
         },
         {
           "Name": "Food_Fish_Chunk_Stew",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Fish_Fillet_Pie",
@@ -8212,7 +8212,7 @@
         },
         {
           "Name": "Food_Meat_Stew",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Mixed_Berries",
@@ -8224,11 +8224,11 @@
         },
         {
           "Name": "Food_Mushroom_Soup",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Pickled_Eggs",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Potato_Carrot_Fries",
@@ -8236,7 +8236,7 @@
         },
         {
           "Name": "Food_Rhubarb_Stew",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Roasted_Vegetables",
@@ -8268,7 +8268,7 @@
         },
         {
           "Name": "Food_Tomato_Soup",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Trough",
@@ -8412,51 +8412,51 @@
         },
         {
           "Name": "Geode_Lamp_Burst_Copper",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Burst_Gold",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Burst_Oxite",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Cut_Copper",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Cut_Gold",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Cut_Oxite",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Monolith_Copper",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Monolith_Gold",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Monolith_Oxite",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Rock_Copper",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Rock_Gold",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Rock_Oxite",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Ghillie_Arms_Armor",
@@ -8504,7 +8504,7 @@
         },
         {
           "Name": "Glass_Beam_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Bottle",
@@ -8516,7 +8516,7 @@
         },
         {
           "Name": "Glass_Door_Reinforced",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Floor",
@@ -8524,7 +8524,7 @@
         },
         {
           "Name": "Glass_Floor_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Half_Pitch",
@@ -8532,7 +8532,7 @@
         },
         {
           "Name": "Glass_Half_Pitch_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Halfpiece",
@@ -8540,7 +8540,7 @@
         },
         {
           "Name": "Glass_Halfpiece_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Jar",
@@ -8560,7 +8560,7 @@
         },
         {
           "Name": "Glass_Ramp_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Roof_Corner",
@@ -8568,7 +8568,7 @@
         },
         {
           "Name": "Glass_Roof_Corner_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Wall",
@@ -8580,11 +8580,11 @@
         },
         {
           "Name": "Glass_Wall_Angled_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Wall_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Window",
@@ -8592,7 +8592,7 @@
         },
         {
           "Name": "Glass_Window_Reinforced",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glassworking_Bench",
@@ -8924,23 +8924,23 @@
         },
         {
           "Name": "Homestead_Flower_Pot_A",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Homestead_Flower_Pot_B",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Homestead_Flower_Pot_C",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Homestead_Flower_Pot_D",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Homestead_Flower_Pot_E",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Homestead_Hanging_Meat",
@@ -9184,7 +9184,7 @@
         },
         {
           "Name": "Ice",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "IceBox",
@@ -9996,7 +9996,7 @@
         },
         {
           "Name": "Mission_LiquidDeployment",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Mission_Microscope",
@@ -10344,11 +10344,11 @@
         },
         {
           "Name": "Pastry",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Pastry_Butter",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Pavlova",
@@ -10356,19 +10356,19 @@
         },
         {
           "Name": "Pickled_Avocado",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Pickled_Carrot",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Pickled_Freshwater_Fillet",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Pickled_Tomato",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Pig_Trophy",
@@ -14072,7 +14072,7 @@
         },
         {
           "Name": "Strawberry_Candy",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Strawberry_Jam",
@@ -14436,7 +14436,7 @@
         },
         {
           "Name": "WaterBomb",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Water_Barrel",
@@ -14500,7 +14500,7 @@
         },
         {
           "Name": "Watermelon_Lollypop",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Watermelon_Seeds",
@@ -14948,7 +14948,7 @@
         },
         {
           "Name": "Banana_Porridge",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Banana_Tart",
@@ -15196,7 +15196,7 @@
         },
         {
           "Name": "Drink_Tequila",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Drink_Truffle_Vodka",
@@ -15304,7 +15304,7 @@
         },
         {
           "Name": "Food_Agave_Syrup",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Banana_Bread",
@@ -15316,7 +15316,7 @@
         },
         {
           "Name": "Food_Caramelized_Onion",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Cooked_Agave",
@@ -15336,7 +15336,7 @@
         },
         {
           "Name": "Food_French_Onion_Soup",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Garlic_Bread",
@@ -15472,7 +15472,7 @@
         },
         {
           "Name": "Glass_Advanced_Beams_Set_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Curved_Set",
@@ -15480,7 +15480,7 @@
         },
         {
           "Name": "Glass_Curved_Set_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Diagonal_Curved_Wall_Angles",
@@ -15488,7 +15488,7 @@
         },
         {
           "Name": "Glass_Diagonal_Curved_Wall_Angles_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Diagonal_Set",
@@ -15496,7 +15496,7 @@
         },
         {
           "Name": "Glass_Diagonal_Set_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Roof_CurvedAngles",
@@ -15504,7 +15504,7 @@
         },
         {
           "Name": "Glass_Roof_CurvedAngles_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Glass_Wall_Curved",
@@ -15512,7 +15512,7 @@
         },
         {
           "Name": "Glass_Wall_Curved_Tempered",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Hazmat_Arms",
@@ -15656,7 +15656,7 @@
         },
         {
           "Name": "Lithium_Refined",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Lithium_Shield",
@@ -15856,7 +15856,7 @@
         },
         {
           "Name": "Radiation_Transfusion",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Raptor_Desert_Trophy",
@@ -15960,7 +15960,7 @@
         },
         {
           "Name": "Shaped_Ruby",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Shotgun_Shell_Lithium",
@@ -16084,7 +16084,7 @@
         },
         {
           "Name": "Uranium",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Uranium_Arrow",
@@ -16116,7 +16116,7 @@
         },
         {
           "Name": "Volatile_Substance_3",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Yeti_Trophy",
