@@ -172,9 +172,9 @@
     {
       "name": "Hidden Building Pieces",
       "author": "AgentKush",
-      "version": "2.13.7",
+      "version": "3.0.0",
       "compatibility": "All",
-      "description": "Unlocks 104 hidden building items. Storm immune & hammer repairable. Includes diagonal/curved sets, frames, corner stairs, roof peaks across all materials. 1,154 building pieces, 757 skins, 21 building types.",
+      "description": "Unlocks 60 hidden building pieces including diagonal curved sets, frames, corner stairs, roof peaks, and half-pieces for 11+ materials. v3.0.0: Removed 44 items now in base game (Kepler update).",
       "fileName": "Hidden_Building_Pieces",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
