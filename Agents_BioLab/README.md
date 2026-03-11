@@ -1,12 +1,12 @@
 # Agent's BioLab
 
-![Version](https://img.shields.io/badge/version-1.9-blue)
+![Version](https://img.shields.io/badge/version-2.0-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
 ## Overview
 
-Agent's BioLab brings all 10 legendary Bio Lab weapons to the Workshop, making these powerful end-game items accessible without relying on rare mission drops.
+Agent's BioLab brings all 11 legendary Bio Lab weapons to the Workshop, making these powerful end-game items accessible without relying on rare mission drops.
 
 ## Features
 
@@ -24,14 +24,15 @@ Agent's BioLab brings all 10 legendary Bio Lab weapons to the Workshop, making t
 | Javelin Launcher | Launcher | 1,000 Exotics |
 | Slug Launcher | Shotgun | 1,000 Exotics |
 | Ice Mammoth Sledgehammer | Melee | 1,000 Exotics |
+| Sandwyrm Chainsaw | Melee | 1,000 Exotics |
 
 ## Technical Specifications
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 22 |
-| Workshop Items Added | 10 |
-| Talent Entries | 10 |
+| Total Modifications | 24 |
+| Workshop Items Added | 11 |
+| Talent Entries | 11 |
 | Talent Trees | 1 |
 
 ### Files Modified
@@ -60,7 +61,8 @@ Agent's BioLab brings all 10 legendary Bio Lab weapons to the Workshop, making t
 ## Version History
 
 | Version | Changes |
-|---------|---------|  
+|---------|---------|
+| 2.0 | Fixed Flamethrower case mismatch (`FlameThrower` → `Flamethrower`), added Sandwyrm Chainsaw |
 | 1.9 | Fixed Ape Club item reference (`LegendaryWeapon_ApeClub`) - icon and workshop craft now working |
 | 1.8 | Fixed item references for Ape Club and Heavy Flamethrower (Week 214 compatibility) |
 | 1.7 | Previous stable release |
