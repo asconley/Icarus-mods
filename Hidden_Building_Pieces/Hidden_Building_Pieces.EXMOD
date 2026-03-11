@@ -217,7 +217,7 @@
           "Name": "Item_Ice_CornerStairs",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_CornerStairs-DisplayName\", \"Ice Corner Stairs\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_CornerStairs-Description\", \"Ice corner stairs for smooth directional stairway changes.\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Ramp_0.ITEM_Wood_Ramp_0"
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Ice_Ramp_0.T_ITEM_Ice_Ramp_0"
         },
         {
           "Name": "Item_Limestone_CornerStairs",
@@ -258,7 +258,7 @@
             "Key": "",
             "SourceString": "Sandworm Corner Stairs"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Ramp_0.ITEM_Wood_Ramp_0",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Sandworm_Ramp_0.T_ITEM_Sandworm_Ramp_0",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Ramp-Description\", \"A sturdy stone ramp or roof to resist the elements.\")",
           "Weight": 5000,
           "MaxStack": 20
@@ -366,7 +366,7 @@
             "Key": "",
             "SourceString": "Connector and cap pieces for roof peaks."
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Ramp_0.ITEM_Wood_Ramp_0"
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Ice_Ramp_0.T_ITEM_Ice_Ramp_0"
         },
         {
           "Name": "Item_Iron_RoofPeak",
@@ -414,7 +414,7 @@
             "Key": "",
             "SourceString": "Connector and cap pieces for roof peaks."
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Ramp_0.ITEM_Wood_Ramp_0"
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Sandworm_Ramp_0.T_ITEM_Sandworm_Ramp_0"
         },
         {
           "Name": "Item_Scoria_Brick_RoofPeak",
