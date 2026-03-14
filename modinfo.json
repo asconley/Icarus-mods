@@ -1,4 +1,4 @@
-{
+﻿{
   "mods": [
     {
       "name": "Agent's Individual Item Kits",
@@ -29,9 +29,9 @@
     {
       "name": "Culinex Food Boost Fix",
       "author": "AgentKush",
-      "version": "2.6",
+      "version": "2.7",
       "compatibility": "All",
-      "description": "Fixes Chef's Backpack 25% food effectiveness boost for all 206 foods/drinks/tonics including animal feeds. Tooltips show boosted stats and Food Rating (S/A/B/C/D) based on efficiency per stomach slot.",
+      "description": "Fixes Chef's Backpack 25% food effectiveness boost for all 206 foods/drinks/tonics. Adds Raw Meat to Chicken butchery recipe. v2.7: Updated chicken recipe for current game format.",
       "fileName": "Culinex_Food_Boost_Fix",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Culinex_Food_Boost_Fix.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/README.md",
@@ -42,9 +42,9 @@
     {
       "name": "Dev Tools Kit",
       "author": "AgentKush",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "compatibility": "All",
-      "description": "Unlocks 10 hidden developer tools including Thor's Hammer (fly mode), Transform Tool, Destroy Tool, Inspection Tool, Fireball, Pyromancy Flame, and more. All free to craft!",
+      "description": "Unlocks 10 hidden developer tools including Thor's Hammer (fly mode), Transform Tool, Destroy Tool, Inspection Tool, Fireball, Pyromancy Flame, and more. v1.1.2: Fixed broken mesh and actionable references for current game data.",
       "fileName": "Dev_Tools_Kit",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Dev_Tools_Kit.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/README.md",
@@ -55,9 +55,9 @@
     {
       "name": "FastProcessing All 5x",
       "author": "AgentKush",
-      "version": "4.4",
+      "version": "4.5",
       "compatibility": "All",
-      "description": "All crafting and processing 5x faster. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix. Fixed water going negative during crafting.",
+      "description": "All crafting and processing 5x faster. 2,163 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
       "fileName": "FastProcessing_All_5x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_5x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/README.md",
@@ -68,9 +68,9 @@
     {
       "name": "FastProcessing All 10x",
       "author": "AgentKush",
-      "version": "4.4",
+      "version": "4.5",
       "compatibility": "All",
-      "description": "All crafting and processing 10x faster. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix. Fixed water going negative during crafting.",
+      "description": "All crafting and processing 10x faster. 2,163 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
       "fileName": "FastProcessing_All_10x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_10x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/README.md",
@@ -81,9 +81,9 @@
     {
       "name": "FastProcessing All 15x",
       "author": "AgentKush",
-      "version": "4.4",
+      "version": "4.5",
       "compatibility": "All",
-      "description": "All crafting and processing 15x faster. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix. Fixed water going negative during crafting.",
+      "description": "All crafting and processing 15x faster. 2,163 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
       "fileName": "FastProcessing_All_15x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_15x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/README.md",
@@ -94,9 +94,9 @@
     {
       "name": "FastProcessing All 25x",
       "author": "AgentKush",
-      "version": "4.4",
+      "version": "4.5",
       "compatibility": "All",
-      "description": "All crafting and processing 25x faster. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix. Fixed water going negative during crafting.",
+      "description": "All crafting and processing 25x faster. 2,163 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
       "fileName": "FastProcessing_All_25x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_25x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_25x/README.md",
@@ -107,9 +107,9 @@
     {
       "name": "FastProcessing Instant",
       "author": "AgentKush",
-      "version": "4.4",
+      "version": "4.5",
       "compatibility": "All",
-      "description": "All crafting and processing instant. 4,028 recipes covering base game + Workshop Recyclers, Hidden Building Pieces, No Food Spoilage, Turret Variants, Culinex Food Boost Fix. Fixed water going negative during crafting.",
+      "description": "All crafting and processing instant. 2,163 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
       "fileName": "FastProcessing_Instant",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",
@@ -133,9 +133,9 @@
     {
       "name": "No Food Spoilage",
       "author": "AgentKush",
-      "version": "1.8",
+      "version": "1.9",
       "compatibility": "All",
-      "description": "Prevents all 22 food decay types from spoiling. Includes 85 composter recipes to manually create Spoiled Meat from raw meats, fish, and fillets.",
+      "description": "Prevents all food spoilage across 33 decayable entries. Items decay normally but never convert to spoiled versions. v1.9: Added 11 new decay entries from Dangerous Horizons update.",
       "fileName": "No_Food_Spoilage",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/No_Food_Spoilage.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",
@@ -185,9 +185,9 @@
     {
       "name": "Workshop Recyclers",
       "author": "AgentKush",
-      "version": "4.6",
+      "version": "4.7",
       "compatibility": "All",
-      "description": "Two recycling machines based on Biofuel Bio-Cleaner (T3) and Organic Residue Cleanser (T4). 1,717 recipes returning 100% of original Workshop costs - Credits as Ren, each exotic type returned as the actual exotic item. Hammer repairable. v4.6: Fixed 47 recipes to return correct exotic items (Biomass, Uranium, Exotic Red, MetaResource) instead of Ren.",
+      "description": "Two recycling machines (Biofuel T3 + Organic T4). 1,980 recipes: 1,356 deconstruct + 624 recycle. Returns 50% of Workshop replication cost in correct currency (Credits/Exotic1/Exotic_Red/Biomass/Uranium). v4.7: Fixed 110 currency outputs, added 285 new recycle recipes, removed 22 broken refs.",
       "fileName": "Workshop_Recyclers",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Workshop_Recyclers.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
@@ -329,9 +329,9 @@
     {
       "name": "Stack Size Overhaul",
       "author": "AgentKush",
-      "version": "1.1",
+      "version": "1.2",
       "compatibility": "All",
-      "description": "Increases stack sizes on 1,268 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. Unstackable items unchanged.",
+      "description": "Increases stack sizes on 1,257 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. v1.2: Removed 11 frame items no longer in game.",
       "fileName": "Stack_Size_Overhaul",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Stack_Size_Overhaul.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/README.md",
