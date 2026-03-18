@@ -47,12 +47,12 @@ All mods require **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icaru
 
 | Mod | Ver | Speed | Recipes |
 |-----|:---:|:-----:|:-------:|
-| [FastProcessing 5x](FastProcessing_All_5x) | `4.5` | 5× faster | 2,163 |
-| [FastProcessing 10x](FastProcessing_All_10x) | `4.5` | 10× faster | 2,163 |
-| [FastProcessing 15x](FastProcessing_All_15x) | `4.5` | 15× faster | 2,163 |
-| [FastProcessing 25x](FastProcessing_All_25x) | `4.5` | 25× faster | 2,163 |
-| [FastProcessing Instant](FastProcessing_Instant) | `4.5` | ⚡ Instant | 2,163 |
-| [⚒️ Faster Crafting](Faster_Crafting) | `1.1` | 2× faster (active crafting only) | 2,163 |
+| [FastProcessing 5x](FastProcessing_All_5x) | `4.6` | 5× faster | 2,171 |
+| [FastProcessing 10x](FastProcessing_All_10x) | `4.6` | 10× faster | 2,171 |
+| [FastProcessing 15x](FastProcessing_All_15x) | `4.6` | 15× faster | 2,171 |
+| [FastProcessing 25x](FastProcessing_All_25x) | `4.6` | 25× faster | 2,171 |
+| [FastProcessing Instant](FastProcessing_Instant) | `4.6` | ⚡ Instant | 2,171 |
+| [⚒️ Faster Crafting](Faster_Crafting) | `1.2` | 2× faster (active crafting only) | 2,171 |
 
 *FastProcessing covers passive processors (furnaces, refineries). Faster Crafting covers active workbench crafting. They stack.*
 
