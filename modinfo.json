@@ -290,9 +290,9 @@
     {
       "name": "Exotic Economy Overhaul",
       "author": "AgentKush",
-      "version": "1.1",
+      "version": "2.0",
       "compatibility": "All",
-      "description": "Full exotic currency exchange system with 34 recipes. Convert between exotic types, buy rare materials with exotics, sell surplus ores for exotics. All at Fabricator.",
+      "description": "Full currency exchange system with 52 recipes. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches. Covers all Dangerous Horizons materials. v2.0: Complete rebuild with RequiredMillijoules fix and 25 new recipes.",
       "fileName": "Exotic_Economy_Overhaul",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Exotic_Economy_Overhaul.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Exotic_Economy_Overhaul/README.md",
