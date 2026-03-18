@@ -6,7 +6,7 @@
 
 ## Overview
 
-Introduces two dedicated recycling machines that enable full material recovery from both Workshop purchases and crafted items. Returns **100% of original Workshop costs** — including Ren, Exotics (purple), Red Exotics, Biomass, and Uranium.
+Introduces two dedicated recycling machines that enable full material recovery from both Workshop purchases and crafted items. Returns **100% of original Workshop costs** — including Ren, Exotics (purple), Red Exotics, Biomass, and Uranium. Deconstruction stops at processed materials (ingots, refined goods) — no raw ores or pyritic crusts.
 
 ## Features
 
@@ -32,9 +32,9 @@ Introduces two dedicated recycling machines that enable full material recovery f
 
 | Metric | Value |
 |--------|-------|
-| Total Recipes | 2,157 |
+| Total Recipes | 2,127 |
 | Workshop Items Recyclable | 317 |
-| Crafted Items Deconstructable | 1,838 |
+| Crafted Items Deconstructable | 1,808 |
 
 ## Currency Returns
 
@@ -79,9 +79,9 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 2,170 |
+| Total Modifications | 2,140 |
 | New Machines | 2 |
-| Recipe Entries | 2,157 |
+| Recipe Entries | 2,127 |
 
 ### Files Modified
 - `Crafting-D_RecipeSets.json` (2 entries)
@@ -90,7 +90,7 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 - `Items-D_ItemsStatic.json` (2 entries)
 - `Items-D_ItemTemplate.json` (2 entries)
 - `Talents-D_Talents.json` (2 entries)
-- `Crafting-D_ProcessorRecipes.json` (2,157 entries)
+- `Crafting-D_ProcessorRecipes.json` (2,127 entries)
 - `Traits-D_Durable.json` (1 entry)
 
 
@@ -106,6 +106,8 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 
 - Returns **100% of original replication costs** as physical items
 - Items costing multiple currencies (e.g. Credits + Exotics) return both as physical items
+- Deconstruction returns processed materials — **no raw ores or pyritic crusts**
+- A Steel Pickaxe returns Steel Ingots, not Metal Ore
 - Enables inventory cleanup with zero loss
 - Strategic for managing Workshop credit and exotic economy
 - Useful for recovering materials from outdated gear
@@ -124,7 +126,7 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 
 | Version | Changes |
 |---------|---------|
-| 5.0 | **Complete rebuild:** Fixed root cause of all currency outputs failing — processor recipes cannot output D_MetaCurrency, so all 317 workshop recycle recipes now output physical items (Ren, Meta_Resource, Exotic_Red, Biomass, Uranium_Rod) via D_ItemTemplate. Regenerated all 1,838 deconstruct recipes from current game data using ItemStaticData lookup (recovered 107 recipes previously missed). Fixed 13 broken item name references (Alphawolf→AlphaWolf, Platinum_Shealth→Platinum_Ingot, etc). Zero broken references. |
+| 5.0 | **Complete rebuild:** Fixed root cause of all currency outputs failing — processor recipes cannot output D_MetaCurrency, so all 317 workshop recycle recipes now output physical items (Ren, Meta_Resource, Exotic_Red, Biomass, Uranium_Rod) via D_ItemTemplate. Regenerated all 1,808 deconstruct recipes from current game data using ItemStaticData lookup. Removed 30 raw ore and pyritic crust deconstruct recipes, stripped ore/crust outputs from 33 more — deconstruction now stops at ingots and refined materials. All crafting times matched to base game. Zero broken references. |
 | 4.7 | Fixed MetaResource currency outputs, added 285 new Recycle_ recipes. |
 | 4.6 | Fixed 47 recipes to return correct exotic items. |
 | 4.5 | Added 60 new recycle recipes for DLC workshop items. |

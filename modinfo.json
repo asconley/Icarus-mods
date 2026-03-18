@@ -187,7 +187,7 @@
       "author": "AgentKush",
       "version": "5.0",
       "compatibility": "All",
-      "description": "Two recycling machines (Biofuel T3 + Organic T4). 2,157 recipes: 1,838 deconstruct + 317 recycle + 2 crafting. v5.0: Complete rebuild - fixed all workshop recycle recipes to output physical items (Ren/Meta_Resource/Exotic_Red/Biomass/Uranium_Rod) instead of broken D_MetaCurrency references. Regenerated all deconstruct recipes from current game data with ItemStaticData lookup. Zero broken references.",
+      "description": "Two recycling machines (Biofuel T3 + Organic T4). 2,127 recipes: 1,808 deconstruct + 317 recycle + 2 crafting. v5.0: Complete rebuild - fixed all workshop recycle recipes to output physical items (Ren/Meta_Resource/Exotic_Red/Biomass/Uranium_Rod). Deconstruction stops at ingots and refined materials — no raw ores or pyritic crusts. All crafting times matched to base game.",
       "fileName": "Workshop_Recyclers",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Workshop_Recyclers.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
