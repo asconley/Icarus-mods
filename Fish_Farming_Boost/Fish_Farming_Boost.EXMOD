@@ -1,9 +1,12 @@
-{
+﻿{
   "name": "Fish and Farming Boost",
   "author": "AgentKush",
-  "fileName": "Fish_Farming_Boost",
   "version": "1.1",
   "description": "Farming and fishing overhaul with 335 changes. Crops grow 2x faster, harvest yields +50%, +2 cultivations per plot, fish spawn rates doubled, fish quality +50%.",
+  "fileName": "Fish_Farming_Boost",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Fish_Farming_Boost.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Fish_Farming_Boost/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

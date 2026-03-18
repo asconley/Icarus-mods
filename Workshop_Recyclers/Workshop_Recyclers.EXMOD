@@ -13621,7 +13621,7 @@
         },
         {
           "Name": "Deconstruct_Stone_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -13676,7 +13676,7 @@
         },
         {
           "Name": "Deconstruct_Bone_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 375,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -16332,7 +16332,7 @@
         },
         {
           "Name": "Deconstruct_Flint_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -16387,7 +16387,7 @@
         },
         {
           "Name": "Deconstruct_Steel_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -16616,7 +16616,7 @@
         },
         {
           "Name": "Deconstruct_Metal_Bolt",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -16662,7 +16662,7 @@
         },
         {
           "Name": "Deconstruct_Copper_Bolt",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -16708,7 +16708,7 @@
         },
         {
           "Name": "Deconstruct_Steel_Bolt",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -19284,7 +19284,7 @@
         },
         {
           "Name": "Deconstruct_Epoxy",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -19330,7 +19330,7 @@
         },
         {
           "Name": "Deconstruct_Gunpowder",
-          "RequiredMillijoules": 2000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -19815,7 +19815,7 @@
         },
         {
           "Name": "Deconstruct_Aluminium_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -19870,7 +19870,7 @@
         },
         {
           "Name": "Deconstruct_Carbon_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -21217,7 +21217,7 @@
         },
         {
           "Name": "Deconstruct_Tree_Sap",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -21382,7 +21382,7 @@
         },
         {
           "Name": "Deconstruct_Composite_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -21620,7 +21620,7 @@
         },
         {
           "Name": "Deconstruct_Stick",
-          "RequiredMillijoules": 1000,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -22667,7 +22667,7 @@
         },
         {
           "Name": "Deconstruct_Ammo_Shell_Buckshot",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 5000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -23153,7 +23153,7 @@
         },
         {
           "Name": "Deconstruct_Ammo_Rifle_Round",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 5000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -24090,7 +24090,7 @@
         },
         {
           "Name": "Deconstruct_Any_Water_Container",
-          "RequiredMillijoules": 1000,
+          "RequiredMillijoules": 25000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -24658,7 +24658,7 @@
         },
         {
           "Name": "Deconstruct_Titanium_Ingot",
-          "RequiredMillijoules": 100000,
+          "RequiredMillijoules": 25000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -24695,7 +24695,7 @@
         },
         {
           "Name": "Deconstruct_Platinum_Ingot",
-          "RequiredMillijoules": 100000,
+          "RequiredMillijoules": 25000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -27335,7 +27335,7 @@
         },
         {
           "Name": "Deconstruct_Titanium_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -28499,7 +28499,7 @@
         },
         {
           "Name": "Deconstruct_Crushed_Bone",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 7500,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -29645,7 +29645,7 @@
         },
         {
           "Name": "Deconstruct_Platinum_Bolt",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -29691,7 +29691,7 @@
         },
         {
           "Name": "Deconstruct_Titanium_Bolt",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -30644,7 +30644,7 @@
         },
         {
           "Name": "Deconstruct_Sandworm_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 375,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -30900,7 +30900,7 @@
         },
         {
           "Name": "Deconstruct_Ammo_Pistol_Round",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 5000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -31967,7 +31967,7 @@
         },
         {
           "Name": "Deconstruct_Animal_Fat",
-          "RequiredMillijoules": 1000,
+          "RequiredMillijoules": 12500,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -35313,7 +35313,7 @@
         },
         {
           "Name": "Deconstruct_Caveworm_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 375,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -54323,7 +54323,7 @@
         },
         {
           "Name": "Deconstruct_Ammo_Shell_Slug",
-          "RequiredMillijoules": 1000,
+          "RequiredMillijoules": 5000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -54809,7 +54809,7 @@
         },
         {
           "Name": "Deconstruct_Obsidian_Bolt",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -54855,7 +54855,7 @@
         },
         {
           "Name": "Deconstruct_Obsidian_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -55633,7 +55633,7 @@
         },
         {
           "Name": "Deconstruct_Cold_Steel_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -55697,7 +55697,7 @@
         },
         {
           "Name": "Deconstruct_Cold_Steel_Bolt",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -56391,7 +56391,7 @@
         },
         {
           "Name": "Deconstruct_Iron_Wood_Bolt",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -56455,7 +56455,7 @@
         },
         {
           "Name": "Deconstruct_Iron_Wood_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -56804,7 +56804,7 @@
         },
         {
           "Name": "Deconstruct_Metal_Ore",
-          "RequiredMillijoules": 12500,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -56841,7 +56841,7 @@
         },
         {
           "Name": "Deconstruct_Gold_Ore",
-          "RequiredMillijoules": 12500,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -56878,7 +56878,7 @@
         },
         {
           "Name": "Deconstruct_Copper_Ore",
-          "RequiredMillijoules": 12500,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -56952,7 +56952,7 @@
         },
         {
           "Name": "Deconstruct_Coal_Ore",
-          "RequiredMillijoules": 12500,
+          "RequiredMillijoules": 150000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -57063,7 +57063,7 @@
         },
         {
           "Name": "Deconstruct_Oxite",
-          "RequiredMillijoules": 12500,
+          "RequiredMillijoules": 150000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -62588,7 +62588,7 @@
         },
         {
           "Name": "Deconstruct_Caveworm_Scale",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -62625,7 +62625,7 @@
         },
         {
           "Name": "Deconstruct_Sandworm_Tendon",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -62662,7 +62662,7 @@
         },
         {
           "Name": "Deconstruct_Black_Wolf_Tooth",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -62699,7 +62699,7 @@
         },
         {
           "Name": "Deconstruct_Black_Fur",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -62736,7 +62736,7 @@
         },
         {
           "Name": "Deconstruct_Scorpion_Carapace",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -62773,7 +62773,7 @@
         },
         {
           "Name": "Deconstruct_Venom_Sac",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -62810,7 +62810,7 @@
         },
         {
           "Name": "Deconstruct_Frozen_Wool",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -62847,7 +62847,7 @@
         },
         {
           "Name": "Deconstruct_Ice_Armor_Fragment",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -68429,7 +68429,7 @@
         },
         {
           "Name": "Deconstruct_Crushed_Limestone",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -82022,7 +82022,7 @@
         },
         {
           "Name": "Deconstruct_Slug_Skin",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -82059,7 +82059,7 @@
         },
         {
           "Name": "Deconstruct_Slug_Slime",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -82096,7 +82096,7 @@
         },
         {
           "Name": "Deconstruct_Rock_Golem_Fragment",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -82133,7 +82133,7 @@
         },
         {
           "Name": "Deconstruct_Rock_Golem_Core",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -82170,7 +82170,7 @@
         },
         {
           "Name": "Deconstruct_Ape_Hide",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -82207,7 +82207,7 @@
         },
         {
           "Name": "Deconstruct_Ape_Bicep",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -82244,7 +82244,7 @@
         },
         {
           "Name": "Deconstruct_Lava_Hunter_Horn",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -82281,7 +82281,7 @@
         },
         {
           "Name": "Deconstruct_Lava_Hunter_Magma",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -92084,7 +92084,7 @@
         },
         {
           "Name": "Deconstruct_Ammo_AssaultRifle_Round",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 5000,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -106699,7 +106699,7 @@
         },
         {
           "Name": "Deconstruct_Lithium_Bolt",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -106754,7 +106754,7 @@
         },
         {
           "Name": "Deconstruct_Uranium_Bolt",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -106809,7 +106809,7 @@
         },
         {
           "Name": "Deconstruct_Lithium_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -106864,7 +106864,7 @@
         },
         {
           "Name": "Deconstruct_Uranium_Arrow",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 250,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -111882,7 +111882,7 @@
         },
         {
           "Name": "Deconstruct_Ren",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -111919,7 +111919,7 @@
         },
         {
           "Name": "Deconstruct_Gruel",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",
@@ -112057,7 +112057,7 @@
         },
         {
           "Name": "Deconstruct_Sandwyrm_Egg",
-          "RequiredMillijoules": 500,
+          "RequiredMillijoules": 1,
           "RecipeSets": [
             {
               "RowName": "Biofuel_Recycler",

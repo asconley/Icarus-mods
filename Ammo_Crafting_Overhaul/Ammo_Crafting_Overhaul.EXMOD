@@ -1,9 +1,12 @@
-{
+﻿{
   "name": "Ammo Crafting Overhaul",
   "author": "AgentKush",
-  "fileName": "Ammo_Crafting_Overhaul",
   "version": "1.0",
   "description": "48 new ammo recipes. 50x batch crafting for all arrow and bullet types including special ammo. Plus 8 ammo conversion recipes.",
+  "fileName": "Ammo_Crafting_Overhaul",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Ammo_Crafting_Overhaul.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {
@@ -57,7 +60,8 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
+          },
+          "RequiredMillijoules": 12500
         },
         {
           "Name": "Mega_Bone_Arrow",
@@ -107,7 +111,8 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
+          },
+          "RequiredMillijoules": 18750
         },
         {
           "Name": "Mega_Flint_Arrow",
@@ -161,7 +166,8 @@
           ],
           "Audio": {
             "RowName": "AnvilBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Mega_Steel_Arrow",
@@ -215,7 +221,8 @@
           ],
           "Audio": {
             "RowName": "AnvilBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Mega_Aluminium_Arrow",
@@ -265,7 +272,8 @@
           ],
           "Audio": {
             "RowName": "AnvilBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Mega_Carbon_Arrow",
@@ -315,7 +323,8 @@
           ],
           "Audio": {
             "RowName": "AnvilBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Mega_Composite_Arrow",
@@ -354,7 +363,8 @@
           ],
           "Audio": {
             "RowName": "AnvilBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Mega_Titanium_Arrow",
@@ -400,7 +410,8 @@
           ],
           "Audio": {
             "RowName": "AnvilBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Mega_Obsidian_Arrow",
@@ -454,7 +465,8 @@
           ],
           "Audio": {
             "RowName": "AnvilBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Mega_Cold_Steel_Arrow",
@@ -511,7 +523,8 @@
           ],
           "Audio": {
             "RowName": "AnvilBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Mega_Iron_Wood_Arrow",
@@ -564,7 +577,8 @@
           ],
           "Audio": {
             "RowName": "AnvilBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Mega_Ammo_Casing",
@@ -600,7 +614,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Mega_Pistol_Round",
@@ -643,7 +658,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 50000
         },
         {
           "Name": "Mega_Rifle_Round",
@@ -686,7 +702,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 50000
         },
         {
           "Name": "Mega_AssaultRifle_Round",
@@ -729,7 +746,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 25000
         },
         {
           "Name": "Mega_Shotgun_Buckshot",
@@ -786,7 +804,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 50000
         },
         {
           "Name": "Mega_Shotgun_Slug",
@@ -836,7 +855,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 50000
         },
         {
           "Name": "Mega_Crude_Ammo",
@@ -883,7 +903,8 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
+          },
+          "RequiredMillijoules": 5000
         },
         {
           "Name": "Mega_Pistol_Explosive",
@@ -926,7 +947,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_Rifle_Explosive",
@@ -969,7 +991,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_AR_Explosive",
@@ -1012,7 +1035,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_Shotgun_Explosive",
@@ -1055,7 +1079,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_Pistol_Incendiary",
@@ -1098,7 +1123,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 50000
         },
         {
           "Name": "Mega_Rifle_Incendiary",
@@ -1141,7 +1167,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 50000
         },
         {
           "Name": "Mega_AR_Incendiary",
@@ -1184,7 +1211,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 50000
         },
         {
           "Name": "Mega_Pistol_AP",
@@ -1227,7 +1255,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 50000
         },
         {
           "Name": "Mega_Rifle_AP",
@@ -1270,7 +1299,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 50000
         },
         {
           "Name": "Mega_AR_AP",
@@ -1313,7 +1343,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 50000
         },
         {
           "Name": "Mega_Pistol_Obsidian",
@@ -1356,7 +1387,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_Rifle_Obsidian",
@@ -1399,7 +1431,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_AR_Obsidian",
@@ -1442,7 +1475,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_Shotgun_Obsidian",
@@ -1485,7 +1519,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 5000
         },
         {
           "Name": "Mega_Pistol_ColdSteel",
@@ -1528,7 +1563,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_Rifle_ColdSteel",
@@ -1571,7 +1607,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_AR_ColdSteel",
@@ -1614,7 +1651,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_Shotgun_ColdSteel",
@@ -1657,7 +1695,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 5000
         },
         {
           "Name": "Mega_Pistol_IronWood",
@@ -1700,7 +1739,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_Rifle_IronWood",
@@ -1743,7 +1783,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_AR_IronWood",
@@ -1786,7 +1827,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Mega_Shotgun_IronWood",
@@ -1829,7 +1871,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 5000
         },
         {
           "Name": "Convert_Pistol_To_Rifle",
@@ -1865,7 +1908,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Convert_Pistol_To_AR",
@@ -1901,7 +1945,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Convert_Rifle_To_Pistol",
@@ -1937,7 +1982,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Convert_Rifle_To_AR",
@@ -1973,7 +2019,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Convert_AR_To_Pistol",
@@ -2009,7 +2056,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Convert_AR_To_Rifle",
@@ -2045,7 +2093,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Convert_Buckshot_To_Slug",
@@ -2081,7 +2130,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Convert_Slug_To_Buckshot",
@@ -2117,7 +2167,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         }
       ]
     }

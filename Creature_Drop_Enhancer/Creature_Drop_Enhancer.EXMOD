@@ -1,9 +1,12 @@
-{
+﻿{
   "name": "Creature Drop Enhancer",
   "author": "AgentKush",
-  "fileName": "Creature_Drop_Enhancer",
   "version": "1.0",
   "description": "Doubles all creature butchery and skinning outputs across 62 recipes. 2x leather, bone, fur, meat, and rare drops from every creature.",
+  "fileName": "Creature_Drop_Enhancer",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Drop_Enhancer.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {
@@ -57,7 +60,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Chamois_M",
@@ -107,7 +111,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_BabyDeer",
@@ -157,7 +162,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Snow_Wolf",
@@ -207,7 +213,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Lion_F",
@@ -257,7 +264,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Deer_Desert",
@@ -307,7 +315,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Conifer_Wolf",
@@ -357,7 +366,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Pack_Wolf",
@@ -407,7 +417,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Jaguar",
@@ -457,7 +468,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_SnowLeopord",
@@ -507,7 +519,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Desert_Wolf",
@@ -557,7 +570,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Rabbit",
@@ -607,7 +621,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Kea",
@@ -648,7 +663,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Snow_Rabbit",
@@ -698,7 +714,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Boar",
@@ -748,7 +765,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Zebra",
@@ -798,7 +816,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Scorpion",
@@ -848,7 +867,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Pronghorn",
@@ -898,7 +918,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_BatDog",
@@ -948,7 +969,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Deer_Variant",
@@ -998,7 +1020,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Chamois_Var",
@@ -1048,7 +1071,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_PredatorBird",
@@ -1089,7 +1113,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Roat_Swamp",
@@ -1130,7 +1155,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Roat_Lava",
@@ -1171,7 +1197,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Wooly_Zebra",
@@ -1230,7 +1257,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Rabbit_Variant",
@@ -1280,7 +1308,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Rabbit_Variant_Snow",
@@ -1330,7 +1359,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Chick",
@@ -1371,7 +1401,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Chicken",
@@ -1403,7 +1434,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Rooster",
@@ -1435,7 +1467,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Sheep",
@@ -1476,7 +1509,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Ram",
@@ -1517,7 +1551,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Lamb",
@@ -1558,7 +1593,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Pig",
@@ -1599,7 +1635,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Piglet",
@@ -1640,7 +1677,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Cat_A",
@@ -1672,7 +1710,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Cat_B",
@@ -1704,7 +1743,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Cat_C",
@@ -1736,7 +1776,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Dog_A",
@@ -1768,7 +1809,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Dog_B",
@@ -1800,7 +1842,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Dog_C",
@@ -1832,7 +1875,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Dog_C2",
@@ -1864,7 +1908,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Dog_D",
@@ -1896,7 +1941,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Carcass_Dog_E",
@@ -1928,7 +1974,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Animal_Fat",
@@ -1942,7 +1989,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Raw_Meat_Bacon",
@@ -1956,7 +2004,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Raw_Meat_Soft",
@@ -1970,7 +2019,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Raw_Meat_White",
@@ -1984,7 +2034,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Raw_Meat_Stringy",
@@ -1998,7 +2049,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Raw_Meat_Gamey",
@@ -2012,7 +2064,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Raw_Meat_Tbone",
@@ -2026,7 +2079,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Raw_Meat_Steak",
@@ -2040,7 +2094,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Butcher_Meat_Pig",
@@ -2054,7 +2109,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Butcher_Meat_Chicken",
@@ -2077,7 +2133,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Butcher_Meat_Rooster",
@@ -2100,7 +2157,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Butcher_Meat_Sheep",
@@ -2114,7 +2172,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Butcher_Meat_Ram",
@@ -2128,7 +2187,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Butcher_Meat_Cow",
@@ -2142,7 +2202,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Butcher_Meat_Bull",
@@ -2156,7 +2217,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Butcher_Fish",
@@ -2170,7 +2232,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 0
         },
         {
           "Name": "Butcher_Fish_Saltwater",
@@ -2184,7 +2247,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 5000
         },
         {
           "Name": "Butcher_Fish_Freshwater",
@@ -2198,7 +2262,8 @@
               "DynamicProperties": [],
               "Alterations": []
             }
-          ]
+          ],
+          "RequiredMillijoules": 5000
         }
       ]
     }

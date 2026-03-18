@@ -1,6 +1,9 @@
 # No Food Spoilage
 
-Prevents all food items and volatile substances from spoiling by setting SpoilTime to 0 on all 20 food-related decay types. Since spoiling is disabled, 85 composter recipes are included so players can still manually create Spoiled Meat from raw meats, fish, and fillets.
+![Version](https://img.shields.io/badge/version-1.9-blue)
+![Author](https://img.shields.io/badge/author-AgentKush-green)
+
+Prevents all food items and volatile substances from spoiling across 33 decayable entries. Items decay normally but never convert to spoiled versions. v1.9: Added 11 new decay entries from Dangerous Horizons update.
 
 ## Features
 

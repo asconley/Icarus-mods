@@ -1,10 +1,12 @@
 ﻿{
   "name": "Dev Tools Kit",
   "author": "AgentKush",
-  "fileName": "Dev_Tools_Kit",
   "version": "1.1.2",
   "description": "Unlocks 10 hidden developer tools from the workshop including Thor Hammer (fly mode), Fireball, Inspection Tool, Transform Tool, Destroy Tool, and more. Free to research and craft!",
-  "week": "",
+  "fileName": "Dev_Tools_Kit",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Dev_Tools_Kit.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

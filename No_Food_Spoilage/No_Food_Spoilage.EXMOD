@@ -4,8 +4,9 @@
   "version": "1.9",
   "description": "Prevents all food spoilage. Items will still decay/despawn but never convert to spoiled versions. Covers all 33 decayable entries.",
   "fileName": "No_Food_Spoilage",
-  "imageURL": "",
-  "readmeURL": "",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/No_Food_Spoilage.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

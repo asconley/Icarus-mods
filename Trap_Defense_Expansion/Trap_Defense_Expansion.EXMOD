@@ -1,9 +1,12 @@
-{
+﻿{
   "name": "Trap and Defense Expansion",
   "author": "AgentKush",
-  "fileName": "Trap_Defense_Expansion",
   "version": "1.1",
   "description": "Defense expansion with 23 recipes using real game items. Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) that were previously enemy-only. Adds cheaper fortifications, early-game traps, hedgehog defenses without rare drops, and batch crafting packs.",
+  "fileName": "Trap_Defense_Expansion",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Trap_Defense_Expansion.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Trap_Defense_Expansion/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {
@@ -53,7 +56,8 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
+          },
+          "RequiredMillijoules": 1000
         },
         {
           "Name": "Quick_Wood_Wall",
@@ -99,7 +103,8 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
+          },
+          "RequiredMillijoules": 1000
         },
         {
           "Name": "Quick_Wood_Gate",
@@ -145,7 +150,8 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
+          },
+          "RequiredMillijoules": 1000
         },
         {
           "Name": "Quick_Wood_Walkway",
@@ -184,7 +190,8 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
+          },
+          "RequiredMillijoules": 1000
         },
         {
           "Name": "Batch_Wood_Spikes",
@@ -231,7 +238,8 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
+          },
+          "RequiredMillijoules": 5000
         },
         {
           "Name": "Primitive_Snare_Trap",
@@ -277,7 +285,8 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
+          },
+          "RequiredMillijoules": 1000
         },
         {
           "Name": "Improvised_Scorpion_Trap",
@@ -331,7 +340,8 @@
           ],
           "Audio": {
             "RowName": "AnvilBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Batch_Snare_Traps",
@@ -388,7 +398,8 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
+          },
+          "RequiredMillijoules": 5000
         },
         {
           "Name": "Field_Landmine",
@@ -438,7 +449,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 4500
         },
         {
           "Name": "Batch_Landmines",
@@ -491,7 +503,8 @@
           ],
           "Audio": {
             "RowName": "Fabricator"
-          }
+          },
+          "RequiredMillijoules": 13500
         },
         {
           "Name": "Landmine_Poison",
@@ -537,7 +550,8 @@
           ],
           "Audio": {
             "RowName": "Fabricator"
-          }
+          },
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Landmine_Burn",
@@ -583,7 +597,8 @@
           ],
           "Audio": {
             "RowName": "Fabricator"
-          }
+          },
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Landmine_Shock",
@@ -629,7 +644,8 @@
           ],
           "Audio": {
             "RowName": "Fabricator"
-          }
+          },
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Landmine_Freeze",
@@ -675,7 +691,8 @@
           ],
           "Audio": {
             "RowName": "Fabricator"
-          }
+          },
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Direct_Landmine_Poison",
@@ -728,7 +745,8 @@
           ],
           "Audio": {
             "RowName": "Fabricator"
-          }
+          },
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Direct_Landmine_Burn",
@@ -781,7 +799,8 @@
           ],
           "Audio": {
             "RowName": "Fabricator"
-          }
+          },
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Direct_Landmine_Shock",
@@ -834,7 +853,8 @@
           ],
           "Audio": {
             "RowName": "Fabricator"
-          }
+          },
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Direct_Landmine_Freeze",
@@ -887,7 +907,8 @@
           ],
           "Audio": {
             "RowName": "Fabricator"
-          }
+          },
+          "RequiredMillijoules": 7500
         },
         {
           "Name": "Crafted_Wolf_Trap",
@@ -944,7 +965,8 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Crafted_Mammoth_Trap",
@@ -997,7 +1019,8 @@
           ],
           "Audio": {
             "RowName": "Fabricator"
-          }
+          },
+          "RequiredMillijoules": 2500
         },
         {
           "Name": "Crafted_Lava_Mine",
@@ -1050,7 +1073,8 @@
           ],
           "Audio": {
             "RowName": "Fabricator"
-          }
+          },
+          "RequiredMillijoules": 15000
         },
         {
           "Name": "Defense_Starter_Pack_Spikes",
@@ -1100,7 +1124,8 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
+          },
+          "RequiredMillijoules": 10000
         },
         {
           "Name": "Landmine_Field_Kit",
@@ -1160,7 +1185,8 @@
           ],
           "Audio": {
             "RowName": "Fabricator"
-          }
+          },
+          "RequiredMillijoules": 22500
         }
       ]
     }

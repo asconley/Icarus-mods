@@ -1,10 +1,12 @@
-{
+﻿{
   "name": "Turret_Variants",
   "author": "AgentKush",
-  "fileName": "Turret_Variants",
   "version": "3.0",
   "description": "Adds 15 new automated turret variants with unique characteristics. v3.0: LOS fix PAK + proper ammo type matching (arrows, bolts, javelins, stones, biofuel) + tighter targeting.",
-  "week": "",
+  "fileName": "Turret_Variants",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

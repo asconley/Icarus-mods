@@ -1,9 +1,12 @@
-{
+﻿{
   "name": "Hardcore Rebalance Pack",
   "author": "AgentKush",
-  "fileName": "Hardcore_Rebalance_Pack",
   "version": "1.9",
   "description": "For survivors who think Icarus is too easy. 671 changes across 11 data tables + 2 blueprint overrides. ALPHA HUNTERS (12 named bosses across 255 spawn points with workshop item drops). LIMITED LIVES (Easy=3, Medium=1, Hard=PERMADEATH). ENRAGED CREATURES (3x faster rage, 4.5x longer cooldown). SURVIVAL PRESSURE (reduced HP + slower crafting). REVENGE SPAWNS (longer delays + further distances). CREATURE SCALING on all difficulties. DEADLY LIGHTNING STORMS. BOOSTED KILL XP. WALL-ATTACK FIX. Full coverage across 167 prospects.",
+  "fileName": "Hardcore_Rebalance_Pack",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

@@ -1,6 +1,9 @@
 # Stack Size Overhaul
 
-Increases stack sizes on 1,268 items across the game. Basic resources and ammo get 5x, everything else gets 3x. Unstackable items (tools, weapons, armor) are unchanged.
+![Version](https://img.shields.io/badge/version-1.2-blue)
+![Author](https://img.shields.io/badge/author-AgentKush-green)
+
+Increases stack sizes on 1,257 items across the game. Basic resources and ammo get 5x, everything else gets 3x. Unstackable items (tools, weapons, armor) are unchanged. v1.2: Removed 11 dead frame items.
 
 ## Changes
 

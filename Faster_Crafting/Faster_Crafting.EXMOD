@@ -1,9 +1,12 @@
-{
+﻿{
   "name": "Faster Crafting",
   "author": "AgentKush",
-  "fileName": "Faster_Crafting",
   "version": "1.1",
   "description": "Halves crafting time on 952 recipes across all workbenches. Minimum 500mJ to prevent instant-craft.",
+  "fileName": "Faster_Crafting",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Faster_Crafting.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Crafting/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

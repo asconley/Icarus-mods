@@ -1,10 +1,12 @@
 ﻿{
   "name": "Culinex_Food_Boost_Fix",
   "author": "AgentKush",
-  "fileName": "Culinex_Food_Boost_Fix",
   "version": "2.7",
   "description": "Fixes Culinex (Chef's Backpack) 25% food effectiveness boost to apply to all cooked foods. Also adds raw chicken to the butchery bench.",
-  "week": "",
+  "fileName": "Culinex_Food_Boost_Fix",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Culinex_Food_Boost_Fix.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/README.md",
+  "week": "All",
   "Level2": "False",
   "Rows": [
     {

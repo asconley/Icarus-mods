@@ -1,9 +1,12 @@
-{
+﻿{
   "name": "Extended Spoil Timers",
   "author": "AgentKush",
-  "fileName": "Extended_Spoil_Timers",
   "version": "1.1",
   "description": "Extends decay timers on 29 items. Food spoilage 5x longer, other decay 3x longer. Arrows and transient items unchanged.",
+  "fileName": "Extended_Spoil_Timers",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Extended_Spoil_Timers.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Spoil_Timers/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

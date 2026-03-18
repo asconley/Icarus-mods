@@ -1,6 +1,6 @@
 # Culinex Food Boost Fix
 
-**Author:** AgentKush | **Version:** 2.6
+**Author:** AgentKush | **Version:** 2.7
 
 Fixes the Culinex (Chef's Backpack) 25% food effectiveness boost so it actually works when cooking food while wearing the backpack.
 

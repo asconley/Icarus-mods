@@ -13,7 +13,7 @@
       "File_Items": [
         {
           "Name": "Ren_To_Steel",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 15000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -50,7 +50,7 @@
         },
         {
           "Name": "Ren_To_Titanium",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 15000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -87,7 +87,7 @@
         },
         {
           "Name": "Ren_To_Platinum",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 15000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -124,7 +124,7 @@
         },
         {
           "Name": "Ren_To_Gold",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 12500,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -161,7 +161,7 @@
         },
         {
           "Name": "Ren_To_Electronics",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -198,7 +198,7 @@
         },
         {
           "Name": "Ren_To_Carbon_Fiber",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 12500,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -235,7 +235,7 @@
         },
         {
           "Name": "Ren_To_Composites",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 12500,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -383,7 +383,7 @@
         },
         {
           "Name": "Ren_To_Cold_Steel",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 12500,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -420,7 +420,7 @@
         },
         {
           "Name": "Ren_To_Cobalt",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 15000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -457,7 +457,7 @@
         },
         {
           "Name": "Ren_To_Lithium",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 15000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -494,7 +494,7 @@
         },
         {
           "Name": "Ren_To_Ruby",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 15000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -531,7 +531,7 @@
         },
         {
           "Name": "Ren_To_Obsidian",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 12500,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -568,7 +568,7 @@
         },
         {
           "Name": "Ren_To_Aluminium",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -642,7 +642,7 @@
         },
         {
           "Name": "Ren_To_Glass",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -679,7 +679,7 @@
         },
         {
           "Name": "Ren_To_Concrete_Mix",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -716,7 +716,7 @@
         },
         {
           "Name": "Steel_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -753,7 +753,7 @@
         },
         {
           "Name": "Titanium_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -790,7 +790,7 @@
         },
         {
           "Name": "Platinum_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -827,7 +827,7 @@
         },
         {
           "Name": "Gold_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -864,7 +864,7 @@
         },
         {
           "Name": "Cobalt_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -901,7 +901,7 @@
         },
         {
           "Name": "Lithium_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -938,7 +938,7 @@
         },
         {
           "Name": "Ruby_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -975,7 +975,7 @@
         },
         {
           "Name": "Obsidian_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -1012,7 +1012,7 @@
         },
         {
           "Name": "Aluminium_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -1049,7 +1049,7 @@
         },
         {
           "Name": "Bulk_Exotic_Processing",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 50000,
           "RecipeSets": [
             {
               "RowName": "Fabricator",
@@ -1082,7 +1082,7 @@
         },
         {
           "Name": "Condense_Exotics",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 25000,
           "RecipeSets": [
             {
               "RowName": "Fabricator",
@@ -1115,7 +1115,7 @@
         },
         {
           "Name": "Expand_Exotics",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Fabricator",
@@ -1148,7 +1148,7 @@
         },
         {
           "Name": "Exotic_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 15000,
           "RecipeSets": [
             {
               "RowName": "Fabricator",
@@ -1181,7 +1181,7 @@
         },
         {
           "Name": "Condensed_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Fabricator",
@@ -1214,7 +1214,7 @@
         },
         {
           "Name": "Uranium_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 15000,
           "RecipeSets": [
             {
               "RowName": "Fabricator",
@@ -1247,7 +1247,7 @@
         },
         {
           "Name": "Biomass_To_Ren",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 10000,
           "RecipeSets": [
             {
               "RowName": "Fabricator",
@@ -1280,7 +1280,7 @@
         },
         {
           "Name": "Copper_To_Steel",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 15000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -1317,7 +1317,7 @@
         },
         {
           "Name": "Steel_To_Titanium",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 25000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -1354,7 +1354,7 @@
         },
         {
           "Name": "Titanium_To_Platinum",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 25000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -1391,7 +1391,7 @@
         },
         {
           "Name": "Gold_To_Platinum",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 25000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -1428,7 +1428,7 @@
         },
         {
           "Name": "Platinum_To_Gold",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 25000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -1465,7 +1465,7 @@
         },
         {
           "Name": "Platinum_To_Cobalt",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 25000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -1502,7 +1502,7 @@
         },
         {
           "Name": "Cobalt_To_Lithium",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 30000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -1539,7 +1539,7 @@
         },
         {
           "Name": "Lithium_To_Cold_Steel",
-          "RequiredMillijoules": 5000,
+          "RequiredMillijoules": 25000,
           "RecipeSets": [
             {
               "RowName": "Machining_Bench",
@@ -1576,7 +1576,7 @@
         },
         {
           "Name": "Bulk_Metal_Smelt",
-          "RequiredMillijoules": 25000,
+          "RequiredMillijoules": 125000,
           "RecipeSets": [
             {
               "RowName": "Stone_Furnace",
@@ -1617,7 +1617,7 @@
         },
         {
           "Name": "Bulk_Copper_Smelt",
-          "RequiredMillijoules": 25000,
+          "RequiredMillijoules": 125000,
           "RecipeSets": [
             {
               "RowName": "Stone_Furnace",
@@ -1658,7 +1658,7 @@
         },
         {
           "Name": "Bulk_Gold_Smelt",
-          "RequiredMillijoules": 25000,
+          "RequiredMillijoules": 125000,
           "RecipeSets": [
             {
               "RowName": "Concrete_Furnace",
@@ -1769,7 +1769,7 @@
         },
         {
           "Name": "Bulk_Bauxite_Refine",
-          "RequiredMillijoules": 30000,
+          "RequiredMillijoules": 150000,
           "RecipeSets": [
             {
               "RowName": "Concrete_Furnace",
@@ -1843,7 +1843,7 @@
         },
         {
           "Name": "Bulk_Lithium_Refine",
-          "RequiredMillijoules": 60000,
+          "RequiredMillijoules": 150000,
           "RecipeSets": [
             {
               "RowName": "Chemistry_Bench",
@@ -1876,7 +1876,7 @@
         },
         {
           "Name": "Bulk_Ruby_Cut",
-          "RequiredMillijoules": 60000,
+          "RequiredMillijoules": 150000,
           "RecipeSets": [
             {
               "RowName": "Glassworking_Bench",

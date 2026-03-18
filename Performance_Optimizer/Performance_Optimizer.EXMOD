@@ -1,9 +1,12 @@
-{
+﻿{
   "name": "Agents Optimization Mod",
   "author": "AgentKush",
-  "fileName": "Performance_Optimizer",
   "version": "2.1",
   "description": "Comprehensive FPS optimization - PAK config overrides (foliage/shadow/fog/LOD reduction) plus data table changes (reduced spawns, slower hordes, extended decay, boosted fuel, weather tuning).",
+  "fileName": "Performance_Optimizer",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Performance_Optimizer.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

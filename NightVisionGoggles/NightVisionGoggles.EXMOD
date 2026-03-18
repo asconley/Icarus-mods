@@ -1,10 +1,12 @@
-{
+﻿{
   "name": "Night Vision Goggles",
   "author": "AgentKush",
-  "fileName": "NightVisionGoggles",
   "version": "1.1",
   "description": "Adds craftable Night Vision Goggles using the game built-in NV system. Craft at Fabricator with Electronics, Glass and Epoxy.",
-  "week": "",
+  "fileName": "NightVisionGoggles",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

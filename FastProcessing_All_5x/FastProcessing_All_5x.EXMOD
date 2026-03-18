@@ -1,10 +1,12 @@
 ﻿{
   "name": "Fast Processing (5x)",
   "author": "AgentKush",
-  "fileName": "FastProcessing_All_5x",
   "version": "4.5",
   "description": "All crafting/processing recipes 5x faster. Water recipes have 500 MJ minimum floor.",
-  "week": "",
+  "fileName": "FastProcessing_All_5x",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_5x.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

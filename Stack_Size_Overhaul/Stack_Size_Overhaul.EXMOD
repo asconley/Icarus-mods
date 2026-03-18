@@ -1,9 +1,12 @@
 ﻿{
   "name": "Stack Size Overhaul",
   "author": "AgentKush",
-  "fileName": "Stack_Size_Overhaul",
   "version": "1.2",
   "description": "Increases stack sizes on 1232 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. Unstackable items unchanged.",
+  "fileName": "Stack_Size_Overhaul",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Stack_Size_Overhaul.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

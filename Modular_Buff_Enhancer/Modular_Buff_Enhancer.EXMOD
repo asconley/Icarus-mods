@@ -1,10 +1,12 @@
-{
+﻿{
   "name": "ModularBuffEnhancer",
   "author": "AgentKush",
-  "fileName": "Modular_Buff_Enhancer",
   "version": "1.1",
   "description": "Comprehensive buff enhancement - 83 core buffs plus 156 food buffs, all boosted by ~50%. Stronger tonics, better food effects, enhanced bed healing, improved comfort bonuses, and more powerful biolab inhalers.",
-  "week": "",
+  "fileName": "Modular_Buff_Enhancer",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Modular_Buff_Enhancer.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Buff_Enhancer/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

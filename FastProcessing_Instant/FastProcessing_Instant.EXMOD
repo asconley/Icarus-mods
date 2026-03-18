@@ -1,10 +1,12 @@
 ﻿{
   "name": "Fast Processing (instant)",
   "author": "AgentKush",
-  "fileName": "FastProcessing_Instant",
   "version": "4.5",
   "description": "All crafting/processing recipes set to instant (0 MJ). Water recipes have 500 MJ floor.",
-  "week": "",
+  "fileName": "FastProcessing_Instant",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",
+  "week": "All",
   "Level2": "True",
   "Rows": [
     {

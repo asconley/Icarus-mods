@@ -8,7 +8,7 @@
 
 Comprehensive performance optimization mod combining engine-level config overrides (PAK) with data table adjustments (EXMOD) for maximum FPS improvement. The PAK component overrides foliage density, shadow quality, volumetric fog, texture streaming, and renderer settings at the engine level — changes impossible through EXMOD alone. The EXMOD component reduces creature loads, slows horde intensity, extends decay timers, boosts fuel efficiency, and biases weather toward lighter effects.
 
-## What's New in v2.0 — PAK Engine Overrides
+## What's New in v2.1 — PAK Engine Overrides
 
 ### Foliage & Grass (Biggest FPS Impact)
 - Foliage density reduced 30-43% across all quality presets
