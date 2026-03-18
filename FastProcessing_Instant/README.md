@@ -1,6 +1,6 @@
-# FastProcessing Instant v4.5
+# FastProcessing Instant v4.6
 
-All crafting and processing speeds set to **Instant** faster across 2,163 recipes.
+All crafting and processing speeds set to **Instant** faster across 2,171 recipes.
 
 ## What's Included
 

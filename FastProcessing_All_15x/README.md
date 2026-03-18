@@ -1,6 +1,6 @@
-# FastProcessing All 15x v4.5
+# FastProcessing All 15x v4.6
 
-All crafting and processing speeds set to **15x** faster across 2,163 recipes.
+All crafting and processing speeds set to **15x** faster across 2,171 recipes.
 
 ## What's Included
 

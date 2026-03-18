@@ -1,8 +1,8 @@
 # Faster Crafting
 
-**Author:** AgentKush | **Version:** 1.1
+**Author:** AgentKush | **Version:** 1.2
 
-Halves crafting time on **2,163 recipes** across every workbench in the game. Minimum 500 millijoules to prevent instant-craft exploits.
+Halves crafting time on **2,171 recipes** across every workbench in the game. Minimum 500 millijoules to prevent instant-craft exploits.
 
 ## Changes
 
