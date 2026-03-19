@@ -341,7 +341,8 @@
               "DataTableName": "D_Talents"
             }
           ],
-          "bDefaultUnlocked": false
+          "bDefaultUnlocked": false,
+          "DrawMethodOverride": "XThenY"
         },
         {
           "Name": "Organic_Recycler",
@@ -353,7 +354,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 17700,
+            "X": 18000,
             "Y": 450
           },
           "Size": {
@@ -362,11 +363,12 @@
           },
           "RequiredTalents": [
             {
-              "RowName": "Refrigerator",
+              "RowName": "Homestead_Refridgerator",
               "DataTableName": "D_Talents"
             }
           ],
-          "bDefaultUnlocked": false
+          "bDefaultUnlocked": false,
+          "DrawMethodOverride": "XThenY"
         }
       ]
     },
@@ -405,6 +407,10 @@
             },
             {
               "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
               "DataTableName": "D_RecipeSets"
             }
           ],
@@ -469,6 +475,10 @@
           "RecipeSets": [
             {
               "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
               "DataTableName": "D_RecipeSets"
             }
           ],
