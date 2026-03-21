@@ -12,3 +12,5 @@ desktop.ini
 
 # Build artifacts
 Performance_Optimizer/PAK_Build/
+*.bat
+/tools/icarus_watcher
