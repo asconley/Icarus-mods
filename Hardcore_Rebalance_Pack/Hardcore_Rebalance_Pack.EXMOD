@@ -1,7 +1,7 @@
-﻿{
+{
   "name": "Hardcore Rebalance Pack",
   "author": "AgentKush",
-  "version": "1.9",
+  "version": "1.10",
   "description": "For survivors who think Icarus is too easy. 671 changes across 11 data tables + 2 blueprint overrides. ALPHA HUNTERS (12 named bosses across 255 spawn points with workshop item drops). LIMITED LIVES (Easy=3, Medium=1, Hard=PERMADEATH). ENRAGED CREATURES (3x faster rage, 4.5x longer cooldown). SURVIVAL PRESSURE (reduced HP + slower crafting). REVENGE SPAWNS (longer delays + further distances). CREATURE SCALING on all difficulties. DEADLY LIGHTNING STORMS. BOOSTED KILL XP. WALL-ATTACK FIX. Full coverage across 167 prospects.",
   "fileName": "Hardcore_Rebalance_Pack",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
@@ -37229,6 +37229,3700 @@
                 "RowName": "None",
                 "DataTableName": "D_ProspectForecast"
               }
+            }
+          }
+        },
+        {
+          "Name": "ELY_SQ_Ambush",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "ELY_SQ_Courier",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "ELY_SQ_Farmer",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "ELY_SQ_Fish",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 3,
+              "Max": 3
+            }
+          }
+        },
+        {
+          "Name": "ELY_SQ_Fisher",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "ELY_SQ_Hunter",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "ELY_SQ_Igloo",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 3,
+              "Max": 3
+            }
+          }
+        },
+        {
+          "Name": "ELY_SQ_Lifeline",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "ELY_SQ_Norex",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "ELY_SQ_Trials",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "ELY_SQ_Yeti",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 3,
+              "Max": 3
+            }
+          }
+        },
+        {
+          "Name": "ELY_Story_1",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 3,
+              "Max": 3
+            }
+          }
+        },
+        {
+          "Name": "ELY_Story_2",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 3,
+              "Max": 3
+            }
+          }
+        },
+        {
+          "Name": "ELY_Story_3",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 3,
+              "Max": 3
+            }
+          }
+        },
+        {
+          "Name": "ELY_Story_4",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 3,
+              "Max": 3
+            }
+          }
+        },
+        {
+          "Name": "ELY_Story_5",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 3,
+              "Max": 3
+            }
+          }
+        },
+        {
+          "Name": "ELY_Story_6",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 3,
+              "Max": 3
+            }
+          }
+        },
+        {
+          "Name": "OLY_SQ_Farmer",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "OLY_SQ_Fisher",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "OLY_SQ_Hunter",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "OLY_SQ_Norex",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "OpenWorld_Elysium",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 5,
+              "Max": 5
+            },
+            "Hours": {
+              "Min": 0,
+              "Max": 0
+            }
+          }
+        },
+        {
+          "Name": "PRO_SQ_Farmer",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "PRO_SQ_Fisher",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "PRO_SQ_Hunter",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "PRO_SQ_Norex",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "STYX_SQ_Farmer",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "STYX_SQ_Fisher",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "STYX_SQ_Hunter",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
+            }
+          }
+        },
+        {
+          "Name": "STYX_SQ_Norex",
+          "DifficultySetup": {
+            "Easy": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_Three",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Easy",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Easy",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Medium": {
+              "DifficultyStats": [
+                {
+                  "RowName": "Respawn_One",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_XP_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Medium",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Medium",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            },
+            "Hard": {
+              "DifficultyStats": [
+                {
+                  "RowName": "NPC_Increase_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "NPC_Increase_Hard_SpawnRates",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Player_XP_125%",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Respawn_Zero",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Storms_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Durability_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Survival_Hard",
+                  "DataTableName": "D_ProspectStats"
+                },
+                {
+                  "RowName": "Hardcore_Respawn_Hard",
+                  "DataTableName": "D_ProspectStats"
+                }
+              ],
+              "Forecast": {
+                "RowName": "None",
+                "DataTableName": "D_ProspectForecast"
+              }
+            }
+          },
+          "TimeDuration": {
+            "Days": {
+              "Min": 7,
+              "Max": 7
             }
           }
         }

@@ -1,7 +1,7 @@
-﻿{
+{
   "name": "Fast Processing (Instant)",
   "author": "AgentKush",
-  "version": "4.6",
+  "version": "4.7",
   "description": "All crafting and processing instant. 2171 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
   "fileName": "FastProcessing_Instant",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
@@ -8693,6 +8693,22 @@
         },
         {
           "Name": "Limestone_Roof_CurvedAngles",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fertility_Serum_Wolf",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fertility_Serum_Wolf_Exotic",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Carcass_Juvenile_Wolf",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Carcass_Juvenile_Snow_Wolf",
           "RequiredMillijoules": 1
         }
       ]
