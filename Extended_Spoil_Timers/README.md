@@ -1,8 +1,8 @@
 # Extended Spoil Timers
 
-**Author:** AgentKush | **Version:** 1.1
+**Author:** AgentKush | **Version:** 1.2
 
-Extends decay timers on 32 items. Food spoilage lasts 5x longer, other decay items last 3x longer.
+Extends decay timers on 33 items. Food spoilage lasts 5x longer, other decay items last 3x longer.
 
 ## Changes
 
@@ -43,7 +43,12 @@ Import `Extended_Spoil_Timers.EXMODZ` via Icarus Mod Manager.
 
 ## Changelog
 
-### v1.1
+
+### v1.2
+- Added Decay_NoDecay entry (DecayTime: 99999)
+- Total decay entries: 33
+
+### v1.2
 - Added Decay_Arrow, Decay_Delivery_Object, Decay_Quick rows (32 total)
 
 ### v1.0

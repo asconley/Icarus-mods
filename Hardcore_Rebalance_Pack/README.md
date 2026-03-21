@@ -1,6 +1,6 @@
-# Hardcore Rebalance Pack v1.9
+# Hardcore Rebalance Pack v1.10
 
-For survivors who think Icarus is too easy. Comprehensive hardcore overhaul with 671 changes across 11 data tables + 2 blueprint overrides.
+For survivors who think Icarus is too easy. Comprehensive hardcore overhaul with 705 changes across 11 data tables + 2 blueprint overrides.
 
 ## Features
 
@@ -56,7 +56,7 @@ For survivors who think Icarus is too easy. Comprehensive hardcore overhaul with
 - Halved decay timers and fuel burn times
 - 155 mission timer reductions (~35% cut)
 - Wall-attack fix (creatures require line of sight)
-- Full coverage across 167 prospects including Open World and Outposts
+- Full coverage across 197 prospects including Open World and Outposts
 
 ## Data Tables Modified (11)
 
@@ -93,6 +93,11 @@ For survivors who think Icarus is too easy. Comprehensive hardcore overhaul with
 All players AND the server must have this mod installed.
 
 ## Changelog
+
+### v1.10 (2026-03-22)
+- Added 30 new Elysium story missions and side quests across Elysium/Olympus/Prometheus/Styx maps
+- Full prospect coverage now 197/197 (up from 167)
+
 ### v1.9 (2026-03-08)
 - Added Dragonfly_Nest, FleshSac_Floater, SandScuttle, SulphurWorm autonomous spawns
 
@@ -116,7 +121,7 @@ All players AND the server must have this mod installed.
 - Enhanced animal awareness on all difficulties
 
 ### v1.3
-- Limited lives system across 167 prospects
+- Limited lives system across 197 prospects
 
 ### v1.2
 - Alpha Hunter System: 12 named bosses, 255 spawn points, tiered loot tables

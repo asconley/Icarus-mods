@@ -1,6 +1,6 @@
 # Creature Difficulty Scaling
 
-**Version:** 2.0  
+**Version:** 2.1  
 **Author:** AgentKush  
 **Compatibility:** Designed for JimK72's Level Cap 500 mod (works with any level cap mod)
 
@@ -60,7 +60,7 @@ Dynamic scaling rules that scale creature stats based on nearby player level:
 ## Technical Details
 
 - Modifies **161 spawn zones** in D_AISpawnZones (all biomes, all maps)
-- Modifies **136 creature entries** in D_AIGrowth
+- Modifies **180 creature entries** in D_AIGrowth
 - Adds **5 scaling rules** to D_ScalingRules
 - Does NOT modify mounts, tames, pets, or player-friendly creatures
 - All stat buffs are percentage-based, stacking with existing creature stats
@@ -86,7 +86,12 @@ Dynamic scaling rules that scale creature stats based on nearby player level:
 
 ## Changelog
 
-### v2.0
+
+### v2.1
+- Added 44 new creature growth entries for taming/mount content (dogs, horses, mounts, juveniles, tamed pets, speeder bike)
+- Total creature entries: 180 (up from 136)
+
+### v2.1
 - **Major overhaul** — expanded from creature-only buffs to full zone scaling
 - Added 161 spawn zone level modifications (all maps/biomes)
 - Scaled zone levels from vanilla max 120 to support level 500 cap

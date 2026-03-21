@@ -1,6 +1,6 @@
 # Indestructible Tools & Weapons
 
-![Version](https://img.shields.io/badge/version-1.6-blue)
+![Version](https://img.shields.io/badge/version-1.7-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -27,11 +27,11 @@ Eliminates equipment degradation by setting all durability values to the game's 
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 191 |
+| Total Modifications | 199 |
 | Durability Setting | 12,700,000 (maximum game cap) |
 
 ### Files Modified
-- `Traits-D_Durable.json` (191 entries)
+- `Traits-D_Durable.json` (199 entries)
 
 ## Installation
 
@@ -60,6 +60,7 @@ Eliminates equipment degradation by setting all durability values to the game's 
 
 | Version | Changes |
 |---------|---------|
+| 1.7 | Added 7 new durable entries from latest game data (199 total) |
 | 1.6 | Added Sandwyrm_Gear row — covers Sandwyrm Backpack |
 | 1.5 | Week 217 fix: LegendaryWeapon_ApeClub renamed to LegendaryWeapon_Ape_Club |
 | 1.4 | Week 213+ compatibility update |

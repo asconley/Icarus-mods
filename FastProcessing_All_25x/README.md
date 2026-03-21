@@ -1,6 +1,6 @@
-# FastProcessing All 25x v4.6
+# FastProcessing All 25x v4.7
 
-All crafting and processing speeds set to **25x** faster across 2,171 recipes.
+All crafting and processing speeds set to **25x** faster across 2,175 recipes.
 
 ## What's Included
 
@@ -31,6 +31,11 @@ Covers all base game recipes plus compatibility with:
 4. Launch Icarus
 
 ## Changelog
+
+
+### v4.7
+- Added 4 new wolf recipes (Carcass_Juvenile_Snow_Wolf, Carcass_Juvenile_Wolf, Fertility_Serum_Wolf, Fertility_Serum_Wolf_Exotic)
+- Total recipes: 2,175
 
 ### v4.4
 - **Fixed:** Water going into negatives when crafting recipes that consume water (soups, dough, pickled items, geode lamps, etc.)

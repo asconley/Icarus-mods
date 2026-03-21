@@ -1,8 +1,8 @@
 # Faster Crafting
 
-**Author:** AgentKush | **Version:** 1.2
+**Author:** AgentKush | **Version:** 1.3
 
-Halves crafting time on **2,171 recipes** across every workbench in the game. Minimum 500 millijoules to prevent instant-craft exploits.
+Halves crafting time on **2,175 recipes** across every workbench in the game. Minimum 500 millijoules to prevent instant-craft exploits.
 
 ## Changes
 
@@ -20,6 +20,11 @@ This is different from the FastProcessing mods which speed up passive processor 
 Import `Faster_Crafting.EXMODZ` via Icarus Mod Manager.
 
 ## Changelog
+
+
+### v1.3
+- Added 4 new wolf recipes (Carcass_Juvenile_Snow_Wolf, Carcass_Juvenile_Wolf, Fertility_Serum_Wolf, Fertility_Serum_Wolf_Exotic)
+- Total recipes: 2,175
 
 ### v1.1
 - Added 1,211 missing recipes from latest update/DLC (total: 2,163)

@@ -1,6 +1,6 @@
 # Performance Optimizer
 
-**Version:** 2.1  
+**Version:** 2.2  
 **Author:** AgentKush  
 **Game:** Icarus  
 
@@ -8,7 +8,7 @@
 
 Comprehensive performance optimization mod combining engine-level config overrides (PAK) with data table adjustments (EXMOD) for maximum FPS improvement. The PAK component overrides foliage density, shadow quality, volumetric fog, texture streaming, and renderer settings at the engine level — changes impossible through EXMOD alone. The EXMOD component reduces creature loads, slows horde intensity, extends decay timers, boosts fuel efficiency, and biases weather toward lighter effects.
 
-## What's New in v2.1 — PAK Engine Overrides
+## What's New in v2.2 — PAK Engine Overrides
 
 ### Foliage & Grass (Biggest FPS Impact)
 - Foliage density reduced 30-43% across all quality presets
@@ -53,7 +53,7 @@ Comprehensive performance optimization mod combining engine-level config overrid
 ### Horde Waves (D_HordeWave) - 21 entries
 - TotalToSpawn -40%, TimeBetweenSpawns +50%, NumberToSpawnAtATime -30%
 
-### Weather Events (D_WeatherEvents) - 59 entries
+### Weather Events (D_WeatherEvents) - 109 entries
 - Tier 0-2: Duration +30% | Tier 5-6: Duration -50%
 
 ### Decay Timers (D_Decayable) - 32 entries
