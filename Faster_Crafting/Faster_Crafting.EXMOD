@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "Faster Crafting",
   "author": "AgentKush",
-  "version": "1.3",
+  "version": "1.4",
   "description": "All crafting and processing 2x faster. 2171 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
   "fileName": "Faster_Crafting",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Faster_Crafting.png",

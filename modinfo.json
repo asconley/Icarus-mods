@@ -16,9 +16,9 @@
     {
       "name": "Agents Individual Item Kits",
       "author": "AgentKush",
-      "version": "3.0",
+      "version": "3.1",
       "compatibility": "All",
-      "description": "2,052 individual item kits. Fair pricing based on complexity (5-300 credits). Complete Workshop expansion for precise inventory management.",
+      "description": "2,056 individual item kits. Fair pricing based on complexity (5-300 credits). Complete Workshop expansion for precise inventory management. v3.1: Added Submachine Gun, Scouts SMG, Sandwyrm SMG, Speeder Kit, Checkered Flag kits.",
       "fileName": "Agents_Individual_Item_Kits",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_Individual_Item_Kits.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/README.md",
@@ -107,9 +107,9 @@
     {
       "name": "Fast Processing (5x)",
       "author": "AgentKush",
-      "version": "4.7",
+      "version": "4.8",
       "compatibility": "All",
-      "description": "All crafting and processing 5x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
+      "description": "All crafting and processing 5x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
       "fileName": "FastProcessing_All_5x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_5x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/README.md",
@@ -120,9 +120,9 @@
     {
       "name": "Fast Processing (10x)",
       "author": "AgentKush",
-      "version": "4.7",
+      "version": "4.8",
       "compatibility": "All",
-      "description": "All crafting and processing 10x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
+      "description": "All crafting and processing 10x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
       "fileName": "FastProcessing_All_10x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_10x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/README.md",
@@ -133,9 +133,9 @@
     {
       "name": "Fast Processing (15x)",
       "author": "AgentKush",
-      "version": "4.7",
+      "version": "4.8",
       "compatibility": "All",
-      "description": "All crafting and processing 15x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
+      "description": "All crafting and processing 15x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
       "fileName": "FastProcessing_All_15x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_15x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/README.md",
@@ -146,9 +146,9 @@
     {
       "name": "Fast Processing (25x)",
       "author": "AgentKush",
-      "version": "4.7",
+      "version": "4.8",
       "compatibility": "All",
-      "description": "All crafting and processing 25x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
+      "description": "All crafting and processing 25x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
       "fileName": "FastProcessing_All_25x",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_25x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_25x/README.md",
@@ -159,9 +159,9 @@
     {
       "name": "Fast Processing (Instant)",
       "author": "AgentKush",
-      "version": "4.7",
+      "version": "4.8",
       "compatibility": "All",
-      "description": "All crafting and processing instant. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
+      "description": "All crafting and processing instant. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
       "fileName": "FastProcessing_Instant",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",
@@ -172,9 +172,9 @@
     {
       "name": "Faster Crafting",
       "author": "AgentKush",
-      "version": "1.3",
+      "version": "1.4",
       "compatibility": "All",
-      "description": "Halves crafting time on 2175 recipes across all workbenches. Minimum 500 MJ for water recipes.",
+      "description": "Halves crafting time on 2175 recipes across all workbenches. Minimum 500 MJ for water recipes. v1.4: Version bump for latest game update.",
       "fileName": "Faster_Crafting",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Faster_Crafting.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Crafting/README.md",
@@ -303,9 +303,9 @@
     {
       "name": "Indestructible Tools & Weapons",
       "author": "AgentKush",
-      "version": "1.7",
+      "version": "1.8",
       "compatibility": "All",
-      "description": "Maximum durability on all tools, weapons, armor, buildings, doors, and crafting stations. 199 items modified to never break.",
+      "description": "Maximum durability on all tools, weapons, armor, buildings, doors, and crafting stations. 199 items modified to never break. v1.8: Version bump for latest game update.",
       "fileName": "Indestructible_Tools_Weapons",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Indestructible_Tools_Weapons.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/README.md",
@@ -316,9 +316,9 @@
     {
       "name": "Stack Size Overhaul",
       "author": "AgentKush",
-      "version": "1.2",
+      "version": "1.3",
       "compatibility": "All",
-      "description": "Increases stack sizes on 1,257 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. v1.2: Removed 11 frame items no longer in game.",
+      "description": "Increases stack sizes on 1,258 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. v1.3: Added Gruel stack size (300).",
       "fileName": "Stack_Size_Overhaul",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Stack_Size_Overhaul.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/README.md",
@@ -429,6 +429,19 @@
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/README.md",
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/Creature_Difficulty_Scaling.EXMODZ"
+      }
+    },
+    {
+      "name": "Solar Panel Expansion",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Adds all solar panels and Solar Backpack to a dedicated Solar Energy Workshop tab. Includes Solar Panel Kit, Flat Solar Panel Kit, and Solar Backpack Kit with fair pricing.",
+      "fileName": "Solar_Panel_Expansion",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Solar_Panel_Expansion.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Solar_Panel_Expansion/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Solar_Panel_Expansion/Solar_Panel_Expansion.EXMODZ"
       }
     },
     {
