@@ -1,8 +1,8 @@
 ﻿{
   "name": "Night Vision Goggles",
   "author": "AgentKush",
-  "version": "1.1",
-  "description": "Adds craftable Night Vision Goggles using the game built-in NV system. Craft at Fabricator with Electronics, Glass and Epoxy.",
+  "version": "2.0",
+  "description": "Adds craftable Night Vision Goggles with improved durability, no decay, lighter weight. Craft at Fabricator, Manufacturer, or Machining Bench.",
   "fileName": "NightVisionGoggles",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/README.md",
@@ -33,7 +33,7 @@
             "RowName": "NightVision"
           },
           "Decayable": {
-            "RowName": "Decay_General"
+            "RowName": "Decay_NoDecay"
           },
           "Audio": {
             "RowName": "Default"
@@ -47,6 +47,9 @@
                 "TagName": "FieldGuide.Equipment"
               }
             ]
+          },
+          "Durable": {
+            "RowName": "Destroyed_Tool"
           }
         }
       ]
@@ -71,7 +74,7 @@
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_NightVision-Description\", \"Advanced optical device that amplifies ambient light, allowing clear vision in darkness. Toggle with secondary action.\")",
           "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_NightVision-FlavorText\", \"Standard issue for deep cave exploration. The green tint takes some getting used to.\")",
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Binoculars.ITEM_Binoculars",
-          "Weight": 500
+          "Weight": 100
         }
       ]
     },
@@ -87,6 +90,10 @@
             },
             {
               "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
               "DataTableName": "D_RecipeSets"
             }
           ],

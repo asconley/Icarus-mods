@@ -1,4 +1,4 @@
-{
+﻿{
   "mods": [
     {
       "name": "Agent's BioLab",
@@ -55,9 +55,9 @@
     {
       "name": "Night Vision Goggles",
       "author": "AgentKush",
-      "version": "1.1",
+      "version": "2.0",
       "compatibility": "All",
-      "description": "Unlocks the hidden Night Vision system built into Icarus. Craft Night Vision Goggles at the Fabricator - equip and right-click to toggle green-tinted enhanced vision with 8x brightness. v1.1: Fixed mod format compatibility issue causing IMM errors.",
+      "description": "Unlocks the hidden Night Vision system built into Icarus. Craft Night Vision Goggles at Fabricator, Manufacturer, or Machining Bench. Toggle with secondary action. v2.0: Added no-decay, durability (10,000 HP), reduced weight, added Machining Bench crafting.",
       "fileName": "NightVisionGoggles",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/README.md",
@@ -277,9 +277,9 @@
     {
       "name": "No Food Spoilage",
       "author": "AgentKush",
-      "version": "1.9",
+      "version": "2.0",
       "compatibility": "All",
-      "description": "Prevents all food spoilage across 33 decayable entries. Items decay normally but never convert to spoiled versions. v1.9: Added 11 new decay entries from Dangerous Horizons update.",
+      "description": "Prevents all food spoilage. 33 decayable entries + 134 composter recipes. Items decay/despawn normally but never convert to spoiled versions. v2.0: Added 134 composter recipes for raw meats, fish, dairy, vegetables, fruits, and bait.",
       "fileName": "No_Food_Spoilage",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/No_Food_Spoilage.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",

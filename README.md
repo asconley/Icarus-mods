@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Mods](https://img.shields.io/badge/Mods-34-blue?style=for-the-badge)]()
+[![Mods](https://img.shields.io/badge/Mods-35-blue?style=for-the-badge)]()
 [![Items Added](https://img.shields.io/badge/Items%20Added-2000%2B-purple?style=for-the-badge)]()
 [![Recipes Modified](https://img.shields.io/badge/Recipes-10%2C000%2B-orange?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-Free%20to%20Use-brightgreen?style=for-the-badge)]()
@@ -15,8 +15,8 @@ All mods require **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icaru
 
 ---
 
-> **Legend:** `📦 EXMOD only` · `🔧 PAK required` (install `.pak` → `Icarus/Content/Paks/mods/`)  
-> PAK mods require **all players + server** to have them installed in multiplayer.
+**Legend:** `📦 EXMOD only` · `🔧 PAK required` (install `.pak` → `Icarus/Content/Paks/mods/`)  
+PAK mods require **all players + server** to have them installed in multiplayer.
 
 ---
 
@@ -25,10 +25,11 @@ All mods require **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icaru
 | Mod | Ver | Description |
 |-----|:---:|-------------|
 | [🧬 Agent's BioLab](Agents_BioLab) | `2.0` | All 11 Bio Lab Legendary weapons in the Workshop — includes Sandwyrm Chainsaw |
-| [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `3.0` | 2,052 individual item kits with fair pricing (5–300 credits) |
+| [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `3.1` | 2,052 individual item kits with fair pricing (5–300 credits) |
 | [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.0` | 2 recycling machines · 2,127 recipes · Returns processed materials (ingots, refined) — no raw ores or pyritic crusts |
 | [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.2` | 10 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |
-| [👁️ Night Vision Goggles](NightVisionGoggles) | `1.1` | Unlocks the hidden NV system — craft goggles at Fabricator, toggle with secondary action |
+| [👁️ Night Vision Goggles](NightVisionGoggles) | `2.0` | Unlocks hidden NV system — craft at Fabricator/Manufacturer/Machining Bench. No decay, durable, lightweight |
+| [☀️ Solar Panel Expansion](Solar_Panel_Expansion) | `1.0` | All solar panels and solar backpack in a dedicated Workshop tab with fair pricing |
 
 
 ## 🏗️ Building & Construction
@@ -43,16 +44,16 @@ All mods require **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icaru
 
 ## ⚡ Processing Speed
 
-> ⚠️ **Use only ONE FastProcessing variant at a time.** They all modify the same recipes.
+⚠️ **Use only ONE FastProcessing variant at a time.** They all modify the same recipes.
 
 | Mod | Ver | Speed | Recipes |
 |-----|:---:|:-----:|:-------:|
-| [FastProcessing 5x](FastProcessing_All_5x) | `4.6` | 5× faster | 2,171 |
-| [FastProcessing 10x](FastProcessing_All_10x) | `4.6` | 10× faster | 2,171 |
-| [FastProcessing 15x](FastProcessing_All_15x) | `4.6` | 15× faster | 2,171 |
-| [FastProcessing 25x](FastProcessing_All_25x) | `4.6` | 25× faster | 2,171 |
-| [FastProcessing Instant](FastProcessing_Instant) | `4.6` | ⚡ Instant | 2,171 |
-| [⚒️ Faster Crafting](Faster_Crafting) | `1.2` | 2× faster (active crafting only) | 2,171 |
+| [FastProcessing 5x](FastProcessing_All_5x) | `4.8` | 5× faster | 2,171 |
+| [FastProcessing 10x](FastProcessing_All_10x) | `4.8` | 10× faster | 2,171 |
+| [FastProcessing 15x](FastProcessing_All_15x) | `4.8` | 15× faster | 2,171 |
+| [FastProcessing 25x](FastProcessing_All_25x) | `4.8` | 25× faster | 2,171 |
+| [FastProcessing Instant](FastProcessing_Instant) | `4.8` | ⚡ Instant | 2,171 |
+| [⚒️ Faster Crafting](Faster_Crafting) | `1.4` | 2× faster (active crafting only) | 2,171 |
 
 *FastProcessing covers passive processors (furnaces, refineries). Faster Crafting covers active workbench crafting. They stack.*
 
@@ -82,10 +83,10 @@ All mods require **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icaru
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [🥩 No Food Spoilage](No_Food_Spoilage) | `1.9` | All food and volatiles never spoil · 33 decayable entries · Items decay normally but never convert to spoiled versions |
-| [⏱️ Extended Spoil Timers](Extended_Spoil_Timers) | `1.1` | Food 5× longer · Other decay 3× longer · 32 items total *(not compatible with No Food Spoilage)* |
-| [🔩 Indestructible Tools & Weapons](Indestructible_Tools_Weapons) | `1.6` | 192 items set to max durability — tools, weapons, armor, buildings, crafting stations |
-| [📦 Stack Size Overhaul](Stack_Size_Overhaul) | `1.2` | 1,257 items — resources/ammo 5×, everything else 3×, cap 9,999 |
+| [🥩 No Food Spoilage](No_Food_Spoilage) | `2.0` | All food and volatiles never spoil · 33 decayable entries · 134 composter recipes · Items decay normally but never convert to spoiled versions |
+| [⏱️ Extended Spoil Timers](Extended_Spoil_Timers) | `1.2` | Food 5× longer · Other decay 3× longer · 32 items total *(not compatible with No Food Spoilage)* |
+| [🔩 Indestructible Tools & Weapons](Indestructible_Tools_Weapons) | `1.8` | 192 items set to max durability — tools, weapons, armor, buildings, crafting stations |
+| [📦 Stack Size Overhaul](Stack_Size_Overhaul) | `1.3` | 1,257 items — resources/ammo 5×, everything else 3×, cap 9,999 |
 | [🐾 Creature Drop Enhancer](Creature_Drop_Enhancer) | `1.0` | 2× all butchery and skinning outputs across 62 recipes |
 | [🌾 Fish and Farming Boost](Fish_Farming_Boost) | `1.1` | 390 changes — 2× crop growth, +50% harvests, doubled fish spawns, DLC plants included |
 
@@ -105,9 +106,9 @@ All mods require **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icaru
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `1.9` | 🔧 The full brutal experience — alpha hunters · limited lives (permadeath on Hard) · enraged creatures · survival pressure · creature scaling · deadly storms · wall-attack fix · 167 prospects covered |
-| [🦁 Creature Difficulty Scaling](Creature_Difficulty_Scaling) | `2.0` | Full creature overhaul for level 500 cap · 161 spawn zones rescaled · 136 creatures buffed by tier · Designed for JimK72 Level Cap 500 |
-| [📈 Performance Optimizer](Performance_Optimizer) | `2.1` | 🔧 FPS boost via PAK engine overrides (foliage/shadows/fog/LOD) + data table changes (spawns/hordes/weather) |
+| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `1.10` | 🔧 The full brutal experience — alpha hunters · limited lives (permadeath on Hard) · enraged creatures · survival pressure · creature scaling · deadly storms · wall-attack fix · 167 prospects covered |
+| [🦁 Creature Difficulty Scaling](Creature_Difficulty_Scaling) | `2.1` | Full creature overhaul for level 500 cap · 161 spawn zones rescaled · 136 creatures buffed by tier · Designed for JimK72 Level Cap 500 |
+| [📈 Performance Optimizer](Performance_Optimizer) | `2.2` | 🔧 FPS boost via PAK engine overrides (foliage/shadows/fog/LOD) + data table changes (spawns/hordes/weather) |
 
 ---
 
