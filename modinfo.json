@@ -376,9 +376,9 @@
         {
             "name": "Hardcore Rebalance Pack",
             "author": "AgentKush",
-            "version": "1.10",
+            "version": "1.14",
             "compatibility": "All",
-            "description": "For survivors who think Icarus is too easy. 705 changes across 11 data tables + 3 binary curve overrides + 2 blueprint overrides: LEVEL CAP 170, ENRAGED CREATURES, WALL-ATTACK FIX, LIMITED LIVES, SURVIVAL PRESSURE, REVENGE SPAWNS, CREATURE SCALING, 12 Alpha Hunter bosses, +50% kill XP, DEADLY LIGHTNING STORMS, full 197/197 prospect coverage including 30 new Elysium missions. REQUIRES both EXMOD and PAK file.",
+            "description": "Complete hardcore survival overhaul - 5 difficulty tiers (Easy/Medium/Hard/Extreme/Hell) on ALL 197 maps, 37 alpha hunters, enhanced weather, creature AI, decay, and XP scaling",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/README.md",
             "files": {
