@@ -1,12 +1,12 @@
-# Hardcore Rebalance Pack v1.14
+# Hardcore Rebalance Pack v1.15
 
-For survivors who think Icarus is too easy. Comprehensive hardcore overhaul with 851 changes across 11 data tables + 2 blueprint overrides.
+For survivors who think Icarus is too easy. Comprehensive hardcore overhaul with 844 changes across 11 data tables + 2 blueprint overrides.
 
 ## Features
 
 **Alpha Hunter System** — 37 named bosses across all biomes with unique stats, status effects, and biome-tiered workshop loot drops.
 
-**All Maps Supported** — Every single one of the 197 prospects has all 5 difficulty tiers (Easy/Medium/Hard/Extreme/Hell). No map left behind.
+**All Maps Supported** — Every single one of the 197 prospects has all 4 difficulty tiers (Easy/Medium/Hard/Extreme). No map left behind.
 
 **Limited Lives:**
 
@@ -14,9 +14,9 @@ For survivors who think Icarus is too easy. Comprehensive hardcore overhaul with
 |---|---|
 | Easy | 3 lives |
 | Medium | 1 life |
-| Hard/Extreme/Hell | **PERMADEATH** |
+| Hard/Extreme | **PERMADEATH** |
 
-**Enraged Creatures** — 3x faster rage buildup (15→5s), 4.5x longer cooldown (45→10s). Creatures stay aggressive and dangerous.
+**Enraged Creatures** — 3x faster rage buildup (15->5s), 4.5x longer cooldown (45->10s). Creatures stay aggressive and dangerous.
 
 **Survival Pressure (scaled by difficulty):**
 
@@ -25,18 +25,16 @@ For survivors who think Icarus is too easy. Comprehensive hardcore overhaul with
 | Easy | -5% | -10% slower |
 | Medium | -15% | -15% slower |
 | Hard | -25% | -25% slower |
-| **Extreme** | **-30%** | **-50% slower** |
-| **Hell** | **-50%** | **-75% slower** |
+| **Extreme** | **-40%** | **-65% slower** |
 
 **Creature Scaling (all difficulties):**
 
 | Difficulty | NPC Health | NPC Melee | NPC Speed | Perception |
 |---|---|---|---|---|
-| Easy | +25% | +15% | — | +30% |
+| Easy | +25% | +15% | --- | +30% |
 | Medium | +60% | +30% | +15% | +40% |
 | Hard | +100% | +65% | +25% | +65% |
-| **Extreme** | **+150%** | **+80%** | **+35%** | **+80%** |
-| **Hell** | **+250%** | **+120%** | **+50%** | **+150%** |
+| **Extreme** | **+200%** | **+100%** | **+45%** | **+120%** |
 
 **Revenge Spawns:**
 
@@ -45,8 +43,7 @@ For survivors who think Icarus is too easy. Comprehensive hardcore overhaul with
 | Easy | +10 seconds | +50 meters |
 | Medium | +20 seconds | +100 meters |
 | Hard | +30 seconds | +200 meters |
-| **Extreme** | **+45 seconds** | **+300 meters** |
-| **Hell** | **+90 seconds** | **+500 meters** |
+| **Extreme** | **+60 seconds** | **+400 meters** |
 
 **Deadly Lightning Storms:**
 
@@ -55,8 +52,9 @@ For survivors who think Icarus is too easy. Comprehensive hardcore overhaul with
 | Easy | +40% | +50% | +30% | +50% |
 | Medium | +75% | +100% (2x) | +60% | +80% |
 | Hard | +150% | +200% (3x) | +100% (2x) | +150% |
-| **Extreme** | **+250%** | **+300% (4x)** | **+150%** | **+200%** |
-| **Hell** | **+400%** | **+500% (6x)** | **+250%** | **+300%** |
+| **Extreme** | **+350%** | **+400% (5x)** | **+200%** | **+250%** |
+
+**Spawn Density (Extreme):** +120% spawn modifier, +150% spawn count
 
 **Crafted Item Durability (intentional):**
 Items crafted under the durability bonus start at base durability with an increased maximum. This means freshly crafted items need one repair to reach full capacity. This is by design — in a hardcore survival setting, nothing comes ready-made. The bonus gives your gear more total lifespan, but you earn it through maintenance.
@@ -125,8 +123,8 @@ Items crafted under the durability bonus start at base durability with an increa
 | Weather-D_WeatherEvents | 110 | -40% storm safe duration |
 | Traits-D_Decayable | 33 | Halved decay timers |
 | Traits-D_Combustible | 4 | Halved fuel burn |
-| Stats-D_ProspectStats | 34 | Difficulty modifiers (6 tiers), storms, XP, durability, survival pressure |
-| Prospects-D_ProspectList | 197 | Timer reductions + limited lives + stat assignments + all 5 tiers |
+| Stats-D_ProspectStats | 27 | Difficulty modifiers (4 tiers), storms, XP, durability, survival pressure |
+| Prospects-D_ProspectList | 197 | Timer reductions + limited lives + stat assignments + all 4 tiers |
 | Experience-D_ExperienceEvents | 166 | +50% kill XP |
 
 ## Blueprint Overrides (PAK)
@@ -149,84 +147,68 @@ All players AND the server must have this mod installed.
 
 ## Changelog
 
+### v1.15 (2026-04-06)
+- **Removed Hell difficulty tier** — game engine only supports 4 difficulty levels (Easy/Medium/Hard/Extreme)
+- **Beefed up Extreme** to absorb Hell's intensity:
+  - Creatures: +200% HP (was +150%), +100% melee (was +80%), +45% speed (was +35%), +120% perception (was +80%)
+  - Spawns: +120% modifier (was +80%), +150% count (was +100%)
+  - Storms: +350% frequency (was +250%), +400% player hit (was +300%), +200% building (was +150%)
+  - Survival: -40% player HP (was -30%), -65% crafting speed (was -50%)
+  - Respawns: +60s delay (was +45s), +400m distance (was +300m)
+  - Durability: +100% (was +75%)
+  - XP: +50% (was +35%)
+- Removed 7 Hell ProspectStats entries (27 total, down from 34)
+- 844 total changes (down from 851)
+
 ### v1.14 (2026-04-05)
 - **25 NEW alpha hunters** — every missing vanilla creature type now has a custom hunter variant (37 total, up from 12)
 - New creatures: Mammoth Boss, Sandworm, Sandwyrm Queen, Landshark, Overgrown Landshark, Rock Golem, Juvenile Rock Golem, Great Ape, Ice Mammoth, IceBreaker, Hammerhead Slug, Mother Moa, Mange Wolf, Desert Wolf, Poison Bear, Enraged Jaguar, Enraged Scorpion, Snow Slug, Snow Striker, Yeti, Abomination, Radiation Boss, Jaguar, Roaming Polar Bear, Alpha Wolf Boss
 - Each new alpha has unique stat profiles: HP (+220-700%), melee (+30-75%), biome-appropriate status effects
 - 25 new loot tables with exotic ore drops
 - 25 new spawn zones across all biomes
-- **All 197 maps now have all 5 difficulty tiers** (Easy/Medium/Hard/Extreme/Hell)
-- 851 total changes (up from 776)
+- All 197 maps now have Extreme difficulty tier
 
 ### v1.13 (2026-04-05)
-- **NEW: Hell difficulty tier** — for players who found Extreme too comfortable
-- Hell creatures: +250% HP, +120% melee, +50% speed, +150% perception radius
-- Hell spawn rates: +150/+200% creature density
-- Hell survival: -50% player HP, -75% crafting speed
-- Hell storms: +400% lightning frequency, +500% player hit chance, +250% building damage
-- Hell respawns: +90s delay, +500m distance
-- Hell durability bonus: +125% (items need repair after crafting — by design)
-- Hell XP bonus: +60%
-- 7 new D_ProspectStats entries (34 total)
-- Hell added to 194 prospects
-- 776 total changes (up from 769)
+- Added Hell difficulty tier (removed in v1.15 — not supported by game engine)
 
 ### v1.12 (2026-04-05)
 - **NEW: Extreme difficulty tier** with punishing modifiers across all 197 prospects
-- Boosted creature HP: Easy +25% (was +20%), Medium +60% (was +40%), Hard +100% (was +80%), Extreme +150%
-- Extreme creatures: +80% melee damage, +35% movement speed, +80% perception
-- Extreme survival: -30% player HP, -50% crafting speed
-- Extreme storms: +250% frequency, +300% player hit chance, +150% building damage
-- Extreme respawns: +45s delay, +300m distance
-- Extreme spawn rates: +80/+100% creature density
-- Extreme XP bonus: +35% to offset difficulty
-- Boosted Hard spawn rates: +60/+75% (was +45/+60%)
-- 7 new Extreme D_ProspectStats entries (27 total, up from 20)
-- 769 total changes (up from 762)
+- Boosted creature HP across all tiers
+- 7 new Extreme D_ProspectStats entries
 
 ### v1.11 (2026-04-05)
 - Updated for game v3.0.4 (Dangerous Horizons)
-- Added 53 new creature XP entries with +50% boost (166 total, up from 111)
-- Fixed 13 renamed creatures (Baby* -> *_Juvenile, Kill_Mammoth split into 3 types)
-- Added Cosmetic_Radiation weather event (110 total)
-- Added Decay_NoDecay to decayable table (33 total)
-- 762 total changes (up from 705)
+- Added 53 new creature XP entries with +50% boost (166 total)
+- Fixed 13 renamed creatures
 
 ### v1.10 (2026-03-22)
-- Added 30 new Elysium story missions and side quests across Elysium/Olympus/Prometheus/Styx maps
-- Full prospect coverage now 197/197 (up from 167)
+- Added 30 new Elysium story missions and side quests
+- Full prospect coverage now 197/197
 
 ### v1.9 (2026-03-08)
 - Added Dragonfly_Nest, FleshSac_Floater, SandScuttle, SulphurWorm autonomous spawns
 
 ### v1.8
-- Enraged creatures: 3x faster rage, 4.5x longer cooldown (blueprint override)
-- Survival pressure: reduced max HP and crafting speed scaled by difficulty
-- Revenge spawns: longer respawn delays and further distances by difficulty
-- Creature scaling on all difficulties (health, melee, speed, perception)
+- Enraged creatures: 3x faster rage, 4.5x longer cooldown
+- Survival pressure, revenge spawns, creature scaling
 
 ### v1.7
-- 89 workshop items added to monster loot tables (biome-tiered)
-- Full map coverage: 12 previously missing prospects added (Open World + Outposts)
+- 89 workshop items added to monster loot tables
 
 ### v1.6
-- Wall-attack fix: zeroed AutoSuccessRangeFromLastSeenLocation in BP_IcarusNPCGOAPController
+- Wall-attack fix
 
 ### v1.5
-- +50% kill XP across 166 creatures
-- Difficulty-scaled XP and durability bonuses
-- Deadly lightning storms tiered by difficulty
-- Enhanced animal awareness on all difficulties
+- +50% kill XP, difficulty-scaled XP/durability, deadly lightning, enhanced perception
 
 ### v1.3
-- Limited lives system across 197 prospects
+- Limited lives system
 
 ### v1.2
-- Alpha Hunter System: 12 named bosses, 255 spawn points, tiered loot tables
+- Alpha Hunter System: 12 named bosses
 
 ### v1.1
 - 155 mission timer reductions
-- Brutal NPC modifiers per difficulty
 
 ### v1.0
-- Initial release: spawn density, horde intensity, storm timing, decay, fuel burn
+- Initial release
