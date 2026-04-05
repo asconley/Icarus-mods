@@ -55,8 +55,8 @@ jobs:
 
           for file in ${{ steps.find-mods.outputs.files }}; do
             TOTAL=$((TOTAL + 1))
-            OUTPUT=$(python .github/scripts/validate_modinfo.py --github "$file" 2>&1)
-            EXIT_CODE=$?
+            EXIT_CODE=0
+            OUTPUT=$(python .github/scripts/validate_modinfo.py --github "$file" 2>&1) || EXIT_CODE=$?
             RESULTS="${RESULTS}${OUTPUT}\n\n"
 
             if [ $EXIT_CODE -eq 1 ]; then
