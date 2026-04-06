@@ -376,9 +376,9 @@
         {
             "name": "Hardcore Rebalance Pack",
             "author": "AgentKush",
-            "version": "1.15",
+            "version": "1.16",
             "compatibility": "All",
-            "description": "Complete hardcore survival overhaul - 4 difficulty tiers (Easy/Medium/Hard/Extreme) on ALL 197 maps, 37 alpha hunters, enhanced weather, creature AI, decay, and XP scaling",
+            "description": "For survivors who think Icarus is too easy. 1324 changes across 16 data tables + 2 blueprint overrides.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/README.md",
             "files": {
