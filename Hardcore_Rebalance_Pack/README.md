@@ -126,7 +126,12 @@ Custom boss-tier creatures that roam the world. Each has boosted HP, unique AI, 
 **Compensating buffs (replacing the removed invalid stats with valid equivalents):**
 - **Expanded `NPC_Increase_Hard_SpawnRates` and `NPC_Increase_Extreme_SpawnRates` from 5 to 20 creatures.** Added per-creature spawn rate boosts for Boar, Buffalo, Chamois, Crocodile, Deer, Elephant, Goat, Komodo, Mammoth, Rabbit, Raccoon, Roat, Tusker, Wulv, and Zebra (Hard +50% each, Extreme +70% each). This recovers most of the intent of the removed `WorldNPCSpawnModifier_+%` and `WorldNPCSpawnCountModifier_+%` since vanilla has no global spawn modifier.
 - **Bumped `Hardcore_XP_Extreme.WorldPlayerExperience_+%` from 35 to 75** to compensate for the removed `WorldPlayerXPMultiplier_+%`.
-- **Note on the other 3 removed stats:** `WorldNPCMeleeDamage_+%` is already covered by `WorldNPCMeleeAttack_+%` (same underlying value in Unreal). `WorldAIPerceptionSightRadius_+%` is partially covered by the three `WorldNPCAggressive/Neutral/PassivePerceptionRadius_+%` stats — the underlying `SightRadius` / `LoseSightRadius` / `HearingRange` values themselves live on `BP_IcarusNPCGOAPController` (which this mod already overrides) and can be edited directly in UAssetGUI for a full recovery. See `BP_EDIT_GUIDE.md` for vanilla values, target Extreme values, and step-by-step instructions. The BP edit is **optional** — the data-table changes in v1.17 already restore the broken Extreme difficulty without it.
+- **Note on the other 3 removed stats:** `WorldNPCMeleeDamage_+%` is already covered by `WorldNPCMeleeAttack_+%` (same underlying value in Unreal). `WorldAIPerceptionSightRadius_+%` and `WorldAIPerceptionHearingRange_+%` are now **recovered via BP override** — `BP_IcarusNPCGOAPController` (which this mod already ships) has been edited directly so all NPCs use the boosted values:
+  - `SightRadius`: 10000 → **17000** (+70%)
+  - `LoseSightRadius`: 135000 → **180000** (+33%, keeps aggression durations sane)
+  - `HearingRange`: 15000 → **25500** (+70%)
+
+  These values affect every NPC controller in the game (it's the parent class). If you want to tune them yourself, the vanilla `.uexp` is preserved as `BP_IcarusNPCGOAPController.uexp.vanilla.bak` next to the live file, and `BP_EDIT_GUIDE.md` has full UAssetGUI instructions plus the byte-patch script (`patch_bp_floats.py` on the desktop) for reference.
 
 ## v1.16 - Hardcore Survival Update
 - **FIXED:** Lightning tree hit chance stat typo (was silently ignored)
