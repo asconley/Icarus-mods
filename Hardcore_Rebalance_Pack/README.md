@@ -131,7 +131,11 @@ Custom boss-tier creatures that roam the world. Each has boosted HP, unique AI, 
   - `LoseSightRadius`: 135000 → **180000** (+33%, keeps aggression durations sane)
   - `HearingRange`: 15000 → **25500** (+70%)
 
-  These values affect every NPC controller in the game (it's the parent class). If you want to tune them yourself, the vanilla `.uexp` is preserved as `BP_IcarusNPCGOAPController.uexp.vanilla.bak` next to the live file, and `BP_EDIT_GUIDE.md` has full UAssetGUI instructions plus the byte-patch script (`patch_bp_floats.py` on the desktop) for reference.
+  These values affect every NPC controller in the game (it's the parent class). If you want to tune them yourself you have two options:
+  - **Quick:** edit `tools/patch_bp_floats.py` (change the `NEW_VALUES` in the `PATCHES` list), then run `python tools/patch_bp_floats.py`. This byte-patches the `.uexp` in-place. The vanilla `.uexp` is preserved as `BP/AI/GOAP/BP_IcarusNPCGOAPController.uexp.vanilla.bak` so you can always revert.
+  - **Full editor:** open `BP/AI/GOAP/BP_IcarusNPCGOAPController.uasset` in [UAssetGUI](https://github.com/atenfyr/UAssetGUI) and edit the `Vision Config` and `Sound Config` exports directly. See `BP_EDIT_GUIDE.md` for the full walkthrough.
+
+  After tuning, re-pack the EXMODZ if you want to redistribute. Note: BP class default values do **not** hot-reload on existing prospects — start a new prospect to verify changes.
 
 ## v1.16 - Hardcore Survival Update
 - **FIXED:** Lightning tree hit chance stat typo (was silently ignored)
