@@ -1,8 +1,8 @@
 {
   "name": "Hardcore Rebalance Pack",
   "author": "AgentKush",
-  "version": "1.16",
-  "description": "For survivors who think Icarus is too easy. 1324 changes across 16 data tables + 2 blueprint overrides.",
+  "version": "1.17",
+  "description": "For survivors who think Icarus is too easy. v1.17: Fixed NPC stat boosts not applying on Extreme (invalid stat name parse failure). Inverted tool durability stat (was buffing HP, now correctly nerfs durability). 1318 changes across 16 data tables + 2 blueprint overrides.",
   "fileName": "Hardcore_Rebalance_Pack",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/README.md",
@@ -15467,7 +15467,22 @@
             "(Value=\"WorldSpawnerLionSpawnRate_+%\")": 75,
             "(Value=\"WorldSpawnerScorpionSpawnRate_+%\")": 75,
             "(Value=\"WorldSpawnerBearSpawnRate_+%\")": 60,
-            "(Value=\"WorldSpawnerPolarBearSpawnRate_+%\")": 60
+            "(Value=\"WorldSpawnerPolarBearSpawnRate_+%\")": 60,
+            "(Value=\"WorldSpawnerBoarSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerBuffaloSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerChamoisSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerCrocodileSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerDeerSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerElephantSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerGoatSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerKomodoSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerMammothSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerRabbitSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerRaccoonSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerRoatSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerTuskerSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerWulvSpawnRate_+%\")": 50,
+            "(Value=\"WorldSpawnerZebraSpawnRate_+%\")": 50
           }
         },
         {
@@ -15515,10 +15530,7 @@
             "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 100,
             "(Value=\"WorldNPCNeutralPerceptionRadius_+%\")": 100,
             "(Value=\"WorldNPCPassivePerceptionRadius_+%\")": 100,
-            "(Value=\"WorldNPCMeleeAttack_+%\")": 80,
-            "(Value=\"WorldNPCMeleeDamage_+%\")": 100,
-            "(Value=\"WorldAIPerceptionSightRadius_+%\")": 120,
-            "(Value=\"WorldAIPerceptionHearingRange_+%\")": 120
+            "(Value=\"WorldNPCMeleeAttack_+%\")": 80
           }
         },
         {
@@ -15529,15 +15541,27 @@
             "(Value=\"WorldSpawnerScorpionSpawnRate_+%\")": 100,
             "(Value=\"WorldSpawnerBearSpawnRate_+%\")": 80,
             "(Value=\"WorldSpawnerPolarBearSpawnRate_+%\")": 80,
-            "(Value=\"WorldNPCSpawnModifier_+%\")": 120,
-            "(Value=\"WorldNPCSpawnCountModifier_+%\")": 150
+            "(Value=\"WorldSpawnerBoarSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerBuffaloSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerChamoisSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerCrocodileSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerDeerSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerElephantSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerGoatSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerKomodoSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerMammothSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerRabbitSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerRaccoonSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerRoatSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerTuskerSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerWulvSpawnRate_+%\")": 70,
+            "(Value=\"WorldSpawnerZebraSpawnRate_+%\")": 70
           }
         },
         {
           "Name": "Hardcore_XP_Extreme",
           "WorldStats": {
-            "(Value=\"WorldPlayerExperience_+%\")": 35,
-            "(Value=\"WorldPlayerXPMultiplier_+%\")": 50
+            "(Value=\"WorldPlayerExperience_+%\")": 75
           }
         },
         {
@@ -15580,25 +15604,25 @@
         {
           "Name": "Hardcore_Durability_Easy",
           "WorldStats": {
-            "(Value=\"WorldItemDurability_+%\")": 20
+            "(Value=\"WorldItemDurability_+%\")": -20
           }
         },
         {
           "Name": "Hardcore_Durability_Medium",
           "WorldStats": {
-            "(Value=\"WorldItemDurability_+%\")": 35
+            "(Value=\"WorldItemDurability_+%\")": -35
           }
         },
         {
           "Name": "Hardcore_Durability_Hard",
           "WorldStats": {
-            "(Value=\"WorldItemDurability_+%\")": 50
+            "(Value=\"WorldItemDurability_+%\")": -50
           }
         },
         {
           "Name": "Hardcore_Durability_Extreme",
           "WorldStats": {
-            "(Value=\"WorldItemDurability_+%\")": 100
+            "(Value=\"WorldItemDurability_+%\")": -90
           }
         },
         {

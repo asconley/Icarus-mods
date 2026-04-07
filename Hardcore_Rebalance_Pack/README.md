@@ -1,10 +1,10 @@
 # Hardcore Rebalance Pack
 
-**Version:** 1.16
+**Version:** 1.17
 **Author:** AgentKush
 **Compatibility:** Week All
 
-> For survivors who think Icarus is too easy. 1324 changes across 16 data tables + 2 blueprint overrides.
+> For survivors who think Icarus is too easy. 1318 changes across 16 data tables + 2 blueprint overrides.
 
 ## What This Mod Does
 
@@ -117,7 +117,18 @@ Custom boss-tier creatures that roam the world. Each has boosted HP, unique AI, 
 
 ## Changelog
 
-### v1.16 - Hardcore Survival Update
+### v1.17 (Bug Fix Release)
+
+**Critical fixes:**
+- **Fixed NPC stat boosts not applying on Extreme difficulty.** `NPC_Increase_Extreme`, `NPC_Increase_Extreme_SpawnRates`, and `Hardcore_XP_Extreme` were silently failing to load because they referenced 6 invalid stat names that don't exist in the game's `D_Stats.json`. Removed: `WorldNPCMeleeDamage_+%`, `WorldAIPerceptionSightRadius_+%`, `WorldAIPerceptionHearingRange_+%`, `WorldNPCSpawnModifier_+%`, `WorldNPCSpawnCountModifier_+%`, `WorldPlayerXPMultiplier_+%`. The remaining valid stats now apply correctly.
+- **Inverted `Hardcore_Durability_*` values.** The mod was setting `WorldItemDurability_+%` to positive values (+20/+35/+50/+100), which BUFFED tool/building HP instead of nerfing it. Tools became so tough that demolishing them required hammers and excessive time. Now correctly nerfs durability: -20/-35/-50/-90% across difficulty tiers (Extreme capped at -90 to leave 10% durability instead of zeroing out tools).
+
+**Compensating buffs (replacing the removed invalid stats with valid equivalents):**
+- **Expanded `NPC_Increase_Hard_SpawnRates` and `NPC_Increase_Extreme_SpawnRates` from 5 to 20 creatures.** Added per-creature spawn rate boosts for Boar, Buffalo, Chamois, Crocodile, Deer, Elephant, Goat, Komodo, Mammoth, Rabbit, Raccoon, Roat, Tusker, Wulv, and Zebra (Hard +50% each, Extreme +70% each). This recovers most of the intent of the removed `WorldNPCSpawnModifier_+%` and `WorldNPCSpawnCountModifier_+%` since vanilla has no global spawn modifier.
+- **Bumped `Hardcore_XP_Extreme.WorldPlayerExperience_+%` from 35 to 75** to compensate for the removed `WorldPlayerXPMultiplier_+%`.
+- **Note on the other 3 removed stats:** `WorldNPCMeleeDamage_+%` is already covered by `WorldNPCMeleeAttack_+%` (same underlying value in Unreal). `WorldAIPerceptionSightRadius_+%` is partially covered by the three `WorldNPCAggressive/Neutral/PassivePerceptionRadius_+%` stats — the underlying `SightRadius` / `LoseSightRadius` / `HearingRange` values themselves live on `BP_IcarusNPCGOAPController` (which this mod already overrides) and can be edited directly in UAssetGUI for a full recovery. See `BP_EDIT_GUIDE.md` for vanilla values, target Extreme values, and step-by-step instructions. The BP edit is **optional** — the data-table changes in v1.17 already restore the broken Extreme difficulty without it.
+
+## v1.16 - Hardcore Survival Update
 - **FIXED:** Lightning tree hit chance stat typo (was silently ignored)
 - **NEW:** D_WeatherActions - 203 storm modifications, storms now damage players directly
 - **NEW:** D_AfflictionChance - 22 affliction boosts (higher chances, longer durations)
