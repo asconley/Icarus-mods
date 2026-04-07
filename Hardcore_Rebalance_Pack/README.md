@@ -1,10 +1,10 @@
 # Hardcore Rebalance Pack
 
-**Version:** 1.17
+**Version:** 1.18
 **Author:** AgentKush
 **Compatibility:** Week All
 
-> For survivors who think Icarus is too easy. 1318 changes across 16 data tables + 2 blueprint overrides.
+> For survivors who think Icarus is too easy. 1432 changes across 17 data tables + 2 blueprint overrides.
 
 ## What This Mod Does
 
@@ -15,6 +15,7 @@ Transforms Icarus into a brutal survival experience. Every difficulty tier is re
 ### Creature AI & Spawns
 | Table | Entries | Description |
 |-------|---------|-------------|
+| D_AIGrowth | 114 | Per-creature +150% HP and +75% melee on all hostile creatures (NEW in v1.18) |
 | D_AISpawnZones | 186 | Spawn zone configurations across all biomes |
 | D_AutonomousSpawns | 26 | Independent creature spawn rules |
 | D_HordeWave | 21 | Horde event wave compositions |
@@ -116,6 +117,27 @@ Custom boss-tier creatures that roam the world. Each has boosted HP, unique AI, 
 3. Import via Mod Manager
 
 ## Changelog
+
+### v1.18 (Creature HP/Melee Rework — CDS Replacement)
+
+**The big fix: NPC HP boosts actually work now.**
+
+In v1.17 the `WorldNPCMaximumHealth_+%` world stat was being silently ignored for the vast majority of creatures because Icarus uses per-creature `CurveFloat` assets (e.g. `C_BearHealth`) for HP instead of a flat stat. Multiplying a world stat that the curve never reads does nothing — a vanilla Bear has ~750-3000 HP from its curve regardless of what the world stat says.
+
+**What this version does instead:** it adds a brand new `D_AIGrowth` section with 114 hostile creature overrides. Each row adds two per-creature additive stats directly to the creature's `Base` block, which Icarus actually respects:
+
+- `BaseMaximumHealth_+%: 150` (+150% HP baseline)
+- `BaseMeleeDamage_+%: 75` (+75% melee damage baseline)
+
+Scope: every hostile creature the mod could identify — bears, wolves, big cats, reptiles, scorpions, mammoths/tuskers, birds, bugs, bats, worms, slugs, apes, drones, irradiated, lava creatures, strikers/tanks, golems, and all hunter/boss variants. Prey animals (deer, rabbit, sheep, etc.), mounts, tamed creatures, and fish are untouched.
+
+**Cleanup:**
+- Removed the now-dead `WorldNPCMaximumHealth_+%` and `WorldNPCMeleeAttack_+%` entries from `NPC_Increase_Easy/Medium/Hard/Extreme` in `D_ProspectStats`. They were cosmetic — they showed up in the difficulty preview tooltip but did nothing. The UI will no longer claim a boost it can't deliver.
+
+**Important — remove the companion mod:**
+If you previously installed `Creature_Difficulty_Scaling` alongside HRP to get working HP boosts, **remove it now**. HRP v1.18 handles creature HP and melee scaling directly in `D_AIGrowth`, and keeping both mods loaded will cause the two to conflict on the same rows (last-loaded wins). Uninstall `Creature_Difficulty_Scaling` from your Mod Manager collection before launching a new prospect.
+
+**Note on difficulty tiering:** I investigated making the HP boost scale with difficulty (Easy < Normal < Hard < Extreme) via `D_ScalingRules`. It turns out scaling rules are wired up in Blueprint code at runtime, not through data tables, so you can't attach a new rule to `BaseMaximumHealth_+%` from an EXMOD. The +150% / +75% values are flat across all difficulties. If this ends up feeling too punishing on Easy/Medium, open `Hardcore_Rebalance_Pack.EXMOD`, find the `AI-D_AIGrowth.json` block, and tune the two numbers — the existing `tools/patch_bp_floats.py` pattern shows how to iterate locally.
 
 ### v1.17 (Bug Fix Release)
 
