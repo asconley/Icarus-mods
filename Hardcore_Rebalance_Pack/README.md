@@ -116,9 +116,13 @@ Custom boss-tier creatures that roam the world. Each has boosted HP, unique AI, 
 2. Download `Hardcore_Rebalance_Pack.EXMODZ`
 3. Import via Mod Manager
 
+## Recommended Companion Mod
+
+For the full hardcore experience and the hardest gameplay possible, install **Creature_Difficulty_Scaling (CDS) v2.2+** alongside this mod. CDS adds level-500 spawn zone scaling, per-player-level stat scaling rules, and tame/mount survival buffs so your pets can actually hold up against HRP's tougher creatures. Running HRP + CDS together delivers the most punishing Icarus experience possible — see the v1.18 changelog for overlap details.
+
 ## Changelog
 
-### v1.18 (Creature HP/Melee Rework — CDS Replacement)
+### v1.18 (Creature HP/Melee Rework)
 
 **The big fix: NPC HP boosts actually work now.**
 
@@ -134,8 +138,10 @@ Scope: every hostile creature the mod could identify — bears, wolves, big cats
 **Cleanup:**
 - Removed the now-dead `WorldNPCMaximumHealth_+%` and `WorldNPCMeleeAttack_+%` entries from `NPC_Increase_Easy/Medium/Hard/Extreme` in `D_ProspectStats`. They were cosmetic — they showed up in the difficulty preview tooltip but did nothing. The UI will no longer claim a boost it can't deliver.
 
-**Important — remove the companion mod:**
-If you previously installed `Creature_Difficulty_Scaling` alongside HRP to get working HP boosts, **remove it now**. HRP v1.18 handles creature HP and melee scaling directly in `D_AIGrowth`, and keeping both mods loaded will cause the two to conflict on the same rows (last-loaded wins). Uninstall `Creature_Difficulty_Scaling` from your Mod Manager collection before launching a new prospect.
+**Recommended companion mod — `Creature_Difficulty_Scaling` (CDS):**
+For the full hardcore experience and the hardest gameplay, run HRP **alongside** CDS v2.2 or later. HRP owns the baseline creature HP/melee push via `D_AIGrowth`; CDS layers on top with level-500 spawn zone scaling, per-player-level scaling rules, tame/mount survival buffs, and its own tiered creature stat boosts. Together they produce the most punishing, highest-level Icarus experience the mod manager can deliver.
+
+Heads-up on the overlap: both mods modify `BaseMaximumHealth_+%` and `BaseMeleeDamage_+%` on hostile creatures in `D_AIGrowth`. When loaded together, whichever mod loads last wins for those specific fields (per-row, not per-stat). Everything else — HRP's weather, afflictions, durability, ore, consumables, spawn rates, difficulty tiers, alpha hunters, AND CDS's spawn zone levels, scaling rules, tame buffs — stacks cleanly with no conflict. The end result is still meaningfully harder than either mod alone.
 
 **Note on difficulty tiering:** I investigated making the HP boost scale with difficulty (Easy < Normal < Hard < Extreme) via `D_ScalingRules`. It turns out scaling rules are wired up in Blueprint code at runtime, not through data tables, so you can't attach a new rule to `BaseMaximumHealth_+%` from an EXMOD. The +150% / +75% values are flat across all difficulties. If this ends up feeling too punishing on Easy/Medium, open `Hardcore_Rebalance_Pack.EXMOD`, find the `AI-D_AIGrowth.json` block, and tune the two numbers — the existing `tools/patch_bp_floats.py` pattern shows how to iterate locally.
 
