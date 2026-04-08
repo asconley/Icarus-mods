@@ -422,6 +422,18 @@
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Performance_Optimizer.EXMODZ",
         "pak": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Performance_Optimizer_P.pak"
       }
+    },
+    {
+      "name": "Absolute Chaos - Core",
+      "author": "AgentKush",
+      "version": "0.2.1",
+      "compatibility": "All",
+      "description": "Base layer of the Absolute Chaos modpack. Overrides player Base_Stats with 76 chaos buffs (5000kg carry, 600 move speed, fall-damage immunity, zero survival drain, +900% XP and crafting) and zeros research/replication cost on all 335 workshop items. v0.2.1 drops the empty workshop tab and ships a banner.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/AbsoluteChaos_Core.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/AbsoluteChaos_Core/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/AbsoluteChaos_Core/AbsoluteChaos_Core.EXMODZ"
+      }
     }
   ]
 }
