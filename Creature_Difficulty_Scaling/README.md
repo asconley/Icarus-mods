@@ -1,6 +1,6 @@
 # Creature Difficulty Scaling
 
-**Version:** 2.1  
+**Version:** 2.2  
 **Author:** AgentKush  
 **Compatibility:** Designed for JimK72's Level Cap 500 mod (works with any level cap mod)
 
@@ -60,9 +60,9 @@ Dynamic scaling rules that scale creature stats based on nearby player level:
 ## Technical Details
 
 - Modifies **161 spawn zones** in D_AISpawnZones (all biomes, all maps)
-- Modifies **180 creature entries** in D_AIGrowth
+- Modifies **180 creature entries** in D_AIGrowth (full vanilla + DLC coverage — New Frontiers, Styx, Dread)
 - Adds **5 scaling rules** to D_ScalingRules
-- Does NOT modify mounts, tames, pets, or player-friendly creatures
+- **v2.2:** Explicitly buffs 6 tames and 16 mounts (previously untouched) so pets can survive high-level hostile creatures
 - All stat buffs are percentage-based, stacking with existing creature stats
 - Spawn zone scaling preserves relative difficulty progression between zones
 - Compatible with any level cap mod (optimized for 500 cap)
@@ -86,6 +86,24 @@ Dynamic scaling rules that scale creature stats based on nearby player level:
 
 ## Changelog
 
+### v2.2 — Tame & Mount Survival Pass
+
+**Fixes the "my wolf dies in 3 seconds" problem.**
+
+Prior versions left the Tame_* and Mount_* entries almost untouched — they had a flat 40% damage resistance but zero HP boost and zero melee damage boost. As players progressed into higher-level zones and tougher biomes, tames and mounts couldn't keep up with the scaled-up hostile creatures the mod was already buffing, and were getting shredded.
+
+**What changed:**
+
+| Creature class | HP | Melee | Phys Resist | Other Resists | Regen |
+|---|---|---|---|---|---|
+| **Tames** (6) — Wolf, Cat, Wildboar, Tundra Monkey, Orka, Storca | **+200%** | **+120%** | 40% → **60%** | 40% → **55%** (fire/frost/explosive/poison) | +100% |
+| **Mounts** (16) — Horse, Buffalo, Chew, Moa, Raptor, Slinker, Snow Striker, Swamp Bird/Quad, Tusker, Woolly Mammoth, Wooly Zebra, Zebra, BlueBack, Bull | **+150%** | unchanged (mounts don't fight) | 40% → **55%** | 40% → **50%** | +75% |
+
+Tames can now hold their own against scaled-up hostile creatures in open combat. Mounts are much harder to kill out from under you when riding through a pack.
+
+**Not touched:** Mount_SpeederBike (it's a mechanical vehicle, not a creature), NPC companions, livestock (Pig, Sheep, Cow, Chicken, Lamb, Piglet, Rooster) — those stay vanilla since they're farm animals, not combat pets.
+
+**DLC coverage confirmed:** CDS currently covers 100% of creatures in New Frontiers (Prometheus lava creatures), Styx (Geothermal biome, drones, Reavers), Dread (Irradiated mutations), and all juvenile/boss variants. No DLC creatures are missing.
 
 ### v2.1
 - Added 44 new creature growth entries for taming/mount content (dogs, horses, mounts, juveniles, tamed pets, speeder bike)

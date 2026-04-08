@@ -1,8 +1,8 @@
-{
+﻿{
   "name": "Creature_Difficulty_Scaling",
   "author": "AgentKush",
-  "version": "2.1",
-  "description": "Dynamic creature level scaling for level 500 cap. Scales all spawn zones up to level 500, buffs creature stats by tier, and adds player-level-based scaling rules. Compatible with JimK72 Level Cap 500 mod.",
+  "version": "2.2",
+  "description": "Dynamic creature level scaling for level 500 cap. Scales all spawn zones up to level 500, buffs creature stats by tier, and adds player-level-based scaling rules. v2.2: Significant tame and mount HP/damage/resistance buffs so pets can stand up to high-level hostile creatures. Full DLC coverage (New Frontiers, Styx, Dread). Compatible with JimK72 Level Cap 500 mod.",
   "fileName": "Creature_Difficulty_Scaling",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Difficulty_Scaling.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/README.md",
@@ -4797,12 +4797,15 @@
             "(Value=\"BaseMaximumWater_+\")": 300,
             "(Value=\"BaseMaximumFood_+\")": 300,
             "(Value=\"BaseMaximumOxygen_+\")": 300,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40,
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 60,
-            "(Value=\"BaseFoodConsumptionPerHour_+\")": 50
+            "(Value=\"BaseFoodConsumptionPerHour_+\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -4844,14 +4847,16 @@
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseMountCargoSlots_+\")": 4,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
             "(Value=\"BaseCartActiveMovementSpeed_+%\")": -15,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -4893,15 +4898,17 @@
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseMountCargoSlots_+\")": 4,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
             "(Value=\"BaseCartActiveMovementSpeed_+%\")": -15,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40,
-            "(Value=\"IsMountSecondaryAttackDisabledByDefault_?\")": 1
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"IsMountSecondaryAttackDisabledByDefault_?\")": 1,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -4943,15 +4950,17 @@
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseMountCargoSlots_+\")": 6,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseAttacksCauseBleed_%\")": 50,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
             "(Value=\"BaseCartActiveMovementSpeed_+%\")": -10,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -4992,14 +5001,16 @@
             "(Value=\"BaseOxygenConsumptionPerHour_+\")": 0,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseMountCargoSlots_+\")": 3,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -5041,13 +5052,15 @@
             "(Value=\"BaseOxygenConsumptionPerHour_+\")": 0,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseMountCargoSlots_+\")": 3,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -5088,14 +5101,16 @@
             "(Value=\"BaseOxygenConsumptionPerHour_+\")": 0,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"IsMountPrimaryAttackDisabledByDefault_?\")": 1,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -5136,15 +5151,17 @@
             "(Value=\"BaseOxygenConsumptionPerHour_+\")": 0,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40,
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
             "(Value=\"IsMountSecondaryAttackDisabledByDefault_?\")": 1,
-            "(Value=\"BaseMountSecondaryAttackCooldown_+\")": 10
+            "(Value=\"BaseMountSecondaryAttackCooldown_+\")": 10,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -5185,13 +5202,15 @@
             "(Value=\"BaseOxygenConsumptionPerHour_+\")": 0,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -5232,14 +5251,16 @@
             "(Value=\"BaseOxygenConsumptionPerHour_+\")": 0,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"NPCRunningAttackRequiresSimilarDirection_?\")": 1,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -5311,14 +5332,16 @@
             "(Value=\"BaseOxygenConsumptionPerHour_+\")": 0,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
-            "(Value=\"BaseFireDamageResistance_%\")": 15,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 60,
-            "(Value=\"IsMountPrimaryAttackDisabledByDefault_?\")": 1
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"IsMountPrimaryAttackDisabledByDefault_?\")": 1,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -5359,13 +5382,15 @@
             "(Value=\"BaseOxygenConsumptionPerHour_+\")": 0,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -5407,15 +5432,17 @@
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseMountCargoSlots_+\")": 4,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseAttacksCauseBleed_%\")": 50,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
             "(Value=\"BaseCartActiveMovementSpeed_+%\")": -10,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -5457,19 +5484,21 @@
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseMountCargoSlots_+\")": 12,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
             "(Value=\"BaseCartActiveMovementSpeed_+%\")": -15,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40,
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
             "(Value=\"BaseColdResistance_%\")": 50,
             "(Value=\"IsMountPrimaryAttackDisabledByDefault_?\")": 1,
             "(Value=\"IsMountSecondaryAttackDisabledByDefault_?\")": 1,
             "(Value=\"BaseNPCStompAttackRadius_+\")": 100,
-            "(Value=\"BaseHeatResistance_%\")": 15
+            "(Value=\"BaseHeatResistance_%\")": 15,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -5511,13 +5540,15 @@
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseMountCargoSlots_+\")": 4,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -5559,14 +5590,16 @@
             "(Value=\"BaseOxygenConsumptionPerHour_+\")": 0,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 55,
             "(Value=\"BaseMountCargoSlots_+\")": 3,
             "(Value=\"BaseFallDamageResistance_%\")": 15,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40
+            "(Value=\"BaseFireDamageResistance_%\")": 50,
+            "(Value=\"BaseFrostDamageResistance_%\")": 50,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
+            "(Value=\"BasePoisonDamageResistance_%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 150,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 75
           }
         },
         {
@@ -5653,15 +5686,18 @@
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 60,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 60,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseNPCMeleeAttacksPerMinute_+\")": 100,
             "(Value=\"BaseFallDamageResistance_%\")": 40,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40,
-            "(Value=\"BaseMovementSpeed_+\")": 50
+            "(Value=\"BaseFireDamageResistance_%\")": 55,
+            "(Value=\"BaseFrostDamageResistance_%\")": 55,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 55,
+            "(Value=\"BasePoisonDamageResistance_%\")": 55,
+            "(Value=\"BaseMovementSpeed_+\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 120,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 100
           }
         },
         {
@@ -5693,15 +5729,18 @@
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 60,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 60,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseNPCMeleeAttacksPerMinute_+\")": 100,
             "(Value=\"BaseFallDamageResistance_%\")": 40,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40,
-            "(Value=\"BaseMovementSpeed_+\")": 75
+            "(Value=\"BaseFireDamageResistance_%\")": 55,
+            "(Value=\"BaseFrostDamageResistance_%\")": 55,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 55,
+            "(Value=\"BasePoisonDamageResistance_%\")": 55,
+            "(Value=\"BaseMovementSpeed_+\")": 75,
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 120,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 100
           }
         },
         {
@@ -5733,15 +5772,18 @@
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 60,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 60,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseNPCMeleeAttacksPerMinute_+\")": 100,
             "(Value=\"BaseFallDamageResistance_%\")": 40,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40,
-            "(Value=\"BaseMovementSpeed_+\")": 150
+            "(Value=\"BaseFireDamageResistance_%\")": 55,
+            "(Value=\"BaseFrostDamageResistance_%\")": 55,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 55,
+            "(Value=\"BasePoisonDamageResistance_%\")": 55,
+            "(Value=\"BaseMovementSpeed_+\")": 150,
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 120,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 100
           }
         },
         {
@@ -5773,15 +5815,18 @@
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 60,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 60,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseNPCMeleeAttacksPerMinute_+\")": 100,
             "(Value=\"BaseFallDamageResistance_%\")": 40,
-            "(Value=\"BaseFireDamageResistance_%\")": -10,
-            "(Value=\"BaseFrostDamageResistance_%\")": 75,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 10,
-            "(Value=\"BasePoisonDamageResistance_%\")": 10,
-            "(Value=\"BaseMovementSpeed_+\")": 60
+            "(Value=\"BaseFireDamageResistance_%\")": 55,
+            "(Value=\"BaseFrostDamageResistance_%\")": 55,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 55,
+            "(Value=\"BasePoisonDamageResistance_%\")": 55,
+            "(Value=\"BaseMovementSpeed_+\")": 60,
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 120,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 100
           }
         },
         {
@@ -5813,15 +5858,18 @@
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 60,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 60,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseNPCMeleeAttacksPerMinute_+\")": 100,
             "(Value=\"BaseFallDamageResistance_%\")": 40,
             "(Value=\"BaseMovementSpeed_+\")": 140,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40
+            "(Value=\"BaseFireDamageResistance_%\")": 55,
+            "(Value=\"BaseFrostDamageResistance_%\")": 55,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 55,
+            "(Value=\"BasePoisonDamageResistance_%\")": 55,
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 120,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 100
           }
         },
         {
@@ -5853,15 +5901,18 @@
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 60,
             "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
             "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+            "(Value=\"BasePhysicalDamageResistance_%\")": 60,
             "(Value=\"BaseMaximumStomachFullness_+\")": 2,
             "(Value=\"BaseNPCMeleeAttacksPerMinute_+\")": 100,
             "(Value=\"BaseFallDamageResistance_%\")": 40,
-            "(Value=\"BaseFireDamageResistance_%\")": 40,
-            "(Value=\"BaseFrostDamageResistance_%\")": 40,
-            "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-            "(Value=\"BasePoisonDamageResistance_%\")": 40,
-            "(Value=\"BaseMovementSpeed_+\")": 150
+            "(Value=\"BaseFireDamageResistance_%\")": 55,
+            "(Value=\"BaseFrostDamageResistance_%\")": 55,
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 55,
+            "(Value=\"BasePoisonDamageResistance_%\")": 55,
+            "(Value=\"BaseMovementSpeed_+\")": 150,
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 120,
+            "(Value=\"BaseHealthRegenPerMinute_+%\")": 100
           }
         }
       ]
