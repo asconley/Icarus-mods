@@ -1,0 +1,3897 @@
+{
+    "name": "Deployable Deep Ore Nodes",
+    "author": "AgentKush",
+    "fileName": "Deployable_Deep_Ore_Nodes",
+    "version": "1.0",
+    "description": "Place infinite deep ore deposits anywhere on any map. Includes all 23 ore types as deployable items available from the Workshop and craftable at the Fabricator. Requires Blueprint assets for deployment.",
+    "week": "All",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Talents-D_TalentArchetypes.json",
+            "File_Items": [
+                {
+                    "Name": "Workshop_DeepOreNodes",
+                    "Model": {
+                        "RowName": "Workshop"
+                    },
+                    "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Workshop_DeepOreNodes-DisplayName\", \"Deep Ore Nodes\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Metal.ITEM_Ore_Metal"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Talents-D_TalentTrees.json",
+            "File_Items": [
+                {
+                    "Name": "Workshop_DeepOreNodes",
+                    "BackgroundTexture": "/Game/Assets/2DArt/UI/Windows/EmptyAsset.EmptyAsset",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Metal.ITEM_Ore_Metal",
+                    "Archetype": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemTemplate.json",
+            "File_Items": [
+                {
+                    "Name": "DeepOre_Node_Iron",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Iron"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Copper",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Copper"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Coal",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Coal"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Stone",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Stone"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Oxite",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Oxite"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Salt",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Salt"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Sulfur",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Sulfur"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Gold",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Gold"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Silicon",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Silicon"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Clay",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Clay"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Aluminium",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Aluminium"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Titanium",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Titanium"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Platinum",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Platinum"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Scoria",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Scoria"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Obsidian",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Obsidian"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Limestone",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Limestone"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Lithium",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Lithium"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Ruby",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Ruby"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Cobalt",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Cobalt"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Super_Cooled_Ice",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Super_Cooled_Ice"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Frozen_Wood",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Frozen_Wood"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Exotic_Red",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Exotic_Red"
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Uranium",
+                    "ItemStaticData": {
+                        "RowName": "DeepOre_Node_Uranium"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Itemable.json",
+            "File_Items": [
+                {
+                    "Name": "Item_DeepOre_Node_Iron",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Iron\", \"Deep Iron Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Iron-Desc\", \"A placeable deep ore deposit that provides an infinite source of iron. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Metal.ITEM_Ore_Metal"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Copper",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Copper\", \"Deep Copper Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Copper-Desc\", \"A placeable deep ore deposit that provides an infinite source of copper. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Copper.ITEM_Ore_Copper"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Coal",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Coal\", \"Deep Coal Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Coal-Desc\", \"A placeable deep ore deposit that provides an infinite source of coal. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Coal.ITEM_Ore_Coal"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Stone",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Stone\", \"Deep Stone Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Stone-Desc\", \"A placeable deep ore deposit that provides an infinite source of stone. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Stone.ITEM_Ore_Stone"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Oxite",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Oxite\", \"Deep Oxite Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Oxite-Desc\", \"A placeable deep ore deposit that provides an infinite source of oxite. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Oxite.ITEM_Ore_Oxite"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Salt",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Salt\", \"Deep Salt Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Salt-Desc\", \"A placeable deep ore deposit that provides an infinite source of salt. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_SaltBag.ITEM_SaltBag"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Sulfur",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Sulfur\", \"Deep Sulfur Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Sulfur-Desc\", \"A placeable deep ore deposit that provides an infinite source of sulfur. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Sulfur.ITEM_Ore_Sulfur"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Gold",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Gold\", \"Deep Gold Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Gold-Desc\", \"A placeable deep ore deposit that provides an infinite source of gold. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Gold.ITEM_Ore_Gold"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Silicon",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Silicon\", \"Deep Silicon Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Silicon-Desc\", \"A placeable deep ore deposit that provides an infinite source of silicon. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Silica.ITEM_Ore_Silica"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Clay",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Clay\", \"Deep Clay Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Clay-Desc\", \"A placeable deep ore deposit that provides an infinite source of clay. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Clay.ITEM_Clay"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Aluminium",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Aluminium\", \"Deep Aluminium Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Aluminium-Desc\", \"A placeable deep ore deposit that provides an infinite source of aluminium. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Bauxite.ITEM_Ore_Bauxite"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Titanium",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Titanium\", \"Deep Titanium Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Titanium-Desc\", \"A placeable deep ore deposit that provides an infinite source of titanium. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Titanium.ITEM_Ore_Titanium"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Platinum",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Platinum\", \"Deep Platinum Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Platinum-Desc\", \"A placeable deep ore deposit that provides an infinite source of platinum. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Platinum.ITEM_Ore_Platinum"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Scoria",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Scoria\", \"Deep Scoria Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Scoria-Desc\", \"A placeable deep ore deposit that provides an infinite source of scoria. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Scoria.T_ITEM_Scoria"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Obsidian",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Obsidian\", \"Deep Obsidian Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Obsidian-Desc\", \"A placeable deep ore deposit that provides an infinite source of obsidian. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Obsidian.ITEM_Obsidian"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Limestone",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Limestone\", \"Deep Limestone Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Limestone-Desc\", \"A placeable deep ore deposit that provides an infinite source of limestone. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Limestone.ITEM_Limestone"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Lithium",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Lithium\", \"Deep Lithium Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Lithium-Desc\", \"A placeable deep ore deposit that provides an infinite source of lithium. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/T_ITEM_Lithium_Ore.T_ITEM_Lithium_Ore"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Ruby",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Ruby\", \"Deep Ruby Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Ruby-Desc\", \"A placeable deep ore deposit that provides an infinite source of ruby. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/T_ITEM_Crystallised_Ruby.T_ITEM_Crystallised_Ruby"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Cobalt",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Cobalt\", \"Deep Cobalt Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Cobalt-Desc\", \"A placeable deep ore deposit that provides an infinite source of cobalt. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/T_ITEM_Cobalt_Ore.T_ITEM_Cobalt_Ore"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Super_Cooled_Ice",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Super_Cooled_Ice\", \"Deep Super Cooled Ice Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Super_Cooled_Ice-Desc\", \"A placeable deep ore deposit that provides an infinite source of super cooled ice. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Super_Cooled_Ice.ITEM_Super_Cooled_Ice"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Frozen_Wood",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Frozen_Wood\", \"Deep Frozen Wood Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Frozen_Wood-Desc\", \"A placeable deep ore deposit that provides an infinite source of frozen wood. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Frozen_Wood.T_ITEM_Frozen_Wood"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Exotic_Red",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Exotic_Red\", \"Deep Red Exotic Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Exotic_Red-Desc\", \"A placeable deep ore deposit that provides an infinite source of red exotic. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Exotic_Red_Raw.ITEM_Exotic_Red_Raw"
+                },
+                {
+                    "Name": "Item_DeepOre_Node_Uranium",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Uranium\", \"Deep Uranium Ore Node\")",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Uranium-Desc\", \"A placeable deep ore deposit that provides an infinite source of uranium. Place on the ground and attach a deep mining drill to extract ore.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Uranium_Raw.T_ITEM_Uranium_Raw"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Deployables-D_DeployableSetup.json",
+            "File_Items": [
+                {
+                    "Name": "DeepOre_Node_Iron",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Iron.BP_DeepOreNode_Iron_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Iron.SM_DeepOreNode_Iron",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Copper",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Copper.BP_DeepOreNode_Copper_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Copper.SM_DeepOreNode_Copper",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Coal",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Coal.BP_DeepOreNode_Coal_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Coal.SM_DeepOreNode_Coal",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Stone",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Stone.BP_DeepOreNode_Stone_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Stone.SM_DeepOreNode_Stone",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Oxite",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Oxite.BP_DeepOreNode_Oxite_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Oxite.SM_DeepOreNode_Oxite",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Salt",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Salt.BP_DeepOreNode_Salt_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Salt.SM_DeepOreNode_Salt",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Sulfur",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Sulfur.BP_DeepOreNode_Sulfur_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Sulfur.SM_DeepOreNode_Sulfur",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Gold",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Gold.BP_DeepOreNode_Gold_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Gold.SM_DeepOreNode_Gold",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Silicon",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Silicon.BP_DeepOreNode_Silicon_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Silicon.SM_DeepOreNode_Silicon",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Clay",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Clay.BP_DeepOreNode_Clay_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Clay.SM_DeepOreNode_Clay",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Aluminium",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Aluminium.BP_DeepOreNode_Aluminium_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Aluminium.SM_DeepOreNode_Aluminium",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Titanium",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Titanium.BP_DeepOreNode_Titanium_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Titanium.SM_DeepOreNode_Titanium",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Platinum",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Platinum.BP_DeepOreNode_Platinum_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Platinum.SM_DeepOreNode_Platinum",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Scoria",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Scoria.BP_DeepOreNode_Scoria_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Scoria.SM_DeepOreNode_Scoria",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Obsidian",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Obsidian.BP_DeepOreNode_Obsidian_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Obsidian.SM_DeepOreNode_Obsidian",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Limestone",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Limestone.BP_DeepOreNode_Limestone_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Limestone.SM_DeepOreNode_Limestone",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Lithium",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Lithium.BP_DeepOreNode_Lithium_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Lithium.SM_DeepOreNode_Lithium",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Ruby",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Ruby.BP_DeepOreNode_Ruby_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Ruby.SM_DeepOreNode_Ruby",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Cobalt",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Cobalt.BP_DeepOreNode_Cobalt_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Cobalt.SM_DeepOreNode_Cobalt",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Super_Cooled_Ice",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Super_Cooled_Ice.BP_DeepOreNode_Super_Cooled_Ice_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Super_Cooled_Ice.SM_DeepOreNode_Super_Cooled_Ice",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Frozen_Wood",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Frozen_Wood.BP_DeepOreNode_Frozen_Wood_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Frozen_Wood.SM_DeepOreNode_Frozen_Wood",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Exotic_Red",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Exotic_Red.BP_DeepOreNode_Exotic_Red_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Exotic_Red.SM_DeepOreNode_Exotic_Red",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "DeepOre_Node_Uranium",
+                    "DeployableBlueprint": "/Game/Mods/DeepOreNodes/BP_DeepOreNode_Uranium.BP_DeepOreNode_Uranium_C",
+                    "PreviewStaticMesh": "/Game/Mods/DeepOreNodes/SM_DeepOreNode_Uranium.SM_DeepOreNode_Uranium",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": true,
+                    "MaxSurfaceSnapAngle": 30.0,
+                    "bCanAffectNavigation": false
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Deployable.json",
+            "File_Items": [
+                {
+                    "Name": "DeepOre_Node_Iron",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Iron",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Copper",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Copper",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Coal",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Coal",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Stone",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Stone",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Oxite",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Oxite",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Salt",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Salt",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Sulfur",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Sulfur",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Gold",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Gold",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Silicon",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Silicon",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Clay",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Clay",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Aluminium",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Aluminium",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Titanium",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Titanium",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Platinum",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Platinum",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Scoria",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Scoria",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Obsidian",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Obsidian",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Limestone",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Limestone",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Lithium",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Lithium",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Ruby",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Ruby",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Cobalt",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Cobalt",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Super_Cooled_Ice",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Super_Cooled_Ice",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Frozen_Wood",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Frozen_Wood",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Exotic_Red",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Exotic_Red",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "DeepOre_Node_Uranium",
+                    "Variants": [
+                        {
+                            "RowName": "DeepOre_Node_Uranium",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemsStatic.json",
+            "File_Items": [
+                {
+                    "Name": "DeepOre_Node_Iron",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Iron"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Iron"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Copper",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Copper"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Copper"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Coal",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Coal"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Coal"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Stone",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Stone"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Stone"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Oxite",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Oxite"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Oxite"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Salt",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Salt"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Salt"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Sulfur",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Sulfur"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Sulfur"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Gold",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Gold"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Gold"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Silicon",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Silicon"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Silicon"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Clay",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Clay"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Clay"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Aluminium",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Aluminium"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Aluminium"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Titanium",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Titanium"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Titanium"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Platinum",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Platinum"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Platinum"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Scoria",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Scoria"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Scoria"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Obsidian",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Obsidian"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Obsidian"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Limestone",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Limestone"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Limestone"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Lithium",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Lithium"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Lithium"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Ruby",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Ruby"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Ruby"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Cobalt",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Cobalt"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Cobalt"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Super_Cooled_Ice",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Super_Cooled_Ice"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Super_Cooled_Ice"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Frozen_Wood",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Frozen_Wood"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Frozen_Wood"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Exotic_Red",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Exotic_Red"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Exotic_Red"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Uranium",
+                    "Itemable": {
+                        "RowName": "Item_DeepOre_Node_Uranium"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "DeepOre_Node_Uranium"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_10000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "StoneDeployable"
+                    },
+                    "MaxStackCount": 1,
+                    "Weight": 50.0,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable.DeepMining"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "MetaWorkshop-D_WorkshopItems.json",
+            "File_Items": [
+                {
+                    "Name": "Meta_DeepOre_Node_Iron",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Iron"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 25
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Copper",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Copper"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 25
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Coal",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Coal"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 25
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Stone",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Stone"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 25
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Oxite",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Oxite"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 25
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Salt",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Salt"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 25
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Sulfur",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Sulfur"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 75
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 40
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Gold",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Gold"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 75
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 40
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Silicon",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Silicon"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 75
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 40
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Clay",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Clay"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 75
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 40
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Aluminium",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Aluminium"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 100
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Titanium",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Titanium"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 100
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Platinum",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Platinum"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 100
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Scoria",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Scoria"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 100
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Obsidian",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Obsidian"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 100
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Limestone",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Limestone"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 100
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Lithium",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Lithium"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 125
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 65
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Ruby",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Ruby"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 125
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 65
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Cobalt",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Cobalt"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 125
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 65
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Super_Cooled_Ice",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Super_Cooled_Ice"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 150
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 75
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Frozen_Wood",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Frozen_Wood"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 150
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 75
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Exotic_Red",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Exotic_Red"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 150
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 75
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_DeepOre_Node_Uranium",
+                    "Item": {
+                        "RowName": "DeepOre_Node_Uranium"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 150
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 75
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Talents-D_Talents.json",
+            "File_Items": [
+                {
+                    "Name": "DeepOre_Node_Iron_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Iron",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 100,
+                        "Y": 100
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Copper_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Copper",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 100,
+                        "Y": 400
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Coal_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Coal",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 100,
+                        "Y": 700
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Stone_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Stone",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 100,
+                        "Y": 1000
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Oxite_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Oxite",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 100,
+                        "Y": 1300
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Salt_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Salt",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 400,
+                        "Y": 100
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Sulfur_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Sulfur",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 400,
+                        "Y": 400
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Gold_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Gold",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 400,
+                        "Y": 700
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Silicon_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Silicon",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 400,
+                        "Y": 1000
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Clay_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Clay",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 400,
+                        "Y": 1300
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Aluminium_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Aluminium",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 700,
+                        "Y": 100
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Titanium_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Titanium",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 700,
+                        "Y": 400
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Platinum_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Platinum",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 700,
+                        "Y": 700
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Scoria_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Scoria",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 700,
+                        "Y": 1000
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Obsidian_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Obsidian",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 700,
+                        "Y": 1300
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Limestone_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Limestone",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 1000,
+                        "Y": 100
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Lithium_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Lithium",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 1000,
+                        "Y": 400
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Ruby_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Ruby",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 1000,
+                        "Y": 700
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Cobalt_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Cobalt",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 1000,
+                        "Y": 1000
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Super_Cooled_Ice_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Super_Cooled_Ice",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 1000,
+                        "Y": 1300
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Frozen_Wood_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Frozen_Wood",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 1300,
+                        "Y": 100
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Exotic_Red_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Exotic_Red",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 1300,
+                        "Y": 400
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "DeepOre_Node_Uranium_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_DeepOre_Node_Uranium",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DeepOreNodes"
+                    },
+                    "Position": {
+                        "X": 1300,
+                        "Y": 700
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "File_Items": [
+                {
+                    "Name": "Craft_DeepOre_Node_Iron",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Metal_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Iron",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Copper",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Copper_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Copper",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Coal",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Coal_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Coal",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Stone",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Stone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Oxite",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Oxite",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Oxite",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Salt",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Salt",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Salt",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Sulfur",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Sulfur",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Sulfur",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Gold",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Gold_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Gold",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Silicon",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Silica",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Silicon",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Clay",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Clay",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Clay",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Aluminium",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Bauxite",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Aluminium",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Titanium",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Titanium",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Platinum",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Platinum_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Platinum",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Scoria",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Scoria",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Scoria",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Obsidian",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Obsidian",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Obsidian",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Limestone",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Limestone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Limestone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Lithium",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Lithium_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Lithium",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Ruby",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ruby_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Ruby",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Cobalt",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Cobalt_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Cobalt",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Super_Cooled_Ice",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Super_Cooled_Ice",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Super_Cooled_Ice",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Frozen_Wood",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Frozen_Wood",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Frozen_Wood",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Exotic_Red",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red_Raw",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_DeepOre_Node_Uranium",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Uranium_Raw",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DeepOre_Node_Uranium",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                }
+            ]
+        }
+    ],
+    "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Deployable_Deep_Ore_Nodes.png",
+    "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Deployable_Deep_Ore_Nodes/README.md"
+}
