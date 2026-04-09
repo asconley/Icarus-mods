@@ -1,439 +1,439 @@
 {
-  "mods": [
-    {
-      "name": "Agent's BioLab",
-      "author": "AgentKush",
-      "version": "2.0",
-      "compatibility": "All",
-      "description": "All 11 legendary Bio Lab weapons in the Workshop - includes Sandwyrm Chainsaw",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_BioLab.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/Agents_BioLab.EXMODZ"
-      }
-    },
-    {
-      "name": "Agents Individual Item Kits",
-      "author": "AgentKush",
-      "version": "3.1",
-      "compatibility": "All",
-      "description": "2,056 individual item kits. Fair pricing based on complexity (5-300 credits). Complete Workshop expansion for precise inventory management. v3.1: Added Submachine Gun, Scouts SMG, Sandwyrm SMG, Speeder Kit, Checkered Flag kits.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_Individual_Item_Kits.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/Agents_Individual_Item_Kits.EXMODZ"
-      }
-    },
-    {
-      "name": "Workshop Recyclers",
-      "author": "AgentKush",
-      "version": "5.0",
-      "compatibility": "All",
-      "description": "Two recycling machines (Biofuel T3 + Organic T4). 2,127 recipes: 1,808 deconstruct + 317 recycle + 2 crafting. v5.0: Complete rebuild - fixed all workshop recycle recipes to output physical items (Ren/Meta_Resource/Exotic_Red/Biomass/Uranium_Rod). Deconstruction stops at ingots and refined materials - no raw ores or pyritic crusts. All crafting times matched to base game.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Workshop_Recyclers.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/Workshop_Recyclers.EXMODZ"
-      }
-    },
-    {
-      "name": "Dev Tools Kit",
-      "author": "AgentKush",
-      "version": "1.1.2",
-      "compatibility": "All",
-      "description": "Unlocks 10 hidden developer tools including Thor's Hammer (fly mode), Transform Tool, Destroy Tool, Inspection Tool, Fireball, Pyromancy Flame, and more. v1.1.2: Fixed broken mesh and actionable references for current game data.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Dev_Tools_Kit.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/Dev_Tools_Kit.EXMODZ"
-      }
-    },
-    {
-      "name": "Night Vision Goggles",
-      "author": "AgentKush",
-      "version": "2.0",
-      "compatibility": "All",
-      "description": "Unlocks the hidden Night Vision system built into Icarus. Craft Night Vision Goggles at Fabricator, Manufacturer, or Machining Bench. Toggle with secondary action. v2.0: Added no-decay, durability (10,000 HP), reduced weight, added Machining Bench crafting.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/NightVisionGoggles.EXMODZ"
-      }
-    },
-    {
-      "name": "Hidden Building Pieces",
-      "author": "AgentKush",
-      "version": "3.0.0",
-      "compatibility": "All",
-      "description": "Unlocks 60 hidden building pieces including diagonal curved sets, frames, corner stairs, roof peaks, and half-pieces for 11+ materials. v3.0.0: Removed 44 items now in base game (Kepler update).",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/Hidden_Building_Pieces.EXMODZ"
-      }
-    },
-    {
-      "name": "Extended Wire and Pipe Tool",
-      "author": "AgentKush",
-      "version": "1.0",
-      "compatibility": "All",
-      "description": "10x range extension for all power cables and pipes. Power cables 60m, water pipes 60m, biofuel pipes 60m, crude oil pipes 100m. PAK mod - modifies Blueprint asset. All players and server must have it installed for multiplayer.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Extended_Wire_and_Pipe_Tool.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Wire_and_Pipe_Tool/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Wire_and_Pipe_Tool/Extended_Wire_and_Pipe_Tool.EXMODZ"
-      }
-    },
-    {
-      "name": "Always_Show_Buildings_On_Map",
-      "author": "AgentKush",
-      "version": "1.0",
-      "compatibility": "All",
-      "description": "Always shows player-built structures on the map and minimap without requiring radar or special stats.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Always_show_buildings_on_map.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Always_show_buildings_on_map/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Always_show_buildings_on_map/Always_show_buildings_on_map.EXMODZ"
-      }
-    },
-    {
-      "name": "Fast Processing (5x)",
-      "author": "AgentKush",
-      "version": "4.8",
-      "compatibility": "All",
-      "description": "All crafting and processing 5x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_5x.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/FastProcessing_All_5x.EXMODZ"
-      }
-    },
-    {
-      "name": "Fast Processing (10x)",
-      "author": "AgentKush",
-      "version": "4.8",
-      "compatibility": "All",
-      "description": "All crafting and processing 10x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_10x.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/FastProcessing_All_10x.EXMODZ"
-      }
-    },
-    {
-      "name": "Fast Processing (15x)",
-      "author": "AgentKush",
-      "version": "4.8",
-      "compatibility": "All",
-      "description": "All crafting and processing 15x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_15x.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/FastProcessing_All_15x.EXMODZ"
-      }
-    },
-    {
-      "name": "Fast Processing (25x)",
-      "author": "AgentKush",
-      "version": "4.8",
-      "compatibility": "All",
-      "description": "All crafting and processing 25x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_25x.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_25x/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_25x/FastProcessing_All_25x.EXMODZ"
-      }
-    },
-    {
-      "name": "Fast Processing (Instant)",
-      "author": "AgentKush",
-      "version": "4.8",
-      "compatibility": "All",
-      "description": "All crafting and processing instant. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/FastProcessing_Instant.EXMODZ"
-      }
-    },
-    {
-      "name": "Faster Crafting",
-      "author": "AgentKush",
-      "version": "1.4",
-      "compatibility": "All",
-      "description": "Halves crafting time on 2175 recipes across all workbenches. Minimum 500 MJ for water recipes. v1.4: Version bump for latest game update.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Faster_Crafting.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Crafting/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Crafting/Faster_Crafting.EXMODZ"
-      }
-    },
-    {
-      "name": "Turret_Variants",
-      "author": "AgentKush",
-      "version": "3.0",
-      "compatibility": "All",
-      "description": "15 new automated turret variants with unique firing patterns. v3.0: LOS fix PAK (turrets stop shooting through walls) + proper ammo matching (arrows, bolts, javelins, stones, biofuel). Includes Crossbow, Bow, Sniper, Assault Rifle, SMG, Javelin, Flamethrower, Rock, Minigun, Rifle, Pistol, Shotblaster, Rapid Crossbow, Storm, and Heavy Sniper turrets.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/Turret_Variants.EXMODZ",
-        "pak": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/Turret_Variants_LOS_Fix_P.pak"
-      }
-    },
-    {
-      "name": "Trap and Defense Expansion",
-      "author": "AgentKush",
-      "version": "1.1",
-      "compatibility": "All",
-      "description": "23 defense recipes using real game items. Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) previously enemy-only. Cheap early-game fortifications, traps without rare drops, and batch packs.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Trap_Defense_Expansion.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Trap_Defense_Expansion/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Trap_Defense_Expansion/Trap_Defense_Expansion.EXMODZ"
-      }
-    },
-    {
-      "name": "Ammo Crafting Overhaul",
-      "author": "AgentKush",
-      "version": "1.0",
-      "compatibility": "All",
-      "description": "50 new ammo recipes. 50x batch crafting for all arrow and bullet types including special ammo. Plus 8 ammo conversion recipes.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Ammo_Crafting_Overhaul.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/Ammo_Crafting_Overhaul.EXMODZ"
-      }
-    },
-    {
-      "name": "Armor Set Bonuses Enhanced",
-      "author": "AgentKush",
-      "version": "2.0",
-      "compatibility": "All",
-      "description": "Enhanced armor set bonuses with 3-piece partial bonuses for mix-and-match builds. 33 sets get a 3-piece threshold (~40% bonus) plus boosted 5-piece bonuses (+75% positive, +50% resistances).",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Armor_Set_Bonuses_Enhanced.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Armor_Set_Bonuses_Enhanced/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Armor_Set_Bonuses_Enhanced/Armor_Set_Bonuses_Enhanced.EXMODZ"
-      }
-    },
-    {
-      "name": "Exotic Economy Overhaul",
-      "author": "AgentKush",
-      "version": "2.0",
-      "compatibility": "All",
-      "description": "Full currency exchange system with 52 recipes. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches. Covers all Dangerous Horizons materials. v2.0: Complete rebuild with RequiredMillijoules fix and 25 new recipes.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Exotic_Economy_Overhaul.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Exotic_Economy_Overhaul/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Exotic_Economy_Overhaul/Exotic_Economy_Overhaul.EXMODZ"
-      }
-    },
-    {
-      "name": "Tier Upgrade Forge",
-      "author": "AgentKush",
-      "version": "1.1",
-      "compatibility": "All",
-      "description": "Upgrade tools and weapons to the next tier without rebuilding from scratch. 26 upgrade recipes across pickaxes, axes, knives, spears, swords, and bows.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Tier_Upgrade_Forge.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Tier_Upgrade_Forge/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Tier_Upgrade_Forge/Tier_Upgrade_Forge.EXMODZ"
-      }
-    },
-    {
-      "name": "Waste Not",
-      "author": "CritFail (Updated by AgentKush)",
-      "version": "2.2",
-      "compatibility": "All",
-      "description": "Mining yields useful secondary resources instead of Stone. Normal ores give bonus of the same type, dense metal ores drop Exotics. Coal gives Charcoal, Ice gives Oxite. Covers all 33 mineable deposit types.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Waste_Not.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Waste_Not/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Waste_Not/Waste_Not.EXMODZ"
-      }
-    },
-    {
-      "name": "No Food Spoilage",
-      "author": "AgentKush",
-      "version": "2.0",
-      "compatibility": "All",
-      "description": "Prevents all food spoilage. 33 decayable entries + 134 composter recipes. Items decay/despawn normally but never convert to spoiled versions. v2.0: Added 134 composter recipes for raw meats, fish, dairy, vegetables, fruits, and bait.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/No_Food_Spoilage.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/No_Food_Spoilage.EXMODZ"
-      }
-    },
-    {
-      "name": "Extended Spoil Timers",
-      "author": "AgentKush",
-      "version": "1.2",
-      "compatibility": "All",
-      "description": "Extends decay timers on 33 items. Food 5x longer, other decay 3x longer. Not compatible with Hardcore Rebalance Pack.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Extended_Spoil_Timers.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Spoil_Timers/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Spoil_Timers/Extended_Spoil_Timers.EXMODZ"
-      }
-    },
-    {
-      "name": "Indestructible Tools & Weapons",
-      "author": "AgentKush",
-      "version": "1.8",
-      "compatibility": "All",
-      "description": "Maximum durability on all tools, weapons, armor, buildings, doors, and crafting stations. 199 items modified to never break. v1.8: Version bump for latest game update.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Indestructible_Tools_Weapons.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/Indestructible_Tools_Weapons.EXMODZ"
-      }
-    },
-    {
-      "name": "Stack Size Overhaul",
-      "author": "AgentKush",
-      "version": "1.3",
-      "compatibility": "All",
-      "description": "Increases stack sizes on 1,258 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. v1.3: Added Gruel stack size (300).",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Stack_Size_Overhaul.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/Stack_Size_Overhaul.EXMODZ"
-      }
-    },
-    {
-      "name": "Creature Drop Enhancer",
-      "author": "AgentKush",
-      "version": "1.0",
-      "compatibility": "All",
-      "description": "Doubles all creature butchery and skinning outputs across 62 recipes. 2x leather, bone, fur, meat, and rare drops.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Drop_Enhancer.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer/Creature_Drop_Enhancer.EXMODZ"
-      }
-    },
-    {
-      "name": "Fish and Farming Boost",
-      "author": "AgentKush",
-      "version": "1.1",
-      "compatibility": "All",
-      "description": "390 changes: crops grow 2x faster across 211 growth states, harvests +50%, +2 cultivations, 57 fish spawn zones doubled, fish quality +50%.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Fish_Farming_Boost.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Fish_Farming_Boost/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Fish_Farming_Boost/Fish_Farming_Boost.EXMODZ"
-      }
-    },
-    {
-      "name": "ModularAfflictionAdjuster",
-      "author": "AgentKush",
-      "version": "2.0",
-      "compatibility": "All",
-      "description": "Comprehensive affliction adjustment - reduces stat penalties by ~50%, extends escalation times by ~50%, and reduces damage over time by ~50%. Covers all 80+ player afflictions.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Modular_Affliction_Adjuster.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Affliction_Adjuster/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Affliction_Adjuster/Modular_Affliction_Adjuster.EXMODZ"
-      }
-    },
-    {
-      "name": "ModularBuffEnhancer",
-      "author": "AgentKush",
-      "version": "1.1",
-      "compatibility": "All",
-      "description": "Comprehensive buff enhancement - 83 core buffs plus 156 food buffs, all boosted by ~50%. Stronger tonics, better food effects, enhanced bed healing, and more.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Modular_Buff_Enhancer.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Buff_Enhancer/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Buff_Enhancer/Modular_Buff_Enhancer.EXMODZ"
-      }
-    },
-    {
-      "name": "Culinex_Food_Boost_Fix",
-      "author": "AgentKush",
-      "version": "2.7",
-      "compatibility": "All",
-      "description": "Fixes Chef's Backpack 25% food effectiveness boost for all 206 foods/drinks/tonics. Adds Raw Meat to Chicken butchery recipe. v2.7: Updated chicken recipe for current game format.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Culinex_Food_Boost_Fix.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/Culinex_Food_Boost_Fix.EXMODZ"
-      }
-    },
-    {
-      "name": "MoreEyeColours",
-      "author": "AgentKush",
-      "version": "2.0",
-      "compatibility": "All",
-      "description": "Massive eye color expansion - 60 new colors across greens, ambers, purples, blues, greys, reds, and exotics (69 total). Plus unlocked hidden content.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/MoreEyeColours.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/MoreEyeColours/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/MoreEyeColours/MoreEyeColours.EXMODZ"
-      }
-    },
-    {
-      "name": "Hardcore Rebalance Pack",
-      "author": "AgentKush",
-      "version": "1.18",
-      "compatibility": "All",
-      "description": "For survivors who think Icarus is too easy. v1.18: NPC HP/damage now applied via D_AIGrowth per-creature, +150% HP and +75% melee to 114 hostile creatures. For the full hardcore experience, pair with Creature_Difficulty_Scaling (CDS) v2.2+ which adds level-500 zone scaling, per-player scaling rules, and tame/mount survival buffs. 1432 changes across 17 data tables + 2 blueprint overrides.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/Hardcore_Rebalance_Pack.EXMODZ",
-        "pak": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/Hardcore_Rebalance_Pack_P.pak"
-      }
-    },
-    {
-      "name": "Creature_Difficulty_Scaling",
-      "author": "AgentKush",
-      "version": "2.2",
-      "compatibility": "All",
-      "description": "Dynamic creature level scaling for level 500 cap. Scales all spawn zones up to level 500, buffs creature stats by tier, and adds player-level-based scaling rules. v2.2: Significant tame and mount HP/damage/resistance buffs so pets can stand up to high-level hostile creatures. Full DLC coverage (New Frontiers, Styx, Dread). Compatible with JimK72 Level Cap 500 mod.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Difficulty_Scaling.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/Creature_Difficulty_Scaling.EXMODZ"
-      }
-    },
-    {
-      "name": "Solar Panel Expansion",
-      "author": "AgentKush",
-      "version": "1.0",
-      "compatibility": "All",
-      "description": "Adds all solar panels and Solar Backpack to a dedicated Solar Energy Workshop tab. Includes Solar Panel Kit, Flat Solar Panel Kit, and Solar Backpack Kit with fair pricing.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Solar_Panel_Expansion.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Solar_Panel_Expansion/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Solar_Panel_Expansion/Solar_Panel_Expansion.EXMODZ"
-      }
-    },
-    {
-      "name": "Agents Optimization Mod",
-      "author": "AgentKush",
-      "version": "2.2",
-      "compatibility": "All",
-      "description": "Comprehensive FPS optimization - PAK config overrides (foliage/shadow/fog/LOD reduction) plus data table changes (reduced spawns, slower hordes, extended decay, boosted fuel, weather tuning). 50 new weather events + 3 weather pools added. PAK + EXMODZ required.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Performance_Optimizer.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Performance_Optimizer.EXMODZ",
-        "pak": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Performance_Optimizer_P.pak"
-      }
-    },
-    {
-      "name": "Absolute Chaos - Core",
-      "author": "AgentKush",
-      "version": "0.2.1",
-      "compatibility": "All",
-      "description": "Base layer of the Absolute Chaos modpack. Overrides player Base_Stats with 76 chaos buffs (5000kg carry, 600 move speed, fall-damage immunity, zero survival drain, +900% XP and crafting) and zeros research/replication cost on all 335 workshop items. v0.2.1 drops the empty workshop tab and ships a banner.",
-      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/AbsoluteChaos_Core.png",
-      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/AbsoluteChaos_Core/README.md",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/AbsoluteChaos_Core/AbsoluteChaos_Core.EXMODZ"
-      }
-    }
-  ]
+    "mods": [
+        {
+            "name": "Agent's BioLab",
+            "author": "AgentKush",
+            "version": "2.0",
+            "compatibility": "All",
+            "description": "All 11 legendary Bio Lab weapons in the Workshop - includes Sandwyrm Chainsaw",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_BioLab.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/Agents_BioLab.EXMODZ"
+            }
+        },
+        {
+            "name": "Agents Individual Item Kits",
+            "author": "AgentKush",
+            "version": "3.1",
+            "compatibility": "All",
+            "description": "2,056 individual item kits. Fair pricing based on complexity (5-300 credits). Complete Workshop expansion for precise inventory management. v3.1: Added Submachine Gun, Scouts SMG, Sandwyrm SMG, Speeder Kit, Checkered Flag kits.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_Individual_Item_Kits.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/Agents_Individual_Item_Kits.EXMODZ"
+            }
+        },
+        {
+            "name": "Workshop Recyclers",
+            "author": "AgentKush",
+            "version": "5.1",
+            "compatibility": "All",
+            "description": "Two recycling machines (Biofuel T3 + Organic T4). 2,285 recipes: 1,948 deconstruct + 335 recycle + 2 crafting. v5.1: Added 158 new recipes - mission items, DLC content, national flags, missing workshop items (Carbon Armor, Larkwell White, Shengong hammers/sickles, Biolab inhalers, 9Diamonds Shield), food, furniture, armor, stations. All 333 workshop items covered. 100% material returns.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Workshop_Recyclers.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/Workshop_Recyclers.EXMODZ"
+            }
+        },
+        {
+            "name": "Dev Tools Kit",
+            "author": "AgentKush",
+            "version": "1.1.2",
+            "compatibility": "All",
+            "description": "Unlocks 10 hidden developer tools including Thor's Hammer (fly mode), Transform Tool, Destroy Tool, Inspection Tool, Fireball, Pyromancy Flame, and more. v1.1.2: Fixed broken mesh and actionable references for current game data.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Dev_Tools_Kit.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/Dev_Tools_Kit.EXMODZ"
+            }
+        },
+        {
+            "name": "Night Vision Goggles",
+            "author": "AgentKush",
+            "version": "2.0",
+            "compatibility": "All",
+            "description": "Unlocks the hidden Night Vision system built into Icarus. Craft Night Vision Goggles at Fabricator, Manufacturer, or Machining Bench. Toggle with secondary action. v2.0: Added no-decay, durability (10,000 HP), reduced weight, added Machining Bench crafting.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/NightVisionGoggles.EXMODZ"
+            }
+        },
+        {
+            "name": "Hidden Building Pieces",
+            "author": "AgentKush",
+            "version": "3.0.0",
+            "compatibility": "All",
+            "description": "Unlocks 60 hidden building pieces including diagonal curved sets, frames, corner stairs, roof peaks, and half-pieces for 11+ materials. v3.0.0: Removed 44 items now in base game (Kepler update).",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/Hidden_Building_Pieces.EXMODZ"
+            }
+        },
+        {
+            "name": "Extended Wire and Pipe Tool",
+            "author": "AgentKush",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "10x range extension for all power cables and pipes. Power cables 60m, water pipes 60m, biofuel pipes 60m, crude oil pipes 100m. PAK mod - modifies Blueprint asset. All players and server must have it installed for multiplayer.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Extended_Wire_and_Pipe_Tool.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Wire_and_Pipe_Tool/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Wire_and_Pipe_Tool/Extended_Wire_and_Pipe_Tool.EXMODZ"
+            }
+        },
+        {
+            "name": "Always_Show_Buildings_On_Map",
+            "author": "AgentKush",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Always shows player-built structures on the map and minimap without requiring radar or special stats.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Always_show_buildings_on_map.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Always_show_buildings_on_map/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Always_show_buildings_on_map/Always_show_buildings_on_map.EXMODZ"
+            }
+        },
+        {
+            "name": "Fast Processing (5x)",
+            "author": "AgentKush",
+            "version": "4.8",
+            "compatibility": "All",
+            "description": "All crafting and processing 5x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_5x.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/FastProcessing_All_5x.EXMODZ"
+            }
+        },
+        {
+            "name": "Fast Processing (10x)",
+            "author": "AgentKush",
+            "version": "4.8",
+            "compatibility": "All",
+            "description": "All crafting and processing 10x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_10x.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/FastProcessing_All_10x.EXMODZ"
+            }
+        },
+        {
+            "name": "Fast Processing (15x)",
+            "author": "AgentKush",
+            "version": "4.8",
+            "compatibility": "All",
+            "description": "All crafting and processing 15x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_15x.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/FastProcessing_All_15x.EXMODZ"
+            }
+        },
+        {
+            "name": "Fast Processing (25x)",
+            "author": "AgentKush",
+            "version": "4.8",
+            "compatibility": "All",
+            "description": "All crafting and processing 25x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_25x.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_25x/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_25x/FastProcessing_All_25x.EXMODZ"
+            }
+        },
+        {
+            "name": "Fast Processing (Instant)",
+            "author": "AgentKush",
+            "version": "4.8",
+            "compatibility": "All",
+            "description": "All crafting and processing instant. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/FastProcessing_Instant.EXMODZ"
+            }
+        },
+        {
+            "name": "Faster Crafting",
+            "author": "AgentKush",
+            "version": "1.4",
+            "compatibility": "All",
+            "description": "Halves crafting time on 2175 recipes across all workbenches. Minimum 500 MJ for water recipes. v1.4: Version bump for latest game update.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Faster_Crafting.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Crafting/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Crafting/Faster_Crafting.EXMODZ"
+            }
+        },
+        {
+            "name": "Turret_Variants",
+            "author": "AgentKush",
+            "version": "3.0",
+            "compatibility": "All",
+            "description": "15 new automated turret variants with unique firing patterns. v3.0: LOS fix PAK (turrets stop shooting through walls) + proper ammo matching (arrows, bolts, javelins, stones, biofuel). Includes Crossbow, Bow, Sniper, Assault Rifle, SMG, Javelin, Flamethrower, Rock, Minigun, Rifle, Pistol, Shotblaster, Rapid Crossbow, Storm, and Heavy Sniper turrets.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/Turret_Variants.EXMODZ",
+                "pak": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/Turret_Variants_LOS_Fix_P.pak"
+            }
+        },
+        {
+            "name": "Trap and Defense Expansion",
+            "author": "AgentKush",
+            "version": "1.1",
+            "compatibility": "All",
+            "description": "23 defense recipes using real game items. Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) previously enemy-only. Cheap early-game fortifications, traps without rare drops, and batch packs.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Trap_Defense_Expansion.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Trap_Defense_Expansion/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Trap_Defense_Expansion/Trap_Defense_Expansion.EXMODZ"
+            }
+        },
+        {
+            "name": "Ammo Crafting Overhaul",
+            "author": "AgentKush",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "50 new ammo recipes. 50x batch crafting for all arrow and bullet types including special ammo. Plus 8 ammo conversion recipes.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Ammo_Crafting_Overhaul.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/Ammo_Crafting_Overhaul.EXMODZ"
+            }
+        },
+        {
+            "name": "Armor Set Bonuses Enhanced",
+            "author": "AgentKush",
+            "version": "2.0",
+            "compatibility": "All",
+            "description": "Enhanced armor set bonuses with 3-piece partial bonuses for mix-and-match builds. 33 sets get a 3-piece threshold (~40% bonus) plus boosted 5-piece bonuses (+75% positive, +50% resistances).",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Armor_Set_Bonuses_Enhanced.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Armor_Set_Bonuses_Enhanced/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Armor_Set_Bonuses_Enhanced/Armor_Set_Bonuses_Enhanced.EXMODZ"
+            }
+        },
+        {
+            "name": "Exotic Economy Overhaul",
+            "author": "AgentKush",
+            "version": "2.0",
+            "compatibility": "All",
+            "description": "Full currency exchange system with 52 recipes. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches. Covers all Dangerous Horizons materials. v2.0: Complete rebuild with RequiredMillijoules fix and 25 new recipes.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Exotic_Economy_Overhaul.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Exotic_Economy_Overhaul/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Exotic_Economy_Overhaul/Exotic_Economy_Overhaul.EXMODZ"
+            }
+        },
+        {
+            "name": "Tier Upgrade Forge",
+            "author": "AgentKush",
+            "version": "1.1",
+            "compatibility": "All",
+            "description": "Upgrade tools and weapons to the next tier without rebuilding from scratch. 26 upgrade recipes across pickaxes, axes, knives, spears, swords, and bows.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Tier_Upgrade_Forge.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Tier_Upgrade_Forge/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Tier_Upgrade_Forge/Tier_Upgrade_Forge.EXMODZ"
+            }
+        },
+        {
+            "name": "Waste Not",
+            "author": "CritFail (Updated by AgentKush)",
+            "version": "2.2",
+            "compatibility": "All",
+            "description": "Mining yields useful secondary resources instead of Stone. Normal ores give bonus of the same type, dense metal ores drop Exotics. Coal gives Charcoal, Ice gives Oxite. Covers all 33 mineable deposit types.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Waste_Not.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Waste_Not/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Waste_Not/Waste_Not.EXMODZ"
+            }
+        },
+        {
+            "name": "No Food Spoilage",
+            "author": "AgentKush",
+            "version": "2.0",
+            "compatibility": "All",
+            "description": "Prevents all food spoilage. 33 decayable entries + 134 composter recipes. Items decay/despawn normally but never convert to spoiled versions. v2.0: Added 134 composter recipes for raw meats, fish, dairy, vegetables, fruits, and bait.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/No_Food_Spoilage.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/No_Food_Spoilage.EXMODZ"
+            }
+        },
+        {
+            "name": "Extended Spoil Timers",
+            "author": "AgentKush",
+            "version": "1.2",
+            "compatibility": "All",
+            "description": "Extends decay timers on 33 items. Food 5x longer, other decay 3x longer. Not compatible with Hardcore Rebalance Pack.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Extended_Spoil_Timers.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Spoil_Timers/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Spoil_Timers/Extended_Spoil_Timers.EXMODZ"
+            }
+        },
+        {
+            "name": "Indestructible Tools & Weapons",
+            "author": "AgentKush",
+            "version": "1.8",
+            "compatibility": "All",
+            "description": "Maximum durability on all tools, weapons, armor, buildings, doors, and crafting stations. 199 items modified to never break. v1.8: Version bump for latest game update.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Indestructible_Tools_Weapons.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/Indestructible_Tools_Weapons.EXMODZ"
+            }
+        },
+        {
+            "name": "Stack Size Overhaul",
+            "author": "AgentKush",
+            "version": "1.3",
+            "compatibility": "All",
+            "description": "Increases stack sizes on 1,258 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. v1.3: Added Gruel stack size (300).",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Stack_Size_Overhaul.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/Stack_Size_Overhaul.EXMODZ"
+            }
+        },
+        {
+            "name": "Creature Drop Enhancer",
+            "author": "AgentKush",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Doubles all creature butchery and skinning outputs across 62 recipes. 2x leather, bone, fur, meat, and rare drops.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Drop_Enhancer.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer/Creature_Drop_Enhancer.EXMODZ"
+            }
+        },
+        {
+            "name": "Fish and Farming Boost",
+            "author": "AgentKush",
+            "version": "1.1",
+            "compatibility": "All",
+            "description": "390 changes: crops grow 2x faster across 211 growth states, harvests +50%, +2 cultivations, 57 fish spawn zones doubled, fish quality +50%.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Fish_Farming_Boost.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Fish_Farming_Boost/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Fish_Farming_Boost/Fish_Farming_Boost.EXMODZ"
+            }
+        },
+        {
+            "name": "ModularAfflictionAdjuster",
+            "author": "AgentKush",
+            "version": "2.0",
+            "compatibility": "All",
+            "description": "Comprehensive affliction adjustment - reduces stat penalties by ~50%, extends escalation times by ~50%, and reduces damage over time by ~50%. Covers all 80+ player afflictions.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Modular_Affliction_Adjuster.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Affliction_Adjuster/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Affliction_Adjuster/Modular_Affliction_Adjuster.EXMODZ"
+            }
+        },
+        {
+            "name": "ModularBuffEnhancer",
+            "author": "AgentKush",
+            "version": "1.1",
+            "compatibility": "All",
+            "description": "Comprehensive buff enhancement - 83 core buffs plus 156 food buffs, all boosted by ~50%. Stronger tonics, better food effects, enhanced bed healing, and more.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Modular_Buff_Enhancer.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Buff_Enhancer/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Buff_Enhancer/Modular_Buff_Enhancer.EXMODZ"
+            }
+        },
+        {
+            "name": "Culinex_Food_Boost_Fix",
+            "author": "AgentKush",
+            "version": "2.7",
+            "compatibility": "All",
+            "description": "Fixes Chef's Backpack 25% food effectiveness boost for all 206 foods/drinks/tonics. Adds Raw Meat to Chicken butchery recipe. v2.7: Updated chicken recipe for current game format.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Culinex_Food_Boost_Fix.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/Culinex_Food_Boost_Fix.EXMODZ"
+            }
+        },
+        {
+            "name": "MoreEyeColours",
+            "author": "AgentKush",
+            "version": "2.0",
+            "compatibility": "All",
+            "description": "Massive eye color expansion - 60 new colors across greens, ambers, purples, blues, greys, reds, and exotics (69 total). Plus unlocked hidden content.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/MoreEyeColours.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/MoreEyeColours/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/MoreEyeColours/MoreEyeColours.EXMODZ"
+            }
+        },
+        {
+            "name": "Hardcore Rebalance Pack",
+            "author": "AgentKush",
+            "version": "1.18",
+            "compatibility": "All",
+            "description": "For survivors who think Icarus is too easy. v1.18: NPC HP/damage now applied via D_AIGrowth per-creature, +150% HP and +75% melee to 114 hostile creatures. For the full hardcore experience, pair with Creature_Difficulty_Scaling (CDS) v2.2+ which adds level-500 zone scaling, per-player scaling rules, and tame/mount survival buffs. 1432 changes across 17 data tables + 2 blueprint overrides.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/Hardcore_Rebalance_Pack.EXMODZ",
+                "pak": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/Hardcore_Rebalance_Pack_P.pak"
+            }
+        },
+        {
+            "name": "Creature_Difficulty_Scaling",
+            "author": "AgentKush",
+            "version": "2.2",
+            "compatibility": "All",
+            "description": "Dynamic creature level scaling for level 500 cap. Scales all spawn zones up to level 500, buffs creature stats by tier, and adds player-level-based scaling rules. v2.2: Significant tame and mount HP/damage/resistance buffs so pets can stand up to high-level hostile creatures. Full DLC coverage (New Frontiers, Styx, Dread). Compatible with JimK72 Level Cap 500 mod.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Difficulty_Scaling.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/Creature_Difficulty_Scaling.EXMODZ"
+            }
+        },
+        {
+            "name": "Solar Panel Expansion",
+            "author": "AgentKush",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Adds all solar panels and Solar Backpack to a dedicated Solar Energy Workshop tab. Includes Solar Panel Kit, Flat Solar Panel Kit, and Solar Backpack Kit with fair pricing.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Solar_Panel_Expansion.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Solar_Panel_Expansion/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Solar_Panel_Expansion/Solar_Panel_Expansion.EXMODZ"
+            }
+        },
+        {
+            "name": "Agents Optimization Mod",
+            "author": "AgentKush",
+            "version": "2.2",
+            "compatibility": "All",
+            "description": "Comprehensive FPS optimization - PAK config overrides (foliage/shadow/fog/LOD reduction) plus data table changes (reduced spawns, slower hordes, extended decay, boosted fuel, weather tuning). 50 new weather events + 3 weather pools added. PAK + EXMODZ required.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Performance_Optimizer.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Performance_Optimizer.EXMODZ",
+                "pak": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Performance_Optimizer_P.pak"
+            }
+        },
+        {
+            "name": "Absolute Chaos - Core",
+            "author": "AgentKush",
+            "version": "0.2.1",
+            "compatibility": "All",
+            "description": "Base layer of the Absolute Chaos modpack. Overrides player Base_Stats with 76 chaos buffs (5000kg carry, 600 move speed, fall-damage immunity, zero survival drain, +900% XP and crafting) and zeros research/replication cost on all 335 workshop items. v0.2.1 drops the empty workshop tab and ships a banner.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/AbsoluteChaos_Core.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/AbsoluteChaos_Core/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/AbsoluteChaos_Core/AbsoluteChaos_Core.EXMODZ"
+            }
+        }
+    ]
 }

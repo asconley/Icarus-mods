@@ -1,6 +1,6 @@
 # Workshop Recyclers
 
-![Version](https://img.shields.io/badge/version-5.0-blue)
+![Version](https://img.shields.io/badge/version-5.1-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -32,9 +32,9 @@ Introduces two dedicated recycling machines that enable full material recovery f
 
 | Metric | Value |
 |--------|-------|
-| Total Recipes | 2,127 |
-| Workshop Items Recyclable | 317 |
-| Crafted Items Deconstructable | 1,808 |
+| Total Recipes | 2,285 |
+| Workshop Items Recyclable | 335 |
+| Crafted Items Deconstructable | 1,948 |
 
 ## Currency Returns
 
@@ -42,7 +42,7 @@ Workshop items return **100% of their original replication cost** as physical it
 
 | Workshop Currency | Returns As | Count |
 |-------------------|------------|-------|
-| Credits only | Ren | 177 |
+| Credits only | Ren | 195 |
 | Exotics (purple) only | Meta_Resource | 12 |
 | Credits + Exotics | Ren + Meta_Resource | 74 |
 | Red Exotics only | Exotic_Red | 15 |
@@ -79,9 +79,9 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 2,140 |
+| Total Modifications | 2,298 |
 | New Machines | 2 |
-| Recipe Entries | 2,127 |
+| Recipe Entries | 2,285 |
 
 ### Files Modified
 - `Crafting-D_RecipeSets.json` (2 entries)
@@ -90,7 +90,7 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 - `Items-D_ItemsStatic.json` (2 entries)
 - `Items-D_ItemTemplate.json` (2 entries)
 - `Talents-D_Talents.json` (2 entries)
-- `Crafting-D_ProcessorRecipes.json` (2,127 entries)
+- `Crafting-D_ProcessorRecipes.json` (2,285 entries)
 - `Traits-D_Durable.json` (1 entry)
 
 
@@ -117,15 +117,16 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 
 | Mod | Status |
 |-----|--------|
-| FastProcessing (v4.5+) | ✅ Full recipe support |
-| Agent's BioLab | ✅ Compatible |
-| Hidden Building Pieces | ✅ Compatible |
-| All AgentKush mods | ✅ Compatible |
+| FastProcessing (v4.5+) | Compatible |
+| Agent's BioLab | Compatible |
+| Hidden Building Pieces | Compatible |
+| All AgentKush mods | Compatible |
 
 ## Version History
 
 | Version | Changes |
 |---------|---------|
+| 5.1 | Added 158 new recipes: 6 mission items (Gyro, Navigation, Thruster, Enzyme Storage, High-Tech Assembled, Recombined Tech), 10 DLC items (Lava Hunter trophies, Homestead decor), 29 national flags, 18 missing workshop items (Carbon Armor Alpha/Beta, Larkwell White armor, Shengong hammers/sickles, Biolab inhalers, Inaris items, 9Diamonds Shield), 30 food recipes, 16 furniture/decor, 13 armor/equipment, 10 stations/deployables, 26 misc (fertility serums, saddles, platinum tools, building pieces). All Deconstruct recipes return 100% crafting materials. All 333 workshop items now covered. |
 | 5.0 | **Complete rebuild:** Fixed root cause of all currency outputs failing — processor recipes cannot output D_MetaCurrency, so all 317 workshop recycle recipes now output physical items (Ren, Meta_Resource, Exotic_Red, Biomass, Uranium_Rod) via D_ItemTemplate. Regenerated all 1,808 deconstruct recipes from current game data using ItemStaticData lookup. Removed 30 raw ore and pyritic crust deconstruct recipes, stripped ore/crust outputs from 33 more — deconstruction now stops at ingots and refined materials. All crafting times matched to base game. Zero broken references. |
 | 4.7 | Fixed MetaResource currency outputs, added 285 new Recycle_ recipes. |
 | 4.6 | Fixed 47 recipes to return correct exotic items. |
