@@ -219,6 +219,190 @@
           },
           "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"DeepOre_Node_Uranium-DisplayName\", \"Deep Ore Node: Uranium\")",
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"DeepOre_Node_Uranium-Description\", \"A deployable deep ore node that produces Uranium. Place anywhere and attach a Deep Mining Drill to extract resources.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Iron",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Iron"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Iron-DisplayName\", \"Deep Ore Node Kit: Iron\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Iron-Description\", \"Contains a deployable deep ore node that produces Iron. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Copper",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Copper"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Copper-DisplayName\", \"Deep Ore Node Kit: Copper\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Copper-Description\", \"Contains a deployable deep ore node that produces Copper. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Coal",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Coal"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Coal-DisplayName\", \"Deep Ore Node Kit: Coal\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Coal-Description\", \"Contains a deployable deep ore node that produces Coal. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Stone",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Stone"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Stone-DisplayName\", \"Deep Ore Node Kit: Stone\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Stone-Description\", \"Contains a deployable deep ore node that produces Stone. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Oxite",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Oxite"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Oxite-DisplayName\", \"Deep Ore Node Kit: Oxite\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Oxite-Description\", \"Contains a deployable deep ore node that produces Oxite. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Salt",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Salt"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Salt-DisplayName\", \"Deep Ore Node Kit: Salt\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Salt-Description\", \"Contains a deployable deep ore node that produces Salt. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Sulfur",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Sulfur"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Sulfur-DisplayName\", \"Deep Ore Node Kit: Sulfur\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Sulfur-Description\", \"Contains a deployable deep ore node that produces Sulfur. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Gold",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Gold"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Gold-DisplayName\", \"Deep Ore Node Kit: Gold\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Gold-Description\", \"Contains a deployable deep ore node that produces Gold. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Silicon",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Silicon"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Silicon-DisplayName\", \"Deep Ore Node Kit: Silicon\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Silicon-Description\", \"Contains a deployable deep ore node that produces Silicon. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Clay",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Clay"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Clay-DisplayName\", \"Deep Ore Node Kit: Clay\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Clay-Description\", \"Contains a deployable deep ore node that produces Clay. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Aluminium",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Aluminium"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Aluminium-DisplayName\", \"Deep Ore Node Kit: Aluminium\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Aluminium-Description\", \"Contains a deployable deep ore node that produces Aluminium. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Titanium",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Titanium"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Titanium-DisplayName\", \"Deep Ore Node Kit: Titanium\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Titanium-Description\", \"Contains a deployable deep ore node that produces Titanium. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Platinum",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Platinum"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Platinum-DisplayName\", \"Deep Ore Node Kit: Platinum\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Platinum-Description\", \"Contains a deployable deep ore node that produces Platinum. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Scoria",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Scoria"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Scoria-DisplayName\", \"Deep Ore Node Kit: Scoria\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Scoria-Description\", \"Contains a deployable deep ore node that produces Scoria. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Obsidian",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Obsidian"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Obsidian-DisplayName\", \"Deep Ore Node Kit: Obsidian\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Obsidian-Description\", \"Contains a deployable deep ore node that produces Obsidian. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Limestone",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Limestone"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Limestone-DisplayName\", \"Deep Ore Node Kit: Limestone\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Limestone-Description\", \"Contains a deployable deep ore node that produces Limestone. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Lithium",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Lithium"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Lithium-DisplayName\", \"Deep Ore Node Kit: Lithium\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Lithium-Description\", \"Contains a deployable deep ore node that produces Lithium. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Ruby",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Ruby"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Ruby-DisplayName\", \"Deep Ore Node Kit: Ruby\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Ruby-Description\", \"Contains a deployable deep ore node that produces Ruby. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Cobalt",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Cobalt"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Cobalt-DisplayName\", \"Deep Ore Node Kit: Cobalt\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Cobalt-Description\", \"Contains a deployable deep ore node that produces Cobalt. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Super_Cooled_Ice",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Super_Cooled_Ice"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Super_Cooled_Ice-DisplayName\", \"Deep Ore Node Kit: Super Cooled Ice\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Super_Cooled_Ice-Description\", \"Contains a deployable deep ore node that produces Super Cooled Ice. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Frozen_Wood",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Frozen_Wood"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Frozen_Wood-DisplayName\", \"Deep Ore Node Kit: Frozen Wood\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Frozen_Wood-Description\", \"Contains a deployable deep ore node that produces Frozen Wood. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Exotic_Red",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Exotic_Red"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Exotic_Red-DisplayName\", \"Deep Ore Node Kit: Red Exotic\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Exotic_Red-Description\", \"Contains a deployable deep ore node that produces Red Exotic. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Uranium",
+          "ItemStaticData": {
+            "RowName": "Kit_DeepOre_Node_Uranium"
+          },
+          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Uranium-DisplayName\", \"Deep Ore Node Kit: Uranium\")",
+          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_DeepOre_Node_Uranium-Description\", \"Contains a deployable deep ore node that produces Uranium. Open to receive the node, then place it and attach a Deep Mining Drill.\")"
         }
       ]
     },
@@ -362,6 +546,190 @@
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Uranium\", \"Deep Uranium Ore Node\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Node_Uranium-Desc\", \"A placeable deep ore deposit that provides an infinite source of uranium. Place on the ground and attach a deep mining drill to extract ore.\")",
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Uranium_Raw.T_ITEM_Uranium_Raw"
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Iron",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Iron-DisplayName\", \"Deep Ore Node Kit: Iron\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Iron-Description\", \"Kit contains 1x Deep Ore Node (Iron)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Iron-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Copper",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Copper-DisplayName\", \"Deep Ore Node Kit: Copper\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Copper-Description\", \"Kit contains 1x Deep Ore Node (Copper)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Copper-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Coal",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Coal-DisplayName\", \"Deep Ore Node Kit: Coal\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Coal-Description\", \"Kit contains 1x Deep Ore Node (Coal)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Coal-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Stone",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Stone-DisplayName\", \"Deep Ore Node Kit: Stone\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Stone-Description\", \"Kit contains 1x Deep Ore Node (Stone)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Stone-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Oxite",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Oxite-DisplayName\", \"Deep Ore Node Kit: Oxite\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Oxite-Description\", \"Kit contains 1x Deep Ore Node (Oxite)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Oxite-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Salt",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Salt-DisplayName\", \"Deep Ore Node Kit: Salt\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Salt-Description\", \"Kit contains 1x Deep Ore Node (Salt)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Salt-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Sulfur",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Sulfur-DisplayName\", \"Deep Ore Node Kit: Sulfur\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Sulfur-Description\", \"Kit contains 1x Deep Ore Node (Sulfur)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Sulfur-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Gold",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Gold-DisplayName\", \"Deep Ore Node Kit: Gold\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Gold-Description\", \"Kit contains 1x Deep Ore Node (Gold)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Gold-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Silicon",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Silicon-DisplayName\", \"Deep Ore Node Kit: Silicon\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Silicon-Description\", \"Kit contains 1x Deep Ore Node (Silicon)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Silicon-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Clay",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Clay-DisplayName\", \"Deep Ore Node Kit: Clay\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Clay-Description\", \"Kit contains 1x Deep Ore Node (Clay)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Clay-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Aluminium",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Aluminium-DisplayName\", \"Deep Ore Node Kit: Aluminium\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Aluminium-Description\", \"Kit contains 1x Deep Ore Node (Aluminium)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Aluminium-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Titanium",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Titanium-DisplayName\", \"Deep Ore Node Kit: Titanium\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Titanium-Description\", \"Kit contains 1x Deep Ore Node (Titanium)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Titanium-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Platinum",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Platinum-DisplayName\", \"Deep Ore Node Kit: Platinum\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Platinum-Description\", \"Kit contains 1x Deep Ore Node (Platinum)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Platinum-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Scoria",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Scoria-DisplayName\", \"Deep Ore Node Kit: Scoria\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Scoria-Description\", \"Kit contains 1x Deep Ore Node (Scoria)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Scoria-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Obsidian",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Obsidian-DisplayName\", \"Deep Ore Node Kit: Obsidian\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Obsidian-Description\", \"Kit contains 1x Deep Ore Node (Obsidian)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Obsidian-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Limestone",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Limestone-DisplayName\", \"Deep Ore Node Kit: Limestone\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Limestone-Description\", \"Kit contains 1x Deep Ore Node (Limestone)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Limestone-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Lithium",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Lithium-DisplayName\", \"Deep Ore Node Kit: Lithium\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Lithium-Description\", \"Kit contains 1x Deep Ore Node (Lithium)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Lithium-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Ruby",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Ruby-DisplayName\", \"Deep Ore Node Kit: Ruby\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Ruby-Description\", \"Kit contains 1x Deep Ore Node (Ruby)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Ruby-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Cobalt",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Cobalt-DisplayName\", \"Deep Ore Node Kit: Cobalt\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Cobalt-Description\", \"Kit contains 1x Deep Ore Node (Cobalt)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Cobalt-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Super_Cooled_Ice",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Super_Cooled_Ice-DisplayName\", \"Deep Ore Node Kit: Super Cooled Ice\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Super_Cooled_Ice-Description\", \"Kit contains 1x Deep Ore Node (Super Cooled Ice)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Super_Cooled_Ice-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Frozen_Wood",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Frozen_Wood-DisplayName\", \"Deep Ore Node Kit: Frozen Wood\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Frozen_Wood-Description\", \"Kit contains 1x Deep Ore Node (Frozen Wood)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Frozen_Wood-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Exotic_Red",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Exotic_Red-DisplayName\", \"Deep Ore Node Kit: Red Exotic\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Exotic_Red-Description\", \"Kit contains 1x Deep Ore Node (Red Exotic)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Exotic_Red-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
+        },
+        {
+          "Name": "Item_Kit_DeepOre_Node_Uranium",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Uranium-DisplayName\", \"Deep Ore Node Kit: Uranium\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Uranium-Description\", \"Kit contains 1x Deep Ore Node (Uranium)\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_DeepOre_Node_Uranium-FlavorText\", \"Deployable ore node kit\")",
+          "Weight": 500
         }
       ]
     },
@@ -1895,6 +2263,788 @@
               }
             ]
           }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Iron",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Iron"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Iron"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Copper",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Copper"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Copper"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Coal",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Coal"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Coal"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Stone",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Stone"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Stone"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Oxite",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Oxite"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Oxite"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Salt",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Salt"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Salt"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Sulfur",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Sulfur"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Sulfur"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Gold",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Gold"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Gold"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Silicon",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Silicon"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Silicon"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Clay",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Clay"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Clay"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Aluminium",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Aluminium"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Aluminium"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Titanium",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Titanium"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Titanium"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Platinum",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Platinum"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Platinum"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Scoria",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Scoria"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Scoria"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Obsidian",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Obsidian"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Obsidian"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Limestone",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Limestone"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Limestone"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Lithium",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Lithium"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Lithium"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Ruby",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Ruby"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Ruby"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Cobalt",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Cobalt"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Cobalt"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Super_Cooled_Ice",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Super_Cooled_Ice"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Super_Cooled_Ice"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Frozen_Wood",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Frozen_Wood"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Frozen_Wood"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Exotic_Red",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Exotic_Red"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Exotic_Red"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Uranium",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Kit_DeepOre_Node_Uranium"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Kit_DeepOre_Node_Uranium"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          }
         }
       ]
     },
@@ -1904,7 +3054,7 @@
         {
           "Name": "Meta_DeepOre_Node_Iron",
           "Item": {
-            "RowName": "DeepOre_Node_Iron"
+            "RowName": "Kit_DeepOre_Node_Iron"
           },
           "ResearchCost": [
             {
@@ -1928,7 +3078,7 @@
         {
           "Name": "Meta_DeepOre_Node_Copper",
           "Item": {
-            "RowName": "DeepOre_Node_Copper"
+            "RowName": "Kit_DeepOre_Node_Copper"
           },
           "ResearchCost": [
             {
@@ -1952,7 +3102,7 @@
         {
           "Name": "Meta_DeepOre_Node_Coal",
           "Item": {
-            "RowName": "DeepOre_Node_Coal"
+            "RowName": "Kit_DeepOre_Node_Coal"
           },
           "ResearchCost": [
             {
@@ -1976,7 +3126,7 @@
         {
           "Name": "Meta_DeepOre_Node_Stone",
           "Item": {
-            "RowName": "DeepOre_Node_Stone"
+            "RowName": "Kit_DeepOre_Node_Stone"
           },
           "ResearchCost": [
             {
@@ -2000,7 +3150,7 @@
         {
           "Name": "Meta_DeepOre_Node_Oxite",
           "Item": {
-            "RowName": "DeepOre_Node_Oxite"
+            "RowName": "Kit_DeepOre_Node_Oxite"
           },
           "ResearchCost": [
             {
@@ -2024,7 +3174,7 @@
         {
           "Name": "Meta_DeepOre_Node_Salt",
           "Item": {
-            "RowName": "DeepOre_Node_Salt"
+            "RowName": "Kit_DeepOre_Node_Salt"
           },
           "ResearchCost": [
             {
@@ -2048,7 +3198,7 @@
         {
           "Name": "Meta_DeepOre_Node_Sulfur",
           "Item": {
-            "RowName": "DeepOre_Node_Sulfur"
+            "RowName": "Kit_DeepOre_Node_Sulfur"
           },
           "ResearchCost": [
             {
@@ -2072,7 +3222,7 @@
         {
           "Name": "Meta_DeepOre_Node_Gold",
           "Item": {
-            "RowName": "DeepOre_Node_Gold"
+            "RowName": "Kit_DeepOre_Node_Gold"
           },
           "ResearchCost": [
             {
@@ -2096,7 +3246,7 @@
         {
           "Name": "Meta_DeepOre_Node_Silicon",
           "Item": {
-            "RowName": "DeepOre_Node_Silicon"
+            "RowName": "Kit_DeepOre_Node_Silicon"
           },
           "ResearchCost": [
             {
@@ -2120,7 +3270,7 @@
         {
           "Name": "Meta_DeepOre_Node_Clay",
           "Item": {
-            "RowName": "DeepOre_Node_Clay"
+            "RowName": "Kit_DeepOre_Node_Clay"
           },
           "ResearchCost": [
             {
@@ -2144,7 +3294,7 @@
         {
           "Name": "Meta_DeepOre_Node_Aluminium",
           "Item": {
-            "RowName": "DeepOre_Node_Aluminium"
+            "RowName": "Kit_DeepOre_Node_Aluminium"
           },
           "ResearchCost": [
             {
@@ -2168,7 +3318,7 @@
         {
           "Name": "Meta_DeepOre_Node_Titanium",
           "Item": {
-            "RowName": "DeepOre_Node_Titanium"
+            "RowName": "Kit_DeepOre_Node_Titanium"
           },
           "ResearchCost": [
             {
@@ -2192,7 +3342,7 @@
         {
           "Name": "Meta_DeepOre_Node_Platinum",
           "Item": {
-            "RowName": "DeepOre_Node_Platinum"
+            "RowName": "Kit_DeepOre_Node_Platinum"
           },
           "ResearchCost": [
             {
@@ -2216,7 +3366,7 @@
         {
           "Name": "Meta_DeepOre_Node_Scoria",
           "Item": {
-            "RowName": "DeepOre_Node_Scoria"
+            "RowName": "Kit_DeepOre_Node_Scoria"
           },
           "ResearchCost": [
             {
@@ -2240,7 +3390,7 @@
         {
           "Name": "Meta_DeepOre_Node_Obsidian",
           "Item": {
-            "RowName": "DeepOre_Node_Obsidian"
+            "RowName": "Kit_DeepOre_Node_Obsidian"
           },
           "ResearchCost": [
             {
@@ -2264,7 +3414,7 @@
         {
           "Name": "Meta_DeepOre_Node_Limestone",
           "Item": {
-            "RowName": "DeepOre_Node_Limestone"
+            "RowName": "Kit_DeepOre_Node_Limestone"
           },
           "ResearchCost": [
             {
@@ -2288,7 +3438,7 @@
         {
           "Name": "Meta_DeepOre_Node_Lithium",
           "Item": {
-            "RowName": "DeepOre_Node_Lithium"
+            "RowName": "Kit_DeepOre_Node_Lithium"
           },
           "ResearchCost": [
             {
@@ -2312,7 +3462,7 @@
         {
           "Name": "Meta_DeepOre_Node_Ruby",
           "Item": {
-            "RowName": "DeepOre_Node_Ruby"
+            "RowName": "Kit_DeepOre_Node_Ruby"
           },
           "ResearchCost": [
             {
@@ -2336,7 +3486,7 @@
         {
           "Name": "Meta_DeepOre_Node_Cobalt",
           "Item": {
-            "RowName": "DeepOre_Node_Cobalt"
+            "RowName": "Kit_DeepOre_Node_Cobalt"
           },
           "ResearchCost": [
             {
@@ -2360,7 +3510,7 @@
         {
           "Name": "Meta_DeepOre_Node_Super_Cooled_Ice",
           "Item": {
-            "RowName": "DeepOre_Node_Super_Cooled_Ice"
+            "RowName": "Kit_DeepOre_Node_Super_Cooled_Ice"
           },
           "ResearchCost": [
             {
@@ -2384,7 +3534,7 @@
         {
           "Name": "Meta_DeepOre_Node_Frozen_Wood",
           "Item": {
-            "RowName": "DeepOre_Node_Frozen_Wood"
+            "RowName": "Kit_DeepOre_Node_Frozen_Wood"
           },
           "ResearchCost": [
             {
@@ -2408,7 +3558,7 @@
         {
           "Name": "Meta_DeepOre_Node_Exotic_Red",
           "Item": {
-            "RowName": "DeepOre_Node_Exotic_Red"
+            "RowName": "Kit_DeepOre_Node_Exotic_Red"
           },
           "ResearchCost": [
             {
@@ -2432,7 +3582,7 @@
         {
           "Name": "Meta_DeepOre_Node_Uranium",
           "Item": {
-            "RowName": "DeepOre_Node_Uranium"
+            "RowName": "Kit_DeepOre_Node_Uranium"
           },
           "ResearchCost": [
             {
@@ -3957,6 +5107,287 @@
           "Audio": {
             "RowName": "MachiningBench"
           }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Traits-D_Consumable.json",
+      "File_Items": [
+        {
+          "Name": "Kit_DeepOre_Node_Iron",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Iron",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Copper",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Copper",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Coal",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Coal",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Stone",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Stone",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Oxite",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Oxite",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Salt",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Salt",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Sulfur",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Sulfur",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Gold",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Gold",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Silicon",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Silicon",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Clay",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Clay",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Aluminium",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Aluminium",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Titanium",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Titanium",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Platinum",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Platinum",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Scoria",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Scoria",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Obsidian",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Obsidian",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Limestone",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Limestone",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Lithium",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Lithium",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Ruby",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Ruby",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Cobalt",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Cobalt",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Super_Cooled_Ice",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Super_Cooled_Ice",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Frozen_Wood",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Frozen_Wood",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Exotic_Red",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Exotic_Red",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Kit_DeepOre_Node_Uranium",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "DeepOre_Node_Uranium",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
         }
       ]
     }
