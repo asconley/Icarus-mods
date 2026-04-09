@@ -440,7 +440,7 @@
             "author": "AgentKush",
             "version": "1.0",
             "compatibility": "All",
-            "description": "Place infinite deep ore deposits anywhere on any map. 23 ore types as deployable items via Workshop and Fabricator crafting. Hybrid PAK + EXMOD mod - requires Blueprint assets for ore deposit actors.",
+            "description": "Place infinite deep ore deposits anywhere on any map. 23 ore types as deployable kit items via Workshop, plus Fabricator crafting. Kit system ensures items survive dropship landing. Includes Blueprint assets.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Deployable_Deep_Ore_Nodes.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Deployable_Deep_Ore_Nodes/README.md",
             "files": {
