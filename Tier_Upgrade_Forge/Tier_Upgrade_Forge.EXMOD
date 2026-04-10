@@ -55,7 +55,7 @@
             {
               "Element": {
                 "RowName": "Metal_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -110,7 +110,7 @@
             {
               "Element": {
                 "RowName": "Steel_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -161,7 +161,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -208,7 +208,7 @@
             {
               "Element": {
                 "RowName": "Titanium_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -263,7 +263,7 @@
             {
               "Element": {
                 "RowName": "Metal_Axe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -318,7 +318,7 @@
             {
               "Element": {
                 "RowName": "Steel_Axe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -369,7 +369,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Axe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -416,7 +416,7 @@
             {
               "Element": {
                 "RowName": "Titanium_Axe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -471,7 +471,7 @@
             {
               "Element": {
                 "RowName": "Metal_Knife",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -526,7 +526,7 @@
             {
               "Element": {
                 "RowName": "Steel_Knife",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -577,7 +577,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Knife",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -624,7 +624,7 @@
             {
               "Element": {
                 "RowName": "Titanium_Knife",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -679,7 +679,7 @@
             {
               "Element": {
                 "RowName": "Recurve_Bow",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -734,7 +734,7 @@
             {
               "Element": {
                 "RowName": "Longbow",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -785,7 +785,7 @@
             {
               "Element": {
                 "RowName": "Compound_Bow",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -836,7 +836,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Crossbow",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -883,7 +883,7 @@
             {
               "Element": {
                 "RowName": "Titanium_Crossbow",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -931,7 +931,7 @@
             {
               "Element": {
                 "RowName": "Obsidian_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -979,7 +979,7 @@
             {
               "Element": {
                 "RowName": "Obsidian_Axe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -1027,7 +1027,7 @@
             {
               "Element": {
                 "RowName": "Obsidian_Knife",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -1071,7 +1071,7 @@
             {
               "Element": {
                 "RowName": "Cold_Steel_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -1115,7 +1115,7 @@
             {
               "Element": {
                 "RowName": "Cold_Steel_Axe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -1159,7 +1159,7 @@
             {
               "Element": {
                 "RowName": "Cold_Steel_Knife",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -1199,7 +1199,7 @@
             {
               "Element": {
                 "RowName": "Iron_Wood_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -1239,7 +1239,7 @@
             {
               "Element": {
                 "RowName": "Iron_Wood_Axe",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -1279,7 +1279,7 @@
             {
               "Element": {
                 "RowName": "Iron_Wood_Knife",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],

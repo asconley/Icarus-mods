@@ -124,7 +124,7 @@
             {
               "Element": {
                 "RowName": "NightVision",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],

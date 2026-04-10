@@ -4316,7 +4316,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Iron",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4363,7 +4363,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Copper",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4410,7 +4410,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Coal",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4457,7 +4457,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Stone",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4504,7 +4504,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Oxite",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4551,7 +4551,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Salt",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4598,7 +4598,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Sulfur",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4645,7 +4645,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Gold",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4692,7 +4692,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Silicon",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4739,7 +4739,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Clay",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4786,7 +4786,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Aluminium",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4833,7 +4833,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Titanium",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4880,7 +4880,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Platinum",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4927,7 +4927,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Scoria",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -4974,7 +4974,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Obsidian",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -5021,7 +5021,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Limestone",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -5068,7 +5068,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Lithium",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -5115,7 +5115,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Ruby",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -5162,7 +5162,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Cobalt",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -5209,7 +5209,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Super_Cooled_Ice",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -5256,7 +5256,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Frozen_Wood",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -5303,7 +5303,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Exotic_Red",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -5350,7 +5350,7 @@
             {
               "Element": {
                 "RowName": "DeepOre_Node_Uranium",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],

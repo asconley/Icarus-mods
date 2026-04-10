@@ -2778,7 +2778,7 @@
             {
               "Element": {
                 "RowName": "Turret_Crossbow",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -2833,7 +2833,7 @@
             {
               "Element": {
                 "RowName": "Turret_Bow",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -2888,7 +2888,7 @@
             {
               "Element": {
                 "RowName": "Turret_Sniper",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -2943,7 +2943,7 @@
             {
               "Element": {
                 "RowName": "Turret_AssaultRifle",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -2998,7 +2998,7 @@
             {
               "Element": {
                 "RowName": "Turret_SMG",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -3053,7 +3053,7 @@
             {
               "Element": {
                 "RowName": "Turret_Javelin",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -3108,7 +3108,7 @@
             {
               "Element": {
                 "RowName": "Turret_Flamethrower",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -3163,7 +3163,7 @@
             {
               "Element": {
                 "RowName": "Turret_Rock",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -3218,7 +3218,7 @@
             {
               "Element": {
                 "RowName": "Turret_Minigun",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -3273,7 +3273,7 @@
             {
               "Element": {
                 "RowName": "Turret_Rifle",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -3328,7 +3328,7 @@
             {
               "Element": {
                 "RowName": "Turret_Pistol_Custom",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -3383,7 +3383,7 @@
             {
               "Element": {
                 "RowName": "Turret_Shotblaster",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -3438,7 +3438,7 @@
             {
               "Element": {
                 "RowName": "Turret_RapidCrossbow",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -3493,7 +3493,7 @@
             {
               "Element": {
                 "RowName": "Turret_Storm",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -3548,7 +3548,7 @@
             {
               "Element": {
                 "RowName": "Turret_HeavySniper",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }

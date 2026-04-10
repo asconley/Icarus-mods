@@ -47,7 +47,7 @@
             {
               "Element": {
                 "RowName": "Fortification_Wood_Spikes",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -94,7 +94,7 @@
             {
               "Element": {
                 "RowName": "Fortification_Wood_Wall",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -141,7 +141,7 @@
             {
               "Element": {
                 "RowName": "Fortification_Wood_Gate",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -181,7 +181,7 @@
             {
               "Element": {
                 "RowName": "Fortification_Wood_Walkway",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -229,7 +229,7 @@
             {
               "Element": {
                 "RowName": "Fortification_Wood_Spikes",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 3,
               "DynamicProperties": [],
@@ -276,7 +276,7 @@
             {
               "Element": {
                 "RowName": "Snare_Trap",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -331,7 +331,7 @@
             {
               "Element": {
                 "RowName": "Scorpion_Trap_Medium",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -389,7 +389,7 @@
             {
               "Element": {
                 "RowName": "Snare_Trap",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -440,7 +440,7 @@
             {
               "Element": {
                 "RowName": "Landmine",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -494,7 +494,7 @@
             {
               "Element": {
                 "RowName": "Landmine",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 3,
               "DynamicProperties": [],
@@ -541,7 +541,7 @@
             {
               "Element": {
                 "RowName": "Landmine_Poison",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -588,7 +588,7 @@
             {
               "Element": {
                 "RowName": "Landmine_Burn",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -635,7 +635,7 @@
             {
               "Element": {
                 "RowName": "Landmine_Shock",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -682,7 +682,7 @@
             {
               "Element": {
                 "RowName": "Landmine_Freeze",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -736,7 +736,7 @@
             {
               "Element": {
                 "RowName": "Landmine_Poison",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -790,7 +790,7 @@
             {
               "Element": {
                 "RowName": "Landmine_Burn",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -844,7 +844,7 @@
             {
               "Element": {
                 "RowName": "Landmine_Shock",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -898,7 +898,7 @@
             {
               "Element": {
                 "RowName": "Landmine_Freeze",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -956,7 +956,7 @@
             {
               "Element": {
                 "RowName": "Black_Wolf_Trap",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -1010,7 +1010,7 @@
             {
               "Element": {
                 "RowName": "IceMammoth_Trap",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -1064,7 +1064,7 @@
             {
               "Element": {
                 "RowName": "Lava_Hunter_Mine",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -1115,7 +1115,7 @@
             {
               "Element": {
                 "RowName": "Fortification_Wood_Spikes",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1176,7 +1176,7 @@
             {
               "Element": {
                 "RowName": "Landmine",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 5,
               "DynamicProperties": [],
