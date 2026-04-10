@@ -455,7 +455,7 @@
             {
               "Element": {
                 "RowName": "Biofuel_Recycler",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -523,7 +523,7 @@
             {
               "Element": {
                 "RowName": "Organic_Recycler",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -27547,7 +27547,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -32132,7 +32132,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -37122,7 +37122,7 @@
             {
               "Element": {
                 "RowName": "AnimalCarcass_Deer",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -41880,7 +41880,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -43286,7 +43286,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 150,
               "DynamicProperties": [],
@@ -46079,7 +46079,7 @@
             {
               "Element": {
                 "RowName": "Saddle_Standard",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -46197,7 +46197,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 30,
               "DynamicProperties": [],
@@ -46270,7 +46270,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 30,
               "DynamicProperties": [],
@@ -52202,7 +52202,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -53108,7 +53108,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -53154,7 +53154,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -53209,7 +53209,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -65797,7 +65797,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -67552,7 +67552,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 16,
               "DynamicProperties": [],
@@ -68989,7 +68989,7 @@
             {
               "Element": {
                 "RowName": "Saddle_Standard",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -69071,7 +69071,7 @@
             {
               "Element": {
                 "RowName": "Saddle_Standard",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -69153,7 +69153,7 @@
             {
               "Element": {
                 "RowName": "Saddle_Standard",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -74129,7 +74129,7 @@
             {
               "Element": {
                 "RowName": "AnimalCarcass_Deer",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -77436,7 +77436,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -82029,7 +82029,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -83932,7 +83932,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 15,
               "DynamicProperties": [],
@@ -86939,7 +86939,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -90035,7 +90035,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shealth",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -104769,7 +104769,7 @@
             {
               "Element": {
                 "RowName": "AnimalCarcass_WildBoar",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -104843,7 +104843,7 @@
             {
               "Element": {
                 "RowName": "AnimalCarcass_BabyDeer",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -104880,7 +104880,7 @@
             {
               "Element": {
                 "RowName": "AnimalCarcass_Deer",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],
