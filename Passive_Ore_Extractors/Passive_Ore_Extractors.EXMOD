@@ -435,6 +435,361 @@
             ]
         },
         {
+            "CurrentFile": "Traits-D_Deployable.json",
+            "File_Items": [
+                {
+                    "Name": "Passive_Miner_Metal_Ore",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Metal_Ore",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Copper_Ore",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Copper_Ore",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Coal_Ore",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Coal_Ore",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Stone",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Stone",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Oxite",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Oxite",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Salt",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Salt",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Sulfur",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Sulfur",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Gold_Ore",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Gold_Ore",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Silica",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Silica",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Clay",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Clay",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Aluminium",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Aluminium",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Titanium_Ore",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Titanium_Ore",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Platinum_Ore",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Platinum_Ore",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Scoria",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Scoria",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Obsidian",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Obsidian",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Limestone",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Limestone",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Lithium_Ore",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Lithium_Ore",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Ruby_Ore",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Ruby_Ore",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Cobalt_Ore",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Cobalt_Ore",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Super_Cooled_Ice",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Super_Cooled_Ice",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Frozen_Wood",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Frozen_Wood",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Exotic_Red",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Exotic_Red",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Passive_Miner_Uranium_Raw",
+                    "Variants": [
+                        {
+                            "RowName": "Passive_Miner_Uranium_Raw",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Deployables-D_DeployableSetup.json",
+            "File_Items": [
+                {
+                    "Name": "Passive_Miner_Metal_Ore",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Metal_Ore.BP_PassiveMiner_Metal_Ore_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Copper_Ore",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Copper_Ore.BP_PassiveMiner_Copper_Ore_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Coal_Ore",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Coal_Ore.BP_PassiveMiner_Coal_Ore_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Stone",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Stone.BP_PassiveMiner_Stone_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Oxite",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Oxite.BP_PassiveMiner_Oxite_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Salt",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Salt.BP_PassiveMiner_Salt_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Sulfur",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Sulfur.BP_PassiveMiner_Sulfur_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Gold_Ore",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Gold_Ore.BP_PassiveMiner_Gold_Ore_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Silica",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Silica.BP_PassiveMiner_Silica_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Clay",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Clay.BP_PassiveMiner_Clay_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Aluminium",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Aluminium.BP_PassiveMiner_Aluminium_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Titanium_Ore",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Titanium_Ore.BP_PassiveMiner_Titanium_Ore_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Platinum_Ore",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Platinum_Ore.BP_PassiveMiner_Platinum_Ore_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Scoria",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Scoria.BP_PassiveMiner_Scoria_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Obsidian",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Obsidian.BP_PassiveMiner_Obsidian_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Limestone",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Limestone.BP_PassiveMiner_Limestone_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Lithium_Ore",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Lithium_Ore.BP_PassiveMiner_Lithium_Ore_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Ruby_Ore",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Ruby_Ore.BP_PassiveMiner_Ruby_Ore_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Cobalt_Ore",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Cobalt_Ore.BP_PassiveMiner_Cobalt_Ore_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Super_Cooled_Ice",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Super_Cooled_Ice.BP_PassiveMiner_Super_Cooled_Ice_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Frozen_Wood",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Frozen_Wood.BP_PassiveMiner_Frozen_Wood_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Exotic_Red",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Exotic_Red.BP_PassiveMiner_Exotic_Red_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                },
+                {
+                    "Name": "Passive_Miner_Uranium_Raw",
+                    "DeployableBlueprint": "/Game/Mods/PassiveMiners/BP_PassiveMiner_Uranium_Raw.BP_PassiveMiner_Uranium_Raw_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                }
+            ]
+        },
+        {
             "CurrentFile": "Traits-D_Itemable.json",
             "File_Items": [
                 {
@@ -1161,7 +1516,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Metal_Ore"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -1300,7 +1655,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Copper_Ore"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -1439,7 +1794,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Coal_Ore"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -1578,7 +1933,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Stone"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -1717,7 +2072,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Oxite"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -1856,7 +2211,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Salt"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -1995,7 +2350,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Sulfur"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -2134,7 +2489,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Gold_Ore"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -2273,7 +2628,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Silica"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -2412,7 +2767,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Clay"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -2551,7 +2906,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Aluminium"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -2690,7 +3045,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Titanium_Ore"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -2829,7 +3184,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Platinum_Ore"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -2968,7 +3323,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Scoria"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -3107,7 +3462,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Obsidian"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -3246,7 +3601,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Limestone"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -3385,7 +3740,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Lithium_Ore"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -3524,7 +3879,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Ruby_Ore"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -3663,7 +4018,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Cobalt_Ore"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -3802,7 +4157,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Super_Cooled_Ice"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -3941,7 +4296,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Frozen_Wood"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -4080,7 +4435,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Exotic_Red"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -4219,7 +4574,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Exotic_Processor"
+                        "RowName": "Passive_Miner_Uranium_Raw"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
