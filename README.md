@@ -27,7 +27,7 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 |-----|:---:|-------------|
 | [🧬 Agent's BioLab](Agents_BioLab) | `2.0` | All 11 Bio Lab Legendary weapons in the Workshop — includes Sandwyrm Chainsaw |
 | [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `3.1` | 2,052 individual item kits with fair pricing (5–300 credits) |
-| [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.1` | 2 recycling machines · 2,285 recipes · Returns processed materials (ingots, refined) — no raw ores or pyritic crusts |
+| [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.2` | 2 recycling machines · 2,285 recipes · Returns processed materials (ingots, refined) — no raw ores or pyritic crusts |
 | [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.2` | 10 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |
 | [👁️ Night Vision Goggles](NightVisionGoggles) | `2.0` | Unlocks hidden NV system — craft at Fabricator/Manufacturer/Machining Bench. No decay, durable, lightweight |
 | [☀️ Solar Panel Expansion](Solar_Panel_Expansion) | `1.0` | All solar panels and solar backpack in a dedicated Workshop tab with fair pricing |
