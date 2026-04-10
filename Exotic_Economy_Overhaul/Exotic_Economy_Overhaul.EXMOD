@@ -1102,7 +1102,7 @@
             {
               "Element": {
                 "RowName": "Condensed_Exotics",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 5,
               "DynamicProperties": [],

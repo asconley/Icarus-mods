@@ -1013,7 +1013,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1096,7 +1096,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1142,7 +1142,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1188,7 +1188,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1234,7 +1234,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1280,7 +1280,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1326,7 +1326,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1372,7 +1372,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1492,7 +1492,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -1612,7 +1612,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -1658,7 +1658,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -1778,7 +1778,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -1824,7 +1824,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -1981,7 +1981,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -2175,7 +2175,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -2887,7 +2887,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 25,
               "DynamicProperties": [],
@@ -3007,7 +3007,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 25,
               "DynamicProperties": [],
@@ -3127,7 +3127,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 25,
               "DynamicProperties": [],
@@ -3247,7 +3247,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 25,
               "DynamicProperties": [],
@@ -3293,7 +3293,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -3635,7 +3635,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -3681,7 +3681,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -4060,7 +4060,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -4106,7 +4106,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -4143,7 +4143,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 400,
               "DynamicProperties": [],
@@ -4180,7 +4180,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 400,
               "DynamicProperties": [],
@@ -4217,7 +4217,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 400,
               "DynamicProperties": [],
@@ -4254,7 +4254,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 400,
               "DynamicProperties": [],
@@ -4661,7 +4661,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 400,
               "DynamicProperties": [],
@@ -4698,7 +4698,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 400,
               "DynamicProperties": [],
@@ -4772,7 +4772,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 400,
               "DynamicProperties": [],
@@ -4809,7 +4809,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 400,
               "DynamicProperties": [],
@@ -4929,7 +4929,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -4975,7 +4975,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -5049,7 +5049,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 500,
               "DynamicProperties": [],
@@ -5086,7 +5086,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 400,
               "DynamicProperties": [],
@@ -5206,7 +5206,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -5289,7 +5289,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -7838,7 +7838,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 75,
               "DynamicProperties": [],
@@ -7884,7 +7884,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 75,
               "DynamicProperties": [],
@@ -7930,7 +7930,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 75,
               "DynamicProperties": [],
@@ -7976,7 +7976,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 75,
               "DynamicProperties": [],
@@ -8022,7 +8022,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 75,
               "DynamicProperties": [],
@@ -8068,7 +8068,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -8114,7 +8114,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -8160,7 +8160,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -8206,7 +8206,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -8252,7 +8252,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -8298,7 +8298,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -8344,7 +8344,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 75,
               "DynamicProperties": [],
@@ -8390,7 +8390,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 75,
               "DynamicProperties": [],
@@ -8436,7 +8436,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 75,
               "DynamicProperties": [],
@@ -8482,7 +8482,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 75,
               "DynamicProperties": [],
@@ -8528,7 +8528,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 75,
               "DynamicProperties": [],
@@ -8565,7 +8565,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 400,
               "DynamicProperties": [],
@@ -8777,7 +8777,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -8897,7 +8897,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -9017,7 +9017,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -9063,7 +9063,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -9775,7 +9775,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -9821,7 +9821,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -9867,7 +9867,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -9913,7 +9913,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -9959,7 +9959,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -10005,7 +10005,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -10051,7 +10051,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -10097,7 +10097,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -10143,7 +10143,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -10189,7 +10189,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -10235,7 +10235,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -10281,7 +10281,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -12469,7 +12469,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource_Pack_Ruby",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -12515,7 +12515,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource_Pack_Uranium_Rod",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -12552,7 +12552,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource_Pack_Ren",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -30297,7 +30297,7 @@
             {
               "Element": {
                 "RowName": "Faction_Mission_Tech1",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -30306,7 +30306,7 @@
             {
               "Element": {
                 "RowName": "Faction_Mission_Tech2",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -30315,7 +30315,7 @@
             {
               "Element": {
                 "RowName": "Faction_Mission_Tech3",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -30389,7 +30389,7 @@
             {
               "Element": {
                 "RowName": "Mission_High_Tech_1",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -30398,7 +30398,7 @@
             {
               "Element": {
                 "RowName": "Mission_High_Tech_2",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -30407,7 +30407,7 @@
             {
               "Element": {
                 "RowName": "Mission_High_Tech_3",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -32663,7 +32663,7 @@
             {
               "Element": {
                 "RowName": "Mission_Thruster_Part",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -32718,7 +32718,7 @@
             {
               "Element": {
                 "RowName": "Mission_Navigation_Part",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -34719,7 +34719,7 @@
             {
               "Element": {
                 "RowName": "Mission_Gyro_Broken",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -37021,7 +37021,7 @@
             {
               "Element": {
                 "RowName": "Mission_Empty_Enzyme_Storage",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -39514,7 +39514,7 @@
             {
               "Element": {
                 "RowName": "Feet_Hands_Attachment_Fall_Resistance_1",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -60340,7 +60340,7 @@
             {
               "Element": {
                 "RowName": "Rabbit_Variant_Head",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1,
               "DynamicProperties": [],
@@ -110824,7 +110824,7 @@
             {
               "Element": {
                 "RowName": "Advanced_Kitchen_Corner",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -110897,7 +110897,7 @@
             {
               "Element": {
                 "RowName": "AlphaWolf_Trophy",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -110934,7 +110934,7 @@
             {
               "Element": {
                 "RowName": "Animal_Feed",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -110980,7 +110980,7 @@
             {
               "Element": {
                 "RowName": "Animal_Feed_High_Quality",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111017,7 +111017,7 @@
             {
               "Element": {
                 "RowName": "Anitparasitic_Pill",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111155,7 +111155,7 @@
             {
               "Element": {
                 "RowName": "Bacon_Sandwhich",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111192,7 +111192,7 @@
             {
               "Element": {
                 "RowName": "Berry_Bar",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111238,7 +111238,7 @@
             {
               "Element": {
                 "RowName": "Brownbear_Head",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111293,7 +111293,7 @@
             {
               "Element": {
                 "RowName": "Brutalist_Candles",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111339,7 +111339,7 @@
             {
               "Element": {
                 "RowName": "Bullseye_Target",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111403,7 +111403,7 @@
             {
               "Element": {
                 "RowName": "Carved_Chair_2Seater",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111458,7 +111458,7 @@
             {
               "Element": {
                 "RowName": "Carved_Chair_3Seater",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111513,7 +111513,7 @@
             {
               "Element": {
                 "RowName": "Claybrick_Trapdoor",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111559,7 +111559,7 @@
             {
               "Element": {
                 "RowName": "Corn_Soup",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111596,7 +111596,7 @@
             {
               "Element": {
                 "RowName": "Creamed_Corn",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111642,7 +111642,7 @@
             {
               "Element": {
                 "RowName": "Crude_Oil_Power_Generator",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111761,7 +111761,7 @@
             {
               "Element": {
                 "RowName": "Electric_Armour_Bench",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111825,7 +111825,7 @@
             {
               "Element": {
                 "RowName": "Faction_Mission_RecombinedTech",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111862,7 +111862,7 @@
             {
               "Element": {
                 "RowName": "Fatty_TBone",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111899,7 +111899,7 @@
             {
               "Element": {
                 "RowName": "Fatty_TBone_Cooked",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111936,7 +111936,7 @@
             {
               "Element": {
                 "RowName": "Fatty_TBone_Dried",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -111973,7 +111973,7 @@
             {
               "Element": {
                 "RowName": "Feet_Hands_Attachment_Fall_Resistance_1",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -112028,7 +112028,7 @@
             {
               "Element": {
                 "RowName": "Feet_Hands_Attachment_Fall_Resistance_2",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -112379,7 +112379,7 @@
             {
               "Element": {
                 "RowName": "Firepit",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -112425,7 +112425,7 @@
             {
               "Element": {
                 "RowName": "Fried_Soy_Beans",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -112480,7 +112480,7 @@
             {
               "Element": {
                 "RowName": "Fruit_Pie",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -112526,7 +112526,7 @@
             {
               "Element": {
                 "RowName": "Fruit_Salad",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -112572,7 +112572,7 @@
             {
               "Element": {
                 "RowName": "Grilled_Freshwater_Fillet",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -112609,7 +112609,7 @@
             {
               "Element": {
                 "RowName": "Grilled_Saltwater_Fillet",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -112646,7 +112646,7 @@
             {
               "Element": {
                 "RowName": "Hearty_Salad",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -112692,7 +112692,7 @@
             {
               "Element": {
                 "RowName": "Heavy_Glass_Window",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -112747,7 +112747,7 @@
             {
               "Element": {
                 "RowName": "Homestead_Birdbath_Gold",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -112784,7 +112784,7 @@
             {
               "Element": {
                 "RowName": "Homestead_Birdbath_Iron",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113097,7 +113097,7 @@
             {
               "Element": {
                 "RowName": "Honey_Bar",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113134,7 +113134,7 @@
             {
               "Element": {
                 "RowName": "Kit_Water_Pump",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113198,7 +113198,7 @@
             {
               "Element": {
                 "RowName": "Kitchen_Corner",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113262,7 +113262,7 @@
             {
               "Element": {
                 "RowName": "Lava_Hunter_Trophy_Chair",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113326,7 +113326,7 @@
             {
               "Element": {
                 "RowName": "Lava_Hunter_Trophy_Feature",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113390,7 +113390,7 @@
             {
               "Element": {
                 "RowName": "Lightning_Rod_Platnium",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113445,7 +113445,7 @@
             {
               "Element": {
                 "RowName": "Meat_Pie",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113491,7 +113491,7 @@
             {
               "Element": {
                 "RowName": "Meat_Stew",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113537,7 +113537,7 @@
             {
               "Element": {
                 "RowName": "Medicine_Bag",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113592,7 +113592,7 @@
             {
               "Element": {
                 "RowName": "Metal_Candles",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113647,7 +113647,7 @@
             {
               "Element": {
                 "RowName": "Metal_Metal_Bed",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113702,7 +113702,7 @@
             {
               "Element": {
                 "RowName": "Metal_Metal_Bookshelf",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113748,7 +113748,7 @@
             {
               "Element": {
                 "RowName": "Metal_Metal_CoffeeTable",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113803,7 +113803,7 @@
             {
               "Element": {
                 "RowName": "Metal_Metal_Lamp",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113858,7 +113858,7 @@
             {
               "Element": {
                 "RowName": "Metal_Metal_Nightstand",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113913,7 +113913,7 @@
             {
               "Element": {
                 "RowName": "Metal_Metal_Stool",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -113959,7 +113959,7 @@
             {
               "Element": {
                 "RowName": "Metal_Table",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114005,7 +114005,7 @@
             {
               "Element": {
                 "RowName": "Mission_Full_Enzyme_Storage",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114042,7 +114042,7 @@
             {
               "Element": {
                 "RowName": "Mission_Gyro",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114088,7 +114088,7 @@
             {
               "Element": {
                 "RowName": "Mission_High_Tech_Assembled",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114125,7 +114125,7 @@
             {
               "Element": {
                 "RowName": "Mission_Navigation",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114171,7 +114171,7 @@
             {
               "Element": {
                 "RowName": "Mission_Thruster",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114217,7 +114217,7 @@
             {
               "Element": {
                 "RowName": "Mushroom_Soup",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114254,7 +114254,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Australia",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114300,7 +114300,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Belgium",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114346,7 +114346,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Brazil",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114392,7 +114392,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Canada",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114438,7 +114438,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_China",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114484,7 +114484,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Czech",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114530,7 +114530,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Denmark",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114576,7 +114576,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_EuropeanUnion",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114622,7 +114622,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Finland",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114668,7 +114668,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_France",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114714,7 +114714,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Germany",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114760,7 +114760,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Hungry",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114806,7 +114806,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Italy",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114852,7 +114852,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Japan",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114898,7 +114898,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Netherlands",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114944,7 +114944,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_NewZealand",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -114990,7 +114990,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Norway",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115036,7 +115036,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Romania",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115082,7 +115082,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Russia",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115128,7 +115128,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_SouthAfrica",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115174,7 +115174,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_SouthKorea",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115220,7 +115220,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Spain",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115266,7 +115266,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Sweden",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115312,7 +115312,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Switzerland",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115358,7 +115358,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Taiwan",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115404,7 +115404,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Turkey",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115450,7 +115450,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_Ukarine",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115496,7 +115496,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_UnitedKingdom",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115542,7 +115542,7 @@
             {
               "Element": {
                 "RowName": "NationalFlag_UnitedStates",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115588,7 +115588,7 @@
             {
               "Element": {
                 "RowName": "Pickled_Carrot",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115643,7 +115643,7 @@
             {
               "Element": {
                 "RowName": "Pickled_Tomato",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115698,7 +115698,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Sheath",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115735,7 +115735,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Shovel",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115781,7 +115781,7 @@
             {
               "Element": {
                 "RowName": "Polarbear_Arm_Armor",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115845,7 +115845,7 @@
             {
               "Element": {
                 "RowName": "Polarbear_Chest_Armor",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115909,7 +115909,7 @@
             {
               "Element": {
                 "RowName": "Polarbear_Feet_Armor",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -115973,7 +115973,7 @@
             {
               "Element": {
                 "RowName": "Polarbear_Head_Armor",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116028,7 +116028,7 @@
             {
               "Element": {
                 "RowName": "Polarbear_Leg_Armor",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116092,7 +116092,7 @@
             {
               "Element": {
                 "RowName": "Potato_Bread",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116129,7 +116129,7 @@
             {
               "Element": {
                 "RowName": "Potato_Carrot_Fries",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116184,7 +116184,7 @@
             {
               "Element": {
                 "RowName": "Pumpkin_Bread",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116221,7 +116221,7 @@
             {
               "Element": {
                 "RowName": "Pygmy_Lopp_Trophy",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116258,7 +116258,7 @@
             {
               "Element": {
                 "RowName": "Quality_Fertilizer",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116295,7 +116295,7 @@
             {
               "Element": {
                 "RowName": "Ranged_Weapon_Attachment_Animal_Hightlight",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116350,7 +116350,7 @@
             {
               "Element": {
                 "RowName": "Roasted_Vegetables",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116442,7 +116442,7 @@
             {
               "Element": {
                 "RowName": "Saddle_Bag_Mount",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116497,7 +116497,7 @@
             {
               "Element": {
                 "RowName": "Saddle_Bearhide",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116552,7 +116552,7 @@
             {
               "Element": {
                 "RowName": "Saddle_Mount",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116607,7 +116607,7 @@
             {
               "Element": {
                 "RowName": "Scorpion_Boss_Trophy_Throne",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116662,7 +116662,7 @@
             {
               "Element": {
                 "RowName": "Seed_Bread",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116699,7 +116699,7 @@
             {
               "Element": {
                 "RowName": "Seed_Cracker",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116736,7 +116736,7 @@
             {
               "Element": {
                 "RowName": "Shepherds_Pie",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116782,7 +116782,7 @@
             {
               "Element": {
                 "RowName": "Shield_Composite",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116855,7 +116855,7 @@
             {
               "Element": {
                 "RowName": "Shield_Wooden",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116919,7 +116919,7 @@
             {
               "Element": {
                 "RowName": "Skinning_Bench",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -116983,7 +116983,7 @@
             {
               "Element": {
                 "RowName": "Stasis_Bag",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -117047,7 +117047,7 @@
             {
               "Element": {
                 "RowName": "Stone_Advanced_Beams_Set",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -117111,7 +117111,7 @@
             {
               "Element": {
                 "RowName": "Stone_Furnace",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -117175,7 +117175,7 @@
             {
               "Element": {
                 "RowName": "Tomato_Soup",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -117212,7 +117212,7 @@
             {
               "Element": {
                 "RowName": "Vegetable_Pie",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -117267,7 +117267,7 @@
             {
               "Element": {
                 "RowName": "Waterwheel_Generator",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -117349,7 +117349,7 @@
             {
               "Element": {
                 "RowName": "Wild_Salad",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -117395,7 +117395,7 @@
             {
               "Element": {
                 "RowName": "Wood_Refined_Half_Pitch",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -117441,7 +117441,7 @@
             {
               "Element": {
                 "RowName": "Wood_Refined_Halfpiece",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -117487,7 +117487,7 @@
             {
               "Element": {
                 "RowName": "Worklamp_OmniDirectional",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -117588,7 +117588,7 @@
             {
               "Element": {
                 "RowName": "Envirosuit_Shengong2",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -117606,7 +117606,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 83,
               "DynamicProperties": [],
@@ -117652,7 +117652,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 83,
               "DynamicProperties": [],
@@ -117698,7 +117698,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 83,
               "DynamicProperties": [],
@@ -117744,7 +117744,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 83,
               "DynamicProperties": [],
@@ -117790,7 +117790,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 83,
               "DynamicProperties": [],
@@ -117836,7 +117836,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 83,
               "DynamicProperties": [],
@@ -117882,7 +117882,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 83,
               "DynamicProperties": [],
@@ -118095,7 +118095,7 @@
             {
               "Element": {
                 "RowName": "Meta_Carbon_Armor_Arms_Alpha",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118132,7 +118132,7 @@
             {
               "Element": {
                 "RowName": "Meta_Carbon_Armor_Arms_Beta",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118169,7 +118169,7 @@
             {
               "Element": {
                 "RowName": "Meta_Carbon_Armor_Chest_Alpha",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118206,7 +118206,7 @@
             {
               "Element": {
                 "RowName": "Meta_Carbon_Armor_Chest_Beta",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118243,7 +118243,7 @@
             {
               "Element": {
                 "RowName": "Meta_Carbon_Armor_Feet_Alpha",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118280,7 +118280,7 @@
             {
               "Element": {
                 "RowName": "Meta_Carbon_Armor_Feet_Beta",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118317,7 +118317,7 @@
             {
               "Element": {
                 "RowName": "Meta_Carbon_Armor_Helmet_Alpha",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118354,7 +118354,7 @@
             {
               "Element": {
                 "RowName": "Meta_Carbon_Armor_Helmet_Beta",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118391,7 +118391,7 @@
             {
               "Element": {
                 "RowName": "Meta_Carbon_Armor_Legs_Alpha",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118428,7 +118428,7 @@
             {
               "Element": {
                 "RowName": "Meta_Carbon_Armor_Legs_Beta",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118465,7 +118465,7 @@
             {
               "Element": {
                 "RowName": "Meta_Envirosuit_Inaris",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118483,7 +118483,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 83,
               "DynamicProperties": [],
@@ -118529,7 +118529,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 83,
               "DynamicProperties": [],
@@ -118575,7 +118575,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 83,
               "DynamicProperties": [],
@@ -118621,7 +118621,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -118649,7 +118649,7 @@
             {
               "Element": {
                 "RowName": "Meta_Larkwell_Backpack_Alpha",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118686,7 +118686,7 @@
             {
               "Element": {
                 "RowName": "Meta_Larkwell_Backpack_Beta",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118723,7 +118723,7 @@
             {
               "Element": {
                 "RowName": "Meta_Module_World_Boss",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
             }
@@ -118741,7 +118741,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 66,
               "DynamicProperties": [],
@@ -118787,7 +118787,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 3333,
               "DynamicProperties": [],
@@ -118833,7 +118833,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],
@@ -118879,7 +118879,7 @@
             {
               "Element": {
                 "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 250,
               "DynamicProperties": [],

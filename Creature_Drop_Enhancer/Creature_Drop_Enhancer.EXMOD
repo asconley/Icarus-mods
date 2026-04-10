@@ -963,7 +963,7 @@
             {
               "Element": {
                 "RowName": "Fatty_TBone",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -2196,7 +2196,7 @@
             {
               "Element": {
                 "RowName": "Fatty_TBone",
-                "DataTableName": "D_ItemTemplate"
+                "DataTableName": "D_ItemsStatic"
               },
               "Count": 50,
               "DynamicProperties": [],
