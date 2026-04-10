@@ -1,0 +1,1504 @@
+{
+    "name": "Passive_Ore_Extractors",
+    "author": "AgentKush",
+    "fileName": "Passive_Ore_Extractors",
+    "version": "1.0",
+    "description": "Place ore extractor machines anywhere to passively generate ore over time. Cloned from Deep Mining Drills with processing capability added. Includes Biofuel (T3) and Electric (T4) variants with 23 ore types each. Available from the Workshop and craftable at the Fabricator.",
+    "week": "",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Talents-D_TalentArchetypes.json",
+            "File_Items": [
+                {
+                    "Name": "Workshop_OreExtractors",
+                    "Model": {
+                        "RowName": "Workshop"
+                    },
+                    "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Workshop_OreExtractors-DisplayName\", \"Ore Extractors\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Deep_Mining_Drill_Biofuel.ITEM_Deep_Mining_Drill_Biofuel"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Talents-D_TalentTrees.json",
+            "File_Items": [
+                {
+                    "Name": "Workshop_OreExtractors",
+                    "BackgroundTexture": "/Game/Assets/2DArt/UI/Windows/EmptyAsset.EmptyAsset",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Deep_Mining_Drill_Electric.ITEM_Deep_Mining_Drill_Electric",
+                    "Archetype": {
+                        "RowName": "Workshop_OreExtractors"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Crafting-D_RecipeSets.json",
+            "File_Items": [
+                {
+                    "Name": "Biofuel_Ore_Extractor",
+                    "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Biofuel_Ore_Extractor-RecipeSetName\", \"Biofuel Ore Extractor\")",
+                    "DisplayText": "NSLOCTEXT(\"D_RecipeSets\", \"Biofuel_Ore_Extractor-DisplayText\", \"A biofuel-powered extractor that passively generates ore over time. Place anywhere.\")",
+                    "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Deep_Mining_Drill_Biofuel.ITEM_Deep_Mining_Drill_Biofuel",
+                    "ExperienceMultiplier": 0.2
+                },
+                {
+                    "Name": "Electric_Ore_Extractor",
+                    "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Electric_Ore_Extractor-RecipeSetName\", \"Electric Ore Extractor\")",
+                    "DisplayText": "NSLOCTEXT(\"D_RecipeSets\", \"Electric_Ore_Extractor-DisplayText\", \"An electric-powered extractor that passively generates ore over time. Place anywhere. Faster than biofuel variant.\")",
+                    "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Deep_Mining_Drill_Electric.ITEM_Deep_Mining_Drill_Electric",
+                    "ExperienceMultiplier": 0.2
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Processing.json",
+            "File_Items": [
+                {
+                    "Name": "Biofuel_Ore_Extractor",
+                    "DefaultRecipeSet": {
+                        "RowName": "Biofuel_Ore_Extractor"
+                    },
+                    "bRequiresShelter": false,
+                    "AutoSelectRecipe": false
+                },
+                {
+                    "Name": "Electric_Ore_Extractor",
+                    "DefaultRecipeSet": {
+                        "RowName": "Electric_Ore_Extractor"
+                    },
+                    "bRequiresShelter": false,
+                    "AutoSelectRecipe": false,
+                    "MaxMilliwattage": 2500,
+                    "AutoTurnOffDeviceWhileNotProcessing": false
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Itemable.json",
+            "File_Items": [
+                {
+                    "Name": "Item_Biofuel_Ore_Extractor",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Biofuel_Ore_Extractor-DisplayName\", \"Biofuel Ore Extractor\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Deep_Mining_Drill_Biofuel.ITEM_Deep_Mining_Drill_Biofuel",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Biofuel_Ore_Extractor-Description\", \"A biofuel-powered extractor that passively generates ore over time. Place anywhere.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Biofuel_Ore_Extractor-FlavorText\", \"Set it, fuel it, forget it.\")",
+                    "Weight": 10000,
+                    "MaxStack": 1
+                },
+                {
+                    "Name": "Item_Kit_Biofuel_Ore_Extractor",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Biofuel_Ore_Extractor-DisplayName\", \"Biofuel Ore Extractor Kit\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Deep_Mining_Drill_Biofuel.ITEM_Deep_Mining_Drill_Biofuel",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Biofuel_Ore_Extractor-Description\", \"Contains a Biofuel Ore Extractor. Use to unpack.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Biofuel_Ore_Extractor-FlavorText\", \"Assembly required. Batteries not included.\")",
+                    "Weight": 100,
+                    "MaxStack": 5
+                },
+                {
+                    "Name": "Item_Electric_Ore_Extractor",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Ore_Extractor-DisplayName\", \"Electric Ore Extractor\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Deep_Mining_Drill_Electric.ITEM_Deep_Mining_Drill_Electric",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Ore_Extractor-Description\", \"An electric-powered extractor that passively generates ore over time. Place anywhere. Faster than biofuel variant.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Ore_Extractor-FlavorText\", \"Plug in, power up, profit.\")",
+                    "Weight": 10000,
+                    "MaxStack": 1
+                },
+                {
+                    "Name": "Item_Kit_Electric_Ore_Extractor",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Electric_Ore_Extractor-DisplayName\", \"Electric Ore Extractor Kit\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Deep_Mining_Drill_Electric.ITEM_Deep_Mining_Drill_Electric",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Electric_Ore_Extractor-Description\", \"Contains a Electric Ore Extractor. Use to unpack.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Electric_Ore_Extractor-FlavorText\", \"Assembly required. Batteries not included.\")",
+                    "Weight": 100,
+                    "MaxStack": 5
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Consumable.json",
+            "File_Items": [
+                {
+                    "Name": "Kit_Biofuel_Ore_Extractor",
+                    "ConsumeType": "Meta",
+                    "ModifierLifetime": 0,
+                    "Byproduct": {
+                        "RowName": "Biofuel_Ore_Extractor",
+                        "DataTableName": "D_ItemsStatic"
+                    }
+                },
+                {
+                    "Name": "Kit_Electric_Ore_Extractor",
+                    "ConsumeType": "Meta",
+                    "ModifierLifetime": 0,
+                    "Byproduct": {
+                        "RowName": "Electric_Ore_Extractor",
+                        "DataTableName": "D_ItemsStatic"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Durable.json",
+            "File_Items": [
+                {
+                    "Name": "Ore_Extractor_Repairable",
+                    "Max_Durability": 2000,
+                    "Destroyed_At_Zero": true,
+                    "ItemsForRepair": [
+                        {
+                            "Item": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Deployable.json",
+            "File_Items": [
+                {
+                    "Name": "Biofuel_Ore_Extractor",
+                    "Variants": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false,
+                    "bMustBeOutside": false
+                },
+                {
+                    "Name": "Electric_Ore_Extractor",
+                    "Variants": [
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false,
+                    "bMustBeOutside": false
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Deployables-D_DeployableSetup.json",
+            "File_Items": [
+                {
+                    "Name": "Biofuel_Ore_Extractor",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Biofuel.BP_Deep_Mining_Drill_Biofuel_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Biofuel_v2.SM_DEP_DeepMiningDrill_Biofuel_v2",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": false
+                },
+                {
+                    "Name": "Electric_Ore_Extractor",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SupportsCustomRotation": true,
+                    "SnapToSurfaceNormal": false
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemsStatic.json",
+            "File_Items": [
+                {
+                    "Name": "Biofuel_Ore_Extractor",
+                    "Meshable": {
+                        "RowName": "Mesh_Deep_Mining_Drill_Biofuel"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Biofuel_Ore_Extractor"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "Biofuel_Ore_Extractor"
+                    },
+                    "Durable": {
+                        "RowName": "Ore_Extractor_Repairable"
+                    },
+                    "Inventory": {
+                        "RowName": "Deep_Mining_Drill_Biofuel"
+                    },
+                    "Processing": {
+                        "RowName": "Biofuel_Ore_Extractor"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Resource": {
+                        "RowName": "Simple_Internal_Flow_Only"
+                    },
+                    "Audio": {
+                        "RowName": "MetalDeployable"
+                    },
+                    "Weight": {
+                        "RowName": "HeavyDeployable"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Machine"
+                            },
+                            {
+                                "TagName": "Item.Deployable"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Machine"
+                            },
+                            {
+                                "TagName": "Item.Deployable"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Deployable"
+                            },
+                            {
+                                "TagName": "Traits.Durable"
+                            },
+                            {
+                                "TagName": "Traits.Inventory"
+                            },
+                            {
+                                "TagName": "Traits.Processing"
+                            },
+                            {
+                                "TagName": "Traits.Generator"
+                            }
+                        ],
+                        "ParentTags": []
+                    },
+                    "Generator": {
+                        "RowName": "Deep_Mining_Biofuel_Drill"
+                    }
+                },
+                {
+                    "Name": "Kit_Biofuel_Ore_Extractor",
+                    "Meshable": {
+                        "RowName": "Mesh_Stone_Brick_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Kit_Biofuel_Ore_Extractor"
+                    },
+                    "Interactable": {
+                        "RowName": "Consumable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Consume"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Consumable": {
+                        "RowName": "Kit_Biofuel_Ore_Extractor"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "MetalDeployable"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Consumable"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Consumable"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Consumable"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Electric_Ore_Extractor",
+                    "Meshable": {
+                        "RowName": "Mesh_Deep_Mining_Drill_Electric"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Electric_Ore_Extractor"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Deployable": {
+                        "RowName": "Electric_Ore_Extractor"
+                    },
+                    "Durable": {
+                        "RowName": "Ore_Extractor_Repairable"
+                    },
+                    "Inventory": {
+                        "RowName": "Deep_Mining_Drill_Electric"
+                    },
+                    "Processing": {
+                        "RowName": "Electric_Ore_Extractor"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Resource": {
+                        "RowName": "Mining_Drill_Electric"
+                    },
+                    "Audio": {
+                        "RowName": "MetalDeployable"
+                    },
+                    "Weight": {
+                        "RowName": "HeavyDeployable"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Machine"
+                            },
+                            {
+                                "TagName": "Item.Deployable"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Machine"
+                            },
+                            {
+                                "TagName": "Item.Deployable"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Deployable"
+                            },
+                            {
+                                "TagName": "Traits.Durable"
+                            },
+                            {
+                                "TagName": "Traits.Inventory"
+                            },
+                            {
+                                "TagName": "Traits.Processing"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Kit_Electric_Ore_Extractor",
+                    "Meshable": {
+                        "RowName": "Mesh_Stone_Brick_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Kit_Electric_Ore_Extractor"
+                    },
+                    "Interactable": {
+                        "RowName": "Consumable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Consume"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Consumable": {
+                        "RowName": "Kit_Electric_Ore_Extractor"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "MetalDeployable"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Consumable"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Consumable"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Consumable"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemTemplate.json",
+            "File_Items": [
+                {
+                    "Name": "Biofuel_Ore_Extractor",
+                    "ItemStaticData": {
+                        "RowName": "Biofuel_Ore_Extractor"
+                    }
+                },
+                {
+                    "Name": "Kit_Biofuel_Ore_Extractor",
+                    "ItemStaticData": {
+                        "RowName": "Kit_Biofuel_Ore_Extractor"
+                    }
+                },
+                {
+                    "Name": "Electric_Ore_Extractor",
+                    "ItemStaticData": {
+                        "RowName": "Electric_Ore_Extractor"
+                    }
+                },
+                {
+                    "Name": "Kit_Electric_Ore_Extractor",
+                    "ItemStaticData": {
+                        "RowName": "Kit_Electric_Ore_Extractor"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "MetaWorkshop-D_WorkshopItems.json",
+            "File_Items": [
+                {
+                    "Name": "Meta_Biofuel_Ore_Extractor",
+                    "Item": {
+                        "RowName": "Kit_Biofuel_Ore_Extractor"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 100
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Electric_Ore_Extractor",
+                    "Item": {
+                        "RowName": "Kit_Electric_Ore_Extractor"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 150
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 75
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Talents-D_Talents.json",
+            "File_Items": [
+                {
+                    "Name": "Biofuel_Ore_Extractor_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_Biofuel_Ore_Extractor",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_OreExtractors"
+                    },
+                    "Position": {
+                        "X": 100,
+                        "Y": 100
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Electric_Ore_Extractor_Talent",
+                    "ExtraData": {
+                        "RowName": "Meta_Electric_Ore_Extractor",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_OreExtractors"
+                    },
+                    "Position": {
+                        "X": 400,
+                        "Y": 100
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "File_Items": [
+                {
+                    "Name": "Craft_Biofuel_Ore_Extractor",
+                    "Requirement": {
+                        "RowName": "Biofuel_Ore_Extractor_Talent"
+                    },
+                    "RequiredMillijoules": 5000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Machining_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 12
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Refined_Copper",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 12
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Copper_Wire",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 50
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Biofuel_Ore_Extractor",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Electric_Ore_Extractor",
+                    "Requirement": {
+                        "RowName": "Electric_Ore_Extractor_Talent"
+                    },
+                    "RequiredMillijoules": 8000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Aluminium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 25
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 12
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Electric_Ore_Extractor",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Metal_Ore",
+                    "RequiredMillijoules": 2000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Metal_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Copper_Ore",
+                    "RequiredMillijoules": 2000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Copper_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Coal_Ore",
+                    "RequiredMillijoules": 2000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Coal_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Stone",
+                    "RequiredMillijoules": 2000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Oxite",
+                    "RequiredMillijoules": 3000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Oxite",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 8,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Salt",
+                    "RequiredMillijoules": 3000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Salt",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 8,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Sulfur",
+                    "RequiredMillijoules": 3000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Sulfur",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 8,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Gold_Ore",
+                    "RequiredMillijoules": 3000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Gold_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 8,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Silica",
+                    "RequiredMillijoules": 3000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Silica",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 8,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Clay",
+                    "RequiredMillijoules": 3000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Clay",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 8,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Aluminium",
+                    "RequiredMillijoules": 5000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Titanium_Ore",
+                    "RequiredMillijoules": 5000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Platinum_Ore",
+                    "RequiredMillijoules": 5000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Platinum_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Scoria",
+                    "RequiredMillijoules": 5000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Scoria",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Obsidian",
+                    "RequiredMillijoules": 5000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Obsidian",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Limestone",
+                    "RequiredMillijoules": 5000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Limestone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Lithium_Ore",
+                    "RequiredMillijoules": 5000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Lithium_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Ruby_Ore",
+                    "RequiredMillijoules": 8000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Ruby_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 3,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Cobalt_Ore",
+                    "RequiredMillijoules": 8000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Cobalt_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 3,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Super_Cooled_Ice",
+                    "RequiredMillijoules": 8000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Super_Cooled_Ice",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 3,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Frozen_Wood",
+                    "RequiredMillijoules": 8000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Frozen_Wood",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 3,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Exotic_Red",
+                    "RequiredMillijoules": 8000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 3,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Extract_Uranium_Raw",
+                    "RequiredMillijoules": 8000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Ore_Extractor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Uranium_Raw",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 3,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                }
+            ]
+        }
+    ]
+}
