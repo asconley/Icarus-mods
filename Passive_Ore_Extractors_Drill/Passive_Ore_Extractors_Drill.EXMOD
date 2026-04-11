@@ -1,9 +1,9 @@
-﻿{
-    "name": "Passive_Ore_Extractors",
+{
+    "name": "Passive_Ore_Extractors_Drill",
     "author": "AgentKush",
-    "fileName": "Passive_Ore_Extractors",
-    "version": "2.0",
-    "description": "23 passive ore extractors — one for each ore type. Place anywhere, connect power, and ore is generated automatically. No interaction needed. Available from the Workshop and craftable at the Fabricator.",
+    "fileName": "Passive_Ore_Extractors_Drill",
+    "version": "5.0-drill",
+    "description": "23 ore extractors (DRILL VARIANT) — one per ore type. Snap to any building floor, connect power, load Stone. Uses custom PassiveExtractor BP + PAK. Requires PassiveExtractor.pak in Icarus Paks folder.",
     "week": "All",
     "Level2": "True",
     "Rows": [
@@ -210,7 +210,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -221,7 +221,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -232,7 +232,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -243,7 +243,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -254,7 +254,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -265,7 +265,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -276,7 +276,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -287,7 +287,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -298,7 +298,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -309,7 +309,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -320,7 +320,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -331,7 +331,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -342,7 +342,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -353,7 +353,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -364,7 +364,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -375,7 +375,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -386,7 +386,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -397,7 +397,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -408,7 +408,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -419,7 +419,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -430,7 +430,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -441,7 +441,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
@@ -452,7 +452,7 @@
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
                     "ManualActivation": true,
-                    "MaxMilliwattage": 500,
+                    "MaxMilliwattage": 125,
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 }
             ]
@@ -674,141 +674,256 @@
             "File_Items": [
                 {
                     "Name": "Passive_Miner_Metal_Ore",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Copper_Ore",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Coal_Ore",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Stone",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Oxite",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Salt",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Sulfur",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Gold_Ore",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Silica",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Clay",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Aluminium",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Titanium_Ore",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Platinum_Ore",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Scoria",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Obsidian",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Limestone",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Lithium_Ore",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Ruby_Ore",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Cobalt_Ore",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Super_Cooled_Ice",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Frozen_Wood",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Exotic_Red",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 },
                 {
                     "Name": "Passive_Miner_Uranium_Raw",
-                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Food_Trough_T4_New.BP_Food_Trough_T4_New_C",
+                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SnapBehaviour": "WorldAndSnap",
+                    "SnapActorTags": [
+                        "Building_Floor"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true
                 }
             ]
         },
@@ -1545,16 +1660,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Metal_Ore"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -1684,16 +1799,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Copper_Ore"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -1823,16 +1938,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Coal_Ore"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -1962,16 +2077,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Stone"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -2101,16 +2216,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Oxite"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -2240,16 +2355,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Salt"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -2379,16 +2494,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Sulfur"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -2518,16 +2633,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Gold_Ore"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -2657,16 +2772,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Silica"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -2796,16 +2911,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Clay"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -2935,16 +3050,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Aluminium"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -3074,16 +3189,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Titanium_Ore"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -3213,16 +3328,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Platinum_Ore"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -3352,16 +3467,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Scoria"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -3491,16 +3606,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Obsidian"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -3630,16 +3745,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Limestone"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -3769,16 +3884,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Lithium_Ore"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -3908,16 +4023,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Ruby_Ore"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -4047,16 +4162,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Cobalt_Ore"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -4186,16 +4301,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Super_Cooled_Ice"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -4325,16 +4440,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Frozen_Wood"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -4464,16 +4579,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Exotic_Red"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -4603,16 +4718,16 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Food_Trough_Storage_T4"
+                        "RowName": "Exotic_Electric_Drill"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Uranium_Raw"
                     },
                     "Decayable": {
-                        "RowName": "Decay_10_Minutes"
+                        "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Food_Trough_T4"
+                        "RowName": "Exotic_Drill_Electric"
                     },
                     "Audio": {
                         "RowName": "MetalDeployable"
@@ -6075,20 +6190,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Metal_Ore",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 10,
+                            "Count": 25,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6100,20 +6225,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Copper_Ore",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 10,
+                            "Count": 25,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6125,20 +6260,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Coal_Ore",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 10,
+                            "Count": 25,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6150,20 +6295,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Stone",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 10,
+                            "Count": 25,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6175,20 +6330,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Oxite",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 8,
+                            "Count": 15,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6200,20 +6365,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Salt",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 8,
+                            "Count": 15,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6225,20 +6400,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Sulfur",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 8,
+                            "Count": 15,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6250,20 +6435,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Gold_Ore",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 8,
+                            "Count": 15,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6275,20 +6470,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Silica",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 8,
+                            "Count": 15,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6300,20 +6505,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Clay",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 8,
+                            "Count": 15,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6325,20 +6540,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Aluminium",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 5,
+                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6350,20 +6575,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Titanium_Ore",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 5,
+                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6375,20 +6610,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Platinum_Ore",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 5,
+                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6400,20 +6645,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Scoria",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 5,
+                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6425,20 +6680,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Obsidian",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 5,
+                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6450,20 +6715,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Limestone",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 5,
+                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6475,20 +6750,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Lithium_Ore",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 5,
+                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6500,20 +6785,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Ruby_Ore",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 3,
+                            "Count": 5,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6525,20 +6820,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Cobalt_Ore",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 3,
+                            "Count": 5,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6550,20 +6855,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Super_Cooled_Ice",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 3,
+                            "Count": 5,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6575,20 +6890,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Frozen_Wood",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 3,
+                            "Count": 5,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6600,20 +6925,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Exotic_Red",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 3,
+                            "Count": 5,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 },
                 {
@@ -6625,20 +6960,30 @@
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
-                    "Inputs": [],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
                     "Outputs": [
                         {
                             "Element": {
                                 "RowName": "Uranium_Raw",
                                 "DataTableName": "D_ItemTemplate"
                             },
-                            "Count": 3,
+                            "Count": 5,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
                     ],
                     "Audio": {
-                        "RowName": "MachiningBench"
+                        "RowName": "Furnace"
                     }
                 }
             ]
