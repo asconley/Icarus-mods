@@ -1,16 +1,16 @@
 # Passive Ore Extractor Drills
 
 **Author:** AgentKush  
-**Version:** 6.0-drill  
+**Version:** 7.0  
 **Mod Manager:** JimK72's Mod Manager (EXMODZ format)
 
 ## Description
 
-23 passive ore extractors — one per ore type. Place anywhere, connect power, load Stone. Uses modified Deep Mining Drill with processor capability.
+23 passive ore extractors — one per ore type. Place anywhere, connect power, load Stone. Uses drill-visual processor for passive mining.
 
 ## How It Works
 
-Each machine is dedicated to one ore type. Place it, connect electricity, load Stone, and it continuously produces ore. 1 Stone per cycle = generous ore output. Load 100 stone and walk away!
+Each machine is dedicated to one ore type. Place it anywhere, connect electricity, load Stone, and it continuously produces ore. 1 Stone per cycle = generous ore output. Load 100 stone and walk away!
 
 ## Machines
 
@@ -53,3 +53,5 @@ Each machine is dedicated to one ore type. Place it, connect electricity, load S
 - AutoSelectRecipe is enabled — auto-picks recipe when Stone is loaded
 - ManualActivation — turn on once, runs continuously
 - Workshop tab: 'Passive Miners'
+- Uses custom BP_PassiveMiner (processor with drill mesh visual)
+- Does NOT override any vanilla blueprints — fully compatible with other mods
