@@ -438,9 +438,9 @@
         {
             "name": "Passive Ore Extractor Drills",
             "author": "AgentKush",
-            "version": "7.4",
+            "version": "7.5",
             "compatibility": "All",
-            "description": "23 passive ore extractors with drill visuals. Place anywhere, connect power, load Stone. Craftable at Fabricator with tiered material costs. Custom BP_PassiveMiner processor with drill mesh, materials, sounds, and animation. No vanilla blueprint overrides. v7.4: Added Fabricator crafting recipes. v7.3: Fixed collision/interaction.",
+            "description": "23 passive ore extractors with drill visuals. Place anywhere, connect power, load Stone. Craftable at Fabricator and Manufacturer with tiered material costs. Custom BP_PassiveMiner processor with drill mesh, materials, sounds, and animation. No vanilla blueprint overrides. v7.5: Fixed broken recipe ingredients, Aluminium miner now outputs Bauxite ore, added Manufacturer crafting.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Passive_Ore_Extractor_Drills.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Passive_Ore_Extractor_Drills/README.md",
             "files": {

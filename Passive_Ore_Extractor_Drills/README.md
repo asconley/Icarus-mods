@@ -1,7 +1,7 @@
 # Passive Ore Extractor Drills
 
 **Author:** AgentKush  
-**Version:** 7.4  
+**Version:** 7.5  
 **Mod Manager:** JimK72's Mod Manager (EXMODZ format)
 
 ## Description
@@ -26,7 +26,7 @@ Each machine is dedicated to one ore type. Place it anywhere, connect electricit
 | Passive Gold Miner | Gold | 15x | 3000 MJ | 75 | 35 |
 | Passive Silicon Miner | Silicon | 15x | 3000 MJ | 75 | 35 |
 | Passive Clay Miner | Clay | 15x | 3000 MJ | 75 | 35 |
-| Passive Aluminium Miner | Aluminium | 10x | 5000 MJ | 100 | 50 |
+| Passive Bauxite Miner | Bauxite | 10x | 5000 MJ | 100 | 50 |
 | Passive Titanium Miner | Titanium | 10x | 5000 MJ | 100 | 50 |
 | Passive Platinum Miner | Platinum | 10x | 5000 MJ | 100 | 50 |
 | Passive Scoria Miner | Scoria | 10x | 5000 MJ | 100 | 50 |
@@ -46,8 +46,8 @@ All miners are craftable at the **Fabricator** with tiered material costs:
 
 | Tier | Materials | Energy |
 |------|-----------|--------|
-| Common | 10 Steel Ingot, 5 Electronics, 5 Iron Ingot, 4 Steel Screw | 8,000 MJ |
-| Uncommon | 15 Steel Ingot, 10 Electronics, 8 Copper Ingot, 6 Steel Screw, 2 Glass | 10,000 MJ |
+| Common | 10 Steel Ingot, 5 Electronics, 5 Refined Metal, 4 Steel Screw | 8,000 MJ |
+| Uncommon | 15 Steel Ingot, 10 Electronics, 8 Refined Copper, 6 Steel Screw, 2 Glass | 10,000 MJ |
 | Rare | 5 Titanium Ingot, 20 Electronics, 10 Aluminium, 8 Steel Screw, 4 Carbon Fiber | 15,000 MJ |
 | Exotic | 10 Titanium Ingot, 30 Electronics, 8 Carbon Fiber, 5 Composite Paste, 15 Aluminium | 20,000 MJ |
 
@@ -69,6 +69,11 @@ All miners are craftable at the **Fabricator** with tiered material costs:
 - Does NOT override any vanilla blueprints — fully compatible with other mods
 
 ## Changelog
+
+### v7.5
+- Fixed broken Fabricator recipes — Iron_Ingot/Copper_Ingot replaced with correct Refined_Metal/Refined_Copper
+- Fixed Aluminium miner — was outputting ingots (Aluminium), now correctly outputs Bauxite ore with proper icon
+- Added Manufacturer bench as crafting station for all miner kits
 
 ### v7.4
 - Added Fabricator crafting recipes — all 23 miners craftable in-game without Workshop

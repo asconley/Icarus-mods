@@ -2,7 +2,7 @@
     "name": "Passive_Ore_Extractor_Drills",
     "author": "AgentKush",
     "fileName": "Passive_Ore_Extractor_Drills",
-    "version": "7.4",
+    "version": "7.5",
     "description": "23 passive ore extractors — one per ore type. Place anywhere, connect power, load Stone. Uses drill-visual processor for passive mining.",
     "week": "All",
     "Level2": "True",
@@ -107,10 +107,10 @@
                     "ExperienceMultiplier": 0.2
                 },
                 {
-                    "Name": "Passive_Miner_Aluminium",
-                    "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Passive_Miner_Aluminium-RecipeSetName\", \"Passive Aluminium Miner\")",
-                    "DisplayText": "NSLOCTEXT(\"D_RecipeSets\", \"Passive_Miner_Aluminium-DisplayText\", \"Automatically extracts Aluminium when powered. Place anywhere.\")",
-                    "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Aluminium.ITEM_Aluminium",
+                    "Name": "Passive_Miner_Bauxite",
+                    "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Passive_Miner_Bauxite-RecipeSetName\", \"Passive Bauxite Miner\")",
+                    "DisplayText": "NSLOCTEXT(\"D_RecipeSets\", \"Passive_Miner_Bauxite-DisplayText\", \"Automatically extracts Bauxite when powered. Place anywhere.\")",
+                    "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Bauxite.ITEM_Ore_Bauxite",
                     "ExperienceMultiplier": 0.2
                 },
                 {
@@ -313,9 +313,9 @@
                     "AutoTurnOffDeviceWhileNotProcessing": false
                 },
                 {
-                    "Name": "Passive_Miner_Aluminium",
+                    "Name": "Passive_Miner_Bauxite",
                     "DefaultRecipeSet": {
-                        "RowName": "Passive_Miner_Aluminium"
+                        "RowName": "Passive_Miner_Bauxite"
                     },
                     "bRequiresShelter": false,
                     "AutoSelectRecipe": true,
@@ -551,10 +551,10 @@
                     ]
                 },
                 {
-                    "Name": "Passive_Miner_Aluminium",
+                    "Name": "Passive_Miner_Bauxite",
                     "Variants": [
                         {
-                            "RowName": "Passive_Miner_Aluminium",
+                            "RowName": "Passive_Miner_Bauxite",
                             "DataTableName": "D_DeployableSetup"
                         }
                     ]
@@ -743,7 +743,7 @@
                     "SnapToSurfaceNormal": false
                 },
                 {
-                    "Name": "Passive_Miner_Aluminium",
+                    "Name": "Passive_Miner_Bauxite",
                     "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
                     "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
@@ -1019,20 +1019,20 @@
                     "MaxStack": 5
                 },
                 {
-                    "Name": "Item_Passive_Miner_Aluminium",
-                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Passive_Miner_Aluminium-DisplayName\", \"Passive Aluminium Miner\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Aluminium.ITEM_Aluminium",
-                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Passive_Miner_Aluminium-Description\", \"Automatically extracts Aluminium when powered. Place anywhere.\")",
-                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Passive_Miner_Aluminium-FlavorText\", \"Passive Aluminium extraction.\")",
+                    "Name": "Item_Passive_Miner_Bauxite",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Passive_Miner_Bauxite-DisplayName\", \"Passive Bauxite Miner\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Bauxite.ITEM_Ore_Bauxite",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Passive_Miner_Bauxite-Description\", \"Automatically extracts Bauxite when powered. Place anywhere.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Passive_Miner_Bauxite-FlavorText\", \"Passive Bauxite extraction.\")",
                     "Weight": 10000,
                     "MaxStack": 1
                 },
                 {
-                    "Name": "Item_Kit_Passive_Miner_Aluminium",
-                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Passive_Miner_Aluminium-DisplayName\", \"Passive Aluminium Miner Kit\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Aluminium.ITEM_Aluminium",
-                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Passive_Miner_Aluminium-Description\", \"Contains a Passive Aluminium Miner. Use to unpack.\")",
-                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Passive_Miner_Aluminium-FlavorText\", \"Passive mining in a box.\")",
+                    "Name": "Item_Kit_Passive_Miner_Bauxite",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Passive_Miner_Bauxite-DisplayName\", \"Passive Bauxite Miner Kit\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/ITEM_Ore_Bauxite.ITEM_Ore_Bauxite",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Passive_Miner_Bauxite-Description\", \"Contains a Passive Bauxite Miner. Use to unpack.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Passive_Miner_Bauxite-FlavorText\", \"Passive mining in a box.\")",
                     "Weight": 100,
                     "MaxStack": 5
                 },
@@ -1378,13 +1378,13 @@
                     ]
                 },
                 {
-                    "Name": "Kit_Passive_Miner_Aluminium",
+                    "Name": "Kit_Passive_Miner_Bauxite",
                     "Modifier": {
                         "ModifierLifetime": 0
                     },
                     "Byproducts": [
                         {
-                            "RowName": "Passive_Miner_Aluminium",
+                            "RowName": "Passive_Miner_Bauxite",
                             "DataTableName": "D_ItemTemplate"
                         }
                     ]
@@ -2929,12 +2929,12 @@
                     }
                 },
                 {
-                    "Name": "Passive_Miner_Aluminium",
+                    "Name": "Passive_Miner_Bauxite",
                     "Meshable": {
                         "RowName": "Mesh_Deep_Mining_Drill_Electric"
                     },
                     "Itemable": {
-                        "RowName": "Item_Passive_Miner_Aluminium"
+                        "RowName": "Item_Passive_Miner_Bauxite"
                     },
                     "Interactable": {
                         "RowName": "Deployable"
@@ -2952,7 +2952,7 @@
                         "RowName": "Place"
                     },
                     "Deployable": {
-                        "RowName": "Passive_Miner_Aluminium"
+                        "RowName": "Passive_Miner_Bauxite"
                     },
                     "Durable": {
                         "RowName": "Deployable_2000"
@@ -2961,7 +2961,7 @@
                         "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
-                        "RowName": "Passive_Miner_Aluminium"
+                        "RowName": "Passive_Miner_Bauxite"
                     },
                     "Decayable": {
                         "RowName": "Decay_General"
@@ -3034,12 +3034,12 @@
                     }
                 },
                 {
-                    "Name": "Kit_Passive_Miner_Aluminium",
+                    "Name": "Kit_Passive_Miner_Bauxite",
                     "Meshable": {
                         "RowName": "Mesh_Meta_Item_Repair"
                     },
                     "Itemable": {
-                        "RowName": "Item_Kit_Passive_Miner_Aluminium"
+                        "RowName": "Item_Kit_Passive_Miner_Bauxite"
                     },
                     "Interactable": {
                         "RowName": "Item"
@@ -3048,7 +3048,7 @@
                         "RowName": "Generic"
                     },
                     "Consumable": {
-                        "RowName": "Kit_Passive_Miner_Aluminium"
+                        "RowName": "Kit_Passive_Miner_Bauxite"
                     },
                     "Usable": {
                         "RowName": "Consume"
@@ -4901,20 +4901,20 @@
                     "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Clay-Description\", \"Contains a Passive Clay Miner. Use to unpack.\")"
                 },
                 {
-                    "Name": "Passive_Miner_Aluminium",
+                    "Name": "Passive_Miner_Bauxite",
                     "ItemStaticData": {
-                        "RowName": "Passive_Miner_Aluminium"
+                        "RowName": "Passive_Miner_Bauxite"
                     },
-                    "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Aluminium-DisplayName\", \"Passive Aluminium Miner\")",
-                    "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Aluminium-Description\", \"Automatically extracts Aluminium when powered. Place anywhere.\")"
+                    "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Bauxite-DisplayName\", \"Passive Bauxite Miner\")",
+                    "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Bauxite-Description\", \"Automatically extracts Bauxite when powered. Place anywhere.\")"
                 },
                 {
-                    "Name": "Kit_Passive_Miner_Aluminium",
+                    "Name": "Kit_Passive_Miner_Bauxite",
                     "ItemStaticData": {
-                        "RowName": "Kit_Passive_Miner_Aluminium"
+                        "RowName": "Kit_Passive_Miner_Bauxite"
                     },
-                    "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Aluminium-DisplayName\", \"Passive Aluminium Miner Kit\")",
-                    "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Aluminium-Description\", \"Contains a Passive Aluminium Miner. Use to unpack.\")"
+                    "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Bauxite-DisplayName\", \"Passive Bauxite Miner Kit\")",
+                    "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Bauxite-Description\", \"Contains a Passive Bauxite Miner. Use to unpack.\")"
                 },
                 {
                     "Name": "Passive_Miner_Titanium_Ore",
@@ -5354,9 +5354,9 @@
                     ]
                 },
                 {
-                    "Name": "Meta_Passive_Miner_Aluminium",
+                    "Name": "Meta_Passive_Miner_Bauxite",
                     "Item": {
-                        "RowName": "Kit_Passive_Miner_Aluminium"
+                        "RowName": "Kit_Passive_Miner_Bauxite"
                     },
                     "ResearchCost": [
                         {
@@ -5851,9 +5851,9 @@
                     }
                 },
                 {
-                    "Name": "Passive_Miner_Aluminium_Talent",
+                    "Name": "Passive_Miner_Bauxite_Talent",
                     "ExtraData": {
-                        "RowName": "Meta_Passive_Miner_Aluminium",
+                        "RowName": "Meta_Passive_Miner_Bauxite",
                         "DataTableName": "D_WorkshopItems"
                     },
                     "TalentTree": {
@@ -6440,11 +6440,11 @@
                     }
                 },
                 {
-                    "Name": "PassiveMine_Aluminium",
+                    "Name": "PassiveMine_Bauxite",
                     "RequiredMillijoules": 5000,
                     "RecipeSets": [
                         {
-                            "RowName": "Passive_Miner_Aluminium",
+                            "RowName": "Passive_Miner_Bauxite",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -6462,7 +6462,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Aluminium",
+                                "RowName": "Bauxite",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 10,
@@ -6901,6 +6901,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -6920,7 +6924,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Iron_Ingot",
+                                "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 5
@@ -6955,6 +6959,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -6974,7 +6982,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Iron_Ingot",
+                                "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 5
@@ -7009,6 +7017,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -7028,7 +7040,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Iron_Ingot",
+                                "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 5
@@ -7063,6 +7075,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -7082,7 +7098,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Iron_Ingot",
+                                "RowName": "Refined_Metal",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 5
@@ -7117,6 +7133,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -7136,7 +7156,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Copper_Ingot",
+                                "RowName": "Refined_Copper",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 8
@@ -7178,6 +7198,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -7197,7 +7221,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Copper_Ingot",
+                                "RowName": "Refined_Copper",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 8
@@ -7239,6 +7263,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -7258,7 +7286,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Copper_Ingot",
+                                "RowName": "Refined_Copper",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 8
@@ -7300,6 +7328,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -7319,7 +7351,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Copper_Ingot",
+                                "RowName": "Refined_Copper",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 8
@@ -7361,6 +7393,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -7380,7 +7416,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Copper_Ingot",
+                                "RowName": "Refined_Copper",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 8
@@ -7422,6 +7458,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -7441,7 +7481,7 @@
                         },
                         {
                             "Element": {
-                                "RowName": "Copper_Ingot",
+                                "RowName": "Refined_Copper",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 8
@@ -7477,11 +7517,15 @@
                     }
                 },
                 {
-                    "Name": "Craft_Passive_Miner_Aluminium",
+                    "Name": "Craft_Passive_Miner_Bauxite",
                     "RequiredMillijoules": 15000,
                     "RecipeSets": [
                         {
                             "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -7525,7 +7569,7 @@
                     "Outputs": [
                         {
                             "Element": {
-                                "RowName": "Kit_Passive_Miner_Aluminium",
+                                "RowName": "Kit_Passive_Miner_Bauxite",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
@@ -7543,6 +7587,10 @@
                     "RecipeSets": [
                         {
                             "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -7605,6 +7653,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -7665,6 +7717,10 @@
                     "RecipeSets": [
                         {
                             "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -7727,6 +7783,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -7787,6 +7847,10 @@
                     "RecipeSets": [
                         {
                             "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -7849,6 +7913,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -7909,6 +7977,10 @@
                     "RecipeSets": [
                         {
                             "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -7971,6 +8043,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -8031,6 +8107,10 @@
                     "RecipeSets": [
                         {
                             "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
@@ -8093,6 +8173,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -8154,6 +8238,10 @@
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
+                            "DataTableName": "D_RecipeSets"
                         }
                     ],
                     "Inputs": [
@@ -8214,6 +8302,10 @@
                     "RecipeSets": [
                         {
                             "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Manufacturer",
                             "DataTableName": "D_RecipeSets"
                         }
                     ],
