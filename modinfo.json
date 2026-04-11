@@ -436,15 +436,15 @@
             }
         },
         {
-            "name": "Deployable Deep Ore Nodes",
+            "name": "Passive Ore Extractor Drills",
             "author": "AgentKush",
-            "version": "1.0",
+            "version": "7.2",
             "compatibility": "All",
-            "description": "Place infinite deep ore deposits anywhere on any map. 23 ore types as deployable kit items via Workshop, plus Fabricator crafting. Kit system ensures items survive dropship landing. Includes Blueprint assets.",
-            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Deployable_Deep_Ore_Nodes.png",
-            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Deployable_Deep_Ore_Nodes/README.md",
+            "description": "23 passive ore extractors with drill visuals. Place anywhere, connect power, load Stone. Custom BP_PassiveMiner processor with drill mesh, materials, sounds, and animation. No vanilla blueprint overrides. v7.2: Fixed double mesh rendering.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Passive_Ore_Extractor_Drills.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Passive_Ore_Extractor_Drills/README.md",
             "files": {
-                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Deployable_Deep_Ore_Nodes/Deployable_Deep_Ore_Nodes.EXMODZ"
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Passive_Ore_Extractor_Drills/Passive_Ore_Extractor_Drills.EXMODZ"
             }
         }
     ]

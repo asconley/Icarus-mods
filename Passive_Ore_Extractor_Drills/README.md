@@ -1,7 +1,7 @@
 # Passive Ore Extractor Drills
 
 **Author:** AgentKush  
-**Version:** 7.0  
+**Version:** 7.2  
 **Mod Manager:** JimK72's Mod Manager (EXMODZ format)
 
 ## Description
@@ -55,3 +55,27 @@ Each machine is dedicated to one ore type. Place it anywhere, connect electricit
 - Workshop tab: 'Passive Miners'
 - Uses custom BP_PassiveMiner (processor with drill mesh visual)
 - Does NOT override any vanilla blueprints — fully compatible with other mods
+
+## Changelog
+
+### v7.2
+- Fixed double mesh rendering — removed static mesh from DeployableSM so only the animated skeletal mesh renders
+
+### v7.1
+- Fixed broken drill textures — swapped furnace materials to drill materials (M_DEP_DeepMiningDrill_Electric Off/On)
+- Fixed sounds — swapped furnace FMOD audio to drill sounds (SFX_DEP_ELECTRIC_DRILL_ACTIVE/STOP)
+- Added drill animation — skeletal mesh with Anim_DEP_DeepMiningDrill_Electric_Active
+- Fixed power config — MaxMilliwattage set to 2500 (was 125, now matches vanilla Electric Furnace)
+
+### v7.0
+- Complete rewrite using BP_PassiveMiner (renamed Electric Furnace with drill mesh swap)
+- No longer overrides any vanilla blueprints — unique BP at /Game/BP/.../PassiveMiners/BP_PassiveMiner
+- Processor functionality via BP_ResourceNetworkProcessor inheritance (place anywhere, no ore deposit needed)
+- 13 name table swaps: mesh, materials, sounds, class name, package path
+
+### v6.0-drill
+- Attempted re-parenting drill BP from BP_Drill_Base to BP_ProcessorBase
+- Crashed with 'Could not find SuperStruct ActiveStateUpdated' — BP_Drill_Base functions not in BP_ProcessorBase
+
+### v1.0–5.0
+- Initial development — experimented with Electric Furnace approach, ore node spawners, and data-only configs
