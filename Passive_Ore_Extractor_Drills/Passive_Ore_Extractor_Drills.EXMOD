@@ -1,9 +1,9 @@
 {
-    "name": "Passive_Ore_Extractors_Drill",
+    "name": "Passive_Ore_Extractor_Drills",
     "author": "AgentKush",
-    "fileName": "Passive_Ore_Extractors_Drill",
-    "version": "5.0-drill",
-    "description": "23 ore extractors (DRILL VARIANT) — one per ore type. Snap to any building floor, connect power, load Stone. Uses custom PassiveExtractor BP + PAK. Requires PassiveExtractor.pak in Icarus Paks folder.",
+    "fileName": "Passive_Ore_Extractor_Drills",
+    "version": "6.0-drill",
+    "description": "23 passive ore extractors — one per ore type. Place anywhere, connect power, load Stone. Uses modified Deep Mining Drill with processor capability.",
     "week": "All",
     "Level2": "True",
     "Rows": [
@@ -674,256 +674,164 @@
             "File_Items": [
                 {
                     "Name": "Passive_Miner_Metal_Ore",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Copper_Ore",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Coal_Ore",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Stone",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Oxite",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Salt",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Sulfur",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Gold_Ore",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Silica",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Clay",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Aluminium",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Titanium_Ore",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Platinum_Ore",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Scoria",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Obsidian",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Limestone",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Lithium_Ore",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Ruby_Ore",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Cobalt_Ore",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Super_Cooled_Ice",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Frozen_Wood",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Exotic_Red",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 },
                 {
                     "Name": "Passive_Miner_Uranium_Raw",
-                    "DeployableBlueprint": "/Game/Mods/BP_PassiveExtractor.BP_PassiveExtractor_C",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
                     "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
-                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
-                    "SnapBehaviour": "WorldAndSnap",
-                    "SnapActorTags": [
-                        "Building_Floor"
-                    ],
-                    "IgnoreCollisionWhenSnapped": true
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+                    "SnapToSurfaceNormal": false
                 }
             ]
         },
@@ -1660,7 +1568,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Metal_Ore"
@@ -1669,10 +1577,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -1799,7 +1707,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Copper_Ore"
@@ -1808,10 +1716,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -1938,7 +1846,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Coal_Ore"
@@ -1947,10 +1855,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -2077,7 +1985,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Stone"
@@ -2086,10 +1994,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -2216,7 +2124,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Oxite"
@@ -2225,10 +2133,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -2355,7 +2263,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Salt"
@@ -2364,10 +2272,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -2494,7 +2402,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Sulfur"
@@ -2503,10 +2411,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -2633,7 +2541,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Gold_Ore"
@@ -2642,10 +2550,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -2772,7 +2680,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Silica"
@@ -2781,10 +2689,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -2911,7 +2819,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Clay"
@@ -2920,10 +2828,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -3050,7 +2958,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Aluminium"
@@ -3059,10 +2967,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -3189,7 +3097,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Titanium_Ore"
@@ -3198,10 +3106,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -3328,7 +3236,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Platinum_Ore"
@@ -3337,10 +3245,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -3467,7 +3375,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Scoria"
@@ -3476,10 +3384,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -3606,7 +3514,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Obsidian"
@@ -3615,10 +3523,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -3745,7 +3653,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Limestone"
@@ -3754,10 +3662,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -3884,7 +3792,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Lithium_Ore"
@@ -3893,10 +3801,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -4023,7 +3931,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Ruby_Ore"
@@ -4032,10 +3940,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -4162,7 +4070,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Cobalt_Ore"
@@ -4171,10 +4079,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -4301,7 +4209,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Super_Cooled_Ice"
@@ -4310,10 +4218,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -4440,7 +4348,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Frozen_Wood"
@@ -4449,10 +4357,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -4579,7 +4487,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Exotic_Red"
@@ -4588,10 +4496,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -4718,7 +4626,7 @@
                         "RowName": "Deployable_2000"
                     },
                     "Inventory": {
-                        "RowName": "Exotic_Electric_Drill"
+                        "RowName": "Processor_NoFuel_T4"
                     },
                     "Processing": {
                         "RowName": "Passive_Miner_Uranium_Raw"
@@ -4727,10 +4635,10 @@
                         "RowName": "Decay_General"
                     },
                     "Resource": {
-                        "RowName": "Exotic_Drill_Electric"
+                        "RowName": "Deep_Mining_Drill_Electric"
                     },
                     "Audio": {
-                        "RowName": "MetalDeployable"
+                        "RowName": "MetalDeployable_Dense"
                     },
                     "Weight": {
                         "RowName": "HeavyDeployable"
@@ -6213,7 +6121,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6248,7 +6156,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6283,7 +6191,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6318,7 +6226,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6353,7 +6261,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6388,7 +6296,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6423,7 +6331,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6458,7 +6366,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6493,7 +6401,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6528,7 +6436,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6563,7 +6471,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6598,7 +6506,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6633,7 +6541,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6668,7 +6576,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6703,7 +6611,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6738,7 +6646,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6773,7 +6681,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6808,7 +6716,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6843,7 +6751,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6878,7 +6786,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6913,7 +6821,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6948,7 +6856,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 },
                 {
@@ -6983,7 +6891,7 @@
                         }
                     ],
                     "Audio": {
-                        "RowName": "Furnace"
+                        "RowName": "ElectricDrill"
                     }
                 }
             ]

@@ -1,12 +1,12 @@
-# Passive Ore Extractors Drill
+# Passive Ore Extractor Drills
 
 **Author:** AgentKush  
-**Version:** 5.0-drill  
+**Version:** 6.0-drill  
 **Mod Manager:** JimK72's Mod Manager (EXMODZ format)
 
 ## Description
 
-23 ore extractors (DRILL VARIANT) — one per ore type. Snap to any building floor, connect power, load Stone. Uses custom PassiveExtractor BP + PAK. Requires PassiveExtractor.pak in Icarus Paks folder.
+23 passive ore extractors — one per ore type. Place anywhere, connect power, load Stone. Uses modified Deep Mining Drill with processor capability.
 
 ## How It Works
 
