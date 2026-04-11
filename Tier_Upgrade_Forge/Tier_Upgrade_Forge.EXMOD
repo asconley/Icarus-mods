@@ -2,7 +2,7 @@
   "name": "Tier Upgrade Forge",
   "author": "AgentKush",
   "version": "1.1",
-  "description": "26 tool/weapon upgrade recipes. Trade up through tiers at Anvil Bench: pickaxes, axes, knives, bows, crossbows + specialty paths.",
+  "description": "26 tool/weapon upgrade recipes. Trade up through tiers at Anvil Bench: pickaxes, axes, knives, bows, crossbows + specialty paths.\r\n\r\n\r\nVer 1.1\r\nRebuilt with correct game item names (knives not swords, proper tool names). 26 recipes.\r\n\r\nVer 1.0\r\nInitial release (had invalid weapon references).",
   "fileName": "Tier_Upgrade_Forge",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Tier_Upgrade_Forge.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Tier_Upgrade_Forge/README.md",

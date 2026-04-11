@@ -2,7 +2,7 @@
   "name": "Fast Processing (Instant)",
   "author": "AgentKush",
   "version": "4.8",
-  "description": "All crafting and processing instant. 2171 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.",
+  "description": "All crafting and processing instant. 2171 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.\r\n\r\n\r\nVer 4.7\r\nAdded 4 new wolf recipes (Carcass_Juvenile_Snow_Wolf, Carcass_Juvenile_Wolf, Fertility_Serum_Wolf, Fertility_Serum_Wolf_Exotic). Total recipes: 2,175.\r\n\r\nVer 4.4\r\nFixed: Water going into negatives when crafting recipes that consume water (soups, dough, pickled items, geode lamps, etc.). Applied 500 MJ minimum floor to all 68 water-consuming recipes. Non-water recipes unchanged.\r\n\r\nVer 4.3\r\nUpdated for latest game patch. Added new recipes from recent updates.",
   "fileName": "FastProcessing_Instant",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",

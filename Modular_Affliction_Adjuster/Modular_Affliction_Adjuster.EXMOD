@@ -2,7 +2,7 @@
   "name": "ModularAfflictionAdjuster",
   "author": "AgentKush",
   "version": "2.0",
-  "description": "Comprehensive affliction adjustment - reduces stat penalties by ~50%, extends escalation times by ~50%, and reduces damage over time by ~50%. Covers all 80+ player afflictions including diseases, wounds, temperature, poisons, weather exposure, and exotic debuffs.",
+  "description": "Comprehensive affliction adjustment - reduces stat penalties by ~50%, extends escalation times by ~50%, and reduces damage over time by ~50%. Covers all 80+ player afflictions including diseases, wounds, temperature, poisons, weather exposure, and exotic debuffs.\r\n\r\n\r\nVer 2.0\r\nComprehensive overhaul with 110 affliction modifications.\r\n\r\nVer 1.0\r\nInitial release.",
   "fileName": "Modular_Affliction_Adjuster",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Modular_Affliction_Adjuster.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Affliction_Adjuster/README.md",

@@ -2,7 +2,7 @@
   "name": "Armor Set Bonuses Enhanced",
   "author": "AgentKush",
   "version": "2.0",
-  "description": "Enhanced armor set bonuses with 3-piece partial bonuses for mix-and-match builds. 33 sets get a new 3-piece threshold (~40% of full bonus) plus boosted 5-piece bonuses (+75% positive stats, +50% resistances). Wear 3 pieces of any set for a partial bonus, complete the set for full power.",
+  "description": "Enhanced armor set bonuses with 3-piece partial bonuses for mix-and-match builds. 33 sets get a new 3-piece threshold (~40% of full bonus) plus boosted 5-piece bonuses (+75% positive stats, +50% resistances). Wear 3 pieces of any set for a partial bonus, complete the set for full power.\r\n\r\n\r\nVer 2.0\r\nAdded 33 three-piece partial set bonuses for mix-and-match builds. Each set now has two bonus thresholds: 3-piece and 5-piece.\r\n\r\nVer 1.0\r\nInitial release enhancing all 33 armor set bonuses.",
   "fileName": "Armor_Set_Bonuses_Enhanced",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Armor_Set_Bonuses_Enhanced.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Armor_Set_Bonuses_Enhanced/README.md",

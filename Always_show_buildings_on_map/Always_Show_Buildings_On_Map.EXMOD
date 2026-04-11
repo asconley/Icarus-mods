@@ -2,7 +2,7 @@
   "name": "Always_Show_Buildings_On_Map",
   "author": "AgentKush",
   "version": "1.0",
-  "description": "Always shows player-built structures on the map and minimap without requiring any special stats or radar. Buildings will always display the home icon.",
+  "description": "Always shows player-built structures on the map and minimap without requiring any special stats or radar. Buildings will always display the home icon.\r\n\r\n\r\nVer 1.0\r\nInitial release.",
   "fileName": "Always_show_buildings_on_map",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Always_show_buildings_on_map.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Always_show_buildings_on_map/README.md",

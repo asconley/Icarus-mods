@@ -2,7 +2,7 @@
   "name": "No Food Spoilage",
   "author": "AgentKush",
   "version": "2.0",
-  "description": "Prevents all food spoilage. Items decay/despawn but never convert to spoiled versions. Covers all 33 decayable entries. Includes composter recipes so raw meats, fish, dairy, vegetables, and fruits can still be manually composted.",
+  "description": "Prevents all food spoilage. Items decay/despawn but never convert to spoiled versions. Covers all 33 decayable entries. Includes composter recipes so raw meats, fish, dairy, vegetables, and fruits can still be manually composted.\r\n\r\n\r\nVer 2.0\r\nFixed composter bug - Composter recipes were missing from the EXMOD, causing items to sit in the composter without processing ([#2](https://github.com/AgentKush/Icarus-mods/issues/2)). Added 134 composter recipes to D_ProcessorRecipes for manual composting.\r\n\r\nVer 1.9\r\nAdded 11 new decay entries from Dangerous Horizons update.\r\n\r\nVer 1.8\r\nCorrected Spoil_ composter recipes: now only covers raw meat and raw fish items. Removed incorrect composter entries for tonics, bandages, cooked foods, etc.\r\n\r\nVer 1.7\r\nAdded 238 missing Spoil_ composter recipes for DLC foods/tonics/consumables.\r\n\r\nVer 1.6\r\nAdded Decay_General and Decay_MetaItem for full coverage.\r\n\r\nVer 1.5\r\nVerified all 20 decay types are current with latest game data.\r\n\r\nVer 1.4\r\nPrevious release with 85 composter recipes.\r\n\r\nVer 1.3\r\nAdded composter recipes for fish variants.\r\n\r\nVer 1.0\r\nInitial release.",
   "fileName": "No_Food_Spoilage",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/No_Food_Spoilage.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",

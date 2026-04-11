@@ -2,7 +2,7 @@
   "name": "Absolute Chaos - Core",
   "author": "AgentKush",
   "version": "0.2.1",
-  "description": "Base layer of the Absolute Chaos modpack. Overrides D_CharacterStartingStats.Base_Stats with 76 chaos stat buffs (5000kg carry, 600 move speed, fall-damage immunity, zero survival drain, +900% XP, +900% crafting speed) and zeros research/replication cost on all 335 workshop items. Designed to stack with AgentKush's existing mods. v0.2.1 drops the empty workshop tab.",
+  "description": "Base layer of the Absolute Chaos modpack. Overrides D_CharacterStartingStats.Base_Stats with 76 chaos stat buffs (5000kg carry, 600 move speed, fall-damage immunity, zero survival drain, +900% XP, +900% crafting speed) and zeros research/replication cost on all 335 workshop items. Designed to stack with AgentKush's existing mods. v0.2.1 drops the empty workshop tab.\r\n\r\n\r\nVer 0.2\r\nComplete rewrite against verified game data. Dropped guessed rows for D_ExperienceEvents, D_Buildable, D_ModifierStates, D_ProspectStats - all were wrong-table targets.\r\n\r\nVer 0.1\r\nInitial scaffold with guessed row names (flagged as TODO for verification).",
   "fileName": "AbsoluteChaos_Core",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/AbsoluteChaos_Core.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/AbsoluteChaos_Core/README.md",

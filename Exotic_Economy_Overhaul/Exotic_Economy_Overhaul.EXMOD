@@ -2,7 +2,7 @@
   "name": "Exotic Economy Overhaul",
   "author": "AgentKush",
   "version": "2.0",
-  "description": "Full currency exchange system with 52 recipes. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches. Covers all Dangerous Horizons materials.",
+  "description": "Full currency exchange system with 52 recipes. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches. Covers all Dangerous Horizons materials.\r\n\r\n\r\nVer 2.0\r\nComplete rebuild. Fixed missing RequiredMillijoules on all recipes (root cause of mod being broken). Added 25 new recipes: 9 bulk ore smelting at correct furnaces/benches, Cobalt/Lithium/Ruby/Obsid..\r\n\r\nVer 1.1\r\nRebuilt with correct game item names. 27 recipes.\r\n\r\nVer 1.0\r\nInitial release (had invalid item references).",
   "fileName": "Exotic_Economy_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Exotic_Economy_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Exotic_Economy_Overhaul/README.md",

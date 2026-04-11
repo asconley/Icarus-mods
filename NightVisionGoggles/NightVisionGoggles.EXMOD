@@ -2,7 +2,7 @@
   "name": "Night Vision Goggles",
   "author": "AgentKush",
   "version": "2.0",
-  "description": "Adds craftable Night Vision Goggles with improved durability, no decay, lighter weight. Craft at Fabricator, Manufacturer, or Machining Bench.",
+  "description": "Adds craftable Night Vision Goggles with improved durability, no decay, lighter weight. Craft at Fabricator, Manufacturer, or Machining Bench.\r\n\r\n\r\nVer 2.0\r\nAdded no-decay (Decay_NoDecay) so goggles persist indefinitely. Added durability (Destroyed_Tool, 10,000 HP). Reduced weight from 5.0 to 1.0. Added Machining Bench as crafting station. Updated description.\r\n\r\nVer 1.1\r\nFixed mod format: converted from legacy structure to current name/author/Rows format.\r\n\r\nVer 1.0\r\nInitial release. Unlocked hidden Night Vision item from game files. Added crafting recipe at Fabricator/Manufacturer.",
   "fileName": "NightVisionGoggles",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/README.md",

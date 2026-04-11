@@ -2,7 +2,7 @@
   "name": "Dev Tools Kit",
   "author": "AgentKush",
   "version": "1.1.2",
-  "description": "Unlocks 10 hidden developer tools from the workshop including Thor Hammer (fly mode), Fireball, Inspection Tool, Transform Tool, Destroy Tool, and more. Free to research and craft!",
+  "description": "Unlocks 10 hidden developer tools from the workshop including Thor Hammer (fly mode), Fireball, Inspection Tool, Transform Tool, Destroy Tool, and more. Free to research and craft!\r\n\r\n\r\nVer 1.1.1\r\nUpdated 3 item icons to match current game data: Unobtainable Tool (-> CrateEquipment icon), Test Seed (-> Red Exotic Seed icon), Deployable Dropship (-> Icarus logo icon).\r\n\r\nVer 1.1.0\r\nFixed: Added Item.Meta tags to existing game dev items (Fireball, Inspection Tool, Bug Tool, Pyromancy Flame, Transform Tool) - now all 10 items appear in Workshop.\r\n\r\nVer 1.0.0\r\nInitial release - 10 dev tools unlocked.",
   "fileName": "Dev_Tools_Kit",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Dev_Tools_Kit.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/README.md",
