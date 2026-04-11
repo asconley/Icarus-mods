@@ -1,6 +1,19 @@
+<div align="center">
+
 # Creature Drop Enhancer
 
-Doubles all creature butchery and skinning outputs across 62 recipes. Every animal gives 2x leather, bone, fur, meat, and rare drops.
+[![Version](https://img.shields.io/badge/v1.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+Doubles all creature butchery and skinning outputs across 62 recipes. 2x leather, bone, fur, meat, and rare drops.
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Changes
 
@@ -32,3 +45,12 @@ Import `Creature_Drop_Enhancer.EXMODZ` via Icarus Mod Manager.
 ## Version History
 
 - **v1.0** - Initial release, 62 recipes doubled
+---
+
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

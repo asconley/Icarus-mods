@@ -1,8 +1,19 @@
+<div align="center">
+
 # Extended Spoil Timers
 
-**Author:** AgentKush | **Version:** 1.2
+[![Version](https://img.shields.io/badge/v1.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Extends decay timers on 33 items. Food spoilage lasts 5x longer, other decay items last 3x longer.
+Extends decay timers on 33 items. Food 5x longer, other decay 3x longer. Not compatible with Hardcore Rebalance Pack.
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Changes
 
@@ -53,7 +64,12 @@ Import `Extended_Spoil_Timers.EXMODZ` via Icarus Mod Manager.
 
 ### v1.0
 - Initial release, 29 decay timers extended
-
 ---
 
-*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

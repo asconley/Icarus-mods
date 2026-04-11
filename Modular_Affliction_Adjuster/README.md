@@ -1,8 +1,19 @@
-# Modular Affliction Adjuster
+<div align="center">
 
-![Version](https://img.shields.io/badge/version-2.0-blue)
-![Author](https://img.shields.io/badge/author-AgentKush-green)
-![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
+# ModularAfflictionAdjuster
+
+[![Version](https://img.shields.io/badge/v2.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+Comprehensive affliction adjustment - reduces stat penalties by ~50%, extends escalation times by ~50%, and reduces damage over time by ~50%. Covers all 80+ player afflictions.
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Overview
 
@@ -68,7 +79,12 @@ A comprehensive rebalancing of negative status effects that reduces survival pen
 |---------|---------|
 | 2.0 | Comprehensive overhaul with 110 affliction modifications |
 | 1.0 | Initial release |
-
 ---
 
-*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

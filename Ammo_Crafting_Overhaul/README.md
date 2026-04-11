@@ -1,6 +1,19 @@
+<div align="center">
+
 # Ammo Crafting Overhaul
 
-50 new ammo recipes eliminating the vanilla ammo grind. Craft 50 rounds/arrows at once for every ammo type in the game, plus convert between ammo types.
+[![Version](https://img.shields.io/badge/v1.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+50 new ammo recipes. 50x batch crafting for all arrow and bullet types including special ammo. Plus 8 ammo conversion recipes.
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Features
 
@@ -42,3 +55,12 @@ Import `Ammo_Crafting_Overhaul.EXMODZ` via Icarus Mod Manager.
 ## Version History
 
 - **v1.0** - Initial release, 50 recipes
+---
+
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

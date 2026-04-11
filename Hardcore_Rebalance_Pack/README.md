@@ -1,10 +1,19 @@
+<div align="center">
+
 # Hardcore Rebalance Pack
 
-**Version:** 1.18
-**Author:** AgentKush
-**Compatibility:** Week All
+[![Version](https://img.shields.io/badge/v1.18-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-> For survivors who think Icarus is too easy. 1432 changes across 17 data tables + 2 blueprint overrides.
+For survivors who think Icarus is too easy
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## What This Mod Does
 
@@ -185,3 +194,12 @@ Heads-up on the overlap: both mods modify `BaseMaximumHealth_+%` and `BaseMeleeD
 
 ### v1.13 - Original Release
 - 12 alpha hunters, full difficulty system, weather mods, spawn overrides
+---
+
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

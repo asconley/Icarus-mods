@@ -1,6 +1,19 @@
+<div align="center">
+
 # Trap and Defense Expansion
 
-23 new defense recipes using real in-game items. Unlocks 4 elemental landmines that were previously enemy-only, adds cheaper early-game fortifications, alternative trap recipes without rare creature drops, and batch crafting packs.
+[![Version](https://img.shields.io/badge/v1.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+23 defense recipes using real game items. Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) previously enemy-only. Cheap early-game fortifications, traps without rare drops, and batch packs.
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Features
 
@@ -51,3 +64,12 @@ Import `Trap_Defense_Expansion.EXMODZ` via Icarus Mod Manager.
 
 - **v1.1** - Complete rebuild using real game items. 23 recipes including 4 previously uncraftable elemental landmines.
 - **v1.0** - Initial release (placeholder items, replaced in v1.1)
+---
+
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

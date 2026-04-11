@@ -1,8 +1,19 @@
+<div align="center">
+
 # Exotic Economy Overhaul
 
-![Version](https://img.shields.io/badge/version-2.0-blue)
-![Author](https://img.shields.io/badge/author-AgentKush-green)
-![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
+[![Version](https://img.shields.io/badge/v2.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+Full currency exchange system with 52 recipes. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches. Covers all Dangerous Horizons materials
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Overview
 
@@ -82,7 +93,12 @@ Import `Exotic_Economy_Overhaul.EXMODZ` via Icarus Mod Manager.
 - **v2.0** - Complete rebuild. Fixed missing RequiredMillijoules on all recipes (root cause of mod being broken). Added 25 new recipes: 9 bulk ore smelting at correct furnaces/benches, Cobalt/Lithium/Ruby/Obsidian/Aluminium buy/sell, Uranium/Biomass to Ren, 3 new cross-conversions, Copper Wire/Glass/Concrete Mix purchases. 52 total recipes.
 - **v1.1** - Rebuilt with correct game item names. 27 recipes.
 - **v1.0** - Initial release (had invalid item references)
-
 ---
 
-*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

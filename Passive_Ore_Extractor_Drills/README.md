@@ -1,8 +1,19 @@
+<div align="center">
+
 # Passive Ore Extractor Drills
 
-**Author:** AgentKush  
-**Version:** 7.5  
-**Mod Manager:** JimK72's Mod Manager (EXMODZ format)
+[![Version](https://img.shields.io/badge/v7.5-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+23 passive ore extractors with drill visuals. Place anywhere, connect power, load Stone.
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Description
 
@@ -106,3 +117,12 @@ All miners are craftable at the **Fabricator** with tiered material costs:
 
 ### v1.0–5.0
 - Initial development — experimented with Electric Furnace approach, ore node spawners, and data-only configs
+---
+
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

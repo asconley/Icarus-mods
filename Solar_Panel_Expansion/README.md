@@ -1,9 +1,19 @@
+<div align="center">
+
 # Solar Panel Expansion
 
-![Version](https://img.shields.io/badge/version-1.0-blue)
-![Author](https://img.shields.io/badge/author-AgentKush-green)
+[![Version](https://img.shields.io/badge/v1.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Adds all solar panels and the Solar Backpack to a dedicated **Solar Energy** Workshop tab with fair pricing. No more hunting through the tech tree - get your solar gear from the Workshop dropship.
+Adds all solar panels and Solar Backpack to a dedicated Solar Energy Workshop tab. Includes Solar Panel Kit, Flat Solar Panel Kit, and Solar Backpack Kit with fair pricing.
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Features
 
@@ -37,3 +47,12 @@ Import `Solar_Panel_Expansion.EXMODZ` via Icarus Mod Manager.
 - Initial release
 - Added Solar Energy workshop tab
 - Added 3 solar item kits with fair pricing
+---
+
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

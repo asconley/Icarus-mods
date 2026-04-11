@@ -1,8 +1,19 @@
-# Agent's Individual Item Kits
+<div align="center">
 
-![Version](https://img.shields.io/badge/version-3.0-blue)
-![Author](https://img.shields.io/badge/author-AgentKush-green)
-![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
+# Agents Individual Item Kits
+
+[![Version](https://img.shields.io/badge/v3.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+2,056 individual item kits. Fair pricing based on complexity (5-300 credits). Complete Workshop expansion for precise inventory management
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Overview
 
@@ -64,7 +75,12 @@ A comprehensive Workshop expansion featuring 2,052 individual item kits. Each ki
 | 2.1 | Week 213+ compatibility update |
 | 2.0 | Complete reorganization into 73 categories, revised pricing system |
 | 1.0 | Initial release |
-
 ---
 
-*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

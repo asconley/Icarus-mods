@@ -1,8 +1,19 @@
+<div align="center">
+
 # Fish and Farming Boost
 
-**Author:** AgentKush | **Version:** 1.1
+[![Version](https://img.shields.io/badge/v1.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-390 changes across farming and fishing systems. Crops grow twice as fast, harvests yield 50% more, fish spawn rates doubled, and fish quality increased.
+390 changes: crops grow 2x faster across 211 growth states, harvests +50%, +2 cultivations, 57 fish spawn zones doubled, fish quality +50%.
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Changes
 
@@ -45,7 +56,12 @@ Import `Fish_Farming_Boost.EXMODZ` via Icarus Mod Manager.
 
 ### v1.0
 - Initial release, 335 changes across 4 data tables
-
 ---
 
-*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

@@ -1,6 +1,19 @@
-# Absolute Chaos — Core
+<div align="center">
 
-The base layer of the **Absolute Chaos** modpack. This mod owns the chaos levers that aren't already covered by my standalone mods, so it stacks cleanly on top of them instead of fighting over the same rows.
+# Absolute Chaos - Core
+
+[![Version](https://img.shields.io/badge/v0.2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+Base layer of the Absolute Chaos modpack. Overrides player Base_Stats with 76 chaos buffs (5000kg carry, 600 move speed, fall-damage immunity, zero survival drain, +900% XP and crafting) and zeros research/replication cost on all 335 workshop items. v0.2.1 drops the empty workshop tab and ships a banner.
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## What this mod does
 
@@ -110,3 +123,12 @@ Import `AbsoluteChaos_Core.EXMODZ` via JimK72's Icarus Mod Manager, enable it, a
 ### v0.1 (2026-04-08)
 
 - Initial scaffold with guessed row names (flagged as TODO for verification).
+---
+
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

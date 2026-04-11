@@ -1,9 +1,19 @@
+<div align="center">
+
 # Turret Variants
 
-**Version:** 3.0  
-**Author:** AgentKush  
+[![Version](https://img.shields.io/badge/v3.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Adds 15 new automated turret variants with unique characteristics. All variants require the Pistol Turret blueprint unlock.
+15 new automated turret variants with unique firing patterns
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## v3.0 Changes — LOS Fix + Proper Ammo Types
 
@@ -89,3 +99,12 @@ Copy `Turret_Variants_LOS_Fix_P.pak` to:
 - `Turret_Variants.EXMODZ` — Packaged for Mod Manager
 - `Turret_Variants_LOS_Fix_P.pak` — Blueprint patch for LOS validation
 - `turret_los_patcher.py` — Auto-patcher script (re-run after game updates)
+---
+
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

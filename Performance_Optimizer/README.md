@@ -1,8 +1,19 @@
-# Performance Optimizer
+<div align="center">
 
-**Version:** 2.2  
-**Author:** AgentKush  
-**Game:** Icarus  
+# Agents Optimization Mod
+
+[![Version](https://img.shields.io/badge/v2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+Comprehensive FPS optimization - PAK config overrides (foliage/shadow/fog/LOD reduction) plus data table changes (reduced spawns, slower hordes, extended decay, boosted fuel, weather tuning). 50 new weather events + 3 weather pools added. PAK + EXMODZ required.
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Description
 
@@ -71,3 +82,12 @@ Comprehensive performance optimization mod combining engine-level config overrid
 
 1. Copy `Performance_Optimizer_P.pak` to your game's `Icarus\Content\Paks\mods\` folder
 2. Import `Agents_Optimization_Mod.EXMODZ` using JimK72's Icarus Mod Manager
+---
+
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

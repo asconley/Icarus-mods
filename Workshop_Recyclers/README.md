@@ -1,8 +1,19 @@
+<div align="center">
+
 # Workshop Recyclers
 
-![Version](https://img.shields.io/badge/version-5.3-blue)
-![Author](https://img.shields.io/badge/author-AgentKush-green)
-![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
+[![Version](https://img.shields.io/badge/v5.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 4,454 recipes: 1,948 deconstruct + 335 recycle + 2,168 incinerate + 3 crafting
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Overview
 
@@ -153,7 +164,12 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 | 4.1 | Week 213+ compatibility update. |
 | 4.0 | Major update — 100% workshop cost returns, fixed 74 currency refs, 28 name typos. |
 | 3.0 | Major cleanup — fixed 63 broken item references, removed 136 invalid recipes. |
-
 ---
 
-*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

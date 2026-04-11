@@ -1,6 +1,19 @@
-# Armor Set Bonuses Enhanced v2.0
+<div align="center">
 
-Enhanced armor set bonuses with 3-piece partial bonuses for mix-and-match builds. Wear 3 pieces of any set for a partial bonus, complete the full 5 pieces for maximum power.
+# Armor Set Bonuses Enhanced
+
+[![Version](https://img.shields.io/badge/v2.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+Enhanced armor set bonuses with 3-piece partial bonuses for mix-and-match builds. 33 sets get a 3-piece threshold (~40% bonus) plus boosted 5-piece bonuses (+75% positive, +50% resistances).
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Changes
 
@@ -91,3 +104,12 @@ Import `Armor_Set_Bonuses_Enhanced.EXMODZ` via Icarus Mod Manager.
 
 ### v1.0
 - Initial release enhancing all 33 armor set bonuses
+---
+
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

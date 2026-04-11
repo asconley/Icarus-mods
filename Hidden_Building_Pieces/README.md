@@ -1,7 +1,19 @@
-# 🏗️ Hidden Building Pieces
+<div align="center">
 
-**Version:** 3.0.0  
-**Author:** AgentKush
+# Hidden Building Pieces
+
+[![Version](https://img.shields.io/badge/v3.0.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+Unlocks 60 hidden building pieces including diagonal curved sets, frames, corner stairs, roof peaks, and half-pieces for 11+ materials
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 Unlocks **60 hidden building item types** across multiple material sets including diagonal curved pieces, frames, corner stairs, half pieces, and roof peak pieces for Icarus. All pieces are **storm immune** and **hammer repairable**.
 
@@ -146,10 +158,12 @@ Unlocks **60 hidden building item types** across multiple material sets includin
 - Multiple texture, repair, storm immunity, and buildable fixes
 - Added frame materials, corner stairs, roof peaks, and half pieces
 - See previous versions for full history
-
 ---
 
-## Links
+<div align="center">
 
-- **Author:** AgentKush
-- **Repository:** [github.com/AgentKush/Icarus-mods](https://github.com/AgentKush/Icarus-mods)
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

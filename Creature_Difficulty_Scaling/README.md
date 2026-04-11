@@ -1,8 +1,19 @@
+<div align="center">
+
 # Creature Difficulty Scaling
 
-**Version:** 2.2  
-**Author:** AgentKush  
-**Compatibility:** Designed for JimK72's Level Cap 500 mod (works with any level cap mod)
+[![Version](https://img.shields.io/badge/v2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+Dynamic creature level scaling for level 500 cap. Scales all spawn zones up to level 500, buffs creature stats by tier, and adds player-level-based scaling rules
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Description
 
@@ -122,3 +133,12 @@ Tames can now hold their own against scaled-up hostile creatures in open combat.
 - Initial release
 - 136 creature modifications across 4 difficulty tiers
 - 3 player-level scaling rule additions
+---
+
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

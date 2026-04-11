@@ -1,8 +1,19 @@
+<div align="center">
+
 # Agent's BioLab
 
-![Version](https://img.shields.io/badge/version-2.0-blue)
-![Author](https://img.shields.io/badge/author-AgentKush-green)
-![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
+[![Version](https://img.shields.io/badge/v2.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+All 11 legendary Bio Lab weapons in the Workshop - includes Sandwyrm Chainsaw
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 ## Overview
 
@@ -66,7 +77,12 @@ Agent's BioLab brings all 11 legendary Bio Lab weapons to the Workshop, making t
 | 1.9 | Fixed Ape Club item reference (`LegendaryWeapon_ApeClub`) - icon and workshop craft now working |
 | 1.8 | Fixed item references for Ape Club and Heavy Flamethrower (Week 214 compatibility) |
 | 1.7 | Previous stable release |
-
 ---
 
-*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>

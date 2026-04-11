@@ -1,6 +1,19 @@
+<div align="center">
+
 # Culinex Food Boost Fix
 
-**Author:** AgentKush | **Version:** 2.7
+[![Version](https://img.shields.io/badge/v2.7-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
+
+Fixes Chef's Backpack 25% food effectiveness boost for all 206 foods/drinks/tonics. Adds Raw Meat to Chicken butchery recipe
+
+Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
+
+</div>
+
+---
 
 Fixes the Culinex (Chef's Backpack) 25% food effectiveness boost so it actually works when cooking food while wearing the backpack.
 
@@ -73,7 +86,12 @@ All 206 food items display their Chef's Backpack boosted stats and a Food Rating
 
 ### v1.0
 - Initial release with 158 food items
-
 ---
 
-*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+<div align="center">
+
+**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+
+*All mods are free. If you enjoy them, leave a star on the repo!*
+
+</div>
