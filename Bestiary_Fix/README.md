@@ -2,12 +2,12 @@
 
 # Bestiary Fix
 
-[![Version](https://img.shields.io/badge/v1.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Fixes Sulfur Vesper, Sulfur Worm, Cave Worm, and Vesper trophies not registering in the Bestiary.
+Fixes missing experience events that prevent Bestiary point tracking for several creatures.
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -15,74 +15,61 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 
 ---
 
-
 ## The Problem
 
-Several creatures from the Dangerous Horizons DLC (and Cave Worm/Vesper from base game) have Bestiary entries in `D_BestiaryData` but are missing the experience event linkages that actually award Bestiary points. This means you can kill and skin these creatures all day and your Bestiary progress never updates.
+Several creatures are missing experience events in the game data, which prevents the Bestiary from tracking kills and other actions. Additionally, the Sulfuric Spider's SkinningXPEvent incorrectly references a Kill event instead of a Skin event.
 
-The root cause is two-fold:
-
-1. **Missing `Skin_` experience events** in `D_ExperienceEvents` — the game has no event to fire when you skin these creatures
-2. **Missing `SkinningXPEvent` linkage** in `D_AICreatureType` — even if the events existed, the creature type doesn't know to trigger them
+**Important caveat:** Sulfur Worm, Sulfur Vesper, Cave Worm, and Vesper all explode on death and leave no corpse. This means skinning-related Bestiary actions (Skin, SkinWithTrophyKnife, SkinOnBench) are impossible by design. The Bestiary point tracking for these creatures may also be partially broken at the engine level (C++ blueprint code) which data table mods cannot fix. This mod addresses the data table issues only.
 
 ## What This Mod Fixes
 
-### Creatures Fixed
+### Data Table Fixes
 
-| Creature | Display Name | Kill Event | Skin Event | Issue |
-|----------|-------------|------------|------------|-------|
-| Geothermal_Bat | Sulfur Vesper | Existed | **Added** | Missing Skin event + SkinningXPEvent linkage |
-| SulfurWorm | Sulfur Worm | **Added** | **Added** | Missing both Kill and Skin events + linkage |
-| CaveWorm | Cave Worm | Existed | **Added** | Missing Skin event + SkinningXPEvent linkage |
-| CaveBat | Vesper | Existed | **Added** | Missing Skin event + SkinningXPEvent linkage |
+| Table | Entry | Fix |
+|-------|-------|-----|
+| D_ExperienceEvents | Kill_SulfurWorm | **Added** - was completely missing, preventing any kill tracking |
+| D_AICreatureType | GeothermalSpider | **Fixed** SkinningXPEvent from Kill_Geothermal_Spider to Skin_Geothermal_Spider |
 
-### Data Tables Modified
+### Known Limitations
 
-| Table | Entries | Description |
-|-------|---------|-------------|
-| D_ExperienceEvents | 5 | Added Skin_Geothermal_Bat, Kill_SulfurWorm, Skin_SulfurWorm, Skin_CaveWorm, Skin_CaveBat |
-| D_AICreatureType | 4 | Added SkinningXPEvent linkage for Geothermal_Bat, SulfurWorm, CaveWorm, CaveBat |
+These issues exist at the engine/blueprint level and cannot be fixed with data table mods:
 
-### XP Values
+| Issue | Reason |
+|-------|--------|
+| Exploding creatures can't be skinned | Death blueprint destroys corpse - no skinning possible |
+| Bestiary may not register kills for some DH creatures | Engine-level creature-to-bestiary mapping may be broken |
+| Trophy crafting may not award Bestiary points | CraftTrophy tracking is hardcoded in C++ |
 
-XP values are set to match similar-tier vanilla creatures:
+### How Bestiary Points Work
 
-| Event | XP | Reference |
-|-------|-----|-----------|
-| Kill_SulfurWorm | 500 | Between Cave_Worm (400) and Geothermal_Spider (1800) |
-| Skin_SulfurWorm | 250 | Half of kill XP (standard ratio) |
-| Skin_Geothermal_Bat | 100 | Half of Kill_Geothermal_Bat (200) |
-| Skin_CaveWorm | 200 | Half of Kill_Cave_Worm (400) |
-| Skin_CaveBat | 100 | Half of Kill_Cave_Bat (200) |
-
-## How Bestiary Points Work
-
-The Bestiary awards points for creature interactions:
-
-| Action | Points | Requires |
-|--------|--------|----------|
-| Kill | 3 | Kill experience event |
-| Skin | 2 | Skin experience event + SkinningXPEvent linkage |
-| Skin with Trophy Knife | 4 | Same as Skin |
-| Skin on Bench | 4 | Same as Skin |
-| Craft Trophy | 4 | Trophy recipe in D_ProcessorRecipes |
-| Scanned | 6 | Scanner interaction |
-
-Without the Skin event and SkinningXPEvent linkage, skinning-related actions (Skin, Trophy Knife, Bench, Craft Trophy) never fire, blocking 14 of the ~23 total points per creature.
+| Action | Points | Available for exploding creatures? |
+|--------|--------|------------------------------------|
+| Kill | 3 | Requires Kill event to exist (this mod adds Kill_SulfurWorm) |
+| Skin | 2 | No - corpse destroyed |
+| Skin with Trophy Knife | 4 | No - corpse destroyed |
+| Skin on Bench | 4 | No - corpse destroyed |
+| Craft Trophy | 4 | Maybe - depends on engine tracking |
+| Scanned | 6 | Yes |
+| KilledBy | 4 | Yes |
 
 ## Installation
 
 1. Install [JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)
 2. Download `Bestiary_Fix.EXMODZ`
 3. Import via Mod Manager
-4. Restart the game (data tables are loaded at game startup)
+4. Restart the game
 
 ## Changelog
 
+### v1.1
+- Removed skinning events for exploding creatures (worms/bats can't be skinned)
+- Fixed GeothermalSpider SkinningXPEvent pointing to Kill event instead of Skin event
+- Stripped down to only verifiable data table fixes
+
 ### v1.0
 - Initial release
-- Added 5 missing experience events (Kill_SulfurWorm, Skin_SulfurWorm, Skin_Geothermal_Bat, Skin_CaveWorm, Skin_CaveBat)
-- Added SkinningXPEvent linkage for 4 creatures (Geothermal_Bat, SulfurWorm, CaveWorm, CaveBat)
+- Added Kill_SulfurWorm experience event
+- Added skinning events (removed in v1.1 - creatures explode on death)
 
 ---
 
