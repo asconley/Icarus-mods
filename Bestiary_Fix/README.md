@@ -75,7 +75,7 @@ Without the Skin event and SkinningXPEvent linkage, skinning-related actions (Sk
 1. Install [JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)
 2. Download `Bestiary_Fix.EXMODZ`
 3. Import via Mod Manager
-4. Start a **new prospect** (experience events don't hot-reload on existing prospects)
+4. Restart the game (data tables are loaded at game startup)
 
 ## Changelog
 
