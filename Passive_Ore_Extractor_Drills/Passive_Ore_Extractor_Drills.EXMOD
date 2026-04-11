@@ -2,7 +2,7 @@
     "name": "Passive_Ore_Extractor_Drills",
     "author": "AgentKush",
     "fileName": "Passive_Ore_Extractor_Drills",
-    "version": "7.2",
+    "version": "7.4",
     "description": "23 passive ore extractors — one per ore type. Place anywhere, connect power, load Stone. Uses drill-visual processor for passive mining.",
     "week": "All",
     "Level2": "True",
@@ -6892,6 +6892,1381 @@
                     ],
                     "Audio": {
                         "RowName": "Furnace"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Metal_Ore",
+                    "RequiredMillijoules": 8000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Iron_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Metal_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Copper_Ore",
+                    "RequiredMillijoules": 8000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Iron_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Copper_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Coal_Ore",
+                    "RequiredMillijoules": 8000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Iron_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Coal_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Stone",
+                    "RequiredMillijoules": 8000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Iron_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Stone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Oxite",
+                    "RequiredMillijoules": 10000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Copper_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Oxite",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Salt",
+                    "RequiredMillijoules": 10000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Copper_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Salt",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Sulfur",
+                    "RequiredMillijoules": 10000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Copper_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Sulfur",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Gold_Ore",
+                    "RequiredMillijoules": 10000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Copper_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Gold_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Silica",
+                    "RequiredMillijoules": 10000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Copper_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Silica",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Clay",
+                    "RequiredMillijoules": 10000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Copper_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Clay",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Aluminium",
+                    "RequiredMillijoules": 15000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Aluminium",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Titanium_Ore",
+                    "RequiredMillijoules": 15000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Titanium_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Platinum_Ore",
+                    "RequiredMillijoules": 15000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Platinum_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Scoria",
+                    "RequiredMillijoules": 15000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Scoria",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Obsidian",
+                    "RequiredMillijoules": 15000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Obsidian",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Limestone",
+                    "RequiredMillijoules": 15000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Limestone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Lithium_Ore",
+                    "RequiredMillijoules": 15000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Lithium_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Ruby_Ore",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 30
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Ruby_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Cobalt_Ore",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 30
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Cobalt_Ore",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Super_Cooled_Ice",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 30
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Super_Cooled_Ice",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Frozen_Wood",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 30
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Frozen_Wood",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Exotic_Red",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 30
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Exotic_Red",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                },
+                {
+                    "Name": "Craft_Passive_Miner_Uranium_Raw",
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 30
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Carbon_Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Composite_Paste",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 15
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Kit_Passive_Miner_Uranium_Raw",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
                     }
                 }
             ]

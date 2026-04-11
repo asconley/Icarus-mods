@@ -1,7 +1,7 @@
 # Passive Ore Extractor Drills
 
 **Author:** AgentKush  
-**Version:** 7.2  
+**Version:** 7.4  
 **Mod Manager:** JimK72's Mod Manager (EXMODZ format)
 
 ## Description
@@ -40,6 +40,17 @@ Each machine is dedicated to one ore type. Place it anywhere, connect electricit
 | Passive Exotic Red Miner | Exotic Red | 5x | 8000 MJ | 150 | 75 |
 | Passive Uranium Miner | Uranium | 5x | 8000 MJ | 150 | 75 |
 
+## Fabricator Crafting Costs
+
+All miners are craftable at the **Fabricator** with tiered material costs:
+
+| Tier | Materials | Energy |
+|------|-----------|--------|
+| Common | 10 Steel Ingot, 5 Electronics, 5 Iron Ingot, 4 Steel Screw | 8,000 MJ |
+| Uncommon | 15 Steel Ingot, 10 Electronics, 8 Copper Ingot, 6 Steel Screw, 2 Glass | 10,000 MJ |
+| Rare | 5 Titanium Ingot, 20 Electronics, 10 Aluminium, 8 Steel Screw, 4 Carbon Fiber | 15,000 MJ |
+| Exotic | 10 Titanium Ingot, 30 Electronics, 8 Carbon Fiber, 5 Composite Paste, 15 Aluminium | 20,000 MJ |
+
 ## Installation
 
 1. Install JimK72's Mod Manager
@@ -52,14 +63,25 @@ Each machine is dedicated to one ore type. Place it anywhere, connect electricit
 - Input: 1 Stone per cycle (cheapest resource, load once and forget)
 - AutoSelectRecipe is enabled — auto-picks recipe when Stone is loaded
 - ManualActivation — turn on once, runs continuously
+- Also craftable at the Fabricator (tiered material costs)
 - Workshop tab: 'Passive Miners'
 - Uses custom BP_PassiveMiner (processor with drill mesh visual)
 - Does NOT override any vanilla blueprints — fully compatible with other mods
 
 ## Changelog
 
+### v7.4
+- Added Fabricator crafting recipes — all 23 miners craftable in-game without Workshop
+- Tiered material costs: common (Steel+Electronics), uncommon (+Glass), rare (+Titanium+Carbon Fiber), exotic (+Composite Paste)
+
+### v7.3
+- Fixed collision/interaction — machines are now solid and interactable again
+- DeployableSM set to bVisible=false (invisible) but keeps StaticMesh for collision hitbox
+- DeployableSK renders the animated drill visual — no double mesh, working physics
+
 ### v7.2
 - Fixed double mesh rendering — removed static mesh from DeployableSM so only the animated skeletal mesh renders
+- BROKEN: Removing StaticMesh also removed collision — machines became ghost objects
 
 ### v7.1
 - Fixed broken drill textures — swapped furnace materials to drill materials (M_DEP_DeepMiningDrill_Electric Off/On)
