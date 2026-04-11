@@ -64,7 +64,7 @@ jobs:
             # Get description
             DESC=$(python3 -c "
           import json
-          d = json.load(open('$EXMOD', encoding='utf-8-sig'))
+          d = json.load(open('$EXMOD'))
           desc = d.get('description','')
           parts = desc.split('\r\n\r\n\r\n', 1)
           print(parts[0].replace('\r\n', ' '))
