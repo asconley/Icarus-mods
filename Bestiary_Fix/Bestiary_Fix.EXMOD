@@ -1,0 +1,71 @@
+{
+  "name": "Bestiary Fix",
+  "author": "AgentKush",
+  "fileName": "Bestiary_Fix",
+  "version": "1.0",
+  "description": "Fixes Sulfur Vesper, Sulfur Worm, and Cave Worm trophies not registering in the Bestiary. Adds missing skinning XP events and links them to the creature types so kill/skin/trophy actions properly award Bestiary points.",
+  "week": "",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Experience-D_ExperienceEvents.json",
+      "File_Items": [
+        {
+          "Name": "Skin_Geothermal_Bat",
+          "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Geothermal_Bat-EventDescription\", \"Skinned Sulfur Vesper\")",
+          "ExperienceGranted": 100
+        },
+        {
+          "Name": "Kill_SulfurWorm",
+          "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_SulfurWorm-EventDescription\", \"Killed Sulfur Worm\")",
+          "SharedExperience": true,
+          "ExperienceGranted": 500
+        },
+        {
+          "Name": "Skin_SulfurWorm",
+          "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_SulfurWorm-EventDescription\", \"Skinned Sulfur Worm\")",
+          "ExperienceGranted": 250
+        },
+        {
+          "Name": "Skin_CaveWorm",
+          "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_CaveWorm-EventDescription\", \"Skinned Caveworm\")",
+          "ExperienceGranted": 200
+        },
+        {
+          "Name": "Skin_CaveBat",
+          "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_CaveBat-EventDescription\", \"Skinned Vesper\")",
+          "ExperienceGranted": 100
+        }
+      ]
+    },
+    {
+      "CurrentFile": "AI-D_AICreatureType.json",
+      "File_Items": [
+        {
+          "Name": "Geothermal_Bat",
+          "SkinningXPEvent": {
+            "RowName": "Skin_Geothermal_Bat"
+          }
+        },
+        {
+          "Name": "SulfurWorm",
+          "SkinningXPEvent": {
+            "RowName": "Skin_SulfurWorm"
+          }
+        },
+        {
+          "Name": "CaveWorm",
+          "SkinningXPEvent": {
+            "RowName": "Skin_CaveWorm"
+          }
+        },
+        {
+          "Name": "CaveBat",
+          "SkinningXPEvent": {
+            "RowName": "Skin_CaveBat"
+          }
+        }
+      ]
+    }
+  ]
+}
