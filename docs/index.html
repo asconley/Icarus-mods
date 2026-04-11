@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgentKush's Icarus Mods</title>
+    <meta name="description" content="A collection of 37+ Icarus survival game mods. Processing speed, recycling, building pieces, passive mining, difficulty rebalance and more.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        a { color: #58a6ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px 40px;
+            background: linear-gradient(180deg, #161b22 0%, #0d1117 100%);
+            border-bottom: 1px solid #21262d;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+
+        .hero .subtitle {
+            font-size: 1.1rem;
+            color: #8b949e;
+            margin-bottom: 24px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+
+        .stat-box {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 16px 28px;
+            text-align: center;
+            min-width: 140px;
+        }
+
+        .stat-box .number {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #58a6ff;
+        }
+
+        .stat-box .label {
+            font-size: 0.85rem;
+            color: #8b949e;
+        }
+
+        .hero-links {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .hero-links a {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: #238636;
+            color: #ffffff !important;
+        }
+        .btn-primary:hover {
+            background: #2ea043;
+            text-decoration: none !important;
+        }
+
+        .btn-secondary {
+            background: #21262d;
+            color: #c9d1d9 !important;
+            border: 1px solid #30363d;
+        }
+        .btn-secondary:hover {
+            background: #30363d;
+            text-decoration: none !important;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 32px;
+        }
+
+        .search-bar input {
+            width: 100%;
+            max-width: 500px;
+            padding: 12px 16px;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+            background: #161b22;
+            color: #c9d1d9;
+            font-size: 1rem;
+        }
+
+        .search-bar input::placeholder { color: #484f58; }
+        .search-bar input:focus { outline: none; border-color: #58a6ff; }
+
+        .category {
+            margin-bottom: 40px;
+        }
+
+        .category h2 {
+            font-size: 1.3rem;
+            color: #ffffff;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #21262d;
+        }
+
+        .mod-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 16px;
+        }
+
+        .mod-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+
+        .mod-card:hover {
+            border-color: #58a6ff;
+            transform: translateY(-2px);
+        }
+
+        .mod-card .mod-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+
+        .mod-card .mod-name {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .mod-card .mod-version {
+            font-size: 0.8rem;
+            background: #1a1e2e;
+            color: #58a6ff;
+            padding: 2px 8px;
+            border-radius: 12px;
+            white-space: nowrap;
+        }
+
+        .mod-card .mod-desc {
+            font-size: 0.9rem;
+            color: #8b949e;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        .mod-card .mod-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .mod-card .mod-actions a {
+            font-size: 0.8rem;
+            padding: 5px 12px;
+            border-radius: 4px;
+            border: 1px solid #30363d;
+            color: #c9d1d9;
+            transition: all 0.2s;
+        }
+
+        .mod-card .mod-actions a:hover {
+            border-color: #58a6ff;
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        .mod-card .mod-actions a.download-btn {
+            background: #238636;
+            border-color: #238636;
+            color: #ffffff;
+        }
+
+        .mod-card .mod-actions a.download-btn:hover {
+            background: #2ea043;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid #21262d;
+            color: #484f58;
+            font-size: 0.9rem;
+        }
+
+        footer a { color: #58a6ff; }
+
+        .hidden { display: none !important; }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8rem; }
+            .stats { gap: 12px; }
+            .stat-box { min-width: 100px; padding: 12px 16px; }
+            .stat-box .number { font-size: 1.2rem; }
+            .mod-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>AgentKush's Icarus Mods</h1>
+    <p class="subtitle">A collection of 37+ mods for Icarus: First Cohort</p>
+
+    <div class="stats">
+        <div class="stat-box"><div class="number">37+</div><div class="label">Mods</div></div>
+        <div class="stat-box"><div class="number">34,000+</div><div class="label">Data Entries</div></div>
+        <div class="stat-box"><div class="number">15,000+</div><div class="label">Recipes</div></div>
+        <div class="stat-box"><div class="number">100%</div><div class="label">Free</div></div>
+    </div>
+
+    <div class="hero-links">
+        <a href="https://github.com/AgentKush/Icarus-mods" class="btn-primary">View on GitHub</a>
+        <a href="https://github.com/Jimk72/Icarus_Software" class="btn-secondary">Get Mod Manager</a>
+        <a href="https://buymeacoffee.com/agentkush" class="btn-secondary">☕ Buy Me a Coffee</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Search mods..." oninput="filterMods(this.value)">
+    </div>
+
+    <div id="mod-catalog"></div>
+</div>
+
+<footer>
+    <p>Made by <a href="https://github.com/AgentKush">AgentKush</a> · All mods require <a href="https://github.com/Jimk72/Icarus_Software">JimK72's Mod Manager</a> · All DLCs compatible</p>
+    <p style="margin-top: 8px;">⭐ If you enjoy these mods, <a href="https://github.com/AgentKush/Icarus-mods">star the repo</a>!</p>
+</footer>
+
+<script>
+const MODS = [{"name": "Agent's BioLab", "folder": "Agents_BioLab", "version": "2.0", "description": "All 11 legendary Bio Lab weapons in the Workshop - includes Sandwyrm Chainsaw", "category": "Workshop & Items", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Agents_BioLab", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/Agents_BioLab.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Agents_BioLab-v2.0"}, {"name": "Agents Individual Item Kits", "folder": "Agents_Individual_Item_Kits", "version": "3.1", "description": "2,056 individual item kits.", "category": "Workshop & Items", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Agents_Individual_Item_Kits", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/Agents_Individual_Item_Kits.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Agents_Individual_Item_Kits-v3.1"}, {"name": "Workshop Recyclers", "folder": "Workshop_Recyclers", "version": "5.3", "description": "Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction.", "category": "Workshop & Items", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Workshop_Recyclers", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/Workshop_Recyclers.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Workshop_Recyclers-v5.3"}, {"name": "Dev Tools Kit", "folder": "Dev_Tools_Kit", "version": "1.1.2", "description": "Unlocks 10 hidden developer tools including Thor's Hammer (fly mode), Transform Tool, Destroy Tool, Inspection Tool, Fireball, Pyromancy Flame, and...", "category": "Workshop & Items", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Dev_Tools_Kit", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/Dev_Tools_Kit.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Dev_Tools_Kit-v1.1.2"}, {"name": "Night Vision Goggles", "folder": "NightVisionGoggles", "version": "2.0", "description": "Unlocks the hidden Night Vision system built into Icarus.", "category": "Workshop & Items", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/NightVisionGoggles", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/NightVisionGoggles.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/NightVisionGoggles-v2.0"}, {"name": "Solar Panel Expansion", "folder": "Solar_Panel_Expansion", "version": "1.0", "description": "Adds all solar panels and Solar Backpack to a dedicated Solar Energy Workshop tab.", "category": "Workshop & Items", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Solar_Panel_Expansion", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Solar_Panel_Expansion/Solar_Panel_Expansion.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Solar_Panel_Expansion-v1.0"}, {"name": "Hidden Building Pieces", "folder": "Hidden_Building_Pieces", "version": "3.0.0", "description": "Unlocks 60 hidden building pieces including diagonal curved sets, frames, corner stairs, roof peaks, and half-pieces for 11+ materials.", "category": "Building & Construction", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Hidden_Building_Pieces", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/Hidden_Building_Pieces.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Hidden_Building_Pieces-v3.0.0"}, {"name": "Extended Wire and Pipe Tool", "folder": "Extended_Wire_and_Pipe_Tool", "version": "1.0", "description": "10x range extension for all power cables and pipes.", "category": "Building & Construction", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Extended_Wire_and_Pipe_Tool", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Wire_and_Pipe_Tool/Extended_Wire_and_Pipe_Tool.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Extended_Wire_and_Pipe_Tool-v1.0"}, {"name": "Always Show Buildings On Map", "folder": "Always_show_buildings_on_map", "version": "1.0", "description": "Always shows player-built structures on the map and minimap without requiring radar or special stats.", "category": "Building & Construction", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Always_show_buildings_on_map", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Always_show_buildings_on_map/Always_show_buildings_on_map.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Always_show_buildings_on_map-v1.0"}, {"name": "Fast Processing (5x)", "folder": "FastProcessing_All_5x", "version": "4.8", "description": "All crafting and processing 5x faster.", "category": "Processing Speed", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/FastProcessing_All_5x", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/FastProcessing_All_5x.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/FastProcessing_All_5x-v4.8"}, {"name": "Fast Processing (10x)", "folder": "FastProcessing_All_10x", "version": "4.8", "description": "All crafting and processing 10x faster.", "category": "Processing Speed", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/FastProcessing_All_10x", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/FastProcessing_All_10x.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/FastProcessing_All_10x-v4.8"}, {"name": "Fast Processing (15x)", "folder": "FastProcessing_All_15x", "version": "4.8", "description": "All crafting and processing 15x faster.", "category": "Processing Speed", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/FastProcessing_All_15x", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/FastProcessing_All_15x.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/FastProcessing_All_15x-v4.8"}, {"name": "Fast Processing (25x)", "folder": "FastProcessing_All_25x", "version": "4.8", "description": "All crafting and processing 25x faster.", "category": "Processing Speed", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/FastProcessing_All_25x", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_25x/FastProcessing_All_25x.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/FastProcessing_All_25x-v4.8"}, {"name": "Fast Processing (Instant)", "folder": "FastProcessing_Instant", "version": "4.8", "description": "All crafting and processing instant.", "category": "Processing Speed", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/FastProcessing_Instant", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/FastProcessing_Instant.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/FastProcessing_Instant-v4.8"}, {"name": "Faster Crafting", "folder": "Faster_Crafting", "version": "1.4", "description": "Halves crafting time on 2175 recipes across all workbenches.", "category": "Processing Speed", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Faster_Crafting", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Crafting/Faster_Crafting.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Faster_Crafting-v1.4"}, {"name": "Turret Variants", "folder": "Turret_Variants", "version": "3.0", "description": "15 new automated turret variants with unique firing patterns.", "category": "Combat & Defense", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Turret_Variants", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/Turret_Variants.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Turret_Variants-v3.0"}, {"name": "Trap and Defense Expansion", "folder": "Trap_Defense_Expansion", "version": "1.1", "description": "23 defense recipes using real game items.", "category": "Combat & Defense", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Trap_Defense_Expansion", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Trap_Defense_Expansion/Trap_Defense_Expansion.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Trap_Defense_Expansion-v1.1"}, {"name": "Ammo Crafting Overhaul", "folder": "Ammo_Crafting_Overhaul", "version": "1.0", "description": "50 new ammo recipes.", "category": "Combat & Defense", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Ammo_Crafting_Overhaul", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/Ammo_Crafting_Overhaul.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Ammo_Crafting_Overhaul-v1.0"}, {"name": "Armor Set Bonuses Enhanced", "folder": "Armor_Set_Bonuses_Enhanced", "version": "2.0", "description": "Enhanced armor set bonuses with 3-piece partial bonuses for mix-and-match builds.", "category": "Combat & Defense", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Armor_Set_Bonuses_Enhanced", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Armor_Set_Bonuses_Enhanced/Armor_Set_Bonuses_Enhanced.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Armor_Set_Bonuses_Enhanced-v2.0"}, {"name": "Hardcore Rebalance Pack", "folder": "Hardcore_Rebalance_Pack", "version": "1.18", "description": "For survivors who think Icarus is too easy.", "category": "Survival & Difficulty", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Hardcore_Rebalance_Pack", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/Hardcore_Rebalance_Pack.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Hardcore_Rebalance_Pack-v1.18"}, {"name": "Creature Difficulty Scaling", "folder": "Creature_Difficulty_Scaling", "version": "2.2", "description": "Dynamic creature level scaling for level 500 cap.", "category": "Survival & Difficulty", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Creature_Difficulty_Scaling", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/Creature_Difficulty_Scaling.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Creature_Difficulty_Scaling-v2.2"}, {"name": "Creature Drop Enhancer", "folder": "Creature_Drop_Enhancer", "version": "1.0", "description": "Doubles all creature butchery and skinning outputs across 62 recipes.", "category": "Survival & Difficulty", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Creature_Drop_Enhancer", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer/Creature_Drop_Enhancer.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Creature_Drop_Enhancer-v1.0"}, {"name": "Exotic Economy Overhaul", "folder": "Exotic_Economy_Overhaul", "version": "2.0", "description": "Full currency exchange system with 52 recipes.", "category": "Economy & Resources", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Exotic_Economy_Overhaul", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Exotic_Economy_Overhaul/Exotic_Economy_Overhaul.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Exotic_Economy_Overhaul-v2.0"}, {"name": "Stack Size Overhaul", "folder": "Stack_Size_Overhaul", "version": "1.3", "description": "Increases stack sizes on 1,258 items.", "category": "Economy & Resources", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Stack_Size_Overhaul", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/Stack_Size_Overhaul.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Stack_Size_Overhaul-v1.3"}, {"name": "Passive Ore Extractor Drills", "folder": "Passive_Ore_Extractor_Drills", "version": "7.5", "description": "23 passive ore extractors with drill visuals.", "category": "Economy & Resources", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Passive_Ore_Extractor_Drills", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Passive_Ore_Extractor_Drills/Passive_Ore_Extractor_Drills.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Passive_Ore_Extractor_Drills-v7.5"}, {"name": "Waste Not", "folder": "Waste_Not", "version": "2.2", "description": "Mining yields useful secondary resources instead of Stone.", "category": "Economy & Resources", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Waste_Not", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Waste_Not/Waste_Not.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Waste_Not-v2.2"}, {"name": "Tier Upgrade Forge", "folder": "Tier_Upgrade_Forge", "version": "1.1", "description": "Upgrade tools and weapons to the next tier without rebuilding from scratch.", "category": "Economy & Resources", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Tier_Upgrade_Forge", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Tier_Upgrade_Forge/Tier_Upgrade_Forge.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Tier_Upgrade_Forge-v1.1"}, {"name": "No Food Spoilage", "folder": "No_Food_Spoilage", "version": "2.0", "description": "Prevents all food spoilage.", "category": "Food & Consumables", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/No_Food_Spoilage", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/No_Food_Spoilage.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/No_Food_Spoilage-v2.0"}, {"name": "Extended Spoil Timers", "folder": "Extended_Spoil_Timers", "version": "1.2", "description": "Extends decay timers on 33 items.", "category": "Food & Consumables", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Extended_Spoil_Timers", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Spoil_Timers/Extended_Spoil_Timers.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Extended_Spoil_Timers-v1.2"}, {"name": "Culinex Food Boost Fix", "folder": "Culinex_Food_Boost_Fix", "version": "2.7", "description": "Fixes Chef's Backpack 25% food effectiveness boost for all 206 foods/drinks/tonics.", "category": "Food & Consumables", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Culinex_Food_Boost_Fix", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/Culinex_Food_Boost_Fix.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Culinex_Food_Boost_Fix-v2.7"}, {"name": "Fish and Farming Boost", "folder": "Fish_Farming_Boost", "version": "1.1", "description": "390 changes: crops grow 2x faster across 211 growth states, harvests +50%, +2 cultivations, 57 fish spawn zones doubled, fish quality +50%.", "category": "Food & Consumables", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Fish_Farming_Boost", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Fish_Farming_Boost/Fish_Farming_Boost.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Fish_Farming_Boost-v1.1"}, {"name": "Indestructible Tools & Weapons", "folder": "Indestructible_Tools_Weapons", "version": "1.8", "description": "Maximum durability on all tools, weapons, armor, buildings, doors, and crafting stations.", "category": "Quality of Life", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Indestructible_Tools_Weapons", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/Indestructible_Tools_Weapons.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Indestructible_Tools_Weapons-v1.8"}, {"name": "MoreEyeColours", "folder": "MoreEyeColours", "version": "2.0", "description": "Massive eye color expansion - 60 new colors across greens, ambers, purples, blues, greys, reds, and exotics (69 total).", "category": "Quality of Life", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/MoreEyeColours", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/MoreEyeColours/MoreEyeColours.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/MoreEyeColours-v2.0"}, {"name": "ModularAfflictionAdjuster", "folder": "Modular_Affliction_Adjuster", "version": "2.0", "description": "Comprehensive affliction adjustment - reduces stat penalties by ~50%, extends escalation times by ~50%, and reduces damage over time by ~50%.", "category": "Quality of Life", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Modular_Affliction_Adjuster", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Affliction_Adjuster/Modular_Affliction_Adjuster.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Modular_Affliction_Adjuster-v2.0"}, {"name": "ModularBuffEnhancer", "folder": "Modular_Buff_Enhancer", "version": "1.1", "description": "Comprehensive buff enhancement - 83 core buffs plus 156 food buffs, all boosted by ~50%.", "category": "Quality of Life", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Modular_Buff_Enhancer", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Buff_Enhancer/Modular_Buff_Enhancer.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Modular_Buff_Enhancer-v1.1"}, {"name": "Agents Optimization Mod", "folder": "Performance_Optimizer", "version": "2.2", "description": "Comprehensive FPS optimization - PAK config overrides (foliage/shadow/fog/LOD reduction) plus data table changes (reduced spawns, slower hordes, ex...", "category": "Quality of Life", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/Performance_Optimizer", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/Performance_Optimizer.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/Performance_Optimizer-v2.2"}, {"name": "Absolute Chaos - Core", "folder": "AbsoluteChaos_Core", "version": "0.2.1", "description": "Base layer of the Absolute Chaos modpack.", "category": "Mod Packs", "readme": "https://github.com/AgentKush/Icarus-mods/tree/main/AbsoluteChaos_Core", "download": "https://github.com/AgentKush/Icarus-mods/raw/main/AbsoluteChaos_Core/AbsoluteChaos_Core.EXMODZ", "release": "https://github.com/AgentKush/Icarus-mods/releases/tag/AbsoluteChaos_Core-v0.2.1"}];
+
+const CATEGORY_ICONS = {
+    "Workshop & Items": "🏪",
+    "Building & Construction": "🏗️",
+    "Processing Speed": "⚡",
+    "Combat & Defense": "⚔️",
+    "Survival & Difficulty": "💀",
+    "Economy & Resources": "💎",
+    "Food & Consumables": "🍖",
+    "Quality of Life": "✨",
+    "Mod Packs": "📦"
+};
+
+function renderCatalog(mods) {
+    const catalog = document.getElementById('mod-catalog');
+    const categories = {};
+
+    mods.forEach(mod => {
+        if (!categories[mod.category]) categories[mod.category] = [];
+        categories[mod.category].push(mod);
+    });
+
+    let html = '';
+    for (const [cat, catMods] of Object.entries(categories)) {
+        const icon = CATEGORY_ICONS[cat] || "📁";
+        html += `<div class="category" data-category="${cat}">
+            <h2>${icon} ${cat}</h2>
+            <div class="mod-grid">`;
+
+        catMods.forEach(mod => {
+            html += `<div class="mod-card" data-name="${mod.name.toLowerCase()}" data-desc="${mod.description.toLowerCase()}">
+                <div class="mod-header">
+                    <span class="mod-name">${mod.name}</span>
+                    <span class="mod-version">v${mod.version}</span>
+                </div>
+                <div class="mod-desc">${mod.description}</div>
+                <div class="mod-actions">
+                    <a href="${mod.download}" class="download-btn">Download</a>
+                    <a href="${mod.readme}">README</a>
+                    <a href="${mod.release}">Release</a>
+                </div>
+            </div>`;
+        });
+
+        html += `</div></div>`;
+    }
+
+    catalog.innerHTML = html;
+}
+
+function filterMods(query) {
+    query = query.toLowerCase().trim();
+    document.querySelectorAll('.mod-card').forEach(card => {
+        const name = card.dataset.name;
+        const desc = card.dataset.desc;
+        const match = !query || name.includes(query) || desc.includes(query);
+        card.classList.toggle('hidden', !match);
+    });
+
+    document.querySelectorAll('.category').forEach(cat => {
+        const visible = cat.querySelectorAll('.mod-card:not(.hidden)').length;
+        cat.classList.toggle('hidden', visible === 0);
+    });
+}
+
+renderCatalog(MODS);
+</script>
+
+</body>
+</html>
