@@ -1,12 +1,12 @@
 # Workshop Recyclers
 
-![Version](https://img.shields.io/badge/version-5.2-blue)
+![Version](https://img.shields.io/badge/version-5.3-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
 ## Overview
 
-Introduces two dedicated recycling machines that enable full material recovery from both Workshop purchases and crafted items. Returns **100% of original Workshop costs** — including Ren, Exotics (purple), Red Exotics, Biomass, and Uranium. Deconstruction stops at processed materials (ingots, refined goods) — no raw ores or pyritic crusts.
+Introduces two dedicated recycling machines that enable full material recovery from both Workshop purchases and crafted items, plus an **Incinerator** for instant item destruction. Returns **100% of original Workshop costs** — including Ren, Exotics (purple), Red Exotics, Biomass, and Uranium. Deconstruction stops at processed materials (ingots, refined goods) — no raw ores or pyritic crusts.
 
 ## Features
 
@@ -28,13 +28,25 @@ Introduces two dedicated recycling machines that enable full material recovery f
 | Function | Recycles workshop items into currencies AND crafted items into materials |
 | Repair Materials | Electronics (hammer repairable) |
 
+### Incinerator
+
+| Specification | Value |
+|---------------|-------|
+| Base Machine | Electric Furnace visual |
+| Crafted At | Fabricator / Manufacturer |
+| Function | Instantly destroys any item — no output |
+| Power | Electric (2,500 mW) |
+| Unlock | Requires Organic Recycler talent |
+| Recipes | 2,168 items |
+
 ### Combined Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Recipes | 2,285 |
+| Total Recipes | 4,454 |
 | Workshop Items Recyclable | 335 |
 | Crafted Items Deconstructable | 1,948 |
+| Incineratable Items | 2,168 |
 
 ## Currency Returns
 
@@ -79,18 +91,18 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 2,298 |
-| New Machines | 2 |
-| Recipe Entries | 2,285 |
+| Total Modifications | 4,473 |
+| New Machines | 3 |
+| Recipe Entries | 4,454 |
 
 ### Files Modified
-- `Crafting-D_RecipeSets.json` (2 entries)
-- `Traits-D_Processing.json` (2 entries)
-- `Traits-D_Itemable.json` (2 entries)
-- `Items-D_ItemsStatic.json` (2 entries)
-- `Items-D_ItemTemplate.json` (2 entries)
-- `Talents-D_Talents.json` (2 entries)
-- `Crafting-D_ProcessorRecipes.json` (2,285 entries)
+- `Crafting-D_RecipeSets.json` (3 entries)
+- `Traits-D_Processing.json` (3 entries)
+- `Traits-D_Itemable.json` (3 entries)
+- `Items-D_ItemsStatic.json` (3 entries)
+- `Items-D_ItemTemplate.json` (3 entries)
+- `Talents-D_Talents.json` (3 entries)
+- `Crafting-D_ProcessorRecipes.json` (4,454 entries)
 - `Traits-D_Durable.json` (1 entry)
 
 
@@ -111,7 +123,9 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 - Enables inventory cleanup with zero loss
 - Strategic for managing Workshop credit and exotic economy
 - Useful for recovering materials from outdated gear
-- Both machines repairable with Electronics + any hammer
+- **Incinerator** instantly destroys any item — good for clearing junk inventory
+- Incinerator crafted at Fabricator (20 Steel Ingot, 10 Electronics, 40 Concrete Mix, 4 Glass)
+- All three machines repairable with Electronics + any hammer
 
 ## Compatibility
 
@@ -126,6 +140,7 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 
 | Version | Changes |
 |---------|---------|
+| 5.3 | **New machine: Incinerator.** Electric-powered processor that instantly destroys any item with no output. 2,168 incinerate recipes covering every recyclable/deconstructable item. Crafted at Fabricator/Manufacturer. Unlocked after Organic Recycler. |
 | 5.2 | **Crash fix:** Fixed EXCEPTION_ACCESS_VIOLATION crash caused by incorrect DataTableName references in v5.1 recipes. All recipe outputs now correctly use D_ItemTemplate, all inputs use D_ItemsStatic. Fixed 130 input RowName mismatches from new recipes using D_ItemTemplate names instead of D_ItemsStatic names. |
 | 5.1 | Added 158 new recipes: 6 mission items (Gyro, Navigation, Thruster, Enzyme Storage, High-Tech Assembled, Recombined Tech), 10 DLC items (Lava Hunter trophies, Homestead decor), 29 national flags, 18 missing workshop items (Carbon Armor Alpha/Beta, Larkwell White armor, Shengong hammers/sickles, Biolab inhalers, Inaris items, 9Diamonds Shield), 30 food recipes, 16 furniture/decor, 13 armor/equipment, 10 stations/deployables, 26 misc (fertility serums, saddles, platinum tools, building pieces). All Deconstruct recipes return 100% crafting materials. All 333 workshop items now covered. |
 | 5.0 | **Complete rebuild:** Fixed root cause of all currency outputs failing — processor recipes cannot output D_MetaCurrency, so all 317 workshop recycle recipes now output physical items (Ren, Meta_Resource, Exotic_Red, Biomass, Uranium_Rod) via D_ItemTemplate. Regenerated all 1,808 deconstruct recipes from current game data using ItemStaticData lookup. Removed 30 raw ore and pyritic crust deconstruct recipes, stripped ore/crust outputs from 33 more — deconstruction now stops at ingots and refined materials. All crafting times matched to base game. Zero broken references. |

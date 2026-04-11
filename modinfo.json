@@ -27,9 +27,9 @@
         {
             "name": "Workshop Recyclers",
             "author": "AgentKush",
-            "version": "5.2",
+            "version": "5.3",
             "compatibility": "All",
-            "description": "Two recycling machines (Biofuel T3 + Organic T4). 2,285 recipes: 1,948 deconstruct + 335 recycle + 2 crafting. v5.2: Fixed crash (EXCEPTION_ACCESS_VIOLATION) from incorrect DataTableName references. Fixed 130 input RowName mismatches. All outputs D_ItemTemplate, all inputs D_ItemsStatic. 100% material returns.",
+            "description": "Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 4,454 recipes: 1,948 deconstruct + 335 recycle + 2,168 incinerate + 3 crafting. v5.3: New Incinerator machine — electric processor that instantly destroys any item. 100% material returns on recycling.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Workshop_Recyclers.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
             "files": {
