@@ -3,7 +3,7 @@
     "author": "AgentKush",
     "fileName": "Passive_Ore_Extractor_Drills",
     "version": "7.5",
-    "description": "23 passive ore extractors — one per ore type. Place anywhere, connect power, load Stone. Uses drill-visual processor for passive mining.",
+    "description": "23 passive ore extractors - one per ore type. Place anywhere, connect power, load Stone. Uses drill-visual processor for passive mining.",
     "week": "All",
     "Level2": "True",
     "Rows": [

@@ -6,7 +6,7 @@
 
 ## Description
 
-23 passive ore extractors — one per ore type. Place anywhere, connect power, load Stone. Uses drill-visual processor for passive mining.
+23 passive ore extractors - one per ore type. Place anywhere, connect power, load Stone. Uses drill-visual processor for passive mining.
 
 ## How It Works
 
