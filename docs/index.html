@@ -63,6 +63,9 @@
 </head>
 <body>
 
+<!-- Skip to main content (accessibility) -->
+<a href="#mod-catalog" class="skip-link">Skip to mods</a>
+
 <!-- Film grain overlay -->
 <div class="grain-overlay" aria-hidden="true"></div>
 
@@ -98,7 +101,8 @@
     <div class="nav-inner">
         <div class="nav-top">
             <div class="nav-brand">AGENTKUSH</div>
-            <div class="nav-search"><input type="text" id="search" placeholder="Search mods..." oninput="filterMods(this.value)"></div>
+            <div class="nav-search"><input type="text" id="search" placeholder="Search mods... (press /)" oninput="filterMods(this.value)" aria-label="Search mods" autocomplete="off"><div class="autocomplete-dropdown hidden" id="autocomplete" role="listbox"></div></div>
+            <div class="sort-control"><label for="sort-select" class="sr-only">Sort mods</label><select id="sort-select" onchange="applySort(this.value)"><option value="category">Sort: Category</option><option value="name">Sort: A-Z</option><option value="downloads">Sort: Downloads</option><option value="version">Sort: Version</option></select></div>
         </div>
         <div class="filter-chips" id="filter-chips"></div>
     </div>
@@ -106,7 +110,7 @@
 
 <div class="featured-section" id="featured-section"></div>
 <div class="container">
-    <div id="mod-catalog"></div>
+    <div id="mod-catalog" aria-live="polite"></div>
     <div class="no-results hidden" id="no-results"><span class="emoji">🔍</span><p>No mods found matching your search</p></div>
 </div>
 <div class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</div>

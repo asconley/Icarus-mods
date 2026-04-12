@@ -4,14 +4,17 @@
    for API calls (download counts)
    ═══════════════════════════════════════════ */
 
-const CACHE_NAME = 'agentkush-mods-v1';
+const CACHE_NAME = 'agentkush-mods-v2';
 const STATIC_ASSETS = [
     './',
     './index.html',
     './style.css',
     './script.js',
+    './particle-worker.js',
     './manifest.json',
     './og-image.png',
+    './icon-192x192.png',
+    './icon-512x512.png',
     './404.html',
     'https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap',
     'https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js'

@@ -93,6 +93,8 @@ const FEATURED_MODS=["Workshop_Recyclers","Agents_Individual_Item_Kits","Passive
 const CATEGORY_ICONS={"Workshop & Items":"🏪","Building & Construction":"🏗️","Processing Speed":"⚡","Combat & Defense":"⚔️","Survival & Difficulty":"💀","Economy & Resources":"💎","Food & Consumables":"🍖","Quality of Life":"✨","Mod Packs":"📦"};
 const CATEGORY_ORDER=["Workshop & Items","Building & Construction","Processing Speed","Combat & Defense","Survival & Difficulty","Economy & Resources","Food & Consumables","Quality of Life","Mod Packs"];
 let activeCategory=null;
+let activeSort='category';
+let downloadCounts={}; // populated by fetchDownloads
 
 // --- FEATURED ---
 function renderFeatured(){
@@ -147,6 +149,45 @@ function filterMods(q){
     });
     document.querySelectorAll('.category').forEach(c=>{c.classList.toggle('hidden',c.querySelectorAll('.mod-card:not(.hidden)').length===0)});
     document.getElementById('no-results').classList.toggle('hidden',any);
+    pushURLState(q);
+    updateAutocomplete(q);
+}
+
+// --- URL STATE (shareable links) ---
+function pushURLState(q) {
+    const params = new URLSearchParams();
+    if (activeCategory) params.set('category', activeCategory);
+    if (q) params.set('q', q);
+    if (activeSort !== 'category') params.set('sort', activeSort);
+    const qs = params.toString();
+    const url = qs ? `${location.pathname}?${qs}` : location.pathname;
+    history.replaceState(null, '', url);
+}
+
+function restoreURLState() {
+    const params = new URLSearchParams(location.search);
+    const cat = params.get('category');
+    const q = params.get('q') || '';
+    const sort = params.get('sort') || 'category';
+
+    if (q) {
+        document.getElementById('search').value = q;
+    }
+    if (cat && CATEGORY_ORDER.includes(cat)) {
+        activeCategory = cat;
+        document.querySelectorAll('.chip').forEach(c => {
+            const isMatch = c.textContent.includes(cat);
+            c.classList.toggle('active', isMatch);
+            if (c.textContent === 'All') c.classList.toggle('active', !cat);
+        });
+    }
+    if (sort !== 'category') {
+        activeSort = sort;
+        const sel = document.getElementById('sort-select');
+        if (sel) sel.value = sort;
+        applySort(sort);
+    }
+    if (q || cat) filterMods(q);
 }
 
 // --- SCROLL ANIMATIONS ---
@@ -172,9 +213,9 @@ window.addEventListener('scroll', () => {
 async function fetchDownloads(){
     let p=1,all=[];
     while(true){try{const r=await fetch(`https://api.github.com/repos/AgentKush/Icarus-mods/releases?per_page=100&page=${p}`);if(!r.ok)break;const d=await r.json();if(!d.length)break;all=all.concat(d);if(d.length<100)break;p++}catch(e){break}}
-    const counts={};let total=0;
-    all.forEach(r=>{const f=(r.tag_name||'').replace(/-v[\d.]+$/,'');const dl=(r.assets||[]).reduce((s,a)=>s+(a.download_count||0),0);counts[f]=(counts[f]||0)+dl;total+=dl});
-    MODS.forEach(m=>{const el=document.getElementById('dl-'+m.folder);if(el){const c=counts[m.folder]||0;el.textContent=c>0?c.toLocaleString()+' downloads':''}});
+    let total=0;
+    all.forEach(r=>{const f=(r.tag_name||'').replace(/-v[\d.]+$/,'');const dl=(r.assets||[]).reduce((s,a)=>s+(a.download_count||0),0);downloadCounts[f]=(downloadCounts[f]||0)+dl;total+=dl});
+    MODS.forEach(m=>{const el=document.getElementById('dl-'+m.folder);if(el){const c=downloadCounts[m.folder]||0;el.textContent=c>0?c.toLocaleString()+' downloads':''}});
     const dlEl=document.getElementById('dl-total');if(dlEl){dlEl.textContent=total>0?total.toLocaleString():'—'}
 }
 
@@ -375,6 +416,238 @@ function prefersReducedMotion() {
     return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 }
 
+/* ═══════════════════════════════════════════
+   SORT, AUTOCOMPLETE, MODAL, KEYBOARD
+   ═══════════════════════════════════════════ */
+
+// --- SORT ---
+function applySort(sortBy) {
+    activeSort = sortBy;
+    const catalog = document.getElementById('mod-catalog');
+    if (sortBy === 'category') {
+        // Re-render default category layout
+        renderCatalog(MODS);
+        filterMods(document.getElementById('search').value);
+        return;
+    }
+
+    // Flat sort: collect all visible mod cards into a single grid
+    let sorted = [...MODS];
+    if (sortBy === 'name') {
+        sorted.sort((a, b) => a.name.localeCompare(b.name));
+    } else if (sortBy === 'downloads') {
+        sorted.sort((a, b) => (downloadCounts[b.folder] || 0) - (downloadCounts[a.folder] || 0));
+    } else if (sortBy === 'version') {
+        sorted.sort((a, b) => {
+            const pa = a.version.split('.').map(Number);
+            const pb = b.version.split('.').map(Number);
+            for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+                const diff = (pb[i] || 0) - (pa[i] || 0);
+                if (diff !== 0) return diff;
+            }
+            return 0;
+        });
+    }
+
+    let html = '<div class="mod-grid stagger-children">';
+    sorted.forEach(m => {
+        html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}"><div class="mod-header"><span class="mod-name">${m.name}</span><span class="mod-version">v${m.version}</span></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}">${downloadCounts[m.folder] ? downloadCounts[m.folder].toLocaleString() + ' downloads' : ''}</span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
+    });
+    html += '</div>';
+    catalog.innerHTML = html;
+    observeRevealElements();
+    filterMods(document.getElementById('search').value);
+    pushURLState(document.getElementById('search').value);
+}
+
+// --- AUTOCOMPLETE ---
+let acIndex = -1; // active autocomplete index
+
+function updateAutocomplete(q) {
+    const dropdown = document.getElementById('autocomplete');
+    if (!dropdown) return;
+
+    if (!q || q.length < 2) {
+        dropdown.classList.add('hidden');
+        dropdown.innerHTML = '';
+        acIndex = -1;
+        return;
+    }
+
+    const matches = MODS.filter(m =>
+        m.name.toLowerCase().includes(q) || m.description.toLowerCase().includes(q)
+    ).slice(0, 6);
+
+    if (!matches.length) {
+        dropdown.classList.add('hidden');
+        dropdown.innerHTML = '';
+        acIndex = -1;
+        return;
+    }
+
+    dropdown.innerHTML = matches.map((m, i) => {
+        // Highlight matching text in name
+        const nameHtml = highlightMatch(m.name, q);
+        return `<div class="autocomplete-item" role="option" data-index="${i}" onclick="selectAutocomplete('${m.name.replace(/'/g, "\\'")}')">${nameHtml}<span class="ac-category">${CATEGORY_ICONS[m.category] || ''} ${m.category}</span></div>`;
+    }).join('');
+
+    dropdown.classList.remove('hidden');
+    acIndex = -1;
+}
+
+function highlightMatch(text, query) {
+    const idx = text.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return text;
+    return text.substring(0, idx) + '<mark>' + text.substring(idx, idx + query.length) + '</mark>' + text.substring(idx + query.length);
+}
+
+function selectAutocomplete(name) {
+    const search = document.getElementById('search');
+    search.value = name;
+    filterMods(name);
+    document.getElementById('autocomplete').classList.add('hidden');
+    search.focus();
+}
+
+function navigateAutocomplete(direction) {
+    const items = document.querySelectorAll('.autocomplete-item');
+    if (!items.length) return;
+    items.forEach(i => i.classList.remove('active'));
+    acIndex += direction;
+    if (acIndex < 0) acIndex = items.length - 1;
+    if (acIndex >= items.length) acIndex = 0;
+    items[acIndex].classList.add('active');
+    items[acIndex].scrollIntoView({ block: 'nearest' });
+}
+
+// --- MOD DETAIL MODAL ---
+function createModal() {
+    if (document.getElementById('mod-modal')) return;
+    const overlay = document.createElement('div');
+    overlay.className = 'modal-overlay';
+    overlay.id = 'mod-modal';
+    overlay.innerHTML = '<div class="modal-content" role="dialog" aria-modal="true"><button class="modal-close" aria-label="Close" onclick="closeModal()">&times;</button><div id="modal-body"></div></div>';
+    document.body.appendChild(overlay);
+
+    // Close on overlay click
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) closeModal();
+    });
+}
+
+function openModal(folder) {
+    const mod = MODS.find(m => m.folder === folder);
+    if (!mod) return;
+
+    createModal();
+    const body = document.getElementById('modal-body');
+    const dl = downloadCounts[folder] || 0;
+
+    body.innerHTML = `
+        <div class="modal-title">${mod.name}</div>
+        <span class="modal-version">v${mod.version}</span>
+        <div class="modal-category">${CATEGORY_ICONS[mod.category] || ''} ${mod.category}</div>
+        ${dl > 0 ? `<div class="modal-downloads">${dl.toLocaleString()} downloads</div>` : ''}
+        <div class="modal-desc">${mod.description}</div>
+        <div class="modal-actions">
+            <a href="${mod.download}" class="download-btn">Download</a>
+            <a href="${mod.readme}">README</a>
+            <a href="${mod.release}">Release</a>
+        </div>
+    `;
+
+    const modal = document.getElementById('mod-modal');
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+
+    // Focus trap: focus close button
+    modal.querySelector('.modal-close').focus();
+}
+
+function closeModal() {
+    const modal = document.getElementById('mod-modal');
+    if (modal) {
+        modal.classList.remove('open');
+        document.body.style.overflow = '';
+    }
+}
+
+// Click handler for mod cards — open modal on card body click (not action links)
+function initCardClickModal() {
+    document.addEventListener('click', (e) => {
+        // Don't trigger modal if clicking a link/button
+        if (e.target.closest('a, button')) return;
+        const card = e.target.closest('.mod-card');
+        if (card && card.dataset.folder) {
+            openModal(card.dataset.folder);
+        }
+    });
+}
+
+// --- KEYBOARD SHORTCUTS ---
+function initKeyboardShortcuts() {
+    document.addEventListener('keydown', (e) => {
+        const search = document.getElementById('search');
+        const modal = document.getElementById('mod-modal');
+        const dropdown = document.getElementById('autocomplete');
+        const isSearchFocused = document.activeElement === search;
+
+        // Escape: close modal or clear search
+        if (e.key === 'Escape') {
+            if (modal && modal.classList.contains('open')) {
+                closeModal();
+                e.preventDefault();
+                return;
+            }
+            if (isSearchFocused) {
+                search.value = '';
+                filterMods('');
+                search.blur();
+                e.preventDefault();
+                return;
+            }
+            if (dropdown && !dropdown.classList.contains('hidden')) {
+                dropdown.classList.add('hidden');
+                e.preventDefault();
+                return;
+            }
+        }
+
+        // "/" to focus search (when not already in an input)
+        if (e.key === '/' && !isSearchFocused && !e.ctrlKey && !e.metaKey) {
+            const tag = document.activeElement?.tagName;
+            if (tag !== 'INPUT' && tag !== 'TEXTAREA' && tag !== 'SELECT') {
+                e.preventDefault();
+                search.focus();
+                search.select();
+            }
+        }
+
+        // Arrow keys in autocomplete
+        if (isSearchFocused && dropdown && !dropdown.classList.contains('hidden')) {
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                navigateAutocomplete(1);
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                navigateAutocomplete(-1);
+            } else if (e.key === 'Enter' && acIndex >= 0) {
+                e.preventDefault();
+                const items = document.querySelectorAll('.autocomplete-item');
+                if (items[acIndex]) items[acIndex].click();
+            }
+        }
+    });
+
+    // Close autocomplete on click outside
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.nav-search')) {
+            const dropdown = document.getElementById('autocomplete');
+            if (dropdown) dropdown.classList.add('hidden');
+        }
+    });
+}
+
 // --- INIT ---
 renderFeatured();
 renderChips();
@@ -382,6 +655,11 @@ renderCatalog(MODS);
 fetchDownloads();
 document.querySelectorAll('.hero .reveal').forEach(el => el.classList.add('visible'));
 animateCounters();
+
+// New features
+initCardClickModal();
+initKeyboardShortcuts();
+restoreURLState();
 
 // --- SERVICE WORKER REGISTRATION ---
 if ('serviceWorker' in navigator) {
