@@ -65,7 +65,10 @@
         /* Nav */
         .nav-bar{position:sticky;top:0;z-index:100;background:#0b1018e0;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:12px 20px;transition:box-shadow .3s}
         .nav-bar.scrolled{box-shadow:0 4px 30px rgba(0,0,0,.5)}
-        .nav-inner{max-width:1300px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}
+        .nav-inner{max-width:1300px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:10px}
+        .nav-top{display:flex;align-items:center;gap:16px;width:100%}
+        .nav-top .nav-brand{margin-right:auto}
+        .nav-top .nav-search{flex:1;max-width:400px}
         .nav-brand{font-family:'Orbitron',sans-serif;font-size:1rem;font-weight:700;color:var(--icarus);white-space:nowrap}
         .nav-search{flex:1;min-width:200px;max-width:400px}
         .nav-search input{width:100%;padding:8px 14px;border-radius:var(--radius-sm);border:1px solid var(--border);background:var(--bg-surface);color:var(--text-primary);font-size:.9rem;transition:border-color .2s,box-shadow .2s}
@@ -140,7 +143,7 @@
             .hero h1{font-size:2rem}.hero{padding:50px 16px 40px}
             .stat-box{min-width:90px;padding:12px 16px}.stat-box .number{font-size:1.2rem}
             .mod-grid,.featured-grid{grid-template-columns:1fr}
-            .nav-inner{gap:8px}.nav-brand{display:none}.filter-chips{display:none}.nav-search{max-width:100%}
+            .nav-inner{gap:8px}.nav-brand{display:none}.filter-chips{display:none}.nav-top .nav-search{max-width:100%}
         }
         @media(max-width:480px){.hero h1{font-size:1.5rem;letter-spacing:0}.stats{gap:8px}.stat-box{min-width:70px;padding:10px 12px}}
     </style>
@@ -174,8 +177,10 @@
 
 <nav class="nav-bar" id="navbar">
     <div class="nav-inner">
-        <div class="nav-brand">AGENTKUSH</div>
-        <div class="nav-search"><input type="text" id="search" placeholder="Search mods..." oninput="filterMods(this.value)"></div>
+        <div class="nav-top">
+            <div class="nav-brand">AGENTKUSH</div>
+            <div class="nav-search"><input type="text" id="search" placeholder="Search mods..." oninput="filterMods(this.value)"></div>
+        </div>
         <div class="filter-chips" id="filter-chips"></div>
     </div>
 </nav>
