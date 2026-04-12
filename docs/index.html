@@ -65,13 +65,13 @@
         /* Nav */
         .nav-bar{position:sticky;top:0;z-index:100;background:#0b1018e0;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:12px 20px;transition:box-shadow .3s}
         .nav-bar.scrolled{box-shadow:0 4px 30px rgba(0,0,0,.5)}
-        .nav-inner{max-width:1300px;margin:0 auto;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+        .nav-inner{max-width:1300px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}
         .nav-brand{font-family:'Orbitron',sans-serif;font-size:1rem;font-weight:700;color:var(--icarus);white-space:nowrap}
         .nav-search{flex:1;min-width:200px;max-width:400px}
         .nav-search input{width:100%;padding:8px 14px;border-radius:var(--radius-sm);border:1px solid var(--border);background:var(--bg-surface);color:var(--text-primary);font-size:.9rem;transition:border-color .2s,box-shadow .2s}
         .nav-search input::placeholder{color:var(--text-muted)}
         .nav-search input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-glow)}
-        .filter-chips{display:flex;gap:6px;flex-wrap:wrap}
+        .filter-chips{display:flex;justify-content:center;gap:6px;flex-wrap:wrap}
         .chip{padding:5px 12px;border-radius:100px;border:1px solid var(--border);background:transparent;color:var(--text-secondary);font-size:.78rem;cursor:pointer;transition:all .2s;white-space:nowrap}
         .chip:hover{border-color:var(--accent);color:var(--text-primary)}
         .chip.active{background:var(--accent);border-color:var(--accent);color:#000;font-weight:600}
@@ -157,6 +157,7 @@
     <p class="subtitle">38+ mods for Icarus: First Cohort — from workshop items to full gameplay overhauls</p>
     <div class="stats" id="hero-stats">
         <div class="stat-box reveal"><span class="number">38+</span><span class="label">Mods</span></div>
+        <div class="stat-box reveal" id="dl-stat-box"><span class="number" id="dl-total">—</span><span class="label">Downloads</span></div>
         <div class="stat-box reveal"><span class="number">36,617+</span><span class="label">Data Entries</span></div>
         <div class="stat-box reveal"><span class="number">17,972+</span><span class="label">Recipes</span></div>
         <div class="stat-box reveal"><span class="number">100%</span><span class="label">Free</span></div>
@@ -221,7 +222,7 @@ function observeRevealElements(){const o=new IntersectionObserver(e=>{e.forEach(
 
 window.addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>100);document.getElementById('backToTop').classList.toggle('show',window.scrollY>400)});
 
-async function fetchDownloads(){let p=1,all=[];while(true){try{const r=await fetch(`https://api.github.com/repos/AgentKush/Icarus-mods/releases?per_page=100&page=${p}`);if(!r.ok)break;const d=await r.json();if(!d.length)break;all=all.concat(d);if(d.length<100)break;p++}catch(e){break}}const counts={};let total=0;all.forEach(r=>{const f=(r.tag_name||'').replace(/-v[\d.]+$/,'');const dl=(r.assets||[]).reduce((s,a)=>s+(a.download_count||0),0);counts[f]=(counts[f]||0)+dl;total+=dl});MODS.forEach(m=>{const el=document.getElementById('dl-'+m.folder);if(el){const c=counts[m.folder]||0;el.textContent=c>0?c.toLocaleString()+' downloads':''}});if(total>0){const s=document.getElementById('hero-stats');if(s){const d=document.createElement('div');d.className='stat-box reveal visible';d.innerHTML=`<span class="number">${total.toLocaleString()}</span><span class="label">Downloads</span>`;s.insertBefore(d,s.children[1])}}}
+async function fetchDownloads(){let p=1,all=[];while(true){try{const r=await fetch(`https://api.github.com/repos/AgentKush/Icarus-mods/releases?per_page=100&page=${p}`);if(!r.ok)break;const d=await r.json();if(!d.length)break;all=all.concat(d);if(d.length<100)break;p++}catch(e){break}}const counts={};let total=0;all.forEach(r=>{const f=(r.tag_name||'').replace(/-v[\d.]+$/,'');const dl=(r.assets||[]).reduce((s,a)=>s+(a.download_count||0),0);counts[f]=(counts[f]||0)+dl;total+=dl});MODS.forEach(m=>{const el=document.getElementById('dl-'+m.folder);if(el){const c=counts[m.folder]||0;el.textContent=c>0?c.toLocaleString()+' downloads':''}});const dlEl=document.getElementById('dl-total');if(dlEl){dlEl.textContent=total>0?total.toLocaleString():'—'}}
 
 generateStars();renderFeatured();renderChips();renderCatalog(MODS);fetchDownloads();
 document.querySelectorAll('.hero .reveal').forEach(el=>el.classList.add('visible'));
