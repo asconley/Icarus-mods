@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://agentkush.github.io/Icarus-mods/sitemap.xml

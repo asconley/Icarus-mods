@@ -1,3 +1,0 @@
-"C:\Users\finla\Documents\GitHub\Icarus-mods\Performance_Optimizer\PAK_Build\Icarus\Config\DefaultScalability.ini" "../../../Icarus/Config/DefaultScalability.ini"
-"C:\Users\finla\Documents\GitHub\Icarus-mods\Performance_Optimizer\PAK_Build\Icarus\Config\DefaultEngine.ini" "../../../Icarus/Config/DefaultEngine.ini"
-"C:\Users\finla\Documents\GitHub\Icarus-mods\Performance_Optimizer\PAK_Build\Icarus\Config\DefaultDeviceProfiles.ini" "../../../Icarus/Config/DefaultDeviceProfiles.ini"
