@@ -648,6 +648,274 @@ function initKeyboardShortcuts() {
     });
 }
 
+// --- UPDATE NOTIFICATIONS (new mods since last visit) ---
+function checkForUpdates() {
+    const STORAGE_KEY = 'ak_last_mod_count';
+    try {
+        const lastCount = parseInt(localStorage.getItem(STORAGE_KEY) || '0');
+        const currentCount = MODS.length;
+
+        if (lastCount > 0 && currentCount > lastCount) {
+            const diff = currentCount - lastCount;
+            showUpdateBanner(diff);
+        }
+        localStorage.setItem(STORAGE_KEY, currentCount.toString());
+    } catch (e) {
+        // localStorage not available, skip silently
+    }
+}
+
+function showUpdateBanner(count) {
+    const banner = document.createElement('div');
+    banner.className = 'update-banner';
+    banner.innerHTML = `<span>🆕 ${count} new mod${count > 1 ? 's' : ''} since your last visit!</span><button onclick="this.parentElement.remove()" aria-label="Dismiss">&times;</button>`;
+    // Insert after navbar
+    const nav = document.getElementById('navbar');
+    if (nav) nav.after(banner);
+    // Auto-dismiss after 10s
+    setTimeout(() => { if (banner.parentElement) banner.remove(); }, 10000);
+}
+
+// --- FAVORITES SYSTEM ---
+const FAVORITES_KEY = 'ak_favorites';
+
+function getFavorites() {
+    try {
+        return JSON.parse(localStorage.getItem(FAVORITES_KEY) || '[]');
+    } catch { return []; }
+}
+
+function saveFavorites(favs) {
+    try { localStorage.setItem(FAVORITES_KEY, JSON.stringify(favs)); } catch {}
+}
+
+function toggleFavorite(folder, e) {
+    if (e) { e.stopPropagation(); e.preventDefault(); }
+    let favs = getFavorites();
+    if (favs.includes(folder)) {
+        favs = favs.filter(f => f !== folder);
+    } else {
+        favs.push(folder);
+    }
+    saveFavorites(favs);
+    // Update all heart icons for this folder
+    document.querySelectorAll(`.fav-btn[data-folder="${folder}"]`).forEach(btn => {
+        btn.classList.toggle('favorited', favs.includes(folder));
+        btn.setAttribute('aria-label', favs.includes(folder) ? 'Remove from favorites' : 'Add to favorites');
+    });
+    updateFavChipCount();
+}
+
+function updateFavChipCount() {
+    const chip = document.getElementById('fav-chip');
+    if (!chip) return;
+    const count = getFavorites().length;
+    chip.textContent = count > 0 ? `❤ Favorites (${count})` : '❤ Favorites';
+}
+
+function isFavorited(folder) {
+    return getFavorites().includes(folder);
+}
+
+// --- MOD COMPARISON ---
+let compareList = [];
+
+function toggleCompare(folder, e) {
+    if (e) { e.stopPropagation(); e.preventDefault(); }
+    const idx = compareList.indexOf(folder);
+    if (idx >= 0) {
+        compareList.splice(idx, 1);
+    } else if (compareList.length < 3) {
+        compareList.push(folder);
+    } else {
+        return; // max 3
+    }
+    // Update button states
+    document.querySelectorAll(`.compare-btn[data-folder="${folder}"]`).forEach(btn => {
+        btn.classList.toggle('comparing', compareList.includes(folder));
+    });
+    updateCompareBar();
+}
+
+function updateCompareBar() {
+    let bar = document.getElementById('compare-bar');
+    if (compareList.length === 0) {
+        if (bar) bar.remove();
+        return;
+    }
+    if (!bar) {
+        bar = document.createElement('div');
+        bar.className = 'compare-bar';
+        bar.id = 'compare-bar';
+        document.body.appendChild(bar);
+    }
+    const names = compareList.map(f => {
+        const mod = MODS.find(m => m.folder === f);
+        return mod ? mod.name : f;
+    });
+    bar.innerHTML = `<span>Comparing: ${names.join(' vs ')}</span><div class="compare-bar-actions"><button onclick="openCompareModal()">Compare Now</button><button onclick="clearCompare()" class="compare-clear">Clear</button></div>`;
+}
+
+function clearCompare() {
+    compareList.forEach(f => {
+        document.querySelectorAll(`.compare-btn[data-folder="${f}"]`).forEach(btn => btn.classList.remove('comparing'));
+    });
+    compareList = [];
+    updateCompareBar();
+}
+
+function openCompareModal() {
+    if (compareList.length < 2) return;
+    createModal();
+    const body = document.getElementById('modal-body');
+    const mods = compareList.map(f => MODS.find(m => m.folder === f)).filter(Boolean);
+
+    let html = '<div class="modal-title" style="margin-bottom:16px">Mod Comparison</div>';
+    html += '<div class="compare-grid" style="display:grid;grid-template-columns:repeat(' + mods.length + ',1fr);gap:16px">';
+    mods.forEach(m => {
+        const dl = downloadCounts[m.folder] || 0;
+        html += `<div class="compare-col">
+            <div style="font-weight:700;color:#fff;margin-bottom:6px;font-size:0.95rem">${m.name}</div>
+            <div class="modal-version" style="margin-bottom:8px">v${m.version}</div>
+            <div style="font-size:0.78rem;color:var(--text-muted);margin-bottom:8px">${CATEGORY_ICONS[m.category]||''} ${m.category}</div>
+            ${dl > 0 ? `<div style="font-size:0.82rem;color:var(--accent);margin-bottom:10px">${dl.toLocaleString()} downloads</div>` : ''}
+            <div style="font-size:0.82rem;color:var(--text-secondary);line-height:1.55;margin-bottom:12px">${m.description}</div>
+            <a href="${m.download}" class="download-btn" style="font-size:0.78rem;padding:6px 14px;border-radius:4px;display:inline-block;background:var(--accent);color:#fff;font-weight:600">Download</a>
+        </div>`;
+    });
+    html += '</div>';
+    body.innerHTML = html;
+
+    const modal = document.getElementById('mod-modal');
+    modal.classList.add('open');
+    // Widen modal for comparison
+    modal.querySelector('.modal-content').style.maxWidth = (mods.length * 260 + 80) + 'px';
+    document.body.style.overflow = 'hidden';
+    modal.querySelector('.modal-close').focus();
+}
+
+// Override closeModal to reset width
+const _origCloseModal = closeModal;
+closeModal = function() {
+    const modal = document.getElementById('mod-modal');
+    if (modal) {
+        modal.classList.remove('open');
+        document.body.style.overflow = '';
+        const content = modal.querySelector('.modal-content');
+        if (content) content.style.maxWidth = '';
+    }
+};
+
+// --- CHANGELOG / WHAT'S NEW ---
+function renderChangelog() {
+    const section = document.getElementById('changelog-section');
+    if (!section) return;
+
+    // Fetch recent releases to build a "What's New" feed
+    fetch('https://api.github.com/repos/AgentKush/Icarus-mods/releases?per_page=8')
+        .then(r => r.ok ? r.json() : [])
+        .then(releases => {
+            if (!releases.length) { section.classList.add('hidden'); return; }
+
+            let html = '<div class="changelog-header"><h2>What\'s New</h2></div><div class="changelog-list">';
+            releases.slice(0, 6).forEach(r => {
+                const name = r.name || r.tag_name || 'Update';
+                const date = new Date(r.published_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                const body = (r.body || '').split('\n').filter(l => l.trim()).slice(0, 3).join(' ').substring(0, 150);
+                html += `<div class="changelog-item"><div class="changelog-date">${date}</div><div class="changelog-name">${name}</div>${body ? `<div class="changelog-body">${body}${body.length >= 150 ? '...' : ''}</div>` : ''}</div>`;
+            });
+            html += '</div>';
+            section.innerHTML = html;
+            section.classList.remove('hidden');
+        })
+        .catch(() => { section.classList.add('hidden'); });
+}
+
+// --- INJECT FAVORITE + COMPARE BUTTONS INTO CARD RENDERING ---
+// Override renderCatalog to include fav/compare buttons
+const _origRenderCatalog = renderCatalog;
+renderCatalog = function(mods) {
+    const catalog = document.getElementById('mod-catalog');
+    const categories = {};
+    CATEGORY_ORDER.forEach(c => { categories[c] = []; });
+    mods.forEach(m => { if (!categories[m.category]) categories[m.category] = []; categories[m.category].push(m); });
+    let html = '';
+    for (const cat of CATEGORY_ORDER) {
+        const cm = categories[cat]; if (!cm || !cm.length) continue;
+        const icon = CATEGORY_ICONS[cat] || "📁";
+        html += `<div class="category reveal" data-category="${cat}"><div class="category-header"><div class="category-icon">${icon}</div><h2>${cat}</h2><span class="category-count">${cm.length} mods</span></div><div class="mod-grid stagger-children">`;
+        cm.forEach(m => {
+            const faved = isFavorited(m.folder);
+            html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}"><div class="mod-header"><span class="mod-name">${m.name}</span><div class="mod-header-actions"><button class="fav-btn${faved ? ' favorited' : ''}" data-folder="${m.folder}" onclick="toggleFavorite('${m.folder}',event)" aria-label="${faved ? 'Remove from favorites' : 'Add to favorites'}">♥</button><button class="compare-btn${compareList.includes(m.folder) ? ' comparing' : ''}" data-folder="${m.folder}" onclick="toggleCompare('${m.folder}',event)" aria-label="Compare">⚖</button><span class="mod-version">v${m.version}</span></div></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}"></span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
+        });
+        html += '</div></div>';
+    }
+    catalog.innerHTML = html;
+    observeRevealElements();
+};
+
+// Also update applySort to include fav/compare buttons in flat mode
+const _origApplySort = applySort;
+applySort = function(sortBy) {
+    activeSort = sortBy;
+    if (sortBy === 'category') {
+        renderCatalog(MODS);
+        filterMods(document.getElementById('search').value);
+        return;
+    }
+    let sorted = [...MODS];
+    if (sortBy === 'name') sorted.sort((a, b) => a.name.localeCompare(b.name));
+    else if (sortBy === 'downloads') sorted.sort((a, b) => (downloadCounts[b.folder] || 0) - (downloadCounts[a.folder] || 0));
+    else if (sortBy === 'version') {
+        sorted.sort((a, b) => {
+            const pa = a.version.split('.').map(Number), pb = b.version.split('.').map(Number);
+            for (let i = 0; i < Math.max(pa.length, pb.length); i++) { const d = (pb[i]||0) - (pa[i]||0); if (d !== 0) return d; } return 0;
+        });
+    }
+    const catalog = document.getElementById('mod-catalog');
+    let html = '<div class="mod-grid stagger-children">';
+    sorted.forEach(m => {
+        const faved = isFavorited(m.folder);
+        html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}"><div class="mod-header"><span class="mod-name">${m.name}</span><div class="mod-header-actions"><button class="fav-btn${faved ? ' favorited' : ''}" data-folder="${m.folder}" onclick="toggleFavorite('${m.folder}',event)" aria-label="${faved ? 'Remove from favorites' : 'Add to favorites'}">♥</button><button class="compare-btn${compareList.includes(m.folder) ? ' comparing' : ''}" data-folder="${m.folder}" onclick="toggleCompare('${m.folder}',event)" aria-label="Compare">⚖</button><span class="mod-version">v${m.version}</span></div></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}">${downloadCounts[m.folder] ? downloadCounts[m.folder].toLocaleString() + ' downloads' : ''}</span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
+    });
+    html += '</div>';
+    catalog.innerHTML = html;
+    observeRevealElements();
+    filterMods(document.getElementById('search').value);
+    pushURLState(document.getElementById('search').value);
+};
+
+// Update renderChips to add Favorites chip
+const _origRenderChips = renderChips;
+renderChips = function() {
+    const c = document.getElementById('filter-chips');
+    const favCount = getFavorites().length;
+    let h = '<span class="chip active" onclick="setCategory(null,this)">All</span>';
+    h += `<span class="chip chip-fav" id="fav-chip" onclick="setCategory('__favorites__',this)">❤ Favorites${favCount > 0 ? ' (' + favCount + ')' : ''}</span>`;
+    CATEGORY_ORDER.forEach(cat => { h += `<span class="chip" onclick="setCategory('${cat}',this)">${CATEGORY_ICONS[cat]||''} ${cat}</span>`; });
+    c.innerHTML = h;
+};
+
+// Update filterMods to handle favorites pseudo-category
+const _origFilterMods = filterMods;
+filterMods = function(q) {
+    q = q.toLowerCase().trim();
+    let any = false;
+    const favs = getFavorites();
+    document.querySelectorAll('.mod-card').forEach(c => {
+        const n = c.dataset.name, d = c.dataset.desc, cat = c.dataset.category, folder = c.dataset.folder;
+        let catMatch = !activeCategory || cat === activeCategory;
+        if (activeCategory === '__favorites__') catMatch = favs.includes(folder);
+        const v = (!q || n.includes(q) || d.includes(q)) && catMatch;
+        c.classList.toggle('hidden', !v);
+        if (v) any = true;
+    });
+    document.querySelectorAll('.category').forEach(c => { c.classList.toggle('hidden', c.querySelectorAll('.mod-card:not(.hidden)').length === 0); });
+    document.getElementById('no-results').classList.toggle('hidden', any);
+    pushURLState(q);
+    updateAutocomplete(q);
+};
+
 // --- INIT ---
 renderFeatured();
 renderChips();
@@ -660,6 +928,8 @@ animateCounters();
 initCardClickModal();
 initKeyboardShortcuts();
 restoreURLState();
+checkForUpdates();
+renderChangelog();
 
 // --- SERVICE WORKER REGISTRATION ---
 if ('serviceWorker' in navigator) {

@@ -1005,7 +1005,160 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; tex
     vertical-align: middle;
 }
 
-/* --- 16. UTILITIES --- */
+/* --- 16. UPDATE BANNER --- */
+.update-banner {
+    position: relative;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, var(--accent-subtle), rgba(var(--accent-rgb), 0.12), var(--accent-subtle));
+    border-bottom: 1px solid var(--accent-border);
+    font-size: 0.85rem;
+    color: var(--accent);
+    animation: banner-slide 0.4s ease-out;
+}
+@keyframes banner-slide {
+    from { transform: translateY(-100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+.update-banner button {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0 4px;
+    line-height: 1;
+}
+.update-banner button:hover { color: var(--accent); }
+
+/* --- 16b. FAVORITE + COMPARE BUTTONS --- */
+.mod-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.fav-btn, .compare-btn {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-tag);
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    cursor: pointer;
+    padding: 2px 6px;
+    transition: color 0.2s, border-color 0.2s, background 0.2s;
+    line-height: 1;
+}
+.fav-btn:hover { color: #e74c3c; border-color: #e74c3c; }
+.fav-btn.favorited { color: #e74c3c; border-color: #e74c3c; background: rgba(231, 76, 60, 0.1); }
+.compare-btn:hover { color: var(--accent); border-color: var(--accent); }
+.compare-btn.comparing { color: var(--accent); border-color: var(--accent); background: var(--accent-subtle); }
+
+.chip-fav { border-color: rgba(231, 76, 60, 0.3); }
+.chip-fav:hover { border-color: #e74c3c; color: #e74c3c; }
+.chip-fav.active { background: #e74c3c; border-color: #e74c3c; color: #fff; }
+
+/* --- 16c. COMPARE BAR (sticky bottom) --- */
+.compare-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 12px 20px;
+    background: var(--bg-elevated);
+    border-top: 1px solid var(--accent-border);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+    font-size: 0.88rem;
+    color: var(--text-primary);
+    animation: banner-slide 0.3s ease-out;
+}
+.compare-bar-actions { display: flex; gap: 8px; }
+.compare-bar button {
+    padding: 6px 16px;
+    border-radius: var(--radius-tag);
+    border: none;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.compare-bar button:first-child {
+    background: var(--accent);
+    color: #fff;
+}
+.compare-bar button:first-child:hover { background: rgba(var(--accent-rgb), 0.85); }
+.compare-bar .compare-clear {
+    background: var(--bg-surface);
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+}
+.compare-bar .compare-clear:hover { border-color: var(--accent); color: var(--text-primary); }
+
+/* --- 16d. CHANGELOG / WHAT'S NEW --- */
+.changelog-section {
+    position: relative;
+    z-index: 1;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+.changelog-header h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+}
+.changelog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 12px;
+}
+.changelog-item {
+    padding: 14px 18px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-md);
+    transition: border-color 0.2s;
+}
+.changelog-item:hover { border-color: var(--accent-border); }
+.changelog-date {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+.changelog-name {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 4px;
+}
+.changelog-body {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* Discord footer link */
+.discord-link svg { opacity: 0.7; transition: opacity 0.2s; }
+.discord-link:hover svg { opacity: 1; }
+
+/* --- 17. UTILITIES --- */
 .hidden { display: none !important; }
 
 .no-results { text-align: center; padding: 60px 20px; color: var(--text-muted); }
