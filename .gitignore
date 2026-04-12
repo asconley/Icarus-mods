@@ -18,6 +18,4 @@ Performance_Optimizer/PAK_Build/
 *.bat
 /tools/icarus_watcher
 /tools
-.claude/worktrees/condescending-kapitsa/
-.claude/worktrees/frosty-brown/
-.claude/worktrees/elegant-elion/
+.claude/

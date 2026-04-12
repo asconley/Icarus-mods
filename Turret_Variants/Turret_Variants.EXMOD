@@ -1,5 +1,5 @@
 {
-  "name": "Turret_Variants",
+  "name": "Turret Variants",
   "author": "AgentKush",
   "version": "3.1",
   "description": "v3.1: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Adds 15 new automated turret variants with unique characteristics.",

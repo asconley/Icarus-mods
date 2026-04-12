@@ -1,5 +1,5 @@
 {
-  "name": "Culinex_Food_Boost_Fix",
+  "name": "Culinex Food Boost Fix",
   "author": "AgentKush",
   "version": "2.8",
   "description": "v2.8: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Fixes Culinex (Chef's Backpack) 25% food effectiveness boost to apply to all cooked foods.",

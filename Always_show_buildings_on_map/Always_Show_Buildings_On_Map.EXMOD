@@ -1,5 +1,5 @@
 {
-  "name": "Always_Show_Buildings_On_Map",
+  "name": "Always Show Buildings On Map",
   "author": "AgentKush",
   "version": "1.0",
   "description": "Always shows player-built structures on the map and minimap without requiring any special stats or radar.",
