@@ -9,8 +9,9 @@ desktop.ini
 
 # Temp scripts
 *.py
-# Allow validator script
+# Allow validator script and site builder
 !.github/scripts/*.py
+!docs/build.py
 
 # Build artifacts
 Performance_Optimizer/PAK_Build/
