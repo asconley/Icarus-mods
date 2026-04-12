@@ -3,9 +3,14 @@
 # AgentKush's Icarus Mods
 
 [![Mods](https://img.shields.io/badge/38_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
-[![Data Entries](https://img.shields.io/badge/36%2C000%2B-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
-[![Recipes](https://img.shields.io/badge/17%2C000%2B-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
+[![Data Entries](https://img.shields.io/badge/37%2C500%2B-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
+[![Recipes](https://img.shields.io/badge/18%2C800%2B-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
+
+[![GitHub Release](https://img.shields.io/github/v/release/AgentKush/Icarus-mods?label=Latest%20Release&style=flat-square&color=E87B35)](https://github.com/AgentKush/Icarus-mods/releases)
+[![License](https://img.shields.io/github/license/AgentKush/Icarus-mods?style=flat-square&color=E87B35)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/AgentKush/Icarus-mods?style=flat-square&color=E87B35)](https://github.com/AgentKush/Icarus-mods/issues)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/AgentKush/Icarus-mods/validate-mods.yml?label=Validation&style=flat-square&color=E87B35)](https://github.com/AgentKush/Icarus-mods/actions)
 
 A comprehensive mod collection for **[Icarus: First Cohort](https://store.steampowered.com/app/1149460/Icarus/)**
 
@@ -137,8 +142,10 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 <div align="center">
 
-**Made by AgentKush** · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
+**Made by AgentKush** · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
 
-*All mods are free. If you enjoy them, leave a ⭐ on the repo!*
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-support-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/agentkush)
+
+*All mods are free and open source. If you enjoy them, leave a ⭐ on the repo!*
 
 </div>
