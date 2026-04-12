@@ -2,12 +2,14 @@
 
 # Hardcore Rebalance Pack
 
-[![Version](https://img.shields.io/badge/v1.18-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
 For survivors who think Icarus is too easy
+
+**1438 changes across 17 data tables + 2 blueprint overrides**
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -19,12 +21,21 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 
 Transforms Icarus into a brutal survival experience. Every difficulty tier is rebalanced to push players harder with tougher creatures, deadlier weather, harsher status effects, reduced resources, and equipment that wears out faster.
 
+**v2.0** introduces a 4-tier creature scaling system that replaces the old flat buffs, so early-game creatures don't feel as tanky as late-game bosses:
+
+| Tier | Creatures | HP Boost | Melee Boost | Examples |
+|------|-----------|----------|-------------|----------|
+| 1 - Forest/Easy | 23 | +75% | +40% | Wolf, Hyena, Spider, Boar |
+| 2 - Mid-Tier | 37 | +125% | +60% | Bear, Lion, Raptor, Scorpion |
+| 3 - Hard Biome | 42 | +200% | +90% | Mammoth, Lava creatures, Yeti, RockGolem |
+| 4 - Boss/Alpha | 12 | +300% | +120% | Mammoth_Boss, Scorpion_Boss, Sandwyrm_Queen |
+
 ## Changes by Category
 
 ### Creature AI & Spawns
 | Table | Entries | Description |
 |-------|---------|-------------|
-| D_AIGrowth | 114 | Per-creature +150% HP and +75% melee on all hostile creatures (NEW in v1.18) |
+| D_AIGrowth | 114 | 4-tier creature scaling: +75-300% HP and +40-120% melee across Forest/Mid/Hard/Boss tiers |
 | D_AISpawnZones | 186 | Spawn zone configurations across all biomes |
 | D_AutonomousSpawns | 26 | Independent creature spawn rules |
 | D_HordeWave | 21 | Horde event wave compositions |
@@ -75,11 +86,11 @@ Custom boss-tier creatures that roam the world. Each has boosted HP, unique AI, 
 | Hunter_Abomination | Irradiated Abomination | +600% | Various |
 | Hunter_RadiationBoss | Radiation Boss | +550% | Various |
 
-### Weather System (NEW in v1.16)
+### Weather System (NEW in v1.16, tuned in v2.0)
 | Table | Entries | Description |
 |-------|---------|-------------|
 | D_WeatherEvents | 110 | Extended storm durations across all biomes |
-| D_WeatherActions | 203 | **Storms now damage players** - enabled player damage on all Body/Chaos storm phases, boosted deployable damage +50%, doubled lightning frequency, faster wind damage ticks |
+| D_WeatherActions | 203 | **Storms now damage players** - enabled player damage on all Body/Chaos storm phases, boosted deployable damage +50%, doubled lightning frequency, faster wind damage ticks. v2.0: damage intensity reduced 20% for better balance |
 
 ### Status Effects & Afflictions (NEW in v1.16)
 | Table | Entries | Description |
@@ -91,7 +102,7 @@ Custom boss-tier creatures that roam the world. Each has boosted HP, unique AI, 
 |-------|---------|-------------|
 | D_OreDeposit | 21 | Mining takes 25-50% longer depending on ore tier |
 | D_Durable | 22 | High-tier equipment durability nerfed: Steel -25%, Titanium -30%, Lithium -35%, Meta -40% |
-| D_Consumable | 212 | Food healing reduced -35%, buff durations reduced -30% |
+| D_Consumable | 212 | Food healing reduced -35%, buff durations extended +25% in v2.0 (was -30%) to compensate for tougher survival |
 
 ### Survival & Environment
 | Table | Entries | Description |
@@ -130,6 +141,27 @@ Custom boss-tier creatures that roam the world. Each has boosted HP, unique AI, 
 For the full hardcore experience and the hardest gameplay possible, install **Creature_Difficulty_Scaling (CDS) v2.2+** alongside this mod. CDS adds level-500 spawn zone scaling, per-player-level stat scaling rules, and tame/mount survival buffs so your pets can actually hold up against HRP's tougher creatures. Running HRP + CDS together delivers the most punishing Icarus experience possible — see the v1.18 changelog for overlap details.
 
 ## Changelog
+
+### v2.0 (Tiered Creature Rework)
+
+**Major rework replacing flat creature buffs with a 4-tier scaling system.**
+
+The old +150% HP / +75% melee was applied identically to every creature — a Wolf got the same buff as a Mammoth Boss. This made early-game disproportionately hard while late-game didn't feel as impactful. v2.0 introduces tiered scaling that matches gear progression:
+
+- **Tier 1 - Forest/Easy** (23 creatures): +75% HP / +40% Melee — Wolves, Hyenas, Spiders, Boars, Slinkers
+- **Tier 2 - Mid-Tier** (37 creatures): +125% HP / +60% Melee — Bears, Lions, Raptors, Scorpions, Crocodiles, Apes
+- **Tier 3 - Hard Biome/Elite** (42 creatures): +200% HP / +90% Melee — Mammoths, Lava creatures, Yeti, RockGolems, Sandworms, Arctic/Desert fauna
+- **Tier 4 - Boss/Alpha** (12 creatures): +300% HP / +120% Melee — Alpha Wolves, Mammoth Boss, Scorpion Boss, Sandwyrm Queen, Stomper Matriarch
+
+**Epic creatures also tiered:** Forest epics 250% HP / 40% melee, mid epics 350% / 55%, apex epics 500% / 80%.
+
+**Horde waves rebalanced:** Proper difficulty ramp from Level 30 with moderate spawns (3-6) in early waves, scaling to Level 75 with 8-15 spawning at a time in late waves.
+
+**Weather tuning:** Storm damage intensity reduced 20% — still punishing but less frustrating chip damage.
+
+**Consumable tuning:** Food buff durations extended 25% to compensate for the tougher survival environment.
+
+Total changes: 1438 across 17 data tables + 2 blueprint overrides.
 
 ### v1.18 (Creature HP/Melee Rework)
 

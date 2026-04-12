@@ -1,8 +1,8 @@
 {
   "name": "Hardcore Rebalance Pack",
   "author": "AgentKush",
-  "version": "1.18",
-  "description": "For survivors who think Icarus is too easy. v1.18: NPC HP/damage now applied via D_AIGrowth per-creature, +150% HP and +75% melee to 114 hostile creatures. For the full hardcore experience, pair with Creature_Difficulty_Scaling (CDS) v2.2+ which adds level-500 zone scaling, per-player scaling rules, and tame/mount survival buffs. 1432 changes across 17 data tables + 2 blueprint overrides.\r\n\r\n\r\nVer 1.18\r\nThe big fix: NPC HP boosts actually work now. In v1.17 the WorldNPCMaximumHealth_+% world stat was being silently ignored for the vast majority of creatures because Icarus uses per-creature CurveFloat assets (e.g. C_BearHealth) for HP instead ..\r\n\r\nVer 1.17\r\nCritical fixes:. Fixed NPC stat boosts not applying on Extreme difficulty. NPC_Increase_Extreme, NPC_Increase_Extreme_SpawnRates, and Hardcore_XP_Extreme were silently failing to load because they referenced 6 inva..\r\n\r\nVer 1.16\r\nFIXED: Lightning tree hit chance stat typo (was silently ignored). NEW: D_WeatherActions - 203 storm modifications, storms now damage players directly. NEW: D_AfflictionChance - 22 affliction boosts (higher chances, longer durations). NEW: D_OreDeposit - 21 ore mining time increases (25-50% longer).\r\n\r\nVer 1.15\r\nRemoved Hell difficulty tier (game engine only supports 4 tiers). Beefed up Extreme difficulty across all stat categories. All 194 maps properly configured with Easy/Normal/Hard/Extreme.\r\n\r\nVer 1.14\r\nAdded 25 new alpha hunters (37 total) covering all vanilla boss types. Added matching reward entries and spawn zone configurations.\r\n\r\nVer 1.13\r\n12 alpha hunters, full difficulty system, weather mods, spawn overrides.",
+  "version": "2.0",
+  "description": "For survivors who think Icarus is too easy. v2.0: Tiered creature scaling replaces flat buffs - Forest +75% HP/+40% Melee, Mid-Tier +125%/+60%, Hard Biome +200%/+90%, Boss/Alpha +300%/+120%. Epic creatures also tiered (250-500% HP). Horde waves now ramp properly from Level 30 to 75. Weather damage reduced 20%, food buff durations extended 25%. For the full hardcore experience, pair with Creature_Difficulty_Scaling (CDS) v2.2+ which adds level-500 zone scaling, per-player scaling rules, and tame/mount survival buffs. 1438 changes across 17 data tables + 2 blueprint overrides.\\r\\n\\r\\n\\r\\nVer 2.0\\r\\nMajor rework: Replaced flat +150% HP/+75% melee on all 114 creatures with 4-tier scaling system. Tier 1 Forest/Easy (23 creatures): +75% HP/+40% Melee. Tier 2 Mid-Tier (37 creatures): +125% HP/+60% Melee. Tier 3 Hard Biome/Elite (42 creatures): +200% HP/+90% Melee. Tier 4 Boss/Alpha (12 creatures): +300% HP/+120% Melee. Epic creatures now tiered: Forest 250%/40%, Mid 350%/55%, Apex 500%/80%. Horde waves rebalanced with proper difficulty ramp (Level 30-75, scaling spawn counts). Weather damage intensity reduced 20%. Food buff durations extended 25%.\\r\\n\\r\\nVer 1.18\\r\\nThe big fix: NPC HP boosts actually work now. In v1.17 the WorldNPCMaximumHealth_+% world stat was being silently ignored for the vast majority of creatures because Icarus uses per-creature CurveFloat assets (e.g. C_BearHealth) for HP instead ..\\r\\n\\r\\nVer 1.17\\r\\nCritical fixes:. Fixed NPC stat boosts not applying on Extreme difficulty. NPC_Increase_Extreme, NPC_Increase_Extreme_SpawnRates, and Hardcore_XP_Extreme were silently failing to load because they referenced 6 inva..\\r\\n\\r\\nVer 1.16\\r\\nFIXED: Lightning tree hit chance stat typo (was silently ignored). NEW: D_WeatherActions - 203 storm modifications, storms now damage players directly. NEW: D_AfflictionChance - 22 affliction boosts (higher chances, longer durations). NEW: D_OreDeposit - 21 ore mining time increases (25-50% longer).\\r\\n\\r\\nVer 1.15\\r\\nRemoved Hell difficulty tier (game engine only supports 4 tiers). Beefed up Extreme difficulty across all stat categories. All 194 maps properly configured with Easy/Normal/Hard/Extreme.\\r\\n\\r\\nVer 1.14\\r\\nAdded 25 new alpha hunters (37 total) covering all vanilla boss types. Added matching reward entries and spawn zone configurations.\\r\\n\\r\\nVer 1.13\\r\\n12 alpha hunters, full difficulty system, weather mods, spawn overrides.",
   "fileName": "Hardcore_Rebalance_Pack",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/README.md",
@@ -13641,17 +13641,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 30,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 3,
+                "Y": 6
               },
               "TotalToSpawn": 40,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 8,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 10,
+                "Y": 14
               }
             }
           ]
@@ -13671,15 +13671,15 @@
               "AdditionalStats": {},
               "LevelOverride": 55,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 3,
+                "Y": 6
               },
-              "TotalToSpawn": 24,
+              "TotalToSpawn": 30,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 8,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 10,
+                "Y": 14
               }
             }
           ]
@@ -13697,17 +13697,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 45,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 5,
+                "Y": 10
               },
-              "TotalToSpawn": 24,
+              "TotalToSpawn": 45,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 8,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 8,
+                "Y": 12
               }
             },
             {
@@ -13720,17 +13720,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 0,
+              "LevelOverride": 45,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 5,
+                "Y": 10
               },
-              "TotalToSpawn": 2,
+              "TotalToSpawn": 45,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 0,
               "InitialSpawnDelay": 60,
               "TimeBetweenSpawns": {
-                "X": 3,
-                "Y": 5
+                "X": 8,
+                "Y": 12
               }
             }
           ]
@@ -13748,17 +13748,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 40,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 22,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -13771,17 +13771,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 3,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 2,
               "InitialSpawnDelay": 20,
               "TimeBetweenSpawns": {
-                "X": 24,
-                "Y": 30
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -13799,17 +13799,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 32,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 22,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 9,
-                "Y": 12
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -13822,17 +13822,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 3,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 2,
               "InitialSpawnDelay": 20,
               "TimeBetweenSpawns": {
-                "X": 24,
-                "Y": 30
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -13850,17 +13850,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 3,
-                "Y": 4
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 19,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 8,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -13873,17 +13873,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 4
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 16,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 8,
               "InitialSpawnDelay": 6,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -13901,17 +13901,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 40,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 22,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -13924,17 +13924,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 3,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 2,
               "InitialSpawnDelay": 20,
               "TimeBetweenSpawns": {
-                "X": 24,
-                "Y": 30
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -13952,17 +13952,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 32,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 22,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 9,
-                "Y": 12
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -13975,17 +13975,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 3,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 2,
               "InitialSpawnDelay": 20,
               "TimeBetweenSpawns": {
-                "X": 24,
-                "Y": 30
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -14003,17 +14003,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 1,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 3,
-                "Y": 3
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 10,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 4,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14026,17 +14026,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 4
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 16,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 8,
               "InitialSpawnDelay": 6,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -14054,17 +14054,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 6,
-                "Y": 9
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 40,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 22,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14077,17 +14077,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 3,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 2,
               "InitialSpawnDelay": 20,
               "TimeBetweenSpawns": {
-                "X": 24,
-                "Y": 30
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -14105,17 +14105,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 32,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 22,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 9,
-                "Y": 12
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14128,17 +14128,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 3,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 2,
               "InitialSpawnDelay": 20,
               "TimeBetweenSpawns": {
-                "X": 24,
-                "Y": 30
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -14158,17 +14158,17 @@
               "AdditionalStats": {
                 "(Value=\"BaseMovementSpeed_+%\")": 25
               },
-              "LevelOverride": 50,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
                 "X": 8,
-                "Y": 12
+                "Y": 15
               },
-              "TotalToSpawn": 16,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 15,
               "InitialSpawnDelay": 10,
               "TimeBetweenSpawns": {
-                "X": 9,
-                "Y": 12
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14181,17 +14181,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 16,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 15,
               "InitialSpawnDelay": 6,
               "TimeBetweenSpawns": {
                 "X": 5,
-                "Y": 6
+                "Y": 8
               }
             }
           ]
@@ -14209,17 +14209,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 40,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 22,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14232,17 +14232,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 3,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 2,
               "InitialSpawnDelay": 20,
               "TimeBetweenSpawns": {
-                "X": 24,
-                "Y": 30
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -14260,17 +14260,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 32,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 22,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 9,
-                "Y": 12
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14283,17 +14283,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 3,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 2,
               "InitialSpawnDelay": 20,
               "TimeBetweenSpawns": {
-                "X": 24,
-                "Y": 30
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -14311,17 +14311,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 3,
-                "Y": 4
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 19,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 8,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14334,17 +14334,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 4
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 16,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 8,
               "InitialSpawnDelay": 6,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -14362,17 +14362,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 40,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 22,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14385,17 +14385,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 3,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 2,
               "InitialSpawnDelay": 20,
               "TimeBetweenSpawns": {
-                "X": 24,
-                "Y": 30
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -14413,17 +14413,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 32,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 22,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 9,
-                "Y": 12
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14436,17 +14436,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 3,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 2,
               "InitialSpawnDelay": 20,
               "TimeBetweenSpawns": {
-                "X": 24,
-                "Y": 30
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -14464,17 +14464,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 3,
-                "Y": 4
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 19,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 8,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14487,17 +14487,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 4
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 16,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 8,
               "InitialSpawnDelay": 6,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -14515,17 +14515,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 8,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 4,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14538,17 +14538,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 8,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 4,
               "InitialSpawnDelay": 20,
               "TimeBetweenSpawns": {
-                "X": 24,
-                "Y": 30
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -14566,17 +14566,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 4,
-                "Y": 8
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 32,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 22,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 9,
-                "Y": 12
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14589,17 +14589,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 2
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 3,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 2,
               "InitialSpawnDelay": 20,
               "TimeBetweenSpawns": {
-                "X": 24,
-                "Y": 30
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -14617,17 +14617,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 3,
-                "Y": 4
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 19,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 8,
               "InitialSpawnDelay": 5,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             },
             {
@@ -14640,17 +14640,17 @@
                 "DataTableName": "D_EpicCreatures"
               },
               "AdditionalStats": {},
-              "LevelOverride": 25,
+              "LevelOverride": 75,
               "NumberToSpawnAtATime": {
-                "X": 2,
-                "Y": 4
+                "X": 8,
+                "Y": 15
               },
-              "TotalToSpawn": 16,
+              "TotalToSpawn": 65,
               "ExtraSpawnCountPerAdditionalNearbyPlayer": 8,
               "InitialSpawnDelay": 6,
               "TimeBetweenSpawns": {
-                "X": 12,
-                "Y": 15
+                "X": 5,
+                "Y": 8
               }
             }
           ]
@@ -48732,8 +48732,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 200,
-            "(Value=\"BaseMeleeDamage_+%\")": 30,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 15,
             "(Value=\"BaseAttacksCauseHemorrhage_%\")": 20,
             "(Value=\"BaseCreatureSize_+%\")": 25,
@@ -48753,7 +48753,7 @@
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
             "(Value=\"BaseMaximumHealth_+%\")": 350,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
+            "(Value=\"BaseMeleeDamage_+%\")": 55,
             "(Value=\"BasePhysicalDamageResistance_%\")": 20,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseHealthRegen_+%\")": 20,
@@ -48771,8 +48771,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 35,
+            "(Value=\"BaseMaximumHealth_+%\")": 350,
+            "(Value=\"BaseMeleeDamage_+%\")": 55,
             "(Value=\"BaseMovementSpeed_+%\")": 20,
             "(Value=\"BaseAttacksCauseBleed_%\")": 30,
             "(Value=\"BaseCreatureSize_+%\")": 20
@@ -48790,8 +48790,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 400,
-            "(Value=\"BaseMeleeDamage_+%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 500,
+            "(Value=\"BaseMeleeDamage_+%\")": 80,
             "(Value=\"BasePhysicalDamageResistance_%\")": 30,
             "(Value=\"BaseCreatureSize_+%\")": 35,
             "(Value=\"BaseHealthRegen_+%\")": 25,
@@ -48811,8 +48811,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 300,
-            "(Value=\"BaseMeleeDamage_+%\")": 35,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 25,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
             "(Value=\"BaseAttacksCauseHemorrhage_%\")": 15,
@@ -48831,7 +48831,7 @@
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
             "(Value=\"BaseMaximumHealth_+%\")": 500,
-            "(Value=\"BaseMeleeDamage_+%\")": 60,
+            "(Value=\"BaseMeleeDamage_+%\")": 80,
             "(Value=\"BasePhysicalDamageResistance_%\")": 35,
             "(Value=\"BaseCreatureSize_+%\")": 25,
             "(Value=\"BaseHealthRegen_+%\")": 30,
@@ -48849,8 +48849,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 400,
-            "(Value=\"BaseMeleeDamage_+%\")": 45,
+            "(Value=\"BaseMaximumHealth_+%\")": 350,
+            "(Value=\"BaseMeleeDamage_+%\")": 55,
             "(Value=\"BaseMovementSpeed_+%\")": 20,
             "(Value=\"BaseAttacksCausePoisonSting_%\")": 50,
             "(Value=\"BaseAttacksCauseSlow_%\")": 20,
@@ -48869,7 +48869,7 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
             "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 30,
             "(Value=\"BaseAttacksCauseHemorrhage_%\")": 25,
@@ -48888,8 +48888,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 350,
-            "(Value=\"BaseMeleeDamage_+%\")": 45,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BasePhysicalDamageResistance_%\")": 25,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseHealthRegen_+%\")": 20
@@ -48906,7 +48906,7 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
             "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 25,
             "(Value=\"BaseAttacksCauseBleed_%\")": 30,
@@ -48924,8 +48924,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 350,
-            "(Value=\"BaseMeleeDamage_+%\")": 45,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BasePhysicalDamageResistance_%\")": 30,
             "(Value=\"BaseCreatureSize_+%\")": 35,
             "(Value=\"BaseAttacksCauseWound_%\")": 25
@@ -48942,8 +48942,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 300,
-            "(Value=\"BaseMeleeDamage_+%\")": 35,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseProjectileDamage_+%\")": 40,
             "(Value=\"BaseCreatureSize_+%\")": 25,
             "(Value=\"BaseAttacksCauseDeepWound_%\")": 30
@@ -48962,8 +48962,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 550,
-            "(Value=\"BaseMeleeDamage_+%\")": 65,
+            "(Value=\"BaseMaximumHealth_+%\")": 500,
+            "(Value=\"BaseMeleeDamage_+%\")": 80,
             "(Value=\"BasePhysicalDamageResistance_%\")": 40,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseHealthRegen_+%\")": 35,
@@ -48983,8 +48983,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 600,
-            "(Value=\"BaseMeleeDamage_+%\")": 70,
+            "(Value=\"BaseMaximumHealth_+%\")": 500,
+            "(Value=\"BaseMeleeDamage_+%\")": 80,
             "(Value=\"BaseCreatureSize_+%\")": 20,
             "(Value=\"BaseSandWormInitialDetectionRadius_+\")": 8000,
             "(Value=\"BasePhysicalDamageResistance_%\")": 30
@@ -49003,7 +49003,7 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 280,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
             "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 30,
             "(Value=\"BaseAttacksCauseHemorrhage_%\")": 35,
@@ -49024,8 +49024,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 500,
-            "(Value=\"BaseMeleeDamage_+%\")": 55,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseProjectileDamageResistance_%\")": 75,
             "(Value=\"BaseProjectileDamage_+%\")": 20,
             "(Value=\"BaseCreatureSize_+%\")": 30,
@@ -49046,8 +49046,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 550,
-            "(Value=\"BaseMeleeDamage_+%\")": 60,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseProjectileDamageResistance_%\")": 80,
             "(Value=\"BaseProjectileDamage_+%\")": 25,
             "(Value=\"BaseCreatureSize_+%\")": 35,
@@ -49068,8 +49068,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 700,
-            "(Value=\"BaseMeleeDamage_+%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMaximumArmor_+%\")": 150,
             "(Value=\"BasePhysicalDamageResistance_%\")": 50,
             "(Value=\"BaseCreatureSize_+%\")": 25,
@@ -49089,8 +49089,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 400,
-            "(Value=\"BaseMeleeDamage_+%\")": 35,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMaximumArmor_+%\")": 100,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BasePhysicalDamageResistance_%\")": 35,
@@ -49110,8 +49110,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 450,
-            "(Value=\"BaseMeleeDamage_+%\")": 55,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 20,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 35,
@@ -49131,8 +49131,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 600,
-            "(Value=\"BaseMeleeDamage_+%\")": 65,
+            "(Value=\"BaseMaximumHealth_+%\")": 500,
+            "(Value=\"BaseMeleeDamage_+%\")": 80,
             "(Value=\"BasePhysicalDamageResistance_%\")": 40,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 30,
@@ -49153,7 +49153,7 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 350,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
             "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 20,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 25,
@@ -49174,8 +49174,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 450,
-            "(Value=\"BaseMeleeDamage_+%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BasePhysicalDamageResistance_%\")": 35,
             "(Value=\"BaseAttacksCausePoisonSting_%\")": 40,
@@ -49195,8 +49195,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 300,
-            "(Value=\"BaseMeleeDamage_+%\")": 35,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 30,
             "(Value=\"BaseCreatureSize_+%\")": 25,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
@@ -49217,7 +49217,7 @@
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
             "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 35,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 25,
             "(Value=\"BaseAttacksCausePoisonSting_%\")": 30,
             "(Value=\"BaseCreatureSize_+%\")": 20,
@@ -49237,8 +49237,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 280,
-            "(Value=\"BaseMeleeDamage_+%\")": 35,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 30,
             "(Value=\"BaseAttacksCauseHemorrhage_%\")": 25,
             "(Value=\"BaseProjectileDamageResistance_%\")": 50,
@@ -49258,8 +49258,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 380,
-            "(Value=\"BaseMeleeDamage_+%\")": 45,
+            "(Value=\"BaseMaximumHealth_+%\")": 350,
+            "(Value=\"BaseMeleeDamage_+%\")": 55,
             "(Value=\"BasePhysicalDamageResistance_%\")": 25,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseAttacksCausePoisonSting_%\")": 50,
@@ -49280,7 +49280,7 @@
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
             "(Value=\"BaseMaximumHealth_+%\")": 350,
-            "(Value=\"BaseMeleeDamage_+%\")": 50,
+            "(Value=\"BaseMeleeDamage_+%\")": 55,
             "(Value=\"BaseMovementSpeed_+%\")": 25,
             "(Value=\"BaseAttacksCauseBleed_%\")": 40,
             "(Value=\"BaseCreatureSize_+%\")": 25,
@@ -49301,7 +49301,7 @@
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
             "(Value=\"BaseMaximumHealth_+%\")": 350,
-            "(Value=\"BaseMeleeDamage_+%\")": 45,
+            "(Value=\"BaseMeleeDamage_+%\")": 55,
             "(Value=\"BaseAttacksCausePoisonSting_%\")": 60,
             "(Value=\"BaseCreatureSize_+%\")": 35,
             "(Value=\"BaseMovementSpeed_+%\")": 15,
@@ -49321,8 +49321,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 300,
-            "(Value=\"BaseMeleeDamage_+%\")": 30,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 30,
             "(Value=\"BasePhysicalDamageResistance_%\")": 30,
             "(Value=\"BaseCreatureSize_+%\")": 25,
@@ -49342,7 +49342,7 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 280,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
             "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 30,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 25,
@@ -49364,7 +49364,7 @@
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
             "(Value=\"BaseMaximumHealth_+%\")": 500,
-            "(Value=\"BaseMeleeDamage_+%\")": 55,
+            "(Value=\"BaseMeleeDamage_+%\")": 80,
             "(Value=\"BasePhysicalDamageResistance_%\")": 35,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
@@ -49385,8 +49385,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 700,
-            "(Value=\"BaseMeleeDamage_+%\")": 75,
+            "(Value=\"BaseMaximumHealth_+%\")": 500,
+            "(Value=\"BaseMeleeDamage_+%\")": 80,
             "(Value=\"BaseCreatureSize_+%\")": 25,
             "(Value=\"BasePhysicalDamageResistance_%\")": 35,
             "(Value=\"BaseHealthRegen_+%\")": 30
@@ -49405,8 +49405,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 600,
-            "(Value=\"BaseMeleeDamage_+%\")": 60,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BasePhysicalDamageResistance_%\")": 40,
             "(Value=\"BaseCreatureSize_+%\")": 35,
             "(Value=\"BaseHealthRegen_+%\")": 40,
@@ -49426,8 +49426,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 550,
-            "(Value=\"BaseMeleeDamage_+%\")": 50,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BasePhysicalDamageResistance_%\")": 35,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseHealthRegen_+%\")": 35,
@@ -49447,8 +49447,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 220,
-            "(Value=\"BaseMeleeDamage_+%\")": 35,
+            "(Value=\"BaseMaximumHealth_+%\")": 250,
+            "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 25,
             "(Value=\"BaseAttacksCauseBleed_%\")": 35,
             "(Value=\"BaseCreatureSize_+%\")": 20
@@ -49467,8 +49467,8 @@
           },
           "AdditionalStats": {
             "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 380,
-            "(Value=\"BaseMeleeDamage_+%\")": 45,
+            "(Value=\"BaseMaximumHealth_+%\")": 500,
+            "(Value=\"BaseMeleeDamage_+%\")": 80,
             "(Value=\"BasePhysicalDamageResistance_%\")": 25,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
@@ -58193,7 +58193,7 @@
         {
           "Name": "MediumSnow_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58202,7 +58202,7 @@
         {
           "Name": "MediumSnow_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58213,7 +58213,7 @@
         {
           "Name": "MediumRain_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58222,7 +58222,7 @@
         {
           "Name": "MediumRain_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58231,7 +58231,7 @@
         {
           "Name": "MediumSand_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58240,7 +58240,7 @@
         {
           "Name": "MediumSand_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58249,7 +58249,7 @@
         {
           "Name": "LongWinds_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58258,7 +58258,7 @@
         {
           "Name": "LongWinds_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58267,7 +58267,7 @@
         {
           "Name": "LightRain_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -58276,7 +58276,7 @@
         {
           "Name": "LightRain_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.19,
@@ -58285,7 +58285,7 @@
         {
           "Name": "HeavyRain_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58296,7 +58296,7 @@
         {
           "Name": "HeavyRain_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58307,7 +58307,7 @@
         {
           "Name": "LightSand_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -58321,7 +58321,7 @@
         {
           "Name": "HeavySand_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58330,7 +58330,7 @@
         {
           "Name": "HeavySand_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58341,7 +58341,7 @@
         {
           "Name": "LightSnow_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -58350,7 +58350,7 @@
         {
           "Name": "LightSnow_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.19,
@@ -58359,7 +58359,7 @@
         {
           "Name": "HeavySnow_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58368,7 +58368,7 @@
         {
           "Name": "HeavySnow_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58379,7 +58379,7 @@
         {
           "Name": "CosmeticRain_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -58388,7 +58388,7 @@
         {
           "Name": "CosmeticSnow_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -58397,7 +58397,7 @@
         {
           "Name": "CosmeticSand_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -58406,7 +58406,7 @@
         {
           "Name": "TutorialRain_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58421,7 +58421,7 @@
         {
           "Name": "MediumLightning_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58432,7 +58432,7 @@
         {
           "Name": "LightWinds_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58441,7 +58441,7 @@
         {
           "Name": "LightWinds_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58450,7 +58450,7 @@
         {
           "Name": "ThunderStorm_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58461,7 +58461,7 @@
         {
           "Name": "ThunderStorm_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58472,7 +58472,7 @@
         {
           "Name": "ArcticSevereWinds_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58481,7 +58481,7 @@
         {
           "Name": "ArcticSevereWinds_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58490,7 +58490,7 @@
         {
           "Name": "ArcticWinds_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58499,7 +58499,7 @@
         {
           "Name": "ArcticWinds_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58508,7 +58508,7 @@
         {
           "Name": "ArcticSnow_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -58517,7 +58517,7 @@
         {
           "Name": "ArcticSnow_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.19,
@@ -58526,7 +58526,7 @@
         {
           "Name": "ArcticSnowStorm_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58537,7 +58537,7 @@
         {
           "Name": "ArcticSnowStorm_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58548,7 +58548,7 @@
         {
           "Name": "ArcticBlizzard_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58557,7 +58557,7 @@
         {
           "Name": "ArcticBlizzard_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58566,7 +58566,7 @@
         {
           "Name": "Shamal_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58575,7 +58575,7 @@
         {
           "Name": "Shamal_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58590,7 +58590,7 @@
         {
           "Name": "DesertSevereWinds_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58599,7 +58599,7 @@
         {
           "Name": "DesertSevereWinds_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58608,7 +58608,7 @@
         {
           "Name": "DesertNormalWinds_Body_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58617,7 +58617,7 @@
         {
           "Name": "DesertNormalWinds_Chaos_1",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58830,7 +58830,7 @@
         {
           "Name": "T0_Conifer_Hail_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.45,
@@ -58839,7 +58839,7 @@
         {
           "Name": "T0_Conifer_Hail_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.45,
@@ -58848,7 +58848,7 @@
         {
           "Name": "T2_Conifer_Hail_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.45,
@@ -58857,7 +58857,7 @@
         {
           "Name": "T2_Conifer_Hail_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.45,
@@ -58866,7 +58866,7 @@
         {
           "Name": "T3_Conifer_Hail_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.45,
@@ -58875,7 +58875,7 @@
         {
           "Name": "T3_Conifer_Hail_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.45,
@@ -58884,7 +58884,7 @@
         {
           "Name": "T4_Conifer_Hail_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.45,
@@ -58893,7 +58893,7 @@
         {
           "Name": "T4_Conifer_Hail_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.45,
@@ -58902,7 +58902,7 @@
         {
           "Name": "T0_Arctic_Hail_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.45
@@ -58910,7 +58910,7 @@
         {
           "Name": "T0_Arctic_Hail_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.45,
@@ -58919,7 +58919,7 @@
         {
           "Name": "T2_Arctic_Hail_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.45,
@@ -58928,7 +58928,7 @@
         {
           "Name": "T2_Arctic_Hail_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.45,
@@ -58937,7 +58937,7 @@
         {
           "Name": "T3_Arctic_Hail_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.45,
@@ -58946,7 +58946,7 @@
         {
           "Name": "T3_Arctic_Hail_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.45,
@@ -58955,7 +58955,7 @@
         {
           "Name": "T4_Arctic_Hail_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.45,
@@ -58964,7 +58964,7 @@
         {
           "Name": "T4_Arctic_Hail_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.45,
@@ -58973,7 +58973,7 @@
         {
           "Name": "T5_Arctic_Snow_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -58982,7 +58982,7 @@
         {
           "Name": "T5_Arctic_Snow_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -58993,7 +58993,7 @@
         {
           "Name": "T3_Conifer_Rain_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59002,7 +59002,7 @@
         {
           "Name": "T3_Conifer_Rain_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59011,7 +59011,7 @@
         {
           "Name": "T5_Conifer_Wind_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59020,7 +59020,7 @@
         {
           "Name": "T5_Conifer_Wind_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59029,7 +59029,7 @@
         {
           "Name": "T1_Conifer_Rain_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -59038,7 +59038,7 @@
         {
           "Name": "T1_Conifer_Rain_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.19,
@@ -59047,7 +59047,7 @@
         {
           "Name": "T6_Conifer_Rain_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59058,7 +59058,7 @@
         {
           "Name": "T6_Conifer_Rain_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59069,7 +59069,7 @@
         {
           "Name": "T2_Arctic_Snow_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -59078,7 +59078,7 @@
         {
           "Name": "T2_Arctic_Snow_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.19,
@@ -59087,7 +59087,7 @@
         {
           "Name": "T6_Arctic_Snow_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59096,7 +59096,7 @@
         {
           "Name": "T6_Arctic_Snow_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59107,7 +59107,7 @@
         {
           "Name": "T0_Conifer_Rain_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -59116,7 +59116,7 @@
         {
           "Name": "T0_Arctic_Snow_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -59131,7 +59131,7 @@
         {
           "Name": "T4_Conifer_Rain_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59142,7 +59142,7 @@
         {
           "Name": "T2_Conifer_Wind_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59151,7 +59151,7 @@
         {
           "Name": "T2_Conifer_Wind_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59160,7 +59160,7 @@
         {
           "Name": "T5_Conifer_Rain_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59171,7 +59171,7 @@
         {
           "Name": "T5_Conifer_Rain_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59182,7 +59182,7 @@
         {
           "Name": "T5_Arctic_Wind_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59191,7 +59191,7 @@
         {
           "Name": "T5_Arctic_Wind_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59200,7 +59200,7 @@
         {
           "Name": "T1_Arctic_Wind_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59209,7 +59209,7 @@
         {
           "Name": "T1_Arctic_Wind_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59218,7 +59218,7 @@
         {
           "Name": "T3_Arctic_Snow_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -59227,7 +59227,7 @@
         {
           "Name": "T3_Arctic_Snow_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.19,
@@ -59236,7 +59236,7 @@
         {
           "Name": "T4_Arctic_Snow_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59247,7 +59247,7 @@
         {
           "Name": "T4_Arctic_Snow_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59258,7 +59258,7 @@
         {
           "Name": "T6_Arctic_Wind_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59267,7 +59267,7 @@
         {
           "Name": "T6_Arctic_Wind_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59276,7 +59276,7 @@
         {
           "Name": "T4_Desert_Sand_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59285,7 +59285,7 @@
         {
           "Name": "T4_Desert_Sand_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59294,7 +59294,7 @@
         {
           "Name": "T5_Desert_Sand_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59303,7 +59303,7 @@
         {
           "Name": "T5_Desert_Sand_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59312,7 +59312,7 @@
         {
           "Name": "T1_Desert_Wind_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59321,7 +59321,7 @@
         {
           "Name": "T1_Desert_Wind_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59330,7 +59330,7 @@
         {
           "Name": "T3_Desert_Wind_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59339,7 +59339,7 @@
         {
           "Name": "T3_Desert_Wind_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59352,7 +59352,7 @@
         {
           "Name": "T5_Desert_Wind_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59361,7 +59361,7 @@
         {
           "Name": "T5_Desert_Wind_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59370,7 +59370,7 @@
         {
           "Name": "T6_Desert_Sand_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59379,7 +59379,7 @@
         {
           "Name": "T6_Desert_Sand_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59390,7 +59390,7 @@
         {
           "Name": "T2_Desert_Sand_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59399,7 +59399,7 @@
         {
           "Name": "T2_Desert_Sand_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59408,7 +59408,7 @@
         {
           "Name": "T0_Desert_Sand_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -59422,7 +59422,7 @@
         {
           "Name": "T3_Conifer_Hail_Body_Rain",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59431,7 +59431,7 @@
         {
           "Name": "T3_Conifer_Hail_Chaos_Rain",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59444,7 +59444,7 @@
         {
           "Name": "T4_Conifer_Hail_Chaos_Rain",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59453,7 +59453,7 @@
         {
           "Name": "T0_Conifer_Hail_Body_Rain",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -59462,7 +59462,7 @@
         {
           "Name": "T2_Conifer_Hail_Body_Rain",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.45,
@@ -59471,7 +59471,7 @@
         {
           "Name": "T2_Conifer_Hail_Chaos_Rain",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.45,
@@ -59480,7 +59480,7 @@
         {
           "Name": "T3_Arctic_Hail_Body_Rain",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59489,7 +59489,7 @@
         {
           "Name": "T3_Arctic_Hail_Chaos_Rain",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59502,7 +59502,7 @@
         {
           "Name": "T4_Arctic_Hail_Chaos_Rain",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59511,7 +59511,7 @@
         {
           "Name": "T0_Arctic_Hail_Body_Rain",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -59520,7 +59520,7 @@
         {
           "Name": "T2_Arctic_Hail_Body_Rain",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.45,
@@ -59529,7 +59529,7 @@
         {
           "Name": "T2_Arctic_Hail_Chaos_Rain",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.45,
@@ -59566,7 +59566,7 @@
         {
           "Name": "T1_Volcanic_ColdFront_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59575,7 +59575,7 @@
         {
           "Name": "T1_Volcanic_ColdFront_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59584,7 +59584,7 @@
         {
           "Name": "T3_Volcanic_ColdFront_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59593,7 +59593,7 @@
         {
           "Name": "T3_Volcanic_ColdFront_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59602,7 +59602,7 @@
         {
           "Name": "T5_Volcanic_ColdFront_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59611,7 +59611,7 @@
         {
           "Name": "T5_Volcanic_ColdFront_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59620,7 +59620,7 @@
         {
           "Name": "T5_Arctic_Whiteout_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59629,7 +59629,7 @@
         {
           "Name": "T5_Arctic_Whiteout_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59640,7 +59640,7 @@
         {
           "Name": "T2_Arctic_Whiteout_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -59649,7 +59649,7 @@
         {
           "Name": "T2_Arctic_Whiteout_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.19,
@@ -59658,7 +59658,7 @@
         {
           "Name": "T6_Arctic_Whiteout_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59667,7 +59667,7 @@
         {
           "Name": "T6_Arctic_Whiteout_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -59678,7 +59678,7 @@
         {
           "Name": "T3_Arctic_Whiteout_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.19,
@@ -59687,7 +59687,7 @@
         {
           "Name": "T3_Arctic_Whiteout_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.19,
@@ -59696,7 +59696,7 @@
         {
           "Name": "T4_Arctic_Whiteout_Body",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.15,
+          "Damage_Players_Intensity": 0.12,
           "Damage_Players_MinInterval": 4,
           "Damage_Players_MaxInterval": 8,
           "Damage_Deployables_Intensity": 0.75,
@@ -59707,7 +59707,7 @@
         {
           "Name": "T4_Arctic_Whiteout_Chaos",
           "bEnableDamage_Players": true,
-          "Damage_Players_Intensity": 0.3,
+          "Damage_Players_Intensity": 0.24,
           "Damage_Players_MinInterval": 2,
           "Damage_Players_MaxInterval": 4,
           "Damage_Deployables_Intensity": 0.75,
@@ -60028,7 +60028,7 @@
             "Modifier": {
               "RowName": "Berry"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60041,7 +60041,7 @@
             "Modifier": {
               "RowName": "CookedMeat"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60054,7 +60054,7 @@
             "Modifier": {
               "RowName": "CookedFish"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60063,7 +60063,7 @@
             "Modifier": {
               "RowName": "Bread"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60072,7 +60072,7 @@
             "Modifier": {
               "RowName": "FlatBread"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60081,7 +60081,7 @@
             "Modifier": {
               "RowName": "Beer"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60090,7 +60090,7 @@
             "Modifier": {
               "RowName": "Wine"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60099,7 +60099,7 @@
             "Modifier": {
               "RowName": "Thermos_IceWater"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60118,7 +60118,7 @@
             "Modifier": {
               "RowName": "Cooked_Prime_Meat"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60127,7 +60127,7 @@
             "Modifier": {
               "RowName": "Coconut"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60136,7 +60136,7 @@
             "Modifier": {
               "RowName": "Coconut_Mid"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60145,13 +60145,13 @@
             "Modifier": {
               "RowName": "Coconut_Mature"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
           "Name": "Antiseptic",
           "Modifier": {
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60160,7 +60160,7 @@
             "Modifier": {
               "RowName": "Jar_Jam"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60169,7 +60169,7 @@
             "Modifier": {
               "RowName": "Antibiotic_Pill"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60178,7 +60178,7 @@
             "Modifier": {
               "RowName": "Antiparasitic_Pill"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60187,7 +60187,7 @@
             "Modifier": {
               "RowName": "Antipoison_Pill"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60196,7 +60196,7 @@
             "Modifier": {
               "RowName": "Blood_Thinning_Pill"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60205,7 +60205,7 @@
             "Modifier": {
               "RowName": "Meta_Ration"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60214,7 +60214,7 @@
             "Modifier": {
               "RowName": "Meta_Soda"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60223,7 +60223,7 @@
             "Modifier": {
               "RowName": "Meta_Ration"
             },
-            "ModifierLifetime": 2520
+            "ModifierLifetime": 3150
           }
         },
         {
@@ -60232,7 +60232,7 @@
             "Modifier": {
               "RowName": "Watermelon"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60241,7 +60241,7 @@
             "Modifier": {
               "RowName": "Cooked_Corn"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60250,7 +60250,7 @@
             "Modifier": {
               "RowName": "Cooked_Pumpkin"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60259,7 +60259,7 @@
             "Modifier": {
               "RowName": "Cooked_Squash"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60268,7 +60268,7 @@
             "Modifier": {
               "RowName": "Cooked_Carrot"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60277,7 +60277,7 @@
             "Modifier": {
               "RowName": "Cooked_Mushroom"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60286,7 +60286,7 @@
             "Modifier": {
               "RowName": "Corn_Soup"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60295,7 +60295,7 @@
             "Modifier": {
               "RowName": "Mushroom_Soup"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60304,7 +60304,7 @@
             "Modifier": {
               "RowName": "Fruit_Salad"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60313,7 +60313,7 @@
             "Modifier": {
               "RowName": "Wild_Salad"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60322,7 +60322,7 @@
             "Modifier": {
               "RowName": "Meat_Stew"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60331,7 +60331,7 @@
             "Modifier": {
               "RowName": "Fried_Soy_Beans"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60340,7 +60340,7 @@
             "Modifier": {
               "RowName": "Fish_Dish"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60349,7 +60349,7 @@
             "Modifier": {
               "RowName": "Roasted_Vegetables"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60358,7 +60358,7 @@
             "Modifier": {
               "RowName": "Creamed_Corn"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60367,7 +60367,7 @@
             "Modifier": {
               "RowName": "Fruit_Pie"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60376,7 +60376,7 @@
             "Modifier": {
               "RowName": "Meat_Pie"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60385,7 +60385,7 @@
             "Modifier": {
               "RowName": "Vegetable_Pie"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60394,7 +60394,7 @@
             "Modifier": {
               "RowName": "Pumpkin_Bread"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60403,7 +60403,7 @@
             "Modifier": {
               "RowName": "Crumbed_Fish"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60412,7 +60412,7 @@
             "Modifier": {
               "RowName": "Picked_Carrot"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60421,7 +60421,7 @@
             "Modifier": {
               "RowName": "Antibiotic_Vaccine"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -60430,7 +60430,7 @@
             "Modifier": {
               "RowName": "Antibiotic_Vaccine"
             },
-            "ModifierLifetime": 5040
+            "ModifierLifetime": 6300
           }
         },
         {
@@ -60439,7 +60439,7 @@
             "Modifier": {
               "RowName": "Antibiotic_Vaccine"
             },
-            "ModifierLifetime": 15119
+            "ModifierLifetime": 18898
           }
         },
         {
@@ -60448,7 +60448,7 @@
             "Modifier": {
               "RowName": "Antipoison_Vaccine"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -60457,7 +60457,7 @@
             "Modifier": {
               "RowName": "Antipoison_Vaccine"
             },
-            "ModifierLifetime": 5040
+            "ModifierLifetime": 6300
           }
         },
         {
@@ -60466,7 +60466,7 @@
             "Modifier": {
               "RowName": "Antipoison_Vaccine"
             },
-            "ModifierLifetime": 15119
+            "ModifierLifetime": 18898
           }
         },
         {
@@ -60475,7 +60475,7 @@
             "Modifier": {
               "RowName": "Antiparasitic_Vaccine"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -60484,7 +60484,7 @@
             "Modifier": {
               "RowName": "Antiparasitic_Vaccine"
             },
-            "ModifierLifetime": 5040
+            "ModifierLifetime": 6300
           }
         },
         {
@@ -60493,7 +60493,7 @@
             "Modifier": {
               "RowName": "Antiparasitic_Vaccine"
             },
-            "ModifierLifetime": 15119
+            "ModifierLifetime": 18898
           }
         },
         {
@@ -60502,7 +60502,7 @@
             "Modifier": {
               "RowName": "Blood_Thinning_Vaccine"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -60511,7 +60511,7 @@
             "Modifier": {
               "RowName": "Blood_Thinning_Vaccine"
             },
-            "ModifierLifetime": 5040
+            "ModifierLifetime": 6300
           }
         },
         {
@@ -60520,7 +60520,7 @@
             "Modifier": {
               "RowName": "Blood_Thinning_Vaccine"
             },
-            "ModifierLifetime": 15119
+            "ModifierLifetime": 18898
           }
         },
         {
@@ -60529,7 +60529,7 @@
             "Modifier": {
               "RowName": "Thermos_GreenTea_Modifier"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60538,7 +60538,7 @@
             "Modifier": {
               "RowName": "Thermos_WildTea_Modifier"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60547,7 +60547,7 @@
             "Modifier": {
               "RowName": "Thermos_Cocoa_Modifier"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60556,7 +60556,7 @@
             "Modifier": {
               "RowName": "Thermos_Coffee_Modifier"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60569,7 +60569,7 @@
             "Modifier": {
               "RowName": "Dried_Giant_Steak"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60582,7 +60582,7 @@
             "Modifier": {
               "RowName": "Dried_Fatty_Tbone"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60595,7 +60595,7 @@
             "Modifier": {
               "RowName": "Dried_Gamey_Meat"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60608,7 +60608,7 @@
             "Modifier": {
               "RowName": "Dried_Stringy_Meat"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60621,7 +60621,7 @@
             "Modifier": {
               "RowName": "Dried_Soft_Meat"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60634,7 +60634,7 @@
             "Modifier": {
               "RowName": "Dried_White_Meat"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60647,7 +60647,7 @@
             "Modifier": {
               "RowName": "Cooked_Bacon"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60660,7 +60660,7 @@
             "Modifier": {
               "RowName": "Crispy_Bacon"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60669,7 +60669,7 @@
             "Modifier": {
               "RowName": "Cooked_Potato"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60678,7 +60678,7 @@
             "Modifier": {
               "RowName": "Cooked_Tomato"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60687,7 +60687,7 @@
             "Modifier": {
               "RowName": "Cooked_Soy_Bean"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60696,7 +60696,7 @@
             "Modifier": {
               "RowName": "Tomato_Soup"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60705,7 +60705,7 @@
             "Modifier": {
               "RowName": "Hearty_Salad"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60714,7 +60714,7 @@
             "Modifier": {
               "RowName": "Picked_Tomato"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60723,7 +60723,7 @@
             "Modifier": {
               "RowName": "Pickled_Avocado"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60732,7 +60732,7 @@
             "Modifier": {
               "RowName": "Potato_Carrot_Fries"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60741,7 +60741,7 @@
             "Modifier": {
               "RowName": "Potato_Bread"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60750,7 +60750,7 @@
             "Modifier": {
               "RowName": "Shepherds_Pie"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60784,7 +60784,7 @@
             "Modifier": {
               "RowName": "Dried_Tomato"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60793,7 +60793,7 @@
             "Modifier": {
               "RowName": "Dried_Avocado"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60802,7 +60802,7 @@
             "Modifier": {
               "RowName": "Dried_Rhubarb"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60811,7 +60811,7 @@
             "Modifier": {
               "RowName": "Cooked_Rhubarb"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60820,7 +60820,7 @@
             "Modifier": {
               "RowName": "Cooked_Kumara"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60829,7 +60829,7 @@
             "Modifier": {
               "RowName": "Stuffed_Avocado"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60838,7 +60838,7 @@
             "Modifier": {
               "RowName": "Mixed_Berries"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60847,7 +60847,7 @@
             "Modifier": {
               "RowName": "Rhubarb_Stew"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60856,7 +60856,7 @@
             "Modifier": {
               "RowName": "Fried_Chunky_Vegetables"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60865,7 +60865,7 @@
             "Modifier": {
               "RowName": "Strawberry_Jam"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60874,7 +60874,7 @@
             "Modifier": {
               "RowName": "Shepherds_Roll"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60883,7 +60883,7 @@
             "Modifier": {
               "RowName": "Savory_Roll"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60892,7 +60892,7 @@
             "Modifier": {
               "RowName": "Vegetable_Roll"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60901,7 +60901,7 @@
             "Modifier": {
               "RowName": "Fruit_Muffin"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60910,7 +60910,7 @@
             "Modifier": {
               "RowName": "Fried_Fish_Chunks"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -60919,7 +60919,7 @@
             "Modifier": {
               "RowName": "Fish_Chunk_Stew"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60932,7 +60932,7 @@
             "Modifier": {
               "RowName": "Dried_Freshwater_Fillet"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60945,7 +60945,7 @@
             "Modifier": {
               "RowName": "Dried_Saltwater_Fillet"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60954,7 +60954,7 @@
             "Modifier": {
               "RowName": "Freshwater_Fillet_Curry"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60963,7 +60963,7 @@
             "Modifier": {
               "RowName": "Saltwater_Fillet_Sashimi"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -60972,7 +60972,7 @@
             "Modifier": {
               "RowName": "Pickled_Freshwater_Fillet"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60981,7 +60981,7 @@
             "Modifier": {
               "RowName": "Crumbed_Saltwater_Fillet"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60990,7 +60990,7 @@
             "Modifier": {
               "RowName": "Fish_Fillet_Pie"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -60999,7 +60999,7 @@
             "Modifier": {
               "RowName": "Grilled_Freshwater_Fillet"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61008,7 +61008,7 @@
             "Modifier": {
               "RowName": "Grilled_Saltwater_Fillet"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61017,7 +61017,7 @@
             "Modifier": {
               "RowName": "Seed_Bread"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61026,7 +61026,7 @@
             "Modifier": {
               "RowName": "Seed_Crackers"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61035,7 +61035,7 @@
             "Modifier": {
               "RowName": "Berry_Bar"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61044,7 +61044,7 @@
             "Modifier": {
               "RowName": "Meta_Biolab_Inhaler_Sandworm"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61053,7 +61053,7 @@
             "Modifier": {
               "RowName": "Meta_Biolab_Inhaler_AlphaWolf"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61062,7 +61062,7 @@
             "Modifier": {
               "RowName": "Meta_Biolab_Inhaler_Scorpion"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61071,7 +61071,7 @@
             "Modifier": {
               "RowName": "Meta_Biolab_Inhaler_IceMammoth"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61084,7 +61084,7 @@
             "Modifier": {
               "RowName": "Smoked_Giant_Steak"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61097,7 +61097,7 @@
             "Modifier": {
               "RowName": "Smoked_Fatty_Tbone"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61110,7 +61110,7 @@
             "Modifier": {
               "RowName": "Smoked_Gamey_Meat"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61123,7 +61123,7 @@
             "Modifier": {
               "RowName": "Smoked_Stringy_Meat"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61136,7 +61136,7 @@
             "Modifier": {
               "RowName": "Smoked_Soft_Meat"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61149,7 +61149,7 @@
             "Modifier": {
               "RowName": "Smoked_White_Meat"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61162,7 +61162,7 @@
             "Modifier": {
               "RowName": "Smoked_Freshwater_Fillet"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61175,7 +61175,7 @@
             "Modifier": {
               "RowName": "Smoked_Saltwater_Fillet"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61188,7 +61188,7 @@
             "Modifier": {
               "RowName": "Dried_Meat_Generic"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61201,7 +61201,7 @@
             "Modifier": {
               "RowName": "Smoked_Meat_Generic"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61210,7 +61210,7 @@
             "Modifier": {
               "RowName": "Honey_Jar"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61223,7 +61223,7 @@
             "Modifier": {
               "RowName": "Smoked_Bacon"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61232,7 +61232,7 @@
             "Modifier": {
               "RowName": "Honey_Pastry"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61241,7 +61241,7 @@
             "Modifier": {
               "RowName": "Honey_Mead"
             },
-            "ModifierLifetime": 700
+            "ModifierLifetime": 875
           }
         },
         {
@@ -61250,7 +61250,7 @@
             "Modifier": {
               "RowName": "Honey_Bar"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61259,7 +61259,7 @@
             "Modifier": {
               "RowName": "Thermos_HoneyTea"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61268,7 +61268,7 @@
             "Modifier": {
               "RowName": "Cooked_Eggs"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61277,7 +61277,7 @@
             "Modifier": {
               "RowName": "Mushroom_Omlette"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61286,7 +61286,7 @@
             "Modifier": {
               "RowName": "Egg_Salad"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61295,7 +61295,7 @@
             "Modifier": {
               "RowName": "Pickled_Eggs"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61304,7 +61304,7 @@
             "Modifier": {
               "RowName": "Big_Breakfast"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61317,7 +61317,7 @@
             "Modifier": {
               "RowName": "Scrambled_Eggs"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61330,7 +61330,7 @@
             "Modifier": {
               "RowName": "Smashed_Avocado"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61339,7 +61339,7 @@
             "Modifier": {
               "RowName": "Roast_Chicken"
             },
-            "ModifierLifetime": 1050
+            "ModifierLifetime": 1312
           }
         },
         {
@@ -61348,7 +61348,7 @@
             "Modifier": {
               "RowName": "Fried_Chicken"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61357,7 +61357,7 @@
             "Modifier": {
               "RowName": "Grilled_Chicken"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61366,7 +61366,7 @@
             "Modifier": {
               "RowName": "Vitamins"
             },
-            "ModifierLifetime": 4200
+            "ModifierLifetime": 5250
           }
         },
         {
@@ -61375,7 +61375,7 @@
             "Modifier": {
               "RowName": "Kiwi_Fruit"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61384,7 +61384,7 @@
             "Modifier": {
               "RowName": "Dried_Kiwifruit"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61393,7 +61393,7 @@
             "Modifier": {
               "RowName": "Kiwifruit_Jam"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61402,7 +61402,7 @@
             "Modifier": {
               "RowName": "Kiwifruit_Sorbet"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61411,7 +61411,7 @@
             "Modifier": {
               "RowName": "Fruit_Snack_Pack"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61420,7 +61420,7 @@
             "Modifier": {
               "RowName": "Fruit_Smoothie"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61436,7 +61436,7 @@
             "Modifier": {
               "RowName": "Choc_Chip_Cookie"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61445,7 +61445,7 @@
             "Modifier": {
               "RowName": "Coconut_Cookie"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61454,7 +61454,7 @@
             "Modifier": {
               "RowName": "Energy_Bar"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61463,7 +61463,7 @@
             "Modifier": {
               "RowName": "Caramel_Fruit_Tart"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61472,7 +61472,7 @@
             "Modifier": {
               "RowName": "Salted_Caramel_Pastry"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61481,7 +61481,7 @@
             "Modifier": {
               "RowName": "Meta_Biolab_Inhaler_LavaHunter"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61490,7 +61490,7 @@
             "Modifier": {
               "RowName": "Meta_Biolab_Inhaler_Hammerhead"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61499,7 +61499,7 @@
             "Modifier": {
               "RowName": "Meta_Biolab_Inhaler_RockGolem"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61508,7 +61508,7 @@
             "Modifier": {
               "RowName": "Meta_Biolab_Inhaler_SwampApe"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61517,7 +61517,7 @@
             "Modifier": {
               "RowName": "Meta_Biolab_Inhaler_Scyther"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61526,7 +61526,7 @@
             "Modifier": {
               "RowName": "Meta_Biolab_Inhaler_Thornet"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61535,7 +61535,7 @@
             "Modifier": {
               "RowName": "Meta_Biolab_Inhaler_PlantBoss"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61544,7 +61544,7 @@
             "Modifier": {
               "RowName": "Meta_Biolab_Inhaler_GiantCat"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61553,7 +61553,7 @@
             "Modifier": {
               "RowName": "Chocolate_Cake_Piece"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61562,7 +61562,7 @@
             "Modifier": {
               "RowName": "Coconut_Cake_Piece"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61571,7 +61571,7 @@
             "Modifier": {
               "RowName": "Carrot_Cake_Piece"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61580,7 +61580,7 @@
             "Modifier": {
               "RowName": "Cheese"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61589,7 +61589,7 @@
             "Modifier": {
               "RowName": "Cheese_Roll"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61598,7 +61598,7 @@
             "Modifier": {
               "RowName": "Cheese_Pizza"
             },
-            "ModifierLifetime": 1050
+            "ModifierLifetime": 1312
           }
         },
         {
@@ -61607,7 +61607,7 @@
             "Modifier": {
               "RowName": "Pavlova"
             },
-            "ModifierLifetime": 1260
+            "ModifierLifetime": 1575
           }
         },
         {
@@ -61616,7 +61616,7 @@
             "Modifier": {
               "RowName": "Strawberries_And_Cream"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61625,7 +61625,7 @@
             "Modifier": {
               "RowName": "Bacon_Sandwich"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61637,7 +61637,7 @@
             "Modifier": {
               "RowName": "Enzyme_Elixir"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61646,7 +61646,7 @@
             "Modifier": {
               "RowName": "Banana"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61655,7 +61655,7 @@
             "Modifier": {
               "RowName": "Banana_Bread"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61664,7 +61664,7 @@
             "Modifier": {
               "RowName": "AntiRadiation_Transfusion"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61673,7 +61673,7 @@
             "Modifier": {
               "RowName": "Cooked_Onion"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61682,7 +61682,7 @@
             "Modifier": {
               "RowName": "Caramelized_Onions"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61691,7 +61691,7 @@
             "Modifier": {
               "RowName": "French_Onion_Soup"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61700,7 +61700,7 @@
             "Modifier": {
               "RowName": "Onion_Rings"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61709,7 +61709,7 @@
             "Modifier": {
               "RowName": "Onion_Souffle"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61718,7 +61718,7 @@
             "Modifier": {
               "RowName": "Cooked_Agave"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61727,7 +61727,7 @@
             "Modifier": {
               "RowName": "Agave_Syrup"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61736,7 +61736,7 @@
             "Modifier": {
               "RowName": "Tequila"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61745,7 +61745,7 @@
             "Modifier": {
               "RowName": "Glazed_Carrots"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61754,7 +61754,7 @@
             "Modifier": {
               "RowName": "Pumpkin_Pie"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61763,7 +61763,7 @@
             "Modifier": {
               "RowName": "Cooked_PricklyPear"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61772,7 +61772,7 @@
             "Modifier": {
               "RowName": "PricklyPear_Margarita"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61781,7 +61781,7 @@
             "Modifier": {
               "RowName": "PricklyPear_Jelly"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61790,7 +61790,7 @@
             "Modifier": {
               "RowName": "PricklyPear_Muffins"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61799,7 +61799,7 @@
             "Modifier": {
               "RowName": "Cooked_Garlic"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61808,7 +61808,7 @@
             "Modifier": {
               "RowName": "Garlic_Bread"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61817,7 +61817,7 @@
             "Modifier": {
               "RowName": "Garlic_Pizza"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61826,7 +61826,7 @@
             "Modifier": {
               "RowName": "Smoked_Garlic"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61835,7 +61835,7 @@
             "Modifier": {
               "RowName": "Cooked_Truffle"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61844,7 +61844,7 @@
             "Modifier": {
               "RowName": "Vodka"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61853,7 +61853,7 @@
             "Modifier": {
               "RowName": "Truffle_Vodka"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61862,7 +61862,7 @@
             "Modifier": {
               "RowName": "Truffle_Focaccia"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61871,7 +61871,7 @@
             "Modifier": {
               "RowName": "Truffle_Pasta"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -61880,7 +61880,7 @@
             "Modifier": {
               "RowName": "Truffle_Fries"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61893,7 +61893,7 @@
             "Modifier": {
               "RowName": "Cooked_Giant_Steak"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61906,7 +61906,7 @@
             "Modifier": {
               "RowName": "Cooked_Fatty_TBone"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61919,7 +61919,7 @@
             "Modifier": {
               "RowName": "Cooked_Gamey_Meat"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61932,7 +61932,7 @@
             "Modifier": {
               "RowName": "Cooked_Stringy_Meat"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61945,7 +61945,7 @@
             "Modifier": {
               "RowName": "Cooked_Soft_Meat"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61958,7 +61958,7 @@
             "Modifier": {
               "RowName": "Cooked_White_Meat"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61967,7 +61967,7 @@
             "Modifier": {
               "RowName": "AntiRadiation_Tonic"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61976,7 +61976,7 @@
             "Modifier": {
               "RowName": "Animal_Fertilize"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -61985,7 +61985,7 @@
             "Modifier": {
               "RowName": "Cooked_Banana"
             },
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         },
         {
@@ -61994,7 +61994,7 @@
             "Modifier": {
               "RowName": "Dried_Banana_Chips"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -62003,7 +62003,7 @@
             "Modifier": {
               "RowName": "Banana_Porridge"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -62012,7 +62012,7 @@
             "Modifier": {
               "RowName": "Frozen_Banana"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
@@ -62021,7 +62021,7 @@
             "Modifier": {
               "RowName": "Banana_Tart"
             },
-            "ModifierLifetime": 840
+            "ModifierLifetime": 1050
           }
         },
         {
@@ -62030,13 +62030,13 @@
             "Modifier": {
               "RowName": "Banana_Toast"
             },
-            "ModifierLifetime": 630
+            "ModifierLifetime": 787
           }
         },
         {
           "Name": "Food_Gruel",
           "Modifier": {
-            "ModifierLifetime": 420
+            "ModifierLifetime": 525
           }
         }
       ]
@@ -62073,8 +62073,8 @@
             "(Value=\"BaseSlowResistance_%\")": 75,
             "(Value=\"BaseImmobiliseResistance_%\")": 75,
             "(Value=\"BaseMovementSpeed_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMeleeDamage_+%\")": 120
           }
         },
         {
@@ -62107,8 +62107,8 @@
             "(Value=\"BaseSlowResistance_%\")": 75,
             "(Value=\"BaseImmobiliseResistance_%\")": 75,
             "(Value=\"BaseMovementSpeed_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMeleeDamage_+%\")": 120
           }
         },
         {
@@ -62145,8 +62145,8 @@
             "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 5,
             "(Value=\"BaseMeleeDamageResistance_+%\")": -200,
             "(Value=\"BaseFireDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62164,8 +62164,8 @@
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseMovementSpeed_+\")": 50,
             "(Value=\"BaseNPCAttackRadius_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -62193,8 +62193,8 @@
             "(Value=\"BaseImmobiliseResistance_%\")": 10,
             "(Value=\"BaseFrostDamageResistance_%\")": -50,
             "(Value=\"BaseMovementSpeed_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62221,8 +62221,8 @@
             "(Value=\"BaseSlowResistance_%\")": 33,
             "(Value=\"BaseImmobiliseResistance_%\")": 33,
             "(Value=\"BaseMovementSpeed_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62247,8 +62247,8 @@
             "(Value=\"BaseMovementSpeed_+\")": 70,
             "(Value=\"BaseGOAPActionWanderMinDistance_+\")": 100,
             "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 500,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62268,8 +62268,8 @@
             "(Value=\"BaseNPCAttackRadius_+\")": 250,
             "(Value=\"BaseAttacksCauseBeeSwarm_%\")": 100,
             "(Value=\"BaseMeleeDamageAgainstBuildings_+%\")": -75,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -62286,8 +62286,8 @@
             "(Value=\"BaseProjectileDamageAgainstBuildings_+%\")": 1500,
             "(Value=\"BaseHealthPerConnectedPlayer_+\")": 50,
             "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -62305,8 +62305,8 @@
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseMovementSpeed_+\")": 50,
             "(Value=\"BaseNPCAttackRadius_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -62329,8 +62329,8 @@
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
             "(Value=\"BaseNPCAttackRadius_+\")": 600,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -62358,8 +62358,8 @@
             "(Value=\"BaseImmobiliseResistance_%\")": 10,
             "(Value=\"BasePoisonDamageResistance_%\")": -50,
             "(Value=\"BaseMovementSpeed_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -62394,8 +62394,8 @@
             "(Value=\"BaseExplosiveDamageResistance_%\")": -25,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
             "(Value=\"BasePoisonDamageResistance_%\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62427,8 +62427,8 @@
             "(Value=\"BaseFireDamage_+\")": 20,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
             "(Value=\"BaseElectricDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -62458,8 +62458,8 @@
             "(Value=\"BaseAttacksCausePoison_%\")": 75,
             "(Value=\"BasePoisonDamageResistance_%\")": 100,
             "(Value=\"BaseElectricDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -62493,8 +62493,8 @@
             "(Value=\"BaseFlyerForwardMovementDurationDeviation_+\")": 200,
             "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 2,
             "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 70,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62529,8 +62529,8 @@
             "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 1,
             "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 30,
             "(Value=\"DroneIsTurretDisabled_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMeleeDamage_+%\")": 120
           }
         },
         {
@@ -62565,8 +62565,8 @@
             "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 1,
             "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 90,
             "(Value=\"BaseExplosiveDamage_+\")": 200,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62601,8 +62601,8 @@
             "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 1,
             "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 90,
             "(Value=\"BaseExplosiveDamage_+\")": 75,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMeleeDamage_+%\")": 120
           }
         },
         {
@@ -62636,8 +62636,8 @@
             "(Value=\"BaseFlyerForwardMovementDurationDeviation_+\")": 100,
             "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 2,
             "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62654,8 +62654,8 @@
             "(Value=\"BaseCharacterMass_+\")": 10,
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseMovementSpeed_+\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62683,8 +62683,8 @@
             "(Value=\"BaseSlowResistance_%\")": 33,
             "(Value=\"BaseImmobiliseResistance_%\")": 33,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62714,8 +62714,8 @@
             "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
             "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 75,
             "(Value=\"BaseProjectileDamageResistance_+%\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -62745,8 +62745,8 @@
             "(Value=\"BaseFrostDamageResistance_%\")": -50,
             "(Value=\"BaseElectricDamageResistance_%\")": -50,
             "(Value=\"BaseProjectileDamageResistance_+%\")": 33,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -62763,8 +62763,8 @@
             "(Value=\"BaseCharacterMass_+\")": 10,
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseMovementSpeed_+\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62794,8 +62794,8 @@
             "(Value=\"BasePoisonDamageResistance_%\")": 50,
             "(Value=\"BaseFireDamageResistance_%\")": -100,
             "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 2500,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62815,8 +62815,8 @@
             "(Value=\"BaseNPCAttackRadius_+\")": 150,
             "(Value=\"BaseFireDamage_+\")": 5,
             "(Value=\"BaseElectricDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62851,8 +62851,8 @@
             "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
             "(Value=\"BasePoisonDamageResistance_%\")": -100,
             "(Value=\"BaseFireDamageResistance_%\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -62883,8 +62883,8 @@
             "(Value=\"BasePoisonDamageResistance_%\")": 80,
             "(Value=\"BaseElectricDamageResistance_%\")": 80,
             "(Value=\"BaseFireDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -62918,8 +62918,8 @@
             "(Value=\"BaseMeleeDamageResistance_+%\")": -50,
             "(Value=\"BaseMaximumHealth_+\")": 3600,
             "(Value=\"BaseMaximumArmor_+\")": 750,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -62954,8 +62954,8 @@
             "(Value=\"BaseMovementSpeed_+%\")": 50,
             "(Value=\"BaseMeleeDamageResistance_+%\")": -50,
             "(Value=\"BaseMaximumHealth_+\")": 25000,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -62991,8 +62991,8 @@
             "(Value=\"BaseMeleeDamageResistance_+%\")": -50,
             "(Value=\"BaseMaximumHealth_+\")": 10000,
             "(Value=\"BaseMaximumArmor_+\")": 1000,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -63023,8 +63023,8 @@
             "(Value=\"BaseFireDamageResistance_%\")": 50,
             "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500,
             "(Value=\"BasePoisonDamageResistance_%\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -63054,8 +63054,8 @@
             "(Value=\"BaseElectricDamageResistance_%\")": -100,
             "(Value=\"BasePoisonDamageResistance_%\")": 50,
             "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -63082,8 +63082,8 @@
             "(Value=\"BaseSlowResistance_%\")": 10,
             "(Value=\"BaseImmobiliseResistance_%\")": 10,
             "(Value=\"BaseMovementSpeed_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -63115,8 +63115,8 @@
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
             "(Value=\"IsInvulnerable_?\")": 1,
             "(Value=\"BaseMeleeDamage_+\")": 5000,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63154,8 +63154,8 @@
             "(Value=\"BaseProjectileDamageAgainstBuildings_+%\")": 1000,
             "(Value=\"BaseMaximumHealth_+\")": 40000,
             "(Value=\"BaseExplosiveDamageResistance_%\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMeleeDamage_+%\")": 120
           }
         },
         {
@@ -63184,8 +63184,8 @@
             "(Value=\"BaseMovementSpeed_+\")": 125,
             "(Value=\"BaseAttacksCauseRadiationBurn_%\")": 33,
             "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 6500,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63215,8 +63215,8 @@
             "(Value=\"BaseAttacksCauseRadiationBurn_%\")": 25,
             "(Value=\"BaseLaserDamageResistance_%\")": -100,
             "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 6500,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63248,8 +63248,8 @@
             "(Value=\"BasePhysicalDamageResistance_%\")": 33,
             "(Value=\"BaseProjectileDamageResistance_%\")": 33,
             "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 6500,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63275,8 +63275,8 @@
             "(Value=\"BaseSlowResistance_%\")": 15,
             "(Value=\"BaseImmobiliseResistance_%\")": 15,
             "(Value=\"BaseFireDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -63302,8 +63302,8 @@
             "(Value=\"BaseSlowResistance_%\")": 75,
             "(Value=\"BaseImmobiliseResistance_%\")": 75,
             "(Value=\"BaseFireDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -63332,8 +63332,8 @@
             "(Value=\"BasePoisonDamageResistance_%\")": -50,
             "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500,
             "(Value=\"BaseMovementSpeed_+\")": 120,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -63364,8 +63364,8 @@
             "(Value=\"BaseGOAPMotivationProtectiveDistanceMaximumThreat_+\")": 200,
             "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500,
             "(Value=\"BaseMovementSpeed_+\")": 120,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -63397,8 +63397,8 @@
             "(Value=\"BaseMaximumHealth_+\")": 84000,
             "(Value=\"BaseMeleeDamageAgainstBuildings_+%\")": 300,
             "(Value=\"BaseMeleeDamageAgainstDeployables_+%\")": 500,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -63425,8 +63425,8 @@
             "(Value=\"BaseMaximumWater_+\")": 100,
             "(Value=\"BaseFoodConsumptionPerHour_+\")": 1200,
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 0,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -63453,8 +63453,8 @@
             "(Value=\"BaseMaximumWater_+\")": 100,
             "(Value=\"BaseFoodConsumptionPerHour_+\")": 1200,
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 0,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -63486,8 +63486,8 @@
             "(Value=\"BaseFireDamageResistance_%\")": 50,
             "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500,
             "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63519,8 +63519,8 @@
             "(Value=\"BaseFireDamageResistance_%\")": -50,
             "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500,
             "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63547,8 +63547,8 @@
             "(Value=\"BaseMaximumWater_+\")": 100,
             "(Value=\"BaseFoodConsumptionPerHour_+\")": 1200,
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 0,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -63576,8 +63576,8 @@
             "(Value=\"BaseMaximumWater_+\")": 100,
             "(Value=\"BaseFoodConsumptionPerHour_+\")": 1200,
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 0,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63604,8 +63604,8 @@
             "(Value=\"BaseMaximumWater_+\")": 100,
             "(Value=\"BaseFoodConsumptionPerHour_+\")": 1200,
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 0,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -63633,8 +63633,8 @@
             "(Value=\"BaseMaximumWater_+\")": 100,
             "(Value=\"BaseFoodConsumptionPerHour_+\")": 1200,
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 0,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63668,8 +63668,8 @@
             "(Value=\"BaseImmobiliseResistance_%\")": 10,
             "(Value=\"BasePoisonDamageResistance_%\")": 50,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -63686,8 +63686,8 @@
             "(Value=\"BaseProjectileDamageAgainstBuildings_+%\")": 1500,
             "(Value=\"BaseHealthPerConnectedPlayer_+\")": 150,
             "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63704,8 +63704,8 @@
             "(Value=\"BaseProjectileDamageAgainstBuildings_+%\")": 1500,
             "(Value=\"BaseHealthPerConnectedPlayer_+\")": 150,
             "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63736,8 +63736,8 @@
             "(Value=\"BaseExplosiveDamageResistance_%\")": -25,
             "(Value=\"BaseFireDamageResistance_%\")": 50,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63763,8 +63763,8 @@
             "(Value=\"BaseExplosiveDamageRadius_+\")": 350,
             "(Value=\"BaseExplosiveDamage_+\")": 75,
             "(Value=\"BaseMaximumHealth_+\")": 100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63791,8 +63791,8 @@
             "(Value=\"BaseAttacksCauseBurn_%\")": 25,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
             "(Value=\"BaseFireDamageResistance_%\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63819,8 +63819,8 @@
             "(Value=\"BaseMeleeDamageResistance_+%\")": -50,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
             "(Value=\"BaseFireDamageResistance_%\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63838,8 +63838,8 @@
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseExplosiveDamageRadius_+\")": 300,
             "(Value=\"BaseExplosiveDamage_+\")": 35,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63858,8 +63858,8 @@
             "(Value=\"BaseExplosiveDamageRadius_+\")": 275,
             "(Value=\"BaseExplosiveDamage_+\")": 225,
             "(Value=\"BaseExplosiveDamageResistance_%\")": 100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63890,8 +63890,8 @@
             "(Value=\"BaseFrostDamageResistance_%\")": -200,
             "(Value=\"BaseFireDamageResistance_%\")": 40,
             "(Value=\"BaseFallDamageResistance_%\")": 99,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63925,8 +63925,8 @@
             "(Value=\"BaseImmobiliseResistance_%\")": 10,
             "(Value=\"BaseFireDamageResistance_%\")": 50,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63956,8 +63956,8 @@
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
             "(Value=\"BaseMovementSpeed_+\")": 150,
             "(Value=\"BaseFireDamage_+\")": 10,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -63985,8 +63985,8 @@
             "(Value=\"BaseImmobiliseResistance_%\")": 10,
             "(Value=\"BasePoisonDamageResistance_%\")": -50,
             "(Value=\"BaseMovementSpeed_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -64012,8 +64012,8 @@
             "(Value=\"BaseSlowResistance_%\")": 15,
             "(Value=\"BaseImmobiliseResistance_%\")": 15,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -64045,8 +64045,8 @@
             "(Value=\"BasePoisonDamageResistance_%\")": -100,
             "(Value=\"BaseFrostDamageResistance_%\")": 50,
             "(Value=\"BaseFireDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -64079,8 +64079,8 @@
             "(Value=\"BasePoisonDamageResistance_%\")": -100,
             "(Value=\"BaseFrostDamageResistance_%\")": 50,
             "(Value=\"BaseMovementSpeed_+\")": 200,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMeleeDamage_+%\")": 120
           }
         },
         {
@@ -64114,8 +64114,8 @@
             "(Value=\"BaseFireDamageResistance_%\")": -100,
             "(Value=\"BaseFrostDamage_+\")": 50,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 25,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -64145,8 +64145,8 @@
             "(Value=\"BaseGOAPActionWanderMinDistance_+\")": 75,
             "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 300,
             "(Value=\"BaseMovementSpeed_+\")": 187,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -64174,8 +64174,8 @@
             "(Value=\"BaseImmobiliseResistance_%\")": 10,
             "(Value=\"BaseFrostDamageResistance_%\")": -50,
             "(Value=\"BaseMovementSpeed_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMeleeDamage_+%\")": 120
           }
         },
         {
@@ -64202,8 +64202,8 @@
             "(Value=\"BaseMovementSpeed_+\")": 180,
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseFrostDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -64230,8 +64230,8 @@
             "(Value=\"BaseMovementSpeed_+\")": 190,
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseFrostDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -64258,8 +64258,8 @@
             "(Value=\"BaseMovementSpeed_+\")": 220,
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseFrostDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -64292,8 +64292,8 @@
             "(Value=\"BaseMaximumWater_+\")": 250,
             "(Value=\"BaseFoodConsumptionPerHour_+\")": 1,
             "(Value=\"BaseWaterConsumptionPerHour_+\")": 2,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMeleeDamage_+%\")": 120
           }
         },
         {
@@ -64316,8 +64316,8 @@
             "(Value=\"CanNPCDamageDurableActors_?\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 999999,
             "(Value=\"BaseMovementSpeed_+\")": 140,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -64352,8 +64352,8 @@
             "(Value=\"BasePoisonDamageResistance_%\")": 80,
             "(Value=\"BaseFireDamageResistance_%\")": -100,
             "(Value=\"BasePoisonDamage_+\")": 20,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -64389,8 +64389,8 @@
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
             "(Value=\"BaseFireDamage_+\")": 8,
             "(Value=\"BaseAttacksCauseBurn_%\")": 5,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -64421,8 +64421,8 @@
             "(Value=\"BaseFireDamageResistance_%\")": -50,
             "(Value=\"BasePoisonDamageResistance_%\")": -50,
             "(Value=\"BaseFrostDamageResistance_%\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -64447,8 +64447,8 @@
             "(Value=\"CanNPCDamageDurableActors_?\")": 1,
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseMovementSpeed_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -64477,8 +64477,8 @@
             "(Value=\"BasePoisonDamageResistance_%\")": -100,
             "(Value=\"BaseFrostDamageResistance_%\")": 50,
             "(Value=\"BaseMovementSpeed_+\")": 200,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -64507,8 +64507,8 @@
             "(Value=\"BasePoisonDamageResistance_%\")": -100,
             "(Value=\"BaseFrostDamageResistance_%\")": 50,
             "(Value=\"BaseMovementSpeed_+\")": 200,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMeleeDamage_+%\")": 120
           }
         },
         {
@@ -64533,8 +64533,8 @@
             "(Value=\"BaseFrostDamageResistance_%\")": 50,
             "(Value=\"BasePoisonDamageResistance_%\")": -100,
             "(Value=\"BaseMovementSpeed_+\")": 200,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -64552,8 +64552,8 @@
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseMovementSpeed_+\")": 50,
             "(Value=\"BaseNPCAttackRadius_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -64583,8 +64583,8 @@
             "(Value=\"BaseFrostDamageResistance_+%\")": -100,
             "(Value=\"BaseElectricDamageResistance_%\")": -50,
             "(Value=\"BasePoisonResistance_%\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -64616,8 +64616,8 @@
             "(Value=\"BaseFireDamageResistance_+%\")": 50,
             "(Value=\"IsMountSecondaryAttackDisabledByDefault_?\")": 1,
             "(Value=\"BaseMountSecondaryAttackCooldown_+\")": 10,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -64649,8 +64649,8 @@
             "(Value=\"BaseFireDamageResistance_%\")": -50,
             "(Value=\"BasePoisonDamageResistance_%\")": 100,
             "(Value=\"BaseAttacksCausePoison_%\")": 25,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -64685,8 +64685,8 @@
             "(Value=\"BaseElectroshockResistance_%\")": 100,
             "(Value=\"BasePoisonDamageResistance_%\")": -100,
             "(Value=\"BaseMaximumHealth_+\")": 34000,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -64704,8 +64704,8 @@
             "(Value=\"BaseHealthPerConnectedPlayer_+\")": 5000,
             "(Value=\"BaseProjectileDamageResistance_%\")": 33,
             "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -64722,8 +64722,8 @@
             "(Value=\"BaseProjectileDamageAgainstBuildings_+%\")": 1000,
             "(Value=\"BaseHealthPerConnectedPlayer_+\")": 5000,
             "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -64755,8 +64755,8 @@
             "(Value=\"BaseExplosiveDamageResistance_%\")": -25,
             "(Value=\"BaseFrostDamageResistance_%\")": -25,
             "(Value=\"IsHungryNibbler_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -64788,8 +64788,8 @@
             "(Value=\"BaseMeleeDamageAgainstBuildings_+%\")": 500,
             "(Value=\"BaseProjectileDamageAgainstBuildings_+%\")": 500,
             "(Value=\"BaseMeleeDamage_+\")": 300,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMeleeDamage_+%\")": 120
           }
         },
         {
@@ -64822,8 +64822,8 @@
             "(Value=\"BaseImmobiliseResistance_%\")": 25,
             "(Value=\"BaseExplosiveDamageResistance_%\")": -100,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -64857,8 +64857,8 @@
             "(Value=\"BaseExplosiveDamageResistance_%\")": -100,
             "(Value=\"BaseProjectileDamageResistance_%\")": 60,
             "(Value=\"BaseFireDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -64892,8 +64892,8 @@
             "(Value=\"BaseProjectileDamageResistance_%\")": 80,
             "(Value=\"BaseExplosiveDamageResistance_%\")": -100,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -64923,8 +64923,8 @@
             "(Value=\"BaseImmobiliseResistance_%\")": 100,
             "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
             "(Value=\"BaseFrostDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMeleeDamage_+%\")": 120
           }
         },
         {
@@ -64957,8 +64957,8 @@
             "(Value=\"BaseExplosiveDamageResistance_%\")": -100,
             "(Value=\"BaseMaximumHealth_+\")": 65,
             "(Value=\"BaseMeleeDamage_+\")": 25,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -64991,8 +64991,8 @@
             "(Value=\"BasePoisonDamageResistance_%\")": 50,
             "(Value=\"BaseFireDamageResistance_%\")": -50,
             "(Value=\"BaseFrostDamageOverTime_+%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -65024,8 +65024,8 @@
             "(Value=\"BaseFrostDamageResistance_%\")": 50,
             "(Value=\"BaseFrostDamage_+\")": 20,
             "(Value=\"BaseElectricDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -65052,8 +65052,8 @@
             "(Value=\"BaseImmobiliseResistance_%\")": 15,
             "(Value=\"BasePoisonDamageResistance_%\")": -100,
             "(Value=\"BaseFrostDamageResistance_%\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -65082,8 +65082,8 @@
             "(Value=\"BaseFireDamageResistance_%\")": -200,
             "(Value=\"BaseMovementSpeed_+\")": 150,
             "(Value=\"BaseFrostDamage_+\")": 20,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -65112,8 +65112,8 @@
             "(Value=\"BasePoisonDamageResistance_%\")": -100,
             "(Value=\"BaseFrostDamageResistance_%\")": 50,
             "(Value=\"BaseMovementSpeed_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -65143,8 +65143,8 @@
             "(Value=\"BasePoisonDamageResistance_%\")": 50,
             "(Value=\"BaseFireDamageResistance_%\")": -100,
             "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 2500,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -65172,8 +65172,8 @@
             "(Value=\"BaseGOAPMotivationProtectiveIncreaseRate_+%\")": 50,
             "(Value=\"BaseFrostDamageResistance_%\")": -50,
             "(Value=\"BaseAttacksCauseHemorrhage_%\")": 25,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -65201,8 +65201,8 @@
             "(Value=\"BaseGOAPMotivationProtectiveIncreaseRate_+%\")": 50,
             "(Value=\"BaseFrostDamageResistance_%\")": -50,
             "(Value=\"BaseAttacksCauseHemorrhage_%\")": 25,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 300,
+            "(Value=\"BaseMeleeDamage_+%\")": 120
           }
         },
         {
@@ -65231,8 +65231,8 @@
             "(Value=\"BaseMovementSpeed_+\")": 90,
             "(Value=\"BaseFireDamageResistance_%\")": -50,
             "(Value=\"BaseFrostDamageResistance_%\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -65250,8 +65250,8 @@
             "(Value=\"BaseAttacksCauseHemorrhage_%\")": 25,
             "(Value=\"BasePoisonDamageResistance_%\")": -100,
             "(Value=\"BaseProjectileDamageResistance_%\")": 50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -65280,8 +65280,8 @@
             "(Value=\"BasePoisonDamageResistance_%\")": 80,
             "(Value=\"BaseFireDamageResistance_%\")": -100,
             "(Value=\"BaseMovementSpeed_+\")": 150,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -65298,8 +65298,8 @@
             "(Value=\"BaseProjectileDamageAgainstBuildings_+%\")": 1500,
             "(Value=\"BaseHealthPerConnectedPlayer_+\")": 100,
             "(Value=\"BaseExplosiveDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -65326,8 +65326,8 @@
             "(Value=\"BaseMovementSpeed_+\")": 60,
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseFrostDamageResistance_%\")": 75,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 125,
+            "(Value=\"BaseMeleeDamage_+%\")": 60
           }
         },
         {
@@ -65357,8 +65357,8 @@
             "(Value=\"BaseMiningRadius_+\")": 100,
             "(Value=\"BasePoisonDamageResistance_%\")": -100,
             "(Value=\"BaseAttacksCauseBleed_%\")": 75,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         },
         {
@@ -65385,8 +65385,8 @@
             "(Value=\"BaseMovementSpeed_+\")": 190,
             "(Value=\"BaseHealthRegenDelay_+\")": 2,
             "(Value=\"BaseFrostDamageResistance_%\")": -50,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 75,
+            "(Value=\"BaseMeleeDamage_+%\")": 40
           }
         },
         {
@@ -65419,8 +65419,8 @@
             "(Value=\"BaseGOAPMotivationEnrageCooldownTime_+\")": 15,
             "(Value=\"BaseGOAPMotivationEnrageDuration_+\")": 25,
             "(Value=\"BaseFireDamageResistance_%\")": -100,
-            "(Value=\"BaseMaximumHealth_+%\")": 150,
-            "(Value=\"BaseMeleeDamage_+%\")": 75
+            "(Value=\"BaseMaximumHealth_+%\")": 200,
+            "(Value=\"BaseMeleeDamage_+%\")": 90
           }
         }
       ]
