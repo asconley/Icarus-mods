@@ -2,7 +2,7 @@
   "name": "Indestructible Tools & Weapons",
   "author": "AgentKush",
   "version": "1.8",
-  "description": "All tools, weapons, armor, buildings, doors, and crafting stations will never break. Sets durability to max cap (12,700,000).\r\n\r\n\r\nVer 1.7\r\nAdded 7 new durable entries from latest game data (199 total).\r\n\r\nVer 1.6\r\nAdded Sandwyrm_Gear row - covers Sandwyrm Backpack.\r\n\r\nVer 1.5\r\nWeek 217 fix: LegendaryWeapon_ApeClub renamed to LegendaryWeapon_Ape_Club.\r\n\r\nVer 1.4\r\nWeek 213+ compatibility update.\r\n\r\nVer 1.3\r\nExpanded coverage to 191 items including legendary weapons and Workshop gear.\r\n\r\nVer 1.2\r\nAdded building and deployable durability.\r\n\r\nVer 1.0\r\nInitial release.",
+  "description": "All tools, weapons, armor, buildings, doors, and crafting stations will never break.",
   "fileName": "Indestructible_Tools_Weapons",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Indestructible_Tools_Weapons.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/README.md",

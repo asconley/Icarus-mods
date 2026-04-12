@@ -3,7 +3,7 @@
   "author": "AgentKush",
   "fileName": "Bestiary_Fix",
   "version": "1.1",
-  "description": "Adds missing Kill/Skin experience events for Sulfur Worm, Sulfur Vesper, Cave Worm, and Vesper to help Bestiary tracking. Also fixes Sulfuric Spider SkinningXPEvent pointing to wrong event.\r\n\r\nVer 1.1\r\nRemoved skinning events for exploding creatures. Fixed GeothermalSpider SkinningXPEvent. Added Kill_SulfurWorm event.\r\n\r\nVer 1.0\r\nInitial release.",
+  "description": "Adds missing Kill/Skin experience events for Sulfur Worm, Sulfur Vesper, Cave Worm, and Vesper to help Bestiary tracking.",
   "week": "",
   "Level2": "True",
   "Rows": [

@@ -2,7 +2,7 @@
   "name": "Creature_Difficulty_Scaling",
   "author": "AgentKush",
   "version": "2.2",
-  "description": "Dynamic creature level scaling for level 500 cap. Scales all spawn zones up to level 500, buffs creature stats by tier, and adds player-level-based scaling rules. v2.2: Significant tame and mount HP/damage/resistance buffs so pets can stand up to high-level hostile creatures. Full DLC coverage (New Frontiers, Styx, Dread). Compatible with JimK72 Level Cap 500 mod.\r\n\r\n\r\nVer 2.2\r\nFixes the \"my wolf dies in 3 seconds\" problem. Prior versions left the Tame_* and Mount_* entries almost untouched - they had a flat 40% damage resistance but zero HP boost and zero melee damage boost. As players progressed into higher-level zo.. What changed:.\r\n\r\nVer 2.1\r\nAdded 44 new creature growth entries for taming/mount content (dogs, horses, mounts, juveniles, tamed pets, speeder bike). Total creature entries: 180 (up from 136).\r\n\r\nVer 2.1\r\nMajor overhaul - expanded from creature-only buffs to full zone scaling. Added 161 spawn zone level modifications (all maps/biomes). Scaled zone levels from vanilla max 120 to support level 500 cap. Added speed scaling rule (+1% per player level, capped 25%).\r\n\r\nVer 1.0\r\nInitial release. 136 creature modifications across 4 difficulty tiers. 3 player-level scaling rule additions.",
+  "description": "Dynamic creature level scaling for level 500 cap.",
   "fileName": "Creature_Difficulty_Scaling",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Difficulty_Scaling.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/README.md",

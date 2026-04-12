@@ -1,0 +1,38 @@
+NightVisionGoggles_P.pak
+----------------------------------------------------------------------
+Mod Version: 2.0
+
+Author: AgentKush
+
+Compatible with Icarus: All Weeks
+
+Mod Type: EXMOD
+
+## Description:
+Adds craftable Night Vision Goggles with improved durability, no decay, lighter weight. Craft at Fabricator, Manufacturer, or Machining Bench.
+
+
+Ver 2.0
+Added no-decay (Decay_NoDecay) so goggles persist indefinitely. Added durability (Destroyed_Tool, 10,000 HP). Reduced weight from 5.0 to 1.0. Added Machining Bench as crafting station. Updated description.
+
+Ver 1.1
+Fixed mod format: converted from legacy structure to current name/author/Rows format.
+
+Ver 1.0
+Initial release. Unlocked hidden Night Vision item from game files. Added crafting recipe at Fabricator/Manufacturer.
+
+## Files Modified:
+  Items-D_ItemsStatic         (1 entries)
+  Items-D_ItemTemplate        (1 entries)
+  Traits-D_Itemable           (1 entries)
+  Crafting-D_ProcessorRecipes (1 entries)
+
+## Installation:
+  1. Install JimK72's Icarus Mod Manager
+     https://github.com/jimk72/IcarusModManager
+  2. Download NightVisionGoggles.EXMODZ
+  3. Import via Mod Manager
+
+----------------------------------------------------------------------
+Made by AgentKush
+https://github.com/AgentKush/Icarus-mods

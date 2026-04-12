@@ -2,7 +2,7 @@
   "name": "Trap and Defense Expansion",
   "author": "AgentKush",
   "version": "1.1",
-  "description": "Defense expansion with 23 recipes using real game items. Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) that were previously enemy-only. Adds cheaper fortifications, early-game traps, hedgehog defenses without rare drops, and batch crafting packs.\r\n\r\n\r\nVer 1.1\r\nComplete rebuild using real game items. 23 recipes including 4 previously uncraftable elemental landmines.\r\n\r\nVer 1.0\r\nInitial release (placeholder items, replaced in v1.1).",
+  "description": "Defense expansion with 23 recipes using real game items.",
   "fileName": "Trap_Defense_Expansion",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Trap_Defense_Expansion.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Trap_Defense_Expansion/README.md",

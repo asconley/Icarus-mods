@@ -2,7 +2,7 @@
   "name": "Solar Panel Expansion",
   "author": "AgentKush",
   "version": "1.0",
-  "description": "Adds all solar panels and the solar backpack to a dedicated Workshop tab with fair pricing. Includes Solar Panel, Flat Solar Panel, Lithium variants, and Solar Backpack.\r\n\r\n\r\nVer 1.0\r\nInitial release. Added Solar Energy workshop tab. Added 3 solar item kits with fair pricing.",
+  "description": "Adds all solar panels and the solar backpack to a dedicated Workshop tab with fair pricing.",
   "fileName": "Solar_Panel_Expansion",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Solar_Panel_Expansion.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Solar_Panel_Expansion/README.md",

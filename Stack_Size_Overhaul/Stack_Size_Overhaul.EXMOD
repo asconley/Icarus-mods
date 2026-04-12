@@ -2,7 +2,7 @@
   "name": "Stack Size Overhaul",
   "author": "AgentKush",
   "version": "1.3",
-  "description": "Increases stack sizes on 1232 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. Unstackable items unchanged.\r\n\r\n\r\nVer 1.1\r\nAdded 36 new DLC items: Agave, Garlic, Onion, PricklyPear foods + trophies.\r\n\r\nVer 1.0\r\nInitial release, 1,232 items modified.",
+  "description": "Increases stack sizes on 1232 items.",
   "fileName": "Stack_Size_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Stack_Size_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/README.md",

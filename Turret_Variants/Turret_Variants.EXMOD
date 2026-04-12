@@ -2,7 +2,7 @@
   "name": "Turret_Variants",
   "author": "AgentKush",
   "version": "3.0",
-  "description": "Adds 15 new automated turret variants with unique characteristics. v3.0: LOS fix PAK + proper ammo type matching (arrows, bolts, javelins, stones, biofuel) + tighter targeting.\r\n\r\n\r\nVer 3.0\r\nLOS fix PAK (turrets stop shooting through walls) + proper ammo type matching (arrows, bolts, javelins, stones, biofuel) + updated descriptions.\r\n\r\nVer 2.5\r\nHammer repairable turrets (custom Turret_Repairable D_Durable entry).\r\n\r\nVer 2.4\r\nFixed backwards shooting (_C class suffix fix) + reduced yaw/pitch extents.\r\n\r\nVer 2.3\r\nFixed broken crafting recipes.\r\n\r\nVer 2.2\r\nTightened targeting parameters.\r\n\r\nVer 2.1\r\nInitial 15-variant release.",
+  "description": "Adds 15 new automated turret variants with unique characteristics.",
   "fileName": "Turret_Variants",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
