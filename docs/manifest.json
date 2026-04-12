@@ -1,0 +1,16 @@
+{
+    "name": "AgentKush Icarus Mods",
+    "short_name": "AK Mods",
+    "description": "38+ free mods for Icarus: First Cohort",
+    "start_url": "/Icarus-mods/",
+    "display": "standalone",
+    "background_color": "#060a10",
+    "theme_color": "#E87B35",
+    "icons": [
+        {
+            "src": "https://github.com/AgentKush.png",
+            "sizes": "460x460",
+            "type": "image/png"
+        }
+    ]
+}

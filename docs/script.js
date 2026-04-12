@@ -1,6 +1,8 @@
 /* ═══════════════════════════════════════════
    AgentKush Icarus Mods — script.js
    Particle canvas (credit: Zayon) + catalog
+   + Premium effects: scramble, tilt, magnetic,
+     spotlight, card glow
    ═══════════════════════════════════════════ */
 
 // --- PARTICLE CANVAS (Zayon's moving dots) ---
@@ -148,13 +150,12 @@ async function fetchDownloads(){
 function animateCounters() {
     document.querySelectorAll('.number[data-count]').forEach(el => {
         const target = parseInt(el.dataset.count);
-        const suffix = target > 1000 ? '+' : '+';
+        const suffix = '+';
         const duration = 1000;
         const start = performance.now();
         function update(now) {
             const elapsed = now - start;
             const progress = Math.min(elapsed / duration, 1);
-            // Ease out cubic
             const eased = 1 - Math.pow(1 - progress, 3);
             const current = Math.floor(eased * target);
             el.textContent = current.toLocaleString() + (progress >= 1 ? suffix : '');
@@ -164,10 +165,207 @@ function animateCounters() {
     });
 }
 
+/* ═══════════════════════════════════════════
+   PREMIUM EFFECTS
+   ═══════════════════════════════════════════ */
+
+// --- TEXT SCRAMBLE HERO ---
+function textScramble(el, finalText) {
+    const chars = '!<>-_\\/[]{}—=+*^?#________';
+    let frame = 0;
+    const totalFrames = finalText.length * 3;
+    const revealed = [];
+
+    // Start with empty and build up
+    for (let i = 0; i < finalText.length; i++) {
+        revealed.push({ char: '', done: false, revealAt: Math.floor(Math.random() * totalFrames * 0.7) + 4 });
+    }
+
+    // Add blinking cursor span
+    const cursor = document.createElement('span');
+    cursor.className = 'scramble-cursor';
+    cursor.textContent = '';
+
+    function tick() {
+        let output = '';
+        let allDone = true;
+
+        for (let i = 0; i < finalText.length; i++) {
+            if (frame >= revealed[i].revealAt) {
+                revealed[i].done = true;
+                revealed[i].char = finalText[i];
+            } else {
+                allDone = false;
+                revealed[i].char = chars[Math.floor(Math.random() * chars.length)];
+            }
+            output += revealed[i].char;
+        }
+
+        el.textContent = output;
+        el.appendChild(cursor);
+        frame++;
+
+        if (!allDone && frame < totalFrames + 10) {
+            requestAnimationFrame(tick);
+        } else {
+            // Final state: clean text + cursor
+            el.textContent = finalText;
+            el.appendChild(cursor);
+        }
+    }
+
+    // Clear and start
+    el.textContent = '';
+    el.appendChild(cursor);
+    requestAnimationFrame(tick);
+}
+
+// --- SPOTLIGHT CURSOR (hero section only) ---
+function initSpotlightCursor() {
+    const hero = document.getElementById('hero');
+    const spotlight = document.getElementById('heroSpotlight');
+    if (!hero || !spotlight) return;
+
+    // Only active on desktop
+    if (window.innerWidth < 768) return;
+
+    hero.addEventListener('mousemove', (e) => {
+        spotlight.style.left = e.clientX + 'px';
+        spotlight.style.top = e.clientY + 'px';
+        spotlight.style.opacity = '1';
+    });
+
+    hero.addEventListener('mouseleave', () => {
+        spotlight.style.opacity = '0';
+    });
+}
+
+// --- MAGNETIC BUTTONS ---
+function initMagneticButtons() {
+    if (window.innerWidth < 768) return;
+
+    const buttons = document.querySelectorAll('.magnetic-btn');
+    const PULL_DISTANCE = 80;  // px radius of influence
+    const PULL_STRENGTH = 0.3; // multiplier
+
+    buttons.forEach(btn => {
+        btn.addEventListener('mousemove', (e) => {
+            const rect = btn.getBoundingClientRect();
+            const cx = rect.left + rect.width / 2;
+            const cy = rect.top + rect.height / 2;
+            const dx = e.clientX - cx;
+            const dy = e.clientY - cy;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+
+            if (dist < PULL_DISTANCE) {
+                const tx = dx * PULL_STRENGTH;
+                const ty = dy * PULL_STRENGTH;
+                btn.style.transform = `translate(${tx}px, ${ty}px)`;
+            }
+        });
+
+        btn.addEventListener('mouseleave', () => {
+            btn.style.transform = '';
+        });
+    });
+}
+
+// --- CARD CURSOR-FOLLOW GLOW ---
+function initCardGlow() {
+    if (window.innerWidth < 768) return;
+
+    // Use event delegation on the catalog container for better perf
+    const catalog = document.getElementById('mod-catalog');
+    const featured = document.getElementById('featured-section');
+
+    function handleCardMove(e) {
+        const card = e.target.closest('.mod-card, .featured-card');
+        if (!card) return;
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        card.style.setProperty('--mouse-x', x + 'px');
+        card.style.setProperty('--mouse-y', y + 'px');
+    }
+
+    if (catalog) catalog.addEventListener('mousemove', handleCardMove, { passive: true });
+    if (featured) featured.addEventListener('mousemove', handleCardMove, { passive: true });
+}
+
+// --- VANILLA TILT INIT ---
+function initVanillaTilt() {
+    if (typeof VanillaTilt === 'undefined') return;
+    if (window.innerWidth < 768) return;
+
+    // Mod cards — subtle tilt
+    const modCards = document.querySelectorAll('.mod-card');
+    if (modCards.length) {
+        VanillaTilt.init(modCards, {
+            max: 4,
+            speed: 400,
+            glare: false,
+            'max-glare': 0,
+            perspective: 1200,
+            gyroscope: false
+        });
+    }
+
+    // Featured cards — slightly more dramatic
+    const featuredCards = document.querySelectorAll('.featured-card');
+    if (featuredCards.length) {
+        VanillaTilt.init(featuredCards, {
+            max: 6,
+            speed: 400,
+            glare: true,
+            'max-glare': 0.08,
+            perspective: 1000,
+            gyroscope: false
+        });
+    }
+}
+
+// --- SCROLL PROGRESS BAR (inject into DOM) ---
+function initScrollProgress() {
+    // Check if CSS scroll-driven animations are supported
+    if (!CSS.supports || !CSS.supports('animation-timeline', 'scroll(root)')) return;
+
+    // Only inject if not already present
+    if (document.querySelector('.scroll-progress')) return;
+
+    const bar = document.createElement('div');
+    bar.className = 'scroll-progress';
+    bar.setAttribute('aria-hidden', 'true');
+    document.body.prepend(bar);
+}
+
+// --- REDUCED MOTION CHECK ---
+function prefersReducedMotion() {
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+}
+
 // --- INIT ---
 renderFeatured();
 renderChips();
 renderCatalog(MODS);
 fetchDownloads();
-document.querySelectorAll('.hero .reveal').forEach(el=>el.classList.add('visible'));
+document.querySelectorAll('.hero .reveal').forEach(el => el.classList.add('visible'));
 animateCounters();
+
+// Premium effects (respect reduced motion)
+if (!prefersReducedMotion()) {
+    // Scramble the hero title for that hacker-terminal feel
+    const heroTitle = document.getElementById('hero-title');
+    if (heroTitle) {
+        textScramble(heroTitle, 'AGENTKUSH');
+    }
+
+    initSpotlightCursor();
+    initMagneticButtons();
+    initCardGlow();
+    initScrollProgress();
+
+    // Vanilla Tilt — slight delay to ensure DOM is fully painted
+    requestAnimationFrame(() => {
+        initVanillaTilt();
+    });
+}

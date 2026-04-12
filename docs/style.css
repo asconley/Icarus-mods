@@ -1,43 +1,53 @@
 /* ═══════════════════════════════════════════
    AgentKush Icarus Mods — style.css
-   Color palette: Orange accent throughout
+   Premium dark theme with modern CSS 2025
    ═══════════════════════════════════════════ */
+
+/* --- 0. ANIMATED CUSTOM PROPERTIES (@property) --- */
+@property --glow-angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+@property --glow-opacity {
+    syntax: '<number>';
+    initial-value: 0;
+    inherits: false;
+}
+@property --shimmer-x {
+    syntax: '<percentage>';
+    initial-value: -100%;
+    inherits: false;
+}
 
 /* --- 1. GLOBAL VARIABLES --- */
 :root {
-    /* Accent RGB (for rgba opacity control) */
-    --accent-rgb: 232, 123, 53;          /* Icarus orange */
-    /* Primary accent (orange) */
+    --accent-rgb: 232, 123, 53;
     --accent: rgba(var(--accent-rgb), 1);
     --accent-glow: rgba(var(--accent-rgb), 0.25);
     --accent-dim: rgba(var(--accent-rgb), 0.6);
     --accent-border: rgba(var(--accent-rgb), 0.3);
     --accent-subtle: rgba(var(--accent-rgb), 0.08);
 
-    /* Backgrounds */
     --bg-deep: #060a10;
     --bg-base: #0b1018;
     --bg-surface: #111923;
     --bg-elevated: #162030;
     --bg-card: #131d2a;
 
-    /* Borders */
     --border: #1e3048;
     --border-hover: #2a4060;
 
-    /* Text */
     --text-primary: #e0e8f0;
     --text-secondary: #7a8fa6;
     --text-muted: #4a5f78;
 
-    /* Functional */
     --success: #10b981;
 
-    /* Radius — square-ish design (Zayon feedback) */
     --radius-sm: 4px;
     --radius-md: 6px;
     --radius-lg: 8px;
-    --radius-tag: 4px;     /* chips, version tags — square-ish */
+    --radius-tag: 4px;
 }
 
 /* --- 2. RESET --- */
@@ -54,7 +64,33 @@ body {
 a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
 a:hover { color: rgba(var(--accent-rgb), 0.8); }
 
-/* --- 3. PARTICLE CANVAS (Zayon's moving dots) --- */
+/* --- 3. FILM GRAIN OVERLAY (premium feel) --- */
+.grain-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.035;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' fill='%23fff' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    animation: grain-drift 8s steps(10) infinite;
+}
+@keyframes grain-drift {
+    0% { transform: translate(0, 0); }
+    10% { transform: translate(-5px, -5px); }
+    20% { transform: translate(5px, -10px); }
+    30% { transform: translate(-10px, 5px); }
+    40% { transform: translate(10px, 10px); }
+    50% { transform: translate(-5px, 10px); }
+    60% { transform: translate(10px, -5px); }
+    70% { transform: translate(-10px, -10px); }
+    80% { transform: translate(5px, 5px); }
+    90% { transform: translate(-5px, -5px); }
+    100% { transform: translate(0, 0); }
+}
+
+/* --- 4. PARTICLE CANVAS --- */
 #particle-canvas {
     position: fixed;
     top: 0;
@@ -65,7 +101,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     pointer-events: none;
 }
 
-/* Nebula glows — pre-blurred via radial-gradient (no filter:blur for perf) */
+/* Nebula glows — radial-gradient (no filter:blur for perf) */
 .nebula {
     position: fixed;
     border-radius: 50%;
@@ -76,7 +112,12 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
 .nebula-1 { top: -10%; left: -5%; width: 800px; height: 800px; background: radial-gradient(circle, rgba(var(--accent-rgb), 0.06) 0%, rgba(var(--accent-rgb), 0.02) 40%, transparent 70%); }
 .nebula-2 { top: 40%; right: -10%; width: 700px; height: 700px; background: radial-gradient(circle, rgba(var(--accent-rgb), 0.03) 0%, rgba(var(--accent-rgb), 0.01) 40%, transparent 70%); }
 
-/* --- 4. SCROLL ANIMATIONS --- */
+/* --- 5. SCROLL-DRIVEN REVEAL ANIMATIONS (CSS-only, GPU) --- */
+@keyframes scrollReveal {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 .reveal {
     opacity: 0;
     transform: translateY(30px);
@@ -87,6 +128,21 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     transform: translateY(0);
 }
 
+/* CSS scroll-driven reveal — progressive enhancement */
+@supports (animation-timeline: view()) {
+    .mod-card,
+    .category,
+    .featured-card {
+        animation: scrollReveal linear both;
+        animation-timeline: view();
+        animation-range: entry 0% cover 30%;
+    }
+    /* These elements animate via CSS, no JS needed */
+    .mod-card { opacity: 1; transform: none; }
+    .category { opacity: 1; transform: none; }
+    .featured-card { opacity: 1; transform: none; }
+}
+
 .stagger-children .reveal:nth-child(1) { transition-delay: 0ms; }
 .stagger-children .reveal:nth-child(2) { transition-delay: 80ms; }
 .stagger-children .reveal:nth-child(3) { transition-delay: 160ms; }
@@ -94,7 +150,21 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
 .stagger-children .reveal:nth-child(5) { transition-delay: 320ms; }
 .stagger-children .reveal:nth-child(6) { transition-delay: 400ms; }
 
-/* --- 5. HERO --- */
+/* --- 6. SPOTLIGHT CURSOR (hero section) --- */
+.hero-spotlight {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(var(--accent-rgb), 0.06) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* --- 7. HERO --- */
 .hero {
     position: relative;
     z-index: 1;
@@ -140,6 +210,22 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     margin-bottom: 12px;
     color: #ffffff;
     text-shadow: 0 0 40px var(--accent-glow);
+    text-wrap: balance;
+}
+
+/* Scramble cursor blink */
+.hero h1 .scramble-cursor {
+    display: inline-block;
+    width: 3px;
+    height: 0.8em;
+    background: var(--accent);
+    margin-left: 4px;
+    vertical-align: baseline;
+    animation: cursor-blink 0.7s step-end infinite;
+}
+@keyframes cursor-blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
 }
 
 .hero .subtitle {
@@ -149,6 +235,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    text-wrap: pretty;
 }
 
 /* Stat boxes */
@@ -220,13 +307,17 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
 }
 .btn:hover::after { width: 300px; height: 300px; }
 
+/* Magnetic buttons get smooth transition for JS movement */
+.magnetic-btn {
+    transition: transform 0.15s ease-out, box-shadow 0.3s, background 0.3s, border-color 0.3s;
+}
+
 .btn-primary {
     background: var(--accent);
     color: #fff !important;
     box-shadow: 0 4px 20px var(--accent-glow);
 }
 .btn-primary:hover {
-    transform: translateY(-2px);
     box-shadow: 0 8px 30px var(--accent-glow);
     text-decoration: none !important;
 }
@@ -242,7 +333,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     text-decoration: none !important;
 }
 
-/* --- 6. STICKY NAV --- */
+/* --- 8. STICKY NAV --- */
 .nav-bar {
     position: sticky;
     top: 0;
@@ -301,7 +392,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     box-shadow: 0 0 0 3px var(--accent-glow);
 }
 
-/* Filter chips — square-ish per Zayon */
+/* Filter chips */
 .filter-chips {
     display: flex;
     justify-content: center;
@@ -331,13 +422,13 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     font-weight: 600;
 }
 
-/* --- 7. FEATURED / POPULAR (secondary accent) --- */
+/* --- 9. FEATURED / POPULAR --- */
 .featured-section {
     position: relative;
     z-index: 1;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 40px 20px 32px;      /* extra top gap per Zayon */
+    padding: 40px 20px 32px;
 }
 
 .featured-header {
@@ -354,6 +445,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     color: var(--accent);
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-wrap: balance;
 }
 .featured-star {
     font-size: 1.6rem;
@@ -373,10 +465,13 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     border: 1px solid var(--accent-border);
     border-radius: var(--radius-md);
     padding: 22px;
-    transition: transform 0.1s ease-out, border-color 0.1s ease-out, box-shadow 0.1s ease-out;
     overflow: hidden;
     will-change: transform;
+    /* Smooth tilt transition from vanilla-tilt */
+    transition: box-shadow 0.2s ease-out;
 }
+
+/* Animated gradient border glow on featured cards */
 .featured-card::before {
     content: '';
     position: absolute;
@@ -384,13 +479,26 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     height: 2px;
     background: linear-gradient(90deg, transparent, var(--accent), transparent);
 }
+.featured-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: var(--radius-md);
+    background: linear-gradient(var(--glow-angle), transparent 40%, rgba(var(--accent-rgb), 0.04) 50%, transparent 60%);
+    pointer-events: none;
+    animation: shimmer-rotate 4s linear infinite;
+}
+@keyframes shimmer-rotate {
+    from { --glow-angle: 0deg; }
+    to { --glow-angle: 360deg; }
+}
+
 .featured-card:hover {
     border-color: var(--accent);
-    transform: translateY(-4px);
     box-shadow: 0 12px 40px var(--accent-glow);
 }
-.featured-card .mod-name { font-size: 1rem; font-weight: 600; color: #fff; margin-bottom: 4px; }
-.featured-card .mod-desc { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px; }
+.featured-card .mod-name { font-size: 1rem; font-weight: 600; color: #fff; margin-bottom: 4px; text-wrap: balance; }
+.featured-card .mod-desc { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px; text-wrap: pretty; }
 .featured-card .featured-badge {
     display: inline-block;
     font-size: 0.7rem;
@@ -423,7 +531,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     font-weight: 600;
 }
 
-/* --- 8. MAIN CONTENT --- */
+/* --- 10. MAIN CONTENT --- */
 .container {
     position: relative;
     z-index: 1;
@@ -463,6 +571,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     color: #ffffff;
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-wrap: balance;
 }
 
 .category-count {
@@ -474,7 +583,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     border-radius: var(--radius-tag);
 }
 
-/* --- 9. MOD CARDS --- */
+/* --- 11. MOD CARDS --- */
 .mod-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -487,9 +596,13 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     padding: 22px;
-    transition: transform 0.1s ease-out, border-color 0.1s ease-out, box-shadow 0.1s ease-out;
     overflow: hidden;
     will-change: transform;
+    /* Smooth tilt from vanilla-tilt */
+    transition: box-shadow 0.2s ease-out;
+    /* Big perf win: skip rendering off-screen cards */
+    content-visibility: auto;
+    contain-intrinsic-size: auto 220px;
 }
 
 /* Orange glow line at top */
@@ -503,9 +616,25 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     transition: opacity 0.3s;
 }
 
+/* Cursor-follow glow inside cards */
+.mod-card::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(var(--accent-rgb), 0.06) 0%, transparent 70%);
+    pointer-events: none;
+    top: var(--mouse-y, 50%);
+    left: var(--mouse-x, 50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.mod-card:hover::after { opacity: 1; }
+
 .mod-card:hover {
     border-color: var(--accent-border);
-    transform: translateY(-4px);
     box-shadow: 0 12px 40px rgba(var(--accent-rgb), 0.08);
 }
 .mod-card:hover::before { opacity: 1; }
@@ -518,9 +647,8 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     gap: 8px;
 }
 
-.mod-card .mod-name { font-size: 1.05rem; font-weight: 600; color: #ffffff; }
+.mod-card .mod-name { font-size: 1.05rem; font-weight: 600; color: #ffffff; text-wrap: balance; }
 
-/* Version tag — square-ish, orange accent */
 .mod-card .mod-version {
     font-family: 'Orbitron', monospace;
     font-size: 0.7rem;
@@ -544,6 +672,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    text-wrap: pretty;
 }
 
 .mod-card .mod-actions { display: flex; gap: 8px; }
@@ -574,7 +703,32 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     transform: translateY(-1px);
 }
 
-/* --- 10. BACK TO TOP --- */
+/* --- 12. SCROLL PROGRESS BAR --- */
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    z-index: 200;
+    background: transparent;
+    pointer-events: none;
+}
+.scroll-progress::after {
+    content: '';
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), rgba(var(--accent-rgb), 0.6));
+    width: 0%;
+    animation: scroll-progress-fill linear;
+    animation-timeline: scroll(root);
+}
+@keyframes scroll-progress-fill {
+    from { width: 0%; }
+    to { width: 100%; }
+}
+
+/* --- 13. BACK TO TOP --- */
 .back-to-top {
     position: fixed;
     bottom: 24px;
@@ -598,7 +752,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
 .back-to-top.show { opacity: 1; transform: translateY(0); pointer-events: all; }
 .back-to-top:hover { background: var(--accent); color: #000; box-shadow: 0 4px 20px var(--accent-glow); }
 
-/* --- 11. FOOTER --- */
+/* --- 14. FOOTER --- */
 footer {
     position: relative;
     z-index: 1;
@@ -618,20 +772,30 @@ footer {
     margin-bottom: 12px;
 }
 
-footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; }
+footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; text-wrap: pretty; }
 
 .footer-links { display: flex; justify-content: center; gap: 24px; margin-top: 16px; flex-wrap: wrap; }
 .footer-links a { color: var(--text-secondary); font-size: 0.85rem; }
 .footer-links a:hover { color: var(--accent); }
 
-/* --- 12. UTILITIES --- */
+/* --- 15. UTILITIES --- */
 .hidden { display: none !important; }
 
 .no-results { text-align: center; padding: 60px 20px; color: var(--text-muted); }
 .no-results .emoji { font-size: 3rem; margin-bottom: 12px; display: block; }
 .no-results p { font-size: 1.1rem; }
 
-/* --- 13. RESPONSIVE --- */
+/* --- 16. REDUCED MOTION --- */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+    .grain-overlay { display: none; }
+    .hero-spotlight { display: none; }
+}
+
+/* --- 17. RESPONSIVE --- */
 @media (max-width: 768px) {
     .hero h1 { font-size: 2rem; }
     .hero { padding: 50px 16px 40px; }
@@ -643,6 +807,7 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; }
     .nav-brand { display: none; }
     .filter-chips { display: none; }
     .nav-top .nav-search { max-width: 100%; }
+    .hero-spotlight { display: none; }
 }
 
 @media (max-width: 480px) {

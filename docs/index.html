@@ -5,20 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgentKush's Icarus Mods</title>
     <meta name="description" content="A collection of 38+ Icarus survival game mods. Processing speed, recycling, building pieces, passive mining, difficulty rebalance and more.">
+    <meta name="keywords" content="Icarus, mods, survival, crafting, workshop, AgentKush, EXMOD, Mod Manager">
+    <meta name="author" content="AgentKush">
+    <link rel="canonical" href="https://agentkush.github.io/Icarus-mods/">
+
+    <!-- Open Graph (Discord / Reddit / Facebook) -->
+    <meta property="og:title" content="AgentKush's Icarus Mods">
+    <meta property="og:description" content="38+ free mods for Icarus: First Cohort — processing speed, recycling, building pieces, passive mining, difficulty rebalance and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://agentkush.github.io/Icarus-mods/">
+    <meta property="og:image" content="https://agentkush.github.io/Icarus-mods/og-image.png">
+    <meta property="og:site_name" content="AgentKush Icarus Mods">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AgentKush's Icarus Mods">
+    <meta name="twitter:description" content="38+ free mods for Icarus: First Cohort — processing speed, recycling, building pieces, passive mining and more.">
+    <meta name="twitter:image" content="https://agentkush.github.io/Icarus-mods/og-image.png">
+
+    <!-- Theme & PWA -->
+    <meta name="theme-color" content="#E87B35">
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Preload critical fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- Film grain overlay -->
+<div class="grain-overlay" aria-hidden="true"></div>
+
 <canvas id="particle-canvas"></canvas>
 <div class="nebula nebula-1"></div>
 <div class="nebula nebula-2"></div>
 
-<div class="hero">
+<!-- Spotlight cursor (hero only) -->
+<div class="hero-spotlight" id="heroSpotlight" aria-hidden="true"></div>
+
+<div class="hero" id="hero">
     <div class="hero-badge">Open Source Icarus Mods</div>
-    <h1>AGENTKUSH</h1>
+    <h1 id="hero-title">AGENTKUSH</h1>
     <p class="subtitle">Mods for Icarus: First Cohort — from workshop items to full gameplay overhauls</p>
     <div class="stats" id="hero-stats">
         <div class="stat-box reveal"><span class="number" data-count="38">0</span><span class="label">Mods</span></div>
@@ -28,12 +58,12 @@
         <div class="stat-box reveal"><span class="number">100%</span><span class="label">Free</span></div>
     </div>
     <div class="hero-links">
-        <a href="https://github.com/AgentKush/Icarus-mods" class="btn btn-primary">
+        <a href="https://github.com/AgentKush/Icarus-mods" class="btn btn-primary magnetic-btn">
             <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
             GitHub
         </a>
-        <a href="https://github.com/Jimk72/Icarus_Software" class="btn btn-secondary">Get Mod Manager</a>
-        <a href="https://buymeacoffee.com/agentkush" class="btn btn-secondary">Support</a>
+        <a href="https://github.com/Jimk72/Icarus_Software" class="btn btn-secondary magnetic-btn">Get Mod Manager</a>
+        <a href="https://buymeacoffee.com/agentkush" class="btn btn-secondary magnetic-btn">Support</a>
     </div>
 </div>
 
@@ -65,6 +95,8 @@
     </div>
 </footer>
 
+<!-- Vanilla Tilt for 3D card hover -->
+<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
