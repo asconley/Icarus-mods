@@ -33,7 +33,7 @@
     --bg-base: #0b1018;
     --bg-surface: #111923;
     --bg-elevated: #162030;
-    --bg-card: #131d2a;
+    --bg-card: #101a24;
 
     --border: #1e3048;
     --border-hover: #2a4060;
@@ -605,25 +605,25 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     contain-intrinsic-size: auto 220px;
 }
 
-/* Orange glow line at top */
+/* Subtle glow line at top (blue-toned to match card) */
 .mod-card::before {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0;
     height: 2px;
-    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    background: linear-gradient(90deg, transparent, var(--border-hover), transparent);
     opacity: 0;
     transition: opacity 0.3s;
 }
 
-/* Cursor-follow glow inside cards */
+/* Cursor-follow glow inside cards (blue-toned to match card) */
 .mod-card::after {
     content: '';
     position: absolute;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(var(--accent-rgb), 0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(42, 64, 96, 0.25) 0%, transparent 70%);
     pointer-events: none;
     top: var(--mouse-y, 50%);
     left: var(--mouse-x, 50%);
@@ -634,8 +634,8 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
 .mod-card:hover::after { opacity: 1; }
 
 .mod-card:hover {
-    border-color: var(--accent-border);
-    box-shadow: 0 12px 40px rgba(var(--accent-rgb), 0.08);
+    border-color: var(--border-hover);
+    box-shadow: 0 12px 40px rgba(30, 48, 72, 0.3);
 }
 .mod-card:hover::before { opacity: 1; }
 
