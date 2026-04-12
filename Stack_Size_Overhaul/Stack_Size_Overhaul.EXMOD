@@ -1,0 +1,5050 @@
+{
+  "name": "Stack Size Overhaul",
+  "author": "AgentKush",
+  "version": "1.3",
+  "description": "Increases stack sizes on 1232 items.",
+  "fileName": "Stack_Size_Overhaul",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Stack_Size_Overhaul.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/README.md",
+  "week": "All",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Traits-D_Itemable.json",
+      "File_Items": [
+        {
+          "Name": "Item_Fiber",
+          "MaxStack": 1000
+        },
+        {
+          "Name": "Item_Stone",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Wood",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Stick",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Wood_Floor",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Wall",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Sulfur",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Wood_Door",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Ramp",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Berry",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Stone_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Charcoal",
+          "MaxStack": 2500
+        },
+        {
+          "Name": "Item_Metal_Ore",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Refined_Metal",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Copper_Ore",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Refined_Copper",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Gold_Ore",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Refined_Gold",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Bauxite",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Aluminium",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Silica",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Glass",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Raw_Meat",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Cooked_Meat",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Spoiled_Meat",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Tree_Sap",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Leather",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Bone",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Organic_Resin",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Fur",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Oxite",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Mission_Research2_Abyssal_Oxite",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Rope",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Epoxy",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Gunpowder",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Concrete_Mix",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Bone_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Metal_Bolt",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Copper_Bolt",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Electronics",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Rifle_Round",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_MetaResource",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Carbon_Fiber",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Carbon_Paste",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Composite_Paste",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Composites",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Flint_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Steel_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Wood_Stairs",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Ladder",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Frame",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Wall",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Floor",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Ramp",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Stairs",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Reinforced_Door",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Fire_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Aluminium_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Frag_Grenade",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Frag_Grenade_Impact",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Smoke_Grenade",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Carbon_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Composite_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Flare_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Bean",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Carrot",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Flour",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Wheat",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Concrete_Floor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Frame",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Ramp",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Kit_Road",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Shell_Buckshot",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Shell_Explosive",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Shell_Slug",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Farming_CropPlot_T2",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Farming_CropPlot_T3",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Farming_CropPlot_T4",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Kit_Wall_Torch",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Kit_Floor_Torch",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Wood_Window",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Raw_Fish",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Cooked_Fish",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Wood_Refined",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Wood_Floor_Refined",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Wall_Refined",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Ramp_Refined",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Door_Refined",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Ice",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Reinforced_Window",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Wood_Wall_Angle",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Wall_Angle_Refined",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Railing",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Railing_Refined",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Railing_Gate_Refined",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Worklamp_OmniDirectional",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Wood_TrapDoor",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Sign_Small",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Lily",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Reed_Flower",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Wood_TrapDoor_Refined",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Yeast",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Bread",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Flatbread",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Dough_Bread",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Dough_Flatbread",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Beer",
+          "MaxStack": 36
+        },
+        {
+          "Name": "Item_Wine",
+          "MaxStack": 36
+        },
+        {
+          "Name": "Item_Glass_Bottle_Beer",
+          "MaxStack": 36
+        },
+        {
+          "Name": "Item_Pistol_Round",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Pistol_Round_Explosive",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Pistol_Round_Incendiary",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Pistol_Round_Armor_Piercing",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Glass_Bottle_Wine",
+          "MaxStack": 36
+        },
+        {
+          "Name": "Item_Metal_Ladder",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Rifle_Round_Explosive",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Rifle_Round_Incendiary",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Rifle_Round_Armor_Piercing",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Stone_Wall_Angle",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Concrete_Wall_Angle",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Wood_Floor_TrapDoor",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Interior_Wood_Floor_TrapDoor",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Interior_Wood_Stairs",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Frame_Pillar",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Frame_Angled",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Floor_TrapDoor",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Concrete_Frame_Pillar",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Frame_Angled",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Floor_TrapDoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Stairs",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Wood_Hedgehog_Medium",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Scorpion_Hedgehog_Medium",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scorpion_Trap_Medium",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Wood_Beam",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Thatch_Floor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_Wall_Angle",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_Ramp",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Bandage_Basic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Titanium_Ore",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Platinum_Ore",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Coal_Ore",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Titanium_Ingot",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Platinum_Ingot",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Interior_Wood_Beam",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Beam",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Concrete_Beam",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_Beam",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Flat_Solar_Panel",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Interior_Wood_Ladder",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Thatch_Ladder",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Reinforced_Ladder",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_TrapDoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_Floor_TrapDoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_Window",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_Door",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_Stairs",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_Railing",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_WildSeed_Lily",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Deer_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Bear_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_PolarBear_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Cougar_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Jaguar_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Jaguar_Black_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Iron_Floor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Wall_Angle",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Ramp",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Beam",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Door",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_TrapDoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Window",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Floor_TrapDoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Stairs",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Paste_Health_Regen",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Paste_Health_Buff",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Paste_Health_Restore",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Paste_Stamina_Regen",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Paste_Stamina_Buff",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Paste_Stamina_Restore",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Paste_Stamina_Consumption",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Paste_Oxygen_Buff",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Paste_Oxygen_Restore",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Paste_Oxygen_Consumption",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Paste_Food_Consumption",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Paste_Water_Consumption",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Reinforced_TrapDoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_TrapDoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Beam",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Wall_Angle",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Ramp",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Door",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Window",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Window",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Corn",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Titanium_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_WaterBomb",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Coconut",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Coconut_Mid",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Coconut_Mature",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Bandage_Heat",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Poison_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Poison_Paste",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Steel_Ingot",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Steel_Bloom",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Steel_Bolt",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Suture_Kit",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Antipoison",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Antiseptic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Antiparasitic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Blood_Thinner",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Wood_Roof_Corner",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Roof_Corner",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Concrete_Roof_Corner",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_Roof_Corner",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Roof_Corner",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Roof_Corner",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Crushed_Bone",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Leather_Curtain_Door",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Glass_Jar",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Jar_Jam",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Polarbear_Pelt",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Iron_Nail",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Copper_Nail",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Steel_Screw",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Steel_Rebar",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Platinum_Bolt",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Titanium_Bolt",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Splint",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Antibiotic_Paste",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Antiparasitic_Paste",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Antipoison_Paste",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Blood_Thinning_Paste",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Antibiotic_Tonic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Antiparasitic_Tonic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Antipoison_Tonic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Blood_Thinning_Tonic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Antibiotic_Pill",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Antiparastic_Pill",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Antipoison_Pill",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Blood_Thinning_Pill",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Sandworm_Scale",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Leather_Curtain_Window",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Build_HalfPitch",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Wood_Build_HalfNormal",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Sandworm_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Caveworm_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Concrete_Railing",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Railing",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Reinforced_Railing",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_Halfpiece",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Wood_Halfpiece",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Halfpiece",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Refined_Halfpiece",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Halfpiece",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Halfpiece",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Halfpiece",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Thatch_Roof_Half_Pitch",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Wood_Roof_Half_Pitch",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Roof_Half_Pitch",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Refined_Roof_Half_Pitch",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Roof_Half_Pitch",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Roof_Half_Pitch",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Roof_Half_Pitch",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Meta_Arrow_Shengong",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Arrow_Printed_Alpha",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Arrow_Printed_Beta",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Arrow_Printed_Charlie",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Coal",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Pumpkin",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Mushroom",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Squash",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Watermelon",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Cooked_Corn",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Cooked_Pumpkin",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Cooked_Squash",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Cooked_Carrot",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Cooked_Mushroom",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Corn_Soup",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fruit_Salad",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Mushroom_Soup",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Wild_Salad",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Meat_Stew",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fried_Soy_Beans",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fish_Dish",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Creamed_Corn",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Roasted_Vegetables",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Animal_Fat",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Pastry",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fruit_Pie",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Meat_Pie",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Vegetable_Pie",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Pumpkin_Bread",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Crumbed_Fish_Fillet",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Pickled_Carrot",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Cocoa",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Coffee",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_GreenTea",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_WildTea",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Basic_Ceiling_Light",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Delivery_Object",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Bait",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Poisoned_Bait",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Buffalo_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Mammoth_Head",
+          "MaxStack": 25
+        },
+        {
+          "Name": "Item_SnowLeopard_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_AlphaWolf_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_ConiferWolf_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_SnowWolf_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_DesertWolf_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Meta_Arrow_Inaris_Alpha",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Fertilizer",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Yield_Fertilizer",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Speed_Fertilizer",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Spoiled_Plants",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Giant_Steak",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Giant_Steak_Dried",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Giant_Steak_Cooked",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Fatty_Tbone",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Fatty_Tbone_Dried",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Fatty_Tbone_Cooked",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Gamey_Meat",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Gamey_Meat_Dried",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Gamey_Meat_Cooked",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Stringy_Meat",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Stringy_Meat_Dried",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Stringy_Meat_Cooked",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Soft_Meat",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Soft_Meat_Dried",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Soft_Meat_Cooked",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_White_Meat",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_White_Meat_Dried",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_White_Meat_Cooked",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Raw_Bacon",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Cooked_Bacon",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Crispy_Bacon",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Caveworm_Scale",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Poison_Sack",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Faction_Mission_Mammoth_Sample",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Faction_Mission_Frozen_Mammoth_Sample",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Bandage_Cooling",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Meta_Arrow_Larkwell_Standard",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Arrow_Larkwell_Bait",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Arrow_Larkwell_Ballistic",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Arrow_Larkwell_Bleed",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Arrow_Larkwell_Tazer",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Arrow_Larkwell_Whistling",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Bolt_Larkwell_Standard",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Meta_Bolt_Larkwell_Whistling",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Scorpion_Pincer",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Scorpion_Tail",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Meta_Repair_Item",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Scorpion_Carapace",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Mission_Crystal",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Condensed_Enzymes",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Digested_Enzymes",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Floor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Black_Wolf_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Black_Wolf_Tooth",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Tranquilizer_Bolt",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Advanced_Leather",
+          "MaxStack": 1250
+        },
+        {
+          "Name": "Item_Platinum_Weave",
+          "MaxStack": 750
+        },
+        {
+          "Name": "Item_Spotlight",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Clay",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Scoria",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Super_Cooled_Ice",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Obsidian",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Tomato",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Potato",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Clay_Brick",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Shaped_Obsidian",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Exotic_Red",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Exotic_Red_Raw",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Red_Exotic_Seed",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Clay_Brick_Floor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Wall_Angle",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Ramp",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Beam",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Roof_Corner",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Roof_Half_Pitch",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Halfpiece",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Floor_Trapdoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_TrapDoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Stairs",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Railing",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Window",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Door",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Mission_Flora_Biomatter_Sample",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Mission_Digested_Biomatter_Sample",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Mission_Damaged_Bioweapon_Sample",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Wood_Railing_Gate",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Fortification_Wood_Wall",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Fortification_Wood_Spikes",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Fortification_Wood_Gate",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Fortification_Wood_Walkway",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Throwing_Knife",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Bone_Throwing_Knife",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Metal_Throwing_Knife",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Titanium_Throwing_Knife",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Steel_Throwing_Knife",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Platinum_Throwing_Knife",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Sandworm_Throwing_Knife",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Caveworm_Throwing_Knife",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Black_Wolf_Throwing_Knife",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Wood_Throwing_Spear",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Bone_Throwing_Spear",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Metal_Throwing_Spear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Steel_Throwing_Spear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Titanium_Throwing_Spear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Platinum_Throwing_Spear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Carbon_Throwing_Spear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Composite_Throwing_Spear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Sandworm_Throwing_Spear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Caveworm_Throwing_Spear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Cooked_Potato",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Cooked_Tomato",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Hearty_Salad",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Tomato_Soup",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Pickled_Tomato",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Potato_Carrot_Fries",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Potato_Bread",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Shepherds_Pie",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Cooked_Soy_Bean",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Health_Enhancement_Tonic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Stamina_Enhancement_Tonic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Sustenence_Enhancement_Tonic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Strength_Enhancement_Tonic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Landmine",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Fish_Chunks",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Saltwater_Fish_Fillet",
+          "MaxStack": 125
+        },
+        {
+          "Name": "Item_Freshwater_Fish_Fillet",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Salt",
+          "MaxStack": 2500
+        },
+        {
+          "Name": "Item_Gold_Wire",
+          "MaxStack": 1000
+        },
+        {
+          "Name": "Item_Copper_Wire",
+          "MaxStack": 1000
+        },
+        {
+          "Name": "Item_Rhubarb",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Kumara",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Avocado",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Strawberry",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Dried_Tomato",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Dried_Avocado",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Dried_Rhubarb",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Cooked_Rhubarb",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Cooked_Kumara",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Stuffed_Avocado",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Mixed_Berries",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Rhubarb_Stew",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fried_Chunky_Vegetables",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Pickled_Avocado",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Strawberry_Jam",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Shepherds_Roll",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Savory_Roll",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Vegetable_Roll",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fruit_Muffin",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fried_Fish_Chunks",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fish_Chunk_Stew",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Dried_Freshwater_Fillet",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Dried_Saltwater_Fillet",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Freshwater_Fillet_Curry",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Saltwater_Fillet_Sashimi",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Pickled_Freshwater_Fillet",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Crumbed_Saltwater_Fillet",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Fish_Fillet_Pie",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Ammo_Casing",
+          "MaxStack": 1000
+        },
+        {
+          "Name": "Item_Volatile_Substance",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Volatile_Substance_Inert",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Grilled_Freshwater_Fillet",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Grilled_Saltwater_Fillet",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Paints",
+          "MaxStack": 1500
+        },
+        {
+          "Name": "Item_Platinum_Sheath",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Titanium_Plate",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Obsidian_Throwing_Knife",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Obsidian_Throwing_Spear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Obsidian_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Obsidian_Bolt",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Obsidian_Rifle_Round",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Obsidian_Pistol_Round",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Cold_Steel_Ingot",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Cold_Steel_Throwing_Knife",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Cold_Steel_Throwing_Spear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Cold_Steel_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Cold_Steel_Bolt",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Cold_Steel_Rifle_Round",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Cold_Steel_Pistol_Round",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Raw_Iron_Wood",
+          "MaxStack": 1000
+        },
+        {
+          "Name": "Item_Refined_Iron_Wood",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Iron_Wood_Throwing_Knife",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Iron_Wood_Throwing_Spear",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Iron_Wood_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Iron_Wood_Bolt",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Iron_Wood_Rifle_Round",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Iron_Wood_Pistol_Round",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Frozen_Ore",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Infected_Bard",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Acidic_Glands",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Iron",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Gold",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Copper",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Silicon",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Coal",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Sulfur",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Pyritic_Crust_Bauxite",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Oxite",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Titanium",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Platinum",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Obsidian",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Scoria",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Clay",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Purple_Exotic",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Red_Exotic",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Scoria_Frame",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Floor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Ramp",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Wall_Angle",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Beam",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Roof_Corner",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Roof_Half_Pitch",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Half_Piece",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Stairs",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Floor_TrapDoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Scoria_Brick_Floor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Wall_Angle",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Ramp",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Beam",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Roof_Corner",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Roof_Half_Pitch",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Halfpiece",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Floor_Trapdoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Stairs",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_AlienFossil_Pottery",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_AlienFossil_Conch",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Meta_Arrow_Inaris_Bravo",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Arrow_Inaris_Charlie",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Arrow_Inaris_Delta",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Meta_Bolt_Larkwell_Electroshock",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Meta_Bolt_Larkwell_Explosive",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Meta_Bolt_Larkwell_Piercing",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Mission_Tomato",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Test_Seed",
+          "MaxStack": 1000
+        },
+        {
+          "Name": "Item_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Corn_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Wheat_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Reed_Flower_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Yeast_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Lily_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Berry_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Pumpkin_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Bean_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Squash_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Watermelon_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Cocoa_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Coffee_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_GreenTea_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_WildTea_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Carrot_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Mushroom_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Tomato_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Potato_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Rhubarb_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Kumara_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Avocado_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Strawberry_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Fiber_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Dirt_Mound",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Seed_Bread",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Seed_Cracker",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Berry_Bar",
+          "MaxStack": 125
+        },
+        {
+          "Name": "Item_Animal_Feed",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Seed_Oil",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Raw_Wood_Sign",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Raw_Wood_Sign_Trunk_A",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Raw_Wood_Sign_Trunk_B",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Shroud_Light",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Blueback_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Stonejaw_Head",
+          "MaxStack": 25
+        },
+        {
+          "Name": "Item_Drac_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Caveworm_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Teenage_Caveworm_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Chamios_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Chala_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Roat_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Crocodile_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Equix_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Desert_Striker_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Elephant_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Kea_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Redback_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Ashen_Drake_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Lava_Hunter_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Lava_Broodling_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Lava_Viscid_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Moa_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Needler_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Terrenus_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Dreadwing_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Rabbit_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Snow_Rabbit_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Scorpion_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Scorpion_Boss_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Reaver_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Snow_Stalker_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Land_Shark_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Ubis_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Stryder_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Swamp_Viscid_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Wooly_Zebra_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Zebra_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Pronghorn_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Arctic_Scorpion_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Pygmy_Lop_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Shell_Obsidian",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Shell_Ironwood",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Shell_ColdSteel",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Ren",
+          "MaxStack": 3000
+        },
+        {
+          "Name": "Item_Biomass",
+          "MaxStack": 90
+        },
+        {
+          "Name": "Item_Sandworm_Tendon",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Black_Fur",
+          "MaxStack": 125
+        },
+        {
+          "Name": "Item_Venom_Sac",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Ice_Armor_Fragment",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Frozen_Wool",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_WildBoar_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Desert_Deer_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Desert_Mammoth_Head",
+          "MaxStack": 25
+        },
+        {
+          "Name": "Item_Stone_Diagonal_Set",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Curved_Set",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Diagonal_Curved_Wall_Angles",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Roof_CurvedAngles",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Curved_Wall",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Advanced_Beam_Set",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Ice_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Floor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Ramp",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Wall_Angle",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Beam",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Roof_Corner",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Roof_Half_Pitch",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Half_Piece",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Stairs",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Floor_TrapDoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_IceMammoth_Throwing_Spear",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Komodo_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Tusker_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Worker_Bee",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Honeycomb",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Honey",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Beeswax",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Supporters_Flag",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Supporters_Sign",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fur_Curtain_Door",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Giant_Steak_Smoked",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Fatty_Tbone_Smoked",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Gamey_Meat_Smoked",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Stringy_Meat_Smoked",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Soft_Meat_Smoked",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_White_Meat_Smoked",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Smoked_Freshwater_Fillet",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Smoked_Saltwater_Fillet",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Dried_Meat_Generic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Smoked_Meat_Generic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Sugar_Cane",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Sugar",
+          "MaxStack": 2500
+        },
+        {
+          "Name": "Item_Seed_SugarCane",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Limestone_Floor",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Limestone_Frame",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Limestone_Wall",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Limestone_Wall_Angle",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Limestone_Ramp",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Limestone_Beam",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Limestone_Roof_Corner",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Limestone_Half_Pitch",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Limestone_Halfpiece",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Limestone",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Crushed_Limestone",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Glass_Jar_Honey",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Smokey_Bacon",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Pastry_Honey",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Honey_Mead",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Bottle",
+          "MaxStack": 36
+        },
+        {
+          "Name": "Item_Honey_Bar",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Ice_Diagonal_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Curved_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Diagonal_Curved_Wall_Angles",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Roof_CurvedAngles",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Curved_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Ice_Advanced_Beam_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Diagonal_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Curved_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Diagonal_Curved_Wall_Angles",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Roof_CurvedAngles",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Curved_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Advanced_Beam_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Trail_Beacon",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Egg",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Wool",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Bramble_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Coconut_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Bramble",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Chicken_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Chicken_Head_A2",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Chicken_Head_A3",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Sheep_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Hitching_Post",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Hitching_Rope",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Pyritic_Crust_Stone",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Pyritic_Crust_Salt",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Pyritic_Crust_Limestone",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Animal_Feed_High_Quality",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Purification_Pill",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Cooked_Eggs",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Mushroom_Omlette",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Egg_Salad",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Pickled_Eggs",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Big_Breakfast",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Scrambled_Eggs",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Smashed_Avocado",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Roast_Chicken",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fried_Chicken",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Packed_Fuel_Brick",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Animal_Feed_Squash",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Animal_Feed_Pumpkin",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Animal_Feed_Potato",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Animal_Feed_Corn",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Animal_Feed_Carrot",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Animal_Feed_Mushroom",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Animal_Feed_Bean",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Horse_Head_A1",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Horse_Head_A2",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Horse_Head_A3",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Cat_Head_A1",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Cat_Head_A2",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Cat_Head_A3",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Dog_Head_A1",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Dog_Head_A2",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Dog_Head_B1",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Dog_Head_B2",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_CreatureBait_Wolf",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_CreatureBait_Boar",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_CreatureBait_Hyena",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Kiwi_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Dog_Head_C1",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Raw_Chicken",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Grilled_Chicken",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Dirt_Frame",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Dirt_Ramp",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Dirt",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Sand",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Single_Ceiling_Light",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Exposed_Ceiling_Light",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Health_Remedy",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Health_Elixir",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Exposed_Ceiling_Light_Foggy",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Vitamins",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Dressing_Kit",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Workshop_Dressing_Kit",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Dirt_Corner",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Dog_Head_D1",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Dog_Head_D2",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Pistol_Round_Workshop",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Wood_Railing_Gate_Refined_V2",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Thatch_Railing_Gate",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Railing_Gate",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Railing_Gate",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Reinforced_Railing_Gate",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Railing_Gate",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Stone_Brick_Floor",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Brick_Wall",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Brick_Wall_Angle",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Brick_Ramp",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Brick_Beam",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Brick_Roof_Corner",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Brick_Roof_Half_Pitch",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Brick_Halfpiece",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Kiwi_Fruit",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Kiwi_Fruit_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Dried_Kiwifruit",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Kiwifruit_Jam",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Kiwifruit_Sorbet",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Fruit_Snack_Pack",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Stone_Brick",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Quality_Fertilizer",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Resistance_Fertilizer",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Sandworm_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Slug_Grenade",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Slug_Slime",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Slug_Skin",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Lava_Hunter_Magma",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Lava_Hunter_Horn",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Slug_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Rock_Golem_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Rock_Golem_Fragment",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Rock_Golem_Core",
+          "MaxStack": 25
+        },
+        {
+          "Name": "Item_Ape_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Ape_Hide",
+          "MaxStack": 25
+        },
+        {
+          "Name": "Item_Ape_Bicep",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Ape_Fishing_Trap",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Ape_Rug",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Ape_Tonic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_IceMammoth_Head",
+          "MaxStack": 25
+        },
+        {
+          "Name": "Item_Scyther_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Scyther_Appendage",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Scyther_Spine",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Scyther_Throwing_Spear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scyther_Aquarium",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Scyther_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Scyther_Bolt",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Hornet_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Hornet_Wing",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Hornet_Stinger",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Hornet_Throwing_Knife",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Plant_Boss_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Plant_Boss_Vine",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Plant_Boss_Flower",
+          "MaxStack": 25
+        },
+        {
+          "Name": "Item_Plant_Boss_Fertilizer",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Cat_Boss_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Cat_Boss_Whisker",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Cat_Boss_Tail",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Ammo_Crude",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Ape_Grenade",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Cat_Boss_Tonic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Mini_Hippo_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Sandworm_Floor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Sandworm_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Sandworm_Wall_Angle",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Sandworm_Ramp",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Sandworm_Beam",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Sandworm_Roof_Corner",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Sandworm_Roof_Half_Pitch",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Sandworm_Halfpiece",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Beam_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Wall_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Wall_Angle_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Ramp_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Roof_Corner_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Halfpiece_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Roof_Half_Pitch_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Floor_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Bunker_Window",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Bunker_Poster",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Bunker_Prop",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Bunker_Sign",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Bunker_Base_Sign",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_ReinforcedWood_Floor",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_ReinforcedWood_Wall",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_ReinforcedWood_Wall_Angle",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_ReinforcedWood_Ramp",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_ReinforcedWood_Beam",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_ReinforcedWood_Roof_Corner",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_ReinforcedWood_Roof_Half_Pitch",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_ReinforcedWood_Halfpiece",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Shotgun_Casing",
+          "MaxStack": 1000
+        },
+        {
+          "Name": "Item_Mission_Stasis_Bag",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Glass_Door_Reinforced",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Window_Reinforced",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Choc_Chip_Cookie",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Coconut_Cookie",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Strawberry_Candy",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Watermelon_Lollypop",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Energy_Bar",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Caramel_Fruit_Tart",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Salted_Caramel_Pastry",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Metal_Grate_Building",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Guano",
+          "MaxStack": 1500
+        },
+        {
+          "Name": "Item_Arctic_Bat_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Teddy_Bear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Toilet",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Pyritic_Crust_FieldGuide",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Cow_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Bull_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Rooster_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Ram_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Chocolate_Cake_Piece",
+          "MaxStack": 24
+        },
+        {
+          "Name": "Item_Carrot_Cake_Piece",
+          "MaxStack": 24
+        },
+        {
+          "Name": "Item_Coconut_Cake_Piece",
+          "MaxStack": 24
+        },
+        {
+          "Name": "Item_Cheese",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Frozen_Wood",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Rock_Golem_Juvenile_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Drill_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_ExperimentalGoop",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Cream",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Butter",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Cheese_Roll",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Cheese_Pizza",
+          "MaxStack": 24
+        },
+        {
+          "Name": "Item_Pavlova",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Strawberries_And_Cream",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Bacon_Sandwich",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_DecalDeployable",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Calf_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Chick_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_ResearchEquipment_Centrifuge",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_ResearchEquipment_Flasks",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_ResearchEquipment_Microscope",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_ResearchEquipment_TestTubes",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Farm_Railing_Gate",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Homestead_Farm_Railing",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Homestead_BarnDoor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Light_Test",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Homestead_PlanterBox_SML",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_TriangulationBeacon",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Zipline_T3",
+          "MaxStack": 6
+        },
+        {
+          "Name": "Item_Ammo_EDS",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Homestead_BirdFeeder",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Dead_Researcher",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Dead_Miner",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Vintage_Jar",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Homestead_Honey_Pot",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Juvenile_Ape_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Homestead_Butter_Churn",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Butter_Churn_Large",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Coffee_Grinder",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Cheese",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Hanging_Meat",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Barbed_Wire_Fence",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Homestead_Lamp_Ground",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Homestead_Lamp_Wall",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Cave_Bat_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Synthetic_Enzymes",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Homestead_Weapon_Rack",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Homestead_Weapon_Rack_Single",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_AssaultRifle_Round",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_AssaultRifle_Round_Explosive",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_AssaultRifle_Round_Incendiary",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_AssaultRifle_Round_Armor_Piercing",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Obsidian_AssaultRifle_Round",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Cold_Steel_AssaultRifle_Round",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Iron_Wood_AssaultRifle_Round",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_PlatinumWeave_Curtain_Door",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_SilkWeave_Curtain_Door",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_PlatinumWeave_Curtain_Window",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_SilkWeave_Curtain_Window",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Fur_Curtain_Window",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Seed_Fertilizer",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Snow_Slug_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Snow_Mammoth_Head",
+          "MaxStack": 25
+        },
+        {
+          "Name": "Item_Enzyme_Elixir",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Brick_Sign_Small",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Composite_Sign_Small",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Sign_Small",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Iron_Sign_Small",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Stone_Sign_Small",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Mission_Biotag",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Enzyme_Virus",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Prop_Industrial_Sign_Square",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Industrial_Sign_Triangle",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Industrial_Sign_Diamond",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Poster_Fishing",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Corkboard_Small",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Corkboard_Large",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Photo_Frame_Standing",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Plastic_Crate",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Prop_Burlap_Sack",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Saddle_Bag",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Banana",
+          "MaxStack": 90
+        },
+        {
+          "Name": "Item_Banana_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Banana_Bread",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_StoneBrick_Sign_Small",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_ScoriaBrick_Sign_Small",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Door",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Bear_Trap",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Prop_Boardgame",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Cards",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Book",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Bookstack",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Magazine",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Propaganda_Sign",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Surgical_Equipment",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Poster",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Mission_Shackles",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Prop_Cryogenic_Sample_Storage",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Clipboard",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Laptop",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Centrifuge",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Prop_Flask",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Lab_Stand",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Stirrer",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Lab_Table",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Microscope",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Moisture_Analyzer",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Mortar_And_Pestle",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Scales",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Test_Tube_Rack",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Surgical_Masks",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Pipe1",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Prop_Pipe2",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Chemicals",
+          "MaxStack": 90
+        },
+        {
+          "Name": "Item_CleaningSupplies",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Eye_Wash_Station",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Large_Flask",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Stool",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Labcoats",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Molecules",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_PaperTowls",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Goggles",
+          "MaxStack": 90
+        },
+        {
+          "Name": "Item_Skeleton",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Science_Tray",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Soap",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Mission_DNA_Ruined",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Mission_Ethanol",
+          "MaxStack": 90
+        },
+        {
+          "Name": "Item_Mission_Buffer",
+          "MaxStack": 90
+        },
+        {
+          "Name": "Item_Prop_Lab_Poster",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Medical_Trolly",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Prop_Mining_Cart",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Prop_Mining_Rail",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Prop_Mining_Equipment",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Dead_Ape",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Shell_Workshop",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Splint_Workshop",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Sniper_Round",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Sniper_Round_Explosive",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Sniper_Round_Incendiary",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Sniper_Round_Illumination",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Rifle_Round_Workshop",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_AssaultRifle_Round_Workshop",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Rock_Golem_Juvenile_Armor_Exotic",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Rock_Golem_Juvenile_Armor_Copper",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Rock_Golem_Juvenile_Armor_Iron",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Rock_Golem_Juvenile_Armor_Gold",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Rock_Golem_Juvenile_Armor_Oxite",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Rock_Golem_Juvenile_Armor_Coal",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Plastics",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Synthetics",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Compounds",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Uranium_Raw",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Uranium_Inert",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Uranium_Rod",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Truffle",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Truffle_Seed",
+          "MaxStack": 2000
+        },
+        {
+          "Name": "Item_Cooked_Truffle",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Truffle_Focaccia",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Truffle_Pasta",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Concrete_Diagonal_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Curved_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Diagonal_Curved_Wall_Angles",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Roof_CurvedAngles",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Curved_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Concrete_Advanced_Beam_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Diagonal_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Curved_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Diagonal_Curved_Wall_Angles",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Roof_CurvedAngles",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Curved_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Advanced_Beam_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Diagonal_Set_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Curved_Set_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Diagonal_Curved_Wall_Angles_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Roof_CurvedAngles_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Curved_Wall_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Glass_Advanced_Beam_Set_Tempered",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Lithium_Ore",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Lithium_Refined",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Ruby_Ore",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Ruby_Shaped",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Cobalt_Ore",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Cobalt_Ingot",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Pyritic_Crust_Lithium",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Ruby",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Pyritic_Crust_Cobalt",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Lithium_Throwing_Knife",
+          "MaxStack": 150
+        },
+        {
+          "Name": "Item_Lithium_Throwing_Spear",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Diagonal_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Curved_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Diagonal_Curved_Wall_Angles",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Roof_CurvedAngles",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Curved_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Clay_Brick_Advanced_Beam_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Diagonal_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Curved_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Diagonal_Curved_Wall_Angles",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Roof_CurvedAngles",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Curved_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Scoria_Brick_Advanced_Beam_Set",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Stone_Brick_Diagonal_Set",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Brick_Curved_Set",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Brick_Diagonal_Curved_Wall_Angles",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Brick_Roof_CurvedAngles",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Brick_Curved_Wall",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Stone_Brick_Advanced_Beam_Set",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_AntiRadiation_Transfusion",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Radioactive_Waste",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Hay_Bale",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Laser_Tripwire",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Orka_Arctic_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Pistol_Round_Uranium",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Pistol_Round_Lithium",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Shell_Uranium",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Shell_Lithium",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Rifle_Round_Uranium",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Rifle_Round_Lithium",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_AssaultRifle_Round_Uranium",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_AssaultRifle_Round_Lithium",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Flare_Yellow",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Flare_Green",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Flare_Red",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Flare_Blue",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fortification_Concrete_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Fortification_Concrete_Spikes",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Fortification_Concrete_Gate",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Fortification_Concrete_Walkway",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Fortification_Concrete_Platform",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Fortification_Stone_Wall",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Fortification_Stone_Spikes",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Fortification_Stone_Gate",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Fortification_Stone_Walkway",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Fortification_Stone_Platform",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Raptor_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Raptor_Desert_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_CreatureBait_Orka",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_CreatureBait_Storca",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Storca_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Mange_Wolf_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Mange_Wolf_Alpha_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Ghost_Crocodile_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Slinker_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Bounder_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Tundra_Deer_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Hopping_Creature_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Hopping_Creature_Swamp_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Chew_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Rabbit_Variant_Snow_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_SulfurWorm_Head",
+          "MaxStack": 25
+        },
+        {
+          "Name": "Item_Stomper_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Stomper_Matriarch_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Giant_Roach_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Dragonfly_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Flying_Tank_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Flightless_Tank_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Geothermal_Bat_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Sandscuttle_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Tundra_Monkey_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_CreatureBait_Tundra_Monkey",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Aluminium_Screw",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Lithium_Bolt",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Uranium_Bolt",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Metal_Alloy_Bolt",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Lithium_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Uranium_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Metal_Alloy_Arrow",
+          "MaxStack": 500
+        },
+        {
+          "Name": "Item_Plant_Extract",
+          "MaxStack": 600
+        },
+        {
+          "Name": "Item_Terraforming_Dust",
+          "MaxStack": 600
+        },
+        {
+          "Name": "Item_AntiRadiation_Tonic",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Prop_Magazine_Eden",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Filing_Cabinet",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Monitor",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Radio",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Record_Player",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Dissected_Roach",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Cone",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Specimen_Small",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Specimen",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Specimen_Large",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Prop_Keyboard",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Prop_Mouse",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Prop_Eden_Corkboard",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_Sandworm_Poster",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Prop_NPC_File",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Prop_Record",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Prop_UDA_Sign",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prop_UDA_Sign_Defaced",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Enzyme_Vat",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Enzyme_Vat_Empty",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Dead_EI_Agent",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Prop_LaserControls",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Spider_Silk",
+          "MaxStack": 600
+        },
+        {
+          "Name": "Item_Spider_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Prop_Camera",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Prop_Mug",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Geothermal_Spider_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Homestead_Wall_Candle",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Homestead_Copper_Pot",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Cushion_A",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Cushion_B",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Lantern",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Homestead_Fireplace_Tools",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Fireplace_Screen",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Fireplace_Bellows",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Knitting_Decor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Homestead_BirdBath_Iron",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Homestead_BirdBath_Gold",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Homestead_Spinning_Wheel",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Shutter",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Homestead_Curtain",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Homestead_Saloon_Door",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Homestead_Cuckcoo_Clock",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Weather_Vane",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Homestead_Retaining_Wall",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Homestead_Wildflower_Bluebell",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Homestead_Wildflower_Daisy",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Homestead_Wildflower_Lavender",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Homestead_Wildflower_Poppy",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Homestead_Wildflower_Strawflower",
+          "MaxStack": 250
+        },
+        {
+          "Name": "Item_Fertility_Serum_Chicken",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fertility_Serum_Sheep",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fertility_Serum_Cow",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fertility_Serum_Moa",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Fertility_Serum_Buffalo",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Cooked_Banana",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Dried_Banana",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Banana_Porridge",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Frozen_Banana",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Banana_Tart",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Banana_Toast",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Sandwyrm_Egg",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Lamb_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Pig_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Piglet_Head",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Pig_Trophy",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Piglet_Trophy",
+          "MaxStack": 15
+        },
+        {
+          "Name": "Item_Metal_Grate_Floor",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Metal_Grate_Stairs",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Prebuilt_Spawn_Location",
+          "MaxStack": 60
+        },
+        {
+          "Name": "Item_Gruel",
+          "MaxStack": 300
+        },
+        {
+          "Name": "Item_Fertility_Serum_Pig",
+          "MaxStack": 30
+        },
+        {
+          "Name": "Item_Animal_Gruel_Fruit",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Animal_Gruel_Vegetable",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Animal_Gruel_Meat",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Animal_Gruel_Fish",
+          "MaxStack": 75
+        },
+        {
+          "Name": "Item_Agave",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Agave_Seed",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Agave_Syrup",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Animal_Gruel_Rotten",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Animal_Silage",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Caramelized_Onions",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Cooked_Agave",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Cooked_Garlic",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Cooked_Onion",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Cooked_PricklyPear",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Fertility_Serum_Raptor",
+          "MaxStack": 10
+        },
+        {
+          "Name": "Item_Fertility_Serum_Slinker",
+          "MaxStack": 10
+        },
+        {
+          "Name": "Item_French_Onion_Soup",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Garlic",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Garlic_Bread",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Garlic_Butter",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Garlic_Pizza",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Garlic_Seed",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Glazed_Carrots",
+          "MaxStack": 10
+        },
+        {
+          "Name": "Item_Onion",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_Onion_Rings",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Onion_Seed",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Onion_Souffle",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_PricklyPear",
+          "MaxStack": 50
+        },
+        {
+          "Name": "Item_PricklyPear_Jelly",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_PricklyPear_Margarita",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_PricklyPear_Muffins",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_PricklyPear_Seed",
+          "MaxStack": 100
+        },
+        {
+          "Name": "Item_Pumpkin_Pie",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Sandwyrm_Queen_Head",
+          "MaxStack": 5
+        },
+        {
+          "Name": "Item_Smoked_Garlic",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Tequila",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Truffle_Fries",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Truffle_Vodka",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Vodka",
+          "MaxStack": 20
+        },
+        {
+          "Name": "Item_Yeti_Head",
+          "MaxStack": 5
+        },
+        {
+          "Name": "Item_Fertility_Serum_Wolf",
+          "MaxStack": 30
+        }
+      ]
+    }
+  ]
+}

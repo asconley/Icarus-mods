@@ -1,0 +1,1079 @@
+{
+  "name": "Armor Set Bonuses Enhanced",
+  "author": "AgentKush",
+  "version": "2.0",
+  "description": "Enhanced armor set bonuses with 3-piece partial bonuses for mix-and-match builds.",
+  "fileName": "Armor_Set_Bonuses_Enhanced",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Armor_Set_Bonuses_Enhanced.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Armor_Set_Bonuses_Enhanced/README.md",
+  "week": "All",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Armour-D_ArmourSetBonus.json",
+      "File_Items": [
+        {
+          "Name": "Cloth_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Cloth_3-Description\", \"Cloth Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseMovementSpeed_+%\")": 4
+          }
+        },
+        {
+          "Name": "Leather_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Leather_3-Description\", \"Leather Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseHealthRegen_+%\")": 7,
+            "(Value=\"BaseStaminaRegen_+%\")": 7
+          }
+        },
+        {
+          "Name": "Fur_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Fur_3-Description\", \"Fur Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseArcticExposureResistance_+%\")": 4
+          }
+        },
+        {
+          "Name": "Ghillie_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Ghillie_3-Description\", \"Ghillie Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseSwampAnimalThreatModifier_+%\")": -15,
+            "(Value=\"BaseConiferAnimalThreatModifier_+%\")": -15
+          }
+        },
+        {
+          "Name": "Carbon_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Carbon_3-Description\", \"Naneo Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseWeightCapacity_+%\")": 7,
+            "(Value=\"BaseStaminaRegen_+%\")": 7
+          }
+        },
+        {
+          "Name": "Composite_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Composite_3-Description\", \"Composite Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseHealthRegen_+%\")": 20,
+            "(Value=\"BaseStaminaRegen_+%\")": 20
+          }
+        },
+        {
+          "Name": "Polarbear_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Polarbear_3-Description\", \"Polar Bear Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseArcticMovementSpeed_+%\")": 7,
+            "(Value=\"BaseArcticExposureResistance_+%\")": 4
+          }
+        },
+        {
+          "Name": "Hunter_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Hunter_3-Description\", \"Hunter Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseAnimalThreatModifier_+%\")": -15,
+            "(Value=\"BaseCrouchSpeed_+%\")": 10
+          }
+        },
+        {
+          "Name": "Scale_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Scale_3-Description\", \"Scale Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BasePoisonDamageResistance_+%\")": 15,
+            "(Value=\"BaseDesertWaterConsumption_+%\")": -40
+          }
+        },
+        {
+          "Name": "Scorpion_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Scorpion_3-Description\", \"Scorpion Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseProjectileDamageResistance_+%\")": 14,
+            "(Value=\"BaseChanceToReturnDamage_%\")": 25
+          }
+        },
+        {
+          "Name": "Carbon_Alpha_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Carbon_Alpha_3-Description\", \"ST-700 Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseAnimalThreatModifier_+%\")": -20,
+            "(Value=\"BaseCrouchSpeed_+%\")": 10
+          }
+        },
+        {
+          "Name": "Carbon_Beta_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Carbon_Beta_3-Description\", \"CX-400 Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseMiningRewards_%\")": 15,
+            "(Value=\"BaseFellingRewards_%\")": 15
+          }
+        },
+        {
+          "Name": "Advanced_Leather_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Advanced_Leather_3-Description\", \"Cured Leather Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseHealthRegen_+%\")": 12,
+            "(Value=\"BaseStaminaRegen_+%\")": 12
+          }
+        },
+        {
+          "Name": "Advanced_Cloth_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Advanced_Cloth_3-Description\", \"Wayfarer Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseDesertExposureResistance_+%\")": 4,
+            "(Value=\"BaseWaterConsumption_+%\")": -5
+          }
+        },
+        {
+          "Name": "Bone_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Bone_3-Description\", \"Bone Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseMeleeDamage_+%\")": 10,
+            "(Value=\"BaseMeleeDamageResistance_%\")": 12
+          }
+        },
+        {
+          "Name": "Heavy_Obsidian_Armor_Set_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Heavy_Obsidian_Armor_Set_3-Description\", \"Heavy Obsidian Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseFireDamageResistanceWhileInLava_%\")": 50
+          }
+        },
+        {
+          "Name": "Obsidian_Armor_Set_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Obsidian_Armor_Set_3-Description\", \"Obsidian Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 30,
+            "(Value=\"BaseVolcanicExposureResistance_+%\")": 12
+          }
+        },
+        {
+          "Name": "Larkwell_Armor_Alpha_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Larkwell_Armor_Alpha_3-Description\", \"Larkwell Alpha Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseSprintSpeed_+%\")": 7,
+            "(Value=\"BaseStaminaRegen_+%\")": 15
+          }
+        },
+        {
+          "Name": "Larkwell_Armor_Black_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Larkwell_Armor_Black_3-Description\", \"LM Beastmaster (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseTamedCreatureMeleeDamage_+%\")": 12,
+            "(Value=\"BaseTamedCreatureHealthRegen_+%\")": 25
+          }
+        },
+        {
+          "Name": "Larkwell_Armor_White_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Larkwell_Armor_White_3-Description\", \"Larkwell White Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseCookedFoodModifierEffectiveness_+%\")": 12,
+            "(Value=\"BaseHarvestingRewards_+%\")": 12
+          }
+        },
+        {
+          "Name": "Brownbear_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Brownbear_3-Description\", \"Brown Bear Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseAttackSpeed_+%\")": 7,
+            "(Value=\"BaseMeleeDamageResistance_%\")": 12
+          }
+        },
+        {
+          "Name": "Black_Wolf_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Black_Wolf_3-Description\", \"Black Wolf Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseConiferMovementSpeed_+%\")": 4,
+            "(Value=\"BaseBleedResistance_%\")": 30
+          }
+        },
+        {
+          "Name": "Ape_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Ape_3-Description\", \"Garganutan Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseAttackSpeed_+%\")": 10,
+            "(Value=\"BaseWeightCapacity_+%\")": 10
+          }
+        },
+        {
+          "Name": "IceMammoth_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"IceMammoth_3-Description\", \"Rimetusk Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseArcticHealthRegen_+%\")": 12,
+            "(Value=\"BaseArcticColdResistance_+%\")": 7
+          }
+        },
+        {
+          "Name": "Sand_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Sand_3-Description\", \"Carbonweave Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseDesertMovementSpeed_+%\")": 7,
+            "(Value=\"BaseVolcanicMovementSpeed_+%\")": 7,
+            "(Value=\"BaseDesertExposureResistance_+%\")": 15,
+            "(Value=\"BaseVolcanicExposureResistance_+%\")": 15
+          }
+        },
+        {
+          "Name": "ArcticArmor_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"ArcticArmor_3-Description\", \"Arctic Survival Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseArcticMovementSpeed_+%\")": 7,
+            "(Value=\"BaseArcticExposureResistance_+%\")": 30
+          }
+        },
+        {
+          "Name": "MinerArmor_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"MinerArmor_3-Description\", \"Dusty Miner Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseMiningRewards_+%\")": 12,
+            "(Value=\"BaseCavewormExtraDamage_+%\")": 12
+          }
+        },
+        {
+          "Name": "CavewormScale_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"CavewormScale_3-Description\", \"Caveworm Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BasePoisonDamageResistance_%\")": 15,
+            "(Value=\"BaseMiningRewards_+%\")": 10
+          }
+        },
+        {
+          "Name": "Hazmat_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Hazmat_3-Description\", \"Hazmat Armor Set (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseExposureResistance_+%\")": 30,
+            "(Value=\"BasePneumoniaResistance_%\")": 30
+          }
+        },
+        {
+          "Name": "Radiation_Protection_Armor_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Radiation_Protection_Armor_3-Description\", \"Containment Armor (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseExposureResistance_+%\")": 7
+          }
+        },
+        {
+          "Name": "Synthetic_Armor_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Synthetic_Armor_3-Description\", \"Resurgent Armor (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BasePoisonResistance_%\")": 25,
+            "(Value=\"BaseWoundResistance_%\")": 25
+          }
+        },
+        {
+          "Name": "Bulky_Armor_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Bulky_Armor_3-Description\", \"Stabilization Armor (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseWoundModifierDuration_+%\")": -30,
+            "(Value=\"BasePoisonModifierDuration_+%\")": -30,
+            "(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -30
+          }
+        },
+        {
+          "Name": "Alloy_Armor_3",
+          "RequiredGear": 3,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Alloy_Armor_3-Description\", \"Bastion Armor (3pc)\")",
+          "StatsGranted": {
+            "(Value=\"BaseFireDamageResistance_%\")": 30,
+            "(Value=\"BaseFrostDamageResistance_%\")": 30,
+            "(Value=\"BasePoisonDamageResistance_%\")": 30
+          }
+        },
+        {
+          "Name": "Cloth_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Cloth_5-Description\", \"Cloth Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseMovementSpeed_+%\")": 9
+          }
+        },
+        {
+          "Name": "Leather_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Leather_5-Description\", \"Leather Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseHealthRegen_+%\")": 18,
+            "(Value=\"BaseStaminaRegen_+%\")": 18
+          }
+        },
+        {
+          "Name": "Fur_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Fur_5-Description\", \"Fur Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseArcticExposureResistance_+%\")": 9
+          }
+        },
+        {
+          "Name": "Ghillie_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Ghillie_5-Description\", \"Ghillie Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseSwampAnimalThreatModifier_+%\")": -38,
+            "(Value=\"BaseConiferAnimalThreatModifier_+%\")": -38,
+            "(Value=\"BaseSwampWaterConsumption_+%\")": -15,
+            "(Value=\"BaseConiferOxygenConsumption_+%\")": -15
+          }
+        },
+        {
+          "Name": "Carbon_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Carbon_5-Description\", \"Naneo Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseWeightCapacity_+%\")": 18,
+            "(Value=\"BaseCollisionDamageResistance_+%\")": 15,
+            "(Value=\"BaseStaminaRegen_+%\")": 18,
+            "(Value=\"BaseMaximumStamina_+\")": 18
+          }
+        },
+        {
+          "Name": "Composite_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Composite_5-Description\", \"Composite Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseHealthRegen_+%\")": 53,
+            "(Value=\"BaseStaminaRegen_+%\")": 53
+          }
+        },
+        {
+          "Name": "Polarbear_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Polarbear_5-Description\", \"Polar Bear Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseArcticMovementSpeed_+%\")": 18,
+            "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -30,
+            "(Value=\"BaseArcticExposureResistance_+%\")": 9
+          }
+        },
+        {
+          "Name": "Hunter_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Hunter_5-Description\", \"Hunter Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseCrouchSpeed_+%\")": 26,
+            "(Value=\"BaseAnimalThreatModifier_+%\")": -38,
+            "(Value=\"BaseSwampWaterConsumption_+%\")": -15,
+            "(Value=\"BaseConiferFoodConsumption_+%\")": -15,
+            "(Value=\"BaseSwampParasitesResistance_%\")": 75
+          }
+        },
+        {
+          "Name": "Scale_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Scale_5-Description\", \"Scale Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BasePoisonDamageResistance_+%\")": 38,
+            "(Value=\"BasePoisonModifierDuration_+%\")": -75,
+            "(Value=\"BaseDesertWaterConsumption_+%\")": -100,
+            "(Value=\"BaseDesertHealthRegen_+%\")": 44
+          }
+        },
+        {
+          "Name": "Scorpion_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Scorpion_5-Description\", \"Scorpion Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseProjectileDamageResistance_+%\")": 35,
+            "(Value=\"BaseCollisionDamageResistance_+%\")": 15,
+            "(Value=\"BaseAnimalThreatModifier_+%\")": 30,
+            "(Value=\"BaseChanceToReturnDamage_%\")": 60,
+            "(Value=\"BaseDamageReturned_%\")": 35
+          }
+        },
+        {
+          "Name": "Carbon_Alpha_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Carbon_Alpha_5-Description\", \"ST-700 Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseAnimalThreatModifier_+%\")": -53,
+            "(Value=\"BaseCrouchSpeed_+%\")": 26,
+            "(Value=\"BaseStealthDamage_+%\")": 26
+          }
+        },
+        {
+          "Name": "Carbon_Beta_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Carbon_Beta_5-Description\", \"CX-400 Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseChanceToFellTreeInstantly_%\")": 2,
+            "(Value=\"BaseChanceToMineVoxelInstantly_+%\")": 2,
+            "(Value=\"BaseMiningRewards_%\")": 44,
+            "(Value=\"BaseFellingRewards_%\")": 44
+          }
+        },
+        {
+          "Name": "Advanced_Leather_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Advanced_Leather_5-Description\", \"Cured Leather Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseHealthRegen_+%\")": 35,
+            "(Value=\"BaseStaminaRegen_+%\")": 35
+          }
+        },
+        {
+          "Name": "Advanced_Cloth_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Advanced_Cloth_5-Description\", \"Wayfarer Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseDesertExposureResistance_+%\")": 9,
+            "(Value=\"BaseWaterConsumption_+%\")": -15
+          }
+        },
+        {
+          "Name": "Bone_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Bone_5-Description\", \"Bone Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseMeleeDamage_+%\")": 26,
+            "(Value=\"BaseMeleeDamageResistance_%\")": 30
+          }
+        },
+        {
+          "Name": "Heavy_Obsidian_Armor_Set_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Heavy_Obsidian_Armor_Set_5-Description\", \"Heavy Obsidian Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseFireDamageResistanceWhileInLava_%\")": 95,
+            "(Value=\"BaseWaterConsumption_+%\")": 15
+          }
+        },
+        {
+          "Name": "Obsidian_Armor_Set_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Obsidian_Armor_Set_5-Description\", \"Obsidian Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseExplosiveDamageResistance_%\")": 75,
+            "(Value=\"BaseVolcanicExposureResistance_+%\")": 30
+          }
+        },
+        {
+          "Name": "Larkwell_Armor_Alpha",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Larkwell_Armor_Alpha-Description\", \"Larkwell Alpha Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseSprintSpeed_+%\")": 18,
+            "(Value=\"BaseJumpingStaminaActionCost_+%\")": -75,
+            "(Value=\"BaseStaminaRegen_+%\")": 44
+          }
+        },
+        {
+          "Name": "Larkwell_Armor_Black",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Larkwell_Armor_Black-Description\", \"LM Beastmaster\")",
+          "StatsGranted": {
+            "(Value=\"BaseTamedCreatureMovementSpeed_+%\")": 18,
+            "(Value=\"BaseTamedCreatureMeleeDamage_+%\")": 35,
+            "(Value=\"BaseTamedCreatureHealthRegen_+%\")": 70
+          }
+        },
+        {
+          "Name": "Larkwell_Armor_White",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Larkwell_Armor_White-Description\", \"Larkwell White Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseCookedFoodModifierEffectiveness_+%\")": 35,
+            "(Value=\"BaseHarvestingRewards_+%\")": 35,
+            "(Value=\"BaseSleepQuality_%\")": 35
+          }
+        },
+        {
+          "Name": "Brownbear_5",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Brownbear_5-Description\", \"Brown Bear Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseAttackSpeed_+%\")": 18,
+            "(Value=\"BaseMeleeDamageResistance_%\")": 30
+          }
+        },
+        {
+          "Name": "Black_Wolf",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Black_Wolf-Description\", \"Black Wolf Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseConiferMovementSpeed_+%\")": 9,
+            "(Value=\"BaseAttacksCauseMinorHemorrhage_%\")": 30,
+            "(Value=\"BaseBleedResistance_%\")": 75
+          }
+        },
+        {
+          "Name": "Ape",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Ape-Description\", \"Garganutan Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseAttackSpeed_+%\")": 26,
+            "(Value=\"BaseMeleeDamageResistance_%\")": 23,
+            "(Value=\"BaseWeightCapacity_+%\")": 26
+          }
+        },
+        {
+          "Name": "IceMammoth",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"IceMammoth-Description\", \"Rimetusk Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseArcticHealthRegen_+%\")": 35,
+            "(Value=\"BaseArcticColdResistance_+%\")": 18,
+            "(Value=\"BaseAttacksCauseFreeze_%\")": 26
+          }
+        },
+        {
+          "Name": "Sand",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Sand-Description\", \"Carbonweave Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseDesertMovementSpeed_+%\")": 18,
+            "(Value=\"BaseVolcanicMovementSpeed_+%\")": 18,
+            "(Value=\"BaseDesertAnimalThreatModifier_+%\")": -38,
+            "(Value=\"BaseVolcanicAnimalThreatModifier_+%\")": -38,
+            "(Value=\"BaseDesertExposureResistance_+%\")": 44,
+            "(Value=\"BaseVolcanicExposureResistance_+%\")": 44
+          }
+        },
+        {
+          "Name": "ArcticArmor",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"ArcticArmor-Description\", \"Arctic Survival Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseArcticMovementSpeed_+%\")": 18,
+            "(Value=\"BaseArcticExposureResistance_+%\")": 75,
+            "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -38
+          }
+        },
+        {
+          "Name": "MinerArmor",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"MinerArmor-Description\", \"Dusty Miner Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseCavewormExtraDamage_+%\")": 35,
+            "(Value=\"BaseCaveBatExtraDamage_+%\")": 35,
+            "(Value=\"BaseRockGolemJuvenileExtraDamage_+%\")": 35,
+            "(Value=\"BaseMiningRewards_+%\")": 35
+          }
+        },
+        {
+          "Name": "CavewormScale",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"CavewormScale-Description\", \"Caveworm Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseExposureResistance_+%\")": 15,
+            "(Value=\"BasePneumoniaResistance_%\")": 75,
+            "(Value=\"BaseMiningRewards_+%\")": 26,
+            "(Value=\"BasePoisonDamageResistance_%\")": 38
+          }
+        },
+        {
+          "Name": "Hazmat",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Hazmat-Description\", \"Hazmat Armor Set\")",
+          "StatsGranted": {
+            "(Value=\"BaseExposureResistance_+%\")": 75,
+            "(Value=\"BasePneumoniaResistance_%\")": 75
+          }
+        },
+        {
+          "Name": "Radiation_Protection_Armor",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Radiation_Protection_Armor-Description\", \"Containment Armor\")",
+          "StatsGranted": {
+            "(Value=\"BaseExposureResistance_+%\")": 15
+          }
+        },
+        {
+          "Name": "Synthetic_Armor",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Synthetic_Armor-Description\", \"Resurgent Armor\")",
+          "StatsGranted": {
+            "(Value=\"BasePoisonResistance_%\")": 60,
+            "(Value=\"BaseWoundResistance_%\")": 60,
+            "(Value=\"BaseDeepWoundResistance_%\")": 60
+          }
+        },
+        {
+          "Name": "Bulky_Armor",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Bulky_Armor-Description\", \"Stabilization Armor\")",
+          "StatsGranted": {
+            "(Value=\"BaseWoundModifierDuration_+%\")": -75,
+            "(Value=\"BaseBacterialModifierDuration_+%\")": -75,
+            "(Value=\"BaseParasiticModifierDuration_+%\")": -75,
+            "(Value=\"BasePoisonModifierDuration_+%\")": -75,
+            "(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -75
+          }
+        },
+        {
+          "Name": "Alloy_Armor",
+          "RequiredGear": 5,
+          "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Alloy_Armor-Description\", \"Bastion Armor\")",
+          "StatsGranted": {
+            "(Value=\"BaseFireDamageResistance_%\")": 75,
+            "(Value=\"BaseFrostDamageResistance_%\")": 75,
+            "(Value=\"BasePoisonDamageResistance_%\")": 75
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Armour-D_ArmourSets.json",
+      "File_Items": [
+        {
+          "Name": "Cloth",
+          "SetBonus": [
+            {
+              "RowName": "Cloth_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Cloth_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Fur",
+          "SetBonus": [
+            {
+              "RowName": "Fur_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Fur_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Leather",
+          "SetBonus": [
+            {
+              "RowName": "Leather_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Leather_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Ghillie",
+          "SetBonus": [
+            {
+              "RowName": "Ghillie_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Ghillie_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Carbon",
+          "SetBonus": [
+            {
+              "RowName": "Carbon_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Carbon_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Composite",
+          "SetBonus": [
+            {
+              "RowName": "Composite_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Composite_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Polarbear",
+          "SetBonus": [
+            {
+              "RowName": "Polarbear_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Polarbear_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Hunter",
+          "SetBonus": [
+            {
+              "RowName": "Hunter_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Hunter_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Scale",
+          "SetBonus": [
+            {
+              "RowName": "Scale_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Scale_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Scorpion",
+          "SetBonus": [
+            {
+              "RowName": "Scorpion_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Scorpion_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "CX-400",
+          "SetBonus": [
+            {
+              "RowName": "Carbon_Alpha_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Carbon_Alpha_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "ST-700",
+          "SetBonus": [
+            {
+              "RowName": "Carbon_Beta_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Carbon_Beta_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Advanced_Leather",
+          "SetBonus": [
+            {
+              "RowName": "Advanced_Leather_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Advanced_Leather_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Advanced_Cloth",
+          "SetBonus": [
+            {
+              "RowName": "Advanced_Cloth_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Advanced_Cloth_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Bone",
+          "SetBonus": [
+            {
+              "RowName": "Bone_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Bone_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Obsidian",
+          "SetBonus": [
+            {
+              "RowName": "Obsidian_Armor_Set_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Obsidian_Armor_Set_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Heavy_Obsidian",
+          "SetBonus": [
+            {
+              "RowName": "Heavy_Obsidian_Armor_Set_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Heavy_Obsidian_Armor_Set_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Larkwell_Alpha",
+          "SetBonus": [
+            {
+              "RowName": "Larkwell_Armor_Alpha_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Larkwell_Armor_Alpha",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Larkwell_Black",
+          "SetBonus": [
+            {
+              "RowName": "Larkwell_Armor_Black_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Larkwell_Armor_Black",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Larkwell_White",
+          "SetBonus": [
+            {
+              "RowName": "Larkwell_Armor_White_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Larkwell_Armor_White",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Brownbear",
+          "SetBonus": [
+            {
+              "RowName": "Brownbear_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Brownbear_5",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Black_Wolf",
+          "SetBonus": [
+            {
+              "RowName": "Black_Wolf_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Black_Wolf",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Ice_Mammoth",
+          "SetBonus": [
+            {
+              "RowName": "IceMammoth_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "IceMammoth",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Ape",
+          "SetBonus": [
+            {
+              "RowName": "Ape_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Ape",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Sand",
+          "SetBonus": [
+            {
+              "RowName": "Sand_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Sand",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "ArcticArmor",
+          "SetBonus": [
+            {
+              "RowName": "ArcticArmor_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "ArcticArmor",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "MinerArmor",
+          "SetBonus": [
+            {
+              "RowName": "MinerArmor_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "MinerArmor",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "CavewormScale",
+          "SetBonus": [
+            {
+              "RowName": "CavewormScale_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "CavewormScale",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Hazmat",
+          "SetBonus": [
+            {
+              "RowName": "Hazmat_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Hazmat",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Radiation_Protection_Armor",
+          "SetBonus": [
+            {
+              "RowName": "Radiation_Protection_Armor_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Radiation_Protection_Armor",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Synthetic_Armor",
+          "SetBonus": [
+            {
+              "RowName": "Synthetic_Armor_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Synthetic_Armor",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Bulky_Armor",
+          "SetBonus": [
+            {
+              "RowName": "Bulky_Armor_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Bulky_Armor",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        },
+        {
+          "Name": "Alloy_Armor",
+          "SetBonus": [
+            {
+              "RowName": "Alloy_Armor_3",
+              "DataTableName": "D_ArmourSetBonus"
+            },
+            {
+              "RowName": "Alloy_Armor",
+              "DataTableName": "D_ArmourSetBonus"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

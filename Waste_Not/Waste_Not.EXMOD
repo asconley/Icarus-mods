@@ -1,0 +1,216 @@
+{
+  "name": "Waste Not",
+  "author": "CritFail (Updated by AgentKush)",
+  "version": "2.2",
+  "description": "Mining yields useful secondary resources instead of Stone.",
+  "fileName": "Waste_Not",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Waste_Not.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Waste_Not/README.md",
+  "week": "All",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "World-D_VoxelSetupData.json",
+      "File_Items": [
+        {
+          "Name": "Stone_Dense",
+          "ResourceType": {
+            "RowName": "Silica"
+          }
+        },
+        {
+          "Name": "Gold_Dense",
+          "SecondaryResourceType": {
+            "RowName": "Meta_Resource"
+          }
+        },
+        {
+          "Name": "Bauxite_Dense",
+          "SecondaryResourceType": {
+            "RowName": "Meta_Resource"
+          }
+        },
+        {
+          "Name": "Metal_Dense",
+          "SecondaryResourceType": {
+            "RowName": "Meta_Resource"
+          }
+        },
+        {
+          "Name": "Copper_Dense",
+          "SecondaryResourceType": {
+            "RowName": "Meta_Resource"
+          }
+        },
+        {
+          "Name": "Oxite_Dense",
+          "SecondaryResourceType": {
+            "RowName": "Oxite"
+          }
+        },
+        {
+          "Name": "Sulfur_Dense",
+          "SecondaryResourceType": {
+            "RowName": "Sulfur"
+          }
+        },
+        {
+          "Name": "Silica_Dense",
+          "SecondaryResourceType": {
+            "RowName": "Silica"
+          }
+        },
+        {
+          "Name": "Lithium_Ore_Dense",
+          "SecondaryResourceType": {
+            "RowName": "Meta_Resource"
+          }
+        },
+        {
+          "Name": "Ruby_Ore_Dense",
+          "SecondaryResourceType": {
+            "RowName": "Meta_Resource"
+          }
+        },
+        {
+          "Name": "Gold_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Gold_Ore"
+          }
+        },
+        {
+          "Name": "Stone_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Silica"
+          }
+        },
+        {
+          "Name": "Bauxite_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Bauxite"
+          }
+        },
+        {
+          "Name": "Metal_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Metal_Ore"
+          }
+        },
+        {
+          "Name": "Oxite_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Oxite"
+          }
+        },
+        {
+          "Name": "Copper_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Copper_Ore"
+          }
+        },
+        {
+          "Name": "Sulfur_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Sulfur"
+          }
+        },
+        {
+          "Name": "Silica_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Silica"
+          }
+        },
+        {
+          "Name": "Titanium_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Meta_Resource"
+          }
+        },
+        {
+          "Name": "Platinum_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Meta_Resource"
+          }
+        },
+        {
+          "Name": "Lithium_Ore_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Meta_Resource"
+          }
+        },
+        {
+          "Name": "Ruby_Ore_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Meta_Resource"
+          }
+        },
+        {
+          "Name": "Coal_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Charcoal"
+          }
+        },
+        {
+          "Name": "Coal_Dense",
+          "SecondaryResourceType": {
+            "RowName": "Charcoal"
+          }
+        },
+        {
+          "Name": "Ice_Normal",
+          "SecondaryResourceType": {
+            "RowName": "Oxite"
+          }
+        },
+        {
+          "Name": "Ice_Dense",
+          "SecondaryResourceType": {
+            "RowName": "Oxite"
+          }
+        },
+        {
+          "Name": "Exotic_Normal",
+          "ResourceType": {
+            "RowName": "Meta_Resource"
+          }
+        },
+        {
+          "Name": "Frozen_Ore",
+          "ResourceType": {
+            "RowName": "Frozen_Ore"
+          }
+        },
+        {
+          "Name": "Limestone_Dense",
+          "ResourceType": {
+            "RowName": "Limestone"
+          }
+        },
+        {
+          "Name": "Limestone_Normal",
+          "ResourceType": {
+            "RowName": "Limestone"
+          }
+        },
+        {
+          "Name": "Random_Normal",
+          "ResourceType": {
+            "RowName": "Stone"
+          }
+        },
+        {
+          "Name": "Research_Normal",
+          "ResourceType": {
+            "RowName": "Silica"
+          }
+        },
+        {
+          "Name": "Salt_Normal",
+          "ResourceType": {
+            "RowName": "Salt"
+          }
+        }
+      ]
+    }
+  ]
+}

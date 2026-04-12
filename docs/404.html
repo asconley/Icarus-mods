@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — AgentKush's Icarus Mods</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #060a10;
+            color: #e0e8f0;
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            overflow: hidden;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px; height: 600px;
+            background: radial-gradient(circle, rgba(232,123,53,0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .code {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 8rem;
+            font-weight: 900;
+            color: rgba(232,123,53,1);
+            text-shadow: 0 0 60px rgba(232,123,53,0.4);
+            line-height: 1;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+        p {
+            color: #7a8fa6;
+            font-size: 1.05rem;
+            margin-bottom: 32px;
+            max-width: 400px;
+        }
+        a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 28px;
+            background: rgba(232,123,53,1);
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 4px;
+            box-shadow: 0 4px 20px rgba(232,123,53,0.25);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(232,123,53,0.35);
+        }
+    </style>
+</head>
+<body>
+    <div class="code">404</div>
+    <h1>Lost in the Storm</h1>
+    <p>This page doesn't exist. Maybe the drop pod landed somewhere else.</p>
+    <a href="/Icarus-mods/">Back to Base</a>
+</body>
+</html>

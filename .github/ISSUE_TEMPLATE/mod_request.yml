@@ -1,0 +1,74 @@
+---
+name: Mod Request
+description: Suggest a new mod or feature for an existing mod
+title: "[Request] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Request type
+      options:
+        - New mod idea
+        - New feature for existing mod
+        - Balance change
+        - Compatibility request
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: existing-mod
+    attributes:
+      label: Which existing mod? (if applicable)
+      options:
+        - N/A - New mod
+        - Absolute Chaos - Core
+        - Agent's BioLab
+        - Agents Individual Item Kits
+        - Always Show Buildings On Map
+        - Ammo Crafting Overhaul
+        - Armor Set Bonuses Enhanced
+        - Bestiary Fix
+        - Creature Difficulty Scaling
+        - Creature Drop Enhancer
+        - Culinex Food Boost Fix
+        - Dev Tools Kit
+        - Exotic Economy Overhaul
+        - Extended Spoil Timers
+        - Extended Wire and Pipe Tool
+        - Fast Processing (all variants)
+        - Faster Crafting
+        - Fish and Farming Boost
+        - Hardcore Rebalance Pack
+        - Hidden Building Pieces
+        - Indestructible Tools & Weapons
+        - Modular Affliction Adjuster
+        - Modular Buff Enhancer
+        - More Eye Colours
+        - Night Vision Goggles
+        - No Food Spoilage
+        - Passive Ore Extractor Drills
+        - Performance Optimizer
+        - Solar Panel Expansion
+        - Stack Size Overhaul
+        - Tier Upgrade Forge
+        - Trap and Defense Expansion
+        - Turret Variants
+        - Waste Not
+        - Workshop Recyclers
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What would you like?
+      placeholder: Describe your idea - what should the mod do, what items/recipes/changes would it include?
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why would this be useful?
+      placeholder: What gameplay problem does this solve or what experience does it improve?
+    validations:
+      required: false

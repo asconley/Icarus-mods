@@ -1,0 +1,195 @@
+name: Validate Icarus Mods
+
+on:
+  push:
+    paths:
+      - '**/*.EXMOD'
+      - '**/*.EXMODZ'
+      - '**/modinfo.json'
+  pull_request:
+    paths:
+      - '**/*.EXMOD'
+      - '**/*.EXMODZ'
+      - '**/modinfo.json'
+  workflow_dispatch:
+    inputs:
+      mod_folder:
+        description: 'Specific mod folder to validate (leave empty for all)'
+        required: false
+        default: ''
+
+jobs:
+  validate:
+    name: Validate Mod Files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Find mod files to validate
+        id: find-mods
+        run: |
+          if [ -n "${{ github.event.inputs.mod_folder }}" ]; then
+            SEARCH_PATH="${{ github.event.inputs.mod_folder }}"
+          else
+            SEARCH_PATH="."
+          fi
+
+          # Find both EXMOD and EXMODZ files
+          FILES=$(find "$SEARCH_PATH" \( -name "*.EXMOD" -o -name "*.EXMODZ" \) -not -path "./.github/*" 2>/dev/null | sort | tr '\n' ' ')
+          echo "files=$FILES" >> $GITHUB_OUTPUT
+          echo "Found mod files: $FILES"
+
+      - name: Validate mod files
+        id: validate
+        run: |
+          RESULTS=""
+          FAILED=0
+          WARNED=0
+          PASSED=0
+          TOTAL=0
+
+          for file in ${{ steps.find-mods.outputs.files }}; do
+            TOTAL=$((TOTAL + 1))
+            EXIT_CODE=0
+            OUTPUT=$(python .github/scripts/validate_modinfo.py --github "$file" 2>&1) || EXIT_CODE=$?
+            RESULTS="${RESULTS}${OUTPUT}\n\n"
+
+            if [ $EXIT_CODE -eq 1 ]; then
+              FAILED=$((FAILED + 1))
+            elif [ $EXIT_CODE -eq 2 ]; then
+              WARNED=$((WARNED + 1))
+            else
+              PASSED=$((PASSED + 1))
+            fi
+          done
+
+          # Save results for PR comment
+          echo "$RESULTS" > /tmp/validation-results.txt
+
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
+          echo "passed=$PASSED" >> $GITHUB_OUTPUT
+          echo "warned=$WARNED" >> $GITHUB_OUTPUT
+          echo "failed=$FAILED" >> $GITHUB_OUTPUT
+
+          if [ $FAILED -gt 0 ]; then
+            echo "status=failed" >> $GITHUB_OUTPUT
+            exit 1
+          elif [ $WARNED -gt 0 ]; then
+            echo "status=warnings" >> $GITHUB_OUTPUT
+          else
+            echo "status=passed" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Validate modinfo.json catalog
+        if: always()
+        run: |
+          if [ -f "modinfo.json" ]; then
+            echo "Validating modinfo.json catalog..."
+            python -c "
+          import json, sys
+
+          with open('modinfo.json') as f:
+              data = json.load(f)
+
+          errors = []
+          warnings = []
+
+          if 'mods' not in data:
+              errors.append('Missing \"mods\" array in modinfo.json')
+          else:
+              seen_names = set()
+              for i, mod in enumerate(data['mods']):
+                  prefix = f'mods[{i}]'
+
+                  # Required fields
+                  for field in ['name', 'author', 'version', 'description']:
+                      if field not in mod:
+                          errors.append(f'{prefix}: Missing required field \"{field}\"')
+
+                  name = mod.get('name', f'unnamed-{i}')
+
+                  # Duplicate check
+                  if name in seen_names:
+                      errors.append(f'{prefix}: Duplicate mod name \"{name}\"')
+                  seen_names.add(name)
+
+                  # File URLs
+                  files = mod.get('files', {})
+                  if not files:
+                      warnings.append(f'{prefix} ({name}): No download files listed')
+                  else:
+                      exmodz = files.get('exmodz', '')
+                      if exmodz and not exmodz.endswith('.EXMODZ'):
+                          warnings.append(f'{prefix} ({name}): EXMODZ URL doesn\'t end with .EXMODZ')
+
+                  # Image/README URLs
+                  if 'imageURL' not in mod:
+                      warnings.append(f'{prefix} ({name}): Missing imageURL')
+                  if 'readmeURL' not in mod:
+                      warnings.append(f'{prefix} ({name}): Missing readmeURL')
+
+          if errors:
+              for e in errors:
+                  print(f'::error file=modinfo.json::{e}')
+              print(f'\n  ❌ modinfo.json: {len(errors)} error(s), {len(warnings)} warning(s)')
+              sys.exit(1)
+          elif warnings:
+              for w in warnings:
+                  print(f'::warning file=modinfo.json::{w}')
+              print(f'\n  ⚠️ modinfo.json: {len(warnings)} warning(s)')
+          else:
+              print('  ✅ modinfo.json catalog is valid')
+          "
+          else
+            echo "No modinfo.json found (skipping catalog validation)"
+          fi
+
+      - name: Post PR comment with results
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+            let results = '';
+            try {
+              results = fs.readFileSync('/tmp/validation-results.txt', 'utf8');
+            } catch (e) {
+              results = 'No validation results available.';
+            }
+
+            const total = '${{ steps.validate.outputs.total }}';
+            const passed = '${{ steps.validate.outputs.passed }}';
+            const failed = '${{ steps.validate.outputs.failed }}';
+            const warned = '${{ steps.validate.outputs.warned }}';
+            const status = '${{ steps.validate.outputs.status }}';
+
+            const icon = status === 'failed' ? '❌' : status === 'warnings' ? '⚠️' : '✅';
+            const title = status === 'failed' ? 'Mod Validation Failed' : status === 'warnings' ? 'Mod Validation Passed with Warnings' : 'Mod Validation Passed';
+
+            const body = `## ${icon} ${title}
+
+            **${total}** mods checked · **${passed}** passed · **${warned}** warnings · **${failed}** failed
+
+            <details>
+            <summary>Full validation output</summary>
+
+            \`\`\`
+            ${results}
+            \`\`\`
+
+            </details>
+
+            *Validated by [icarus-modinfo-validator](https://github.com/AgentKush/icarus-modinfo-validator)*`;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
