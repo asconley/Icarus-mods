@@ -389,9 +389,9 @@
         {
             "name": "Creature Difficulty Scaling",
             "author": "AgentKush",
-            "version": "2.2",
+            "version": "2.3",
             "compatibility": "All",
-            "description": "Dynamic creature level scaling for level 500 cap. Scales all spawn zones up to level 500, buffs creature stats by tier, and adds player-level-based scaling rules. v2.2: Significant tame and mount HP/damage/resistance buffs so pets can stand up to high-level hostile creatures. Full DLC coverage (New Frontiers, Styx, Dread). Compatible with JimK72 Level Cap 500 mod.",
+            "description": "Dynamic creature level scaling for level 500 cap. 161 spawn zones, 180 creatures, 5 scaling rules, full affliction system (poison, concussion, sprains, bee swarms, komodo bites), epic creatures with exotic loot, biome temperature modifiers, and autonomous spawns. v2.3: DarkAngel collab - adds 8 new data tables (73 entries) for afflictions, epic creatures, exotic loot, biome temps, prospect stats, and spawn zones.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Difficulty_Scaling.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/README.md",
             "files": {

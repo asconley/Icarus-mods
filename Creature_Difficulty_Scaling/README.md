@@ -2,12 +2,12 @@
 
 # Creature Difficulty Scaling
 
-[![Version](https://img.shields.io/badge/v2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Dynamic creature level scaling for level 500 cap. Scales all spawn zones up to level 500, buffs creature stats by tier, and adds player-level-based scaling rules
+Dynamic creature level scaling for level 500 cap. Scales all spawn zones up to level 500, buffs creature stats by tier, adds player-level-based scaling rules, and a full affliction system with poison, concussion, epic creatures, and biome temperature modifiers
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -17,7 +17,7 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 
 ## Description
 
-Massively overhauls creature difficulty to scale with high-level play. This mod transforms all 161 spawn zones across every biome to support creature levels up to 500, applies tiered stat buffs to 136 creatures, and adds player-level-based scaling rules for dynamic difficulty.
+Massively overhauls creature difficulty to scale with high-level play. This mod transforms all 161 spawn zones across every biome to support creature levels up to 500, applies tiered stat buffs to 136 creatures, adds player-level-based scaling rules for dynamic difficulty, and now includes a full affliction system, epic creatures, exotic loot, and biome temperature modifiers.
 
 Designed as the combat companion to level cap mods — without this, creatures cap at level 120 even when players can reach 500.
 
@@ -68,12 +68,81 @@ Dynamic scaling rules that scale creature stats based on nearby player level:
 | Medium Predator | 47 | Bears, Jaguars, Scorpions, Landsharks, Crocodiles |
 | Boss | 28 | Mammoths, Polar Bear Boss, Sandworms, Rock Golem |
 
+### 4. Affliction System (22 chances + 8 afflictions + 6 modifiers)
+Creatures now inflict meaningful status effects during combat:
+
+| Affliction | Chance | Duration | Effect |
+|-----------|--------|----------|--------|
+| Caveworm Poison | 100% | 40s | Poison damage over time |
+| Concussion (Contusion) | 35% | 2400s | From heavy hits (buffalo, etc.) |
+| Food Poisoning | 50% | 900s | From contaminated sources |
+| Dysentery | 25% | 900s | From dirty water |
+| Swamp Parasites | 25% | 600s | Swamp biome hazard |
+| Frostnip Escalation | 50% | — | Cold exposure chains |
+| Heatstroke Escalation | 50% | — | Heat exposure chains |
+| Deep Wound Escalation | 15% | 2400s | Severe bleed progression |
+
+**Stat Afflictions:**
+
+| Affliction | Duration | Notes |
+|-----------|----------|-------|
+| Poison | 65s | General creature poison |
+| Poison Sting | 35s | Insect/scorpion stings |
+| Poison Sting (Stackable) | 20s | Stacks from swarm attacks |
+| Komodo Bite | 2000s | Long-lasting infection |
+| Bee Swarm | 20s | Bee hive defense |
+| Sprain | 15s | Fall/impact injury |
+| Exotic Debuff | 2500s | Exotic creature encounter |
+| Red Exotic Debuff | 2800s | Red exotic creature encounter |
+
+**Modifier States:**
+
+| Modifier | Effect |
+|---------|--------|
+| Broken Leg | -50% movement speed, -20% stamina regen |
+| Spore Poison | -20% movement speed |
+| Sandworm Poison | -35% movement speed |
+| Enraged (NPC) | +75 HP, +15% move speed (creature buff) |
+| Splint / Workshop Splint | +10% / +20% fall damage resistance |
+
+### 5. Epic Creatures & Exotic Loot
+4 new epic creature types with custom loot tables:
+
+| Type | Description |
+|------|------------|
+| Exotic Infused | Exotic-enhanced creatures |
+| Red Exotic Infused | Rare red exotic variant |
+| Larger Creature | Oversized creature spawns |
+| Hunting Slugs | Aggressive slug encounters |
+
+**Exotic Creature Loot Drops:**
+- Leather (5-30), Fur (5-20), Bone (4-16), Meta Resource (6-30)
+- 1% chance for Pyritic Crust (Purple Exotic) — rare drop
+
+### 6. Biome Temperature Modifiers (19 biomes)
+Custom temperature curves per time of day across all biomes: Conifer, Arctic, Desert, RiverLands, Desert Canyons, Southern Glacier, and all Styx/Prometheus/Elysium zones.
+
+### 7. Prospect Difficulty Stats (6 entries)
+Dynamic creature difficulty and NPC spawn rate scaling per prospect difficulty level:
+
+| Setting | Effect |
+|---------|--------|
+| Easy Creatures | Reduced creature stats |
+| NPC Increase Easy/Medium/Hard | Scaled NPC spawn rates |
+| Hard + Spawn Rates | Maximum NPC density |
+| Recon Creatures | Scouting encounter tuning |
+
+### 8. Autonomous Spawns (6 zones)
+New autonomous spawn sources: Caveworm Spawners, Swamp Gas Flyers, Lava Flyers, Spiders, Wild Beehive Trees, NPC Outposts.
+
 ## Technical Details
 
 - Modifies **161 spawn zones** in D_AISpawnZones (all biomes, all maps)
 - Modifies **180 creature entries** in D_AIGrowth (full vanilla + DLC coverage — New Frontiers, Styx, Dread)
 - Adds **5 scaling rules** to D_ScalingRules
-- **v2.2:** Explicitly buffs 6 tames and 16 mounts (previously untouched) so pets can survive high-level hostile creatures
+- **v2.2:** Explicitly buffs 6 tames and 16 mounts so pets can survive high-level hostile creatures
+- **v2.3:** Adds **22 affliction chances**, **8 stat afflictions**, **6 modifier states**, **4 epic creatures**, **2 exotic loot tables**, **19 biome temp modifiers**, **6 prospect stats**, **6 autonomous spawns**
+- 11 data tables modified across 419 total entries
 - All stat buffs are percentage-based, stacking with existing creature stats
 - Spawn zone scaling preserves relative difficulty progression between zones
 - Compatible with any level cap mod (optimized for 500 cap)
@@ -96,6 +165,20 @@ Dynamic scaling rules that scale creature stats based on nearby player level:
 4. **Recommended:** Also install JimK72's Level Cap 500 mod for full experience
 
 ## Changelog
+
+### v2.3 — Affliction System & Epic Creatures (DarkAngel Collab)
+
+Adds a full affliction/status effect system to creature combat, plus epic creatures, exotic loot, biome temperatures, and autonomous spawns. Credit to DarkAngel for contributing the affliction system, biome temps, and epic creature additions.
+
+**New tables added:**
+- **Affliction Chances (22):** Poison, concussion, frostbite, heatstroke, dysentery, wound escalation, swamp parasites, caveworm poison, and more — creatures now inflict meaningful status effects
+- **Stat Afflictions (8):** Poison (65s), Poison Sting (35s), Komodo Bite (2000s), Bee Swarm (20s), Sprain (15s), Exotic Debuffs
+- **Modifier States (6):** Broken Leg (-50% speed), Spore/Sandworm Poison (movement debuffs), Enraged NPC buff (+75 HP, +15% speed), Splints
+- **Epic Creatures (4):** Exotic Infused, Red Exotic Infused, Larger Creature, Hunting Slugs
+- **Exotic Loot (2):** Leather, Fur, Bone, Meta Resource drops + 1% Pyritic Crust (Purple Exotic) rare drop
+- **Biome Temperatures (19):** Custom day/night temperature curves for all biomes
+- **Prospect Stats (6):** Per-difficulty creature scaling and NPC spawn rate modifiers
+- **Autonomous Spawns (6):** Caveworm Spawners, Swamp Gas Flyers, Lava Flyers, Spiders, Wild Beehives, NPC Outposts
 
 ### v2.2 — Tame & Mount Survival Pass
 
