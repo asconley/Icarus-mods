@@ -35,16 +35,17 @@ jobs:
         id: find-mods
         run: |
           if [ -n "${{ github.event.inputs.mod_folder }}" ]; then
-            # Manual trigger with specific folder
-            FILES=$(find "${{ github.event.inputs.mod_folder }}" -name "*.EXMOD" 2>/dev/null | tr '\n' ' ')
+            SEARCH_PATH="${{ github.event.inputs.mod_folder }}"
           else
-            # Auto trigger - find all EXMOD files
-            FILES=$(find . -name "*.EXMOD" -not -path "./.github/*" | tr '\n' ' ')
+            SEARCH_PATH="."
           fi
+
+          # Find both EXMOD and EXMODZ files
+          FILES=$(find "$SEARCH_PATH" \( -name "*.EXMOD" -o -name "*.EXMODZ" \) -not -path "./.github/*" 2>/dev/null | sort | tr '\n' ' ')
           echo "files=$FILES" >> $GITHUB_OUTPUT
           echo "Found mod files: $FILES"
 
-      - name: Validate EXMOD files
+      - name: Validate mod files
         id: validate
         run: |
           RESULTS=""
