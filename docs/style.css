@@ -65,16 +65,16 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     pointer-events: none;
 }
 
-/* Nebula glows */
+/* Nebula glows — pre-blurred via radial-gradient (no filter:blur for perf) */
 .nebula {
     position: fixed;
     border-radius: 50%;
-    filter: blur(120px);
     pointer-events: none;
     z-index: 0;
+    will-change: transform;
 }
-.nebula-1 { top: -10%; left: -5%; width: 600px; height: 600px; background: radial-gradient(circle, rgba(var(--accent-rgb), 0.06), transparent 70%); }
-.nebula-2 { top: 40%; right: -10%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(var(--accent-rgb), 0.03), transparent 70%); }
+.nebula-1 { top: -10%; left: -5%; width: 800px; height: 800px; background: radial-gradient(circle, rgba(var(--accent-rgb), 0.06) 0%, rgba(var(--accent-rgb), 0.02) 40%, transparent 70%); }
+.nebula-2 { top: 40%; right: -10%; width: 700px; height: 700px; background: radial-gradient(circle, rgba(var(--accent-rgb), 0.03) 0%, rgba(var(--accent-rgb), 0.01) 40%, transparent 70%); }
 
 /* --- 4. SCROLL ANIMATIONS --- */
 .reveal {
@@ -204,7 +204,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     border-radius: var(--radius-sm);
     font-weight: 600;
     font-size: 0.95rem;
-    transition: all 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s, border-color 0.3s;
     position: relative;
     overflow: hidden;
 }
@@ -317,7 +317,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     color: var(--text-secondary);
     font-size: 0.78rem;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: border-color 0.2s, color 0.2s, background 0.2s;
     white-space: nowrap;
 }
 .chip:hover {
@@ -367,8 +367,9 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     border: 1px solid var(--accent-border);
     border-radius: var(--radius-md);
     padding: 22px;
-    transition: all 0.1s ease-out;
+    transition: transform 0.1s ease-out, border-color 0.1s ease-out, box-shadow 0.1s ease-out;
     overflow: hidden;
+    will-change: transform;
 }
 .featured-card::before {
     content: '';
@@ -402,7 +403,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     border-radius: var(--radius-tag);
     border: 1px solid var(--accent-border);
     color: var(--text-secondary);
-    transition: all 0.2s;
+    transition: border-color 0.2s, color 0.2s;
 }
 .featured-card .mod-actions a:hover {
     border-color: var(--accent);
@@ -478,8 +479,9 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     padding: 22px;
-    transition: all 0.1s ease-out;
+    transition: transform 0.1s ease-out, border-color 0.1s ease-out, box-shadow 0.1s ease-out;
     overflow: hidden;
+    will-change: transform;
 }
 
 /* Orange glow line at top */
@@ -544,7 +546,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     border-radius: var(--radius-tag);
     border: 1px solid var(--border);
     color: var(--text-secondary);
-    transition: all 0.2s;
+    transition: border-color 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
     font-weight: 500;
 }
 .mod-card .mod-actions a:hover {
@@ -582,7 +584,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     cursor: pointer;
     opacity: 0;
     transform: translateY(20px);
-    transition: all 0.3s;
+    transition: opacity 0.3s, transform 0.3s, background 0.3s, color 0.3s;
     pointer-events: none;
 }
 .back-to-top.show { opacity: 1; transform: translateY(0); pointer-events: all; }
