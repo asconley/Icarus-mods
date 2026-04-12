@@ -343,16 +343,20 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
 .featured-header {
     display: flex;
     align-items: center;
-    gap: 12px;
+    justify-content: center;
+    gap: 14px;
     margin-bottom: 20px;
 }
 .featured-header h2 {
     font-family: 'Orbitron', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: var(--accent);
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+.featured-star {
+    font-size: 1.6rem;
 }
 
 .featured-grid {
