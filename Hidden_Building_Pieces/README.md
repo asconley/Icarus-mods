@@ -113,6 +113,7 @@ Unlocks **60 hidden building item types** across multiple material sets includin
 ---
 
 ## Changelog
+- **v3.0.1** - Crash fix: Fixed 60 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 
 ### v3.0.0 (2026-03-10)
 - **MAJOR UPDATE:** Removed 44 items now included in the base game (Kepler/Week 222 update)

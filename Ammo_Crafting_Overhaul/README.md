@@ -53,6 +53,7 @@ Switch between ammo types at Machining Bench/Fabricator:
 Import `Ammo_Crafting_Overhaul.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
+- **v1.1** - Crash fix: Fixed 48 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 
 - **v1.0** - Initial release, 50 recipes
 ---

@@ -47,6 +47,7 @@ All 206 food items display their Chef's Backpack boosted stats and a Food Rating
 4. Enable and launch Icarus
 
 ## Changelog
+- **v2.8** - Crash fix: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 
 ### v2.6
 - Added 15 new DLC food/drink/tonic modifier states with Chef's Backpack bonus descriptions

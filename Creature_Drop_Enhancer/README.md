@@ -43,6 +43,7 @@ All meat processing outputs doubled — more raw meat from specialty cuts, more 
 Import `Creature_Drop_Enhancer.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
+- **v1.1** - Crash fix: Fixed 209 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 
 - **v1.0** - Initial release, 62 recipes doubled
 ---

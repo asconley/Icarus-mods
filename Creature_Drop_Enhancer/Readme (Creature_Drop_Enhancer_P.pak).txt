@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Doubles all creature butchery and skinning outputs across 62 recipes. 2x leather, bone, fur, meat, and rare drops from every creature.
 
 
+
+Ver 1.1
+Crash fix: Fixed 209 recipe outputs from D_ItemsStatic to D_ItemTemplate. Prevents EXCEPTION_ACCESS_VIOLATION when opening crafting stations.
 Ver 1.0
 Initial release, 62 recipes doubled.
 

@@ -42,6 +42,7 @@ No blueprint unlock required - available immediately at the Fabricator.
 3. Enable and merge mods as usual
 
 ## Changelog
+- **v2.1** - Crash fix: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 
 ### v2.0
 - Added no-decay (Decay_NoDecay) so goggles persist indefinitely

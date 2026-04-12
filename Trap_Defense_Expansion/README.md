@@ -61,6 +61,7 @@ Alternative recipes without needing rare creature drops:
 Import `Trap_Defense_Expansion.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
+- **v1.2** - Crash fix: Fixed 23 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 
 - **v1.1** - Complete rebuild using real game items. 23 recipes including 4 previously uncraftable elemental landmines.
 - **v1.0** - Initial release (placeholder items, replaced in v1.1)

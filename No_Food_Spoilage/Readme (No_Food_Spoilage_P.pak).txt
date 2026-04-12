@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Prevents all food spoilage. Items decay/despawn but never convert to spoiled versions. Covers all 33 decayable entries. Includes composter recipes so raw meats, fish, dairy, vegetables, and fruits can still be manually composted.
 
 
+
+Ver 2.1
+Crash fix: Fixed 134 recipe outputs from D_ItemsStatic to D_ItemTemplate. Prevents EXCEPTION_ACCESS_VIOLATION when opening crafting stations.
 Ver 2.0
 Fixed composter bug - Composter recipes were missing from the EXMOD, causing items to sit in the composter without processing ([#2](https://github.com/AgentKush/Icarus-mods/issues/2)). Added 134 composter recipes to D_ProcessorRecipes for manual composting.
 

@@ -51,7 +51,7 @@
         {
             "name": "Night Vision Goggles",
             "author": "AgentKush",
-            "version": "2.0",
+            "version": "2.1",
             "compatibility": "All",
             "description": "Unlocks the hidden Night Vision system built into Icarus. Craft Night Vision Goggles at Fabricator, Manufacturer, or Machining Bench. Toggle with secondary action. v2.0: Added no-decay, durability (10,000 HP), reduced weight, added Machining Bench crafting.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png",
@@ -63,7 +63,7 @@
         {
             "name": "Hidden Building Pieces",
             "author": "AgentKush",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "compatibility": "All",
             "description": "Unlocks 60 hidden building pieces including diagonal curved sets, frames, corner stairs, roof peaks, and half-pieces for 11+ materials. v3.0.0: Removed 44 items now in base game (Kepler update).",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
@@ -171,7 +171,7 @@
         {
             "name": "Turret Variants",
             "author": "AgentKush",
-            "version": "3.0",
+            "version": "3.1",
             "compatibility": "All",
             "description": "15 new automated turret variants with unique firing patterns. v3.0: LOS fix PAK (turrets stop shooting through walls) + proper ammo matching (arrows, bolts, javelins, stones, biofuel). Includes Crossbow, Bow, Sniper, Assault Rifle, SMG, Javelin, Flamethrower, Rock, Minigun, Rifle, Pistol, Shotblaster, Rapid Crossbow, Storm, and Heavy Sniper turrets.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
@@ -184,7 +184,7 @@
         {
             "name": "Trap and Defense Expansion",
             "author": "AgentKush",
-            "version": "1.1",
+            "version": "1.2",
             "compatibility": "All",
             "description": "23 defense recipes using real game items. Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) previously enemy-only. Cheap early-game fortifications, traps without rare drops, and batch packs.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Trap_Defense_Expansion.png",
@@ -196,7 +196,7 @@
         {
             "name": "Ammo Crafting Overhaul",
             "author": "AgentKush",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
             "description": "50 new ammo recipes. 50x batch crafting for all arrow and bullet types including special ammo. Plus 8 ammo conversion recipes.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Ammo_Crafting_Overhaul.png",
@@ -232,7 +232,7 @@
         {
             "name": "Tier Upgrade Forge",
             "author": "AgentKush",
-            "version": "1.1",
+            "version": "1.2",
             "compatibility": "All",
             "description": "Upgrade tools and weapons to the next tier without rebuilding from scratch. 26 upgrade recipes across pickaxes, axes, knives, spears, swords, and bows.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Tier_Upgrade_Forge.png",
@@ -256,7 +256,7 @@
         {
             "name": "No Food Spoilage",
             "author": "AgentKush",
-            "version": "2.0",
+            "version": "2.1",
             "compatibility": "All",
             "description": "Prevents all food spoilage. 33 decayable entries + 134 composter recipes. Items decay/despawn normally but never convert to spoiled versions. v2.0: Added 134 composter recipes for raw meats, fish, dairy, vegetables, fruits, and bait.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/No_Food_Spoilage.png",
@@ -304,7 +304,7 @@
         {
             "name": "Creature Drop Enhancer",
             "author": "AgentKush",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
             "description": "Doubles all creature butchery and skinning outputs across 62 recipes. 2x leather, bone, fur, meat, and rare drops.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Drop_Enhancer.png",
@@ -352,7 +352,7 @@
         {
             "name": "Culinex Food Boost Fix",
             "author": "AgentKush",
-            "version": "2.7",
+            "version": "2.8",
             "compatibility": "All",
             "description": "Fixes Chef's Backpack 25% food effectiveness boost for all 206 foods/drinks/tonics. Adds Raw Meat to Chicken butchery recipe. v2.7: Updated chicken recipe for current game format.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Culinex_Food_Boost_Fix.png",

@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Unlocks 60 hidden building pieces including diagonal curved sets, frames, corner stairs, roof peaks, and half-pieces for 11+ materials. v3.0.0: Removed 44 items now in base game (Kepler update).
 
 
+
+Ver 3.0.1
+Crash fix: Fixed 60 recipe outputs from D_ItemsStatic to D_ItemTemplate. Prevents EXCEPTION_ACCESS_VIOLATION when opening crafting stations.
 Ver 3.0.0
 MAJOR UPDATE: Removed 44 items now included in the base game (Kepler/Week 222 update). Removed: Diagonal Sets, Wall Curved, Roof Curved Angles, Advanced Beam Sets, and Diagonal Curved Wall Angles for ClayBrick, Concrete, Glass, Scoria, ScoriaBrick, Stone, StoneBrick.
 

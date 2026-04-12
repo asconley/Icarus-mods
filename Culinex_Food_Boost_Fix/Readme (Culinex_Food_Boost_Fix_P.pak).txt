@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Fixes Culinex (Chef's Backpack) 25% food effectiveness boost to apply to all cooked foods. Also adds raw chicken to the butchery bench.
 
 
+
+Ver 2.8
+Crash fix: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate. Prevents EXCEPTION_ACCESS_VIOLATION when opening crafting stations.
 Ver 2.6
 Added 15 new DLC food/drink/tonic modifier states with Chef's Backpack bonus descriptions. Added: AntiRadiation_Tonic, Antibiotic_Tonic, Antiparasitic_Tonic, Antipoison_Tonic, Ape_Tonic, Blood_Thinning_Tonic, Cooked_Banana, Drink_Cooling, Drink_Energised, Drink_Heated, Drink_Water, Healt..
 

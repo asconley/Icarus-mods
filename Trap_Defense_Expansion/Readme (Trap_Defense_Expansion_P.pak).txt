@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Defense expansion with 23 recipes using real game items. Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) that were previously enemy-only. Adds cheaper fortifications, early-game traps, hedgehog defenses without rare drops, and batch crafting packs.
 
 
+
+Ver 1.2
+Crash fix: Fixed 23 recipe outputs from D_ItemsStatic to D_ItemTemplate. Prevents EXCEPTION_ACCESS_VIOLATION when opening crafting stations.
 Ver 1.1
 Complete rebuild using real game items. 23 recipes including 4 previously uncraftable elemental landmines.
 

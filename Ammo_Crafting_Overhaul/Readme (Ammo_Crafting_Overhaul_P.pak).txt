@@ -12,6 +12,9 @@ Mod Type: EXMOD
 48 new ammo recipes. 50x batch crafting for all arrow and bullet types including special ammo. Plus 8 ammo conversion recipes.
 
 
+
+Ver 1.1
+Crash fix: Fixed 48 recipe outputs from D_ItemsStatic to D_ItemTemplate. Prevents EXCEPTION_ACCESS_VIOLATION when opening crafting stations.
 Ver 1.0
 Initial release, 50 recipes.
 

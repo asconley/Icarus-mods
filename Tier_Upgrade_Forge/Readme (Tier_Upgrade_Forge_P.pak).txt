@@ -12,6 +12,9 @@ Mod Type: EXMOD
 26 tool/weapon upgrade recipes. Trade up through tiers at Anvil Bench: pickaxes, axes, knives, bows, crossbows + specialty paths.
 
 
+
+Ver 1.2
+Crash fix: Fixed 26 recipe outputs from D_ItemsStatic to D_ItemTemplate. Prevents EXCEPTION_ACCESS_VIOLATION when opening crafting stations.
 Ver 1.1
 Rebuilt with correct game item names (knives not swords, proper tool names). 26 recipes.
 

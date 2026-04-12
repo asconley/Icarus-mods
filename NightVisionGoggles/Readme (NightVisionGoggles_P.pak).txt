@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Adds craftable Night Vision Goggles with improved durability, no decay, lighter weight. Craft at Fabricator, Manufacturer, or Machining Bench.
 
 
+
+Ver 2.1
+Crash fix: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate. Prevents EXCEPTION_ACCESS_VIOLATION when opening crafting stations.
 Ver 2.0
 Added no-decay (Decay_NoDecay) so goggles persist indefinitely. Added durability (Destroyed_Tool, 10,000 HP). Reduced weight from 5.0 to 1.0. Added Machining Bench as crafting station. Updated description.
 

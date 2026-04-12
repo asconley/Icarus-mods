@@ -1,8 +1,8 @@
 {
   "name": "Ammo Crafting Overhaul",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "48 new ammo recipes.",
+  "version": "1.1",
+  "description": "v1.1: Fixed 48 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | 48 new ammo recipes.",
   "fileName": "Ammo_Crafting_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Ammo_Crafting_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/README.md",
@@ -51,7 +51,7 @@
             {
               "Element": {
                 "RowName": "Stone_Arrow",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -102,7 +102,7 @@
             {
               "Element": {
                 "RowName": "Bone_Arrow",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -157,7 +157,7 @@
             {
               "Element": {
                 "RowName": "Flint_Arrow",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -212,7 +212,7 @@
             {
               "Element": {
                 "RowName": "Steel_Arrow",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -263,7 +263,7 @@
             {
               "Element": {
                 "RowName": "Aluminium_Arrow",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -314,7 +314,7 @@
             {
               "Element": {
                 "RowName": "Carbon_Arrow",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -354,7 +354,7 @@
             {
               "Element": {
                 "RowName": "Composite_Arrow",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -401,7 +401,7 @@
             {
               "Element": {
                 "RowName": "Titanium_Arrow",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -456,7 +456,7 @@
             {
               "Element": {
                 "RowName": "Obsidian_Arrow",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -514,7 +514,7 @@
             {
               "Element": {
                 "RowName": "Cold_Steel_Arrow",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -568,7 +568,7 @@
             {
               "Element": {
                 "RowName": "Iron_Wood_Arrow",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -605,7 +605,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Casing",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -649,7 +649,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Pistol_Round",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -693,7 +693,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Rifle_Round",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -737,7 +737,7 @@
             {
               "Element": {
                 "RowName": "Ammo_AssaultRifle_Round",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -795,7 +795,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Shell_Buckshot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -846,7 +846,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Shell_Slug",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -894,7 +894,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Crude",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -938,7 +938,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Pistol_Round_Explosive",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -982,7 +982,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Rifle_Round_Explosive",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1026,7 +1026,7 @@
             {
               "Element": {
                 "RowName": "Ammo_AssaultRifle_Round_Explosive",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1070,7 +1070,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Shell_Explosive",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1114,7 +1114,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Pistol_Round_Incendiary",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1158,7 +1158,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Rifle_Round_Incendiary",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1202,7 +1202,7 @@
             {
               "Element": {
                 "RowName": "Ammo_AssaultRifle_Round_Incendiary",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1246,7 +1246,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Pistol_Round_Armor_Piercing",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1290,7 +1290,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Rifle_Round_Armor_Piercing",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1334,7 +1334,7 @@
             {
               "Element": {
                 "RowName": "Ammo_AssaultRifle_Round_Armor_Piercing",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1378,7 +1378,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Pistol_Round_Obsidian",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1422,7 +1422,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Rifle_Round_Obsidian",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1466,7 +1466,7 @@
             {
               "Element": {
                 "RowName": "Ammo_AssaultRifle_Round_Obsidian",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1510,7 +1510,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Shell_Obsidian",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1554,7 +1554,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Pistol_Round_Cold_Steel",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1598,7 +1598,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Rifle_Round_Cold_Steel",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1642,7 +1642,7 @@
             {
               "Element": {
                 "RowName": "Ammo_AssaultRifle_Round_Cold_Steel",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1686,7 +1686,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Shell_ColdSteel",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1730,7 +1730,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Pistol_Round_Iron_Wood",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1774,7 +1774,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Rifle_Round_Iron_Wood",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1818,7 +1818,7 @@
             {
               "Element": {
                 "RowName": "Ammo_AssaultRifle_Round_Iron_Wood",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1862,7 +1862,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Shell_Ironwood",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -1899,7 +1899,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Rifle_Round",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1936,7 +1936,7 @@
             {
               "Element": {
                 "RowName": "Ammo_AssaultRifle_Round",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1973,7 +1973,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Pistol_Round",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -2010,7 +2010,7 @@
             {
               "Element": {
                 "RowName": "Ammo_AssaultRifle_Round",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -2047,7 +2047,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Pistol_Round",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -2084,7 +2084,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Rifle_Round",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -2121,7 +2121,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Shell_Slug",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 5,
               "DynamicProperties": [],
@@ -2158,7 +2158,7 @@
             {
               "Element": {
                 "RowName": "Ammo_Shell_Buckshot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],

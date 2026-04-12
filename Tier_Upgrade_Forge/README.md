@@ -51,6 +51,7 @@ Each recipe takes the previous tier weapon + upgrade materials. Your old tool be
 Import `Tier_Upgrade_Forge.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
+- **v1.2** - Crash fix: Fixed 26 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 
 - **v1.1** - Rebuilt with correct game item names (knives not swords, proper tool names). 26 recipes.
 - **v1.0** - Initial release (had invalid weapon references)

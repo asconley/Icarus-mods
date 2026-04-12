@@ -1,8 +1,8 @@
 {
   "name": "Night Vision Goggles",
   "author": "AgentKush",
-  "version": "2.0",
-  "description": "Adds craftable Night Vision Goggles with improved durability, no decay, lighter weight.",
+  "version": "2.1",
+  "description": "v2.1: Fixed 0 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Adds craftable Night Vision Goggles with improved durability, no decay, lighter weight.",
   "fileName": "NightVisionGoggles",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/README.md",
@@ -124,7 +124,7 @@
             {
               "Element": {
                 "RowName": "NightVision",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
               "DynamicProperties": [],

@@ -1,8 +1,8 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "3.0.0",
-  "description": "Unlocks 60 hidden building pieces including diagonal curved sets, frames, corner stairs, roof peaks, and half-pieces for 11+ materials.",
+  "version": "3.0.1",
+  "description": "v3.0.1: Fixed 0 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Unlocks 60 hidden building pieces including diagonal curved sets, frames, corner stairs, roof peaks, and half-pieces for 11+ materials.",
   "fileName": "Hidden_Building_Pieces",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
@@ -5931,7 +5931,7 @@
             {
               "Element": {
                 "RowName": "Ice_Floor_TrapDoor",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -5978,7 +5978,7 @@
             {
               "Element": {
                 "RowName": "TemperedGlass_Diagonal_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6015,7 +6015,7 @@
             {
               "Element": {
                 "RowName": "Wood_Diagonal_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6052,7 +6052,7 @@
             {
               "Element": {
                 "RowName": "ClayBrick_Diagonal_Curved_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6097,7 +6097,7 @@
             {
               "Element": {
                 "RowName": "Concrete_Diagonal_Curved_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6144,7 +6144,7 @@
             {
               "Element": {
                 "RowName": "Glass_Diagonal_Curved_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6188,7 +6188,7 @@
             {
               "Element": {
                 "RowName": "ScoriaBrick_Diagonal_Curved_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6236,7 +6236,7 @@
             {
               "Element": {
                 "RowName": "Scoria_Diagonal_Curved_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6280,7 +6280,7 @@
             {
               "Element": {
                 "RowName": "StoneBrick_Diagonal_Curved_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6328,7 +6328,7 @@
             {
               "Element": {
                 "RowName": "Stone_Diagonal_Curved_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6375,7 +6375,7 @@
             {
               "Element": {
                 "RowName": "TemperedGlass_Diagonal_Curved_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6412,7 +6412,7 @@
             {
               "Element": {
                 "RowName": "Wood_Diagonal_Curved_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6456,7 +6456,7 @@
             {
               "Element": {
                 "RowName": "TemperedGlass_Wall_Curved",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6493,7 +6493,7 @@
             {
               "Element": {
                 "RowName": "Wood_Wall_Curved",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6537,7 +6537,7 @@
             {
               "Element": {
                 "RowName": "TemperedGlass_Diagonal_Curved_Wall_Angles",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6574,7 +6574,7 @@
             {
               "Element": {
                 "RowName": "Wood_Diagonal_Curved_Wall_Angles",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6618,7 +6618,7 @@
             {
               "Element": {
                 "RowName": "TemperedGlass_Roof_CurvedAngles",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6655,7 +6655,7 @@
             {
               "Element": {
                 "RowName": "Wood_Roof_CurvedAngles",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6699,7 +6699,7 @@
             {
               "Element": {
                 "RowName": "TemperedGlass_Advanced_Beam_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6736,7 +6736,7 @@
             {
               "Element": {
                 "RowName": "Wood_Diagonal_Advanced_Beam_Set",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6795,7 +6795,7 @@
             {
               "Element": {
                 "RowName": "ClayBrick_Frame",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6846,7 +6846,7 @@
             {
               "Element": {
                 "RowName": "Glass_Frame",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6897,7 +6897,7 @@
             {
               "Element": {
                 "RowName": "Ice_Frame",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -6956,7 +6956,7 @@
             {
               "Element": {
                 "RowName": "ScoriaBrick_Frame",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7015,7 +7015,7 @@
             {
               "Element": {
                 "RowName": "StoneBrick_Frame",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7066,7 +7066,7 @@
             {
               "Element": {
                 "RowName": "TemperedGlass_Frame",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7125,7 +7125,7 @@
             {
               "Element": {
                 "RowName": "ClayBrick_CornerStairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7176,7 +7176,7 @@
             {
               "Element": {
                 "RowName": "Ice_CornerStairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7217,7 +7217,7 @@
             {
               "Element": {
                 "RowName": "Limestone_CornerStairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7261,7 +7261,7 @@
             {
               "Element": {
                 "RowName": "MetalGrate_CornerStairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7309,7 +7309,7 @@
             {
               "Element": {
                 "RowName": "ReinforcedWood_CornerStairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7357,7 +7357,7 @@
             {
               "Element": {
                 "RowName": "Sandworm_CornerStairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7409,7 +7409,7 @@
             {
               "Element": {
                 "RowName": "ScoriaBrick_CornerStairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7463,7 +7463,7 @@
             {
               "Element": {
                 "RowName": "Scoria_CornerStairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7512,7 +7512,7 @@
             {
               "Element": {
                 "RowName": "StoneBrick_CornerStairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7556,7 +7556,7 @@
             {
               "Element": {
                 "RowName": "Thatch_CornerStairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7614,7 +7614,7 @@
             {
               "Element": {
                 "RowName": "Wood_CornerStairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7651,7 +7651,7 @@
             {
               "Element": {
                 "RowName": "Glass_Stairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7682,7 +7682,7 @@
             {
               "Element": {
                 "RowName": "Ice_Stairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7736,7 +7736,7 @@
             {
               "Element": {
                 "RowName": "TemperedGlass_Stairs",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7778,7 +7778,7 @@
             {
               "Element": {
                 "RowName": "Clay_Brick_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7812,7 +7812,7 @@
             {
               "Element": {
                 "RowName": "Concrete_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7849,7 +7849,7 @@
             {
               "Element": {
                 "RowName": "Glass_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7879,7 +7879,7 @@
             {
               "Element": {
                 "RowName": "Ice_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7913,7 +7913,7 @@
             {
               "Element": {
                 "RowName": "Iron_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7947,7 +7947,7 @@
             {
               "Element": {
                 "RowName": "Limestone_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -7985,7 +7985,7 @@
             {
               "Element": {
                 "RowName": "ReinforcedWood_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8027,7 +8027,7 @@
             {
               "Element": {
                 "RowName": "Sandworm_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8069,7 +8069,7 @@
             {
               "Element": {
                 "RowName": "Scoria_Brick_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8103,7 +8103,7 @@
             {
               "Element": {
                 "RowName": "Scoria_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8145,7 +8145,7 @@
             {
               "Element": {
                 "RowName": "Stone_Brick_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8187,7 +8187,7 @@
             {
               "Element": {
                 "RowName": "Stone_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8224,7 +8224,7 @@
             {
               "Element": {
                 "RowName": "TemperedGlass_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8261,7 +8261,7 @@
             {
               "Element": {
                 "RowName": "Thatch_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8299,7 +8299,7 @@
             {
               "Element": {
                 "RowName": "Wood_RoofPeak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8327,7 +8327,7 @@
             {
               "Element": {
                 "RowName": "Ice_Roof_Half_Pitch",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8372,7 +8372,7 @@
             {
               "Element": {
                 "RowName": "Metal_Grate_Halfpiece",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8412,7 +8412,7 @@
             {
               "Element": {
                 "RowName": "Iron_Frame",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8463,7 +8463,7 @@
             {
               "Element": {
                 "RowName": "ReinforcedWood_Frame",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }
@@ -8514,7 +8514,7 @@
             {
               "Element": {
                 "RowName": "Sandworm_Frame",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
             }

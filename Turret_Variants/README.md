@@ -76,6 +76,7 @@ Copy `Turret_Variants_LOS_Fix_P.pak` to:
 - **Flamethrower** — 40-shot stream, area denial. Range: 15m. Ammo: Biofuel
 
 ## Version History
+- **v3.1** - Crash fix: Fixed 15 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 - **v3.0** — LOS fix PAK (turrets stop shooting through walls) + proper ammo type matching (arrows, bolts, javelins, stones, biofuel) + updated descriptions
 - **v2.5** — Hammer repairable turrets (custom Turret_Repairable D_Durable entry)
 - **v2.4** — Fixed backwards shooting (_C class suffix fix) + reduced yaw/pitch extents

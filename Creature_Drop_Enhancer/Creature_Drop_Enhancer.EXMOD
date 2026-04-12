@@ -1,8 +1,8 @@
 {
   "name": "Creature Drop Enhancer",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "Doubles all creature butchery and skinning outputs across 62 recipes.",
+  "version": "1.1",
+  "description": "v1.1: Fixed 209 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Doubles all creature butchery and skinning outputs across 62 recipes.",
   "fileName": "Creature_Drop_Enhancer",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Drop_Enhancer.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer/README.md",
@@ -18,7 +18,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -27,7 +27,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -36,7 +36,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 36,
               "DynamicProperties": [],
@@ -45,7 +45,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 30,
               "DynamicProperties": [],
@@ -54,7 +54,7 @@
             {
               "Element": {
                 "RowName": "Gamey_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -69,7 +69,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -78,7 +78,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 80,
               "DynamicProperties": [],
@@ -87,7 +87,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 30,
               "DynamicProperties": [],
@@ -96,7 +96,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -105,7 +105,7 @@
             {
               "Element": {
                 "RowName": "Gamey_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -120,7 +120,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -129,7 +129,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -138,7 +138,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 16,
               "DynamicProperties": [],
@@ -147,7 +147,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -156,7 +156,7 @@
             {
               "Element": {
                 "RowName": "Soft_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -171,7 +171,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -180,7 +180,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -189,7 +189,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 12,
               "DynamicProperties": [],
@@ -198,7 +198,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -207,7 +207,7 @@
             {
               "Element": {
                 "RowName": "Stringy_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -222,7 +222,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -231,7 +231,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 80,
               "DynamicProperties": [],
@@ -240,7 +240,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 16,
               "DynamicProperties": [],
@@ -249,7 +249,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -258,7 +258,7 @@
             {
               "Element": {
                 "RowName": "Stringy_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -273,7 +273,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -282,7 +282,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -291,7 +291,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 36,
               "DynamicProperties": [],
@@ -300,7 +300,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 30,
               "DynamicProperties": [],
@@ -309,7 +309,7 @@
             {
               "Element": {
                 "RowName": "Gamey_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -324,7 +324,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -333,7 +333,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -342,7 +342,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 12,
               "DynamicProperties": [],
@@ -351,7 +351,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -360,7 +360,7 @@
             {
               "Element": {
                 "RowName": "Stringy_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -375,7 +375,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -384,7 +384,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -393,7 +393,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 12,
               "DynamicProperties": [],
@@ -402,7 +402,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -411,7 +411,7 @@
             {
               "Element": {
                 "RowName": "Stringy_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -426,7 +426,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -435,7 +435,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -444,7 +444,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 16,
               "DynamicProperties": [],
@@ -453,7 +453,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -462,7 +462,7 @@
             {
               "Element": {
                 "RowName": "Stringy_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -477,7 +477,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -486,7 +486,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 80,
               "DynamicProperties": [],
@@ -495,7 +495,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 16,
               "DynamicProperties": [],
@@ -504,7 +504,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -513,7 +513,7 @@
             {
               "Element": {
                 "RowName": "Stringy_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -528,7 +528,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -537,7 +537,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -546,7 +546,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 12,
               "DynamicProperties": [],
@@ -555,7 +555,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -564,7 +564,7 @@
             {
               "Element": {
                 "RowName": "Stringy_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -579,7 +579,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -588,7 +588,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -597,7 +597,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 12,
               "DynamicProperties": [],
@@ -606,7 +606,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -615,7 +615,7 @@
             {
               "Element": {
                 "RowName": "Soft_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -630,7 +630,7 @@
             {
               "Element": {
                 "RowName": "White_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -639,7 +639,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -648,7 +648,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -657,7 +657,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 16,
               "DynamicProperties": [],
@@ -672,7 +672,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -681,7 +681,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -690,7 +690,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 12,
               "DynamicProperties": [],
@@ -699,7 +699,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -708,7 +708,7 @@
             {
               "Element": {
                 "RowName": "Soft_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -723,7 +723,7 @@
             {
               "Element": {
                 "RowName": "Raw_Bacon",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -732,7 +732,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 80,
               "DynamicProperties": [],
@@ -741,7 +741,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 16,
               "DynamicProperties": [],
@@ -750,7 +750,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -759,7 +759,7 @@
             {
               "Element": {
                 "RowName": "White_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -774,7 +774,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -783,7 +783,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -792,7 +792,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 32,
               "DynamicProperties": [],
@@ -801,7 +801,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 30,
               "DynamicProperties": [],
@@ -810,7 +810,7 @@
             {
               "Element": {
                 "RowName": "Gamey_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -825,7 +825,7 @@
             {
               "Element": {
                 "RowName": "Soft_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -834,7 +834,7 @@
             {
               "Element": {
                 "RowName": "Scorpion_Pincer",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -843,7 +843,7 @@
             {
               "Element": {
                 "RowName": "Scorpion_Tail",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -852,7 +852,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -861,7 +861,7 @@
             {
               "Element": {
                 "RowName": "Stringy_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -876,7 +876,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -885,7 +885,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 80,
               "DynamicProperties": [],
@@ -894,7 +894,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 30,
               "DynamicProperties": [],
@@ -903,7 +903,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -912,7 +912,7 @@
             {
               "Element": {
                 "RowName": "Gamey_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -927,7 +927,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -936,7 +936,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 80,
               "DynamicProperties": [],
@@ -945,7 +945,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -954,7 +954,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -963,7 +963,7 @@
             {
               "Element": {
                 "RowName": "Fatty_TBone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -978,7 +978,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -987,7 +987,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -996,7 +996,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 56,
               "DynamicProperties": [],
@@ -1005,7 +1005,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 30,
               "DynamicProperties": [],
@@ -1014,7 +1014,7 @@
             {
               "Element": {
                 "RowName": "Gamey_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1029,7 +1029,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1038,7 +1038,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 80,
               "DynamicProperties": [],
@@ -1047,7 +1047,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 30,
               "DynamicProperties": [],
@@ -1056,7 +1056,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -1065,7 +1065,7 @@
             {
               "Element": {
                 "RowName": "Gamey_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1080,7 +1080,7 @@
             {
               "Element": {
                 "RowName": "White_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1089,7 +1089,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1098,7 +1098,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1107,7 +1107,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 16,
               "DynamicProperties": [],
@@ -1122,7 +1122,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1131,7 +1131,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 32,
               "DynamicProperties": [],
@@ -1140,7 +1140,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 24,
               "DynamicProperties": [],
@@ -1149,7 +1149,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1164,7 +1164,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1173,7 +1173,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 32,
               "DynamicProperties": [],
@@ -1182,7 +1182,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 24,
               "DynamicProperties": [],
@@ -1191,7 +1191,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1206,7 +1206,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1215,7 +1215,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -1224,7 +1224,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -1233,7 +1233,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 30,
               "DynamicProperties": [],
@@ -1242,7 +1242,7 @@
             {
               "Element": {
                 "RowName": "Gamey_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1251,7 +1251,7 @@
             {
               "Element": {
                 "RowName": "Polarbear_Pelt",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 16,
               "DynamicProperties": [],
@@ -1266,7 +1266,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1275,7 +1275,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1284,7 +1284,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -1293,7 +1293,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -1302,7 +1302,7 @@
             {
               "Element": {
                 "RowName": "Soft_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1317,7 +1317,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1326,7 +1326,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1335,7 +1335,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -1344,7 +1344,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -1353,7 +1353,7 @@
             {
               "Element": {
                 "RowName": "Soft_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1368,7 +1368,7 @@
             {
               "Element": {
                 "RowName": "White_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1377,7 +1377,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1386,7 +1386,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1395,7 +1395,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1410,7 +1410,7 @@
             {
               "Element": {
                 "RowName": "White_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1419,7 +1419,7 @@
             {
               "Element": {
                 "RowName": "Egg",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -1428,7 +1428,7 @@
             {
               "Element": {
                 "RowName": "Raw_Chicken",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -1443,7 +1443,7 @@
             {
               "Element": {
                 "RowName": "White_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1452,7 +1452,7 @@
             {
               "Element": {
                 "RowName": "Egg",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -1461,7 +1461,7 @@
             {
               "Element": {
                 "RowName": "Raw_Chicken",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -1476,7 +1476,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1485,7 +1485,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 12,
               "DynamicProperties": [],
@@ -1494,7 +1494,7 @@
             {
               "Element": {
                 "RowName": "Soft_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1503,7 +1503,7 @@
             {
               "Element": {
                 "RowName": "Wool",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -1518,7 +1518,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1527,7 +1527,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 16,
               "DynamicProperties": [],
@@ -1536,7 +1536,7 @@
             {
               "Element": {
                 "RowName": "Soft_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1545,7 +1545,7 @@
             {
               "Element": {
                 "RowName": "Wool",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -1560,7 +1560,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1569,7 +1569,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1578,7 +1578,7 @@
             {
               "Element": {
                 "RowName": "Soft_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1587,7 +1587,7 @@
             {
               "Element": {
                 "RowName": "Wool",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1602,7 +1602,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -1611,7 +1611,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 16,
               "DynamicProperties": [],
@@ -1620,7 +1620,7 @@
             {
               "Element": {
                 "RowName": "White_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 16,
               "DynamicProperties": [],
@@ -1629,7 +1629,7 @@
             {
               "Element": {
                 "RowName": "Raw_Bacon",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 40,
               "DynamicProperties": [],
@@ -1644,7 +1644,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1653,7 +1653,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1662,7 +1662,7 @@
             {
               "Element": {
                 "RowName": "Leather",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1671,7 +1671,7 @@
             {
               "Element": {
                 "RowName": "Soft_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1686,7 +1686,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1695,7 +1695,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1704,7 +1704,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1719,7 +1719,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1728,7 +1728,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1737,7 +1737,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1752,7 +1752,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1761,7 +1761,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1770,7 +1770,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1785,7 +1785,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1794,7 +1794,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1803,7 +1803,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1818,7 +1818,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1827,7 +1827,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1836,7 +1836,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1851,7 +1851,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1860,7 +1860,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1869,7 +1869,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1884,7 +1884,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1893,7 +1893,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1902,7 +1902,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1917,7 +1917,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1926,7 +1926,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1935,7 +1935,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1950,7 +1950,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -1959,7 +1959,7 @@
             {
               "Element": {
                 "RowName": "Bone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -1968,7 +1968,7 @@
             {
               "Element": {
                 "RowName": "Fur",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -1983,7 +1983,7 @@
             {
               "Element": {
                 "RowName": "Animal_Fat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -1998,7 +1998,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -2013,7 +2013,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -2028,7 +2028,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -2043,7 +2043,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -2058,7 +2058,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
               "DynamicProperties": [],
@@ -2073,7 +2073,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -2088,7 +2088,7 @@
             {
               "Element": {
                 "RowName": "Raw_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 6,
               "DynamicProperties": [],
@@ -2103,7 +2103,7 @@
             {
               "Element": {
                 "RowName": "Raw_Bacon",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 60,
               "DynamicProperties": [],
@@ -2118,7 +2118,7 @@
             {
               "Element": {
                 "RowName": "Raw_Chicken",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -2127,7 +2127,7 @@
             {
               "Element": {
                 "RowName": "White_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -2142,7 +2142,7 @@
             {
               "Element": {
                 "RowName": "Raw_Chicken",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
               "DynamicProperties": [],
@@ -2151,7 +2151,7 @@
             {
               "Element": {
                 "RowName": "Stringy_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -2166,7 +2166,7 @@
             {
               "Element": {
                 "RowName": "Soft_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -2181,7 +2181,7 @@
             {
               "Element": {
                 "RowName": "Gamey_Meat",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -2196,7 +2196,7 @@
             {
               "Element": {
                 "RowName": "Fatty_TBone",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -2211,7 +2211,7 @@
             {
               "Element": {
                 "RowName": "Giant_Steak",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -2226,7 +2226,7 @@
             {
               "Element": {
                 "RowName": "Fish_Chunks",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -2241,7 +2241,7 @@
             {
               "Element": {
                 "RowName": "Saltwater_Fish_Fillet",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -2256,7 +2256,7 @@
             {
               "Element": {
                 "RowName": "Freshwater_Fish_Fillet",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
