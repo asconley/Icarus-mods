@@ -326,7 +326,7 @@
             }
         },
         {
-            "name": "ModularAfflictionAdjuster",
+            "name": "Modular Affliction Adjuster",
             "author": "AgentKush",
             "version": "2.0",
             "compatibility": "All",
@@ -338,7 +338,7 @@
             }
         },
         {
-            "name": "ModularBuffEnhancer",
+            "name": "Modular Buff Enhancer",
             "author": "AgentKush",
             "version": "1.1",
             "compatibility": "All",
@@ -362,7 +362,7 @@
             }
         },
         {
-            "name": "MoreEyeColours",
+            "name": "More Eye Colours",
             "author": "AgentKush",
             "version": "2.0",
             "compatibility": "All",
@@ -411,7 +411,7 @@
             }
         },
         {
-            "name": "Agents Optimization Mod",
+            "name": "Performance Optimizer",
             "author": "AgentKush",
             "version": "2.2",
             "compatibility": "All",
@@ -433,6 +433,18 @@
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/AbsoluteChaos_Core/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/AbsoluteChaos_Core/AbsoluteChaos_Core.EXMODZ"
+            }
+        },
+        {
+            "name": "Bestiary Fix",
+            "author": "AgentKush",
+            "version": "1.1",
+            "compatibility": "All",
+            "description": "Adds missing Kill/Skin experience events for Sulfur Worm, Sulfur Vesper, Cave Worm, and Vesper to help Bestiary tracking.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Bestiary_Fix.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Bestiary_Fix/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Bestiary_Fix/Bestiary_Fix.EXMODZ"
             }
         },
         {

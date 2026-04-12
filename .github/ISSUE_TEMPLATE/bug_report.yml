@@ -9,11 +9,13 @@ body:
     attributes:
       label: Which mod?
       options:
+        - Absolute Chaos - Core
         - Agent's BioLab
         - Agents Individual Item Kits
         - Always Show Buildings On Map
         - Ammo Crafting Overhaul
         - Armor Set Bonuses Enhanced
+        - Bestiary Fix
         - Creature Difficulty Scaling
         - Creature Drop Enhancer
         - Culinex Food Boost Fix
