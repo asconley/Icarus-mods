@@ -216,6 +216,18 @@
             background: #2ea043;
         }
 
+        .mod-card .mod-meta {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 8px;
+            font-size: 0.8rem;
+            color: #8b949e;
+        }
+
+        .mod-card .download-count {
+            color: #58a6ff;
+        }
+
         footer {
             text-align: center;
             padding: 40px 20px;
@@ -302,10 +314,13 @@ function renderCatalog(mods) {
             <div class="mod-grid">`;
 
         catMods.forEach(mod => {
-            html += `<div class="mod-card" data-name="${mod.name.toLowerCase()}" data-desc="${mod.description.toLowerCase()}">
+            html += `<div class="mod-card" data-name="${mod.name.toLowerCase()}" data-desc="${mod.description.toLowerCase()}" data-folder="${mod.folder}">
                 <div class="mod-header">
                     <span class="mod-name">${mod.name}</span>
                     <span class="mod-version">v${mod.version}</span>
+                </div>
+                <div class="mod-meta">
+                    <span class="download-count" id="dl-${mod.folder}"></span>
                 </div>
                 <div class="mod-desc">${mod.description}</div>
                 <div class="mod-actions">
@@ -338,6 +353,58 @@ function filterMods(query) {
 }
 
 renderCatalog(MODS);
+
+// Fetch download counts from GitHub Releases API
+async function fetchDownloads() {
+    let page = 1;
+    let allReleases = [];
+    // Paginate through all releases (100 per page max)
+    while (true) {
+        try {
+            const res = await fetch(`https://api.github.com/repos/AgentKush/Icarus-mods/releases?per_page=100&page=${page}`);
+            if (!res.ok) break;
+            const data = await res.json();
+            if (data.length === 0) break;
+            allReleases = allReleases.concat(data);
+            if (data.length < 100) break;
+            page++;
+        } catch (e) { break; }
+    }
+
+    // Sum downloads per folder (a mod can have multiple releases/versions)
+    const counts = {};
+    let totalDownloads = 0;
+    allReleases.forEach(release => {
+        const tag = release.tag_name || '';
+        // Tags are like "ModFolder-v1.0"
+        const folder = tag.replace(/-v[\d.]+$/, '');
+        const dlCount = (release.assets || []).reduce((sum, a) => sum + (a.download_count || 0), 0);
+        counts[folder] = (counts[folder] || 0) + dlCount;
+        totalDownloads += dlCount;
+    });
+
+    // Update each mod card
+    MODS.forEach(mod => {
+        const el = document.getElementById('dl-' + mod.folder);
+        if (el) {
+            const count = counts[mod.folder] || 0;
+            el.textContent = count > 0 ? count.toLocaleString() + ' downloads' : '';
+        }
+    });
+
+    // Update total downloads in stats if we have any
+    if (totalDownloads > 0) {
+        const statsDiv = document.querySelector('.stats');
+        if (statsDiv) {
+            const dlStat = document.createElement('div');
+            dlStat.className = 'stat-box';
+            dlStat.innerHTML = `<div class="number">${totalDownloads.toLocaleString()}</div><div class="label">Downloads</div>`;
+            statsDiv.insertBefore(dlStat, statsDiv.children[1]);
+        }
+    }
+}
+
+fetchDownloads();
 </script>
 
 </body>
