@@ -2,12 +2,12 @@
 
 # Workshop Recyclers
 
-[![Version](https://img.shields.io/badge/v5.4-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v5.5-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 4,454 recipes: 1,948 deconstruct + 335 recycle + 2,168 incinerate + 3 crafting
+Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 5,340 recipes: 1,948 deconstruct + 335 recycle + 3,054 incinerate + 3 crafting
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -48,16 +48,16 @@ Introduces two dedicated recycling machines that enable full material recovery f
 | Function | Instantly destroys any item — no output |
 | Power | Electric (2,500 mW) |
 | Unlock | Requires Organic Recycler talent |
-| Recipes | 2,168 items |
+| Recipes | 3,054 items (every item in the game) |
 
 ### Combined Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Recipes | 4,454 |
+| Total Recipes | 5,340 |
 | Workshop Items Recyclable | 335 |
 | Crafted Items Deconstructable | 1,948 |
-| Incineratable Items | 2,168 |
+| Incineratable Items | 3,054 |
 
 ## Currency Returns
 
@@ -102,9 +102,9 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 4,473 |
+| Total Modifications | 5,350 |
 | New Machines | 3 |
-| Recipe Entries | 4,454 |
+| Recipe Entries | 5,340 |
 
 ### Files Modified
 - `Crafting-D_RecipeSets.json` (3 entries)
@@ -113,7 +113,7 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 - `Items-D_ItemsStatic.json` (3 entries)
 - `Items-D_ItemTemplate.json` (3 entries)
 - `Talents-D_Talents.json` (3 entries)
-- `Crafting-D_ProcessorRecipes.json` (4,454 entries)
+- `Crafting-D_ProcessorRecipes.json` (5,340 entries)
 - `Traits-D_Durable.json` (1 entry)
 
 
@@ -134,8 +134,9 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 - Enables inventory cleanup with zero loss
 - Strategic for managing Workshop credit and exotic economy
 - Useful for recovering materials from outdated gear
-- **Incinerator** instantly destroys any item — good for clearing junk inventory
+- **Incinerator** instantly destroys any item — covers every item in the game (3,054 recipes)
 - Incinerator crafted at Fabricator (20 Steel Ingot, 10 Electronics, 40 Concrete Mix, 4 Glass)
+- Note: FPS may dip while the Incinerator UI is open due to recipe count — returns to normal when closed
 - All three machines repairable with Electronics + any hammer
 
 ## Compatibility
@@ -151,6 +152,7 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 
 | Version | Changes |
 |---------|---------|
+| 5.5 | **Full incinerate coverage.** Added 886 missing recipes (frozen wood, frozen ore, raw ores, food, building pieces, seeds). 3,054 total incinerate recipes — every item in the game. Fixed icon (invalid asset path), mesh (non-existent reference), and tech tree overlap. |
 | 5.4 | **Incinerator fixes:** Fixed missing tech tree icon (invalid asset path), fixed placement issue (non-existent mesh reference), repositioned tech tree nodes to avoid overlap with vanilla T4 Fabricator items. |
 | 5.3 | **New machine: Incinerator.** Electric-powered processor that instantly destroys any item with no output. 2,168 incinerate recipes covering every recyclable/deconstructable item. Crafted at Fabricator/Manufacturer. Unlocked after Organic Recycler. |
 | 5.2 | **Crash fix:** Fixed EXCEPTION_ACCESS_VIOLATION crash caused by incorrect DataTableName references in v5.1 recipes. All recipe outputs now correctly use D_ItemTemplate, all inputs use D_ItemsStatic. Fixed 130 input RowName mismatches from new recipes using D_ItemTemplate names instead of D_ItemsStatic names. |

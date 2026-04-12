@@ -1,6 +1,6 @@
 Workshop_Recyclers_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.4
+Mod Version: 5.5
 
 Author: AgentKush
 
@@ -9,11 +9,11 @@ Compatible with Icarus: All Weeks
 Mod Type: EXMOD
 
 ## Description:
-Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 2,285 recycle/deconstruct recipes + bulk incinerate recipes. 100% material returns on recycling.
+Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 3,054 incinerate recipes + 2,285 recycle/deconstruct recipes. 100% material returns on recycling.
 
 
-Ver 5.4
-Incinerator fixes: Fixed missing tech tree icon (invalid asset path), fixed placement crash (non-existent mesh reference), repositioned tech tree nodes to avoid overlap with vanilla T4 Fabricator items.
+Ver 5.5
+Added 886 missing incinerate recipes (frozen wood, frozen ore, raw ores, food, building pieces, seeds, etc). 3,054 total incinerate recipes now cover every item in the game. Fixed icon (was using non-existent asset), fixed mesh (Mesh_Electric_Furnace doesn't exist), repositioned tech tree to avoid vanilla overlap.
 
 Ver 5.3
 New machine: Incinerator. Electric-powered processor that instantly destroys any item with no output. 2,168 incinerate recipes covering every recyclable/deconstructable item. Crafted at Fabricator/..
@@ -62,7 +62,7 @@ Major cleanup - fixed 63 broken item references, removed 136 invalid recipes.
   Items-D_ItemTemplate        (3 entries)
   Talents-D_Talents           (3 entries)
   Traits-D_Durable            (1 entries)
-  Crafting-D_ProcessorRecipes (4454 entries)
+  Crafting-D_ProcessorRecipes (5340 entries)
   Inventory-D_InventoryInfo   (1 entries)
   Traits-D_Inventory          (1 entries)
 
