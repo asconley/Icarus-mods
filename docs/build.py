@@ -134,6 +134,18 @@ def main():
 
     print(f"Site updated: {total_mods} mods, {total_entries:,} entries, {total_recipes:,} recipes")
 
+    # Safety check: scan all site files for null bytes
+    corrupted = []
+    for pattern in ["docs/*.js", "docs/*.css", "docs/*.html"]:
+        for path in glob.glob(pattern):
+            with open(path, "rb") as f:
+                if b"\x00" in f.read():
+                    corrupted.append(path)
+    if corrupted:
+        print(f"\nERROR: Null bytes detected in: {', '.join(corrupted)}")
+        print("This will break the site. Strip null bytes before deploying.")
+        raise SystemExit(1)
+
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,55 @@
+name: Validate Site Files
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+
+  pull_request:
+    paths:
+      - 'docs/**'
+
+  workflow_dispatch:
+
+jobs:
+  validate-site:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Check for null bytes in site files
+        run: |
+          echo "Scanning docs/ for null bytes..."
+          FAILED=0
+          for f in docs/*.js docs/*.css docs/*.html docs/*.json; do
+            [ -f "$f" ] || continue
+            if grep -Pq '\x00' "$f"; then
+              echo "::error file=$f::Null bytes detected in $f — this will break the site"
+              FAILED=1
+            else
+              echo "  OK: $f"
+            fi
+          done
+          if [ "$FAILED" -eq 1 ]; then
+            echo ""
+            echo "::error::Site files contain null bytes. Strip them before pushing."
+            exit 1
+          fi
+          echo "All site files clean."
+
+      - name: Validate JavaScript syntax
+        run: |
+          echo "Checking JS syntax..."
+          for f in docs/*.js; do
+            [ -f "$f" ] || continue
+            if node --check "$f" 2>&1; then
+              echo "  OK: $f"
+            else
+              echo "::error file=$f::JavaScript syntax error in $f"
+              exit 1
+            fi
+          done
+          echo "All JS files valid."
