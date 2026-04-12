@@ -247,12 +247,12 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     position: sticky;
     top: 0;
     z-index: 100;
-    background: rgba(11, 16, 24, 0.88);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    background: rgba(11, 16, 24, 0.95);
     border-bottom: 1px solid var(--border);
     padding: 12px 20px;
     transition: box-shadow 0.3s;
+    will-change: box-shadow;
+    contain: layout style;
 }
 .nav-bar.scrolled {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);

@@ -14,9 +14,9 @@ const rgbAccent = accentMatch || '232, 123, 53';
 
 function initParticles() {
     width = canvas.width = window.innerWidth;
-    height = canvas.height = document.documentElement.scrollHeight;
+    height = canvas.height = window.innerHeight;
     particles = [];
-    const count = Math.min(120, Math.floor(width * window.innerHeight / 8000));
+    const count = Math.min(120, Math.floor(width * height / 8000));
     for (let i = 0; i < count; i++) {
         particles.push({
             x: Math.random() * width,
@@ -121,11 +121,18 @@ function observeRevealElements(){
     document.querySelectorAll('.reveal:not(.visible)').forEach(el=>o.observe(el));
 }
 
-// --- NAVBAR + BACK TO TOP ---
-window.addEventListener('scroll',()=>{
-    document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>100);
-    document.getElementById('backToTop').classList.toggle('show',window.scrollY>400);
-});
+// --- NAVBAR + BACK TO TOP (throttled for perf) ---
+let scrollTicking = false;
+window.addEventListener('scroll', () => {
+    if (!scrollTicking) {
+        scrollTicking = true;
+        requestAnimationFrame(() => {
+            document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 100);
+            document.getElementById('backToTop').classList.toggle('show', window.scrollY > 400);
+            scrollTicking = false;
+        });
+    }
+}, { passive: true });
 
 // --- DOWNLOAD COUNTS ---
 async function fetchDownloads(){
