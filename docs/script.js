@@ -822,11 +822,12 @@ function renderChangelog() {
                 const name = r.name || r.tag_name || 'Update';
                 const date = new Date(r.published_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
                 const body = (r.body || '').split('\n').filter(l => l.trim()).slice(0, 3).join(' ').substring(0, 150);
-                html += `<div class="changelog-item"><div class="changelog-date">${date}</div><div class="changelog-name">${name}</div>${body ? `<div class="changelog-body">${body}${body.length >= 150 ? '...' : ''}</div>` : ''}</div>`;
+                html += `<div class="changelog-item reveal"><div class="changelog-date">${date}</div><div class="changelog-name">${name}</div>${body ? `<div class="changelog-body">${body}${body.length >= 150 ? '...' : ''}</div>` : ''}</div>`;
             });
             html += '</div>';
             section.innerHTML = html;
             section.classList.remove('hidden');
+            observeRevealElements();
         })
         .catch(() => { section.classList.add('hidden'); });
 }
@@ -846,7 +847,7 @@ renderCatalog = function(mods) {
         html += `<div class="category reveal" data-category="${cat}"><div class="category-header"><div class="category-icon">${icon}</div><h2>${cat}</h2><span class="category-count">${cm.length} mods</span></div><div class="mod-grid stagger-children">`;
         cm.forEach(m => {
             const faved = isFavorited(m.folder);
-            html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}"><div class="mod-header"><span class="mod-name">${m.name}</span><div class="mod-header-actions"><button class="fav-btn${faved ? ' favorited' : ''}" data-folder="${m.folder}" onclick="toggleFavorite('${m.folder}',event)" aria-label="${faved ? 'Remove from favorites' : 'Add to favorites'}">♥</button><button class="compare-btn${compareList.includes(m.folder) ? ' comparing' : ''}" data-folder="${m.folder}" onclick="toggleCompare('${m.folder}',event)" aria-label="Compare">⚖</button><span class="mod-version">v${m.version}</span></div></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}"></span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
+            html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}"><div class="mod-header"><span class="mod-name">${m.name}</span><div class="mod-header-actions"><button class="fav-btn${faved ? ' favorited' : ''}" data-folder="${m.folder}" onclick="toggleFavorite('${m.folder}',event)" aria-label="${faved ? 'Remove from favorites' : 'Add to favorites'}" data-tooltip="${faved ? 'Unfavorite' : 'Favorite'}">♥</button><button class="compare-btn${compareList.includes(m.folder) ? ' comparing' : ''}" data-folder="${m.folder}" onclick="toggleCompare('${m.folder}',event)" aria-label="Compare mods" data-tooltip="Compare">⚖</button><span class="mod-version">v${m.version}</span></div></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}"></span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
         });
         html += '</div></div>';
     }
@@ -876,7 +877,7 @@ applySort = function(sortBy) {
     let html = '<div class="mod-grid stagger-children">';
     sorted.forEach(m => {
         const faved = isFavorited(m.folder);
-        html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}"><div class="mod-header"><span class="mod-name">${m.name}</span><div class="mod-header-actions"><button class="fav-btn${faved ? ' favorited' : ''}" data-folder="${m.folder}" onclick="toggleFavorite('${m.folder}',event)" aria-label="${faved ? 'Remove from favorites' : 'Add to favorites'}">♥</button><button class="compare-btn${compareList.includes(m.folder) ? ' comparing' : ''}" data-folder="${m.folder}" onclick="toggleCompare('${m.folder}',event)" aria-label="Compare">⚖</button><span class="mod-version">v${m.version}</span></div></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}">${downloadCounts[m.folder] ? downloadCounts[m.folder].toLocaleString() + ' downloads' : ''}</span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
+        html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}"><div class="mod-header"><span class="mod-name">${m.name}</span><div class="mod-header-actions"><button class="fav-btn${faved ? ' favorited' : ''}" data-folder="${m.folder}" onclick="toggleFavorite('${m.folder}',event)" aria-label="${faved ? 'Remove from favorites' : 'Add to favorites'}" data-tooltip="${faved ? 'Unfavorite' : 'Favorite'}">♥</button><button class="compare-btn${compareList.includes(m.folder) ? ' comparing' : ''}" data-folder="${m.folder}" onclick="toggleCompare('${m.folder}',event)" aria-label="Compare mods" data-tooltip="Compare">⚖</button><span class="mod-version">v${m.version}</span></div></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}">${downloadCounts[m.folder] ? downloadCounts[m.folder].toLocaleString() + ' downloads' : ''}</span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
     });
     html += '</div>';
     catalog.innerHTML = html;
