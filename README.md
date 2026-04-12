@@ -2,14 +2,14 @@
 
 # AgentKush's Icarus Mods
 
-[![Mods](https://img.shields.io/badge/37_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
-[![Data Entries](https://img.shields.io/badge/34%2C000%2B-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
-[![Recipes](https://img.shields.io/badge/15%2C000%2B-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
+[![Mods](https://img.shields.io/badge/38_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
+[![Data Entries](https://img.shields.io/badge/36%2C000%2B-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
+[![Recipes](https://img.shields.io/badge/17%2C000%2B-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
 
 A comprehensive mod collection for **[Icarus: First Cohort](https://store.steampowered.com/app/1149460/Icarus/)**
 
-Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)** · All DLCs compatible
+**[🌐 Browse All Mods on the Web](https://agentkush.github.io/Icarus-mods/)** · Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)** · All DLCs compatible
 
 ---
 
@@ -26,12 +26,12 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 | Mod | Ver | Description |
 |-----|:---:|-------------|
 | [🧬 Agent's BioLab](Agents_BioLab) | `2.0` | All 11 Bio Lab Legendary weapons in the Workshop — includes Sandwyrm Chainsaw |
-| [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `3.1` | 2,052 individual item kits with fair pricing (5–300 credits) |
-| [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.2` | 2 recycling machines · 2,285 recipes · Returns processed materials (ingots, refined) — no raw ores or pyritic crusts |
+| [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `4.0` | 2,056 individual item kits with real game icons in a single workshop tab |
+| [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.3` | 2 recycling machines + Incinerator · Returns processed materials (ingots, refined) — no raw ores or pyritic crusts |
 | [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.2` | 10 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |
 | [👁️ Night Vision Goggles](NightVisionGoggles) | `2.0` | Unlocks hidden NV system — craft at Fabricator/Manufacturer/Machining Bench. No decay, durable, lightweight |
 | [☀️ Solar Panel Expansion](Solar_Panel_Expansion) | `1.0` | All solar panels and solar backpack in a dedicated Workshop tab with fair pricing |
-| [⛏️ Deployable Deep Ore Nodes](Deployable_Deep_Ore_Nodes) | `1.0` | 23 ore types as placeable deep mining nodes · Kit system · Workshop + Fabricator crafting · Infinite extraction |
+| [⛏️ Passive Ore Extractor Drills](Passive_Ore_Extractor_Drills) | `7.6` | 23 passive ore extractors — one per ore type · Workshop purchasable · Infinite extraction |
 
 ## 🏗️ Building & Construction
 
@@ -100,15 +100,16 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 | [💊 Modular Buff Enhancer](Modular_Buff_Enhancer) | `1.1` | 83 core buffs + 156 food buffs all boosted ~50% — stacks with talent bonuses |
 | [🍳 Culinex Food Boost Fix](Culinex_Food_Boost_Fix) | `2.7` | Fixes Chef's Backpack 25% food boost on all 206 foods/drinks/tonics · Adds chicken butchery recipe |
 | [👁️ More Eye Colours](MoreEyeColours) | `2.0` | 60 new eye colors (69 total) — greens, ambers, purples, blues, greys, reds, and exotics |
+| [🐛 Bestiary Fix](Bestiary_Fix) | `1.1` | Adds missing Kill/Skin experience events for Sulfur Worm, Sulfur Vesper, Cave Worm, and Vesper |
 
 ## ☠️ Difficulty & Performance
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `1.18` | 🔧 The full brutal experience — alpha hunters · limited lives (permadeath on Hard) · enraged creatures · survival pressure · creature scaling · deadly storms · wall-attack fix · 167 prospects |
-| [🦁 Creature Difficulty Scaling](Creature_Difficulty_Scaling) | `2.2` | Full creature overhaul for level 500 cap · 161 spawn zones rescaled · 136 creatures buffed by tier |
+| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `2.0` | 🔧 4-tier creature scaling, 37 alpha hunters, rebalanced horde waves, deadly weather, harsher survival |
+| [🦁 Creature Difficulty Scaling](Creature_Difficulty_Scaling) | `2.3` | Full creature overhaul for level 500 cap · 161 spawn zones rescaled · 136 creatures buffed by tier |
 | [📈 Performance Optimizer](Performance_Optimizer) | `2.2` | 🔧 FPS boost via PAK engine overrides (foliage/shadows/fog/LOD) + data table changes |
-| [🌀 Absolute Chaos - Core](Absolute_Chaos_Core) | `0.2.1` | Total overhaul mod — early access core module |
+| [🌀 Absolute Chaos - Core](AbsoluteChaos_Core) | `0.2.1` | Total overhaul mod — early access core module |
 
 ---
 
