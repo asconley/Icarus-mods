@@ -1,6 +1,6 @@
 Workshop_Recyclers_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.3
+Mod Version: 5.4
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 2,285 recycle/deconstruct recipes + bulk incinerate recipes. 100% material returns on recycling.
 
+
+Ver 5.4
+Incinerator fixes: Fixed missing tech tree icon (invalid asset path), fixed placement crash (non-existent mesh reference), repositioned tech tree nodes to avoid overlap with vanilla T4 Fabricator items.
 
 Ver 5.3
 New machine: Incinerator. Electric-powered processor that instantly destroys any item with no output. 2,168 incinerate recipes covering every recyclable/deconstructable item. Crafted at Fabricator/..
