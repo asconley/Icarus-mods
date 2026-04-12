@@ -2,12 +2,12 @@
 
 # Exotic Economy Overhaul
 
-[![Version](https://img.shields.io/badge/v2.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Full currency exchange system with 52 recipes. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches. Covers all Dangerous Horizons materials
+Full currency exchange system with 66 recipes. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches. Covers all Dangerous Horizons materials
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -17,26 +17,28 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 
 ## Overview
 
-52 currency exchange and bulk processing recipes. Convert between Ren, Exotics, Biomass, Uranium and all ingots. Bulk smelt ores at the correct furnaces, Chemistry Bench, and Glassworking Bench — recipes auto-appear alongside the base game smelting recipes.
+66 currency exchange and bulk processing recipes. Convert between Ren, Exotics, Biomass, Uranium and all ingots. Every material you can buy can also be sold back. Bulk smelt ores at the correct furnaces, Chemistry Bench, and Glassworking Bench — recipes auto-appear alongside the base game smelting recipes.
 
 ## Features
 
-### Buy Materials with Ren — 19 recipes (Machining Bench + Fabricator)
+### Buy Materials with Ren — 21 recipes (Machining Bench + Fabricator)
 
 Spend workshop currency on crafting materials:
 
-- Steel Ingot, Titanium Ingot, Platinum Ingot, Refined Gold
+- Refined Metal, Refined Copper, Steel Ingot, Titanium Ingot, Platinum Ingot, Refined Gold
 - Electronics, Carbon Fiber, Composites, Epoxy
 - Gunpowder, Volatile Substance, Cold Steel Ingot
 - Cobalt Ingot, Lithium Refined, Ruby Shaped, Shaped Obsidian
 - Aluminium, Copper Wire, Glass, Concrete Mix
 
-### Sell Materials for Ren — 9 recipes (Machining Bench + Fabricator)
+### Sell Materials for Ren — 21 recipes (Machining Bench + Fabricator)
 
-Convert surplus materials back to workshop currency:
+Convert surplus materials back to workshop currency — every buyable material can be sold back:
 
-- Steel, Titanium, Platinum, Gold → Ren
+- Refined Metal, Refined Copper, Steel, Titanium, Platinum, Gold → Ren
 - Cobalt, Lithium, Ruby, Obsidian, Aluminium → Ren
+- Carbon Fiber, Composites, Electronics, Cold Steel → Ren
+- Copper Wire, Glass, Concrete Mix, Epoxy, Gunpowder, Volatile → Ren
 
 ### Exotic Processing — 3 recipes (Fabricator)
 
@@ -90,6 +92,7 @@ Import `Exotic_Economy_Overhaul.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
 
+- **v2.1** - Crash fix: All recipe outputs corrected from D_ItemsStatic to D_ItemTemplate (caused EXCEPTION_ACCESS_VIOLATION). Added 14 missing recipes: Refined Copper and Refined Metal buy recipes, plus sell-back recipes for all 12 materials that could previously only be bought. Every material now has both buy and sell. 66 total recipes.
 - **v2.0** - Complete rebuild. Fixed missing RequiredMillijoules on all recipes (root cause of mod being broken). Added 25 new recipes: 9 bulk ore smelting at correct furnaces/benches, Cobalt/Lithium/Ruby/Obsidian/Aluminium buy/sell, Uranium/Biomass to Ren, 3 new cross-conversions, Copper Wire/Glass/Concrete Mix purchases. 52 total recipes.
 - **v1.1** - Rebuilt with correct game item names. 27 recipes.
 - **v1.0** - Initial release (had invalid item references)

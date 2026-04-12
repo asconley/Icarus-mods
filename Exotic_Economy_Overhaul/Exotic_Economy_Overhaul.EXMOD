@@ -1,8 +1,8 @@
 {
   "name": "Exotic Economy Overhaul",
   "author": "AgentKush",
-  "version": "2.0",
-  "description": "Full currency exchange system with 52 recipes.",
+  "version": "2.1",
+  "description": "v2.1: Crash fix - all recipe outputs corrected from D_ItemsStatic to D_ItemTemplate. Added 14 missing buy/sell recipes (Refined Copper, Refined Metal, sell-back for all buyable materials). 66 total recipes. | Full currency exchange system. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches.",
   "fileName": "Exotic_Economy_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Exotic_Economy_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Exotic_Economy_Overhaul/README.md",
@@ -37,7 +37,7 @@
             {
               "Element": {
                 "RowName": "Steel_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -74,7 +74,7 @@
             {
               "Element": {
                 "RowName": "Titanium_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -111,7 +111,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 5,
               "DynamicProperties": [],
@@ -148,7 +148,7 @@
             {
               "Element": {
                 "RowName": "Refined_Gold",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 5,
               "DynamicProperties": [],
@@ -185,7 +185,7 @@
             {
               "Element": {
                 "RowName": "Electronics",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -222,7 +222,7 @@
             {
               "Element": {
                 "RowName": "Carbon_Fiber",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -259,7 +259,7 @@
             {
               "Element": {
                 "RowName": "Composites",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -296,7 +296,7 @@
             {
               "Element": {
                 "RowName": "Epoxy",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -333,7 +333,7 @@
             {
               "Element": {
                 "RowName": "Gunpowder",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,
               "DynamicProperties": [],
@@ -370,7 +370,7 @@
             {
               "Element": {
                 "RowName": "Volatile_Substance",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -407,7 +407,7 @@
             {
               "Element": {
                 "RowName": "Cold_Steel_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 5,
               "DynamicProperties": [],
@@ -444,7 +444,7 @@
             {
               "Element": {
                 "RowName": "Cobalt_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 5,
               "DynamicProperties": [],
@@ -481,7 +481,7 @@
             {
               "Element": {
                 "RowName": "Lithium_Refined",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 5,
               "DynamicProperties": [],
@@ -518,7 +518,7 @@
             {
               "Element": {
                 "RowName": "Ruby_Shaped",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 5,
               "DynamicProperties": [],
@@ -555,7 +555,7 @@
             {
               "Element": {
                 "RowName": "Shaped_Obsidian",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -592,7 +592,7 @@
             {
               "Element": {
                 "RowName": "Aluminium",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -629,7 +629,7 @@
             {
               "Element": {
                 "RowName": "Copper_Wire",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -666,7 +666,7 @@
             {
               "Element": {
                 "RowName": "Glass",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -703,7 +703,81 @@
             {
               "Element": {
                 "RowName": "Concrete_Mix",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 20,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Ren_To_Refined_Copper",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
                 "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 25
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Refined_Copper",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 20,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Ren_To_Refined_Metal",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 25
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Refined_Metal",
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 20,
               "DynamicProperties": [],
@@ -740,7 +814,7 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -777,7 +851,7 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -814,7 +888,7 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -851,7 +925,7 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -888,7 +962,7 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -925,7 +999,7 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -962,7 +1036,7 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -999,7 +1073,7 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -1036,9 +1110,453 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 100,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Refined_Copper_To_Ren",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Refined_Copper",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Refined_Metal_To_Ren",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Refined_Metal",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Carbon_Fiber_To_Ren",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Carbon_Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 20
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 100,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Composites_To_Ren",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Composites",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 20
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 100,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Electronics_To_Ren",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 20
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 100,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Cold_Steel_To_Ren",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Cold_Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 100,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Copper_Wire_To_Ren",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Copper_Wire",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Glass_To_Ren",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Glass",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Concrete_Mix_To_Ren",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Concrete_Mix",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Epoxy_To_Ren",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Gunpowder_To_Ren",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Gunpowder",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
+          }
+        },
+        {
+          "Name": "Volatile_To_Ren",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Volatile_Substance",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 20
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -1069,7 +1587,7 @@
             {
               "Element": {
                 "RowName": "Exotic_Red",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1102,7 +1620,7 @@
             {
               "Element": {
                 "RowName": "Condensed_Exotics",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 5,
               "DynamicProperties": [],
@@ -1135,7 +1653,7 @@
             {
               "Element": {
                 "RowName": "Exotic_Red",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -1168,7 +1686,7 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 200,
               "DynamicProperties": [],
@@ -1201,7 +1719,7 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -1234,7 +1752,7 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 150,
               "DynamicProperties": [],
@@ -1267,7 +1785,7 @@
             {
               "Element": {
                 "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 100,
               "DynamicProperties": [],
@@ -1304,7 +1822,7 @@
             {
               "Element": {
                 "RowName": "Steel_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 3,
               "DynamicProperties": [],
@@ -1341,7 +1859,7 @@
             {
               "Element": {
                 "RowName": "Titanium_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 3,
               "DynamicProperties": [],
@@ -1378,7 +1896,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -1415,7 +1933,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -1452,7 +1970,7 @@
             {
               "Element": {
                 "RowName": "Refined_Gold",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -1489,7 +2007,7 @@
             {
               "Element": {
                 "RowName": "Cobalt_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -1526,7 +2044,7 @@
             {
               "Element": {
                 "RowName": "Lithium_Refined",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -1563,7 +2081,7 @@
             {
               "Element": {
                 "RowName": "Cold_Steel_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 2,
               "DynamicProperties": [],
@@ -1604,7 +2122,7 @@
             {
               "Element": {
                 "RowName": "Refined_Metal",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1645,7 +2163,7 @@
             {
               "Element": {
                 "RowName": "Refined_Copper",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1682,7 +2200,7 @@
             {
               "Element": {
                 "RowName": "Refined_Gold",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1719,7 +2237,7 @@
             {
               "Element": {
                 "RowName": "Titanium_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1756,7 +2274,7 @@
             {
               "Element": {
                 "RowName": "Platinum_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1793,7 +2311,7 @@
             {
               "Element": {
                 "RowName": "Aluminium",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 15,
               "DynamicProperties": [],
@@ -1830,7 +2348,7 @@
             {
               "Element": {
                 "RowName": "Cobalt_Ingot",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1863,7 +2381,7 @@
             {
               "Element": {
                 "RowName": "Lithium_Refined",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
@@ -1896,7 +2414,7 @@
             {
               "Element": {
                 "RowName": "Ruby_Shaped",
-                "DataTableName": "D_ItemsStatic"
+                "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
               "DynamicProperties": [],
