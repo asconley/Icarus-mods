@@ -95,14 +95,18 @@ def main():
     with open("docs/index.html") as f:
         html = f.read()
 
-    # Replace MODS array
+    # Replace MODS array in script.js (where the data actually lives)
     mods_json = json.dumps(mods, ensure_ascii=True, separators=(",", ": "))
-    html = re.sub(
-        r"const MODS = \[.*?\];",
-        lambda m: f"const MODS = {mods_json};",
-        html,
+    with open("docs/script.js") as f:
+        js = f.read()
+    js = re.sub(
+        r"const MODS\s*=\s*\[.*?\];",
+        lambda m: f"const MODS={mods_json};",
+        js,
         flags=re.DOTALL
     )
+    with open("docs/script.js", "w") as f:
+        f.write(js)
 
     # Update stats in hero section
     # Match from <div class="stats"> through to the hero-links div (exclusive)
