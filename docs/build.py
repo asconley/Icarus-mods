@@ -99,7 +99,7 @@ def main():
     mods_json = json.dumps(mods, ensure_ascii=True, separators=(",", ": "))
     html = re.sub(
         r"const MODS = \[.*?\];",
-        f"const MODS = {mods_json};",
+        lambda m: f"const MODS = {mods_json};",
         html,
         flags=re.DOTALL
     )
