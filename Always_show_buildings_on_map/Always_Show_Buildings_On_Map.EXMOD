@@ -17,4 +17,9 @@
           "RequiredPlayerStatToShow": {
             "Value": "None"
           },
-          "bDisplayOnCompa
+          "bDisplayOnCompass": true
+        }
+      ]
+    }
+  ]
+}

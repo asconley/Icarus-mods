@@ -446,6 +446,18 @@
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Passive_Ore_Extractor_Drills/Passive_Ore_Extractor_Drills.EXMODZ"
             }
+        },
+        {
+            "name": "Deployable Deep Ore Nodes",
+            "author": "AgentKush",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Place infinite deep ore deposits anywhere on any map. Includes all 23 ore types as deployable items available from the Workshop and craftable at the Fabricator.",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Deployable_Deep_Ore_Nodes.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Deployable_Deep_Ore_Nodes/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Deployable_Deep_Ore_Nodes/Deployable_Deep_Ore_Nodes.EXMODZ"
+            }
         }
     ]
 }
