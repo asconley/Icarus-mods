@@ -26,6 +26,7 @@ Exit codes:
   2 = warnings only (mod may work but has issues)
 """
 
+import gzip
 import json
 import os
 import re
@@ -34,36 +35,57 @@ import zipfile
 from pathlib import Path
 
 
-# ── BP asset reference (loaded lazily) ────────────────────────────────────────
+# ── Game asset reference (loaded lazily) ──────────────────────────────────────
 
-_BP_KNOWN_ASSETS = None
+_KNOWN_GAME_ASSETS = None
 
 
-def _load_bp_assets():
-    """Load known game BP assets from bp_assets.json if available."""
-    global _BP_KNOWN_ASSETS
-    if _BP_KNOWN_ASSETS is not None:
-        return _BP_KNOWN_ASSETS
+def _load_game_assets():
+    """Load known game assets from game_assets.json.gz (or .json fallback)."""
+    global _KNOWN_GAME_ASSETS
+    if _KNOWN_GAME_ASSETS is not None:
+        return _KNOWN_GAME_ASSETS
 
-    # Look for bp_assets.json next to this script
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    bp_file = os.path.join(script_dir, "bp_assets.json")
-    if not os.path.isfile(bp_file):
-        _BP_KNOWN_ASSETS = set()
-        return _BP_KNOWN_ASSETS
 
+    # Try gzipped first, then plain JSON fallback
+    gz_file = os.path.join(script_dir, "game_assets.json.gz")
+    json_file = os.path.join(script_dir, "bp_assets.json")
+
+    data = None
     try:
-        with open(bp_file, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        # Build a flat set of all asset stems (lowercase for case-insensitive matching)
-        all_assets = set()
-        for category, stems in data.get("assets", {}).items():
-            for stem in stems:
-                all_assets.add(stem.lower())
-        _BP_KNOWN_ASSETS = all_assets
+        if os.path.isfile(gz_file):
+            with gzip.open(gz_file, "rt", encoding="utf-8") as f:
+                data = json.load(f)
+        elif os.path.isfile(json_file):
+            with open(json_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
     except Exception:
-        _BP_KNOWN_ASSETS = set()
-    return _BP_KNOWN_ASSETS
+        pass
+
+    if data is None:
+        _KNOWN_GAME_ASSETS = set()
+        return _KNOWN_GAME_ASSETS
+
+    # Build a flat set of asset stems (lowercase) for matching
+    all_assets = set()
+    assets = data.get("assets", {})
+    if isinstance(assets, dict):
+        # Category-grouped format: {"BP": ["BP/AI/Foo", ...], ...}
+        for stems in assets.values():
+            for stem in stems:
+                # Store the filename part (lowercase) for quick matching
+                name = stem.rsplit("/", 1)[-1].lower()
+                all_assets.add(name)
+                # Also store full relative path (lowercase) for path matching
+                all_assets.add(stem.lower())
+    elif isinstance(assets, list):
+        # Flat list format
+        for name in assets:
+            all_assets.add(name.lower())
+
+    _KNOWN_GAME_ASSETS = all_assets
+    return _KNOWN_GAME_ASSETS
 
 
 # ── Schema ────────────────────────────────────────────────────────────────────
@@ -650,25 +672,27 @@ def validate_exmodz_structure(exmodz_path, result):
                 )
 
             # Cross-reference BP assets against known game assets
-            known_bp = _load_bp_assets()
-            if known_bp:
+            known_assets = _load_game_assets()
+            if known_assets:
                 for stem in uasset_stems:
                     # Extract the path relative to BP/ folder
                     # e.g. "ModName/BP/AI/GOAP/BP_Foo" -> "AI/GOAP/BP_Foo"
                     parts = stem.split("/BP/", 1)
                     if len(parts) == 2:
-                        bp_rel = parts[1].lower()
-                        if bp_rel not in known_bp:
-                            basename = bp_rel.rsplit("/", 1)[-1]
+                        bp_rel = parts[1]
+                        bp_name = bp_rel.rsplit("/", 1)[-1]
+                        # Check by full path (BP/subpath) and by filename alone
+                        full_check = f"BP/{bp_rel}".lower()
+                        name_check = bp_name.lower()
+                        if full_check in known_assets or name_check in known_assets:
                             result.info(
-                                f'BP asset "{basename}" is not a known game asset. '
-                                "This may be a custom blueprint (which is fine) or a typo."
+                                f'BP asset "{bp_name}" matches known game asset — '
+                                "valid override."
                             )
                         else:
-                            basename = bp_rel.rsplit("/", 1)[-1]
                             result.info(
-                                f'BP asset "{basename}" matches known game asset — '
-                                "this is a valid override."
+                                f'BP asset "{bp_name}" is not a known game asset. '
+                                "Custom blueprint (fine) or check the name for typos."
                             )
 
             # BP files must be inside the ModName/ folder, not Extracted Mods/
@@ -707,9 +731,11 @@ def validate_exmodz_structure(exmodz_path, result):
                 )
 
         # ── Check for BP on disk but missing from EXMODZ ──────────────
-        # (only when we can check the mod directory on disk)
+        # Scope to the mod's OWN folder (ModName/) not the parent directory
+        # This avoids false positives when multiple mods share a parent folder
         mod_dir = os.path.dirname(exmodz_path)
-        disk_bp_dir = os.path.join(mod_dir, "BP")
+        mod_own_dir = os.path.join(mod_dir, exmod_name)
+        disk_bp_dir = os.path.join(mod_own_dir, "BP") if os.path.isdir(os.path.join(mod_own_dir, "BP")) else os.path.join(mod_dir, "BP")
         if os.path.isdir(disk_bp_dir):
             if not bp_files:
                 result.error(
@@ -730,8 +756,11 @@ def validate_exmodz_structure(exmodz_path, result):
                             )
 
         # Check for .pak on disk but missing from EXMODZ
-        if mod_dir:
-            disk_paks = [f for f in os.listdir(mod_dir) if f.lower().endswith(".pak")]
+        # Only check the mod's own folder (ModName/) to avoid false positives
+        # when multiple mods share a parent directory
+        pak_check_dir = mod_own_dir if os.path.isdir(mod_own_dir) else None
+        if pak_check_dir:
+            disk_paks = [f for f in os.listdir(pak_check_dir) if f.lower().endswith(".pak")]
             packaged_pak_names = {p.rsplit("/", 1)[-1] for p in pak_files}
             for dp in disk_paks:
                 if dp not in packaged_pak_names:
@@ -776,9 +805,11 @@ def validate_exmodz_structure(exmodz_path, result):
             )
 
         # Disk cross-check: doc files on disk but missing from EXMODZ
-        if mod_dir:
+        # Check the mod's own folder first, fall back to parent dir
+        doc_check_dir = mod_own_dir if os.path.isdir(mod_own_dir) else mod_dir
+        if doc_check_dir:
             for doc_file in ["README.md", "Banner.png"]:
-                disk_doc = os.path.join(mod_dir, doc_file)
+                disk_doc = os.path.join(doc_check_dir, doc_file)
                 if os.path.isfile(disk_doc):
                     packaged_names_lower = {n.lower() for n in names}
                     expected = f"{exmod_name}/{doc_file}".lower()
@@ -787,7 +818,7 @@ def validate_exmodz_structure(exmodz_path, result):
                             f'"{doc_file}" exists on disk but is NOT in the EXMODZ package.'
                         )
             # Check for Readme .txt files on disk
-            for f in os.listdir(mod_dir):
+            for f in os.listdir(doc_check_dir):
                 if f.lower().endswith(".txt") and "readme" in f.lower():
                     packaged_txt_lower = {n.rsplit("/", 1)[-1].lower() for n in names}
                     if f.lower() not in packaged_txt_lower:
