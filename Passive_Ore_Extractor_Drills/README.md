@@ -2,7 +2,7 @@
 
 # Passive Ore Extractor Drills
 
-[![Version](https://img.shields.io/badge/v7.5-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v7.7-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -76,10 +76,16 @@ All miners are craftable at the **Fabricator** with tiered material costs:
 - ManualActivation — turn on once, runs continuously
 - Also craftable at the Fabricator (tiered material costs)
 - Workshop tab: 'Passive Miners'
-- Uses custom BP_PassiveMiner (processor with drill mesh visual)
+- Uses vanilla BP_Deep_Mining_Drill_Electric blueprint (place-anywhere processor with drill mesh visual)
 - Does NOT override any vanilla blueprints — fully compatible with other mods
 
 ## Changelog
+
+### v7.7
+- Fixed placement failure — dropped missing custom BP_PassiveMiner, now uses vanilla BP_Deep_Mining_Drill_Electric in all 23 D_DeployableSetup entries
+
+### v7.6
+- Attempted to fix placement by bundling BP_PassiveMiner PAK — PAK still missing from EXMODZ, placement still broken
 
 ### v7.5
 - Fixed broken Fabricator recipes — Iron_Ingot/Copper_Ingot replaced with correct Refined_Metal/Refined_Copper

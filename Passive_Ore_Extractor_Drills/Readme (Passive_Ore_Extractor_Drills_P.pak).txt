@@ -1,6 +1,6 @@
 Passive_Ore_Extractor_Drills_P.pak
 ----------------------------------------------------------------------
-Mod Version: 7.6
+Mod Version: 7.7
 
 Author: AgentKush
 
@@ -12,8 +12,11 @@ Mod Type: EXMOD
 23 passive ore extractors - one per ore type. Place anywhere, connect power, load Stone. Uses drill-visual processor for passive mining.
 
 
+Ver 7.7
+Fixed placement failure - dropped missing custom BP_PassiveMiner entirely. All 23 D_DeployableSetup entries now use vanilla BP_Deep_Mining_Drill_Electric. Miners can now be placed again.
+
 Ver 7.6
-Fixed broken deployment - BP_PassiveMiner blueprint files were missing from v7.5 EXMODZ package. Miners can now be placed again.
+Attempted to fix placement by bundling BP_PassiveMiner PAK - PAK still missing from EXMODZ, placement still broken.
 
 Ver 7.5
 Fixed broken Fabricator recipes - Iron_Ingot/Copper_Ingot replaced with correct Refined_Metal/Refined_Copper. Fixed Aluminium miner - was outputting ingots (Aluminium), now correctly outputs Bauxite ore with proper icon. Added Manufacturer bench as crafting station for all miner kits.
