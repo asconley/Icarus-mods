@@ -674,161 +674,161 @@
       "File_Items": [
         {
           "Name": "Passive_Miner_Metal_Ore",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Copper_Ore",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Coal_Ore",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Stone",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Oxite",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Salt",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Sulfur",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Gold_Ore",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Silica",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Clay",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Bauxite",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Titanium_Ore",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Platinum_Ore",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Scoria",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Obsidian",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Limestone",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Lithium_Ore",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Ruby_Ore",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Cobalt_Ore",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Super_Cooled_Ice",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Frozen_Wood",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Exotic_Red",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
         },
         {
           "Name": "Passive_Miner_Uranium_Raw",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/PassiveMiners/BP_PassiveMiner.BP_PassiveMiner_C",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Electric.BP_Deep_Mining_Drill_Electric_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Electric.SM_DEP_DeepMiningDrill_Electric",
           "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
           "SnapToSurfaceNormal": false
