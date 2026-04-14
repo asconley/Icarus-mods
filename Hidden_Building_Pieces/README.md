@@ -2,12 +2,12 @@
 
 # Hidden Building Pieces
 
-[![Version](https://img.shields.io/badge/v3.0.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v4.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Unlocks 60 hidden building pieces including diagonal curved sets, frames, corner stairs, roof peaks, and half-pieces for 11+ materials
+Unlocks 62 hidden building pieces as individual craftable items
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -15,56 +15,59 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 
 ---
 
-Unlocks **60 hidden building item types** across multiple material sets including diagonal curved pieces, frames, corner stairs, half pieces, and roof peak pieces for Icarus. All pieces are **storm immune** and **hammer repairable**.
-
----
-
-## ⚠️ IMPORTANT: Upgrading from v2.x
-
-> **If you had v2.13.x or earlier installed, some building pieces you placed may disappear after updating to v3.0.0.**
->
-> The Kepler update (Week 222) added 44 of this mod's building pieces to the base game. These items have been **removed from the mod** to comply with community modding guidelines and to support the developers.
->
-> **What this means for you:**
-> - Pieces that were added to the base game (diagonal sets, curved walls, advanced beams, most Ice pieces) will now load from the **base game data** instead of this mod. In most cases they should still be there — just managed by the game now, not the mod.
-> - If any placed pieces vanish after updating, you may need to **re-place them** using the base game's built-in diagonal/curved building system (unlocked in the tech tree).
-> - **Backup your prospect files before updating** just in case.
->
-> **Removed content (now in base game):** Diagonal Sets, Wall Curved, Roof Curved Angles, Advanced Beam Sets, and Diagonal Curved Wall Angles for ClayBrick, Concrete, Glass, Scoria, ScoriaBrick, Stone, StoneBrick. Also most Ice building pieces and Limestone Halfpiece.
+Unlocks **62 hidden building pieces** that exist in the game files but aren't available to players. Every item is an individual craftable piece at the appropriate workbench. All pieces are **storm immune** and **hammer repairable**.
 
 ---
 
 ## Features
 
-### Diagonal Curved Pieces (8 Materials)
-- **Materials:** ClayBrick, Concrete, Glass, Scoria, ScoriaBrick, StoneBrick, Stone, TemperedGlass
-- Diagonal Curved Set (floor + ramp roof pieces)
+### Wood Diagonal & Curved Pieces (18 items)
 
-### Wood Diagonal & Curved (Full Set — Still Mod-Exclusive)
-- Diagonal Set, Curved Set, Wall Curved, Curved Wall Angles, Roof Curved Angles, Advanced Beam Set
+Wood is the only material that doesn't have diagonal/curved building support in vanilla. This mod unlocks all 18 pieces:
 
-### TemperedGlass (Full Set — Still Mod-Exclusive)
-- Diagonal Set, Curved Set, Wall Curved, Curved Wall Angles, Roof Curved Angles, Advanced Beam Set, Frame, Stairs, RoofPeak
+- Diagonal Floor, Diagonal Ramp Roof
+- Diagonal Curved Floor, Diagonal Curved Ramp Roof
+- Diagonal Wall Solid, Diagonal Wall Angles
+- Diagonal Wall Curved Solid, Diagonal Wall Curved Angles
+- Diagonal Beam Diagonal, Diagonal Beam Horizontal
+- Diagonal Beam Curved Diagonal, Diagonal Beam Curved Horizontal
+- Beam Curved Diagonal, Brick Beam DiagonalBeam
+- Wall Curved Angles, Ramp Curved, Roof Curved Angles
 
-### Frame Pieces (11 Materials)
-- **Materials:** ClayBrick, Glass, Ice, Iron, ReinforcedWood, Sandworm, Scoria, ScoriaBrick, StoneBrick, TemperedGlass, Limestone (corner stairs only)
-- **3 Variations Each:** FullFrame, Pillar, HalfFrame
+**Crafted at:** Carpentry Bench
 
-### Corner Stairs (12 Materials)
-- **Materials:** Wood, Thatch, ClayBrick, Ice, Scoria, ScoriaBrick, StoneBrick, Limestone, Sandworm, ReinforcedWood, MetalGrate, Glass (via Glass_Stairs)
+### Frames (26 items)
 
-### Roof Peak Connectors & Caps (15 Materials)
-- **Materials:** Wood, Stone, Concrete, Thatch, Iron, Glass, ClayBrick, Scoria, ScoriaBrick, Ice, Limestone, StoneBrick, Sandworm, TemperedGlass, ReinforcedWood
-- **2 Piece Types:** Connector, Cap
+Frame pieces for 11 materials. Each material has the frame variants that vanilla is missing:
 
-### Stairs (2 Materials)
-- Glass and TemperedGlass stair pieces
+| Material | FullFrame | HalfFrame | Pillar | Bench |
+|----------|:---------:|:---------:|:------:|-------|
+| ClayBrick | x | x | x | Masonry Bench |
+| Glass | x | x | x | Glassworking Bench |
+| Ice | x | x | | Hand Crafting |
+| Iron | x | x | x | Anvil Bench |
+| Limestone | | x | | Masonry Bench |
+| ReinforcedWood | x | x | | Carpentry Bench |
+| Sandworm | x | x | | Masonry Bench |
+| Scoria | | x | | Masonry Bench |
+| ScoriaBrick | x | x | x | Masonry Bench |
+| StoneBrick | x | x | x | Masonry Bench |
+| TemperedGlass | x | x | x | Glassworking Bench |
 
-### Half Pieces (2 Materials)
-- Limestone CornerStairs and Metal Grate half/quarter floor pieces
+### Corner Stairs (14 items)
 
-### Ice (Mod-Exclusive Pieces Only)
-- CornerStairs, Floor TrapDoor, Frame, RoofPeak, Roof Half Pitch, Stairs
+Corner stair pieces for 14 materials (includes both ClayBrick and Clay_Brick variants):
+
+Wood, Thatch, ClayBrick, Clay_Brick, Glass, Ice, Limestone, MetalGrate, ReinforcedWood, Sandworm, Scoria, ScoriaBrick, StoneBrick, TemperedGlass
+
+### Glass & Tempered Glass Stairs (4 items)
+
+- Glass Stairs, Glass HalfStairs
+- TemperedGlass Stairs, TemperedGlass HalfStairs
+
+### Metal Grate Quarter Floor (1 item)
+
+- Metal Grate HalfNormal QuarterFloor
 
 ---
 
@@ -72,24 +75,23 @@ Unlocks **60 hidden building item types** across multiple material sets includin
 
 | Category | Count |
 |----------|-------|
-| Item Types | 60 |
+| Craftable Items | 62 |
 | Building Pieces | 101 |
-| Building Skins | 274 |
-| Crafting Recipes | 60 |
-| **Total Entries** | **704** |
+| Building Skins | 100 |
+| Crafting Recipes | 62 |
+| Durable Entries | 16 |
+| Building Types | 21 |
+| **Total Data Entries** | **549** |
 
 ## Crafting Locations
 
 | Material | Crafting Station |
 |----------|-----------------|
-| ClayBrick / ScoriaBrick / StoneBrick | Masonry Bench |
+| Wood / ReinforcedWood | Carpentry Bench |
+| ClayBrick / ScoriaBrick / StoneBrick / Limestone / Sandworm / Scoria | Masonry Bench |
 | Glass / TemperedGlass | Glassworking Bench |
-| Ice | Hand Crafting (Character) |
-| Iron | Machining Bench |
-| Limestone | Cement Mixer |
-| ReinforcedWood / Sandworm | Carpentry Bench |
-| Scoria | Stone Furnace |
-| Wood | Carpentry Bench |
+| Iron / MetalGrate | Anvil Bench |
+| Ice / Thatch | Hand Crafting |
 
 ## Installation
 
@@ -105,29 +107,33 @@ Unlocks **60 hidden building item types** across multiple material sets includin
 
 ## Compatibility
 
-- ✅ Works with all other mods
-- ✅ Multiplayer compatible (all players need the mod)
-- ✅ Compatible with all DLCs
-- ✅ Compatible with Kepler update / Dangerous Horizons
+- Works with all other mods
+- Multiplayer compatible (all players need the mod)
+- Compatible with all DLCs
+- Compatible with Kepler update / Dangerous Horizons
 
 ---
 
 ## Changelog
-- **v3.0.1** - Crash fix: Fixed 60 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
+
+### v4.0 (2026-04-14)
+- **MAJOR OVERHAUL:** Rebuilt from scratch as 62 individual items (no more sets)
+- Removed all items now live in vanilla (Kepler update): curved sets, diagonal sets, wall curved, roof curved angles, advanced beams, diagonal curved wall angles for ClayBrick/Concrete/Glass/TemperedGlass/Scoria/ScoriaBrick/StoneBrick/Stone/Ice/Limestone
+- Removed all 15 RoofPeak items (now in base game)
+- Removed broken Ice_Floor_TrapDoor, Ice_Roof_Half_Pitch, Ice_Stairs
+- Split remaining items from sets into 62 individual craftable pieces
+- Fixed all recipes with proper material-appropriate bench assignments
+
+### v3.0.1
+- Crash fix: Fixed 60 recipe outputs from D_ItemsStatic to D_ItemTemplate
 
 ### v3.0.0 (2026-03-10)
-- **MAJOR UPDATE:** Removed 44 items now included in the base game (Kepler/Week 222 update)
-  - Removed: Diagonal Sets, Wall Curved, Roof Curved Angles, Advanced Beam Sets, and Diagonal Curved Wall Angles for ClayBrick, Concrete, Glass, Scoria, ScoriaBrick, Stone, StoneBrick
-  - Removed: Ice Beam, Ice Floor, Ice Ramp, Ice Roof Corner, Ice Wall, Ice Wall Angle, Ice Wall Curved, Ice Curved Set
-  - Removed: Limestone Halfpiece
-- **Remaining:** 60 mod-exclusive items (RoofPeaks, CornerStairs, Frames, Diagonal Curved Sets, full Wood/TemperedGlass sets, Sandworm, MetalGrate, and more)
-- Compliant with community modding guidelines — no longer distributes content available in base game or DLC
+- Removed 44 items now included in the base game (Kepler/Week 222 update)
+- Remaining 60 mod-exclusive items
 - Total entries reduced from 2,453 to 704
 
 ### v2.13.7 (2026-03-08)
 - Added 675 new building pieces from DLC update
-- Added 296 new building skins (Ice building set)
-- Added 6 new building types
 
 ### v2.13.6
 - Updated 40 building skins to match current game material paths
@@ -155,10 +161,6 @@ Unlocks **60 hidden building item types** across multiple material sets includin
 ### v2.12.0
 - Added 126 missing material skins for Stone, Concrete, Glass
 
-### v2.11.x
-- Multiple texture, repair, storm immunity, and buildable fixes
-- Added frame materials, corner stairs, roof peaks, and half pieces
-- See previous versions for full history
 ---
 
 <div align="center">

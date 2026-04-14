@@ -63,9 +63,9 @@
         {
             "name": "Hidden Building Pieces",
             "author": "AgentKush",
-            "version": "3.0.1",
+            "version": "4.0",
             "compatibility": "All",
-            "description": "Unlocks 60 hidden building pieces including diagonal curved sets, frames, corner stairs, roof peaks, and half-pieces for 11+ materials. v3.0.0: Removed 44 items now in base game (Kepler update).",
+            "description": "Unlocks 62 hidden building pieces as individual items. Includes Wood diagonal/curved pieces, frames for 11 materials, corner stairs for 13 materials, glass stairs, and more. All items are craftable at material-appropriate benches.",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
             "files": {
