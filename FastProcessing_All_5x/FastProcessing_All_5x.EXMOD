@@ -1,7 +1,7 @@
 {
   "name": "Fast Processing (5x)",
   "author": "AgentKush",
-  "version": "4.8",
+  "version": "4.9",
   "description": "All crafting and processing 5x faster.",
   "fileName": "FastProcessing_All_5x",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_5x.png",
@@ -2588,7 +2588,7 @@
           "RequiredMillijoules": 0
         },
         {
-          "Name": "Clay_Bick_Roof_Corner",
+          "Name": "Clay_Brick_Roof_Corner",
           "RequiredMillijoules": 0
         },
         {
@@ -3760,7 +3760,7 @@
           "RequiredMillijoules": 0
         },
         {
-          "Name": "Scoria_Bick_Roof_Corner",
+          "Name": "Scoria_Brick_Roof_Corner",
           "RequiredMillijoules": 0
         },
         {

@@ -1,7 +1,7 @@
 {
   "name": "Faster Crafting",
   "author": "AgentKush",
-  "version": "1.4",
+  "version": "1.5",
   "description": "All crafting and processing 2x faster.",
   "fileName": "Faster_Crafting",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Faster_Crafting.png",
@@ -2588,7 +2588,7 @@
           "RequiredMillijoules": 0
         },
         {
-          "Name": "Clay_Bick_Roof_Corner",
+          "Name": "Clay_Brick_Roof_Corner",
           "RequiredMillijoules": 0
         },
         {
@@ -3760,7 +3760,7 @@
           "RequiredMillijoules": 0
         },
         {
-          "Name": "Scoria_Bick_Roof_Corner",
+          "Name": "Scoria_Brick_Roof_Corner",
           "RequiredMillijoules": 0
         },
         {

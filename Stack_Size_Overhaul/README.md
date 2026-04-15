@@ -2,12 +2,12 @@
 
 # Stack Size Overhaul
 
-[![Version](https://img.shields.io/badge/v1.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.4-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Increases stack sizes on 1,258 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999
+Increases stack sizes on 1,262 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -25,7 +25,7 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 | Food/Drinks | **3x** | Berries 100→300, Meals 10→30 |
 | All others | **3x** | Max cap 9999 |
 
-328 items at 5x, 940 items at 3x. Unstackable items left at 1.
+328 items at 5x, 934 items at 3x. Unstackable items left at 1.
 
 ## Installation
 
@@ -33,6 +33,7 @@ Import `Stack_Size_Overhaul.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
 
+- **v1.4** - Added 6 new Limestone building pieces (curved walls, diagonal sets, advanced beams). Removed 2 dead refs (Item_Wood_Build_HalfNormal, Item_Wood_Build_HalfPitch). Total: 1,262
 - **v1.1** - Added 36 new DLC items: Agave, Garlic, Onion, PricklyPear foods + trophies
 - **v1.0** - Initial release, 1,232 items modified
 ---

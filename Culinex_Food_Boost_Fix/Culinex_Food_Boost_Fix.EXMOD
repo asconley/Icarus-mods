@@ -5109,7 +5109,7 @@
           "Name": "Ape_Tonic",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Health_Garganutan_Tonic.T_ITEM_Health_Garganutan_Tonic'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Ape_Tonic-ModifierName\", \"Garganutan Frenzy Tonic \")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Ape_Tonic-ModifierDescription\", \"Greatly increases your attack and movement speeds, and greatly increases stamina regeneration, but reduces felling and mining rewards.\\n\\n\\u2014 Chef\\u2019s Backpack (+25%) \\u2014\\n+31.25% Attack Speed\\n+31.25% Move Speed\\n+1250% Stamina Regen\\n+-62.5% Felling Rewards\\n+-62.5 MiningRewards +%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Ape_Tonic-ModifierDescription\", \"Greatly increases your attack and movement speeds, and greatly increases stamina regeneration, but reduces felling and mining rewards.\\n\\n— Chef’s Backpack (+25%) —\\n+31.25% Attack Speed\\n+31.25% Move Speed\\n+1250% Stamina Regen\\n+-62.5% Felling Rewards\\n+-62.5 MiningRewards +%\")",
           "GrantedStats": {
             "(Value=\"BaseAttackSpeed_+%\")": 25,
             "(Value=\"BaseMovementSpeed_+%\")": 25,
@@ -5158,7 +5158,7 @@
           "Name": "Cooked_Banana",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roast_Banana.T_ITEM_Roast_Banana'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Banana-ModifierName\", \"Roast Banana\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Banana-ModifierDescription\", \"Small Bonus to Tamed Creature Experience\\n\\n\\u2014 Chef\\u2019s Backpack (+25%) \\u2014\\n+50 Max Stamina\\n+50 Max Health\\n+12.5% Tamed XP\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Banana-ModifierDescription\", \"Small Bonus to Tamed Creature Experience\\n\\n— Chef’s Backpack (+25%) —\\n+50 Max Stamina\\n+50 Max Health\\n+12.5% Tamed XP\")",
           "GrantedStats": {
             "(Value=\"BaseFoodStomachSlots_+\")": 1,
             "(Value=\"BaseMaximumStamina_+\")": 40,
@@ -5187,7 +5187,7 @@
           "Name": "Drink_Cooling",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Water_Chilled.T_ICON_Water_Chilled'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Cooling-ModifierName\", \"Cooling\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Cooling-ModifierDescription\", \"Water cools you.\\n\\n\\u2014 Chef\\u2019s Backpack (+25%) \\u2014\\n+12.5 Cooling/min\\n+-625 Internal Temp\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Cooling-ModifierDescription\", \"Water cools you.\\n\\n— Chef’s Backpack (+25%) —\\n+12.5 Cooling/min\\n+-625 Internal Temp\")",
           "GrantedStats": {
             "(Value=\"BaseCooldownDegreePerMinute_+\")": 10,
             "(Value=\"BaseInternalTemperatureModification_+\")": -500
@@ -5208,7 +5208,7 @@
           "Name": "Drink_Energised",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-sololightning1.icon-weather-sololightning1'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Energised-ModifierName\", \"Energised\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Energised-ModifierDescription\", \"Water filled with electrolytes decreases thirst and increases stamina recovery\\n\\n\\u2014 Chef\\u2019s Backpack (+25%) \\u2014\\n+125% Stamina Regen\\n+-31.25% Stamina Cost\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Energised-ModifierDescription\", \"Water filled with electrolytes decreases thirst and increases stamina recovery\\n\\n— Chef’s Backpack (+25%) —\\n+125% Stamina Regen\\n+-31.25% Stamina Cost\")",
           "GrantedStats": {
             "(Value=\"BaseStaminaRegen_+%\")": 100,
             "(Value=\"BaseStaminaActionCost_+%\")": -25
@@ -5228,7 +5228,7 @@
           "Name": "Drink_Heated",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Water_Warm.T_ICON_Water_Warm'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Heated-ModifierName\", \"Warming\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Heated-ModifierDescription\", \"Heated Water Warms you.\\n\\n\\u2014 Chef\\u2019s Backpack (+25%) \\u2014\\n+12.5 Warming/min\\n+625 Internal Temp\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Heated-ModifierDescription\", \"Heated Water Warms you.\\n\\n— Chef’s Backpack (+25%) —\\n+12.5 Warming/min\\n+625 Internal Temp\")",
           "GrantedStats": {
             "(Value=\"BaseWarmupDegreePerMinute_+\")": 10,
             "(Value=\"BaseInternalTemperatureModification_+\")": 500
@@ -5249,7 +5249,7 @@
           "Name": "Drink_Water",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Water.Icon_Water'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Water-ModifierName\", \"Drinking\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Water-ModifierDescription\", \"Water cools you.\\n\\n\\u2014 Chef\\u2019s Backpack (+25%) \\u2014\\n+12.5 Cooling/min\\n+-625 Internal Temp\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Water-ModifierDescription\", \"Water cools you.\\n\\n— Chef’s Backpack (+25%) —\\n+12.5 Cooling/min\\n+-625 Internal Temp\")",
           "GrantedStats": {
             "(Value=\"BaseCooldownDegreePerMinute_+\")": 10,
             "(Value=\"BaseInternalTemperatureModification_+\")": -500
@@ -5285,7 +5285,7 @@
           "Name": "Health_Enhancement_Tonic",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Health_Enhancement_Tonic.ITEM_Health_Enhancement_Tonic'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Enhancement_Tonic-ModifierName\", \"Health Enhancement Tonic\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Enhancement_Tonic-ModifierDescription\", \"Greatly increased health and health regeneration, for a short time.\\n\\n\\u2014 Chef\\u2019s Backpack (+25%) \\u2014\\n+37.5% Max Health\\n+375% Health Regen\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Enhancement_Tonic-ModifierDescription\", \"Greatly increased health and health regeneration, for a short time.\\n\\n— Chef’s Backpack (+25%) —\\n+37.5% Max Health\\n+375% Health Regen\")",
           "GrantedStats": {
             "(Value=\"BaseMaximumHealth_+%\")": 30,
             "(Value=\"BaseHealthRegen_+%\")": 300
@@ -5299,7 +5299,7 @@
           "Name": "Stamina_Enhancement_Tonic",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Stamina_Enhancement_Tonic.ITEM_Stamina_Enhancement_Tonic'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Enhancement_Tonic-ModifierName\", \"Stamina Enhancement Tonic\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Enhancement_Tonic-ModifierDescription\", \"Greatly increased stamina and stamina regeneration, for a short time.\\n\\n\\u2014 Chef\\u2019s Backpack (+25%) \\u2014\\n+37.5% Max Stamina\\n+250% Stamina Regen\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Enhancement_Tonic-ModifierDescription\", \"Greatly increased stamina and stamina regeneration, for a short time.\\n\\n— Chef’s Backpack (+25%) —\\n+37.5% Max Stamina\\n+250% Stamina Regen\")",
           "GrantedStats": {
             "(Value=\"BaseMaximumStamina_+%\")": 30,
             "(Value=\"BaseStaminaRegen_+%\")": 200
@@ -5313,7 +5313,7 @@
           "Name": "Strength_Enhancement_Tonic",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Strength_Enhancement_Tonic.ITEM_Strength_Enhancement_Tonic'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Strength_Enhancement_Tonic-ModifierName\", \"Strength Enhancement Tonic\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Strength_Enhancement_Tonic-ModifierDescription\", \"Greatly increased melee damage, throw speed and physical resistance, for a short time.\\n\\n\\u2014 Chef\\u2019s Backpack (+25%) \\u2014\\n+37.5% Melee Damage\\n+37.5% Knife Speed\\n+37.5% Spear Speed\\n+18.75% Phys Resistance\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Strength_Enhancement_Tonic-ModifierDescription\", \"Greatly increased melee damage, throw speed and physical resistance, for a short time.\\n\\n— Chef’s Backpack (+25%) —\\n+37.5% Melee Damage\\n+37.5% Knife Speed\\n+37.5% Spear Speed\\n+18.75% Phys Resistance\")",
           "GrantedStats": {
             "(Value=\"BaseMeleeDamage_+%\")": 30,
             "(Value=\"BaseKnifeProjectileSpeed_+%\")": 30,
@@ -5329,7 +5329,7 @@
           "Name": "Sustenence_Enhancement_Tonic",
           "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Sustenence_Enhancement_Tonic.ITEM_Sustenence_Enhancement_Tonic'",
           "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Sustenence_Enhancement_Tonic-ModifierName\", \"Sustenance Enhancement Tonic\")",
-          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Sustenence_Enhancement_Tonic-ModifierDescription\", \"Greatly reduced food, water and oxygen consumption, for a short time. Extends active food buffs.\\n\\n\\u2014 Chef\\u2019s Backpack (+25%) \\u2014\\n+-37.5% Food Consumption\\n+-37.5% Water Consumption\\n+-37.5% Oxygen Consumption\\n+37.5 FoodModifierDuration +%\")",
+          "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Sustenence_Enhancement_Tonic-ModifierDescription\", \"Greatly reduced food, water and oxygen consumption, for a short time. Extends active food buffs.\\n\\n— Chef’s Backpack (+25%) —\\n+-37.5% Food Consumption\\n+-37.5% Water Consumption\\n+-37.5% Oxygen Consumption\\n+37.5 FoodModifierDuration +%\")",
           "GrantedStats": {
             "(Value=\"BaseFoodConsumption_+%\")": -30,
             "(Value=\"BaseWaterConsumption_+%\")": -30,

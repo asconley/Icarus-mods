@@ -1,7 +1,7 @@
 {
   "name": "Fast Processing (Instant)",
   "author": "AgentKush",
-  "version": "4.8",
+  "version": "4.9",
   "description": "All crafting and processing instant.",
   "fileName": "FastProcessing_Instant",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
@@ -2588,7 +2588,7 @@
           "RequiredMillijoules": 1
         },
         {
-          "Name": "Clay_Bick_Roof_Corner",
+          "Name": "Clay_Brick_Roof_Corner",
           "RequiredMillijoules": 1
         },
         {
@@ -3760,7 +3760,7 @@
           "RequiredMillijoules": 1
         },
         {
-          "Name": "Scoria_Bick_Roof_Corner",
+          "Name": "Scoria_Brick_Roof_Corner",
           "RequiredMillijoules": 1
         },
         {

@@ -2,12 +2,12 @@
 
 # Indestructible Tools & Weapons
 
-[![Version](https://img.shields.io/badge/v1.8-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.9-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Maximum durability on all tools, weapons, armor, buildings, doors, and crafting stations. 199 items modified to never break
+Maximum durability on all tools, weapons, armor, buildings, doors, and crafting stations. 210 items modified to never break
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -38,11 +38,11 @@ Eliminates equipment degradation by setting all durability values to the game's 
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 199 |
+| Total Modifications | 210 |
 | Durability Setting | 12,700,000 (maximum game cap) |
 
 ### Files Modified
-- `Traits-D_Durable.json` (199 entries)
+- `Traits-D_Durable.json` (210 entries)
 
 ## Installation
 
@@ -71,6 +71,7 @@ Eliminates equipment degradation by setting all durability values to the game's 
 
 | Version | Changes |
 |---------|---------|
+| 1.9 | Added 9 Lithium-tier tools, Chainsaw, and Nailgun (210 total) |
 | 1.7 | Added 7 new durable entries from latest game data (199 total) |
 | 1.6 | Added Sandwyrm_Gear row — covers Sandwyrm Backpack |
 | 1.5 | Week 217 fix: LegendaryWeapon_ApeClub renamed to LegendaryWeapon_Ape_Club |
