@@ -2,12 +2,12 @@
 
 # Hidden Building Pieces
 
-[![Version](https://img.shields.io/badge/v4.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v4.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Unlocks 62 hidden building pieces as individual craftable items
+Unlocks 62 hidden building pieces + 1 forgotten recipe as individual craftable items
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -15,7 +15,7 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 
 ---
 
-Unlocks **62 hidden building pieces** that exist in the game files but aren't available to players. Every item is an individual craftable piece at the appropriate workbench. All pieces are **storm immune** and **hammer repairable**.
+Unlocks **62 hidden building pieces** that exist in the game files but aren't available to players, plus 1 forgotten recipe added to higher-tier stations. Every item is an individual craftable piece at the appropriate workbench. All pieces are **storm immune** and **hammer repairable**.
 
 ---
 
@@ -69,6 +69,12 @@ Wood, Thatch, ClayBrick, Clay_Brick, Glass, Ice, Limestone, MetalGrate, Reinforc
 
 - Metal Grate HalfNormal QuarterFloor
 
+### Interior Wood Floor — The Forgotten Floor (1 recipe)
+
+- Interior Wood Floor (`Wood_Floor_Refined`) — exists in vanilla at the Carpentry Bench only, with mismatched names across data tables making it nearly impossible to find. Now also craftable at Fabricator and Manufacturer.
+
+**Crafted at:** Fabricator / Manufacturer (same inputs: 20 Refined Wood + 4 Copper Nails)
+
 ---
 
 ## Stats
@@ -78,10 +84,10 @@ Wood, Thatch, ClayBrick, Clay_Brick, Glass, Ice, Limestone, MetalGrate, Reinforc
 | Craftable Items | 62 |
 | Building Pieces | 101 |
 | Building Skins | 100 |
-| Crafting Recipes | 62 |
+| Crafting Recipes | 63 |
 | Durable Entries | 16 |
 | Building Types | 21 |
-| **Total Data Entries** | **549** |
+| **Total Data Entries** | **550** |
 
 ## Crafting Locations
 
@@ -91,6 +97,7 @@ Wood, Thatch, ClayBrick, Clay_Brick, Glass, Ice, Limestone, MetalGrate, Reinforc
 | ClayBrick / ScoriaBrick / StoneBrick / Limestone / Sandworm / Scoria | Masonry Bench |
 | Glass / TemperedGlass | Glassworking Bench |
 | Iron / MetalGrate | Anvil Bench |
+| Interior Wood (Forgotten Floor) | Fabricator / Manufacturer |
 | Ice / Thatch | Hand Crafting |
 
 ## Installation
@@ -115,6 +122,9 @@ Wood, Thatch, ClayBrick, Clay_Brick, Glass, Ice, Limestone, MetalGrate, Reinforc
 ---
 
 ## Changelog
+
+### v4.1 (2026-04-16)
+- Added Interior Wood Floor recipe at Fabricator/Manufacturer — the "forgotten floor" that only existed at Carpentry Bench with mismatched data table names (building piece: Interior_Wood_Floor, item: Wood_Floor_Refined, recipe: Interior_Wood_Floor)
 
 ### v4.0 (2026-04-14)
 - **MAJOR OVERHAUL:** Rebuilt from scratch as 62 individual items (no more sets)

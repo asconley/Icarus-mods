@@ -1,8 +1,8 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "4.0",
-  "description": "Unlocks hidden building pieces: Wood diagonal/curved, frames, corner stairs, glass stairs, and more.",
+  "version": "4.1",
+  "description": "Unlocks hidden building pieces: Wood diagonal/curved, frames, corner stairs, glass stairs, and more.\n\nv4.1 — Added Interior Wood Floor recipe at Fabricator/Manufacturer (the forgotten floor)\nv4.0 — Removed Ice_Floor_TrapDoor (broken). 62 hidden pieces, 101 building variations\nv3.0 — Added 15 new hidden pieces\nv2.0 — Expanded to 47 pieces + skins\nv1.0 — Initial release",
   "fileName": "Hidden_Building_Pieces",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
@@ -5814,6 +5814,50 @@
           ],
           "Audio": {
             "RowName": "Default"
+          }
+        },
+        {
+          "Name": "Recipe_Interior_Wood_Floor_Fabricator",
+          "Requirement": {
+            "RowName": "Interior_Wood_Basic"
+          },
+          "RecipeSets": [
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood_Refined",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 20
+            },
+            {
+              "Element": {
+                "RowName": "Copper_Nail",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 4
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Wood_Floor_Refined",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1
+            }
+          ],
+          "Audio": {
+            "RowName": "MachiningBench"
           }
         }
       ]
