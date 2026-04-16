@@ -1,0 +1,460 @@
+{
+  "name": "Survival Attachments",
+  "author": "AgentKush",
+  "version": "1.0",
+  "description": "v1.0: Adds food, oxygen, and water armor attachments. Doubles attachment slots on every armor piece (Head/Arms/Body/Legs/Feet from 1 to 2). Adds three new craftable attachments at the Alteration Bench: Oxygen Recycler (Head, -25% oxygen drain), Nutrient Dispenser (Body, -25% food drain), Hydration Cell (Legs, -25% water drain).",
+  "fileName": "Survival_Attachments",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Survival_Attachments.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Survival_Attachments/README.md",
+  "week": "All",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Inventory-D_InventoryInfo.json",
+      "File_Items": [
+        {
+          "Name": "Head_Attachment",
+          "InventoryID": {
+            "Value": "General"
+          },
+          "SlotTemplate": {
+            "RowName": "Any_Head_Attachment"
+          },
+          "StartingSlots": 2,
+          "RemoveOnly": true
+        },
+        {
+          "Name": "Arms_Attachment",
+          "InventoryID": {
+            "Value": "General"
+          },
+          "SlotTemplate": {
+            "RowName": "Any_Arms_Attachment"
+          },
+          "StartingSlots": 2,
+          "RemoveOnly": true
+        },
+        {
+          "Name": "Body_Attachment",
+          "InventoryID": {
+            "Value": "General"
+          },
+          "SlotTemplate": {
+            "RowName": "Any_Body_Attachment"
+          },
+          "StartingSlots": 2,
+          "RemoveOnly": true
+        },
+        {
+          "Name": "Legs_Attachment",
+          "InventoryID": {
+            "Value": "General"
+          },
+          "SlotTemplate": {
+            "RowName": "Any_Legs_Attachment"
+          },
+          "StartingSlots": 2,
+          "RemoveOnly": true
+        },
+        {
+          "Name": "Feet_Attachment",
+          "InventoryID": {
+            "Value": "General"
+          },
+          "SlotTemplate": {
+            "RowName": "Any_Feet_Attachment"
+          },
+          "StartingSlots": 2,
+          "RemoveOnly": true
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Alterations-D_Alterations.json",
+      "File_Items": [
+        {
+          "Name": "SA_Head_Oxygen_Recycler",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"SA_Head_Oxygen_Recycler-DisplayName\", \"Oxygen Recycler\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
+          "Stats": {
+            "(Value=\"BaseOxygenConsumption_+%\")": -25
+          }
+        },
+        {
+          "Name": "SA_Chest_Nutrient_Dispenser",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"SA_Chest_Nutrient_Dispenser-DisplayName\", \"Nutrient Dispenser\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_StomachCap.Icon_StomachCap",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
+          "Stats": {
+            "(Value=\"BaseFoodConsumption_+%\")": -25
+          }
+        },
+        {
+          "Name": "SA_Legs_Hydration_Cell",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"SA_Legs_Hydration_Cell-DisplayName\", \"Hydration Cell\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_PoisonResist.Icon_PoisonResist",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
+          "Stats": {
+            "(Value=\"BaseWaterConsumption_+%\")": -25
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Attachments-D_IcarusAttachments.json",
+      "File_Items": [
+        {
+          "Name": "SA_Head_Oxygen_Recycler",
+          "GrantedAlteration": {
+            "RowName": "SA_Head_Oxygen_Recycler"
+          }
+        },
+        {
+          "Name": "SA_Chest_Nutrient_Dispenser",
+          "GrantedAlteration": {
+            "RowName": "SA_Chest_Nutrient_Dispenser"
+          }
+        },
+        {
+          "Name": "SA_Legs_Hydration_Cell",
+          "GrantedAlteration": {
+            "RowName": "SA_Legs_Hydration_Cell"
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Traits-D_Itemable.json",
+      "File_Items": [
+        {
+          "Name": "Item_SA_Head_Oxygen_Recycler",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Head_Oxygen_Recycler-DisplayName\", \"Oxygen Recycler\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Head_Oxygen_Recycler-Description\", \"A head attachment that decreases Oxygen consumption by 25%.\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Head_Oxygen_Recycler-FlavorText\", \"Can be equipped to a valid Head armor piece at an Alteration Bench.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_SA_Chest_Nutrient_Dispenser",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Chest_Nutrient_Dispenser-DisplayName\", \"Nutrient Dispenser\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen.T_ITEM_ATTACHMENT_ChestOxygen",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Chest_Nutrient_Dispenser-Description\", \"A chest attachment that decreases Food consumption by 25%.\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Chest_Nutrient_Dispenser-FlavorText\", \"Can be equipped to a valid Chest armor piece at an Alteration Bench.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_SA_Legs_Hydration_Cell",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Legs_Hydration_Cell-DisplayName\", \"Hydration Cell\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen.T_ITEM_ATTACHMENT_ChestOxygen",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Legs_Hydration_Cell-Description\", \"A legs attachment that decreases Water consumption by 25%.\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Legs_Hydration_Cell-FlavorText\", \"Can be equipped to a valid Legs armor piece at an Alteration Bench.\")",
+          "Weight": 1000
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Items-D_ItemsStatic.json",
+      "File_Items": [
+        {
+          "Name": "SA_Head_Oxygen_Recycler",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_SA_Head_Oxygen_Recycler"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "SA_Head_Oxygen_Recycler"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Head"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "SA_Chest_Nutrient_Dispenser",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_SA_Chest_Nutrient_Dispenser"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "SA_Chest_Nutrient_Dispenser"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Body"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "SA_Legs_Hydration_Cell",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_SA_Legs_Hydration_Cell"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "SA_Legs_Hydration_Cell"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Legs"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Items-D_ItemTemplate.json",
+      "File_Items": [
+        {
+          "Name": "SA_Head_Oxygen_Recycler",
+          "ItemStaticData": {
+            "RowName": "SA_Head_Oxygen_Recycler"
+          }
+        },
+        {
+          "Name": "SA_Chest_Nutrient_Dispenser",
+          "ItemStaticData": {
+            "RowName": "SA_Chest_Nutrient_Dispenser"
+          }
+        },
+        {
+          "Name": "SA_Legs_Hydration_Cell",
+          "ItemStaticData": {
+            "RowName": "SA_Legs_Hydration_Cell"
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+      "File_Items": [
+        {
+          "Name": "SA_Head_Oxygen_Recycler",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Glass",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "SA_Head_Oxygen_Recycler",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "SA_Chest_Nutrient_Dispenser",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 4
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "SA_Chest_Nutrient_Dispenser",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "SA_Legs_Hydration_Cell",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Rope",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "SA_Legs_Hydration_Cell",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2843 @@
+{
+  "name": "Armor Attachment Expansion",
+  "author": "AgentKush",
+  "version": "1.0",
+  "description": "v1.0: Adds 25 new craftable armor attachments (5 per body part: Head, Arms, Body, Legs, Feet). All use base-game stat keys so effects stack cleanly with existing talents, food buffs, and other attachments. Craft at the Alteration Bench or Advanced Alteration Bench. Pairs great with Survival_Attachments which doubles available attachment slots.",
+  "fileName": "Armor_Attachment_Expansion",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Armor_Attachment_Expansion.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Armor_Attachment_Expansion/README.md",
+  "week": "All",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Alterations-D_Alterations.json",
+      "File_Items": [
+        {
+          "Name": "AAE_Thermal_Visor",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Thermal_Visor-DisplayName\", \"Thermal Visor\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseExposureResistance_+%\")": 15
+          }
+        },
+        {
+          "Name": "AAE_Hunter_Optics",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Hunter_Optics-DisplayName\", \"Hunter's Optics\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseAttacksCauseHighlightedTarget_%\")": 25
+          }
+        },
+        {
+          "Name": "AAE_Aero_Cowl",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Aero_Cowl-DisplayName\", \"Aero Cowl\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseWindDamageResistance_%\")": 30
+          }
+        },
+        {
+          "Name": "AAE_Target_Painter",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Target_Painter-DisplayName\", \"Target Painter\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseAttacksCauseMarkedTarget_%\")": 25
+          }
+        },
+        {
+          "Name": "AAE_Predator_Mask",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Predator_Mask-DisplayName\", \"Predator Mask\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseAnimalThreatModifier_+%\")": -15
+          }
+        },
+        {
+          "Name": "AAE_Reinforced_Gauntlets",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Reinforced_Gauntlets-DisplayName\", \"Reinforced Gauntlets\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseMeleeDamage_+%\")": 15
+          }
+        },
+        {
+          "Name": "AAE_Quick_Loader",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Quick_Loader-DisplayName\", \"Quick-Loader Rig\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseReloadSpeed_+%\")": 25
+          }
+        },
+        {
+          "Name": "AAE_Strikers_Grip",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Strikers_Grip-DisplayName\", \"Striker's Grip\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseAttackSpeed_+%\")": 10
+          }
+        },
+        {
+          "Name": "AAE_Hemorrhage_Coating",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Hemorrhage_Coating-DisplayName\", \"Hemorrhage Coating\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseAttacksCauseBleed_%\")": 25
+          }
+        },
+        {
+          "Name": "AAE_Artisans_Pads",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Artisans_Pads-DisplayName\", \"Artisan's Pads\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseCraftingSpeed_+%\")": 20
+          }
+        },
+        {
+          "Name": "AAE_Ballistic_Plate",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Ballistic_Plate-DisplayName\", \"Ballistic Plate\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BasePhysicalDamageResistance_+%\")": 15
+          }
+        },
+        {
+          "Name": "AAE_Reactive_Weave",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Reactive_Weave-DisplayName\", \"Reactive Weave\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseMaximumHealth_+%\")": 15
+          }
+        },
+        {
+          "Name": "AAE_Poison_Shielding",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Poison_Shielding-DisplayName\", \"Poison Shielding\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BasePoisonDamageResistance_+%\")": 25
+          }
+        },
+        {
+          "Name": "AAE_Fire_Shielding",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Fire_Shielding-DisplayName\", \"Fire Shielding\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseFireDamageResistance_+%\")": 25
+          }
+        },
+        {
+          "Name": "AAE_Cargo_Harness",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Cargo_Harness-DisplayName\", \"Cargo Harness\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseWeightCapacity_+\")": 20
+          }
+        },
+        {
+          "Name": "AAE_Sprint_Servos",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Sprint_Servos-DisplayName\", \"Sprint Servos\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseMovementSpeed_+%\")": 10
+          }
+        },
+        {
+          "Name": "AAE_Ankle_Braces",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Ankle_Braces-DisplayName\", \"Ankle Braces\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseChanceToResistSprain_%\")": 30
+          }
+        },
+        {
+          "Name": "AAE_Marathon_Circuit",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Marathon_Circuit-DisplayName\", \"Marathon Circuit\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": -20
+          }
+        },
+        {
+          "Name": "AAE_Endurance_Coil",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Endurance_Coil-DisplayName\", \"Endurance Coil\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseStaminaRegen_+%\")": 20
+          }
+        },
+        {
+          "Name": "AAE_Slow_Res_Plating",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Slow_Res_Plating-DisplayName\", \"Slow-Res Plating\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseSlowResistance_%\")": 30
+          }
+        },
+        {
+          "Name": "AAE_Cave_Crawlers",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Cave_Crawlers-DisplayName\", \"Cave Crawlers\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseCaveHealthRegen_+%\")": 15
+          }
+        },
+        {
+          "Name": "AAE_Aqua_Soles",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Aqua_Soles-DisplayName\", \"Aqua Soles\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseSwimSpeed_+%\")": 25
+          }
+        },
+        {
+          "Name": "AAE_Scaler_Grips",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Scaler_Grips-DisplayName\", \"Scaler Grips\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseClimbingSpeed_+%\")": 30
+          }
+        },
+        {
+          "Name": "AAE_Shock_Pads",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Shock_Pads-DisplayName\", \"Shock Pads\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseFallDamageResistance_%\")": 30
+          }
+        },
+        {
+          "Name": "AAE_Homestead_Soles",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"AAE_Homestead_Soles-DisplayName\", \"Homestead Soles\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+          "Stats": {
+            "(Value=\"BaseComfortLevel_+\")": 3
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Attachments-D_IcarusAttachments.json",
+      "File_Items": [
+        {
+          "Name": "AAE_Thermal_Visor",
+          "GrantedAlteration": {
+            "RowName": "AAE_Thermal_Visor"
+          }
+        },
+        {
+          "Name": "AAE_Hunter_Optics",
+          "GrantedAlteration": {
+            "RowName": "AAE_Hunter_Optics"
+          }
+        },
+        {
+          "Name": "AAE_Aero_Cowl",
+          "GrantedAlteration": {
+            "RowName": "AAE_Aero_Cowl"
+          }
+        },
+        {
+          "Name": "AAE_Target_Painter",
+          "GrantedAlteration": {
+            "RowName": "AAE_Target_Painter"
+          }
+        },
+        {
+          "Name": "AAE_Predator_Mask",
+          "GrantedAlteration": {
+            "RowName": "AAE_Predator_Mask"
+          }
+        },
+        {
+          "Name": "AAE_Reinforced_Gauntlets",
+          "GrantedAlteration": {
+            "RowName": "AAE_Reinforced_Gauntlets"
+          }
+        },
+        {
+          "Name": "AAE_Quick_Loader",
+          "GrantedAlteration": {
+            "RowName": "AAE_Quick_Loader"
+          }
+        },
+        {
+          "Name": "AAE_Strikers_Grip",
+          "GrantedAlteration": {
+            "RowName": "AAE_Strikers_Grip"
+          }
+        },
+        {
+          "Name": "AAE_Hemorrhage_Coating",
+          "GrantedAlteration": {
+            "RowName": "AAE_Hemorrhage_Coating"
+          }
+        },
+        {
+          "Name": "AAE_Artisans_Pads",
+          "GrantedAlteration": {
+            "RowName": "AAE_Artisans_Pads"
+          }
+        },
+        {
+          "Name": "AAE_Ballistic_Plate",
+          "GrantedAlteration": {
+            "RowName": "AAE_Ballistic_Plate"
+          }
+        },
+        {
+          "Name": "AAE_Reactive_Weave",
+          "GrantedAlteration": {
+            "RowName": "AAE_Reactive_Weave"
+          }
+        },
+        {
+          "Name": "AAE_Poison_Shielding",
+          "GrantedAlteration": {
+            "RowName": "AAE_Poison_Shielding"
+          }
+        },
+        {
+          "Name": "AAE_Fire_Shielding",
+          "GrantedAlteration": {
+            "RowName": "AAE_Fire_Shielding"
+          }
+        },
+        {
+          "Name": "AAE_Cargo_Harness",
+          "GrantedAlteration": {
+            "RowName": "AAE_Cargo_Harness"
+          }
+        },
+        {
+          "Name": "AAE_Sprint_Servos",
+          "GrantedAlteration": {
+            "RowName": "AAE_Sprint_Servos"
+          }
+        },
+        {
+          "Name": "AAE_Ankle_Braces",
+          "GrantedAlteration": {
+            "RowName": "AAE_Ankle_Braces"
+          }
+        },
+        {
+          "Name": "AAE_Marathon_Circuit",
+          "GrantedAlteration": {
+            "RowName": "AAE_Marathon_Circuit"
+          }
+        },
+        {
+          "Name": "AAE_Endurance_Coil",
+          "GrantedAlteration": {
+            "RowName": "AAE_Endurance_Coil"
+          }
+        },
+        {
+          "Name": "AAE_Slow_Res_Plating",
+          "GrantedAlteration": {
+            "RowName": "AAE_Slow_Res_Plating"
+          }
+        },
+        {
+          "Name": "AAE_Cave_Crawlers",
+          "GrantedAlteration": {
+            "RowName": "AAE_Cave_Crawlers"
+          }
+        },
+        {
+          "Name": "AAE_Aqua_Soles",
+          "GrantedAlteration": {
+            "RowName": "AAE_Aqua_Soles"
+          }
+        },
+        {
+          "Name": "AAE_Scaler_Grips",
+          "GrantedAlteration": {
+            "RowName": "AAE_Scaler_Grips"
+          }
+        },
+        {
+          "Name": "AAE_Shock_Pads",
+          "GrantedAlteration": {
+            "RowName": "AAE_Shock_Pads"
+          }
+        },
+        {
+          "Name": "AAE_Homestead_Soles",
+          "GrantedAlteration": {
+            "RowName": "AAE_Homestead_Soles"
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Traits-D_Itemable.json",
+      "File_Items": [
+        {
+          "Name": "Item_AAE_Thermal_Visor",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Thermal_Visor-DisplayName\", \"Thermal Visor\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Thermal_Visor-Description\", \"A head attachment: Thermal Visor\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Thermal_Visor-FlavorText\", \"Amplifies faint heat signatures through the visor overlay.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Hunter_Optics",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Hunter_Optics-DisplayName\", \"Hunter's Optics\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Hunter_Optics-Description\", \"A head attachment: Hunter's Optics\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Hunter_Optics-FlavorText\", \"Tagged targets remain visible through cover for a short time.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Aero_Cowl",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Aero_Cowl-DisplayName\", \"Aero Cowl\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Aero_Cowl-Description\", \"A head attachment: Aero Cowl\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Aero_Cowl-FlavorText\", \"A streamlined cowl that deflects gale-force winds.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Target_Painter",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Target_Painter-DisplayName\", \"Target Painter\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Target_Painter-Description\", \"A head attachment: Target Painter\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Target_Painter-FlavorText\", \"Marks struck targets so allies can prioritise the threat.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Predator_Mask",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Predator_Mask-DisplayName\", \"Predator Mask\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Predator_Mask-Description\", \"A head attachment: Predator Mask\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Predator_Mask-FlavorText\", \"Masks your profile; predators hesitate before engaging.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Reinforced_Gauntlets",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Reinforced_Gauntlets-DisplayName\", \"Reinforced Gauntlets\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Reinforced_Gauntlets-Description\", \"A arms attachment: Reinforced Gauntlets\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Reinforced_Gauntlets-FlavorText\", \"Dense plating lets you commit harder to every swing.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Quick_Loader",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Quick_Loader-DisplayName\", \"Quick-Loader Rig\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Quick_Loader-Description\", \"A arms attachment: Quick-Loader Rig\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Quick_Loader-FlavorText\", \"Spring-assisted sleeves shave seconds off every reload.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Strikers_Grip",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Strikers_Grip-DisplayName\", \"Striker's Grip\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Strikers_Grip-Description\", \"A arms attachment: Striker's Grip\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Strikers_Grip-FlavorText\", \"Textured grips keep your rhythm tight in rapid exchanges.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Hemorrhage_Coating",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Hemorrhage_Coating-DisplayName\", \"Hemorrhage Coating\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Hemorrhage_Coating-Description\", \"A arms attachment: Hemorrhage Coating\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Hemorrhage_Coating-FlavorText\", \"A serrated edge treatment that worsens open wounds.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Artisans_Pads",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Artisans_Pads-DisplayName\", \"Artisan's Pads\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Artisans_Pads-Description\", \"A arms attachment: Artisan's Pads\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Artisans_Pads-FlavorText\", \"Padded sleeves with embedded tool anchors; you work faster.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Ballistic_Plate",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Ballistic_Plate-DisplayName\", \"Ballistic Plate\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Ballistic_Plate-Description\", \"A body attachment: Ballistic Plate\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Ballistic_Plate-FlavorText\", \"Layered ceramic plate that shrugs off kinetic impact.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Reactive_Weave",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Reactive_Weave-DisplayName\", \"Reactive Weave\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Reactive_Weave-Description\", \"A body attachment: Reactive Weave\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Reactive_Weave-FlavorText\", \"Auto-tensioning weave hardens on impact; raises total health.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Poison_Shielding",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Poison_Shielding-DisplayName\", \"Poison Shielding\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Poison_Shielding-Description\", \"A body attachment: Poison Shielding\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Poison_Shielding-FlavorText\", \"Alchemical lining neutralises venom before it spreads.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Fire_Shielding",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Fire_Shielding-DisplayName\", \"Fire Shielding\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Fire_Shielding-Description\", \"A body attachment: Fire Shielding\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Fire_Shielding-FlavorText\", \"Reflective weave scatters flame and radiant heat.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Cargo_Harness",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Cargo_Harness-DisplayName\", \"Cargo Harness\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Cargo_Harness-Description\", \"A body attachment: Cargo Harness\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Cargo_Harness-FlavorText\", \"Reinforced webbing distributes load across your core.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Sprint_Servos",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Sprint_Servos-DisplayName\", \"Sprint Servos\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Sprint_Servos-Description\", \"A legs attachment: Sprint Servos\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Sprint_Servos-FlavorText\", \"Servo-assisted knee joints give you an extra gear.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Ankle_Braces",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Ankle_Braces-DisplayName\", \"Ankle Braces\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Ankle_Braces-Description\", \"A legs attachment: Ankle Braces\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Ankle_Braces-FlavorText\", \"Carbon-weave braces prevent bad landings from sidelining you.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Marathon_Circuit",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Marathon_Circuit-DisplayName\", \"Marathon Circuit\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Marathon_Circuit-Description\", \"A legs attachment: Marathon Circuit\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Marathon_Circuit-FlavorText\", \"Elastic return mechanism turns every stride into free energy.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Endurance_Coil",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Endurance_Coil-DisplayName\", \"Endurance Coil\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Endurance_Coil-Description\", \"A legs attachment: Endurance Coil\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Endurance_Coil-FlavorText\", \"Compression coils that cycle lactic buildup out of the legs.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Slow_Res_Plating",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Slow_Res_Plating-DisplayName\", \"Slow-Res Plating\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Slow_Res_Plating-Description\", \"A legs attachment: Slow-Res Plating\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Slow_Res_Plating-FlavorText\", \"Hardened greaves that resist the grip of slowing effects.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Cave_Crawlers",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Cave_Crawlers-DisplayName\", \"Cave Crawlers\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Cave_Crawlers-Description\", \"A feet attachment: Cave Crawlers\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Cave_Crawlers-FlavorText\", \"Moisture-wicking boots that speed recovery in damp caves.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Aqua_Soles",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Aqua_Soles-DisplayName\", \"Aqua Soles\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Aqua_Soles-Description\", \"A feet attachment: Aqua Soles\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Aqua_Soles-FlavorText\", \"Finned soles that turn a trudge through water into a glide.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Scaler_Grips",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Scaler_Grips-DisplayName\", \"Scaler Grips\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Scaler_Grips-Description\", \"A feet attachment: Scaler Grips\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Scaler_Grips-FlavorText\", \"Micro-hook treads bite into rock faces, doubling your pace.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Shock_Pads",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Shock_Pads-DisplayName\", \"Shock Pads\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Shock_Pads-Description\", \"A feet attachment: Shock Pads\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Shock_Pads-FlavorText\", \"Gel inserts absorb the worst of long drops and bad landings.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_AAE_Homestead_Soles",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Homestead_Soles-DisplayName\", \"Homestead Soles\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen2.T_ITEM_ATTACHMENT_ChestOxygen2",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Homestead_Soles-Description\", \"A feet attachment: Homestead Soles\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AAE_Homestead_Soles-FlavorText\", \"Sheepskin-lined soles that radiate homestead warmth.\")",
+          "Weight": 1000
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Items-D_ItemsStatic.json",
+      "File_Items": [
+        {
+          "Name": "AAE_Thermal_Visor",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Thermal_Visor"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Thermal_Visor"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Head"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Hunter_Optics",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Hunter_Optics"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Hunter_Optics"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Head"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Aero_Cowl",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Aero_Cowl"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Aero_Cowl"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Head"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Target_Painter",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Target_Painter"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Target_Painter"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Head"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Predator_Mask",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Predator_Mask"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Predator_Mask"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Head"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Reinforced_Gauntlets",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Reinforced_Gauntlets"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Reinforced_Gauntlets"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Arms"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Quick_Loader",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Quick_Loader"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Quick_Loader"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Arms"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Strikers_Grip",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Strikers_Grip"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Strikers_Grip"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Arms"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Hemorrhage_Coating",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Hemorrhage_Coating"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Hemorrhage_Coating"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Arms"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Artisans_Pads",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Artisans_Pads"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Artisans_Pads"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Arms"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Ballistic_Plate",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Ballistic_Plate"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Ballistic_Plate"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Body"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Reactive_Weave",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Reactive_Weave"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Reactive_Weave"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Body"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Poison_Shielding",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Poison_Shielding"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Poison_Shielding"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Body"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Fire_Shielding",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Fire_Shielding"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Fire_Shielding"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Body"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Cargo_Harness",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Cargo_Harness"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Cargo_Harness"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Body"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Sprint_Servos",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Sprint_Servos"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Sprint_Servos"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Legs"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Ankle_Braces",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Ankle_Braces"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Ankle_Braces"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Legs"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Marathon_Circuit",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Marathon_Circuit"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Marathon_Circuit"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Legs"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Endurance_Coil",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Endurance_Coil"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Endurance_Coil"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Legs"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Slow_Res_Plating",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Slow_Res_Plating"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Slow_Res_Plating"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Legs"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Cave_Crawlers",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Cave_Crawlers"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Cave_Crawlers"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Feet"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Aqua_Soles",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Aqua_Soles"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Aqua_Soles"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Feet"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Scaler_Grips",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Scaler_Grips"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Scaler_Grips"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Feet"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Shock_Pads",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Shock_Pads"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Shock_Pads"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Feet"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AAE_Homestead_Soles",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_AAE_Homestead_Soles"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "AAE_Homestead_Soles"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Feet"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Items-D_ItemTemplate.json",
+      "File_Items": [
+        {
+          "Name": "AAE_Thermal_Visor",
+          "ItemStaticData": {
+            "RowName": "AAE_Thermal_Visor"
+          }
+        },
+        {
+          "Name": "AAE_Hunter_Optics",
+          "ItemStaticData": {
+            "RowName": "AAE_Hunter_Optics"
+          }
+        },
+        {
+          "Name": "AAE_Aero_Cowl",
+          "ItemStaticData": {
+            "RowName": "AAE_Aero_Cowl"
+          }
+        },
+        {
+          "Name": "AAE_Target_Painter",
+          "ItemStaticData": {
+            "RowName": "AAE_Target_Painter"
+          }
+        },
+        {
+          "Name": "AAE_Predator_Mask",
+          "ItemStaticData": {
+            "RowName": "AAE_Predator_Mask"
+          }
+        },
+        {
+          "Name": "AAE_Reinforced_Gauntlets",
+          "ItemStaticData": {
+            "RowName": "AAE_Reinforced_Gauntlets"
+          }
+        },
+        {
+          "Name": "AAE_Quick_Loader",
+          "ItemStaticData": {
+            "RowName": "AAE_Quick_Loader"
+          }
+        },
+        {
+          "Name": "AAE_Strikers_Grip",
+          "ItemStaticData": {
+            "RowName": "AAE_Strikers_Grip"
+          }
+        },
+        {
+          "Name": "AAE_Hemorrhage_Coating",
+          "ItemStaticData": {
+            "RowName": "AAE_Hemorrhage_Coating"
+          }
+        },
+        {
+          "Name": "AAE_Artisans_Pads",
+          "ItemStaticData": {
+            "RowName": "AAE_Artisans_Pads"
+          }
+        },
+        {
+          "Name": "AAE_Ballistic_Plate",
+          "ItemStaticData": {
+            "RowName": "AAE_Ballistic_Plate"
+          }
+        },
+        {
+          "Name": "AAE_Reactive_Weave",
+          "ItemStaticData": {
+            "RowName": "AAE_Reactive_Weave"
+          }
+        },
+        {
+          "Name": "AAE_Poison_Shielding",
+          "ItemStaticData": {
+            "RowName": "AAE_Poison_Shielding"
+          }
+        },
+        {
+          "Name": "AAE_Fire_Shielding",
+          "ItemStaticData": {
+            "RowName": "AAE_Fire_Shielding"
+          }
+        },
+        {
+          "Name": "AAE_Cargo_Harness",
+          "ItemStaticData": {
+            "RowName": "AAE_Cargo_Harness"
+          }
+        },
+        {
+          "Name": "AAE_Sprint_Servos",
+          "ItemStaticData": {
+            "RowName": "AAE_Sprint_Servos"
+          }
+        },
+        {
+          "Name": "AAE_Ankle_Braces",
+          "ItemStaticData": {
+            "RowName": "AAE_Ankle_Braces"
+          }
+        },
+        {
+          "Name": "AAE_Marathon_Circuit",
+          "ItemStaticData": {
+            "RowName": "AAE_Marathon_Circuit"
+          }
+        },
+        {
+          "Name": "AAE_Endurance_Coil",
+          "ItemStaticData": {
+            "RowName": "AAE_Endurance_Coil"
+          }
+        },
+        {
+          "Name": "AAE_Slow_Res_Plating",
+          "ItemStaticData": {
+            "RowName": "AAE_Slow_Res_Plating"
+          }
+        },
+        {
+          "Name": "AAE_Cave_Crawlers",
+          "ItemStaticData": {
+            "RowName": "AAE_Cave_Crawlers"
+          }
+        },
+        {
+          "Name": "AAE_Aqua_Soles",
+          "ItemStaticData": {
+            "RowName": "AAE_Aqua_Soles"
+          }
+        },
+        {
+          "Name": "AAE_Scaler_Grips",
+          "ItemStaticData": {
+            "RowName": "AAE_Scaler_Grips"
+          }
+        },
+        {
+          "Name": "AAE_Shock_Pads",
+          "ItemStaticData": {
+            "RowName": "AAE_Shock_Pads"
+          }
+        },
+        {
+          "Name": "AAE_Homestead_Soles",
+          "ItemStaticData": {
+            "RowName": "AAE_Homestead_Soles"
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+      "File_Items": [
+        {
+          "Name": "AAE_Thermal_Visor",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Thermal_Visor",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Hunter_Optics",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Hunter_Optics",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Aero_Cowl",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Aero_Cowl",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Target_Painter",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Target_Painter",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Predator_Mask",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Predator_Mask",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Reinforced_Gauntlets",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Reinforced_Gauntlets",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Quick_Loader",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Quick_Loader",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Strikers_Grip",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Strikers_Grip",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Hemorrhage_Coating",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Hemorrhage_Coating",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Artisans_Pads",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Artisans_Pads",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Ballistic_Plate",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Ballistic_Plate",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Reactive_Weave",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Reactive_Weave",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Poison_Shielding",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Poison_Shielding",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Fire_Shielding",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Fire_Shielding",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Cargo_Harness",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Cargo_Harness",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Sprint_Servos",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Sprint_Servos",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Ankle_Braces",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Ankle_Braces",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Marathon_Circuit",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Marathon_Circuit",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Endurance_Coil",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Endurance_Coil",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Slow_Res_Plating",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Slow_Res_Plating",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Cave_Crawlers",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Cave_Crawlers",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Aqua_Soles",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Aqua_Soles",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Scaler_Grips",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Scaler_Grips",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Shock_Pads",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Shock_Pads",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "AAE_Homestead_Soles",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "AAE_Homestead_Soles",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        }
+      ]
+    }
+  ]
+}
