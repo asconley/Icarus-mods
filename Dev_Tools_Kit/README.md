@@ -51,7 +51,7 @@ All items appear in a new **"Developer Tools"** category in the Workshop.
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 52 |
+| Total Modifications | 47 |
 | Workshop Items Added | 11 |
 | Talent Entries | 11 |
 | Talent Trees | 1 |
@@ -99,7 +99,7 @@ All items appear in a new **"Developer Tools"** category in the Workshop.
 
 | Version | Changes |
 |---------|---------|
-| 1.1.3 | Audited against live game data. Substituted visible meshes for 3 tools that previously used the invisible placeholder mesh (Inspection Tool → Scanner DeepOre, Bug Tool → Beacon Tool, Transform Tool → Building Hammer). Added Debug Target as the 11th dev tool (dummy target for weapon testing, uses its own visible mesh). Fixed Thor's Hammer Focusable reference (Focusable_2H no longer exists in game data → now uses Focusable_Sledge). |
+| 1.1.3 | Audited against live game data. Substituted visible meshes for 3 tools that previously used the invisible placeholder mesh (Inspection Tool → Scanner DeepOre, Bug Tool → Beacon Tool, Transform Tool → Building Hammer). Added Debug Target as the 11th dev tool (dummy target for weapon testing, uses its own visible mesh). Fixed Thor's Hammer Focusable reference (Focusable_2H no longer exists in game data → now uses Focusable_Sledge). Rearranged the Developer Tools workshop tree to a 4-row × 3-column grid so it fits within the Workshop's vertical bounds (scrolls horizontally only). |
 | 1.1.2 | Updated 3 item icons to match current game data: Unobtainable Tool (→ CrateEquipment icon), Test Seed (→ Red Exotic Seed icon), Deployable Dropship (→ Icarus logo icon). |
 | 1.1.1 | Updated 3 item icons to match current game data: Unobtainable Tool (→ CrateEquipment icon), Test Seed (→ Red Exotic Seed icon), Deployable Dropship (→ Icarus logo icon). |
 | 1.1.0 | Fixed: Added Item.Meta tags to existing game dev items (Fireball, Inspection Tool, Bug Tool, Pyromancy Flame, Transform Tool) - now all 10 items appear in Workshop |

@@ -13,7 +13,7 @@ Unlocks 11 hidden developer tools from the workshop including Thor Hammer (fly m
 
 
 Ver 1.1.3
-Audited against live game data. Substituted visible meshes for 3 tools that previously used the invisible placeholder mesh: Inspection Tool (-> Scanner DeepOre), Bug Tool (-> Beacon Tool), Transform Tool (-> Building Hammer). Added Debug Target as the 11th dev tool (dummy target for weapon testing, uses its own visible mesh). Fixed Thor's Hammer Focusable reference (Focusable_2H no longer exists in current game data -> now uses Focusable_Sledge).
+Audited against live game data. Substituted visible meshes for 3 tools that previously used the invisible placeholder mesh: Inspection Tool (-> Scanner DeepOre), Bug Tool (-> Beacon Tool), Transform Tool (-> Building Hammer). Added Debug Target as the 11th dev tool (dummy target for weapon testing, uses its own visible mesh). Fixed Thor's Hammer Focusable reference (Focusable_2H no longer exists in current game data -> now uses Focusable_Sledge). Rearranged the Developer Tools workshop tree to a 4-row by 3-column grid so it fits within the Workshop's vertical bounds (scrolls horizontally only).
 
 Ver 1.1.2
 Updated 3 item icons to match current game data: Unobtainable Tool (-> CrateEquipment icon), Test Seed (-> Red Exotic Seed icon), Deployable Dropship (-> Icarus logo icon).

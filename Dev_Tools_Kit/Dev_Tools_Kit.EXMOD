@@ -2,7 +2,7 @@
   "name": "Dev Tools Kit",
   "author": "AgentKush",
   "version": "1.1.3",
-  "description": "v1.1.3: Substituted visible meshes for 3 tools that previously used the invisible placeholder (Inspection Tool → Scanner mesh, Bug Tool → Beacon mesh, Transform Tool → Building Hammer mesh); added Debug_Target dev dummy (new 11th tool); fixed Thor's Hammer Focusable ref (Focusable_2H → Focusable_Sledge). — Unlocks 10 hidden developer tools from the workshop including Thor Hammer (fly mode), Fireball, Inspection Tool, Transform Tool, Destroy Tool, and more.",
+  "description": "v1.1.3: Substituted visible meshes for 3 tools that previously used the invisible placeholder (Inspection Tool → Scanner mesh, Bug Tool → Beacon mesh, Transform Tool → Building Hammer mesh); added Debug_Target dev dummy (new 11th tool); fixed Thor's Hammer Focusable ref (Focusable_2H → Focusable_Sledge). Rearranged Workshop tree to a 4-row × 3-column grid so it fits within the vertical workshop bounds. — Unlocks 10 hidden developer tools from the workshop including Thor Hammer (fly mode), Fireball, Inspection Tool, Transform Tool, Destroy Tool, and more.",
   "fileName": "Dev_Tools_Kit",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Dev_Tools_Kit.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/README.md",
@@ -739,8 +739,8 @@
             "RowName": "Workshop_DevTools"
           },
           "Position": {
-            "X": 100,
-            "Y": 400
+            "X": 400,
+            "Y": 100
           },
           "Size": {
             "X": 250,
@@ -759,8 +759,8 @@
             "RowName": "Workshop_DevTools"
           },
           "Position": {
-            "X": 100,
-            "Y": 700
+            "X": 400,
+            "Y": 400
           },
           "Size": {
             "X": 250,
@@ -800,7 +800,7 @@
           },
           "Position": {
             "X": 100,
-            "Y": 1300
+            "Y": 700
           },
           "Size": {
             "X": 250,
@@ -819,8 +819,8 @@
             "RowName": "Workshop_DevTools"
           },
           "Position": {
-            "X": 400,
-            "Y": 100
+            "X": 100,
+            "Y": 400
           },
           "Size": {
             "X": 250,
@@ -840,7 +840,7 @@
           },
           "Position": {
             "X": 400,
-            "Y": 400
+            "Y": 1000
           },
           "Size": {
             "X": 250,
@@ -879,8 +879,8 @@
             "RowName": "Workshop_DevTools"
           },
           "Position": {
-            "X": 400,
-            "Y": 1000
+            "X": 700,
+            "Y": 100
           },
           "Size": {
             "X": 250,
@@ -899,8 +899,8 @@
             "RowName": "Workshop_DevTools"
           },
           "Position": {
-            "X": 400,
-            "Y": 1300
+            "X": 700,
+            "Y": 400
           },
           "Size": {
             "X": 250,
@@ -920,7 +920,7 @@
           },
           "Position": {
             "X": 700,
-            "Y": 100
+            "Y": 700
           },
           "Size": {
             "X": 250,
