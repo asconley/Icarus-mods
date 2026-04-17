@@ -1,8 +1,8 @@
 {
   "name": "Dev Tools Kit",
   "author": "AgentKush",
-  "version": "1.1.2",
-  "description": "Unlocks 10 hidden developer tools from the workshop including Thor Hammer (fly mode), Fireball, Inspection Tool, Transform Tool, Destroy Tool, and more.",
+  "version": "1.1.3",
+  "description": "v1.1.3: Substituted visible meshes for 3 tools that previously used the invisible placeholder (Inspection Tool → Scanner mesh, Bug Tool → Beacon mesh, Transform Tool → Building Hammer mesh); added Debug_Target dev dummy (new 11th tool); fixed Thor's Hammer Focusable ref (Focusable_2H → Focusable_Sledge). — Unlocks 10 hidden developer tools from the workshop including Thor Hammer (fly mode), Fireball, Inspection Tool, Transform Tool, Destroy Tool, and more.",
   "fileName": "Dev_Tools_Kit",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Dev_Tools_Kit.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/README.md",
@@ -73,6 +73,13 @@
           "Icon": "/Game/Assets/2DArt/UI/Logos/Icon_Icarus.Icon_Icarus",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Proxy_Dropship-Description\", \"Place your own dropship anywhere!\")",
           "Weight": 50000
+        },
+        {
+          "Name": "Item_Debug_Target",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Debug_Target-DisplayName\", \"Debug Target\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Jackhammer.T_ITEM_Jackhammer",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Debug_Target-Description\", \"Dev target dummy. Deploy to test weapons and effects.\")",
+          "Weight": 10
         }
       ]
     },
@@ -91,7 +98,7 @@
             "RowName": "Item"
           },
           "Focusable": {
-            "RowName": "Focusable_2H"
+            "RowName": "Focusable_Sledge"
           },
           "Highlightable": {
             "RowName": "Generic"
@@ -288,6 +295,9 @@
                 "TagName": "Item.Meta"
               }
             ]
+          },
+          "Meshable": {
+            "RowName": "Mesh_Scanner_DeepOre"
           }
         },
         {
@@ -301,6 +311,9 @@
                 "TagName": "Item.Meta"
               }
             ]
+          },
+          "Meshable": {
+            "RowName": "Mesh_Beacon_Tool"
           }
         },
         {
@@ -325,6 +338,55 @@
               },
               {
                 "TagName": "FieldGuide.BlackList"
+              },
+              {
+                "TagName": "Item.Meta"
+              }
+            ]
+          },
+          "Meshable": {
+            "RowName": "Mesh_Building_Hammer"
+          }
+        },
+        {
+          "Name": "Debug_Target",
+          "Meshable": {
+            "RowName": "Mesh_Debug_Target"
+          },
+          "Itemable": {
+            "RowName": "Item_Debug_Target"
+          },
+          "Interactable": {
+            "RowName": "Deployable"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Deployable"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Deployable": {
+            "RowName": "Debug_Target"
+          },
+          "Durable": {
+            "RowName": "Deployable_2000"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Deployable"
               },
               {
                 "TagName": "Item.Meta"
@@ -365,6 +427,12 @@
           "Name": "Proxy_Dropship",
           "ItemStaticData": {
             "RowName": "Proxy_Dropship"
+          }
+        },
+        {
+          "Name": "Debug_Target",
+          "ItemStaticData": {
+            "RowName": "Debug_Target"
           }
         }
       ]
@@ -611,6 +679,30 @@
               "Amount": 0
             }
           ]
+        },
+        {
+          "Name": "Meta_Debug_Target",
+          "Item": {
+            "RowName": "Debug_Target"
+          },
+          "ResearchCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ],
+          "ReplicationCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ]
         }
       ]
     },
@@ -809,6 +901,26 @@
           "Position": {
             "X": 400,
             "Y": 1300
+          },
+          "Size": {
+            "X": 250,
+            "Y": 250
+          },
+          "bDefaultUnlocked": true,
+          "DrawMethodOverride": "YThenX"
+        },
+        {
+          "Name": "Workshop_Debug_Target",
+          "ExtraData": {
+            "RowName": "Meta_Debug_Target",
+            "DataTableName": "D_WorkshopItems"
+          },
+          "TalentTree": {
+            "RowName": "Workshop_DevTools"
+          },
+          "Position": {
+            "X": 700,
+            "Y": 100
           },
           "Size": {
             "X": 250,

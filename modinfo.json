@@ -39,9 +39,9 @@
     {
       "name": "Dev Tools Kit",
       "author": "AgentKush",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "compatibility": "All",
-      "description": "Unlocks 10 hidden developer tools including Thor's Hammer (fly mode), Transform Tool, Destroy Tool, Inspection Tool, Fireball, Pyromancy Flame, and more. v1.1.2: Fixed broken mesh and actionable references for current game data.",
+      "description": "v1.1.3: Substituted visible meshes for 3 tools that previously used the invisible placeholder (Inspection Tool → Scanner mesh, Bug Tool → Beacon mesh, Transform Tool → Building Hammer mesh); added Debug_Target dev dummy (new 11th tool); fixed Thor's Hammer Focusable ref (Focusable_2H → Focusable_Sledge). — Unlocks 10 hidden developer tools including Thor's Hammer (fly mode), Transform Tool, Destroy Tool, Inspection Tool, Fireball, Pyromancy Flame, and more. v1.1.2: Fixed broken mesh and actionable references for current game data.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Dev_Tools_Kit.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/README.md",
       "files": {
