@@ -2,12 +2,12 @@
 
 # Agents Individual Item Kits
 
-[![Version](https://img.shields.io/badge/v5.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v5.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-2,706 individual item kits with real game icons across 21 categorized workshop tabs. Fair pricing based on complexity (5-300 credits).
+2,683 individual item kits with real game icons across 20 categorized workshop tabs. Fair pricing based on complexity (5-300 credits).
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -17,31 +17,31 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 
 ## Overview
 
-A comprehensive Workshop expansion featuring 2,706 individual item kits, each with its real in-game icon and organized into 21 dedicated workshop tabs. Every kit contains a single item, enabling precise inventory management and eliminating the need to craft items from scratch.
+A comprehensive Workshop expansion featuring 2,683 individual item kits, each with its real in-game icon and organized into 20 dedicated workshop tabs. Every kit contains a single item, enabling precise inventory management and eliminating the need to craft items from scratch.
 
 ## Features
 
-- **2,706 Individual Items** - Every craftable item and raw material available separately
+- **2,683 Individual Items** - Every craftable item and raw material available separately
 - **Real Game Icons** - Each kit displays its actual in-game item icon for easy identification
-- **21 Workshop Tabs** - Items sorted into intuitive categories (Armor, Weapons, Building, Food, etc.)
+- **20 Workshop Tabs** - Items sorted into logical categories (Armor, Weapons, Building, Food, etc.)
+- **Armor Sorted by Slot** - Head → Chest → Arms → Legs → Feet per set for clean mix-and-match
+- **5-Row Grid** - Tighter layout that fits more items on-screen at 1080p
 - **Dynamic Pricing** - Fair costs based on item complexity and rarity (5-300 credits)
-- **Search Optimized** - Find any item instantly through Workshop search
 
 ## Workshop Categories
 
 | Category | Items | Category | Items |
 |----------|-------|----------|-------|
-| Ammo | 114 | Lighting | 15 |
-| Animals & Mounts | 155 | Medicine | 73 |
-| Armor | 209 | Melee Weapons | 38 |
-| Attachments | 134 | Ores & Minerals | 53 |
-| Backpacks & Gear | 32 | Organic & Drops | 41 |
-| Building | 320 | Ranged Weapons | 83 |
-| Explosives | 22 | Refined & Crafted | 98 |
-| Fish | 90 | Shields | 10 |
-| Food & Cooking | 313 | Tools | 171 |
-| Furniture & Storage | 31 | Trophies & Decorations | 573 |
-| Workstations | 131 | | |
+| Raw Resources | 308 | Shields | 10 |
+| Refined Materials | 34 | Armor | 190 |
+| Seeds | 57 | Attachments | 127 |
+| Food | 326 | Tools | 120 |
+| Drinks & Medicine | 47 | Gear | 53 |
+| Melee Weapons | 138 | Building Pieces | 213 |
+| Bows & Crossbows | 24 | Crafting Stations | 126 |
+| Firearms | 23 | Deployables | 427 |
+| Ammunition | 105 | Lighting | 70 |
+| Explosives | 9 | Trophies & Decor | 276 |
 
 ## Pricing Structure
 
@@ -49,27 +49,28 @@ A comprehensive Workshop expansion featuring 2,706 individual item kits, each wi
 |------|--------------|---------------|
 | Basic | 5-10 | Seeds, raw materials, basic ores |
 | Standard | 20-35 | Food, building pieces, ammo, equipment |
-| Advanced | 50-75 | Backpacks, legendary weapons, workshop animals, spacesuits |
+| Advanced | 50-75 | Backpacks, legendary weapons, workshop animals, envirosuits |
 | Premium | 100-300 | Rare materials, high-tier gear, specialized items |
 
 ## Technical Specifications
 
 | Metric | Value |
 |--------|-------|
-| Individual Items | 2,706 |
-| Workshop Category Groups | 21 |
-| Icon Coverage | 100% |
+| Individual Items | 2,683 |
+| Workshop Category Groups | 20 |
+| Icon Coverage | 100% (all icons verified against game data) |
 | Price Range | 5-300 credits |
+| Grid Layout | 5 rows × unlimited columns per category |
 
 ### Files Modified
-- `Items-D_ItemsStatic.json` (2,706 entries)
-- `Traits-D_Itemable.json` (2,706 entries)
-- `Items-D_ItemTemplate.json` (2,706 entries)
-- `Traits-D_Consumable.json` (2,706 entries)
-- `Talents-D_TalentArchetypes.json` (2 entries)
-- `Talents-D_TalentTrees.json` (2 entries)
-- `Talents-D_Talents.json` (2,706 entries)
-- `MetaWorkshop-D_WorkshopItems.json` (2,706 entries)
+- `Items-D_ItemsStatic.json` (2,683 entries)
+- `Traits-D_Itemable.json` (2,683 entries)
+- `Items-D_ItemTemplate.json` (2,683 entries)
+- `Traits-D_Consumable.json` (2,683 entries)
+- `Talents-D_TalentArchetypes.json` (1 entry)
+- `Talents-D_TalentTrees.json` (1 entry)
+- `Talents-D_Talents.json` (2,683 entries)
+- `MetaWorkshop-D_WorkshopItems.json` (2,683 entries)
 
 ## Installation
 
@@ -77,7 +78,7 @@ A comprehensive Workshop expansion featuring 2,706 individual item kits, each wi
 2. Open JimK72's Icarus Mod Manager
 3. Import the mod file
 4. Enable and launch Icarus
-5. Browse the 21 Workshop tabs to find individual items
+5. Browse the 20 Workshop tabs to find individual items
 
 ## Compatibility
 
@@ -90,6 +91,7 @@ A comprehensive Workshop expansion featuring 2,706 individual item kits, each wi
 
 | Version | Changes |
 |---------|---------|
+| 5.1 | Major cleanup and organization pass. Removed 23 dev/cosmetic kits (ExoticsReward, Spacesuit variants, Skin_Head variants) that couldn't spawn correctly. Removed the empty "Agents Individual Items" workshop tab. Re-sorted all 2,683 kits into 20 logical categories. Armor now sorted by slot per set (head → chest → arms → legs → feet) for clean mix-and-match. Seeds grouped together (previously scattered). Grid changed from 4 rows to 5 rows per category. Fixed 13 broken or mismatched icon paths (Polarbear Arm/Leg Armor, Reed/Sugar Cane seed packs, 5 seed variants, Rifle_Assault, Pig_Trophy, Charcoal_From_Wood, Dropship flare). |
 | 5.0 | Added 650 new individual item kits, bringing total to 2,706. New content: full Alloy Armor set, ammo variants (Lithium, Uranium), arrow variants, 41 armor pieces, 45 attachments, 34 medicine & husbandry serums, 29 weapons (bows, spears), 70 tools & scanners, 49 food items, 58 refined resources, 150 decorations & vestiges, 69 Limestone building pieces, 18 workstations. Merged into existing 21 categories with matching pricing tiers. Removed 2 orphaned kits (FlagPole, Wood_Build_HalfNormal) that no longer exist in the game. Layout remains 4 rows per category so all new items fit within borderless 1080p bounds. |
 | 4.1 | Rearranged the workshop grid to 4 rows × unlimited columns per category so kits no longer go off the bottom of the screen in borderless 1080p (the Workshop only scrolls horizontally). Fixed 2055 Item Kit icons that were showing the generic gray crate in inventory - each kit now uses its actual in-game item icon in D_Itemable so the Workshop grid and inventory both show the real icons. Category spacing preserved (21 groups, 900-unit gap between each). |
 | 4.0 | Added real game icons to all 2,056 kits. Organized into 21 categorized workshop tabs (Armor, Weapons, Building, Food, Tools, etc.). Rebuilt talent grid layouts. Zero uncategorized items. |
