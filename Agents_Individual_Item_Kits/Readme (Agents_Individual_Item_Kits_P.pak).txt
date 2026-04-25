@@ -1,6 +1,6 @@
 Agents_Individual_Item_Kits_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.1
+Mod Version: 5.2
 
 Author: AgentKush
 
@@ -9,7 +9,10 @@ Compatible with Icarus: All Weeks
 Mod Type: EXMOD
 
 ## Description:
-2683 individual item kits with real game icons across 20 categorized workshop tabs. Every player-usable game item available as a kit - fairly priced by complexity and rarity. Armor sorted by slot (head -> chest -> arms -> legs -> feet), 5-row grid layout, verified icons.
+2683 individual item kits with real game icons across 20 categorized workshop groups. Every player-usable game item available as a kit - fairly priced by complexity and rarity. Armor sorted by slot (head -> chest -> arms -> legs -> feet), 5-row grid layout, verified icons.
+
+Ver 5.2
+Fixed workshop grid clipping into top sell bar (Y offset shifted from 100 to 250). Re-sorted all 2,683 kits into 20 category groups with box-width spacing between each group for clear visual separation. Categories scroll left to right: Raw Resources, Refined Materials, Seeds, Food, Drinks & Medicine, Melee Weapons, Bows & Crossbows, Firearms, Ammunition, Explosives, Shields, Armor, Attachments, Tools, Gear, Building Pieces, Crafting Stations, Deployables, Lighting, Trophies & Decor.
 
 Ver 5.1
 Major cleanup and organization pass. Removed 23 dev/cosmetic kits (ExoticsReward, Spacesuit variants, Skin_Head variants) that couldn't spawn correctly. Removed the empty "Agents Individual Items" workshop tab. Re-sorted all 2683 kits into 20 logical categories. Armor now sorted by slot per set (head -> chest -> arms -> legs -> feet). Seeds grouped together (previously scattered). Grid changed from 4 rows to 5 rows per category. Fixed 13 broken or mismatched icon paths (Polarbear Arm/Leg Armor, Reed/Sugar Cane seed packs, 5 seed variants, Rifle_Assault, Pig_Trophy, Charcoal_From_Wood, Dropship flare).

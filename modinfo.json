@@ -15,9 +15,9 @@
     {
       "name": "Agents Individual Item Kits",
       "author": "AgentKush",
-      "version": "5.1",
+      "version": "5.2",
       "compatibility": "All",
-      "description": "v5.1: Major cleanup and organization pass. Removed 23 dev/cosmetic kits (ExoticsReward, Spacesuit variants, Skin_Head variants) that couldn't spawn correctly. Removed the empty \"Agents Individual Items\" workshop tab. Re-sorted all 2,683 kits into 20 logical categories. Armor now sorted by slot per set (head -> chest -> arms -> legs -> feet) for clean mix-and-match. Seeds grouped together (previously scattered). Grid changed from 4 rows to 5 rows per category. Fixed 13 broken or mismatched icon paths. Fairly priced by complexity (5-300 credits).",
+      "description": "v5.2: Fixed workshop grid clipping into top sell bar. Re-sorted all 2,683 kits into 20 category groups with box-width spacing between each group. Categories: Raw Resources, Refined Materials, Seeds, Food, Drinks & Medicine, Melee Weapons, Bows & Crossbows, Firearms, Ammunition, Explosives, Shields, Armor, Attachments, Tools, Gear, Building Pieces, Crafting Stations, Deployables, Lighting, Trophies & Decor.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_Individual_Item_Kits.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/README.md",
       "files": {

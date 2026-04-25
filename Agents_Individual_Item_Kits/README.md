@@ -2,7 +2,7 @@
 
 # Agents Individual Item Kits
 
-[![Version](https://img.shields.io/badge/v5.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v5.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -32,16 +32,16 @@ A comprehensive Workshop expansion featuring 2,683 individual item kits, each wi
 
 | Category | Items | Category | Items |
 |----------|-------|----------|-------|
-| Raw Resources | 308 | Shields | 10 |
-| Refined Materials | 34 | Armor | 190 |
-| Seeds | 57 | Attachments | 127 |
-| Food | 326 | Tools | 120 |
-| Drinks & Medicine | 47 | Gear | 53 |
-| Melee Weapons | 138 | Building Pieces | 213 |
-| Bows & Crossbows | 24 | Crafting Stations | 126 |
-| Firearms | 23 | Deployables | 427 |
-| Ammunition | 105 | Lighting | 70 |
-| Explosives | 9 | Trophies & Decor | 276 |
+| Raw Resources | 121 | Shields | 10 |
+| Refined Materials | 70 | Armor | 200 |
+| Seeds | 51 | Attachments | 193 |
+| Food | 318 | Tools | 104 |
+| Drinks & Medicine | 112 | Gear | 28 |
+| Melee Weapons | 99 | Building Pieces | 278 |
+| Bows & Crossbows | 25 | Crafting Stations | 131 |
+| Firearms | 26 | Deployables | 315 |
+| Ammunition | 109 | Lighting | 53 |
+| Explosives | 24 | Trophies & Decor | 416 |
 
 ## Pricing Structure
 
@@ -91,6 +91,7 @@ A comprehensive Workshop expansion featuring 2,683 individual item kits, each wi
 
 | Version | Changes |
 |---------|---------|
+| 5.2 | Fixed workshop grid clipping — items no longer overlap the top sell bar (Y offset shifted from 100 to 250). Re-sorted all 2,683 kits into 20 category groups with box-width spacing between each group for clear visual separation. Categories scroll left to right: Raw Resources → Refined Materials → Seeds → Food → Drinks & Medicine → Melee Weapons → Bows & Crossbows → Firearms → Ammunition → Explosives → Shields → Armor → Attachments → Tools → Gear → Building Pieces → Crafting Stations → Deployables → Lighting → Trophies & Decor. |
 | 5.1 | Major cleanup and organization pass. Removed 23 dev/cosmetic kits (ExoticsReward, Spacesuit variants, Skin_Head variants) that couldn't spawn correctly. Removed the empty "Agents Individual Items" workshop tab. Re-sorted all 2,683 kits into 20 logical categories. Armor now sorted by slot per set (head → chest → arms → legs → feet) for clean mix-and-match. Seeds grouped together (previously scattered). Grid changed from 4 rows to 5 rows per category. Fixed 13 broken or mismatched icon paths (Polarbear Arm/Leg Armor, Reed/Sugar Cane seed packs, 5 seed variants, Rifle_Assault, Pig_Trophy, Charcoal_From_Wood, Dropship flare). |
 | 5.0 | Added 650 new individual item kits, bringing total to 2,706. New content: full Alloy Armor set, ammo variants (Lithium, Uranium), arrow variants, 41 armor pieces, 45 attachments, 34 medicine & husbandry serums, 29 weapons (bows, spears), 70 tools & scanners, 49 food items, 58 refined resources, 150 decorations & vestiges, 69 Limestone building pieces, 18 workstations. Merged into existing 21 categories with matching pricing tiers. Removed 2 orphaned kits (FlagPole, Wood_Build_HalfNormal) that no longer exist in the game. Layout remains 4 rows per category so all new items fit within borderless 1080p bounds. |
 | 4.1 | Rearranged the workshop grid to 4 rows × unlimited columns per category so kits no longer go off the bottom of the screen in borderless 1080p (the Workshop only scrolls horizontally). Fixed 2055 Item Kit icons that were showing the generic gray crate in inventory - each kit now uses its actual in-game item icon in D_Itemable so the Workshop grid and inventory both show the real icons. Category spacing preserved (21 groups, 900-unit gap between each). |
