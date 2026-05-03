@@ -1,0 +1,3147 @@
+{
+  "name": "Resource Repacker",
+  "author": "AgentKush",
+  "version": "1.1",
+  "description": "v1.1: Added 3 DLC kits (Ruby, Uranium Rod, Ren - Dangerous Horizons) and exposed every recipe at all player crafting benches plus handcrafting (Character).\n\nv1.0: Adds 21 crafting recipes that repack raw resources back into unopened UDA resource kits. Recipes mirror the kit's vanilla byproduct (e.g. 100 Titanium_Ore -> 1 Meta_Resource_Pack_Titanium kit), so the mod is neutral - purely logistics, not duplication. Lets you ship raw resources back to space and redeploy them at another base. Pairs with vanilla orbital exchange.",
+  "fileName": "Resource_Repacker",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Resource_Repacker.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Resource_Repacker/README.md",
+  "week": "All",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+      "File_Items": [
+        {
+          "Name": "Meta_Resource_Pack_Wood",
+          "RequiredMillijoules": 2000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 250
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Wood",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Stone",
+          "RequiredMillijoules": 2000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Stone",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 250
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Stone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Dirt",
+          "RequiredMillijoules": 2000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Dirt",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Dirt",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Limestone",
+          "RequiredMillijoules": 2000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Limestone",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Limestone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Sulfur",
+          "RequiredMillijoules": 2000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Sulfur",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Sulfur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Oxite",
+          "RequiredMillijoules": 2000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Oxite",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Oxite",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Silica",
+          "RequiredMillijoules": 2000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Silica",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Silica",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Clay",
+          "RequiredMillijoules": 2000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Clay",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Clay",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Iron",
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Metal_Ore",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Iron",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Copper",
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Copper_Ore",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Copper",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Aluminium",
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Bauxite",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Aluminium",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Gold",
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Gold_Ore",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Gold",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Platinum",
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Platinum_Ore",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Platinum",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Titanium",
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Titanium_Ore",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Titanium",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Lithium",
+          "RequiredMillijoules": 5000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Lithium_Ore",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Lithium",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Scoria",
+          "RequiredMillijoules": 8000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Scoria",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Scoria",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Obsidian",
+          "RequiredMillijoules": 8000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Obsidian",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Obsidian",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Synthetic_Enzymes",
+          "RequiredMillijoules": 8000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Synthetic_Enzymes",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Synthetic_Enzymes",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Ruby",
+          "RequiredMillijoules": 8000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Ruby_Ore",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Ruby",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Uranium_Rod",
+          "RequiredMillijoules": 8000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Uranium_Rod",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Uranium_Rod",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        },
+        {
+          "Name": "Meta_Resource_Pack_Ren",
+          "RequiredMillijoules": 8000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Electric_Armor_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Carpentry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Masonry_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Machining_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fabricator",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Manufacturer",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Chemistry_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Glassworking_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Herbalism_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Medicine_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Animal_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Kitchen_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Trophy_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Rustic_Decorations_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Fishing_Bench_Recipes",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Ren",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Meta_Resource_Pack_Ren",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Fabricator"
+          }
+        }
+      ]
+    }
+  ]
+}

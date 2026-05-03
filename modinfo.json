@@ -482,6 +482,18 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Armor_Attachment_Expansion/Armor_Attachment_Expansion.EXMODZ"
       }
+    },
+    {
+      "name": "Resource Repacker",
+      "author": "AgentKush",
+      "version": "1.1",
+      "compatibility": "All",
+      "description": "Pack raw resources back into unopened UDA kits to ship between bases. 21 neutral-ratio repack recipes (incl. 3 DLC kits) available at every crafting bench and handcrafting.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Resource_Repacker.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Resource_Repacker/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Resource_Repacker/Resource_Repacker.EXMODZ"
+      }
     }
   ]
 }
