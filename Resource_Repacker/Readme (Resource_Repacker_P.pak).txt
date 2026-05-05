@@ -1,6 +1,6 @@
 Resource_Repacker_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.1
+Mod Version: 1.2
 
 Author: AgentKush
 
@@ -40,11 +40,14 @@ DLC (Dangerous Horizons)
   - Uranium Rod Kit  10 Uranium Rod
   - Ren Kit          100 Ren
 
-DLC kits only work if the Dangerous Horizons DLC is installed. The other 18 work for all players.
+DLC kits are feature-gated to Dangerous Horizons - on non-DLC installs the recipes do not register at all, so there are no broken-icon recipes. The DLC requirement is also shown in the kit's tooltip in the crafting bench. The other 18 work for all players.
 
 ## Available At
 Every crafting bench AND handcrafting (player inventory):
   Character (handcrafting), Crafting_Bench, Anvil_Bench (T1/T3/T4), Armor_Bench (T1/Advanced/Electric), Carpentry_Bench (T1/T4), Masonry_Bench (T1/T3/T4), Machining_Bench, Fabricator, Manufacturer, Alteration_Bench (T1/Advanced), Chemistry_Bench, Glassworking_Bench, Herbalism_Bench, Medicine_Bench, Animal_Bench, Butchery_Bench (T1/Advanced), Kitchen_Bench (T1/Advanced), Trophy_Bench, Rustic_Decorations_Bench, Fishing_Bench_Recipes.
+
+Ver 1.2
+Feature-gated DLC recipes (Ruby/Uranium Rod/Ren) using Metadata.RequiredFeatureLevel: DangerousHorizons - they no longer register on non-DLC installs. Fixes broken-icon / no-item-produced issue reported on v1.1. Added DLC requirement note to each DLC kit's tooltip.
 
 Ver 1.1
 Added 3 DLC kit recipes (Ruby, Uranium Rod, Ren) - require Dangerous Horizons. Exposed every recipe at all player crafting benches plus handcrafting (Character).
@@ -54,6 +57,7 @@ Initial release. 18 repack recipes covering Basic, Metal, and Exotic resource ki
 
 ## Files Modified:
   Crafting-D_ProcessorRecipes  (21 entries - repack recipes)
+  Traits-D_Itemable            (3 entries - DLC kit tooltip overrides)
 
 ## Installation:
   1. Install JimK72's Icarus Mod Manager

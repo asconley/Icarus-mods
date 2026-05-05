@@ -2,7 +2,7 @@
 
 # Resource Repacker
 
-[![Version](https://img.shields.io/badge/v1.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -72,7 +72,7 @@ Mine 100 Titanium on Olympus → repack into a Titanium kit at any bench (or in 
 | Uranium Rod Kit | 10 Uranium Rod |
 | Ren Kit | 100 Ren |
 
-> **DLC note:** these three recipes only work if you have the Dangerous Horizons DLC enabled — the kit items live in the DLC content. Players without the DLC may see the recipe but the craft will fail to resolve. The other 18 work for everyone.
+> **DLC note:** these three recipes are feature-gated to **Dangerous Horizons**. On non-DLC installs they don't register at all — no broken-icon recipes, no failed crafts. The DLC requirement is also called out in each kit's tooltip in the crafting bench. The other 18 work for everyone.
 
 ## Available At
 
@@ -98,7 +98,15 @@ If a recipe set exists for a real player crafting bench in vanilla, the recipe i
 2. Import into **Icarus Mod Manager** (JimK72's IMM)
 3. Enable and merge mods as usual
 
+## Known Issue Under Investigation
+
+A user reported that crafted kits go into a "surplus bag" instead of being sent up via the orbital exchange. The mod outputs the same `Meta_Resource_Pack_*` static items the workshop delivers, with the same gameplay tags, so they should pass the `Returnable_Meta_Item` filter. If you can reliably reproduce this, please file an issue with: which kit, which crafting bench you used, and what was in your inventory at send time.
+
 ## Changelog
+
+### v1.2
+- Feature-gated the 3 DLC recipes (Ruby / Uranium Rod / Ren) using `Metadata.RequiredFeatureLevel: DangerousHorizons` — they now don't register on non-DLC installs, fixing the broken-icon / no-item-produced bug reported on v1.1.
+- Added a DLC requirement note to each DLC kit's tooltip (FlavorText line).
 
 ### v1.1
 - Added 3 DLC kit recipes (Ruby, Uranium Rod, Ren) — require Dangerous Horizons
