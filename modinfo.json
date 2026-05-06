@@ -486,13 +486,25 @@
     {
       "name": "Resource Repacker",
       "author": "AgentKush",
-      "version": "1.2",
+      "version": "1.3",
       "compatibility": "All",
-      "description": "Pack raw resources back into unopened UDA kits to ship between bases. 21 neutral-ratio repack recipes (incl. 3 DLC kits, properly feature-gated) at every crafting bench and handcrafting.",
+      "description": "Repack raw resources back into UDA kits. 21 neutral-ratio recipes (incl. 3 DLC kits, properly feature-gated) at every crafting bench and handcrafting. NOTE: orbital sender currently rejects crafted kits - useful for inventory consolidation and teammate sharing.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Resource_Repacker.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Resource_Repacker/README.md",
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Resource_Repacker/Resource_Repacker.EXMODZ"
+      }
+    },
+    {
+      "name": "UDA Terminal Laptop",
+      "author": "AgentKush",
+      "version": "1.1",
+      "compatibility": "All",
+      "description": "A craftable indoor laptop. Press F to open the UDA Workshop, hold F to open the Orbital Deposit. No more walking back to the drop tube. Pure data-table mod - no PAK.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/UDA_Terminal_Laptop.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/UDA_Terminal_Laptop/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/UDA_Terminal_Laptop/UDA_Terminal_Laptop.EXMODZ"
       }
     }
   ]

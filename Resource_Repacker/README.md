@@ -2,7 +2,7 @@
 
 # Resource Repacker
 
-[![Version](https://img.shields.io/badge/v1.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -17,9 +17,9 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 
 ## Why
 
-Unopened resource kits can be sent back to the UDA station and redeployed on any drop. That means raw resources you've already mined are stuck on whatever map you mined them on — unless you can put them back into a kit. This mod adds the missing repack step.
+Repacks raw resources back into the standard UDA kit format. Useful for **consolidating inventory** (200 Titanium Ore = 2 stacks → 2 kits = 2 slots) and **sharing kits with teammates on the same drop**.
 
-Mine 100 Titanium on Olympus → repack into a Titanium kit at any bench (or in your inventory!) → ship up → redeploy on Prometheus / Styx / wherever.
+> **⚠ Known limitation: orbital sender currently rejects crafted kits.** The game's "send to orbit" check apparently does more than tag-matching — workshop-purchased kits go up fine, but freshly crafted ones get routed to a surplus overflow bag with the message *"Some items weren't able to be returned."* The kits are valid items in every other respect (display, decay, stacking, consume-to-open all work). I'm investigating a Blueprint-side workaround for a future release. Until then, treat this mod as **inventory consolidation + teammate sharing**, not orbital logistics.
 
 ## Features
 
@@ -72,7 +72,7 @@ Mine 100 Titanium on Olympus → repack into a Titanium kit at any bench (or in 
 | Uranium Rod Kit | 10 Uranium Rod |
 | Ren Kit | 100 Ren |
 
-> **DLC note:** these three recipes are feature-gated to **Dangerous Horizons**. On non-DLC installs they don't register at all — no broken-icon recipes, no failed crafts. The DLC requirement is also called out in each kit's tooltip in the crafting bench. The other 18 work for everyone.
+> **DLC note:** these three recipes are feature-gated to **Dangerous Horizons** via `Metadata.RequiredFeatureLevel`. On non-DLC installs they don't register at all — no broken-icon recipes, no failed crafts. The other 18 work for everyone. (v1.2 tried to add a DLC mention to the kit tooltips by overriding `D_Itemable`; in practice that wiped the kit's DisplayName + Icon at runtime, so v1.3 removes the override and documents the DLC requirement here only.)
 
 ## Available At
 
@@ -98,15 +98,15 @@ If a recipe set exists for a real player crafting bench in vanilla, the recipe i
 2. Import into **Icarus Mod Manager** (JimK72's IMM)
 3. Enable and merge mods as usual
 
-## Known Issue Under Investigation
-
-A user reported that crafted kits go into a "surplus bag" instead of being sent up via the orbital exchange. The mod outputs the same `Meta_Resource_Pack_*` static items the workshop delivers, with the same gameplay tags, so they should pass the `Returnable_Meta_Item` filter. If you can reliably reproduce this, please file an issue with: which kit, which crafting bench you used, and what was in your inventory at send time.
-
 ## Changelog
 
+### v1.3
+- **Fix**: removed the `D_Itemable` tooltip override that was breaking the DLC kit icons and display names. The EXMOD merge replaces full rows rather than patching fields, and our partial override was wiping the vanilla DisplayName + Icon. DLC requirement is now in this README only.
+- **Docs**: explicitly flagged the orbital-sender limitation in the README (was previously buried in a "known issue" section).
+
 ### v1.2
-- Feature-gated the 3 DLC recipes (Ruby / Uranium Rod / Ren) using `Metadata.RequiredFeatureLevel: DangerousHorizons` — they now don't register on non-DLC installs, fixing the broken-icon / no-item-produced bug reported on v1.1.
-- Added a DLC requirement note to each DLC kit's tooltip (FlavorText line).
+- Feature-gated the 3 DLC recipes (Ruby / Uranium Rod / Ren) using `Metadata.RequiredFeatureLevel: DangerousHorizons` — they don't register on non-DLC installs.
+- Added a DLC requirement note to each DLC kit's tooltip *(removed in v1.3 — see above)*.
 
 ### v1.1
 - Added 3 DLC kit recipes (Ruby, Uranium Rod, Ren) — require Dangerous Horizons

@@ -1,6 +1,6 @@
 Resource_Repacker_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.2
+Mod Version: 1.3
 
 Author: AgentKush
 
@@ -9,7 +9,9 @@ Compatible with Icarus: All Weeks
 Mod Type: EXMOD
 
 ## Description:
-Adds 21 crafting recipes that repack raw resources back into unopened UDA resource kits. Available at every player crafting bench plus handcrafting (player inventory). Recipes mirror the kit's vanilla byproduct (e.g. 100 Titanium_Ore -> 1 Titanium kit), so the mod is purely logistics, not duplication. Lets you ship raw resources back to space and redeploy them at another base.
+Adds 21 crafting recipes that repack raw resources back into UDA resource kits. Available at every player crafting bench plus handcrafting (player inventory). Recipes mirror the kit's vanilla byproduct (e.g. 100 Titanium_Ore -> 1 Titanium kit), so the mod is neutral - purely logistics, not duplication.
+
+KNOWN LIMITATION (v1.0 - v1.3): the game's orbital sender rejects crafted kits and routes them to a surplus overflow bag. Workshop-purchased kits work; crafted ones may not, due to a game-side check on item origin we can't override from data tables. Treat this mod as INVENTORY CONSOLIDATION + TEAMMATE SHARING for now. A Blueprint-side workaround is being investigated.
 
 BASIC RESOURCES
   - Wood Kit       250 Wood
@@ -40,14 +42,17 @@ DLC (Dangerous Horizons)
   - Uranium Rod Kit  10 Uranium Rod
   - Ren Kit          100 Ren
 
-DLC kits are feature-gated to Dangerous Horizons - on non-DLC installs the recipes do not register at all, so there are no broken-icon recipes. The DLC requirement is also shown in the kit's tooltip in the crafting bench. The other 18 work for all players.
+DLC kits are feature-gated to Dangerous Horizons - on non-DLC installs the recipes do not register at all, so there are no broken-icon recipes. The other 18 work for all players. (v1.3 removed the v1.2 tooltip override that was breaking the DLC kit display.)
 
 ## Available At
 Every crafting bench AND handcrafting (player inventory):
   Character (handcrafting), Crafting_Bench, Anvil_Bench (T1/T3/T4), Armor_Bench (T1/Advanced/Electric), Carpentry_Bench (T1/T4), Masonry_Bench (T1/T3/T4), Machining_Bench, Fabricator, Manufacturer, Alteration_Bench (T1/Advanced), Chemistry_Bench, Glassworking_Bench, Herbalism_Bench, Medicine_Bench, Animal_Bench, Butchery_Bench (T1/Advanced), Kitchen_Bench (T1/Advanced), Trophy_Bench, Rustic_Decorations_Bench, Fishing_Bench_Recipes.
 
+Ver 1.3
+Fix: removed the D_Itemable tooltip override that was breaking the DLC kit icons and display names ("Recipe Name" with ICON MISSING). EXMOD merge replaces full rows rather than patching fields, so partial overrides wipe vanilla data. DLC requirement is now in this readme only. Also flagged the orbital-sender limitation explicitly.
+
 Ver 1.2
-Feature-gated DLC recipes (Ruby/Uranium Rod/Ren) using Metadata.RequiredFeatureLevel: DangerousHorizons - they no longer register on non-DLC installs. Fixes broken-icon / no-item-produced issue reported on v1.1. Added DLC requirement note to each DLC kit's tooltip.
+Feature-gated DLC recipes (Ruby/Uranium Rod/Ren) using Metadata.RequiredFeatureLevel: DangerousHorizons - they no longer register on non-DLC installs. Added DLC requirement note to each DLC kit's tooltip (REMOVED in v1.3 - was breaking display).
 
 Ver 1.1
 Added 3 DLC kit recipes (Ruby, Uranium Rod, Ren) - require Dangerous Horizons. Exposed every recipe at all player crafting benches plus handcrafting (Character).
@@ -57,7 +62,6 @@ Initial release. 18 repack recipes covering Basic, Metal, and Exotic resource ki
 
 ## Files Modified:
   Crafting-D_ProcessorRecipes  (21 entries - repack recipes)
-  Traits-D_Itemable            (3 entries - DLC kit tooltip overrides)
 
 ## Installation:
   1. Install JimK72's Icarus Mod Manager

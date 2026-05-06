@@ -1,8 +1,8 @@
 {
   "name": "Resource Repacker",
   "author": "AgentKush",
-  "version": "1.2",
-  "description": "v1.2: Properly feature-gate DLC kit recipes (Ruby/Uranium Rod/Ren) using Metadata.RequiredFeatureLevel so they don't register on non-DLC installs. Adds DLC requirement to the kit tooltips. Fixes broken-icon / no-item-produced issue reported on v1.1.\n\nv1.1: Added 3 DLC kits and exposed every recipe at all player crafting benches plus handcrafting (Character).\n\nv1.0: Adds 21 crafting recipes that repack raw resources back into unopened UDA resource kits. Recipes mirror the kit's vanilla byproduct (e.g. 100 Titanium_Ore -> 1 Meta_Resource_Pack_Titanium kit), so the mod is neutral - purely logistics, not duplication. Lets you ship raw resources back to space and redeploy them at another base. Pairs with vanilla orbital exchange.",
+  "version": "1.3",
+  "description": "v1.3: Removed the D_Itemable tooltip override that was breaking the DLC kit icons and display names (the EXMOD merge replaces full rows rather than patching fields). DLC requirement is now in the README only. Also clarifies the known orbital-return limitation in docs.\n\nv1.2: Feature-gated DLC recipes via Metadata.RequiredFeatureLevel so they don't register on non-DLC installs.\n\nv1.1: Added 3 DLC kits and exposed every recipe at all player crafting benches plus handcrafting (Character).\n\nv1.0: Adds 21 crafting recipes that repack raw resources back into UDA kits. Recipes mirror the kit's vanilla byproduct (e.g. 100 Titanium_Ore -> 1 kit) so they're neutral - purely logistics, not duplication. Useful for consolidating inventory and sharing kits with teammates on the same drop. NOTE: crafted kits may not be accepted by the orbital sender (game-side check on item origin); investigating a Blueprint workaround for a future release.",
   "fileName": "Resource_Repacker",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Resource_Repacker.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Resource_Repacker/README.md",
@@ -3155,35 +3155,6 @@
               "RowName": "DangerousHorizons"
             }
           }
-        }
-      ]
-    },
-    {
-      "CurrentFile": "Traits-D_Itemable.json",
-      "File_Items": [
-        {
-          "Name": "Item_Meta_Resource_Pack_Ruby",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Ruby-DisplayName\", \"UDA Ruby Ore Resource Supply\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ResourcePack/T_ITEM_Resource_Pack_Ruby.T_ITEM_Resource_Pack_Ruby",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Ruby-Description\", \"A collection of 50 ruby collected by another prospector for you. 'CONSUME' to open bundle.\")",
-          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Ruby-FlavorText\", \"Requires Dangerous Horizons DLC. Repackable at any crafting bench (Resource Repacker mod).\")",
-          "Weight": 10000
-        },
-        {
-          "Name": "Item_Meta_Resource_Pack_Uranium_Rod",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Uranium_Rod-DisplayName\", \"UDA Uranium Rod Resource Supply\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ResourcePack/T_ITEM_Resource_Pack_Uranium_Rod.T_ITEM_Resource_Pack_Uranium_Rod",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Uranium_Rod-Description\", \"A collection of 10 Uranium Rods collected by another prospector for you. 'CONSUME' to open bundle.\")",
-          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Uranium_Rod-FlavorText\", \"Requires Dangerous Horizons DLC. Repackable at any crafting bench (Resource Repacker mod).\")",
-          "Weight": 10000
-        },
-        {
-          "Name": "Item_Meta_Resource_Pack_Ren",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Ren-DisplayName\", \"UDA Ren Resource Supply\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ResourcePack/T_ITEM_Resource_Pack_Ren.T_ITEM_Resource_Pack_Ren",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Ren-Description\", \"A collection of 100 Ren collected by another prospector for you. 'CONSUME' to open bundle.\")",
-          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Ren-FlavorText\", \"Requires Dangerous Horizons DLC. Repackable at any crafting bench (Resource Repacker mod).\")",
-          "Weight": 10000
         }
       ]
     }
