@@ -1,6 +1,6 @@
 FastProcessing_All_10x_P.pak
 ----------------------------------------------------------------------
-Mod Version: 4.8
+Mod Version: 5.0
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 All crafting and processing 10x faster. 2171 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.
 
+
+Ver 5.0
+Fixed: Water dropping to negative on dedicated servers when crafting water-consuming recipes (soups, dough, pickled items, geode lamps, tempered glass, etc.). The 500 MJ water floor was lost in the DangerousHorizons recipe rebuild; it is now restored and applied to all 67 water-consuming recipes.
 
 Ver 4.7
 Added 4 new wolf recipes (Carcass_Juvenile_Snow_Wolf, Carcass_Juvenile_Wolf, Fertility_Serum_Wolf, Fertility_Serum_Wolf_Exotic). Total recipes: 2,175.

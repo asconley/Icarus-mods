@@ -1,6 +1,6 @@
 UDA_Terminal_Laptop_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.1
+Mod Version: 1.2
 
 Author: AgentKush
 
@@ -24,6 +24,9 @@ Pairs with Resource_Repacker: mine -> repack at any bench -> walk to laptop -> s
   5 Electronics
   3 Glass
   2 Epoxy
+
+Ver 1.2
+Fix: laptop now actually deploys (placement ghost appears) and Press=Workshop / Hold=Orbital Deposit work. v1.1 used BP_Terminal_C, a lore-note BP that overrides Deployable_Interact and blocked placement. v1.2 uses BP_Deer_Trophy_C (the generic deployable the vanilla collectable laptop uses), which is placeable and honours the data-driven Interactable trait.
 
 Ver 1.1
 Fix: laptop now actually places in the world. v1.0 used BP_Prop_Laptop_A_C which is a static prop and doesn't accept player placement (no preview ghost would appear). v1.1 uses BP_Terminal_C (the vanilla placeable-laptop blueprint) plus the matching mesh and snap/offset values cloned from Collectable_Laptop.

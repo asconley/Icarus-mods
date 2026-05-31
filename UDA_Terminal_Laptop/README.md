@@ -2,7 +2,7 @@
 
 # UDA Terminal Laptop
 
-[![Version](https://img.shields.io/badge/v1.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -62,6 +62,9 @@ v1.0 used `BP_Prop_Laptop_A_C` for the deployable blueprint, but that's a static
 - If you also have **Resource_Repacker** installed, your full base loop becomes: mine → walk to bench → repack → walk to laptop → ship up.
 
 ## Changelog
+
+### v1.2
+- **Fix:** Laptop now actually deploys (the placement ghost appears) and Press=Workshop / Hold=Orbital Deposit fire. v1.1's `BP_Terminal_C` is a lore-note blueprint that overrides `Deployable_Interact`, which blocked the placement preview and the custom interactions. v1.2 uses `BP_Deer_Trophy_C` — the generic deployable the vanilla collectable laptop uses — which is player-placeable and honours the data-driven Interactable trait.
 
 ### v1.1
 - **Fix**: laptop now actually places in the world. v1.0 used `BP_Prop_Laptop_A_C` which is a static prop and doesn't accept player placement (no preview ghost would appear). v1.1 uses `BP_Terminal_C` (the vanilla placeable-laptop blueprint) plus the matching mesh and snap/offset values cloned from `Collectable_Laptop`.

@@ -1,7 +1,7 @@
 {
   "name": "Fast Processing (5x)",
   "author": "AgentKush",
-  "version": "4.9",
+  "version": "5.0",
   "description": "All crafting and processing 5x faster.",
   "fileName": "FastProcessing_All_5x",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_5x.png",
@@ -841,15 +841,15 @@
         },
         {
           "Name": "Dough_Bread",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Dough_Flatbread",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Fire_Extinguisher",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Ore_Meta",
@@ -1185,7 +1185,7 @@
         },
         {
           "Name": "WaterBomb",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Bandage_Heat",
@@ -1597,15 +1597,15 @@
         },
         {
           "Name": "Food_Corn_Soup",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Mushroom_Soup",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Meat_Stew",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Fried_Soy_Beans",
@@ -1625,7 +1625,7 @@
         },
         {
           "Name": "Food_Creamed_Corn",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Animal_Fat",
@@ -1633,7 +1633,7 @@
         },
         {
           "Name": "Pastry",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Fruit_Pie",
@@ -1653,7 +1653,7 @@
         },
         {
           "Name": "Pickled_Carrot",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Hunter_Head_Armor",
@@ -2757,11 +2757,11 @@
         },
         {
           "Name": "Food_Tomato_Soup",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Pickled_Tomato",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Potato_Carrot_Fries",
@@ -3013,7 +3013,7 @@
         },
         {
           "Name": "Food_Rhubarb_Stew",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Fried_Chunky_Vegetables",
@@ -3021,7 +3021,7 @@
         },
         {
           "Name": "Pickled_Avocado",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Strawberry_Jam",
@@ -3197,51 +3197,51 @@
         },
         {
           "Name": "Geode_Lamp_Cut_Copper",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Cut_Gold",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Cut_Oxite",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Burst_Copper",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Burst_Gold",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Burst_Oxite",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Monolith_Copper",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Monolith_Gold",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Monolith_Oxite",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Rock_Copper",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Rock_Gold",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Geode_Lamp_Rock_Oxite",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Fried_Fish_Chunks",
@@ -3249,7 +3249,7 @@
         },
         {
           "Name": "Food_Fish_Chunk_Stew",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Dried_Freshwater_Fillet",
@@ -3269,7 +3269,7 @@
         },
         {
           "Name": "Pickled_Freshwater_Fillet",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Crumbed_Saltwater_Fillet",
@@ -3293,7 +3293,7 @@
         },
         {
           "Name": "Volatile_Substance_3",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Shield_Bone",
@@ -5125,7 +5125,7 @@
         },
         {
           "Name": "Food_Pickled_Eggs",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Food_Big_Breakfast",
@@ -6229,7 +6229,7 @@
         },
         {
           "Name": "Pastry_Butter",
-          "RequiredMillijoules": 0
+          "RequiredMillijoules": 500
         },
         {
           "Name": "Crispy_Bacon_Butter",

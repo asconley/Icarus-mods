@@ -6,6 +6,11 @@ Each release is available as an EXMODZ download from [GitHub Releases](https://g
 
 ---
 
+## 2026-06-01
+
+- **Fast Processing** `v5.0` (5x / 10x / 15x / 25x / Instant) — Fixed water dropping to negative millions on dedicated servers when crafting water-consuming recipes (soups, dough, pickled items, geode lamps, tempered glass, etc.). Restored the 500 MJ water floor — lost when the recipe list was rebuilt for the DangerousHorizons update — and applied it to all 67 water-consuming recipes across every speed variant. (#7)
+- **UDA Terminal Laptop** `v1.2` — Fixed the laptop not placing (no deployment ghost). Switched the deployable blueprint from `BP_Terminal_C` (a lore-note BP that overrode interactions and blocked the placement preview) to `BP_Deer_Trophy_C`, the generic deployable the vanilla collectable laptop uses. (#8)
+
 ## 2026-04-12
 
 - **Workshop Recyclers** `v5.4` — Two recycling machines (Biofuel T3 + Organic T4) plus Incinerator for instant item destruction.
