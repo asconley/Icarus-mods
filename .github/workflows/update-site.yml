@@ -7,15 +7,27 @@ on:
       - '*/*.EXMOD'
       - '*/*.EXMODZ'
       - 'modinfo.json'
-      - 'docs/categories.json'
+      - 'docs/**'
 
   workflow_dispatch:
+
+# Queue Pages deployments instead of cancelling in-progress ones,
+# so every update reaches the live site.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   update-site:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout
@@ -24,11 +36,26 @@ jobs:
       - name: Rebuild site
         run: python3 docs/build.py
 
-      - name: Commit changes
+      - name: Commit rebuilt site back to repo
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/index.html docs/script.js docs/categories.json
-          git diff --cached --quiet && echo "No changes" && exit 0
-          git commit -m "Update site: sync mod data"
-          git push
+          if git diff --cached --quiet; then
+            echo "No site changes to commit"
+          else
+            git commit -m "Update site: sync mod data"
+            git push
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

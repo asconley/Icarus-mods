@@ -152,6 +152,7 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 
 | Version | Changes |
 |---------|---------|
+| 5.7 | **June 2026 update fix.** The Incinerator and Biofuel Recycler stopped placing after the update renamed the meshes they used. Both now point at their correct machine models (Incinerator → electric furnace, Biofuel Recycler → cleaning device). |
 | 5.5 | **Full incinerate coverage.** Added 886 missing recipes (frozen wood, frozen ore, raw ores, food, building pieces, seeds). 3,054 total incinerate recipes — every item in the game. Fixed icon (invalid asset path), mesh (non-existent reference), and tech tree overlap. |
 | 5.4 | **Incinerator fixes:** Fixed missing tech tree icon (invalid asset path), fixed placement issue (non-existent mesh reference), repositioned tech tree nodes to avoid overlap with vanilla T4 Fabricator items. |
 | 5.3 | **New machine: Incinerator.** Electric-powered processor that instantly destroys any item with no output. 2,168 incinerate recipes covering every recyclable/deconstructable item. Crafted at Fabricator/Manufacturer. Unlocked after Organic Recycler. |
