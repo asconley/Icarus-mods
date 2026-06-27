@@ -547,6 +547,7 @@ function openModal(folder) {
     const dl = downloadCounts[folder] || 0;
 
     body.innerHTML = `
+        ${mod.banner ? `<div class="modal-banner"><img loading="lazy" src="${mod.banner}" alt="" width="768" height="256"></div>` : ''}
         <div class="modal-title">${mod.name}</div>
         <span class="modal-version">v${mod.version}</span>
         <div class="modal-category">${CATEGORY_ICONS[mod.category] || ''} ${mod.category}</div>

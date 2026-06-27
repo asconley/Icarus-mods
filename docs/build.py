@@ -109,30 +109,14 @@ def main():
     with open("docs/script.js", "w") as f:
         f.write(js)
 
-    # Update stats in hero section
-    # Match from <div class="stats"> through to the hero-links div (exclusive)
-    stats_html = (
-        '<div class="stats">\n'
-        f'        <div class="stat-box"><div class="number">{total_mods}+</div><div class="label">Mods</div></div>\n'
-        f'        <div class="stat-box"><div class="number">{total_entries:,}+</div><div class="label">Data Entries</div></div>\n'
-        f'        <div class="stat-box"><div class="number">{total_recipes:,}+</div><div class="label">Recipes</div></div>\n'
-        '        <div class="stat-box"><div class="number">100%</div><div class="label">Free</div></div>\n'
-        '    </div>\n\n'
-        '    <div class="hero-links">'
-    )
-    html = re.sub(
-        r'<div class="stats">.*?<div class="hero-links">',
-        stats_html,
-        html,
-        flags=re.DOTALL
-    )
+    # Update hero animated stat counters (data-count drives the count-up)
+    html = re.sub(r'(data-count=")\d+(">0</span><span class="label">Mods)', rf'\g<1>{total_mods}\g<2>', html)
+    html = re.sub(r'(data-count=")\d+(">0</span><span class="label">Data Entries)', rf'\g<1>{total_entries}\g<2>', html)
+    html = re.sub(r'(data-count=")\d+(">0</span><span class="label">Recipes)', rf'\g<1>{total_recipes}\g<2>', html)
 
-    # Update subtitle mod count
-    html = re.sub(
-        r'A collection of \d+\+ mods',
-        f'A collection of {total_mods}+ mods',
-        html
-    )
+    # Update mod-count references in meta / OG / Twitter / JSON-LD
+    html = re.sub(r'\d+\+ Icarus survival game mods', f'{total_mods}+ Icarus survival game mods', html)
+    html = re.sub(r'\d+\+ free mods', f'{total_mods}+ free mods', html)
 
     with open("docs/index.html", "w") as f:
         f.write(html)

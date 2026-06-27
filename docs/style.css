@@ -1,6 +1,6 @@
-/* ══════════════════════════════════════════�?   AgentKush Icarus Mods �?style.css
+/* ══════════════════════════════════════════�?   AgentKush Icarus Mods �?style.css
    Premium dark theme with modern CSS 2025
-   ══════════════════════════════════════════�?*/
+   ══════════════════════════════════════════�?*/
 
 /* --- 0. ANIMATED CUSTOM PROPERTIES (@property) --- */
 @property --glow-angle {
@@ -100,7 +100,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     pointer-events: none;
 }
 
-/* Nebula glows �?radial-gradient (no filter:blur for perf) */
+/* Nebula glows �?radial-gradient (no filter:blur for perf) */
 .nebula {
     position: fixed;
     border-radius: 50%;
@@ -127,7 +127,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     transform: translateY(0);
 }
 
-/* CSS scroll-driven reveal �?progressive enhancement */
+/* CSS scroll-driven reveal �?progressive enhancement */
 @supports (animation-timeline: view()) {
     .mod-card,
     .category,
@@ -605,7 +605,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     contain-intrinsic-size: auto 340px;
 }
 
-/* Top glow line hidden �?left accent border handles the visual weight */
+/* Top glow line hidden �?left accent border handles the visual weight */
 .mod-card::before {
     content: '';
     position: absolute;
@@ -635,7 +635,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     border-color: var(--border-hover);
     box-shadow: 0 12px 40px rgba(30, 48, 72, 0.3);
 }
-/* .mod-card:hover::before removed �?left accent border is always visible */
+/* .mod-card:hover::before removed �?left accent border is always visible */
 
 .mod-card .mod-header {
     display: flex;
@@ -1208,7 +1208,7 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; tex
     .hero::before { width: 100%; }
     .hero-spotlight { display: none; }
 
-    /* Stats �� 2x3 grid on tablet */
+    /* Stats �� 2x3 grid on tablet */
     .stats { gap: 10px; }
     .stat-box { min-width: 120px; padding: 14px 18px; flex: 1 1 calc(33% - 10px); }
     .stat-box .number { font-size: 1.3rem; }
@@ -1224,7 +1224,7 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; tex
     .nav-search { width: 100%; min-width: 0; order: 1; }
     .sort-control { order: 2; width: auto; }
 
-    /* Filter chips �� horizontal scroll strip */
+    /* Filter chips �� horizontal scroll strip */
     .filter-chips {
         display: flex;
         flex-wrap: nowrap;
@@ -1261,7 +1261,7 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; tex
     /* Update banner */
     .update-banner { font-size: 0.78rem; padding: 8px 12px; gap: 8px; }
 
-    /* Nebula �� smaller on tablet */
+    /* Nebula �� smaller on tablet */
     .nebula-1 { width: 500px; height: 500px; }
     .nebula-2 { width: 400px; height: 400px; }
 }
@@ -1274,7 +1274,7 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; tex
     .hero .subtitle { font-size: 0.9rem; margin-bottom: 24px; }
     .hero-badge { font-size: 0.7rem; padding: 5px 12px; margin-bottom: 14px; }
 
-    /* Stats �� 2-column grid on phone */
+    /* Stats �� 2-column grid on phone */
     .stats {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1288,7 +1288,7 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; tex
     /* Center the 5th (odd) stat */
     .stat-box:last-child:nth-child(odd) { grid-column: 1 / -1; max-width: 180px; justify-self: center; }
 
-    /* Hero buttons �� stack vertically */
+    /* Hero buttons �� stack vertically */
     .hero-links {
         flex-direction: column;
         align-items: stretch;
@@ -1309,10 +1309,10 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; tex
     .sort-control select { padding: 10px 28px 10px 10px; font-size: 0.82rem; min-height: 44px; }
     .kbd-hint { display: none; }
 
-    /* Filter chips �� smaller on phone */
+    /* Filter chips �� smaller on phone */
     .chip { padding: 6px 10px; font-size: 0.72rem; min-height: 32px; display: inline-flex; align-items: center; }
 
-    /* Mod cards �� tighter on phone */
+    /* Mod cards �� tighter on phone */
     .mod-card { padding: 16px 14px; }
     .mod-card .mod-name { font-size: 0.95rem; }
     .mod-card .mod-desc { font-size: 0.82rem; margin-bottom: 12px; -webkit-line-clamp: 2; }
@@ -1336,7 +1336,7 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; tex
     .category-count { font-size: 0.68rem; padding: 2px 8px; }
     .category { margin-bottom: 32px; }
 
-    /* Modal �� full-width sheet on phone */
+    /* Modal �� full-width sheet on phone */
     .modal-overlay { align-items: flex-end; }
     .modal-content {
         width: 100%;
@@ -1360,7 +1360,7 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; tex
     .footer-links { gap: 16px; }
     .footer-links a { font-size: 0.8rem; }
 
-    /* Compare bar �� stacked on phone */
+    /* Compare bar �� stacked on phone */
     .compare-bar { font-size: 0.78rem; padding: 10px 12px; }
     .compare-bar button { padding: 8px 14px; font-size: 0.78rem; min-height: 36px; }
 
@@ -1368,10 +1368,10 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; tex
     .changelog-item { padding: 12px 14px; }
     .changelog-name { font-size: 0.85rem; }
 
-    /* Back to top �� bigger touch target */
+    /* Back to top �� bigger touch target */
     .back-to-top { width: 48px; height: 48px; bottom: 16px; right: 16px; font-size: 1.3rem; }
 
-    /* Fav/Compare buttons �� bigger touch targets */
+    /* Fav/Compare buttons �� bigger touch targets */
     .fav-btn, .compare-btn { padding: 4px 8px; font-size: 0.9rem; min-width: 32px; min-height: 32px; }
     /* Hide tooltips on touch */
     .fav-btn::after, .compare-btn::after { display: none; }
@@ -1438,3 +1438,10 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; tex
 .mod-banner::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(to bottom, transparent 48%, rgba(16,26,36,0.5) 82%, var(--bg-card)); }
 .featured-card .mod-banner::after { background: linear-gradient(to bottom, transparent 55%, var(--accent-subtle)); }
 .mod-banner-ph { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 2.6rem; opacity: 0.55; background: radial-gradient(circle at 50% 42%, var(--accent-subtle), transparent 70%); }
+
+/* --- MODAL BANNER + banner image fade-in --- */
+.modal-banner { margin: 0 0 18px; aspect-ratio: 3 / 1; overflow: hidden; border-radius: var(--radius-md); position: relative; background: linear-gradient(135deg, var(--bg-elevated), var(--bg-surface)); }
+.modal-banner img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.modal-banner::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(to bottom, transparent 60%, rgba(16,26,36,0.45)); }
+.mod-banner img, .modal-banner img { animation: banner-in 0.5s ease both; }
+@keyframes banner-in { from { opacity: 0; } to { opacity: 1; } }
