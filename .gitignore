@@ -19,3 +19,8 @@ Performance_Optimizer/PAK_Build/
 /tools/icarus_watcher
 /tools
 .claude/
+
+# Cleanup: backups + build staging
+*.bak
+pak_build/
+.guide_assets/
