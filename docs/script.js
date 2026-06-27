@@ -96,13 +96,16 @@ let activeCategory=null;
 let activeSort='category';
 let downloadCounts={}; // populated by fetchDownloads
 
+// --- CARD BANNER ART ---
+function cardBanner(m){const i=m&&m.banner?`<img loading="lazy" src="${m.banner}" alt="" width="768" height="256">`:`<span class="mod-banner-ph">${(CATEGORY_ICONS[m.category]||'')}</span>`;return `<div class="mod-banner">${i}</div>`;}
+
 // --- FEATURED ---
 function renderFeatured(){
     const s=document.getElementById('featured-section');
     const f=MODS.filter(m=>FEATURED_MODS.includes(m.folder));
     if(!f.length)return;
     let h='<div class="featured-header"><span class="featured-star">⭐</span><h2>Popular Mods</h2><span class="featured-star">⭐</span></div><div class="featured-grid">';
-    f.forEach(m=>{h+=`<div class="featured-card reveal"><div class="featured-badge">Popular</div><div class="mod-name">${m.name}</div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a></div></div>`});
+    f.forEach(m=>{h+=`<div class="featured-card reveal"><div class="featured-badge">Popular</div>${cardBanner(m)}<div class="mod-name">${m.name}</div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a></div></div>`});
     h+='</div>';s.innerHTML=h;
 }
 
@@ -132,7 +135,7 @@ function renderCatalog(mods){
         const cm=categories[cat];if(!cm||!cm.length)continue;
         const icon=CATEGORY_ICONS[cat]||"📁";
         html+=`<div class="category reveal" data-category="${cat}"><div class="category-header"><div class="category-icon">${icon}</div><h2>${cat}</h2><span class="category-count">${cm.length} mods</span></div><div class="mod-grid stagger-children">`;
-        cm.forEach(m=>{html+=`<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}"><div class="mod-header"><span class="mod-name">${m.name}</span><span class="mod-version">v${m.version}</span></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}"></span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`});
+        cm.forEach(m=>{html+=`<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}">${cardBanner(m)}<div class="mod-header"><span class="mod-name">${m.name}</span><span class="mod-version">v${m.version}</span></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}"></span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`});
         html+='</div></div>';
     }
     catalog.innerHTML=html;
@@ -451,7 +454,7 @@ function applySort(sortBy) {
 
     let html = '<div class="mod-grid stagger-children">';
     sorted.forEach(m => {
-        html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}"><div class="mod-header"><span class="mod-name">${m.name}</span><span class="mod-version">v${m.version}</span></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}">${downloadCounts[m.folder] ? downloadCounts[m.folder].toLocaleString() + ' downloads' : ''}</span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
+        html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}">${cardBanner(m)}<div class="mod-header"><span class="mod-name">${m.name}</span><span class="mod-version">v${m.version}</span></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}">${downloadCounts[m.folder] ? downloadCounts[m.folder].toLocaleString() + ' downloads' : ''}</span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
     });
     html += '</div>';
     catalog.innerHTML = html;
@@ -847,7 +850,7 @@ renderCatalog = function(mods) {
         html += `<div class="category reveal" data-category="${cat}"><div class="category-header"><div class="category-icon">${icon}</div><h2>${cat}</h2><span class="category-count">${cm.length} mods</span></div><div class="mod-grid stagger-children">`;
         cm.forEach(m => {
             const faved = isFavorited(m.folder);
-            html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}"><div class="mod-header"><span class="mod-name">${m.name}</span><div class="mod-header-actions"><button class="fav-btn${faved ? ' favorited' : ''}" data-folder="${m.folder}" onclick="toggleFavorite('${m.folder}',event)" aria-label="${faved ? 'Remove from favorites' : 'Add to favorites'}" data-tooltip="${faved ? 'Unfavorite' : 'Favorite'}">♥</button><button class="compare-btn${compareList.includes(m.folder) ? ' comparing' : ''}" data-folder="${m.folder}" onclick="toggleCompare('${m.folder}',event)" aria-label="Compare mods" data-tooltip="Compare">⚖</button><span class="mod-version">v${m.version}</span></div></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}"></span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
+            html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}">${cardBanner(m)}<div class="mod-header"><span class="mod-name">${m.name}</span><div class="mod-header-actions"><button class="fav-btn${faved ? ' favorited' : ''}" data-folder="${m.folder}" onclick="toggleFavorite('${m.folder}',event)" aria-label="${faved ? 'Remove from favorites' : 'Add to favorites'}" data-tooltip="${faved ? 'Unfavorite' : 'Favorite'}">♥</button><button class="compare-btn${compareList.includes(m.folder) ? ' comparing' : ''}" data-folder="${m.folder}" onclick="toggleCompare('${m.folder}',event)" aria-label="Compare mods" data-tooltip="Compare">⚖</button><span class="mod-version">v${m.version}</span></div></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}"></span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
         });
         html += '</div></div>';
     }
@@ -877,7 +880,7 @@ applySort = function(sortBy) {
     let html = '<div class="mod-grid stagger-children">';
     sorted.forEach(m => {
         const faved = isFavorited(m.folder);
-        html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}"><div class="mod-header"><span class="mod-name">${m.name}</span><div class="mod-header-actions"><button class="fav-btn${faved ? ' favorited' : ''}" data-folder="${m.folder}" onclick="toggleFavorite('${m.folder}',event)" aria-label="${faved ? 'Remove from favorites' : 'Add to favorites'}" data-tooltip="${faved ? 'Unfavorite' : 'Favorite'}">♥</button><button class="compare-btn${compareList.includes(m.folder) ? ' comparing' : ''}" data-folder="${m.folder}" onclick="toggleCompare('${m.folder}',event)" aria-label="Compare mods" data-tooltip="Compare">⚖</button><span class="mod-version">v${m.version}</span></div></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}">${downloadCounts[m.folder] ? downloadCounts[m.folder].toLocaleString() + ' downloads' : ''}</span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
+        html += `<div class="mod-card reveal" data-name="${m.name.toLowerCase()}" data-desc="${m.description.toLowerCase()}" data-folder="${m.folder}" data-category="${m.category}">${cardBanner(m)}<div class="mod-header"><span class="mod-name">${m.name}</span><div class="mod-header-actions"><button class="fav-btn${faved ? ' favorited' : ''}" data-folder="${m.folder}" onclick="toggleFavorite('${m.folder}',event)" aria-label="${faved ? 'Remove from favorites' : 'Add to favorites'}" data-tooltip="${faved ? 'Unfavorite' : 'Favorite'}">♥</button><button class="compare-btn${compareList.includes(m.folder) ? ' comparing' : ''}" data-folder="${m.folder}" onclick="toggleCompare('${m.folder}',event)" aria-label="Compare mods" data-tooltip="Compare">⚖</button><span class="mod-version">v${m.version}</span></div></div><div class="mod-meta"><span class="download-count" id="dl-${m.folder}">${downloadCounts[m.folder] ? downloadCounts[m.folder].toLocaleString() + ' downloads' : ''}</span></div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a><a href="${m.release}">Release</a></div></div>`;
     });
     html += '</div>';
     catalog.innerHTML = html;

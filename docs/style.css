@@ -602,7 +602,7 @@ a:hover { color: rgba(var(--accent-rgb), 0.8); }
     transition: box-shadow 0.2s ease-out;
     /* Big perf win: skip rendering off-screen cards */
     content-visibility: auto;
-    contain-intrinsic-size: auto 220px;
+    contain-intrinsic-size: auto 340px;
 }
 
 /* Top glow line hidden â€?left accent border handles the visual weight */
@@ -1428,3 +1428,13 @@ footer p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px; tex
     footer, footer p, footer a { color: #333 !important; }
     a { color: #e87b35; }
 }
+
+
+/* --- MOD CARD BANNER ART --- */
+.mod-card .mod-banner, .featured-card .mod-banner { position: relative; margin: -22px -22px 16px; aspect-ratio: 3 / 1; overflow: hidden; background: linear-gradient(135deg, var(--bg-elevated), var(--bg-surface)); border-bottom: 1px solid var(--border); }
+.featured-card .mod-banner { margin: -22px -22px 14px; }
+.mod-banner img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s cubic-bezier(.2,.7,.2,1), filter 0.4s; filter: saturate(1.05); }
+.mod-card:hover .mod-banner img, .featured-card:hover .mod-banner img { transform: scale(1.06); }
+.mod-banner::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(to bottom, transparent 48%, rgba(16,26,36,0.5) 82%, var(--bg-card)); }
+.featured-card .mod-banner::after { background: linear-gradient(to bottom, transparent 55%, var(--accent-subtle)); }
+.mod-banner-ph { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 2.6rem; opacity: 0.55; background: radial-gradient(circle at 50% 42%, var(--accent-subtle), transparent 70%); }
