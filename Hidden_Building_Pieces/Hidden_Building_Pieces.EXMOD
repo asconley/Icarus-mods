@@ -1,7 +1,7 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "4.3",
+  "version": "4.4",
   "description": "Unlocks hidden building pieces: Wood diagonal/curved, frames, corner stairs, glass stairs, and more.\n\nv4.1 \u2014 Added Interior Wood Floor recipe at Fabricator/Manufacturer (the forgotten floor)\nv4.0 \u2014 Removed Ice_Floor_TrapDoor (broken). 62 hidden pieces, 101 building variations\nv3.0 \u2014 Added 15 new hidden pieces\nv2.0 \u2014 Expanded to 47 pieces + skins\nv1.0 \u2014 Initial release",
   "fileName": "Hidden_Building_Pieces",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
@@ -9,16 +9,6 @@
   "week": "All",
   "Level2": "True",
   "Rows": [
-    {
-      "CurrentFile": "Traits-D_Meshable.json",
-      "File_Items": [
-        {
-          "Name": "Mesh_Generic_Ice",
-          "ItemMesh": "/Game/ASS/KIT/SM_KIT_Stone.SM_KIT_Stone",
-          "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Stone.SM_KIT_Stone"
-        }
-      ]
-    },
     {
       "CurrentFile": "Traits-D_Itemable.json",
       "File_Items": [

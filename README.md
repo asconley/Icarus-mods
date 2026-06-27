@@ -33,7 +33,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [🧬 Agent's BioLab](Agents_BioLab) | `2.0` | All 11 Bio Lab Legendary weapons in the Workshop — includes Sandwyrm Chainsaw |
 | [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `5.1` | 2,683 individual item kits with real game icons — 20 categorized tabs · armor sorted by slot · 5-row layout |
 | [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.7` | 2 recycling machines + Incinerator · 5,340 recipes · Returns processed materials — every item in the game covered |
-| [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.4` | 10 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |
+| [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.5` | 10 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |
 | [👁️ Night Vision Goggles](NightVisionGoggles) | `2.1` | Unlocks hidden NV system — craft at Fabricator/Manufacturer/Machining Bench. No decay, durable, lightweight |
 | [☀️ Solar Panel Expansion](Solar_Panel_Expansion) | `1.1` | All solar panels and solar backpack in a dedicated Workshop tab with fair pricing |
 | [⛏️ Passive Ore Extractor Drills](Passive_Ore_Extractor_Drills) | `7.7` | 23 passive ore extractors — one per ore type · Workshop purchasable · Infinite extraction |
@@ -42,7 +42,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [🧱 Hidden Building Pieces](Hidden_Building_Pieces) | `4.3` | 34 building pieces — frames + diagonal sets for 11+ materials *(corner stairs, stairs & curved pieces now vanilla — removed)* |
+| [🧱 Hidden Building Pieces](Hidden_Building_Pieces) | `4.4` | 34 building pieces — frames + diagonal sets for 11+ materials *(corner stairs, stairs & curved pieces now vanilla — removed)* |
 | [⚡ Extended Wire and Pipe Tool](Extended_Wire_and_Pipe_Tool) | `1.0` | 🔧 10× range on all cables and pipes — power/water/biofuel 60m, crude oil 100m |
 | [📡 Extended Deep Ore Scanner Range](Extended_Deep_Ore_Scanner_Range) | `1.0` | 🔧 10× deep ore scanner detection range — find deep exotic/epic deposits from 3km (was 300m) |
 | [📡 Extended Scanner Range](Extended_Scanner_Range) | `1.0` | 🔧 10× Cave Scanner (3km) + Fish Finder (1.5km) detection range |
