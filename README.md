@@ -1,5 +1,7 @@
 <div align="center">
 
+<a href="https://agentkush.github.io/Icarus-mods/"><img src="docs/og-image.png" alt="AgentKush's Icarus Mods — 53 free mods for Icarus: First Cohort" width="840"></a>
+
 # AgentKush's Icarus Mods
 
 [![Mods](https://img.shields.io/badge/53_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
@@ -15,6 +17,8 @@
 A comprehensive mod collection for **[Icarus: First Cohort](https://store.steampowered.com/app/1149460/Icarus/)**
 
 **[🌐 Browse All Mods on the Web](https://agentkush.github.io/Icarus-mods/)** · Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)** · All DLCs compatible
+
+<a href="Workshop_Recyclers"><img src="Workshop_Recyclers/Banner.png" width="250" alt="Workshop Recyclers"></a> <a href="Turret_Variants"><img src="Turret_Variants/Banner.png" width="250" alt="Turret Variants"></a> <a href="Hunters_Critical_Strike"><img src="Hunters_Critical_Strike/Banner.png" width="250" alt="Hunter's Critical Strike"></a>
 
 ---
 
