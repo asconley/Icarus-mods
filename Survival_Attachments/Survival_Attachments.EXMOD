@@ -1,8 +1,8 @@
 {
   "name": "Survival Attachments",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "v1.0: Adds food, oxygen, and water armor attachments. Doubles attachment slots on every armor piece (Head/Arms/Body/Legs/Feet from 1 to 2). Adds three new craftable attachments at the Alteration Bench: Oxygen Recycler (Head, -25% oxygen drain), Nutrient Dispenser (Body, -25% food drain), Hydration Cell (Legs, -25% water drain).",
+  "version": "1.1",
+  "description": "v1.1: Added Arms (Endurance Brace, -25% stamina use) and Feet (Recovery Treads, +25% stamina regen) survival attachments to fill the previously-empty arms/feet slots. | Doubles armor attachment slots and adds survival attachments.",
   "fileName": "Survival_Attachments",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Survival_Attachments.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Survival_Attachments/README.md",
@@ -98,6 +98,24 @@
           "Stats": {
             "(Value=\"BaseWaterConsumption_+%\")": -25
           }
+        },
+        {
+          "Name": "SA_Arms_Endurance_Brace",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"SA_Arms_Endurance_Brace-DisplayName\", \"Endurance Brace\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ArmsThrowAccuracy.T_ATTACHMENT_ArmsThrowAccuracy",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
+          "Stats": {
+            "(Value=\"BaseStaminaConsumed_+%\")": -25
+          }
+        },
+        {
+          "Name": "SA_Feet_Recovery_Treads",
+          "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"SA_Feet_Recovery_Treads-DisplayName\", \"Recovery Treads\")",
+          "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_PoisonResist.Icon_PoisonResist",
+          "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
+          "Stats": {
+            "(Value=\"BaseStaminaRegen_+%\")": 25
+          }
         }
       ]
     },
@@ -120,6 +138,18 @@
           "Name": "SA_Legs_Hydration_Cell",
           "GrantedAlteration": {
             "RowName": "SA_Legs_Hydration_Cell"
+          }
+        },
+        {
+          "Name": "SA_Arms_Endurance_Brace",
+          "GrantedAlteration": {
+            "RowName": "SA_Arms_Endurance_Brace"
+          }
+        },
+        {
+          "Name": "SA_Feet_Recovery_Treads",
+          "GrantedAlteration": {
+            "RowName": "SA_Feet_Recovery_Treads"
           }
         }
       ]
@@ -149,6 +179,22 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen.T_ITEM_ATTACHMENT_ChestOxygen",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Legs_Hydration_Cell-Description\", \"A legs attachment that decreases Water consumption by 25%.\")",
           "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Legs_Hydration_Cell-FlavorText\", \"Can be equipped to a valid Legs armor piece at an Alteration Bench.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_SA_Arms_Endurance_Brace",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Arms_Endurance_Brace-DisplayName\", \"Endurance Brace\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen.T_ITEM_ATTACHMENT_ChestOxygen",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Arms_Endurance_Brace-Description\", \"An arms attachment that decreases Stamina consumption by 25%.\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Arms_Endurance_Brace-FlavorText\", \"Can be equipped to a valid Arms armor piece at an Alteration Bench.\")",
+          "Weight": 1000
+        },
+        {
+          "Name": "Item_SA_Feet_Recovery_Treads",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Feet_Recovery_Treads-DisplayName\", \"Recovery Treads\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_ATTACHMENT_ChestOxygen.T_ITEM_ATTACHMENT_ChestOxygen",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Feet_Recovery_Treads-Description\", \"A feet attachment that increases Stamina regeneration by 25%.\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_SA_Feet_Recovery_Treads-FlavorText\", \"Can be equipped to a valid Feet armor piece at an Alteration Bench.\")",
           "Weight": 1000
         }
       ]
@@ -251,6 +297,70 @@
               }
             ]
           }
+        },
+        {
+          "Name": "SA_Arms_Endurance_Brace",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_SA_Arms_Endurance_Brace"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "SA_Arms_Endurance_Brace"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Arms"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "SA_Feet_Recovery_Treads",
+          "Meshable": {
+            "RowName": "Mesh_Attachment_Armor"
+          },
+          "Itemable": {
+            "RowName": "Item_SA_Feet_Recovery_Treads"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Attachments": {
+            "RowName": "SA_Feet_Recovery_Treads"
+          },
+          "CraftingExperience": 10,
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Attachment.Rank.1"
+              },
+              {
+                "TagName": "Item.Attachment.Armor.Feet"
+              }
+            ]
+          }
         }
       ]
     },
@@ -273,6 +383,18 @@
           "Name": "SA_Legs_Hydration_Cell",
           "ItemStaticData": {
             "RowName": "SA_Legs_Hydration_Cell"
+          }
+        },
+        {
+          "Name": "SA_Arms_Endurance_Brace",
+          "ItemStaticData": {
+            "RowName": "SA_Arms_Endurance_Brace"
+          }
+        },
+        {
+          "Name": "SA_Feet_Recovery_Treads",
+          "ItemStaticData": {
+            "RowName": "SA_Feet_Recovery_Treads"
           }
         }
       ]
@@ -443,6 +565,122 @@
             {
               "Element": {
                 "RowName": "SA_Legs_Hydration_Cell",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "SA_Arms_Endurance_Brace",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 4
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "SA_Arms_Endurance_Brace",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AlterationsBench"
+          }
+        },
+        {
+          "Name": "SA_Feet_Recovery_Treads",
+          "RequiredMillijoules": 10000,
+          "RecipeSets": [
+            {
+              "RowName": "Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Alteration_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Rope",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "SA_Feet_Recovery_Treads",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,

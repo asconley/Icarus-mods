@@ -1,6 +1,6 @@
 Solar_Panel_Expansion_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.0
+Mod Version: 1.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Adds all solar panels and the solar backpack to a dedicated Workshop tab with fair pricing. Includes Solar Panel, Flat Solar Panel, Lithium variants, and Solar Backpack.
 
+
+Ver 1.1
+Added the Bunker Solar Panel as a 4th workshop kit (the game variant the mod was missing).
 
 Ver 1.0
 Initial release. Added Solar Energy workshop tab. Added 3 solar item kits with fair pricing.

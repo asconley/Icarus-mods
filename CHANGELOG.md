@@ -8,6 +8,8 @@ Each release is available as an EXMODZ download from [GitHub Releases](https://g
 
 ## 2026-06-27
 
+- **Solar Panel Expansion** `v1.1` — Added the Bunker Solar Panel as a 4th workshop kit.
+- **Survival Attachments** `v1.1` — Added Arms (Endurance Brace, -25% stamina use) and Feet (Recovery Treads, +25% stamina regen) attachments for the empty arms/feet slots.
 - **Tier Upgrade Forge** `v1.3` — Added Spear / Shovel / Sickle / Sledgehammer tier-upgrade paths (18 new recipes; previously only Pickaxe/Axe/Knife/Bow/Crossbow).
 - **Ammo Crafting Overhaul** `v1.2` — Added 50x Sniper special-ammo batches (Explosive, Incendiary).
 - **Creature Drop Enhancer** `v1.2` — Doubled drops now cover 15 more creatures (Komodo, Orka, Storca, Slinker, juveniles, tundra fauna).

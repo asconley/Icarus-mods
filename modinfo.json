@@ -401,7 +401,7 @@
     {
       "name": "Solar Panel Expansion",
       "author": "AgentKush",
-      "version": "1.0",
+      "version": "1.1",
       "compatibility": "All",
       "description": "Adds all solar panels and Solar Backpack to a dedicated Solar Energy Workshop tab. Includes Solar Panel Kit, Flat Solar Panel Kit, and Solar Backpack Kit with fair pricing.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Solar_Panel_Expansion.png",
@@ -462,7 +462,7 @@
     {
       "name": "Survival Attachments",
       "author": "AgentKush",
-      "version": "1.0",
+      "version": "1.1",
       "compatibility": "All",
       "description": "Adds food, oxygen, and water armor attachments. Doubles attachment slots on every armor piece (Head/Arms/Body/Legs/Feet from 1 to 2). Three new Alteration Bench recipes: Oxygen Recycler (-25% oxygen), Nutrient Dispenser (-25% food), Hydration Cell (-25% water).",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Survival_Attachments.png",

@@ -1,6 +1,6 @@
 Survival_Attachments_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.0
+Mod Version: 1.1
 
 Author: AgentKush
 
@@ -16,6 +16,9 @@ Adds food, oxygen, and water armor attachments. Doubles attachment slots on ever
   - Hydration Cell (Legs slot)      -25% water consumption
 
 Arms and Feet receive the second slot but no new attachment types - use them for existing base-game attachments (Melee Damage, Tool Use, Fall Resistance, etc.).
+
+Ver 1.1
+Added Arms (Endurance Brace, -25% stamina consumption) and Feet (Recovery Treads, +25% stamina regen) survival attachments, filling the previously-empty arms/feet slots.
 
 Ver 1.0
 Initial release. Added 3 new armor attachments. Doubled StartingSlots from 1 to 2 on all 5 armor container types.

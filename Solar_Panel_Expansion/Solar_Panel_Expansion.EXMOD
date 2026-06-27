@@ -1,8 +1,8 @@
 {
   "name": "Solar Panel Expansion",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "Adds all solar panels and the solar backpack to a dedicated Workshop tab with fair pricing.",
+  "version": "1.1",
+  "description": "v1.1: Added the Bunker Solar Panel as a 4th workshop kit. | Adds all solar panels and the solar backpack to a dedicated Workshop tab with fair pricing.",
   "fileName": "Solar_Panel_Expansion",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Solar_Panel_Expansion.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Solar_Panel_Expansion/README.md",
@@ -217,6 +217,66 @@
             ],
             "ParentTags": []
           }
+        },
+        {
+          "Name": "Agent_Single_Bunker_SolarPanel",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Agent_Single_Bunker_SolarPanel"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Agent_Single_Bunker_SolarPanel"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Consumable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              }
+            ],
+            "ParentTags": []
+          }
         }
       ]
     },
@@ -245,6 +305,14 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Solar_Backpack.T_ITEM_Solar_Backpack",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Solar_Backpack-Description\", \"Contains a Solar Backpack. Use to unpack.\")",
           "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Solar_Backpack-FlavorText\", \"Portable clean energy on the go.\")",
+          "Weight": 100
+        },
+        {
+          "Name": "Item_Agent_Single_Bunker_SolarPanel",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Bunker_SolarPanel-DisplayName\", \"Bunker Solar Panel Kit\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Solar_Panel.ITEM_Solar_Panel",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Bunker_SolarPanel-Description\", \"Contains a Bunker Solar Panel. Use to unpack.\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Bunker_SolarPanel-FlavorText\", \"Harness the power of Icarus' star.\")",
           "Weight": 100
         }
       ]
@@ -287,6 +355,18 @@
               }
             }
           ]
+        },
+        {
+          "Name": "Agent_Single_Bunker_SolarPanel",
+          "ConsumeType": "Meta",
+          "Recipes": [
+            {
+              "ItemReward": {
+                "RowName": "Bunker_SolarPanel",
+                "Num": 1
+              }
+            }
+          ]
         }
       ]
     },
@@ -309,6 +389,12 @@
           "Name": "Agent_Single_Solar_Backpack",
           "ItemStaticData": {
             "RowName": "Agent_Single_Solar_Backpack"
+          }
+        },
+        {
+          "Name": "Agent_Single_Bunker_SolarPanel",
+          "ItemStaticData": {
+            "RowName": "Agent_Single_Bunker_SolarPanel"
           }
         }
       ]
@@ -401,6 +487,30 @@
               "Amount": 150
             }
           ]
+        },
+        {
+          "Name": "Meta_Bunker_SolarPanel",
+          "Item": {
+            "RowName": "Agent_Single_Bunker_SolarPanel"
+          },
+          "ResearchCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 150
+            }
+          ],
+          "ReplicationCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 75
+            }
+          ]
         }
       ]
     },
@@ -455,6 +565,24 @@
           "Position": {
             "X": 100,
             "Y": 700
+          },
+          "Size": {
+            "X": 250,
+            "Y": 250
+          }
+        },
+        {
+          "Name": "Workshop_Bunker_SolarPanel",
+          "ExtraData": {
+            "RowName": "Meta_Bunker_SolarPanel",
+            "DataTableName": "D_WorkshopItems"
+          },
+          "TalentTree": {
+            "RowName": "Workshop_Solar"
+          },
+          "Position": {
+            "X": 100,
+            "Y": 1000
           },
           "Size": {
             "X": 250,

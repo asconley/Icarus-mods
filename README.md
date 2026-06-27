@@ -35,7 +35,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.5` | 2 recycling machines + Incinerator · 5,340 recipes · Returns processed materials — every item in the game covered |
 | [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.3` | 10 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |
 | [👁️ Night Vision Goggles](NightVisionGoggles) | `2.1` | Unlocks hidden NV system — craft at Fabricator/Manufacturer/Machining Bench. No decay, durable, lightweight |
-| [☀️ Solar Panel Expansion](Solar_Panel_Expansion) | `1.0` | All solar panels and solar backpack in a dedicated Workshop tab with fair pricing |
+| [☀️ Solar Panel Expansion](Solar_Panel_Expansion) | `1.1` | All solar panels and solar backpack in a dedicated Workshop tab with fair pricing |
 | [⛏️ Passive Ore Extractor Drills](Passive_Ore_Extractor_Drills) | `7.7` | 23 passive ore extractors — one per ore type · Workshop purchasable · Infinite extraction |
 
 ## 🏗️ Building & Construction
@@ -74,7 +74,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [🪃 Ammo Crafting Overhaul](Ammo_Crafting_Overhaul) | `1.2` | 50× batch crafting for all arrow and bullet types · 8 ammo conversion recipes |
 | [🛡️ Armor Set Bonuses Enhanced](Armor_Set_Bonuses_Enhanced) | `2.0` | 3-piece partial bonuses for mix-and-match builds + boosted 5-piece bonuses across all 33 sets |
 | [🧥 Armor Attachment Expansion](Armor_Attachment_Expansion) | `1.0` | 25 new craftable armor attachments (5 per body part) · stacks with talents · Alteration Bench |
-| [🫁 Survival Attachments](Survival_Attachments) | `1.0` | Food/oxygen/water attachments + doubles attachment slots on every armor piece · 3 new recipes |
+| [🫁 Survival Attachments](Survival_Attachments) | `1.1` | Food/oxygen/water attachments + doubles attachment slots on every armor piece · 3 new recipes |
 
 ## 💰 Economy & Crafting
 
