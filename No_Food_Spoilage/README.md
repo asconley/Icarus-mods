@@ -2,7 +2,7 @@
 
 # No Food Spoilage
 
-[![Version](https://img.shields.io/badge/v2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -28,6 +28,8 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 - Volatile Substance decay also disabled
 
 ## Changelog
+### v2.2 (2026-06-27)
+- Restored coconut ripening (young -> mid -> mature) that the no-spoil change had broken; mature coconuts no longer rot. Fixes #10.
 - **v2.1** - Crash fix: Fixed 134 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 ### v2.0 (2026-03-26)
 - **Fixed composter bug** — Composter recipes were missing from the EXMOD, causing items to sit in the composter without processing ([#2](https://github.com/AgentKush/Icarus-mods/issues/2))

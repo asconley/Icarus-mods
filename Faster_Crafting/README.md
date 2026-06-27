@@ -2,7 +2,7 @@
 
 # Faster Crafting
 
-[![Version](https://img.shields.io/badge/v1.5-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.6-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -32,6 +32,8 @@ Import `Faster_Crafting.EXMODZ` via Icarus Mod Manager.
 
 ## Changelog
 
+### v1.6 (2026-06-27)
+- Reverted the v4.9 over-correction of the Scoria roof corner recipe — the game's recipe name really is the misspelled "Scoria_Bick_Roof_Corner", so the mod now matches it and that recipe gets the speed boost again.
 ### v1.5
 - Fixed typo: `Clay_Bick_Roof_Corner` → `Clay_Brick_Roof_Corner`
 - Fixed typo: `Scoria_Bick_Roof_Corner` → `Scoria_Brick_Roof_Corner`

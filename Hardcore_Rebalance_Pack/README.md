@@ -2,7 +2,7 @@
 
 # Hardcore Rebalance Pack
 
-[![Version](https://img.shields.io/badge/v2.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -142,6 +142,8 @@ For the full hardcore experience and the hardest gameplay possible, install **Cr
 
 ## Changelog
 
+### v2.1 (2026-06-27)
+- Removed 4 stale XP-event references (KillAI / KillSmallAnimal / KillMediumAnimal / Kill_RadiationBoss) that the game replaced with per-creature events.
 ### v2.0 (Tiered Creature Rework)
 
 **Major rework replacing flat creature buffs with a 4-tier scaling system.**

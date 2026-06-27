@@ -1,6 +1,6 @@
 Fish_Farming_Boost_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.1
+Mod Version: 1.2
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Farming and fishing overhaul with 335 changes. Crops grow 2x faster, harvest yields +50%, +2 cultivations per plot, fish spawn rates doubled, fish quality +50%.
 
+
+Ver 1.2
+Growth-state rows now include their StageMesh + feature metadata so crops stay visible when merged with other farming mods (e.g. NoSeedFatigue); fixed the Sugar Cane harvest boost (reward is now Sugar_Cane_Crops). Fixes #9.
 
 Ver 1.1
 Added 55 new farming growth states for DLC plants (Agave, Garlic, Onion, PricklyPear + dead states for all crops).

@@ -1,6 +1,6 @@
 Hardcore_Rebalance_Pack_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.0
+Mod Version: 2.1
 
 Author: AgentKush
 

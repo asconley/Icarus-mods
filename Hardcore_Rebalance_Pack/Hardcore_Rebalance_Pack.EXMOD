@@ -1,8 +1,8 @@
 {
   "name": "Hardcore Rebalance Pack",
   "author": "AgentKush",
-  "version": "2.0",
-  "description": "For survivors who think Icarus is too easy. 4-tier creature scaling, 37 alpha hunters, rebalanced horde waves, deadly weather, harsher survival. 1438 changes across 17 data tables + 2 blueprint overrides.",
+  "version": "2.1",
+  "description": "v2.1: Removed 4 stale XP-event references (KillAI/KillSmallAnimal/KillMediumAnimal/Kill_RadiationBoss) that the game has since replaced with per-creature events. | For survivors who think Icarus is too easy. 4-tier creature scaling, 37 alpha hunters, rebalanced horde waves, deadly weather, harsher survival. 1438 changes across 17 data tables + 2 blueprint overrides.",
   "fileName": "Hardcore_Rebalance_Pack",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/README.md",
@@ -57898,20 +57898,8 @@
           "ExperienceGranted": 4500
         },
         {
-          "Name": "KillAI",
-          "ExperienceGranted": 1500
-        },
-        {
           "Name": "KillFish",
           "ExperienceGranted": 150
-        },
-        {
-          "Name": "KillSmallAnimal",
-          "ExperienceGranted": 750
-        },
-        {
-          "Name": "KillMediumAnimal",
-          "ExperienceGranted": 1500
         },
         {
           "Name": "Kill_Arctic_JuvenileMoa",
@@ -58096,10 +58084,6 @@
         {
           "Name": "Kill_Rabbit_Variant_Snow",
           "ExperienceGranted": 255
-        },
-        {
-          "Name": "Kill_RadiationBoss",
-          "ExperienceGranted": 37500
         },
         {
           "Name": "Kill_Ram",

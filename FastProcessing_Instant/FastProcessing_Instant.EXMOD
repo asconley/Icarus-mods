@@ -1,8 +1,8 @@
 {
   "name": "Fast Processing (Instant)",
   "author": "AgentKush",
-  "version": "5.0",
-  "description": "All crafting and processing instant.",
+  "version": "5.1",
+  "description": "v5.1: Fixed the Scoria brick roof corner recipe so it gets the speed boost (the game's recipe name is misspelled 'Scoria_Bick_Roof_Corner'). | All crafting and processing instant.",
   "fileName": "FastProcessing_Instant",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",
@@ -3760,7 +3760,7 @@
           "RequiredMillijoules": 1
         },
         {
-          "Name": "Scoria_Brick_Roof_Corner",
+          "Name": "Scoria_Bick_Roof_Corner",
           "RequiredMillijoules": 1
         },
         {

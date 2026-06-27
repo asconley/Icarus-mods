@@ -1,8 +1,8 @@
 {
   "name": "Stack Size Overhaul",
   "author": "AgentKush",
-  "version": "1.4",
-  "description": "Increases stack sizes on 1262 items.",
+  "version": "1.5",
+  "description": "v1.5: Removed a stale entry for a test item (Item_Light_Test) that no longer exists in the game. | Increases stack sizes on 1262 items.",
   "fileName": "Stack_Size_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Stack_Size_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/README.md",
@@ -3607,10 +3607,6 @@
         {
           "Name": "Item_Homestead_BarnDoor",
           "MaxStack": 60
-        },
-        {
-          "Name": "Item_Light_Test",
-          "MaxStack": 300
         },
         {
           "Name": "Item_Homestead_PlanterBox_SML",

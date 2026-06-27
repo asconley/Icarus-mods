@@ -1,8 +1,8 @@
 {
   "name": "No Food Spoilage",
   "author": "AgentKush",
-  "version": "2.1",
-  "description": "v2.1: Fixed 134 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Prevents all food spoilage.",
+  "version": "2.2",
+  "description": "v2.2: Restored coconut ripening (young -> mid -> mature) that the no-spoil change had broken; mature coconuts still never rot. | Prevents all food spoilage.",
   "fileName": "No_Food_Spoilage",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/No_Food_Spoilage.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",
@@ -87,19 +87,17 @@
         {
           "Name": "Decay_Coconut_Mid",
           "DecayTime": 600,
-          "SpoilTime": 0,
+          "SpoilTime": 300,
           "SpoiledItem": {
-            "RowName": "None",
-            "DataTableName": "D_ItemTemplate"
+            "RowName": "Coconut_mature"
           }
         },
         {
           "Name": "Decay_Coconut_Young",
           "DecayTime": 600,
-          "SpoilTime": 0,
+          "SpoilTime": 300,
           "SpoiledItem": {
-            "RowName": "None",
-            "DataTableName": "D_ItemTemplate"
+            "RowName": "Coconut_mid"
           }
         },
         {

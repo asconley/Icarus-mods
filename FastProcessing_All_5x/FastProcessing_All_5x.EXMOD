@@ -1,8 +1,8 @@
 {
   "name": "Fast Processing (5x)",
   "author": "AgentKush",
-  "version": "5.0",
-  "description": "All crafting and processing 5x faster.",
+  "version": "5.1",
+  "description": "v5.1: Fixed the Scoria brick roof corner recipe so it gets the speed boost (the game's recipe name is misspelled 'Scoria_Bick_Roof_Corner'). | All crafting and processing 5x faster.",
   "fileName": "FastProcessing_All_5x",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_5x.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/README.md",
@@ -3760,7 +3760,7 @@
           "RequiredMillijoules": 0
         },
         {
-          "Name": "Scoria_Brick_Roof_Corner",
+          "Name": "Scoria_Bick_Roof_Corner",
           "RequiredMillijoules": 0
         },
         {

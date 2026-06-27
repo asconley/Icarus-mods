@@ -1,6 +1,6 @@
 FastProcessing_All_15x_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.0
+Mod Version: 5.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 All crafting and processing 15x faster. 2171 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.
 
+
+Ver 5.1
+Reverted the v4.9 over-correction of the Scoria roof corner recipe — the game's recipe name really is the misspelled "Scoria_Bick_Roof_Corner", so the mod now matches it and that recipe gets the speed boost again.
 
 Ver 5.0
 Fixed: Water dropping to negative on dedicated servers when crafting water-consuming recipes (soups, dough, pickled items, geode lamps, tempered glass, etc.). The 500 MJ water floor was lost in the DangerousHorizons recipe rebuild; it is now restored and applied to all 67 water-consuming recipes.

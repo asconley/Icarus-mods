@@ -99,7 +99,7 @@
     {
       "name": "Fast Processing (5x)",
       "author": "AgentKush",
-      "version": "5.0",
+      "version": "5.1",
       "compatibility": "All",
       "description": "All crafting and processing 5x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_5x.png",
@@ -111,7 +111,7 @@
     {
       "name": "Fast Processing (10x)",
       "author": "AgentKush",
-      "version": "5.0",
+      "version": "5.1",
       "compatibility": "All",
       "description": "All crafting and processing 10x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_10x.png",
@@ -123,7 +123,7 @@
     {
       "name": "Fast Processing (15x)",
       "author": "AgentKush",
-      "version": "5.0",
+      "version": "5.1",
       "compatibility": "All",
       "description": "All crafting and processing 15x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_15x.png",
@@ -135,7 +135,7 @@
     {
       "name": "Fast Processing (25x)",
       "author": "AgentKush",
-      "version": "5.0",
+      "version": "5.1",
       "compatibility": "All",
       "description": "All crafting and processing 25x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_25x.png",
@@ -147,7 +147,7 @@
     {
       "name": "Fast Processing (Instant)",
       "author": "AgentKush",
-      "version": "5.0",
+      "version": "5.1",
       "compatibility": "All",
       "description": "All crafting and processing instant. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
@@ -159,7 +159,7 @@
     {
       "name": "Faster Crafting",
       "author": "AgentKush",
-      "version": "1.5",
+      "version": "1.6",
       "compatibility": "All",
       "description": "Halves crafting time on 2175 recipes across all workbenches. Minimum 500 MJ for water recipes. v1.4: Version bump for latest game update.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Faster_Crafting.png",
@@ -256,7 +256,7 @@
     {
       "name": "No Food Spoilage",
       "author": "AgentKush",
-      "version": "2.1",
+      "version": "2.2",
       "compatibility": "All",
       "description": "Prevents all food spoilage. 33 decayable entries + 134 composter recipes. Items decay/despawn normally but never convert to spoiled versions. v2.0: Added 134 composter recipes for raw meats, fish, dairy, vegetables, fruits, and bait.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/No_Food_Spoilage.png",
@@ -292,7 +292,7 @@
     {
       "name": "Stack Size Overhaul",
       "author": "AgentKush",
-      "version": "1.4",
+      "version": "1.5",
       "compatibility": "All",
       "description": "Increases stack sizes on 1,258 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. v1.3: Added Gruel stack size (300).",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Stack_Size_Overhaul.png",
@@ -316,7 +316,7 @@
     {
       "name": "Fish and Farming Boost",
       "author": "AgentKush",
-      "version": "1.1",
+      "version": "1.2",
       "compatibility": "All",
       "description": "390 changes: crops grow 2x faster across 211 growth states, harvests +50%, +2 cultivations, 57 fish spawn zones doubled, fish quality +50%.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Fish_Farming_Boost.png",
@@ -376,7 +376,7 @@
     {
       "name": "Hardcore Rebalance Pack",
       "author": "AgentKush",
-      "version": "2.0",
+      "version": "2.1",
       "compatibility": "All",
       "description": "For survivors who think Icarus is too easy. v2.0: Tiered creature scaling - Forest +75% HP/+40% Melee (23), Mid-Tier +125%/+60% (37), Hard Biome +200%/+90% (42), Boss/Alpha +300%/+120% (12). Epic creatures tiered (250-500% HP). Horde waves ramp Level 30-75. Weather damage -20%, food buffs +25%. 1438 changes across 17 data tables + 2 blueprint overrides.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",

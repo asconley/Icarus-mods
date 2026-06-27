@@ -2,7 +2,7 @@
 
 # Fish and Farming Boost
 
-[![Version](https://img.shields.io/badge/v1.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -51,6 +51,8 @@ Import `Fish_Farming_Boost.EXMODZ` via Icarus Mod Manager.
 
 ## Changelog
 
+### v1.2 (2026-06-27)
+- Growth-state rows now include their StageMesh + feature metadata so crops stay visible when merged with other farming mods (e.g. NoSeedFatigue); fixed the Sugar Cane harvest boost (reward is now Sugar_Cane_Crops). Fixes #9.
 ### v1.1
 - Added 55 new farming growth states for DLC plants (Agave, Garlic, Onion, PricklyPear + dead states for all crops)
 

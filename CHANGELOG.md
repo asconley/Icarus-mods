@@ -6,6 +6,15 @@ Each release is available as an EXMODZ download from [GitHub Releases](https://g
 
 ---
 
+## 2026-06-27
+
+- **No Food Spoilage** `v2.2` — Restored coconut ripening (young -> mid -> mature) broken by the no-spoil change; mature coconuts no longer rot. (#10)
+- **Fish and Farming Boost** `v1.2` — Growth-state rows now carry their StageMesh so crops stay visible when merged with other farming mods (NoSeedFatigue conflict); fixed the Sugar Cane harvest reward name (Sugar_Cane_Crops). (#9)
+- **Fast Processing** `v5.1` (5x / 10x / 15x / 25x / Instant) — Reverted the v4.9 over-correction of the Scoria roof corner recipe — the game's recipe name really is the misspelled "Scoria_Bick_Roof_Corner", so the mod now matches it and that recipe gets the speed boost again.
+- **Faster Crafting** `v1.6` — Reverted the v4.9 over-correction of the Scoria roof corner recipe — the game's recipe name really is the misspelled "Scoria_Bick_Roof_Corner", so the mod now matches it and that recipe gets the speed boost again.
+- **Stack Size Overhaul** `v1.5` — Removed a stale test-item entry (Item_Light_Test) no longer in the game.
+- **Hardcore Rebalance Pack** `v2.1` — Removed 4 stale XP-event references replaced by per-creature events.
+
 ## 2026-06-01
 
 - **Fast Processing** `v5.0` (5x / 10x / 15x / 25x / Instant) — Fixed water dropping to negative millions on dedicated servers when crafting water-consuming recipes (soups, dough, pickled items, geode lamps, tempered glass, etc.). Restored the 500 MJ water floor — lost when the recipe list was rebuilt for the DangerousHorizons update — and applied it to all 67 water-consuming recipes across every speed variant. (#7)

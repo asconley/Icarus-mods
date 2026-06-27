@@ -1,6 +1,6 @@
 No_Food_Spoilage_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.0
+Mod Version: 2.2
 
 Author: AgentKush
 
@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Prevents all food spoilage. Items decay/despawn but never convert to spoiled versions. Covers all 33 decayable entries. Includes composter recipes so raw meats, fish, dairy, vegetables, and fruits can still be manually composted.
 
 
+
+Ver 2.2
+Restored coconut ripening (young -> mid -> mature) that the no-spoil change had broken; mature coconuts no longer rot. Fixes #10.
 
 Ver 2.1
 Crash fix: Fixed 134 recipe outputs from D_ItemsStatic to D_ItemTemplate. Prevents EXCEPTION_ACCESS_VIOLATION when opening crafting stations.
