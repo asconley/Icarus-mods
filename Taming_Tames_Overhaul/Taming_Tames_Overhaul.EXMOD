@@ -1,0 +1,196 @@
+{
+  "name": "Taming & Tames Overhaul",
+  "author": "AgentKush",
+  "version": "1.0",
+  "description": "v1.0: Faster taming (3x), faster breeding (2x gestation + double juvenile chance), easier upkeep (half taming food), and faster tame growth (3x Well-Fed XP). Covers all 29 tameable creatures.",
+  "fileName": "Taming_Tames_Overhaul",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Taming_Tames_Overhaul.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Taming_Tames_Overhaul/README.md",
+  "week": "All",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "AI-D_Tames.json",
+      "File_Items": [
+        {
+          "Name": "Moa",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 1500,
+          "PercentChanceToSpawnJuvenile": 100,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Buffalo",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 1500,
+          "PercentChanceToSpawnJuvenile": 100,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Horse",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 1500,
+          "PercentChanceToSpawnJuvenile": 100,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Tusker",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 1500,
+          "PercentChanceToSpawnJuvenile": 60,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Forest_Wolf",
+          "TameDurationInSeconds": 200,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Snow_Wolf",
+          "TameDurationInSeconds": 200,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Desert_Wolf",
+          "TameDurationInSeconds": 200,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Blueback",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 1500
+        },
+        {
+          "Name": "Blueback_Lava",
+          "TameDurationInSeconds": 300
+        },
+        {
+          "Name": "Wild_Boar",
+          "TameDurationInSeconds": 200,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Dog",
+          "TameDurationInSeconds": 200,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Cat",
+          "TameDurationInSeconds": 200,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "ArcticMoa",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 1500,
+          "PercentChanceToSpawnJuvenile": 100,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Calf",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 1750,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Chick",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 500,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Chick1",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 500,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Chick2",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 500,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Lamb",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 1000,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "WoolyZebra",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 1000,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "SwampBird",
+          "TameDurationInSeconds": 300,
+          "GestationPeriodSeconds": 1500,
+          "PercentChanceToSpawnJuvenile": 100,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Raptor_Desert",
+          "TameDurationInSeconds": 600,
+          "GestationPeriodSeconds": 1000,
+          "PercentChanceToSpawnJuvenile": 20
+        },
+        {
+          "Name": "Raptor_Geothermal",
+          "TameDurationInSeconds": 600,
+          "GestationPeriodSeconds": 1000,
+          "PercentChanceToSpawnJuvenile": 20
+        },
+        {
+          "Name": "Chew",
+          "TameDurationInSeconds": 400,
+          "GestationPeriodSeconds": 1500,
+          "PercentChanceToSpawnJuvenile": 30
+        },
+        {
+          "Name": "Slinker",
+          "TameDurationInSeconds": 600,
+          "GestationPeriodSeconds": 1000,
+          "PercentChanceToSpawnJuvenile": 20,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Orka",
+          "TameDurationInSeconds": 200,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Storca",
+          "TameDurationInSeconds": 200,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Tundra_Monkey",
+          "TameDurationInSeconds": 200,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "WoollyMammoth",
+          "TameDurationInSeconds": 600,
+          "GestationPeriodSeconds": 1500,
+          "PercentChanceToSpawnJuvenile": 50,
+          "DesiredNutritionPercentage": 12
+        },
+        {
+          "Name": "Piglet",
+          "TameDurationInSeconds": 600,
+          "PercentChanceToSpawnJuvenile": 20
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Experience-D_ExperienceEvents.json",
+      "File_Items": [
+        {
+          "Name": "Tame_Fed",
+          "ExperienceGranted": 90
+        }
+      ]
+    }
+  ]
+}

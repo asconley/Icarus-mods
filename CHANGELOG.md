@@ -8,6 +8,7 @@ Each release is available as an EXMODZ download from [GitHub Releases](https://g
 
 ## 2026-06-27
 
+- **Taming & Tames Overhaul** `v1.0` — NEW MOD. 3x faster taming, 2x faster breeding (+ double juvenile chance), half taming food, and 3x tame-growth XP across all 29 tameable creatures.
 - **Solar Panel Expansion** `v1.1` — Added the Bunker Solar Panel as a 4th workshop kit.
 - **Survival Attachments** `v1.1` — Added Arms (Endurance Brace, -25% stamina use) and Feet (Recovery Treads, +25% stamina regen) attachments for the empty arms/feet slots.
 - **Tier Upgrade Forge** `v1.3` — Added Spear / Shovel / Sickle / Sledgehammer tier-upgrade paths (18 new recipes; previously only Pickaxe/Axe/Knife/Bow/Crossbow).

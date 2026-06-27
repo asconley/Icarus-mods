@@ -506,6 +506,18 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/UDA_Terminal_Laptop/UDA_Terminal_Laptop.EXMODZ"
       }
+    },
+    {
+      "name": "Taming & Tames Overhaul",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Faster taming (3x), faster breeding (2x gestation + double juvenile chance), easier taming upkeep, and 3x tame-growth XP across all 29 tameable creatures. No combat-stat changes.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Taming_Tames_Overhaul.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Taming_Tames_Overhaul/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Taming_Tames_Overhaul/Taming_Tames_Overhaul.EXMODZ"
+      }
     }
   ]
 }
