@@ -33,6 +33,7 @@ Import `Stack_Size_Overhaul.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
 
+- **v1.5** - Removed a stale test-item entry (Item_Light_Test) that no longer exists in the game.
 - **v1.4** - Added 6 new Limestone building pieces (curved walls, diagonal sets, advanced beams). Removed 2 dead refs (Item_Wood_Build_HalfNormal, Item_Wood_Build_HalfPitch). Total: 1,262
 - **v1.1** - Added 36 new DLC items: Agave, Garlic, Onion, PricklyPear foods + trophies
 - **v1.0** - Initial release, 1,232 items modified

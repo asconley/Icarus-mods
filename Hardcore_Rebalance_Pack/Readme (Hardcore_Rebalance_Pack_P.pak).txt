@@ -104,6 +104,7 @@ Requires JimK72's Icarus Mod Manager: https://github.com/Jimk72/Icarus_Software
   3. Import via Mod Manager
 
 ## Changelog:
+  v2.1 - Removed 4 stale XP-event references (KillAI/KillSmallAnimal/KillMediumAnimal/Kill_RadiationBoss) that the game replaced with per-creature events.
   v2.0 - Tiered creature scaling (4 tiers), rebalanced horde waves,
          epic creatures tiered, weather -20%, food buffs +25%
   v1.18 - NPC HP via D_AIGrowth per-creature, 114 hostile creatures
