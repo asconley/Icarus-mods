@@ -1,6 +1,6 @@
 Turret_Variants_P.pak
 ----------------------------------------------------------------------
-Mod Version: 3.0
+Mod Version: 3.3
 
 Author: AgentKush
 
@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Adds 15 new automated turret variants with unique characteristics. v3.0: LOS fix PAK + proper ammo type matching (arrows, bolts, javelins, stones, biofuel) + tighter targeting.
 
 
+
+Ver 3.3
+Fixed all 15 turret meshes for the June 2026 update - each turret now uses its real pistol/rifle/shotgun/flamethrower turret model.
 
 Ver 3.1
 Crash fix: Fixed 15 recipe outputs from D_ItemsStatic to D_ItemTemplate. Prevents EXCEPTION_ACCESS_VIOLATION when opening crafting stations.

@@ -1,6 +1,6 @@
 UDA_Terminal_Laptop_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.2
+Mod Version: 1.4
 
 Author: AgentKush
 
@@ -24,6 +24,9 @@ Pairs with Resource_Repacker: mine -> repack at any bench -> walk to laptop -> s
   5 Electronics
   3 Glass
   2 Epoxy
+
+Ver 1.4
+Fixed the laptop mesh (its meshable name collided with the base game machining mesh) and added the missing D_Deployable row so it places correctly after the June 2026 update.
 
 Ver 1.2
 Fix: laptop now actually deploys (placement ghost appears) and Press=Workshop / Hold=Orbital Deposit work. v1.1 used BP_Terminal_C, a lore-note BP that overrides Deployable_Interact and blocked placement. v1.2 uses BP_Deer_Trophy_C (the generic deployable the vanilla collectable laptop uses), which is placeable and honours the data-driven Interactable trait.

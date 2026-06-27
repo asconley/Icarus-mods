@@ -1,6 +1,6 @@
 Workshop_Recyclers_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.5
+Mod Version: 5.7
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 3,054 incinerate recipes + 2,285 recycle/deconstruct recipes. 100% material returns on recycling.
 
+
+Ver 5.7
+Fixed Incinerator and Biofuel Recycler meshes for the June 2026 update - they now use the real electric-furnace and cleaning-device models (the old meshes were removed by the update).
 
 Ver 5.5
 Added 886 missing incinerate recipes (frozen wood, frozen ore, raw ores, food, building pieces, seeds, etc). 3,054 total incinerate recipes now cover every item in the game. Fixed icon (was using non-existent asset), fixed mesh (Mesh_Electric_Furnace doesn't exist), repositioned tech tree to avoid vanilla overlap.

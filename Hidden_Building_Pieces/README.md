@@ -2,12 +2,12 @@
 
 # Hidden Building Pieces
 
-[![Version](https://img.shields.io/badge/v4.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v4.4-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Unlocks 62 hidden building pieces + 1 forgotten recipe as individual craftable items
+Unlocks 34 building pieces + 1 forgotten recipe as individual craftable items
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -15,24 +15,22 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 
 ---
 
-Unlocks **62 hidden building pieces** that exist in the game files but aren't available to players, plus 1 forgotten recipe added to higher-tier stations. Every item is an individual craftable piece at the appropriate workbench. All pieces are **storm immune** and **hammer repairable**.
+Unlocks **34 building pieces** that exist in the game files but aren't available to players, plus 1 forgotten recipe added to higher-tier stations. Every item is an individual craftable piece at the appropriate workbench. All pieces are **storm immune** and **hammer repairable**.
+
+> **v4.4:** Trimmed from 62 to 34 pieces — Corner Stairs, Stairs and curved Wood pieces are now official in the base game (Week 142 + Week 234 updates), so they've been removed. All mesh references updated for the June 2026 game update.
 
 ---
 
 ## Features
 
-### Wood Diagonal & Curved Pieces (18 items)
+### Wood Diagonal Pieces (7 items)
 
-Wood is the only material that doesn't have diagonal/curved building support in vanilla. This mod unlocks all 18 pieces:
+Non-curved diagonal Wood pieces that vanilla still doesn't include:
 
 - Diagonal Floor, Diagonal Ramp Roof
-- Diagonal Curved Floor, Diagonal Curved Ramp Roof
 - Diagonal Wall Solid, Diagonal Wall Angles
-- Diagonal Wall Curved Solid, Diagonal Wall Curved Angles
 - Diagonal Beam Diagonal, Diagonal Beam Horizontal
-- Diagonal Beam Curved Diagonal, Diagonal Beam Curved Horizontal
-- Beam Curved Diagonal, Brick Beam DiagonalBeam
-- Wall Curved Angles, Ramp Curved, Roof Curved Angles
+- Brick Beam DiagonalBeam
 
 **Crafted at:** Carpentry Bench
 
@@ -54,17 +52,6 @@ Frame pieces for 11 materials. Each material has the frame variants that vanilla
 | StoneBrick | x | x | x | Masonry Bench |
 | TemperedGlass | x | x | x | Glassworking Bench |
 
-### Corner Stairs (14 items)
-
-Corner stair pieces for 14 materials (includes both ClayBrick and Clay_Brick variants):
-
-Wood, Thatch, ClayBrick, Clay_Brick, Glass, Ice, Limestone, MetalGrate, ReinforcedWood, Sandworm, Scoria, ScoriaBrick, StoneBrick, TemperedGlass
-
-### Glass & Tempered Glass Stairs (4 items)
-
-- Glass Stairs, Glass HalfStairs
-- TemperedGlass Stairs, TemperedGlass HalfStairs
-
 ### Metal Grate Quarter Floor (1 item)
 
 - Metal Grate HalfNormal QuarterFloor
@@ -81,13 +68,13 @@ Wood, Thatch, ClayBrick, Clay_Brick, Glass, Ice, Limestone, MetalGrate, Reinforc
 
 | Category | Count |
 |----------|-------|
-| Craftable Items | 62 |
-| Building Pieces | 101 |
-| Building Skins | 100 |
-| Crafting Recipes | 63 |
+| Craftable Items | 34 |
+| Building Pieces | 68 |
+| Building Skins | 68 |
+| Crafting Recipes | 35 |
 | Durable Entries | 16 |
 | Building Types | 21 |
-| **Total Data Entries** | **550** |
+| **Total Data Entries** | **344** |
 
 ## Crafting Locations
 
@@ -98,7 +85,7 @@ Wood, Thatch, ClayBrick, Clay_Brick, Glass, Ice, Limestone, MetalGrate, Reinforc
 | Glass / TemperedGlass | Glassworking Bench |
 | Iron / MetalGrate | Anvil Bench |
 | Interior Wood (Forgotten Floor) | Fabricator / Manufacturer |
-| Ice / Thatch | Hand Crafting |
+| Ice | Hand Crafting |
 
 ## Installation
 
@@ -123,60 +110,22 @@ Wood, Thatch, ClayBrick, Clay_Brick, Glass, Ice, Limestone, MetalGrate, Reinforc
 
 ## Changelog
 
+### v4.4 (2026-06-27)
+- Removed 28 pieces now official in vanilla — all Corner Stairs (14), Glass/TemperedGlass Stairs (4), and curved Wood pieces (10) — added by the Week 142 (Corner & Half Stairs) and Week 234 (Curved Building) updates
+- Updated all mesh references for the June 2026 game update (consolidated generic material meshes)
+- Removed a stray Mesh_Generic_Ice override that conflicted with the base game's ice mesh
+
 ### v4.1 (2026-04-16)
-- Added Interior Wood Floor recipe at Fabricator/Manufacturer — the "forgotten floor" that only existed at Carpentry Bench with mismatched data table names (building piece: Interior_Wood_Floor, item: Wood_Floor_Refined, recipe: Interior_Wood_Floor)
+- Added Interior Wood Floor recipe at Fabricator/Manufacturer — the "forgotten floor" that only existed at Carpentry Bench with mismatched data table names
 
 ### v4.0 (2026-04-14)
-- **MAJOR OVERHAUL:** Rebuilt from scratch as 62 individual items (no more sets)
-- Removed all items now live in vanilla (Kepler update): curved sets, diagonal sets, wall curved, roof curved angles, advanced beams, diagonal curved wall angles for ClayBrick/Concrete/Glass/TemperedGlass/Scoria/ScoriaBrick/StoneBrick/Stone/Ice/Limestone
+- MAJOR OVERHAUL: Rebuilt from scratch as individual items (no more sets)
+- Removed all items now live in vanilla (Kepler update)
 - Removed all 15 RoofPeak items (now in base game)
-- Removed broken Ice_Floor_TrapDoor, Ice_Roof_Half_Pitch, Ice_Stairs
-- Split remaining items from sets into 62 individual craftable pieces
-- Fixed all recipes with proper material-appropriate bench assignments
-
-### v3.0.1
-- Crash fix: Fixed 60 recipe outputs from D_ItemsStatic to D_ItemTemplate
+- Split remaining items from sets into individual craftable pieces
 
 ### v3.0.0 (2026-03-10)
 - Removed 44 items now included in the base game (Kepler/Week 222 update)
-- Remaining 60 mod-exclusive items
-- Total entries reduced from 2,453 to 704
 
-### v2.13.7 (2026-03-08)
-- Added 675 new building pieces from DLC update
-
-### v2.13.6
-- Updated 40 building skins to match current game material paths
-
-### v2.13.5
-- Fixed 20 broken building piece references across 10 buildable sets
-- Fixed 5 recipes with renamed crafting material inputs
-
-### v2.13.4
-- Added missing Ramp_Curved piece to 7 Wall_Curved buildable sets
-- Fixed 49 recipes with broken/renamed crafting bench references
-
-### v2.13.3
-- Fixed 5 broken recipe material references (Feb 2026 update)
-
-### v2.13.2
-- Fixed 94 buildable entries missing DataTableName reference
-
-### v2.13.1
-- Fixed 42 Stone diagonal/curved skins using wrong textures
-
-### v2.13.0
-- Fixed 56 building skins rendering with wrong materials
-
-### v2.12.0
-- Added 126 missing material skins for Stone, Concrete, Glass
-
----
-
-<div align="center">
-
-**Made by AgentKush** · [All Mods](https://github.com/AgentKush/Icarus-mods) · [Report a Bug](https://github.com/AgentKush/Icarus-mods/issues) · [Mod Manager](https://github.com/Jimk72/Icarus_Software)
-
-*All mods are free. If you enjoy them, leave a star on the repo!*
-
-</div>
+### Earlier
+- v2.13.x: skin/recipe/buildable reference fixes across DLC updates
