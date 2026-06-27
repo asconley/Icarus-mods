@@ -518,6 +518,18 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Taming_Tames_Overhaul/Taming_Tames_Overhaul.EXMODZ"
       }
+    },
+    {
+      "name": "Genetics & Breeding Overhaul",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Supercharges the Mendel genetics system: 2x mutation/twins/gestation/recovery/lineage rewards from the Genetics talents, plus a bloodline rarity rebalance (rarer Wild, more achievable Alpha) for far less grindy selective breeding.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Genetics_Breeding_Overhaul.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Genetics_Breeding_Overhaul/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Genetics_Breeding_Overhaul/Genetics_Breeding_Overhaul.EXMODZ"
+      }
     }
   ]
 }

@@ -1,0 +1,266 @@
+{
+  "name": "Genetics & Breeding Overhaul",
+  "author": "AgentKush",
+  "version": "1.0",
+  "description": "v1.0: Supercharges the Mendel genetics system - doubles genotype/phenotype mutation, twin-birth, gestation, recovery and lineage-mutation chances from the Genetics talents, and rebalances bloodline rarity (rarer Wild, more achievable Alpha) so selective breeding is far less grindy.",
+  "fileName": "Genetics_Breeding_Overhaul",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Genetics_Breeding_Overhaul.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Genetics_Breeding_Overhaul/README.md",
+  "week": "All",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Talents-D_Talents.json",
+      "File_Items": [
+        {
+          "Name": "Genetics_GenotypeMutation",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureGeneticsMutationChance_%\")": 4
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureGeneticsMutationChance_%\")": 8
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureGeneticsMutationChance_%\")": 20
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Genetics_GenotypeMutation2",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureGeneticsMutationChance_%\")": 10
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureGeneticsMutationChance_%\")": 20
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureGeneticsMutationChance_%\")": 50
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Genetics_PhenotypeMutation",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureCosmeticMutationChance_%\")": 4
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureCosmeticMutationChance_%\")": 8
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureCosmeticMutationChance_%\")": 20
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Genetics_PhenotypeMutation2",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureCosmeticMutationChance_%\")": 10
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureCosmeticMutationChance_%\")": 20
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureCosmeticMutationChance_%\")": 50
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Genetics_Twins",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureTwinBirthChance_%\")": 30
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureTwinBirthChance_%\")": 60
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Genetics_GestationSpeed",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureGestationSpeed_+%\")": 10
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureGestationSpeed_+%\")": 20
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureGestationSpeed_+%\")": 50
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Genetics_RecoverySpeed",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureFertilizationRecoverySpeed_+%\")": 10
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureFertilizationRecoverySpeed_+%\")": 20
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureFertilizationRecoverySpeed_+%\")": 50
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Genetics_Lineage",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureLineageMutationChance_%\")": 20
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureLineageMutationChance_%\")": 50
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Genetics_WildGenome",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseChanceForBetterWildCreaturesGenetics_%\")": 10
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseChanceForBetterWildCreaturesGenetics_%\")": 20
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseChanceForBetterWildCreaturesGenetics_%\")": 50
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Genetics_WildBloodline",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseChanceForStrongerWildCreaturesLineages_%\")": 20
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseChanceForStrongerWildCreaturesLineages_%\")": 50
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Genetics_WildPhenome",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseChanceForRarerWildCreaturesCosmetics_%\")": 10
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseChanceForRarerWildCreaturesCosmetics_%\")": 20
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseChanceForRarerWildCreaturesCosmetics_%\")": 50
+              },
+              "GrantedFlags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CurrentFile": "AI-D_GeneticLineages.json",
+      "File_Items": [
+        {
+          "Name": "Wild",
+          "Weighting": 75
+        },
+        {
+          "Name": "Alpha",
+          "Weighting": 25
+        }
+      ]
+    }
+  ]
+}

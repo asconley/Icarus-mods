@@ -8,6 +8,7 @@ Each release is available as an EXMODZ download from [GitHub Releases](https://g
 
 ## 2026-06-27
 
+- **Genetics & Breeding Overhaul** `v1.0` — NEW MOD. Doubles the Genetics talent rewards (mutation / twins / gestation / recovery / lineage / better wild genetics) and rebalances bloodline rarity (Wild 300->75, Alpha 10->25) so selective breeding is far less grindy.
 - **Taming & Tames Overhaul** `v1.0` — NEW MOD. 3x faster taming, 2x faster breeding (+ double juvenile chance), half taming food, and 3x tame-growth XP across all 29 tameable creatures.
 - **Solar Panel Expansion** `v1.1` — Added the Bunker Solar Panel as a 4th workshop kit.
 - **Survival Attachments** `v1.1` — Added Arms (Endurance Brace, -25% stamina use) and Feet (Recovery Treads, +25% stamina regen) attachments for the empty arms/feet slots.

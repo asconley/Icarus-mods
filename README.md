@@ -96,6 +96,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [📦 Stack Size Overhaul](Stack_Size_Overhaul) | `1.5` | 1,257 items — resources/ammo 5×, everything else 3×, cap 9,999 |
 | [🐾 Creature Drop Enhancer](Creature_Drop_Enhancer) | `1.2` | 2× all butchery and skinning outputs across 62 recipes |
 | [🐾 Taming & Tames Overhaul](Taming_Tames_Overhaul) | `1.0` | 3× taming · 2× breeding · double juvenile chance · easier upkeep · 3× tame-growth XP · all 29 tameables |
+| [🧬 Genetics & Breeding Overhaul](Genetics_Breeding_Overhaul) | `1.0` | 2× genetics talent rewards (mutation/twins/gestation/recovery) · rarer Wild · achievable Alpha bloodline |
 | [🌾 Fish and Farming Boost](Fish_Farming_Boost) | `1.3` | 390 changes — 2× crop growth, +50% harvests, doubled fish spawns, DLC plants included |
 
 ---
