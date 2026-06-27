@@ -1,8 +1,8 @@
 {
   "name": "Fish and Farming Boost",
   "author": "AgentKush",
-  "version": "1.2",
-  "description": "v1.2: Growth-state rows now carry their StageMesh (and feature metadata) so crops stay visible when merged with other farming mods (e.g. NoSeedFatigue); also fixed the Sugar Cane harvest boost (game renamed the reward to Sugar_Cane_Crops). | Farming and fishing overhaul.",
+  "version": "1.3",
+  "description": "v1.3: Added the 13 Elysium (ELY) fish spawn zones for full fishing coverage (70/70 zones), boosted to match the rest of the mod (2x spawn rate, 1.5x fish quality). | Farming and fishing overhaul.",
   "fileName": "Fish_Farming_Boost",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Fish_Farming_Boost.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Fish_Farming_Boost/README.md",
@@ -1912,6 +1912,146 @@
         },
         {
           "Name": "PRO_Main",
+          "ZoneFishQuality": 0.45000001788139343
+        },
+        {
+          "Name": "ELY_Arctic",
+          "SpawnList": {
+            "(Value=\"Fish_01\")": 100,
+            "(Value=\"Fish_02\")": 100
+          },
+          "ZoneFishQuality": 0.30000001192092896
+        },
+        {
+          "Name": "ELY_Desert_EastLake",
+          "SpawnList": {
+            "(Value=\"Fish_03_Var4\")": 200,
+            "(Value=\"Fish_03_Var3\")": 200,
+            "(Value=\"Fish_12\")": 100,
+            "(Value=\"Fish_11\")": 50
+          },
+          "ZoneFishQuality": 1.0
+        },
+        {
+          "Name": "ELY_Desert_Main",
+          "SpawnList": {
+            "(Value=\"Fish_03_Var4\")": 200,
+            "(Value=\"Fish_03_Var3\")": 200,
+            "(Value=\"Fish_12\")": 100,
+            "(Value=\"Fish_11\")": 50
+          },
+          "ZoneFishQuality": 0.45000001788139343
+        },
+        {
+          "Name": "ELY_Desert_SouthLake",
+          "SpawnList": {
+            "(Value=\"Fish_03_Var4\")": 200,
+            "(Value=\"Fish_03_Var3\")": 200,
+            "(Value=\"Fish_12\")": 100,
+            "(Value=\"Fish_11\")": 50
+          },
+          "ZoneFishQuality": 1.0
+        },
+        {
+          "Name": "ELY_Desert_WestLake",
+          "SpawnList": {
+            "(Value=\"Fish_03_Var4\")": 200,
+            "(Value=\"Fish_03_Var3\")": 200,
+            "(Value=\"Fish_12\")": 100,
+            "(Value=\"Fish_11\")": 50
+          },
+          "ZoneFishQuality": 0.9000000357627869
+        },
+        {
+          "Name": "ELY_Eden",
+          "SpawnList": {
+            "(Value=\"Fish_08\")": 200,
+            "(Value=\"Fish_02_Var2\")": 200,
+            "(Value=\"Fish_07_Var4\")": 100,
+            "(Value=\"Fish_08_Var3\")": 100,
+            "(Value=\"Fish_10_Var2\")": 50,
+            "(Value=\"Fish_14_Var2\")": 50
+          },
+          "ZoneFishQuality": 1.0
+        },
+        {
+          "Name": "ELY_Geothermal_Center",
+          "SpawnList": {
+            "(Value=\"Fish_18\")": 50,
+            "(Value=\"Fish_03_Var2\")": 200,
+            "(Value=\"Fish_12_Var2\")": 50,
+            "(Value=\"Fish_12\")": 50,
+            "(Value=\"Fish_11_Var2\")": 50
+          },
+          "ZoneFishQuality": 1.0
+        },
+        {
+          "Name": "ELY_Geothermal_Main",
+          "SpawnList": {
+            "(Value=\"Fish_18\")": 50,
+            "(Value=\"Fish_03_Var2\")": 200,
+            "(Value=\"Fish_12_Var2\")": 50,
+            "(Value=\"Fish_12\")": 50,
+            "(Value=\"Fish_11_Var2\")": 50
+          },
+          "ZoneFishQuality": 0.0
+        },
+        {
+          "Name": "ELY_Lava_Main",
+          "SpawnList": {
+            "(Value=\"Fish_06_Var3\")": 200,
+            "(Value=\"Fish_03_Var2\")": 200,
+            "(Value=\"Fish_12\")": 100,
+            "(Value=\"Fish_11\")": 50
+          },
+          "ZoneFishQuality": 0.15000000596046448
+        },
+        {
+          "Name": "ELY_Swamp_Main",
+          "SpawnList": {
+            "(Value=\"Fish_05_Var4\")": 200,
+            "(Value=\"Fish_11_Var3\")": 200,
+            "(Value=\"Fish_12_Var4\")": 100,
+            "(Value=\"Fish_13\")": 50,
+            "(Value=\"Fish_05\")": 50,
+            "(Value=\"Fish_06\")": 50
+          },
+          "ZoneFishQuality": 0.45000001788139343
+        },
+        {
+          "Name": "ELY_Swamp_Radioactive",
+          "SpawnList": {
+            "(Value=\"Fish_05_Var4\")": 200,
+            "(Value=\"Fish_11_Var3\")": 200,
+            "(Value=\"Fish_12_Var4\")": 100,
+            "(Value=\"Fish_13\")": 50,
+            "(Value=\"Fish_05\")": 50,
+            "(Value=\"Fish_20\")": 50
+          },
+          "ZoneFishQuality": 0.45000001788139343
+        },
+        {
+          "Name": "ELY_Tundra_EastLake",
+          "SpawnList": {
+            "(Value=\"Fish_01_Var3\")": 200,
+            "(Value=\"Fish_02_Var4\")": 200,
+            "(Value=\"Fish_09\")": 100,
+            "(Value=\"Fish_09_Var3\")": 100,
+            "(Value=\"Fish_10_Var4\")": 50,
+            "(Value=\"Fish_14\")": 50
+          },
+          "ZoneFishQuality": 0.9000000357627869
+        },
+        {
+          "Name": "ELY_Tundra_Main",
+          "SpawnList": {
+            "(Value=\"Fish_01_Var3\")": 200,
+            "(Value=\"Fish_02_Var4\")": 200,
+            "(Value=\"Fish_09\")": 100,
+            "(Value=\"Fish_09_Var3\")": 100,
+            "(Value=\"Fish_10_Var4\")": 50,
+            "(Value=\"Fish_14\")": 50
+          },
           "ZoneFishQuality": 0.45000001788139343
         }
       ]

@@ -9,7 +9,7 @@ Each release is available as an EXMODZ download from [GitHub Releases](https://g
 ## 2026-06-27
 
 - **No Food Spoilage** `v2.2` — Restored coconut ripening (young -> mid -> mature) broken by the no-spoil change; mature coconuts no longer rot. (#10)
-- **Fish and Farming Boost** `v1.2` — Growth-state rows now carry their StageMesh so crops stay visible when merged with other farming mods (NoSeedFatigue conflict); fixed the Sugar Cane harvest reward name (Sugar_Cane_Crops). (#9)
+- **Fish and Farming Boost** `v1.3` — StageMesh embedded so crops stay visible under farming-mod merges (NoSeedFatigue); fixed Sugar Cane reward (Sugar_Cane_Crops); added the 13 Elysium fish zones for full 70/70 coverage. (#9)
 - **Fast Processing** `v5.1` (5x / 10x / 15x / 25x / Instant) — Reverted the v4.9 over-correction of the Scoria roof corner recipe — the game's recipe name really is the misspelled "Scoria_Bick_Roof_Corner", so the mod now matches it and that recipe gets the speed boost again.
 - **Faster Crafting** `v1.6` — Reverted the v4.9 over-correction of the Scoria roof corner recipe — the game's recipe name really is the misspelled "Scoria_Bick_Roof_Corner", so the mod now matches it and that recipe gets the speed boost again.
 - **Stack Size Overhaul** `v1.5` — Removed a stale test-item entry (Item_Light_Test) no longer in the game.

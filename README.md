@@ -54,12 +54,12 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Speed | Recipes |
 |-----|:---:|:-----:|:-------:|
-| [FastProcessing 5x](FastProcessing_All_5x) | `4.9` | 5× faster | 2,171 |
-| [FastProcessing 10x](FastProcessing_All_10x) | `4.9` | 10× faster | 2,171 |
-| [FastProcessing 15x](FastProcessing_All_15x) | `4.9` | 15× faster | 2,171 |
-| [FastProcessing 25x](FastProcessing_All_25x) | `4.9` | 25× faster | 2,171 |
-| [FastProcessing Instant](FastProcessing_Instant) | `4.9` | Instant | 2,171 |
-| [⚒️ Faster Crafting](Faster_Crafting) | `1.5` | 2× faster | 2,171 |
+| [FastProcessing 5x](FastProcessing_All_5x) | `5.1` | 5× faster | 2,171 |
+| [FastProcessing 10x](FastProcessing_All_10x) | `5.1` | 10× faster | 2,171 |
+| [FastProcessing 15x](FastProcessing_All_15x) | `5.1` | 15× faster | 2,171 |
+| [FastProcessing 25x](FastProcessing_All_25x) | `5.1` | 25× faster | 2,171 |
+| [FastProcessing Instant](FastProcessing_Instant) | `5.1` | Instant | 2,171 |
+| [⚒️ Faster Crafting](Faster_Crafting) | `1.6` | 2× faster | 2,171 |
 
 *FastProcessing = passive processors (furnaces, refineries). Faster Crafting = active workbench crafting. They stack.*
 
@@ -90,12 +90,12 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [🥩 No Food Spoilage](No_Food_Spoilage) | `2.1` | All food and volatiles never spoil · 33 decayable entries · 134 composter recipes |
+| [🥩 No Food Spoilage](No_Food_Spoilage) | `2.2` | All food and volatiles never spoil · 33 decayable entries · 134 composter recipes |
 | [⏱️ Extended Spoil Timers](Extended_Spoil_Timers) | `1.2` | Food 5× longer · Other decay 3× longer · 32 items *(not compatible with No Food Spoilage)* |
 | [🔩 Indestructible Tools & Weapons](Indestructible_Tools_Weapons) | `1.9` | 192 items set to max durability — tools, weapons, armor, buildings, crafting stations |
-| [📦 Stack Size Overhaul](Stack_Size_Overhaul) | `1.4` | 1,257 items — resources/ammo 5×, everything else 3×, cap 9,999 |
+| [📦 Stack Size Overhaul](Stack_Size_Overhaul) | `1.5` | 1,257 items — resources/ammo 5×, everything else 3×, cap 9,999 |
 | [🐾 Creature Drop Enhancer](Creature_Drop_Enhancer) | `1.1` | 2× all butchery and skinning outputs across 62 recipes |
-| [🌾 Fish and Farming Boost](Fish_Farming_Boost) | `1.1` | 390 changes — 2× crop growth, +50% harvests, doubled fish spawns, DLC plants included |
+| [🌾 Fish and Farming Boost](Fish_Farming_Boost) | `1.3` | 390 changes — 2× crop growth, +50% harvests, doubled fish spawns, DLC plants included |
 
 ---
 
@@ -113,7 +113,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `2.0` | 🔧 4-tier creature scaling, 37 alpha hunters, rebalanced horde waves, deadly weather, harsher survival |
+| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `2.1` | 🔧 4-tier creature scaling, 37 alpha hunters, rebalanced horde waves, deadly weather, harsher survival |
 | [🦁 Creature Difficulty Scaling](Creature_Difficulty_Scaling) | `2.3` | Full creature overhaul for level 500 cap · 161 spawn zones rescaled · 136 creatures buffed by tier |
 | [📈 Performance Optimizer](Performance_Optimizer) | `2.2` | 🔧 FPS boost via PAK engine overrides (foliage/shadows/fog/LOD) + data table changes |
 | [🌀 Absolute Chaos - Core](AbsoluteChaos_Core) | `0.2.1` | Total overhaul mod — early access core module |
