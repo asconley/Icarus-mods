@@ -1,7 +1,7 @@
 {
   "name": "Turret Variants",
   "author": "AgentKush",
-  "version": "3.1",
+  "version": "3.2",
   "description": "v3.1: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Adds 15 new automated turret variants with unique characteristics.",
   "fileName": "Turret_Variants",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
@@ -750,7 +750,7 @@
         {
           "Name": "Turret_Crossbow",
           "Meshable": {
-            "RowName": "Mesh_Pistol_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_Crossbow"
@@ -843,7 +843,7 @@
         {
           "Name": "Turret_Bow",
           "Meshable": {
-            "RowName": "Mesh_Pistol_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_Bow"
@@ -936,7 +936,7 @@
         {
           "Name": "Turret_Sniper",
           "Meshable": {
-            "RowName": "Mesh_Rifle_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_Sniper"
@@ -1029,7 +1029,7 @@
         {
           "Name": "Turret_AssaultRifle",
           "Meshable": {
-            "RowName": "Mesh_Rifle_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_AssaultRifle"
@@ -1122,7 +1122,7 @@
         {
           "Name": "Turret_SMG",
           "Meshable": {
-            "RowName": "Mesh_Pistol_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_SMG"
@@ -1215,7 +1215,7 @@
         {
           "Name": "Turret_Javelin",
           "Meshable": {
-            "RowName": "Mesh_Rifle_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_Javelin"
@@ -1308,7 +1308,7 @@
         {
           "Name": "Turret_Flamethrower",
           "Meshable": {
-            "RowName": "Mesh_Shotgun_Turret"
+            "RowName": "Mesh_Generic_Manufacturer"
           },
           "Itemable": {
             "RowName": "Item_Turret_Flamethrower"
@@ -1401,7 +1401,7 @@
         {
           "Name": "Turret_Rock",
           "Meshable": {
-            "RowName": "Mesh_Pistol_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_Rock"
@@ -1494,7 +1494,7 @@
         {
           "Name": "Turret_Minigun",
           "Meshable": {
-            "RowName": "Mesh_Rifle_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_Minigun"
@@ -1587,7 +1587,7 @@
         {
           "Name": "Turret_Rifle",
           "Meshable": {
-            "RowName": "Mesh_Rifle_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_Rifle"
@@ -1680,7 +1680,7 @@
         {
           "Name": "Turret_Pistol_Custom",
           "Meshable": {
-            "RowName": "Mesh_Pistol_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_Pistol_Custom"
@@ -1773,7 +1773,7 @@
         {
           "Name": "Turret_Shotblaster",
           "Meshable": {
-            "RowName": "Mesh_Shotgun_Turret"
+            "RowName": "Mesh_Generic_Manufacturer"
           },
           "Itemable": {
             "RowName": "Item_Turret_Shotblaster"
@@ -1866,7 +1866,7 @@
         {
           "Name": "Turret_RapidCrossbow",
           "Meshable": {
-            "RowName": "Mesh_Pistol_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_RapidCrossbow"
@@ -1959,7 +1959,7 @@
         {
           "Name": "Turret_Storm",
           "Meshable": {
-            "RowName": "Mesh_Rifle_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_Storm"
@@ -2052,7 +2052,7 @@
         {
           "Name": "Turret_HeavySniper",
           "Meshable": {
-            "RowName": "Mesh_Rifle_Turret"
+            "RowName": "Mesh_Generic_Fabricator"
           },
           "Itemable": {
             "RowName": "Item_Turret_HeavySniper"

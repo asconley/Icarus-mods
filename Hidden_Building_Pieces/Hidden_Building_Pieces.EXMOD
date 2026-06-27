@@ -1,7 +1,7 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "4.1",
+  "version": "4.2",
   "description": "Unlocks hidden building pieces: Wood diagonal/curved, frames, corner stairs, glass stairs, and more.\n\nv4.1 — Added Interior Wood Floor recipe at Fabricator/Manufacturer (the forgotten floor)\nv4.0 — Removed Ice_Floor_TrapDoor (broken). 62 hidden pieces, 101 building variations\nv3.0 — Added 15 new hidden pieces\nv2.0 — Expanded to 47 pieces + skins\nv1.0 — Initial release",
   "fileName": "Hidden_Building_Pieces",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
@@ -13,7 +13,7 @@
       "CurrentFile": "Traits-D_Meshable.json",
       "File_Items": [
         {
-          "Name": "Mesh_Ice_Kit",
+          "Name": "Mesh_Generic_Ice",
           "ItemMesh": "/Game/ASS/KIT/SM_KIT_Stone.SM_KIT_Stone",
           "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Stone.SM_KIT_Stone"
         }
@@ -526,7 +526,7 @@
         {
           "Name": "ClayBrick_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Clay_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_ClayBrick_CornerStairs",
@@ -566,7 +566,7 @@
         {
           "Name": "ClayBrick_Frame_FullFrame",
           "Meshable": {
-            "RowName": "Mesh_Clay_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_ClayBrick_Frame_FullFrame",
@@ -606,7 +606,7 @@
         {
           "Name": "ClayBrick_Frame_HalfFrame",
           "Meshable": {
-            "RowName": "Mesh_Clay_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_ClayBrick_Frame_HalfFrame",
@@ -646,7 +646,7 @@
         {
           "Name": "ClayBrick_Frame_Pillar",
           "Meshable": {
-            "RowName": "Mesh_Clay_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_ClayBrick_Frame_Pillar",
@@ -686,7 +686,7 @@
         {
           "Name": "Clay_Brick_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Clay_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_Clay_Brick_CornerStairs",
@@ -726,7 +726,7 @@
         {
           "Name": "Glass_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Glass_Kit"
+            "RowName": "Mesh_Generic_Glass"
           },
           "Itemable": {
             "RowName": "Item_Glass_CornerStairs",
@@ -766,7 +766,7 @@
         {
           "Name": "Glass_Frame_FullFrame",
           "Meshable": {
-            "RowName": "Mesh_Glass_Kit"
+            "RowName": "Mesh_Generic_Glass"
           },
           "Itemable": {
             "RowName": "Item_Glass_Frame_FullFrame",
@@ -806,7 +806,7 @@
         {
           "Name": "Glass_Frame_HalfFrame",
           "Meshable": {
-            "RowName": "Mesh_Glass_Kit"
+            "RowName": "Mesh_Generic_Glass"
           },
           "Itemable": {
             "RowName": "Item_Glass_Frame_HalfFrame",
@@ -846,7 +846,7 @@
         {
           "Name": "Glass_Frame_Pillar",
           "Meshable": {
-            "RowName": "Mesh_Glass_Kit"
+            "RowName": "Mesh_Generic_Glass"
           },
           "Itemable": {
             "RowName": "Item_Glass_Frame_Pillar",
@@ -886,7 +886,7 @@
         {
           "Name": "Glass_HalfStairs",
           "Meshable": {
-            "RowName": "Mesh_Glass_Kit"
+            "RowName": "Mesh_Generic_Glass"
           },
           "Itemable": {
             "RowName": "Item_Glass_HalfStairs",
@@ -926,7 +926,7 @@
         {
           "Name": "Glass_Stairs",
           "Meshable": {
-            "RowName": "Mesh_Glass_Kit"
+            "RowName": "Mesh_Generic_Glass"
           },
           "Itemable": {
             "RowName": "Item_Glass_Stairs",
@@ -966,7 +966,7 @@
         {
           "Name": "Ice_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Ice_Kit"
+            "RowName": "Mesh_Generic_Ice"
           },
           "Itemable": {
             "RowName": "Item_Ice_CornerStairs",
@@ -1006,7 +1006,7 @@
         {
           "Name": "Ice_Frame_FullFrame",
           "Meshable": {
-            "RowName": "Mesh_Ice_Kit"
+            "RowName": "Mesh_Generic_Ice"
           },
           "Itemable": {
             "RowName": "Item_Ice_Frame_FullFrame",
@@ -1046,7 +1046,7 @@
         {
           "Name": "Ice_Frame_HalfFrame",
           "Meshable": {
-            "RowName": "Mesh_Ice_Kit"
+            "RowName": "Mesh_Generic_Ice"
           },
           "Itemable": {
             "RowName": "Item_Ice_Frame_HalfFrame",
@@ -1086,7 +1086,7 @@
         {
           "Name": "Iron_Frame_FullFrame",
           "Meshable": {
-            "RowName": "Mesh_Iron_Kit"
+            "RowName": "Mesh_Generic_Iron"
           },
           "Itemable": {
             "RowName": "Item_Iron_Frame_FullFrame",
@@ -1126,7 +1126,7 @@
         {
           "Name": "Iron_Frame_HalfFrame",
           "Meshable": {
-            "RowName": "Mesh_Iron_Kit"
+            "RowName": "Mesh_Generic_Iron"
           },
           "Itemable": {
             "RowName": "Item_Iron_Frame_HalfFrame",
@@ -1166,7 +1166,7 @@
         {
           "Name": "Iron_Frame_Pillar",
           "Meshable": {
-            "RowName": "Mesh_Iron_Kit"
+            "RowName": "Mesh_Generic_Iron"
           },
           "Itemable": {
             "RowName": "Item_Iron_Frame_Pillar",
@@ -1206,7 +1206,7 @@
         {
           "Name": "Limestone_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Limestone_Kit"
+            "RowName": "Mesh_Generic_Concrete"
           },
           "Itemable": {
             "RowName": "Item_Limestone_CornerStairs",
@@ -1246,7 +1246,7 @@
         {
           "Name": "Limestone_Frame_HalfFrame",
           "Meshable": {
-            "RowName": "Mesh_Limestone_Kit"
+            "RowName": "Mesh_Generic_Concrete"
           },
           "Itemable": {
             "RowName": "Item_Limestone_Frame_HalfFrame",
@@ -1286,7 +1286,7 @@
         {
           "Name": "MetalGrate_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Iron_Kit"
+            "RowName": "Mesh_Generic_Iron"
           },
           "Itemable": {
             "RowName": "Item_MetalGrate_CornerStairs",
@@ -1326,7 +1326,7 @@
         {
           "Name": "Metal_Grate_HalfNormal_QuarterFloor",
           "Meshable": {
-            "RowName": "Mesh_Iron_Kit"
+            "RowName": "Mesh_Generic_Iron"
           },
           "Itemable": {
             "RowName": "Item_Metal_Grate_HalfNormal_QuarterFloor",
@@ -1366,7 +1366,7 @@
         {
           "Name": "ReinforcedWood_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_ReinforcedWood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_ReinforcedWood_CornerStairs",
@@ -1406,7 +1406,7 @@
         {
           "Name": "ReinforcedWood_Frame_FullFrame",
           "Meshable": {
-            "RowName": "Mesh_ReinforcedWood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_ReinforcedWood_Frame_FullFrame",
@@ -1446,7 +1446,7 @@
         {
           "Name": "ReinforcedWood_Frame_HalfFrame",
           "Meshable": {
-            "RowName": "Mesh_ReinforcedWood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_ReinforcedWood_Frame_HalfFrame",
@@ -1486,7 +1486,7 @@
         {
           "Name": "Sandworm_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Sandworm_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Sandworm_CornerStairs",
@@ -1526,7 +1526,7 @@
         {
           "Name": "Sandworm_Frame_FullFrame",
           "Meshable": {
-            "RowName": "Mesh_Sandworm_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Sandworm_Frame_FullFrame",
@@ -1566,7 +1566,7 @@
         {
           "Name": "Sandworm_Frame_HalfFrame",
           "Meshable": {
-            "RowName": "Mesh_Sandworm_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Sandworm_Frame_HalfFrame",
@@ -1606,7 +1606,7 @@
         {
           "Name": "Scoria_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Scoria_Kit"
+            "RowName": "Mesh_Generic_Stone"
           },
           "Itemable": {
             "RowName": "Item_Scoria_CornerStairs",
@@ -1646,7 +1646,7 @@
         {
           "Name": "Scoria_Frame_HalfFrame",
           "Meshable": {
-            "RowName": "Mesh_Scoria_Kit"
+            "RowName": "Mesh_Generic_Stone"
           },
           "Itemable": {
             "RowName": "Item_Scoria_Frame_HalfFrame",
@@ -1686,7 +1686,7 @@
         {
           "Name": "ScoriaBrick_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Scoria_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_ScoriaBrick_CornerStairs",
@@ -1726,7 +1726,7 @@
         {
           "Name": "ScoriaBrick_Frame_FullFrame",
           "Meshable": {
-            "RowName": "Mesh_Scoria_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_ScoriaBrick_Frame_FullFrame",
@@ -1766,7 +1766,7 @@
         {
           "Name": "ScoriaBrick_Frame_HalfFrame",
           "Meshable": {
-            "RowName": "Mesh_Scoria_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_ScoriaBrick_Frame_HalfFrame",
@@ -1806,7 +1806,7 @@
         {
           "Name": "ScoriaBrick_Frame_Pillar",
           "Meshable": {
-            "RowName": "Mesh_Scoria_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_ScoriaBrick_Frame_Pillar",
@@ -1846,7 +1846,7 @@
         {
           "Name": "StoneBrick_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Stone_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_StoneBrick_CornerStairs",
@@ -1886,7 +1886,7 @@
         {
           "Name": "StoneBrick_Frame_FullFrame",
           "Meshable": {
-            "RowName": "Mesh_Stone_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_StoneBrick_Frame_FullFrame",
@@ -1926,7 +1926,7 @@
         {
           "Name": "StoneBrick_Frame_HalfFrame",
           "Meshable": {
-            "RowName": "Mesh_Stone_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_StoneBrick_Frame_HalfFrame",
@@ -1966,7 +1966,7 @@
         {
           "Name": "StoneBrick_Frame_Pillar",
           "Meshable": {
-            "RowName": "Mesh_Stone_Brick_Kit"
+            "RowName": "Mesh_Generic_Brick"
           },
           "Itemable": {
             "RowName": "Item_StoneBrick_Frame_Pillar",
@@ -2006,7 +2006,7 @@
         {
           "Name": "TemperedGlass_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Glass_Kit"
+            "RowName": "Mesh_Generic_Glass"
           },
           "Itemable": {
             "RowName": "Item_TemperedGlass_CornerStairs",
@@ -2046,7 +2046,7 @@
         {
           "Name": "TemperedGlass_Frame_FullFrame",
           "Meshable": {
-            "RowName": "Mesh_Glass_Kit"
+            "RowName": "Mesh_Generic_Glass"
           },
           "Itemable": {
             "RowName": "Item_TemperedGlass_Frame_FullFrame",
@@ -2086,7 +2086,7 @@
         {
           "Name": "TemperedGlass_Frame_HalfFrame",
           "Meshable": {
-            "RowName": "Mesh_Glass_Kit"
+            "RowName": "Mesh_Generic_Glass"
           },
           "Itemable": {
             "RowName": "Item_TemperedGlass_Frame_HalfFrame",
@@ -2126,7 +2126,7 @@
         {
           "Name": "TemperedGlass_Frame_Pillar",
           "Meshable": {
-            "RowName": "Mesh_Glass_Kit"
+            "RowName": "Mesh_Generic_Glass"
           },
           "Itemable": {
             "RowName": "Item_TemperedGlass_Frame_Pillar",
@@ -2166,7 +2166,7 @@
         {
           "Name": "TemperedGlass_HalfStairs",
           "Meshable": {
-            "RowName": "Mesh_Glass_Kit"
+            "RowName": "Mesh_Generic_Glass"
           },
           "Itemable": {
             "RowName": "Item_TemperedGlass_HalfStairs",
@@ -2206,7 +2206,7 @@
         {
           "Name": "TemperedGlass_Stairs",
           "Meshable": {
-            "RowName": "Mesh_Glass_Kit"
+            "RowName": "Mesh_Generic_Glass"
           },
           "Itemable": {
             "RowName": "Item_TemperedGlass_Stairs",
@@ -2246,7 +2246,7 @@
         {
           "Name": "Thatch_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Thatch_Kit"
+            "RowName": "Mesh_Generic_Thatch"
           },
           "Itemable": {
             "RowName": "Item_Thatch_CornerStairs",
@@ -2286,7 +2286,7 @@
         {
           "Name": "Wood_Beam_Curved_Diagonal",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Beam_Curved_Diagonal",
@@ -2326,7 +2326,7 @@
         {
           "Name": "Wood_Brick_Beam_DiagonalBeam",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Brick_Beam_DiagonalBeam",
@@ -2366,7 +2366,7 @@
         {
           "Name": "Wood_CornerStairs",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_CornerStairs",
@@ -2406,7 +2406,7 @@
         {
           "Name": "Wood_Diagonal_Beam_Curved_Diagonal",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Diagonal_Beam_Curved_Diagonal",
@@ -2446,7 +2446,7 @@
         {
           "Name": "Wood_Diagonal_Beam_Curved_Horizontal",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Diagonal_Beam_Curved_Horizontal",
@@ -2486,7 +2486,7 @@
         {
           "Name": "Wood_Diagonal_Beam_Diagonal",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Diagonal_Beam_Diagonal",
@@ -2526,7 +2526,7 @@
         {
           "Name": "Wood_Diagonal_Beam_Horizontal",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Diagonal_Beam_Horizontal",
@@ -2566,7 +2566,7 @@
         {
           "Name": "Wood_Diagonal_Curved_Floor",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Diagonal_Curved_Floor",
@@ -2606,7 +2606,7 @@
         {
           "Name": "Wood_Diagonal_Curved_Ramp_Roof",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Diagonal_Curved_Ramp_Roof",
@@ -2646,7 +2646,7 @@
         {
           "Name": "Wood_Diagonal_Floor",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Diagonal_Floor",
@@ -2686,7 +2686,7 @@
         {
           "Name": "Wood_Diagonal_Ramp_Roof",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Diagonal_Ramp_Roof",
@@ -2726,7 +2726,7 @@
         {
           "Name": "Wood_Diagonal_Wall_Angles",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Diagonal_Wall_Angles",
@@ -2766,7 +2766,7 @@
         {
           "Name": "Wood_Diagonal_Wall_Curved_Angles",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Diagonal_Wall_Curved_Angles",
@@ -2806,7 +2806,7 @@
         {
           "Name": "Wood_Diagonal_Wall_Curved_Solid",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Diagonal_Wall_Curved_Solid",
@@ -2846,7 +2846,7 @@
         {
           "Name": "Wood_Diagonal_Wall_Solid",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Diagonal_Wall_Solid",
@@ -2886,7 +2886,7 @@
         {
           "Name": "Wood_Ramp_Curved",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Ramp_Curved",
@@ -2926,7 +2926,7 @@
         {
           "Name": "Wood_Roof_CurvedAngles",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Roof_CurvedAngles",
@@ -2966,7 +2966,7 @@
         {
           "Name": "Wood_Wall_Curved_Angles",
           "Meshable": {
-            "RowName": "Mesh_Wood_Kit"
+            "RowName": "Mesh_Generic_Wood"
           },
           "Itemable": {
             "RowName": "Item_Wood_Wall_Curved_Angles",

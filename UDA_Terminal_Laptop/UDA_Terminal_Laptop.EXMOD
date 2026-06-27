@@ -1,7 +1,7 @@
 {
   "name": "UDA Terminal Laptop",
   "author": "AgentKush",
-  "version": "1.2",
+  "version": "1.3",
   "description": "v1.2: Placement fix. The laptop now deploys (shows a placement ghost) and the Press=Workshop / Hold=Orbital Deposit interactions fire. v1.1 used BP_Terminal_C (a lore-note BP that overrides Deployable_Interact and blocked the placement preview); v1.2 uses BP_Deer_Trophy_C, the generic deployable the vanilla collectable laptop uses, which honours the data-driven Interactable trait.\n\nv1.1: Switched the deployable BP from BP_Prop_Laptop_A (static prop) to BP_Terminal_C (the vanilla placeable-laptop BP), fixing the no-preview placement bug from v1.0.\n\nv1.0: Adds a craftable UDA Terminal Laptop. Place it in your base, press F to open the Workshop, hold F to open the Orbital Deposit. Saves the walk back to the drop tube. No PAK required - uses vanilla MetaShop and SpaceInventory interaction behaviours that already exist in the game.",
   "fileName": "UDA_Terminal_Laptop",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/UDA_Terminal_Laptop.png",
@@ -26,7 +26,7 @@
       "CurrentFile": "Traits-D_Meshable.json",
       "File_Items": [
         {
-          "Name": "Mesh_UDA_Terminal_Laptop",
+          "Name": "Mesh_Generic_Machining",
           "ItemMesh": "/Game/ASS/ORB/SM/ICA_HabC1/SM_ORB_PRP_Laptop_01.SM_ORB_PRP_Laptop_01",
           "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
           "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Deer_Trophy.BP_Deer_Trophy_C"
@@ -102,7 +102,7 @@
         {
           "Name": "UDA_Terminal_Laptop",
           "Meshable": {
-            "RowName": "Mesh_UDA_Terminal_Laptop"
+            "RowName": "Mesh_Generic_Machining"
           },
           "Itemable": {
             "RowName": "Item_UDA_Terminal_Laptop"
