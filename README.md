@@ -71,7 +71,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 |-----|:---:|-------------|
 | [🎯 Turret Variants](Turret_Variants) | `3.1` | 🔧 15 automated turret variants · LOS fix (no wall-shooting) · Proper ammo matching |
 | [💣 Trap and Defense Expansion](Trap_Defense_Expansion) | `1.2` | 23 defense recipes · Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) |
-| [🪃 Ammo Crafting Overhaul](Ammo_Crafting_Overhaul) | `1.1` | 50× batch crafting for all arrow and bullet types · 8 ammo conversion recipes |
+| [🪃 Ammo Crafting Overhaul](Ammo_Crafting_Overhaul) | `1.2` | 50× batch crafting for all arrow and bullet types · 8 ammo conversion recipes |
 | [🛡️ Armor Set Bonuses Enhanced](Armor_Set_Bonuses_Enhanced) | `2.0` | 3-piece partial bonuses for mix-and-match builds + boosted 5-piece bonuses across all 33 sets |
 | [🧥 Armor Attachment Expansion](Armor_Attachment_Expansion) | `1.0` | 25 new craftable armor attachments (5 per body part) · stacks with talents · Alteration Bench |
 | [🫁 Survival Attachments](Survival_Attachments) | `1.0` | Food/oxygen/water attachments + doubles attachment slots on every armor piece · 3 new recipes |
@@ -81,7 +81,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | Mod | Ver | Description |
 |-----|:---:|-------------|
 | [💎 Exotic Economy Overhaul](Exotic_Economy_Overhaul) | `2.1` | 66 exchange recipes — convert between Ren/Exotics/Uranium/Biomass, buy/sell all materials, bulk ore smelting |
-| [🔨 Tier Upgrade Forge](Tier_Upgrade_Forge) | `1.2` | 26 upgrade recipes — trade up through tool and weapon tiers at the Anvil Bench |
+| [🔨 Tier Upgrade Forge](Tier_Upgrade_Forge) | `1.3` | 26 upgrade recipes — trade up through tool and weapon tiers at the Anvil Bench |
 | [⛏️ Waste Not](Waste_Not) | `2.2` | Mining yields useful secondary resources instead of Stone · 33 deposit types · *Originally by CritFail* |
 
 ---
@@ -94,7 +94,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [⏱️ Extended Spoil Timers](Extended_Spoil_Timers) | `1.2` | Food 5× longer · Other decay 3× longer · 32 items *(not compatible with No Food Spoilage)* |
 | [🔩 Indestructible Tools & Weapons](Indestructible_Tools_Weapons) | `1.9` | 192 items set to max durability — tools, weapons, armor, buildings, crafting stations |
 | [📦 Stack Size Overhaul](Stack_Size_Overhaul) | `1.5` | 1,257 items — resources/ammo 5×, everything else 3×, cap 9,999 |
-| [🐾 Creature Drop Enhancer](Creature_Drop_Enhancer) | `1.1` | 2× all butchery and skinning outputs across 62 recipes |
+| [🐾 Creature Drop Enhancer](Creature_Drop_Enhancer) | `1.2` | 2× all butchery and skinning outputs across 62 recipes |
 | [🌾 Fish and Farming Boost](Fish_Farming_Boost) | `1.3` | 390 changes — 2× crop growth, +50% harvests, doubled fish spawns, DLC plants included |
 
 ---

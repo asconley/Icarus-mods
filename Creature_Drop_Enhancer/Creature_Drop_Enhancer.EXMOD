@@ -1,8 +1,8 @@
 {
   "name": "Creature Drop Enhancer",
   "author": "AgentKush",
-  "version": "1.1",
-  "description": "v1.1: Fixed 209 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Doubles all creature butchery and skinning outputs across 62 recipes.",
+  "version": "1.2",
+  "description": "v1.2: Extended doubled butchery/skinning drops to 15 more creatures (Komodo, Orka, Storca, Slinker, juveniles, tundra fauna). | Doubles all creature butchery and skinning outputs across 62 recipes.",
   "fileName": "Creature_Drop_Enhancer",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Drop_Enhancer.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer/README.md",
@@ -2264,6 +2264,762 @@
             }
           ],
           "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Carcass_Boar_Juvenile",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Bacon",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 2,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 40,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 8,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 20,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "White_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 2,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Boar_Tame",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Bacon",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 6,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 80,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 16,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 40,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "White_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 4,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Bounder_Desert",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 60,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 44,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 16,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Gamey_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 4,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Chew",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 6,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 60,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 36,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 30,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Gamey_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 4,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Juvenile_Snow_Wolf",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 2,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 6,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 6,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Stringy_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 2,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Juvenile_Tundra_Monkey",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 4,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 6,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Stringy_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 4,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Juvenile_Wolf",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 2,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 6,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 6,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Stringy_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 2,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Komodo",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 4,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 32,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 6,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Stringy_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Lava_Komodo",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 4,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 32,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 6,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Stringy_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Mange_Wolf",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 10,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 60,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 4,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 40,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Stringy_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 8,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Orka",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 24,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 60,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 16,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "White_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 40,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Slinker",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 6,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 60,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 36,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 30,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Gamey_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 4,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Storca",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 8,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 32,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 8,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 12,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Stringy_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 20,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_TundraMonkey",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 8,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 20,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 12,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 20,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Stringy_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 12,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
+        },
+        {
+          "Name": "Carcass_Tundra_Deer",
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 6,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 60,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 56,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Bone",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 30,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Gamey_Meat",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 4,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "RequiredMillijoules": 0
         }
       ]
     }

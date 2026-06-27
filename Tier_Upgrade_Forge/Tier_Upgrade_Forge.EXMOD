@@ -1,8 +1,8 @@
 {
   "name": "Tier Upgrade Forge",
   "author": "AgentKush",
-  "version": "1.2",
-  "description": "v1.2: Fixed 26 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | 26 tool/weapon upgrade recipes.",
+  "version": "1.3",
+  "description": "v1.3: Added in-place tier upgrades for Spears (Wood->Metal->Steel->Platinum->Titanium + Obsidian/ColdSteel/IronWood), Shovels (Stone->Platinum->Titanium), Sickles (Bone->Platinum->Titanium + specialty), and Sledgehammers (Metal->Obsidian/ColdSteel/IronWood). | In-place tool/weapon tier upgrades at the Anvil.",
   "fileName": "Tier_Upgrade_Forge",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Tier_Upgrade_Forge.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Tier_Upgrade_Forge/README.md",
@@ -1279,6 +1279,933 @@
             {
               "Element": {
                 "RowName": "Iron_Wood_Knife",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Upgrade_Spear_Wood_To_Metal",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood_Spear",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Metal_Ore",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Metal_Spear",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Upgrade_Spear_Metal_To_Steel",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Metal_Spear",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            },
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Spear",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Upgrade_Spear_Steel_To_Platinum",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Spear",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Platinum_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            },
+            {
+              "Element": {
+                "RowName": "Carbon_Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 3
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Platinum_Spear",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Upgrade_Spear_Platinum_To_Titanium",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Platinum_Spear",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Titanium_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            },
+            {
+              "Element": {
+                "RowName": "Composites",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 3
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Titanium_Spear",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 15000
+        },
+        {
+          "Name": "Upgrade_Spear_To_Obsidian",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Spear",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Shaped_Obsidian",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Obsidian_Spear",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Upgrade_Spear_To_ColdSteel",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Spear",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Cold_Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Cold_Steel_Spear",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Upgrade_Spear_To_IronWood",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Spear",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Refined_Iron_Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Iron_Wood_Spear",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Upgrade_Shovel_Stone_To_Platinum",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Stone_Shovel",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Platinum_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            },
+            {
+              "Element": {
+                "RowName": "Carbon_Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 3
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Platinum_Shovel",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Upgrade_Shovel_Platinum_To_Titanium",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Platinium_Shovel",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Titanium_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            },
+            {
+              "Element": {
+                "RowName": "Composites",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 3
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Titanium_Shovel",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 15000
+        },
+        {
+          "Name": "Upgrade_Sickle_Bone_To_Metal",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Bone_Sickle",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Metal_Ore",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Sickle",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Upgrade_Sickle_Metal_To_Platinum",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Sickle",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Platinum_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            },
+            {
+              "Element": {
+                "RowName": "Carbon_Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 3
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Platinum_Sickle",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Upgrade_Sickle_Platinum_To_Titanium",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Platinum_Sickle",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Titanium_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            },
+            {
+              "Element": {
+                "RowName": "Composites",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 3
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Titanium_Sickle",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 15000
+        },
+        {
+          "Name": "Upgrade_Sickle_To_Obsidian",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Sickle",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Shaped_Obsidian",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Obsidian_Sickle",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Upgrade_Sickle_To_ColdSteel",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Sickle",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Cold_Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Cold_Steel_Sickle",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Upgrade_Sickle_To_IronWood",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Sickle",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Refined_Iron_Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Iron_Wood_Sickle",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 1000
+        },
+        {
+          "Name": "Upgrade_Sledgehammer_To_Obsidian",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Metal_Sledgehammer",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Shaped_Obsidian",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Obsidian_Sledgehammer",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 20000
+        },
+        {
+          "Name": "Upgrade_Sledgehammer_To_ColdSteel",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Metal_Sledgehammer",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Cold_Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Cold_Steel_Sledgehammer",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 1,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 5000
+        },
+        {
+          "Name": "Upgrade_Sledgehammer_To_IronWood",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Metal_Sledgehammer",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            },
+            {
+              "Element": {
+                "RowName": "Refined_Iron_Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 8
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Iron_Wood_Sledgehammer",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,

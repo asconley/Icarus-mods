@@ -196,7 +196,7 @@
     {
       "name": "Ammo Crafting Overhaul",
       "author": "AgentKush",
-      "version": "1.1",
+      "version": "1.2",
       "compatibility": "All",
       "description": "50 new ammo recipes. 50x batch crafting for all arrow and bullet types including special ammo. Plus 8 ammo conversion recipes.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Ammo_Crafting_Overhaul.png",
@@ -232,7 +232,7 @@
     {
       "name": "Tier Upgrade Forge",
       "author": "AgentKush",
-      "version": "1.2",
+      "version": "1.3",
       "compatibility": "All",
       "description": "Upgrade tools and weapons to the next tier without rebuilding from scratch. 26 upgrade recipes across pickaxes, axes, knives, spears, swords, and bows.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Tier_Upgrade_Forge.png",
@@ -304,7 +304,7 @@
     {
       "name": "Creature Drop Enhancer",
       "author": "AgentKush",
-      "version": "1.1",
+      "version": "1.2",
       "compatibility": "All",
       "description": "Doubles all creature butchery and skinning outputs across 62 recipes. 2x leather, bone, fur, meat, and rare drops.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Drop_Enhancer.png",

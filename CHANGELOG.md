@@ -8,6 +8,9 @@ Each release is available as an EXMODZ download from [GitHub Releases](https://g
 
 ## 2026-06-27
 
+- **Tier Upgrade Forge** `v1.3` — Added Spear / Shovel / Sickle / Sledgehammer tier-upgrade paths (18 new recipes; previously only Pickaxe/Axe/Knife/Bow/Crossbow).
+- **Ammo Crafting Overhaul** `v1.2` — Added 50x Sniper special-ammo batches (Explosive, Incendiary).
+- **Creature Drop Enhancer** `v1.2` — Doubled drops now cover 15 more creatures (Komodo, Orka, Storca, Slinker, juveniles, tundra fauna).
 - **No Food Spoilage** `v2.2` — Restored coconut ripening (young -> mid -> mature) broken by the no-spoil change; mature coconuts no longer rot. (#10)
 - **Fish and Farming Boost** `v1.3` — StageMesh embedded so crops stay visible under farming-mod merges (NoSeedFatigue); fixed Sugar Cane reward (Sugar_Cane_Crops); added the 13 Elysium fish zones for full 70/70 coverage. (#9)
 - **Fast Processing** `v5.1` (5x / 10x / 15x / 25x / Instant) — Reverted the v4.9 over-correction of the Scoria roof corner recipe — the game's recipe name really is the misspelled "Scoria_Bick_Roof_Corner", so the mod now matches it and that recipe gets the speed boost again.
