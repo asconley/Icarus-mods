@@ -2,8 +2,8 @@
 
 # AgentKush's Icarus Mods
 
-[![Mods](https://img.shields.io/badge/40_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
-[![Data Entries](https://img.shields.io/badge/42%2C000%2B-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
+[![Mods](https://img.shields.io/badge/49_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
+[![Data Entries](https://img.shields.io/badge/43%2C000%2B-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
 [![Recipes](https://img.shields.io/badge/18%2C800%2B-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
 
@@ -45,6 +45,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [🧱 Hidden Building Pieces](Hidden_Building_Pieces) | `4.1` | 60 hidden building pieces — diagonal/curved sets, frames, corner stairs, roof peaks for 11+ materials |
 | [⚡ Extended Wire and Pipe Tool](Extended_Wire_and_Pipe_Tool) | `1.0` | 🔧 10× range on all cables and pipes — power/water/biofuel 60m, crude oil 100m |
 | [📡 Extended Deep Ore Scanner Range](Extended_Deep_Ore_Scanner_Range) | `1.0` | 🔧 10× deep ore scanner detection range — find deep exotic/epic deposits from 3km (was 300m) |
+| [📡 Extended Scanner Range](Extended_Scanner_Range) | `1.0` | 🔧 10× Cave Scanner (3km) + Fish Finder (1.5km) detection range |
 | [🗺️ Always Show Buildings on Map](Always_show_buildings_on_map) | `1.0` | Buildings always visible on map and minimap — no radar required |
 
 ---
@@ -95,7 +96,9 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [⏱️ Extended Spoil Timers](Extended_Spoil_Timers) | `1.2` | Food 5× longer · Other decay 3× longer · 32 items *(not compatible with No Food Spoilage)* |
 | [🔩 Indestructible Tools & Weapons](Indestructible_Tools_Weapons) | `1.9` | 192 items set to max durability — tools, weapons, armor, buildings, crafting stations |
 | [📦 Stack Size Overhaul](Stack_Size_Overhaul) | `1.5` | 1,257 items — resources/ammo 5×, everything else 3×, cap 9,999 |
+| [🪶 Lightweight Hauling](Lightweight_Hauling) | `1.0` | 54 resources weigh 50% less — ores, ingots & raw materials for easier hauling |
 | [🐾 Creature Drop Enhancer](Creature_Drop_Enhancer) | `1.2` | 2× all butchery and skinning outputs across 62 recipes |
+| [⛏️ Faster Harvest Tools](Faster_Harvest_Tools) | `1.0` | 2× yield from every gathering tool — mining, felling, reaping & skinning (74 tools) |
 | [🐾 Taming & Tames Overhaul](Taming_Tames_Overhaul) | `1.1` | 3× taming · 2× breeding · double juvenile chance · easier upkeep · 3× tame-growth XP · all 29 tameables |
 | [🧬 Genetics & Breeding Overhaul](Genetics_Breeding_Overhaul) | `1.0` | 2× genetics talent rewards (mutation/twins/gestation/recovery) · rarer Wild · achievable Alpha bloodline |
 | [💰 Better Mission Rewards](Better_Mission_Rewards) | `1.0` | 2× credits · 2× account XP · 2× faction reputation across all faction missions |

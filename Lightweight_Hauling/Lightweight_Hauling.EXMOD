@@ -1,0 +1,233 @@
+{
+  "name": "Lightweight Hauling",
+  "author": "AgentKush",
+  "version": "1.0",
+  "description": "All ores, ingots and raw resources weigh 50% less - haul far more per trip.",
+  "fileName": "Lightweight_Hauling",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Lightweight_Hauling.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Lightweight_Hauling/README.md",
+  "week": "All",
+  "Rows": [
+    {
+      "CurrentFile": "Traits-D_Itemable.json",
+      "File_Items": [
+        {
+          "Name": "Item_Acidic_Glands",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Advanced_Leather",
+          "Weight": 5
+        },
+        {
+          "Name": "Item_Advanced_Leather_Process",
+          "Weight": 5
+        },
+        {
+          "Name": "Item_Aluminium",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Bauxite",
+          "Weight": 200
+        },
+        {
+          "Name": "Item_Bone",
+          "Weight": 5
+        },
+        {
+          "Name": "Item_Butter",
+          "Weight": 25
+        },
+        {
+          "Name": "Item_Carbon_Fiber",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Clay",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Coal_Ore",
+          "Weight": 250
+        },
+        {
+          "Name": "Item_Cobalt_Ingot",
+          "Weight": 250
+        },
+        {
+          "Name": "Item_Cold_Steel_Ingot",
+          "Weight": 200
+        },
+        {
+          "Name": "Item_Composites",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Copper_Nail",
+          "Weight": 6
+        },
+        {
+          "Name": "Item_Copper_Ore",
+          "Weight": 200
+        },
+        {
+          "Name": "Item_Cream",
+          "Weight": 25
+        },
+        {
+          "Name": "Item_Crushed_Limestone",
+          "Weight": 100
+        },
+        {
+          "Name": "Item_Dirt",
+          "Weight": 100
+        },
+        {
+          "Name": "Item_Fiber",
+          "Weight": 5
+        },
+        {
+          "Name": "Item_Frozen_Wood",
+          "Weight": 75
+        },
+        {
+          "Name": "Item_Fur",
+          "Weight": 25
+        },
+        {
+          "Name": "Item_Fur_Stack",
+          "Weight": 6250
+        },
+        {
+          "Name": "Item_Gold_Ore",
+          "Weight": 200
+        },
+        {
+          "Name": "Item_Ice",
+          "Weight": 10
+        },
+        {
+          "Name": "Item_Iron_Nail",
+          "Weight": 6
+        },
+        {
+          "Name": "Item_Leather",
+          "Weight": 5
+        },
+        {
+          "Name": "Item_Limestone",
+          "Weight": 150
+        },
+        {
+          "Name": "Item_Lithium_Ore",
+          "Weight": 200
+        },
+        {
+          "Name": "Item_Meta_Coal",
+          "Weight": 300
+        },
+        {
+          "Name": "Item_Metal_Ore",
+          "Weight": 200
+        },
+        {
+          "Name": "Item_Obsidian",
+          "Weight": 150
+        },
+        {
+          "Name": "Item_Oxite",
+          "Weight": 200
+        },
+        {
+          "Name": "Item_Platinum_Ingot",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Platinum_Ore",
+          "Weight": 200
+        },
+        {
+          "Name": "Item_Raw_Iron_Wood",
+          "Weight": 50
+        },
+        {
+          "Name": "Item_Refined_Copper",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Refined_Gold",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Refined_Iron_Wood",
+          "Weight": 150
+        },
+        {
+          "Name": "Item_Refined_Metal",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Ruby_Ore",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Salt",
+          "Weight": 5
+        },
+        {
+          "Name": "Item_Sand",
+          "Weight": 25
+        },
+        {
+          "Name": "Item_Scoria",
+          "Weight": 175
+        },
+        {
+          "Name": "Item_Silica",
+          "Weight": 200
+        },
+        {
+          "Name": "Item_Spider_Silk",
+          "Weight": 5
+        },
+        {
+          "Name": "Item_Steel_Ingot",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Stick",
+          "Weight": 5
+        },
+        {
+          "Name": "Item_Stone",
+          "Weight": 150
+        },
+        {
+          "Name": "Item_Sulfur",
+          "Weight": 200
+        },
+        {
+          "Name": "Item_Titanium_Ingot",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Titanium_Ore",
+          "Weight": 200
+        },
+        {
+          "Name": "Item_Titanium_Plate",
+          "Weight": 125
+        },
+        {
+          "Name": "Item_Wood",
+          "Weight": 75
+        },
+        {
+          "Name": "Item_Wool",
+          "Weight": 250
+        }
+      ]
+    }
+  ]
+}

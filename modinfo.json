@@ -554,6 +554,42 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Deep_Ore_Scanner_Range/Extended_Deep_Ore_Scanner_Range.EXMODZ"
       }
+    },
+    {
+      "name": "Lightweight Hauling",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "All ores, ingots and raw resources weigh 50% less - haul far more per trip. Covers 54 resource-tagged items. Data mod, pairs with Stack Size Overhaul.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Lightweight_Hauling.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Lightweight_Hauling/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Lightweight_Hauling/Lightweight_Hauling.EXMODZ"
+      }
+    },
+    {
+      "name": "Faster Harvest Tools",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "2x harvest yield from every gathering tool - mining, felling, reaping and skinning - across all 74 tool tiers. Data mod.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Faster_Harvest_Tools.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Harvest_Tools/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Harvest_Tools/Faster_Harvest_Tools.EXMODZ"
+      }
+    },
+    {
+      "name": "Extended Scanner Range",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "10x detection range for the Cave Scanner and Fish Finder (Cave 3km, base/Fish 1.5km). PAK mod - modifies Blueprint assets. All players and server must install for multiplayer.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Extended_Scanner_Range.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Scanner_Range/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Scanner_Range/Extended_Scanner_Range.EXMODZ"
+      }
     }
   ]
 }

@@ -1,0 +1,333 @@
+{
+  "name": "Faster Harvest Tools",
+  "author": "AgentKush",
+  "version": "1.0",
+  "description": "2x harvest yield from every gathering tool - mining, felling, reaping and skinning - plus faster tree felling.",
+  "fileName": "Faster_Harvest_Tools",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Faster_Harvest_Tools.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Harvest_Tools/README.md",
+  "week": "All",
+  "Rows": [
+    {
+      "CurrentFile": "Tools-D_ToolDamage.json",
+      "File_Items": [
+        {
+          "Felling_Efficiency": 2,
+          "Felling_Damage": 50,
+          "Name": "Stone_Axe"
+        },
+        {
+          "Felling_Efficiency": 2,
+          "Felling_Damage": 60,
+          "Name": "Meta_Axe_Printed"
+        },
+        {
+          "Felling_Efficiency": 2,
+          "Felling_Damage": 100,
+          "Name": "Metal_Axe"
+        },
+        {
+          "Felling_Efficiency": 3,
+          "Felling_Damage": 110,
+          "Name": "Obsidian_Axe"
+        },
+        {
+          "Felling_Efficiency": 2,
+          "Felling_Damage": 100,
+          "Name": "Meta_Axe_Shengong"
+        },
+        {
+          "Felling_Efficiency": 3,
+          "Felling_Damage": 100,
+          "Name": "Meta_Axe_Inaris"
+        },
+        {
+          "Felling_Efficiency": 2,
+          "Felling_Damage": 100,
+          "Name": "Meta_Axe"
+        },
+        {
+          "Felling_Efficiency": 3,
+          "Felling_Damage": 100,
+          "Name": "Steel_Axe"
+        },
+        {
+          "Felling_Efficiency": 3,
+          "Felling_Damage": 150,
+          "Name": "Platnium_Axe"
+        },
+        {
+          "Felling_Efficiency": 3,
+          "Felling_Damage": 150,
+          "Name": "Cold_Steel_Axe"
+        },
+        {
+          "Felling_Efficiency": 3,
+          "Felling_Damage": 120,
+          "Name": "Meta_Axe_Larkwell"
+        },
+        {
+          "Felling_Efficiency": 3,
+          "Felling_Damage": 120,
+          "Name": "Meta_Axe_Shengong_Echo"
+        },
+        {
+          "Felling_Efficiency": 3,
+          "Felling_Damage": 160,
+          "Name": "Titanium_Axe"
+        },
+        {
+          "Felling_Efficiency": 3,
+          "Felling_Damage": 160,
+          "Name": "Iron_Wood_Axe"
+        },
+        {
+          "Mining_Efficiency": 2,
+          "Name": "Stone_Pickaxe"
+        },
+        {
+          "Mining_Efficiency": 2,
+          "Name": "Meta_Pickaxe_Printed"
+        },
+        {
+          "Mining_Efficiency": 2,
+          "Name": "Metal_Pickaxe"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Obsidian_Pickaxe"
+        },
+        {
+          "Mining_Efficiency": 2,
+          "Name": "Meta_Pickaxe_Shengong"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Meta_Pickaxe_Inaris"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Steel_Pickaxe"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Platnium_Pickaxe"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Cold_Steel_Pickaxe"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Meta_Pickaxe_Larkwell"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Meta_Pickaxe_Shengong_Echo"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Titanium_Pickaxe"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Iron_Wood_Pickaxe"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Meta_Pickaxe"
+        },
+        {
+          "Skinning_Efficiency": 2,
+          "Name": "Stone_Knife"
+        },
+        {
+          "Skinning_Efficiency": 3,
+          "Name": "Meta_Knife_Printed"
+        },
+        {
+          "Skinning_Efficiency": 3,
+          "Name": "Bone_Knife"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Caveworm_Knife"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Metal_Knife"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Obsidian_Knife"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Meta_Knife_Shengong"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Sandworm_Knife"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Meta_Knife_Inaris"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Steel_Knife"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Combat_Knife"
+        },
+        {
+          "Reaping_Efficiency": 2,
+          "Skinning_Efficiency": 2,
+          "Name": "Machete"
+        },
+        {
+          "Skinning_Efficiency": 3,
+          "Name": "Meta_Knife_Larkwell"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Meta_Knife_Shengong_Echo"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Platinum_Knife"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Cold_Steel_Knife"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Titanium_Knife"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Iron_Wood_Knife"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Meta_Knife"
+        },
+        {
+          "Reaping_Efficiency": 2,
+          "Name": "Bone_Sickle"
+        },
+        {
+          "Reaping_Efficiency": 2,
+          "Name": "Meta_Sickle_Printed"
+        },
+        {
+          "Reaping_Efficiency": 4,
+          "Name": "Meta_Sickle_Larkwell"
+        },
+        {
+          "Reaping_Efficiency": 3,
+          "Name": "Metal_Sickle"
+        },
+        {
+          "Reaping_Efficiency": 3,
+          "Name": "Obsidian_Sickle"
+        },
+        {
+          "Reaping_Efficiency": 4,
+          "Name": "Platnium_Sickle"
+        },
+        {
+          "Reaping_Efficiency": 4,
+          "Name": "Cold_Steel_Sickle"
+        },
+        {
+          "Reaping_Efficiency": 4,
+          "Name": "Titanium_Sickle"
+        },
+        {
+          "Reaping_Efficiency": 4,
+          "Name": "Iron_Wood_Sickle"
+        },
+        {
+          "Reaping_Efficiency": 4,
+          "Skinning_Efficiency": 2,
+          "Name": "Meta_Sickle_Inaris_Skinning"
+        },
+        {
+          "Reaping_Efficiency": 4,
+          "Name": "Meta_Sickle_Shengong"
+        },
+        {
+          "Reaping_Efficiency": 4,
+          "Name": "Meta_Sickle_Elemental"
+        },
+        {
+          "Reaping_Efficiency": 3,
+          "Name": "Lava_Hunter_Sickle"
+        },
+        {
+          "Felling_Efficiency": 2,
+          "Felling_Damage": 50,
+          "Name": "Slug_Axe"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Hornet_Knife"
+        },
+        {
+          "Mining_Efficiency": 4,
+          "Name": "Scyther_Pickaxe"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Meta_Pickaxe_Shengong_Advanced"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "LegendaryWeapon_GolemGauntlet"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Blackwolf_Knife"
+        },
+        {
+          "Felling_Efficiency": 3,
+          "Felling_Damage": 160,
+          "Name": "Lithium_Axe"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Lithium_Pickaxe"
+        },
+        {
+          "Skinning_Efficiency": 4,
+          "Name": "Lithium_Knife"
+        },
+        {
+          "Reaping_Efficiency": 4,
+          "Name": "Lithium_Sickle"
+        },
+        {
+          "Mining_Efficiency": 4,
+          "Name": "Jackhammer"
+        },
+        {
+          "Felling_Efficiency": 2,
+          "Felling_Damage": 100,
+          "Name": "Chainsaw"
+        },
+        {
+          "Mining_Efficiency": 3,
+          "Name": "Mining_Laser"
+        },
+        {
+          "Felling_Efficiency": 2,
+          "Felling_Damage": 150,
+          "Name": "LegendaryWeapon_Sandwyrm_Chainsaw"
+        }
+      ]
+    }
+  ]
+}
