@@ -510,7 +510,7 @@
     {
       "name": "Taming & Tames Overhaul",
       "author": "AgentKush",
-      "version": "1.0",
+      "version": "1.1",
       "compatibility": "All",
       "description": "Faster taming (3x), faster breeding (2x gestation + double juvenile chance), easier taming upkeep, and 3x tame-growth XP across all 29 tameable creatures. No combat-stat changes.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Taming_Tames_Overhaul.png",
@@ -529,6 +529,18 @@
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Genetics_Breeding_Overhaul/README.md",
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Genetics_Breeding_Overhaul/Genetics_Breeding_Overhaul.EXMODZ"
+      }
+    },
+    {
+      "name": "Better Mission Rewards",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Doubles mission payouts - 2x credits, 2x account XP, 2x faction reputation across all faction missions. Talent unlocks untouched.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Better_Mission_Rewards.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Better_Mission_Rewards/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Better_Mission_Rewards/Better_Mission_Rewards.EXMODZ"
       }
     }
   ]

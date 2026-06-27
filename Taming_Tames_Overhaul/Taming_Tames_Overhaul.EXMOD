@@ -1,8 +1,8 @@
 {
   "name": "Taming & Tames Overhaul",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "v1.0: Faster taming (3x), faster breeding (2x gestation + double juvenile chance), easier upkeep (half taming food), and faster tame growth (3x Well-Fed XP). Covers all 29 tameable creatures.",
+  "version": "1.1",
+  "description": "v1.1: Added faster mounts (Husbandry_MountSpeed 5% -> 20%) and cheaper riding (Husbandry_RidingEfficiency doubled). | Faster taming (3x), faster breeding (2x), easier upkeep, faster tame growth across all 29 tameable creatures.",
   "fileName": "Taming_Tames_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Taming_Tames_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Taming_Tames_Overhaul/README.md",
@@ -189,6 +189,43 @@
         {
           "Name": "Tame_Fed",
           "ExperienceGranted": 90
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Talents-D_Talents.json",
+      "File_Items": [
+        {
+          "Name": "Husbandry_MountSpeed",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureMovementSpeed_+%\")": 20
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Husbandry_RidingEfficiency",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseMountedOxygenConsumption_+%\")": -30,
+                "(Value=\"BaseMountedFoodConsumption_+%\")": -30,
+                "(Value=\"BaseMountedWaterConsumption_+%\")": -30
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseMountedOxygenConsumption_+%\")": -60,
+                "(Value=\"BaseMountedFoodConsumption_+%\")": -60,
+                "(Value=\"BaseMountedWaterConsumption_+%\")": -60
+              },
+              "GrantedFlags": []
+            }
+          ]
         }
       ]
     }

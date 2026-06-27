@@ -1,0 +1,2999 @@
+{
+  "name": "Better Mission Rewards",
+  "author": "AgentKush",
+  "version": "1.0",
+  "description": "v1.0: Doubles mission payouts - 2x credits, 2x account XP, and 2x faction reputation across all faction missions. Less mission grinding, same gameplay flow. Talent unlocks are untouched.",
+  "fileName": "Better_Mission_Rewards",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Better_Mission_Rewards.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Better_Mission_Rewards/README.md",
+  "week": "All",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Factions-D_FactionMissions.json",
+      "File_Items": [
+        {
+          "Name": "OLY_Forest_Recon",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Forest_Scan",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Forest_Survey",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 150
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Forest_Stockpile",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Forest_Research",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 170
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Forest_Extermination",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 250
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Farming",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Forest_Defense",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Forest_Construction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Glacier_Expedition",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 250
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Glacier_Scan",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Glacier_Recovery",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Glacier_Construction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 550
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Glacier_Research",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Glacier_Extraction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Canyons_Expedition",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 250
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Canyons_Scan",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Canyons_Recovery",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Canyons_Survey",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Canyons_Construction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 350
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Canyons_Stockpile",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 700
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Canyons_Stockpile_2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 700
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Canyon_LongSurvey",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Riverlands_Expedition",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 350
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Riverlands_Scan",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Riverlands_Extermination",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Riverlands_LongSurvey",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Riverlands_Research",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Riverlands_Stockpile",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Riverlands_Stockpile_2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Riverlands_Construction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 700
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Riverlands_Delivery",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Riverlands_Extraction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Arctic_Expedition",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1200
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Arctic_Scan",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Arctic_Extraction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 800
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Arctic_Extermination",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Arctic_Recovery",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Arctic_LongSurvey",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Arctic_Stockpile",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1300
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Arctic_Survey",
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Desert_Expedition",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Desert_Scan",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Desert_Extermination",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 800
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Desert_Extermination_2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 800
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Desert_Research",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Desert_Research_2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Desert_Recovery",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 800
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Desert_Recovery_2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 800
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Desert_Construction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1200
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Desert_Survey",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Omni_Recovery",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1300
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Omni_Research",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ]
+        },
+        {
+          "Name": "OLY_Omni_Research_2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1300
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ]
+        },
+        {
+          "Name": "STYX_A_Expedition",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_A_Exploration",
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_A_Extermination",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_B_Expedition",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_B_Exploration",
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_B_Extermination",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_C_Expedition",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_C_Exploration",
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_C_Construction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 800
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_C_Extermination",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_D_Expedition",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 700
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_D_Exploration",
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_D_Extermination",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_D_Delivery",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 700
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_D_Recovery",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 700
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_D_Research",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_D_Research2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 900
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_E_Expedition",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_E_Exploration",
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_E_Survey",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1000
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_E_Research",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 700
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Omni_Outpost",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 700
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ]
+        },
+        {
+          "Name": "STYX_A_Construction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Forest_Range",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_B_Stockpile",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "OLY_Forest_WS_Stockpile",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_Story_1",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ]
+        },
+        {
+          "Name": "PRO_Story_2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ]
+        },
+        {
+          "Name": "PRO_Story_3",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ]
+        },
+        {
+          "Name": "PRO_Story_4",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ]
+        },
+        {
+          "Name": "PRO_Story_5",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ]
+        },
+        {
+          "Name": "PRO_Story_6",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            }
+          ]
+        },
+        {
+          "Name": "STYX_C_Extermination2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 150
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_E_Extraction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_B_Research",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_A_Extermination2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_A_Stockpile",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ]
+        },
+        {
+          "Name": "STYX_C_Fishing",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_A_Exploration",
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_B_Exploration",
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_C_Exploration",
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_C_Construction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_C_Research",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1000
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_A_Extraction",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_B_Extermination",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_Ashlands_Story",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_Icesheet_Story",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "STYX_A_Research",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_D_Transport",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_D_Research",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_E_Research",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_RG_A",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Licence",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 2
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_RG_B",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_RG_C",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_RG_C2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_RG_D",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_RG_D2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_RG_E",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_RG_F",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_RG_O1",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_RG_O2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_RG_Final",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1000
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            },
+            {
+              "Meta": {
+                "RowName": "Licence",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 2
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_D_Recovery",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1000
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_D_Resupply",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1000
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_D_Rescue",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1000
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "PRO_Nullsector_Story",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_A",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Licence",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 2
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_B",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_C",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_C2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_D",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_D2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_E",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_E2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_F",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_G",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_O1",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_O2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_Ape_Final",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1000
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            },
+            {
+              "Meta": {
+                "RowName": "Licence",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 2
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_IM_A",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_IM_A2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_IM_B",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_IM_C",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_IM_C2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_IM_D",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_IM_D2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Biomass",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 10
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_IM_O1",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Licence",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 2
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_IM_O2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_IM_O3",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "GH_IM_Final",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 1000
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Red",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 600
+            },
+            {
+              "Meta": {
+                "RowName": "Licence",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 2
+            }
+          ],
+          "AccountExperience": 100,
+          "FactionExperience": 20
+        },
+        {
+          "Name": "ELY_Story_1",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ]
+        },
+        {
+          "Name": "ELY_Story_2",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 150
+            }
+          ]
+        },
+        {
+          "Name": "ELY_Story_3",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            }
+          ]
+        },
+        {
+          "Name": "ELY_Story_4",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 300
+            }
+          ]
+        },
+        {
+          "Name": "ELY_Story_5",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 400
+            }
+          ]
+        },
+        {
+          "Name": "ELY_Story_6",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 500
+            }
+          ]
+        },
+        {
+          "Name": "ELY_SQ_Igloo",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Uranium",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "ELY_SQ_Yeti",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Uranium",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ]
+        },
+        {
+          "Name": "ELY_SQ_Fish",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Uranium",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 70
+            }
+          ]
+        },
+        {
+          "Name": "OLY_SQ_Farmer",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "STYX_SQ_Farmer",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "PRO_SQ_Farmer",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "ELY_SQ_Farmer",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "ELY_SQ_Norex",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "PRO_SQ_Norex",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "STYX_SQ_Norex",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "OLY_SQ_Norex",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "ELY_SQ_Hunter",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "PRO_SQ_Hunter",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "STYX_SQ_Hunter",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "OLY_SQ_Hunter",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "OLY_SQ_Fisher",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "STYX_SQ_Fisher",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "PRO_SQ_Fisher",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "ELY_SQ_Fisher",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic1",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "ELY_SQ_Ambush",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Uranium",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 50
+            }
+          ]
+        },
+        {
+          "Name": "ELY_SQ_Lifeline",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Uranium",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 70
+            }
+          ]
+        },
+        {
+          "Name": "ELY_SQ_Courier",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Uranium",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 100
+            }
+          ]
+        },
+        {
+          "Name": "ELY_SQ_Trials",
+          "CurrencyRewarded": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 200
+            },
+            {
+              "Meta": {
+                "RowName": "Exotic_Uranium",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 150
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
