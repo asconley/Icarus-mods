@@ -41,7 +41,7 @@
       "author": "AgentKush",
       "version": "1.1.3",
       "compatibility": "All",
-      "description": "v1.1.3: Substituted visible meshes for 3 tools that previously used the invisible placeholder (Inspection Tool → Scanner mesh, Bug Tool → Beacon mesh, Transform Tool → Building Hammer mesh); added Debug_Target dev dummy (new 11th tool); fixed Thor's Hammer Focusable ref (Focusable_2H → Focusable_Sledge). Rearranged Workshop tree to a 4-row × 3-column grid so it fits within the vertical workshop bounds. — Unlocks 10 hidden developer tools including Thor's Hammer (fly mode), Transform Tool, Destroy Tool, Inspection Tool, Fireball, Pyromancy Flame, and more. v1.1.2: Fixed broken mesh and actionable references for current game data.",
+      "description": "v1.1.3: Substituted visible meshes for 3 tools that previously used the invisible placeholder (Inspection Tool \u2192 Scanner mesh, Bug Tool \u2192 Beacon mesh, Transform Tool \u2192 Building Hammer mesh); added Debug_Target dev dummy (new 11th tool); fixed Thor's Hammer Focusable ref (Focusable_2H \u2192 Focusable_Sledge). Rearranged Workshop tree to a 4-row \u00d7 3-column grid so it fits within the vertical workshop bounds. \u2014 Unlocks 10 hidden developer tools including Thor's Hammer (fly mode), Transform Tool, Destroy Tool, Inspection Tool, Fireball, Pyromancy Flame, and more. v1.1.2: Fixed broken mesh and actionable references for current game data.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Dev_Tools_Kit.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/README.md",
       "files": {
@@ -589,6 +589,54 @@
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Scanner_Range/README.md",
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Scanner_Range/Extended_Scanner_Range.EXMODZ"
+      }
+    },
+    {
+      "name": "Hunter's Critical Strike",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "The first-ever critical-hit mod. Weak-point hits deal far more critical damage - standard/metal weak points 2x, mini ~2.6x, elite +50%. Rewards precision aiming.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hunters_Critical_Strike.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hunters_Critical_Strike/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Hunters_Critical_Strike/Hunters_Critical_Strike.EXMODZ"
+      }
+    },
+    {
+      "name": "War Beasts",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "The first taming-combat mod. Husbandry combat talents 3x stronger - tamed creatures hit harder, survive longer (3x health) and move faster (2x). Build true war beasts.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/War_Beasts.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/War_Beasts/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/War_Beasts/War_Beasts.EXMODZ"
+      }
+    },
+    {
+      "name": "Genetic Mastery",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Elite trait lineages (Brave, Hardy, Bold, Fierce, Savage and more) are 4x more common - wild and bred creatures far more often carry powerful genetics. Stacks with Genetics & Breeding Overhaul.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Genetic_Mastery.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Genetic_Mastery/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Genetic_Mastery/Genetic_Mastery.EXMODZ"
+      }
+    },
+    {
+      "name": "Mining Laser Overclock",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "The first-ever mining-laser blueprint mod. The mining laser runs 300s before overheating (was 5s) and cools in 1s - sustained, uninterrupted deep mining. PAK mod - all players and server must install for multiplayer.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Mining_Laser_Overclock.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Mining_Laser_Overclock/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Mining_Laser_Overclock/Mining_Laser_Overclock.EXMODZ"
       }
     }
   ]

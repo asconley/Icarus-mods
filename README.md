@@ -2,7 +2,7 @@
 
 # AgentKush's Icarus Mods
 
-[![Mods](https://img.shields.io/badge/49_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
+[![Mods](https://img.shields.io/badge/53_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
 [![Data Entries](https://img.shields.io/badge/43%2C000%2B-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
 [![Recipes](https://img.shields.io/badge/18%2C800%2B-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
@@ -77,6 +77,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [🛡️ Armor Set Bonuses Enhanced](Armor_Set_Bonuses_Enhanced) | `2.0` | 3-piece partial bonuses for mix-and-match builds + boosted 5-piece bonuses across all 33 sets |
 | [🧥 Armor Attachment Expansion](Armor_Attachment_Expansion) | `1.0` | 25 new craftable armor attachments (5 per body part) · stacks with talents · Alteration Bench |
 | [🫁 Survival Attachments](Survival_Attachments) | `1.1` | Food/oxygen/water attachments + doubles attachment slots on every armor piece · 3 new recipes |
+| [💥 Hunter's Critical Strike](Hunters_Critical_Strike) | `1.0` | Weak-point hits deal far more critical damage — 2× standard/metal, +50% elite. First-ever crit-system mod |
 
 ## 💰 Economy & Crafting
 
@@ -99,8 +100,11 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [🪶 Lightweight Hauling](Lightweight_Hauling) | `1.0` | 54 resources weigh 50% less — ores, ingots & raw materials for easier hauling |
 | [🐾 Creature Drop Enhancer](Creature_Drop_Enhancer) | `1.2` | 2× all butchery and skinning outputs across 62 recipes |
 | [⛏️ Faster Harvest Tools](Faster_Harvest_Tools) | `1.0` | 2× yield from every gathering tool — mining, felling, reaping & skinning (74 tools) |
+| [🔦 Mining Laser Overclock](Mining_Laser_Overclock) | `1.0` | 🔧 No overheating — 300s runtime (was 5s) + 1s cooldown for sustained deep mining. First mining-laser blueprint mod |
 | [🐾 Taming & Tames Overhaul](Taming_Tames_Overhaul) | `1.1` | 3× taming · 2× breeding · double juvenile chance · easier upkeep · 3× tame-growth XP · all 29 tameables |
+| [🐺 War Beasts](War_Beasts) | `1.0` | Husbandry combat talents 3× — tamed creatures hit harder, survive longer & move faster. First taming-combat mod |
 | [🧬 Genetics & Breeding Overhaul](Genetics_Breeding_Overhaul) | `1.0` | 2× genetics talent rewards (mutation/twins/gestation/recovery) · rarer Wild · achievable Alpha bloodline |
+| [🔬 Genetic Mastery](Genetic_Mastery) | `1.0` | Elite trait lineages 4× more common — powerful genetics in far more wild & bred creatures. Stacks with Genetics & Breeding |
 | [💰 Better Mission Rewards](Better_Mission_Rewards) | `1.0` | 2× credits · 2× account XP · 2× faction reputation across all faction missions |
 | [🌾 Fish and Farming Boost](Fish_Farming_Boost) | `1.3` | 390 changes — 2× crop growth, +50% harvests, doubled fish spawns, DLC plants included |
 

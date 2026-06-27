@@ -1,0 +1,84 @@
+{
+  "name": "War Beasts",
+  "author": "AgentKush",
+  "version": "1.0",
+  "compatibility": "All",
+  "description": "The first taming-combat mod. Husbandry combat talents 3x stronger - turn tamed creatures into true war beasts that hit hard and survive fights.",
+  "fileName": "War_Beasts",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/War_Beasts.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/War_Beasts/README.md",
+  "week": "All",
+  "Rows": [
+    {
+      "CurrentFile": "Talents-D_Talents.json",
+      "File_Items": [
+        {
+          "Name": "Husbandry_Damage",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureMeleeDamage_+%\")": 15
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureMeleeDamage_+%\")": 30
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureMeleeDamage_+%\")": 45
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureMeleeDamage_+%\")": 60
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Husbandry_TameHealth",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureMaximumHealth_+%\")": 30,
+                "(Value=\"BaseTamedCreatureHealthRegen_+%\")": 45
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureMaximumHealth_+%\")": 60,
+                "(Value=\"BaseTamedCreatureHealthRegen_+%\")": 90
+              },
+              "GrantedFlags": []
+            },
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureMaximumHealth_+%\")": 90,
+                "(Value=\"BaseTamedCreatureHealthRegen_+%\")": 135
+              },
+              "GrantedFlags": []
+            }
+          ]
+        },
+        {
+          "Name": "Husbandry_MountSpeed",
+          "Rewards": [
+            {
+              "GrantedStats": {
+                "(Value=\"BaseTamedCreatureMovementSpeed_+%\")": 10
+              },
+              "GrantedFlags": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

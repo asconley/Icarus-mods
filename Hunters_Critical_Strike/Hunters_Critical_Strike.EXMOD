@@ -1,0 +1,34 @@
+{
+  "name": "Hunter's Critical Strike",
+  "author": "AgentKush",
+  "version": "1.0",
+  "compatibility": "All",
+  "description": "Weak-point hits deal far more critical damage - regular weak points now hit as hard as elite ones. Rewards precision aiming. First-ever crit-system mod.",
+  "fileName": "Hunters_Critical_Strike",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hunters_Critical_Strike.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hunters_Critical_Strike/README.md",
+  "week": "All",
+  "Rows": [
+    {
+      "CurrentFile": "Damage-D_CriticalHitAreas.json",
+      "File_Items": [
+        {
+          "Name": "Crit_WeakPoint",
+          "MultiplierStatMultiplier": 1.0
+        },
+        {
+          "Name": "Crit_ExtraWeakPoint",
+          "MultiplierStatMultiplier": 1.5
+        },
+        {
+          "Name": "Crit_MiniWeakPoint",
+          "MultiplierStatMultiplier": 0.4
+        },
+        {
+          "Name": "Crit_WeakPointMetal",
+          "MultiplierStatMultiplier": 1.0
+        }
+      ]
+    }
+  ]
+}

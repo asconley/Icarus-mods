@@ -1,0 +1,58 @@
+{
+  "name": "Genetic Mastery",
+  "author": "AgentKush",
+  "version": "1.0",
+  "compatibility": "All",
+  "description": "Elite trait lineages (Brave, Hardy, Bold, Careful and more) are 4x more common - wild and bred creatures far more often carry powerful genetics. Distinct from Genetics & Breeding Overhaul (mutation talents) - they stack.",
+  "fileName": "Genetic_Mastery",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Genetic_Mastery.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Genetic_Mastery/README.md",
+  "week": "All",
+  "Rows": [
+    {
+      "CurrentFile": "AI-D_GeneticLineages.json",
+      "File_Items": [
+        {
+          "Name": "Brave",
+          "Weighting": 200
+        },
+        {
+          "Name": "Careful",
+          "Weighting": 200
+        },
+        {
+          "Name": "Timid",
+          "Weighting": 200
+        },
+        {
+          "Name": "Bold",
+          "Weighting": 200
+        },
+        {
+          "Name": "Hardy",
+          "Weighting": 200
+        },
+        {
+          "Name": "Stout",
+          "Weighting": 200
+        },
+        {
+          "Name": "Ambitious",
+          "Weighting": 200
+        },
+        {
+          "Name": "Resolute",
+          "Weighting": 100
+        },
+        {
+          "Name": "Fierce",
+          "Weighting": 100
+        },
+        {
+          "Name": "Savage",
+          "Weighting": 100
+        }
+      ]
+    }
+  ]
+}
