@@ -27,7 +27,7 @@
     {
       "name": "Workshop Recyclers",
       "author": "AgentKush",
-      "version": "5.6",
+      "version": "5.7",
       "compatibility": "All",
       "description": "Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 5,340 recipes: 1,948 deconstruct + 335 recycle + 3,054 incinerate + 3 crafting. v5.5: Added 886 missing incinerate recipes (frozen items, ores, food, building pieces). Every item in the game now covered. Fixed icon, mesh, and tech tree.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Workshop_Recyclers.png",
@@ -63,9 +63,9 @@
     {
       "name": "Hidden Building Pieces",
       "author": "AgentKush",
-      "version": "4.2",
+      "version": "4.3",
       "compatibility": "All",
-      "description": "Unlocks 62 hidden building pieces as individual items plus the forgotten Interior Wood Floor recipe at Fabricator/Manufacturer. Includes Wood diagonal/curved pieces, frames for 11 materials, corner stairs for 13 materials, glass stairs, and more. All items are craftable at material-appropriate benches.",
+      "description": "34 building pieces - frames (full/half/pillar) and diagonal sets for 11+ materials. Corner stairs, stairs and curved pieces removed - now official in the base game.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
       "files": {
@@ -171,7 +171,7 @@
     {
       "name": "Turret Variants",
       "author": "AgentKush",
-      "version": "3.2",
+      "version": "3.3",
       "compatibility": "All",
       "description": "15 new automated turret variants with unique firing patterns. v3.0: LOS fix PAK (turrets stop shooting through walls) + proper ammo matching (arrows, bolts, javelins, stones, biofuel). Includes Crossbow, Bow, Sniper, Assault Rifle, SMG, Javelin, Flamethrower, Rock, Minigun, Rifle, Pistol, Shotblaster, Rapid Crossbow, Storm, and Heavy Sniper turrets.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",

@@ -1,8 +1,8 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "4.2",
-  "description": "Unlocks hidden building pieces: Wood diagonal/curved, frames, corner stairs, glass stairs, and more.\n\nv4.1 — Added Interior Wood Floor recipe at Fabricator/Manufacturer (the forgotten floor)\nv4.0 — Removed Ice_Floor_TrapDoor (broken). 62 hidden pieces, 101 building variations\nv3.0 — Added 15 new hidden pieces\nv2.0 — Expanded to 47 pieces + skins\nv1.0 — Initial release",
+  "version": "4.3",
+  "description": "Unlocks hidden building pieces: Wood diagonal/curved, frames, corner stairs, glass stairs, and more.\n\nv4.1 \u2014 Added Interior Wood Floor recipe at Fabricator/Manufacturer (the forgotten floor)\nv4.0 \u2014 Removed Ice_Floor_TrapDoor (broken). 62 hidden pieces, 101 building variations\nv3.0 \u2014 Added 15 new hidden pieces\nv2.0 \u2014 Expanded to 47 pieces + skins\nv1.0 \u2014 Initial release",
   "fileName": "Hidden_Building_Pieces",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
@@ -22,14 +22,6 @@
     {
       "CurrentFile": "Traits-D_Itemable.json",
       "File_Items": [
-        {
-          "Name": "Item_ClayBrick_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_CornerStairs-DisplayName\", \"Clay Brick Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_CornerStairs-Description\", \"Clay Brick Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Clay_Brick_Ramp_2.ITEM_Clay_Brick_Ramp_2",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
         {
           "Name": "Item_ClayBrick_Frame_FullFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Frame_FullFrame-DisplayName\", \"Clay Brick Full Frame\")",
@@ -55,22 +47,6 @@
           "MaxStack": 20
         },
         {
-          "Name": "Item_Clay_Brick_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_CornerStairs-DisplayName\", \"Clay Brick Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_CornerStairs-Description\", \"Clay Brick Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Clay_Brick_Ramp_2.ITEM_Clay_Brick_Ramp_2",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Glass_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_CornerStairs-DisplayName\", \"Glass Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_CornerStairs-Description\", \"Glass Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
           "Name": "Item_Glass_Frame_FullFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Frame_FullFrame-DisplayName\", \"Glass Full Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Frame_FullFrame-Description\", \"Glass Full Frame building piece (1 variants).\")",
@@ -91,30 +67,6 @@
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Frame_Pillar-DisplayName\", \"Glass Frame Pillar\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Frame_Pillar-Description\", \"Glass Frame Pillar building piece (1 variants).\")",
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_10.T_ITEM_Dev_Pillars_Frames_10",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Glass_HalfStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_HalfStairs-DisplayName\", \"Glass Half Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_HalfStairs-Description\", \"Glass Half Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Glass_Stairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Stairs-DisplayName\", \"Glass Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Stairs-Description\", \"Glass Stairs building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Ice_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_CornerStairs-DisplayName\", \"Ice Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_CornerStairs-Description\", \"Ice Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Ice_Ramp_0.T_ITEM_Ice_Ramp_0",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -159,14 +111,6 @@
           "MaxStack": 20
         },
         {
-          "Name": "Item_Limestone_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_CornerStairs-DisplayName\", \"Limestone Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_CornerStairs-Description\", \"Limestone Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Limestone_Ramp_0.T_ITEM_Limestone_Ramp_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
           "Name": "Item_Limestone_Frame_HalfFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Frame_HalfFrame-DisplayName\", \"Limestone Half Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Frame_HalfFrame-Description\", \"Limestone Half Frame building piece (1 variants).\")",
@@ -175,26 +119,10 @@
           "MaxStack": 20
         },
         {
-          "Name": "Item_MetalGrate_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_MetalGrate_CornerStairs-DisplayName\", \"Metal Grate Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_MetalGrate_CornerStairs-Description\", \"Metal Grate Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Iron_Ramp_0.ITEM_Iron_Ramp_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
           "Name": "Item_Metal_Grate_HalfNormal_QuarterFloor",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Grate_HalfNormal_QuarterFloor-DisplayName\", \"Metal Grate Quarter Floor\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Grate_HalfNormal_QuarterFloor-Description\", \"Metal Grate Quarter Floor building piece (1 variants).\")",
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Iron_Ramp_0.ITEM_Iron_Ramp_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_ReinforcedWood_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ReinforcedWood_CornerStairs-DisplayName\", \"Reinforced Wood Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ReinforcedWood_CornerStairs-Description\", \"Reinforced Wood Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ReinforcedWood_Ramp_0.T_ITEM_ReinforcedWood_Ramp_0",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -215,14 +143,6 @@
           "MaxStack": 20
         },
         {
-          "Name": "Item_Sandworm_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_CornerStairs-DisplayName\", \"Sandworm Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_CornerStairs-Description\", \"Sandworm Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Sandworm_Ramp_0.T_ITEM_Sandworm_Ramp_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
           "Name": "Item_Sandworm_Frame_FullFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Frame_FullFrame-DisplayName\", \"Sandworm Full Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Frame_FullFrame-Description\", \"Sandworm Full Frame building piece (1 variants).\")",
@@ -239,26 +159,10 @@
           "MaxStack": 20
         },
         {
-          "Name": "Item_Scoria_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_CornerStairs-DisplayName\", \"Scoria Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_CornerStairs-Description\", \"Scoria Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Scoria_Ramp_0.ITEM_Scoria_Ramp_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
           "Name": "Item_Scoria_Frame_HalfFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Frame_HalfFrame-DisplayName\", \"Scoria Half Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Frame_HalfFrame-Description\", \"Scoria Half Frame building piece (1 variants).\")",
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_5.T_ITEM_Dev_Pillars_Frames_5",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_ScoriaBrick_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ScoriaBrick_CornerStairs-DisplayName\", \"Scoria Brick Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ScoriaBrick_CornerStairs-Description\", \"Scoria Brick Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Brick_Floor_0.T_ITEM_Scoria_Brick_Floor_0",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -287,14 +191,6 @@
           "MaxStack": 20
         },
         {
-          "Name": "Item_StoneBrick_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_StoneBrick_CornerStairs-DisplayName\", \"Stone Brick Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_StoneBrick_CornerStairs-Description\", \"Stone Brick Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Brick_Floor_0.T_ITEM_Stone_Brick_Floor_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
           "Name": "Item_StoneBrick_Frame_FullFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_StoneBrick_Frame_FullFrame-DisplayName\", \"Stone Brick Full Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_StoneBrick_Frame_FullFrame-Description\", \"Stone Brick Full Frame building piece (1 variants).\")",
@@ -315,14 +211,6 @@
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_StoneBrick_Frame_Pillar-DisplayName\", \"Stone Brick Frame Pillar\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_StoneBrick_Frame_Pillar-Description\", \"Stone Brick Frame Pillar building piece (1 variants).\")",
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_6.T_ITEM_Dev_Pillars_Frames_6",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_TemperedGlass_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_TemperedGlass_CornerStairs-DisplayName\", \"Tempered Glass Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_TemperedGlass_CornerStairs-Description\", \"Tempered Glass Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -351,65 +239,9 @@
           "MaxStack": 20
         },
         {
-          "Name": "Item_TemperedGlass_HalfStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_TemperedGlass_HalfStairs-DisplayName\", \"Tempered Glass Half Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_TemperedGlass_HalfStairs-Description\", \"Tempered Glass Half Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_TemperedGlass_Stairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_TemperedGlass_Stairs-DisplayName\", \"Tempered Glass Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_TemperedGlass_Stairs-Description\", \"Tempered Glass Stairs building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Thatch_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Thatch_CornerStairs-DisplayName\", \"Thatch Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Thatch_CornerStairs-Description\", \"Thatch Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Thatch_Ramp_0.ITEM_Thatch_Ramp_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Wood_Beam_Curved_Diagonal",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Beam_Curved_Diagonal-DisplayName\", \"Wood Curved Beams\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Beam_Curved_Diagonal-Description\", \"Wood Curved Beams building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
           "Name": "Item_Wood_Brick_Beam_DiagonalBeam",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Brick_Beam_DiagonalBeam-DisplayName\", \"Wood Diagonal Beam\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Brick_Beam_DiagonalBeam-Description\", \"Wood Diagonal Beam building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Wood_CornerStairs",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_CornerStairs-DisplayName\", \"Wood Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_CornerStairs-Description\", \"Wood Corner Stairs building piece (2 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Wood_Diagonal_Beam_Curved_Diagonal",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Beam_Curved_Diagonal-DisplayName\", \"Wood Curved Diagonal Beams\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Beam_Curved_Diagonal-Description\", \"Wood Curved Diagonal Beams building piece (4 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Wood_Diagonal_Beam_Curved_Horizontal",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Beam_Curved_Horizontal-DisplayName\", \"Wood Curved Beam\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Beam_Curved_Horizontal-Description\", \"Wood Curved Beam building piece (1 variants).\")",
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
           "Weight": 5000,
           "MaxStack": 20
@@ -426,22 +258,6 @@
           "Name": "Item_Wood_Diagonal_Beam_Horizontal",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Beam_Horizontal-DisplayName\", \"Wood Diagonal Beam\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Beam_Horizontal-Description\", \"Wood Diagonal Beam building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Wood_Diagonal_Curved_Floor",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Curved_Floor-DisplayName\", \"Wood Diagonal Curved Floor\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Curved_Floor-Description\", \"Wood Diagonal Curved Floor building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Wood_Diagonal_Curved_Ramp_Roof",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Curved_Ramp_Roof-DisplayName\", \"Wood Diagonal Curved Ramp\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Curved_Ramp_Roof-Description\", \"Wood Diagonal Curved Ramp building piece (1 variants).\")",
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
           "Weight": 5000,
           "MaxStack": 20
@@ -471,49 +287,9 @@
           "MaxStack": 20
         },
         {
-          "Name": "Item_Wood_Diagonal_Wall_Curved_Angles",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Wall_Curved_Angles-DisplayName\", \"Wood Diagonal Curved Wall Angles\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Wall_Curved_Angles-Description\", \"Wood Diagonal Curved Wall Angles building piece (8 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Wood_Diagonal_Wall_Curved_Solid",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Wall_Curved_Solid-DisplayName\", \"Wood Diagonal Curved Wall\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Wall_Curved_Solid-Description\", \"Wood Diagonal Curved Wall building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
           "Name": "Item_Wood_Diagonal_Wall_Solid",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Wall_Solid-DisplayName\", \"Wood Diagonal Wall\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Diagonal_Wall_Solid-Description\", \"Wood Diagonal Wall building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Wood_Ramp_Curved",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Ramp_Curved-DisplayName\", \"Wood Curved Ramp\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Ramp_Curved-Description\", \"Wood Curved Ramp building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Wood_Roof_CurvedAngles",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Roof_CurvedAngles-DisplayName\", \"Wood Curved Roof Angles\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Roof_CurvedAngles-Description\", \"Wood Curved Roof Angles building piece (8 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "Weight": 5000,
-          "MaxStack": 20
-        },
-        {
-          "Name": "Item_Wood_Wall_Curved_Angles",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Wall_Curved_Angles-DisplayName\", \"Wood Curved Wall Angles\")",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Wall_Curved_Angles-Description\", \"Wood Curved Wall Angles building piece (4 variants).\")",
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
           "Weight": 5000,
           "MaxStack": 20
@@ -523,46 +299,6 @@
     {
       "CurrentFile": "Items-D_ItemsStatic.json",
       "File_Items": [
-        {
-          "Name": "ClayBrick_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Brick"
-          },
-          "Itemable": {
-            "RowName": "Item_ClayBrick_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "ClayBrick_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Clay_Brick_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
         {
           "Name": "ClayBrick_Frame_FullFrame",
           "Meshable": {
@@ -684,86 +420,6 @@
           ]
         },
         {
-          "Name": "Clay_Brick_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Brick"
-          },
-          "Itemable": {
-            "RowName": "Item_Clay_Brick_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Clay_Brick_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Clay_Brick_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Glass_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Glass"
-          },
-          "Itemable": {
-            "RowName": "Item_Glass_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Glass_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Glass_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
           "Name": "Glass_Frame_FullFrame",
           "Meshable": {
             "RowName": "Mesh_Generic_Glass"
@@ -876,126 +532,6 @@
           },
           "Durable": {
             "RowName": "Glass_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Glass_HalfStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Glass"
-          },
-          "Itemable": {
-            "RowName": "Item_Glass_HalfStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Glass_HalfStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Glass_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Glass_Stairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Glass"
-          },
-          "Itemable": {
-            "RowName": "Item_Glass_Stairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Glass_Stairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Glass_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Ice_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Ice"
-          },
-          "Itemable": {
-            "RowName": "Item_Ice_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Ice_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Ice_Building",
             "DataTableName": "D_Durable"
           },
           "Traits": [
@@ -1204,46 +740,6 @@
           ]
         },
         {
-          "Name": "Limestone_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Concrete"
-          },
-          "Itemable": {
-            "RowName": "Item_Limestone_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Limestone_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Limestone_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
           "Name": "Limestone_Frame_HalfFrame",
           "Meshable": {
             "RowName": "Mesh_Generic_Concrete"
@@ -1284,46 +780,6 @@
           ]
         },
         {
-          "Name": "MetalGrate_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Iron"
-          },
-          "Itemable": {
-            "RowName": "Item_MetalGrate_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "MetalGrate_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Iron_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
           "Name": "Metal_Grate_HalfNormal_QuarterFloor",
           "Meshable": {
             "RowName": "Mesh_Generic_Iron"
@@ -1356,46 +812,6 @@
           },
           "Durable": {
             "RowName": "Iron_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "ReinforcedWood_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_ReinforcedWood_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "ReinforcedWood_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "ReinforcedWood_Building",
             "DataTableName": "D_Durable"
           },
           "Traits": [
@@ -1484,46 +900,6 @@
           ]
         },
         {
-          "Name": "Sandworm_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_Sandworm_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Sandworm_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Sandworm_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
           "Name": "Sandworm_Frame_FullFrame",
           "Meshable": {
             "RowName": "Mesh_Generic_Wood"
@@ -1604,46 +980,6 @@
           ]
         },
         {
-          "Name": "Scoria_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Stone"
-          },
-          "Itemable": {
-            "RowName": "Item_Scoria_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Scoria_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Scoria_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
           "Name": "Scoria_Frame_HalfFrame",
           "Meshable": {
             "RowName": "Mesh_Generic_Stone"
@@ -1676,46 +1012,6 @@
           },
           "Durable": {
             "RowName": "Scoria_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "ScoriaBrick_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Brick"
-          },
-          "Itemable": {
-            "RowName": "Item_ScoriaBrick_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "ScoriaBrick_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Scoria_Brick_Building",
             "DataTableName": "D_Durable"
           },
           "Traits": [
@@ -1844,46 +1140,6 @@
           ]
         },
         {
-          "Name": "StoneBrick_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Brick"
-          },
-          "Itemable": {
-            "RowName": "Item_StoneBrick_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "StoneBrick_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Stone_Brick_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
           "Name": "StoneBrick_Frame_FullFrame",
           "Meshable": {
             "RowName": "Mesh_Generic_Brick"
@@ -1996,46 +1252,6 @@
           },
           "Durable": {
             "RowName": "Stone_Brick_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "TemperedGlass_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Glass"
-          },
-          "Itemable": {
-            "RowName": "Item_TemperedGlass_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "TemperedGlass_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Tempered_Glass_Building",
             "DataTableName": "D_Durable"
           },
           "Traits": [
@@ -2164,166 +1380,6 @@
           ]
         },
         {
-          "Name": "TemperedGlass_HalfStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Glass"
-          },
-          "Itemable": {
-            "RowName": "Item_TemperedGlass_HalfStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "TemperedGlass_HalfStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Tempered_Glass_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "TemperedGlass_Stairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Glass"
-          },
-          "Itemable": {
-            "RowName": "Item_TemperedGlass_Stairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "TemperedGlass_Stairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Tempered_Glass_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Thatch_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Thatch"
-          },
-          "Itemable": {
-            "RowName": "Item_Thatch_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Thatch_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Thatch_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Wood_Beam_Curved_Diagonal",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_Wood_Beam_Curved_Diagonal",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Wood_Beam_Curved_Diagonal",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Wood_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
           "Name": "Wood_Brick_Beam_DiagonalBeam",
           "Meshable": {
             "RowName": "Mesh_Generic_Wood"
@@ -2349,126 +1405,6 @@
           },
           "Buildable": {
             "RowName": "Wood_Brick_Beam_DiagonalBeam",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Wood_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Wood_CornerStairs",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_Wood_CornerStairs",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Wood_CornerStairs",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Wood_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Diagonal",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_Wood_Diagonal_Beam_Curved_Diagonal",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Wood_Diagonal_Beam_Curved_Diagonal",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Wood_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Horizontal",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_Wood_Diagonal_Beam_Curved_Horizontal",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Wood_Diagonal_Beam_Curved_Horizontal",
             "DataTableName": "D_Buildable"
           },
           "Usable": {
@@ -2549,86 +1485,6 @@
           },
           "Buildable": {
             "RowName": "Wood_Diagonal_Beam_Horizontal",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Wood_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Wood_Diagonal_Curved_Floor",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_Wood_Diagonal_Curved_Floor",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Wood_Diagonal_Curved_Floor",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Wood_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Wood_Diagonal_Curved_Ramp_Roof",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_Wood_Diagonal_Curved_Ramp_Roof",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Wood_Diagonal_Curved_Ramp_Roof",
             "DataTableName": "D_Buildable"
           },
           "Usable": {
@@ -2764,86 +1620,6 @@
           ]
         },
         {
-          "Name": "Wood_Diagonal_Wall_Curved_Angles",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_Wood_Diagonal_Wall_Curved_Angles",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Angles",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Wood_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Solid",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_Wood_Diagonal_Wall_Curved_Solid",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Solid",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Wood_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
           "Name": "Wood_Diagonal_Wall_Solid",
           "Meshable": {
             "RowName": "Mesh_Generic_Wood"
@@ -2882,142 +1658,12 @@
             "Item.Building",
             "Item.Buildable"
           ]
-        },
-        {
-          "Name": "Wood_Ramp_Curved",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_Wood_Ramp_Curved",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Wood_Ramp_Curved",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Wood_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngles",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_Wood_Roof_CurvedAngles",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Wood_Roof_CurvedAngles",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Wood_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
-        },
-        {
-          "Name": "Wood_Wall_Curved_Angles",
-          "Meshable": {
-            "RowName": "Mesh_Generic_Wood"
-          },
-          "Itemable": {
-            "RowName": "Item_Wood_Wall_Curved_Angles",
-            "DataTableName": "D_Itemable"
-          },
-          "Interactable": {
-            "RowName": "Item"
-          },
-          "Hitable": {
-            "RowName": "Building"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Building"
-          },
-          "Buildable": {
-            "RowName": "Wood_Wall_Curved_Angles",
-            "DataTableName": "D_Buildable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Durable": {
-            "RowName": "Wood_Building",
-            "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
         }
       ]
     },
     {
       "CurrentFile": "Items-D_ItemTemplate.json",
       "File_Items": [
-        {
-          "Name": "ClayBrick_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "ClayBrick_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Clay_Brick_Ramp_2.ITEM_Clay_Brick_Ramp_2",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"ClayBrick_CornerStairs\", \"Clay Brick Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ClayBrick_CornerStairs-Desc\", \"Clay Brick Corner Stairs building piece.\")"
-        },
         {
           "Name": "ClayBrick_Frame_FullFrame",
           "ItemStaticData": {
@@ -3049,26 +1695,6 @@
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ClayBrick_Frame_Pillar-Desc\", \"Clay Brick Frame Pillar building piece.\")"
         },
         {
-          "Name": "Clay_Brick_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "Clay_Brick_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Clay_Brick_Ramp_2.ITEM_Clay_Brick_Ramp_2",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Clay_Brick_CornerStairs\", \"Clay Brick Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Clay_Brick_CornerStairs-Desc\", \"Clay Brick Corner Stairs building piece.\")"
-        },
-        {
-          "Name": "Glass_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "Glass_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_CornerStairs\", \"Glass Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_CornerStairs-Desc\", \"Glass Corner Stairs building piece.\")"
-        },
-        {
           "Name": "Glass_Frame_FullFrame",
           "ItemStaticData": {
             "RowName": "Glass_Frame_FullFrame",
@@ -3097,36 +1723,6 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_10.T_ITEM_Dev_Pillars_Frames_10",
           "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_Frame_Pillar\", \"Glass Frame Pillar\")",
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_Frame_Pillar-Desc\", \"Glass Frame Pillar building piece.\")"
-        },
-        {
-          "Name": "Glass_HalfStairs",
-          "ItemStaticData": {
-            "RowName": "Glass_HalfStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_HalfStairs\", \"Glass Half Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_HalfStairs-Desc\", \"Glass Half Stairs building piece.\")"
-        },
-        {
-          "Name": "Glass_Stairs",
-          "ItemStaticData": {
-            "RowName": "Glass_Stairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_Stairs\", \"Glass Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_Stairs-Desc\", \"Glass Stairs building piece.\")"
-        },
-        {
-          "Name": "Ice_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "Ice_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Ice_Ramp_0.T_ITEM_Ice_Ramp_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Ice_CornerStairs\", \"Ice Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Ice_CornerStairs-Desc\", \"Ice Corner Stairs building piece.\")"
         },
         {
           "Name": "Ice_Frame_FullFrame",
@@ -3179,16 +1775,6 @@
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Iron_Frame_Pillar-Desc\", \"Iron Frame Pillar building piece.\")"
         },
         {
-          "Name": "Limestone_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "Limestone_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Limestone_Ramp_0.T_ITEM_Limestone_Ramp_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Limestone_CornerStairs\", \"Limestone Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Limestone_CornerStairs-Desc\", \"Limestone Corner Stairs building piece.\")"
-        },
-        {
           "Name": "Limestone_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "Limestone_Frame_HalfFrame",
@@ -3199,16 +1785,6 @@
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Limestone_Frame_HalfFrame-Desc\", \"Limestone Half Frame building piece.\")"
         },
         {
-          "Name": "MetalGrate_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "MetalGrate_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Iron_Ramp_0.ITEM_Iron_Ramp_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"MetalGrate_CornerStairs\", \"Metal Grate Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"MetalGrate_CornerStairs-Desc\", \"Metal Grate Corner Stairs building piece.\")"
-        },
-        {
           "Name": "Metal_Grate_HalfNormal_QuarterFloor",
           "ItemStaticData": {
             "RowName": "Metal_Grate_HalfNormal_QuarterFloor",
@@ -3217,16 +1793,6 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Iron_Ramp_0.ITEM_Iron_Ramp_0",
           "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Metal_Grate_HalfNormal_QuarterFloor\", \"Metal Grate Quarter Floor\")",
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Metal_Grate_HalfNormal_QuarterFloor-Desc\", \"Metal Grate Quarter Floor building piece.\")"
-        },
-        {
-          "Name": "ReinforcedWood_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "ReinforcedWood_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ReinforcedWood_Ramp_0.T_ITEM_ReinforcedWood_Ramp_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"ReinforcedWood_CornerStairs\", \"Reinforced Wood Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ReinforcedWood_CornerStairs-Desc\", \"Reinforced Wood Corner Stairs building piece.\")"
         },
         {
           "Name": "ReinforcedWood_Frame_FullFrame",
@@ -3249,16 +1815,6 @@
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ReinforcedWood_Frame_HalfFrame-Desc\", \"Reinforced Wood Half Frame building piece.\")"
         },
         {
-          "Name": "Sandworm_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "Sandworm_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Sandworm_Ramp_0.T_ITEM_Sandworm_Ramp_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Sandworm_CornerStairs\", \"Sandworm Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Sandworm_CornerStairs-Desc\", \"Sandworm Corner Stairs building piece.\")"
-        },
-        {
           "Name": "Sandworm_Frame_FullFrame",
           "ItemStaticData": {
             "RowName": "Sandworm_Frame_FullFrame",
@@ -3279,16 +1835,6 @@
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Sandworm_Frame_HalfFrame-Desc\", \"Sandworm Half Frame building piece.\")"
         },
         {
-          "Name": "Scoria_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "Scoria_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Scoria_Ramp_0.ITEM_Scoria_Ramp_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Scoria_CornerStairs\", \"Scoria Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Scoria_CornerStairs-Desc\", \"Scoria Corner Stairs building piece.\")"
-        },
-        {
           "Name": "Scoria_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "Scoria_Frame_HalfFrame",
@@ -3297,16 +1843,6 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_5.T_ITEM_Dev_Pillars_Frames_5",
           "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Scoria_Frame_HalfFrame\", \"Scoria Half Frame\")",
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Scoria_Frame_HalfFrame-Desc\", \"Scoria Half Frame building piece.\")"
-        },
-        {
-          "Name": "ScoriaBrick_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "ScoriaBrick_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Brick_Floor_0.T_ITEM_Scoria_Brick_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"ScoriaBrick_CornerStairs\", \"Scoria Brick Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ScoriaBrick_CornerStairs-Desc\", \"Scoria Brick Corner Stairs building piece.\")"
         },
         {
           "Name": "ScoriaBrick_Frame_FullFrame",
@@ -3339,16 +1875,6 @@
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ScoriaBrick_Frame_Pillar-Desc\", \"Scoria Brick Frame Pillar building piece.\")"
         },
         {
-          "Name": "StoneBrick_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "StoneBrick_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Brick_Floor_0.T_ITEM_Stone_Brick_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"StoneBrick_CornerStairs\", \"Stone Brick Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"StoneBrick_CornerStairs-Desc\", \"Stone Brick Corner Stairs building piece.\")"
-        },
-        {
           "Name": "StoneBrick_Frame_FullFrame",
           "ItemStaticData": {
             "RowName": "StoneBrick_Frame_FullFrame",
@@ -3377,16 +1903,6 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_6.T_ITEM_Dev_Pillars_Frames_6",
           "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"StoneBrick_Frame_Pillar\", \"Stone Brick Frame Pillar\")",
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"StoneBrick_Frame_Pillar-Desc\", \"Stone Brick Frame Pillar building piece.\")"
-        },
-        {
-          "Name": "TemperedGlass_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "TemperedGlass_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_CornerStairs\", \"Tempered Glass Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_CornerStairs-Desc\", \"Tempered Glass Corner Stairs building piece.\")"
         },
         {
           "Name": "TemperedGlass_Frame_FullFrame",
@@ -3419,46 +1935,6 @@
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_Frame_Pillar-Desc\", \"Tempered Glass Frame Pillar building piece.\")"
         },
         {
-          "Name": "TemperedGlass_HalfStairs",
-          "ItemStaticData": {
-            "RowName": "TemperedGlass_HalfStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_HalfStairs\", \"Tempered Glass Half Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_HalfStairs-Desc\", \"Tempered Glass Half Stairs building piece.\")"
-        },
-        {
-          "Name": "TemperedGlass_Stairs",
-          "ItemStaticData": {
-            "RowName": "TemperedGlass_Stairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_Stairs\", \"Tempered Glass Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_Stairs-Desc\", \"Tempered Glass Stairs building piece.\")"
-        },
-        {
-          "Name": "Thatch_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "Thatch_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Thatch_Ramp_0.ITEM_Thatch_Ramp_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Thatch_CornerStairs\", \"Thatch Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Thatch_CornerStairs-Desc\", \"Thatch Corner Stairs building piece.\")"
-        },
-        {
-          "Name": "Wood_Beam_Curved_Diagonal",
-          "ItemStaticData": {
-            "RowName": "Wood_Beam_Curved_Diagonal",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Beam_Curved_Diagonal\", \"Wood Curved Beams\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Beam_Curved_Diagonal-Desc\", \"Wood Curved Beams building piece.\")"
-        },
-        {
           "Name": "Wood_Brick_Beam_DiagonalBeam",
           "ItemStaticData": {
             "RowName": "Wood_Brick_Beam_DiagonalBeam",
@@ -3467,36 +1943,6 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
           "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Brick_Beam_DiagonalBeam\", \"Wood Diagonal Beam\")",
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Brick_Beam_DiagonalBeam-Desc\", \"Wood Diagonal Beam building piece.\")"
-        },
-        {
-          "Name": "Wood_CornerStairs",
-          "ItemStaticData": {
-            "RowName": "Wood_CornerStairs",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_CornerStairs\", \"Wood Corner Stairs\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_CornerStairs-Desc\", \"Wood Corner Stairs building piece.\")"
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Diagonal",
-          "ItemStaticData": {
-            "RowName": "Wood_Diagonal_Beam_Curved_Diagonal",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Beam_Curved_Diagonal\", \"Wood Curved Diagonal Beams\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Beam_Curved_Diagonal-Desc\", \"Wood Curved Diagonal Beams building piece.\")"
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Horizontal",
-          "ItemStaticData": {
-            "RowName": "Wood_Diagonal_Beam_Curved_Horizontal",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Beam_Curved_Horizontal\", \"Wood Curved Beam\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Beam_Curved_Horizontal-Desc\", \"Wood Curved Beam building piece.\")"
         },
         {
           "Name": "Wood_Diagonal_Beam_Diagonal",
@@ -3517,26 +1963,6 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
           "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Beam_Horizontal\", \"Wood Diagonal Beam\")",
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Beam_Horizontal-Desc\", \"Wood Diagonal Beam building piece.\")"
-        },
-        {
-          "Name": "Wood_Diagonal_Curved_Floor",
-          "ItemStaticData": {
-            "RowName": "Wood_Diagonal_Curved_Floor",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Curved_Floor\", \"Wood Diagonal Curved Floor\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Curved_Floor-Desc\", \"Wood Diagonal Curved Floor building piece.\")"
-        },
-        {
-          "Name": "Wood_Diagonal_Curved_Ramp_Roof",
-          "ItemStaticData": {
-            "RowName": "Wood_Diagonal_Curved_Ramp_Roof",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Curved_Ramp_Roof\", \"Wood Diagonal Curved Ramp\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Curved_Ramp_Roof-Desc\", \"Wood Diagonal Curved Ramp building piece.\")"
         },
         {
           "Name": "Wood_Diagonal_Floor",
@@ -3569,26 +1995,6 @@
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Wall_Angles-Desc\", \"Wood Diagonal Wall Angles building piece.\")"
         },
         {
-          "Name": "Wood_Diagonal_Wall_Curved_Angles",
-          "ItemStaticData": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Angles",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Wall_Curved_Angles\", \"Wood Diagonal Curved Wall Angles\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Wall_Curved_Angles-Desc\", \"Wood Diagonal Curved Wall Angles building piece.\")"
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Solid",
-          "ItemStaticData": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Solid",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Wall_Curved_Solid\", \"Wood Diagonal Curved Wall\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Wall_Curved_Solid-Desc\", \"Wood Diagonal Curved Wall building piece.\")"
-        },
-        {
           "Name": "Wood_Diagonal_Wall_Solid",
           "ItemStaticData": {
             "RowName": "Wood_Diagonal_Wall_Solid",
@@ -3597,73 +2003,12 @@
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
           "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Wall_Solid\", \"Wood Diagonal Wall\")",
           "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Wall_Solid-Desc\", \"Wood Diagonal Wall building piece.\")"
-        },
-        {
-          "Name": "Wood_Ramp_Curved",
-          "ItemStaticData": {
-            "RowName": "Wood_Ramp_Curved",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Ramp_Curved\", \"Wood Curved Ramp\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Ramp_Curved-Desc\", \"Wood Curved Ramp building piece.\")"
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngles",
-          "ItemStaticData": {
-            "RowName": "Wood_Roof_CurvedAngles",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Roof_CurvedAngles\", \"Wood Curved Roof Angles\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Roof_CurvedAngles-Desc\", \"Wood Curved Roof Angles building piece.\")"
-        },
-        {
-          "Name": "Wood_Wall_Curved_Angles",
-          "ItemStaticData": {
-            "RowName": "Wood_Wall_Curved_Angles",
-            "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Wall_Curved_Angles\", \"Wood Curved Wall Angles\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Wall_Curved_Angles-Desc\", \"Wood Curved Wall Angles building piece.\")"
         }
       ]
     },
     {
       "CurrentFile": "Crafting-D_ProcessorRecipes.json",
       "File_Items": [
-        {
-          "Name": "Recipe_ClayBrick_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Masonry_Bench"
-            },
-            {
-              "RowName": "Masonry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Clay_Brick"
-              },
-              "Count": 10
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "ClayBrick_CornerStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
         {
           "Name": "Recipe_ClayBrick_Frame_FullFrame",
           "RecipeSets": [
@@ -3755,70 +2100,6 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_Clay_Brick_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Masonry_Bench"
-            },
-            {
-              "RowName": "Masonry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Clay_Brick"
-              },
-              "Count": 10
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Clay_Brick_CornerStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_Glass_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Glassworking_Bench",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Glass",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 12
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Glass_CornerStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          },
-          "Requirement": {
-            "RowName": "Glassworking_Bench"
           }
         },
         {
@@ -3918,102 +2199,6 @@
           },
           "Requirement": {
             "RowName": "Glassworking_Bench"
-          }
-        },
-        {
-          "Name": "Recipe_Glass_HalfStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Glassworking_Bench",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Glass",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 12
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Glass_HalfStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          },
-          "Requirement": {
-            "RowName": "Glassworking_Bench"
-          }
-        },
-        {
-          "Name": "Recipe_Glass_Stairs",
-          "RecipeSets": [
-            {
-              "RowName": "Glassworking_Bench",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Glass",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 12
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Glass_Stairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          },
-          "Requirement": {
-            "RowName": "Glassworking_Bench"
-          }
-        },
-        {
-          "Name": "Recipe_Ice_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Character",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Ice",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 12
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Ice_CornerStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
           }
         },
         {
@@ -4194,37 +2379,6 @@
           }
         },
         {
-          "Name": "Recipe_Limestone_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Masonry_Bench"
-            },
-            {
-              "RowName": "Masonry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Limestone"
-              },
-              "Count": 10
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Limestone_CornerStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
           "Name": "Recipe_Limestone_Frame_HalfFrame",
           "RecipeSets": [
             {
@@ -4246,38 +2400,6 @@
             {
               "Element": {
                 "RowName": "Limestone_Frame_HalfFrame",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_MetalGrate_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Anvil_Bench"
-            },
-            {
-              "RowName": "Anvil_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Iron_Ingot",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "MetalGrate_CornerStairs",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
@@ -4310,43 +2432,6 @@
             {
               "Element": {
                 "RowName": "Metal_Grate_HalfNormal_QuarterFloor",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_ReinforcedWood_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Carpentry_Bench"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Wood"
-              },
-              "Count": 8
-            },
-            {
-              "Element": {
-                "RowName": "Iron_Nail"
-              },
-              "Count": 4
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "ReinforcedWood_CornerStairs",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
@@ -4431,37 +2516,6 @@
           }
         },
         {
-          "Name": "Recipe_Sandworm_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Masonry_Bench"
-            },
-            {
-              "RowName": "Masonry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Sandite"
-              },
-              "Count": 10
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Sandworm_CornerStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
           "Name": "Recipe_Sandworm_Frame_FullFrame",
           "RecipeSets": [
             {
@@ -4524,37 +2578,6 @@
           }
         },
         {
-          "Name": "Recipe_Scoria_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Masonry_Bench"
-            },
-            {
-              "RowName": "Masonry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Scoria"
-              },
-              "Count": 10
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Scoria_CornerStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
           "Name": "Recipe_Scoria_Frame_HalfFrame",
           "RecipeSets": [
             {
@@ -4576,37 +2599,6 @@
             {
               "Element": {
                 "RowName": "Scoria_Frame_HalfFrame",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_ScoriaBrick_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Masonry_Bench"
-            },
-            {
-              "RowName": "Masonry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Scoria_Brick"
-              },
-              "Count": 10
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "ScoriaBrick_CornerStairs",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
@@ -4710,37 +2702,6 @@
           }
         },
         {
-          "Name": "Recipe_StoneBrick_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Masonry_Bench"
-            },
-            {
-              "RowName": "Masonry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Stone_Brick"
-              },
-              "Count": 10
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "StoneBrick_CornerStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
           "Name": "Recipe_StoneBrick_Frame_FullFrame",
           "RecipeSets": [
             {
@@ -4831,53 +2792,6 @@
           ],
           "Audio": {
             "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_TemperedGlass_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Glassworking_Bench",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Steel_Ingot",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            },
-            {
-              "Element": {
-                "RowName": "Glass",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Epoxy",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 4
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "TemperedGlass_CornerStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          },
-          "Requirement": {
-            "RowName": "Glassworking_Bench"
           }
         },
         {
@@ -5022,172 +2936,6 @@
           }
         },
         {
-          "Name": "Recipe_TemperedGlass_HalfStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Glassworking_Bench",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Steel_Ingot",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            },
-            {
-              "Element": {
-                "RowName": "Glass",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Epoxy",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 4
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "TemperedGlass_HalfStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          },
-          "Requirement": {
-            "RowName": "Glassworking_Bench"
-          }
-        },
-        {
-          "Name": "Recipe_TemperedGlass_Stairs",
-          "RecipeSets": [
-            {
-              "RowName": "Glassworking_Bench",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Steel_Ingot",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            },
-            {
-              "Element": {
-                "RowName": "Glass",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Epoxy",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 4
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "TemperedGlass_Stairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          },
-          "Requirement": {
-            "RowName": "Glassworking_Bench"
-          }
-        },
-        {
-          "Name": "Recipe_Thatch_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Character",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Fiber"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Stick"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Thatch_CornerStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_Wood_Beam_Curved_Diagonal",
-          "RecipeSets": [
-            {
-              "RowName": "Carpentry_Bench"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Wood"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Fiber"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Wood_Beam_Curved_Diagonal",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
           "Name": "Recipe_Wood_Brick_Beam_DiagonalBeam",
           "RecipeSets": [
             {
@@ -5215,117 +2963,6 @@
             {
               "Element": {
                 "RowName": "Wood_Brick_Beam_DiagonalBeam",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_Wood_CornerStairs",
-          "RecipeSets": [
-            {
-              "RowName": "Carpentry_Bench"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Wood"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Fiber"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Wood_CornerStairs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_Wood_Diagonal_Beam_Curved_Diagonal",
-          "RecipeSets": [
-            {
-              "RowName": "Carpentry_Bench"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Wood"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Fiber"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Wood_Diagonal_Beam_Curved_Diagonal",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_Wood_Diagonal_Beam_Curved_Horizontal",
-          "RecipeSets": [
-            {
-              "RowName": "Carpentry_Bench"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Wood"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Fiber"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Wood_Diagonal_Beam_Curved_Horizontal",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
@@ -5400,80 +3037,6 @@
             {
               "Element": {
                 "RowName": "Wood_Diagonal_Beam_Horizontal",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_Wood_Diagonal_Curved_Floor",
-          "RecipeSets": [
-            {
-              "RowName": "Carpentry_Bench"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Wood"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Fiber"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Wood_Diagonal_Curved_Floor",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_Wood_Diagonal_Curved_Ramp_Roof",
-          "RecipeSets": [
-            {
-              "RowName": "Carpentry_Bench"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Wood"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Fiber"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Wood_Diagonal_Curved_Ramp_Roof",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
@@ -5595,80 +3158,6 @@
           }
         },
         {
-          "Name": "Recipe_Wood_Diagonal_Wall_Curved_Angles",
-          "RecipeSets": [
-            {
-              "RowName": "Carpentry_Bench"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Wood"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Fiber"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Wood_Diagonal_Wall_Curved_Angles",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_Wood_Diagonal_Wall_Curved_Solid",
-          "RecipeSets": [
-            {
-              "RowName": "Carpentry_Bench"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Wood"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Fiber"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Wood_Diagonal_Wall_Curved_Solid",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
           "Name": "Recipe_Wood_Diagonal_Wall_Solid",
           "RecipeSets": [
             {
@@ -5696,117 +3185,6 @@
             {
               "Element": {
                 "RowName": "Wood_Diagonal_Wall_Solid",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_Wood_Ramp_Curved",
-          "RecipeSets": [
-            {
-              "RowName": "Carpentry_Bench"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Wood"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Fiber"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Wood_Ramp_Curved",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_Wood_Roof_CurvedAngles",
-          "RecipeSets": [
-            {
-              "RowName": "Carpentry_Bench"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Wood"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Fiber"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Wood_Roof_CurvedAngles",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          }
-        },
-        {
-          "Name": "Recipe_Wood_Wall_Curved_Angles",
-          "RecipeSets": [
-            {
-              "RowName": "Carpentry_Bench"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Wood"
-              },
-              "Count": 12
-            },
-            {
-              "Element": {
-                "RowName": "Fiber"
-              },
-              "Count": 6
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Wood_Wall_Curved_Angles",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1
@@ -5865,38 +3243,6 @@
     {
       "CurrentFile": "Traits-D_Buildable.json",
       "File_Items": [
-        {
-          "Name": "ClayBrick_CornerStairs",
-          "Stability": {
-            "RowName": "Clay_Brick_General"
-          },
-          "Type": {
-            "RowName": "Clay_Brick"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "ClayBrick_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "ClayBrick_CornerStair_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
         {
           "Name": "ClayBrick_Frame_FullFrame",
           "Stability": {
@@ -5964,70 +3310,6 @@
           ]
         },
         {
-          "Name": "Clay_Brick_CornerStairs",
-          "Stability": {
-            "RowName": "Clay_Brick_General"
-          },
-          "Type": {
-            "RowName": "Clay_Brick"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Clay_Brick_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Clay_Brick_CornerStair_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Glass_CornerStairs",
-          "Stability": {
-            "RowName": "Glass_General"
-          },
-          "Type": {
-            "RowName": "Glass"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Glass_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Glass_CornerStair_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
           "Name": "Glass_Frame_FullFrame",
           "Stability": {
             "RowName": "Glass_General"
@@ -6088,92 +3370,6 @@
               },
               "Piece": {
                 "RowName": "Glass_Frame_Pillar",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Glass_HalfStairs",
-          "Stability": {
-            "RowName": "Glass_General"
-          },
-          "Type": {
-            "RowName": "Glass"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Glass_HalfStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Glass_HalfStair_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Glass_Stairs",
-          "Stability": {
-            "RowName": "Glass_General"
-          },
-          "Type": {
-            "RowName": "Glass"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Glass_Ramp_Stairs",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Ice_CornerStairs",
-          "Stability": {
-            "RowName": "Ice_General"
-          },
-          "Type": {
-            "RowName": "Ice"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Ice_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Ice_CornerStair_R",
                 "DataTableName": "D_BuildingPieces"
               }
             }
@@ -6290,38 +3486,6 @@
           ]
         },
         {
-          "Name": "Limestone_CornerStairs",
-          "Stability": {
-            "RowName": "Limestone_General"
-          },
-          "Type": {
-            "RowName": "Limestone"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Limestone_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Limestone_CornerStair_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
           "Name": "Limestone_Frame_HalfFrame",
           "Stability": {
             "RowName": "Limestone_General"
@@ -6344,38 +3508,6 @@
           ]
         },
         {
-          "Name": "MetalGrate_CornerStairs",
-          "Stability": {
-            "RowName": "Iron_General"
-          },
-          "Type": {
-            "RowName": "Metal_Grate"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "MetalGrate_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "MetalGrate_CornerStair_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
           "Name": "Metal_Grate_HalfNormal_QuarterFloor",
           "Stability": {
             "RowName": "Iron_General"
@@ -6392,38 +3524,6 @@
               },
               "Piece": {
                 "RowName": "Metal_Grate_HalfNormal_QuarterFloor",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "ReinforcedWood_CornerStairs",
-          "Stability": {
-            "RowName": "ReinforcedWood_General"
-          },
-          "Type": {
-            "RowName": "Wood"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "ReinforcedWood_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "ReinforcedWood_CornerStair_R",
                 "DataTableName": "D_BuildingPieces"
               }
             }
@@ -6474,38 +3574,6 @@
           ]
         },
         {
-          "Name": "Sandworm_CornerStairs",
-          "Stability": {
-            "RowName": "Sandworm_General"
-          },
-          "Type": {
-            "RowName": "Sandworm"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Sandworm_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Sandworm_CornerStair_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
           "Name": "Sandworm_Frame_FullFrame",
           "Stability": {
             "RowName": "Sandworm_General"
@@ -6550,38 +3618,6 @@
           ]
         },
         {
-          "Name": "Scoria_CornerStairs",
-          "Stability": {
-            "RowName": "Scoria_General"
-          },
-          "Type": {
-            "RowName": "Scoria"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Scoria_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Scoria_CornerStair_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
           "Name": "Scoria_Frame_HalfFrame",
           "Stability": {
             "RowName": "Scoria_General"
@@ -6598,38 +3634,6 @@
               },
               "Piece": {
                 "RowName": "Scoria_Frame_HalfFrame",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "ScoriaBrick_CornerStairs",
-          "Stability": {
-            "RowName": "Scoria_Brick_General"
-          },
-          "Type": {
-            "RowName": "Scoria_Brick"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "ScoriaBrick_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "ScoriaBrick_CornerStair_R",
                 "DataTableName": "D_BuildingPieces"
               }
             }
@@ -6702,38 +3706,6 @@
           ]
         },
         {
-          "Name": "StoneBrick_CornerStairs",
-          "Stability": {
-            "RowName": "Stone_Brick_General"
-          },
-          "Type": {
-            "RowName": "Stone_Brick"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "StoneBrick_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "StoneBrick_CornerStair_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
           "Name": "StoneBrick_Frame_FullFrame",
           "Stability": {
             "RowName": "Stone_Brick_General"
@@ -6794,38 +3766,6 @@
               },
               "Piece": {
                 "RowName": "StoneBrick_Frame_Pillar",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "TemperedGlass_CornerStairs",
-          "Stability": {
-            "RowName": "Glass_General_Tempered"
-          },
-          "Type": {
-            "RowName": "Glass_Tempered"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "TemperedGlass_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "TemperedGlass_CornerStair_R",
                 "DataTableName": "D_BuildingPieces"
               }
             }
@@ -6898,124 +3838,6 @@
           ]
         },
         {
-          "Name": "TemperedGlass_HalfStairs",
-          "Stability": {
-            "RowName": "Glass_General_Tempered"
-          },
-          "Type": {
-            "RowName": "Glass_Tempered"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "TemperedGlass_HalfStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "TemperedGlass_HalfStair_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "TemperedGlass_Stairs",
-          "Stability": {
-            "RowName": "Glass_General_Tempered"
-          },
-          "Type": {
-            "RowName": "Glass_Tempered"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "TemperedGlass_Ramp_Stairs",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Thatch_CornerStairs",
-          "Stability": {
-            "RowName": "Thatch_General"
-          },
-          "Type": {
-            "RowName": "Thatch"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Thatch_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Thatch_CornerStair_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Wood_Beam_Curved_Diagonal",
-          "Stability": {
-            "RowName": "Wood_General"
-          },
-          "Type": {
-            "RowName": "Wood"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Beam_Curved_Diagonal_Down",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Beam_Curved_Diagonal_Up",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
           "Name": "Wood_Brick_Beam_DiagonalBeam",
           "Stability": {
             "RowName": "Wood_General"
@@ -7032,112 +3854,6 @@
               },
               "Piece": {
                 "RowName": "Wood_Brick_Beam_DiagonalBeam",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Wood_CornerStairs",
-          "Stability": {
-            "RowName": "Wood_General"
-          },
-          "Type": {
-            "RowName": "Wood"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_CornerStair_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_CornerStair_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Diagonal",
-          "Stability": {
-            "RowName": "Wood_General"
-          },
-          "Type": {
-            "RowName": "Wood"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Beam_Curved_Diagonal_Down_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Beam_Curved_Diagonal_Down_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Beam_Curved_Diagonal_Up_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Beam_Curved_Diagonal_Up_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Horizontal",
-          "Stability": {
-            "RowName": "Wood_General"
-          },
-          "Type": {
-            "RowName": "Wood"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Beam_Curved_Horizontal",
                 "DataTableName": "D_BuildingPieces"
               }
             }
@@ -7182,50 +3898,6 @@
               },
               "Piece": {
                 "RowName": "Wood_Diagonal_Beam_Horizontal",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Wood_Diagonal_Curved_Floor",
-          "Stability": {
-            "RowName": "Wood_General"
-          },
-          "Type": {
-            "RowName": "Wood"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Curved_Floor",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Wood_Diagonal_Curved_Ramp_Roof",
-          "Stability": {
-            "RowName": "Wood_General"
-          },
-          "Type": {
-            "RowName": "Wood"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Curved_Ramp_Roof",
                 "DataTableName": "D_BuildingPieces"
               }
             }
@@ -7338,120 +4010,6 @@
           ]
         },
         {
-          "Name": "Wood_Diagonal_Wall_Curved_Angles",
-          "Stability": {
-            "RowName": "Wood_General"
-          },
-          "Type": {
-            "RowName": "Wood"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Wall_Curved_Angle_Down_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Wall_Curved_Angle_Down_L_Invert",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Wall_Curved_Angle_Down_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Wall_Curved_Angle_Down_R_Invert",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Wall_Curved_Angle_Up_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Wall_Curved_Angle_Up_L_Invert",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Wall_Curved_Angle_Up_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Wall_Curved_Angle_Up_R_Invert",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Solid",
-          "Stability": {
-            "RowName": "Wood_General"
-          },
-          "Type": {
-            "RowName": "Wood"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Diagonal_Wall_Curved_Solid",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
           "Name": "Wood_Diagonal_Wall_Solid",
           "Stability": {
             "RowName": "Wood_General"
@@ -7468,172 +4026,6 @@
               },
               "Piece": {
                 "RowName": "Wood_Diagonal_Wall_Solid",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Wood_Ramp_Curved",
-          "Stability": {
-            "RowName": "Wood_General"
-          },
-          "Type": {
-            "RowName": "Wood"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Ramp_Curved",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngles",
-          "Stability": {
-            "RowName": "Wood_General"
-          },
-          "Type": {
-            "RowName": "Wood"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Roof_CurvedAngle_Down_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Roof_CurvedAngle_Down_L_Invert",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Roof_CurvedAngle_Down_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Roof_CurvedAngle_Down_R_Invert",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Roof_CurvedAngle_Up_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Roof_CurvedAngle_Up_L_Invert",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Roof_CurvedAngle_Up_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Roof_CurvedAngle_Up_R_Invert",
-                "DataTableName": "D_BuildingPieces"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Wood_Wall_Curved_Angles",
-          "Stability": {
-            "RowName": "Wood_General"
-          },
-          "Type": {
-            "RowName": "Wood"
-          },
-          "PieceType": "Wall",
-          "Variations": [
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Wall_Curved_Angle_L",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Wall_Curved_Angle_L_Invert",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Wall_Curved_Angle_R",
-                "DataTableName": "D_BuildingPieces"
-              }
-            },
-            {
-              "Requirement": {
-                "RowName": "None",
-                "DataTableName": "D_Talents"
-              },
-              "Piece": {
-                "RowName": "Wood_Wall_Curved_Angle_R_Invert",
                 "DataTableName": "D_BuildingPieces"
               }
             }
@@ -7824,20 +4216,6 @@
           },
           "Skin": {
             "RowName": "Glass_HalfStair_R"
-          }
-        },
-        {
-          "Name": "Glass_Ramp_Stairs",
-          "Type": {
-            "RowName": "Ramp_Stairs"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Stone.BP_Building_Stairs_Stone_C",
-          "Audio": {
-            "RowName": "Glass"
-          },
-          "Skin": {
-            "RowName": "Glass_Stairs"
           }
         },
         {
@@ -8401,20 +4779,6 @@
           }
         },
         {
-          "Name": "TemperedGlass_Ramp_Stairs",
-          "Type": {
-            "RowName": "Ramp_Stairs"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_TemperedGlass_Ramp_0.T_ITEM_TemperedGlass_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Stone.BP_Building_Stairs_Stone_C",
-          "Audio": {
-            "RowName": "Glass"
-          },
-          "Skin": {
-            "RowName": "TemperedGlass_Stairs"
-          }
-        },
-        {
           "Name": "Thatch_CornerStair_L",
           "Type": {
             "RowName": "CornerStair_L"
@@ -8440,34 +4804,6 @@
           },
           "Skin": {
             "RowName": "Thatch_CornerStair_R"
-          }
-        },
-        {
-          "Name": "Wood_Beam_Curved_Diagonal_Down",
-          "Type": {
-            "RowName": "Beam_Curved_Diagonal_Down"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Advanced_Beam_Set_2.T_ITEM_Wood_Advanced_Beam_Set_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Beam_Diagnal_Curved_Stone_Down.BP_Building_Beam_Diagnal_Curved_Stone_Down_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Beam_Curved_Diagonal_Down"
-          }
-        },
-        {
-          "Name": "Wood_Beam_Curved_Diagonal_Up",
-          "Type": {
-            "RowName": "Beam_Curved_Diagonal_Up"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Advanced_Beam_Set_4.T_ITEM_Wood_Advanced_Beam_Set_4",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Beam_Diagnal_Curved_Stone_Up.BP_Building_Beam_Diagnal_Curved_Stone_Up_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Beam_Curved_Diagonal_Up"
           }
         },
         {
@@ -8513,76 +4849,6 @@
           }
         },
         {
-          "Name": "Wood_Diagonal_Beam_Curved_Diagonal_Down_L",
-          "Type": {
-            "RowName": "Diagonal_Beam_Curved_Diagonal_Down_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Advanced_Beam_Set_7.T_ITEM_Wood_Advanced_Beam_Set_7",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Beam_Cross_Diagnal_Curved_Down_L_Stone.BP_Building_Beam_Cross_Diagnal_Curved_Down_L_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Beam_Curved_Diagonal_Down_L"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Diagonal_Down_R",
-          "Type": {
-            "RowName": "Diagonal_Beam_Curved_Diagonal_Down_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Advanced_Beam_Set_6.T_ITEM_Wood_Advanced_Beam_Set_6",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Beam_Cross_Diagnal_Curved_Down_R_Stone.BP_Building_Beam_Cross_Diagnal_Curved_Down_R_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Beam_Curved_Diagonal_Down_R"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Diagonal_Up_L",
-          "Type": {
-            "RowName": "Diagonal_Beam_Curved_Diagonal_Up_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Advanced_Beam_Set_5.T_ITEM_Wood_Advanced_Beam_Set_5",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Beam_Cross_Diagnal_Curved_Up_L_Stone.BP_Building_Beam_Cross_Diagnal_Curved_Up_L_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Beam_Curved_Diagonal_Up_L"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Diagonal_Up_R",
-          "Type": {
-            "RowName": "Diagonal_Beam_Curved_Diagonal_Up_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Advanced_Beam_Set_4.T_ITEM_Wood_Advanced_Beam_Set_4",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Beam_Cross_Diagnal_Curved_Up_R_Stone.BP_Building_Beam_Cross_Diagnal_Curved_Up_R_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Beam_Curved_Diagonal_Up_R"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Horizontal",
-          "Type": {
-            "RowName": "Diagonal_Beam_Curved_Horizontal"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Advanced_Beam_Set_3.T_ITEM_Wood_Advanced_Beam_Set_3",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Beam_Cross_Horizontal_Curved_Stone.BP_Building_Beam_Cross_Horizontal_Curved_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Beam_Curved_Horizontal"
-          }
-        },
-        {
           "Name": "Wood_Diagonal_Beam_Diagonal",
           "Type": {
             "RowName": "Diagonal_Beam_Diagonal"
@@ -8608,34 +4874,6 @@
           },
           "Skin": {
             "RowName": "Wood_Diagonal_Beam_Horizontal"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Curved_Floor",
-          "Type": {
-            "RowName": "Diagonal_Curved_Floor"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Curved_Set_0.T_ITEM_Wood_Curved_Set_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Floor_Diagonal_Curved_Stone.BP_Building_Floor_Diagonal_Curved_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Curved_Floor"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Curved_Ramp_Roof",
-          "Type": {
-            "RowName": "Diagonal_Curved_Ramp"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Curved_Set_2.T_ITEM_Wood_Curved_Set_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Ramp_Diagonal_Curved_Stone.BP_Building_Ramp_Diagonal_Curved_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Curved_Ramp_Roof"
           }
         },
         {
@@ -8737,132 +4975,6 @@
           }
         },
         {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Down_L",
-          "Type": {
-            "RowName": "Diagonal_Wall_Curved_Angle_Down_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Curved_Wall_Angles_0.T_ITEM_Wood_Diagonal_Curved_Wall_Angles_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Curved_Half_Angle_Down_L_Stone.BP_Building_Wall_Diagonal_Curved_Half_Angle_Down_L_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Angle_Down_L"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Down_L_Invert",
-          "Type": {
-            "RowName": "Diagonal_Wall_Curved_Angle_Down_L_Invert"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Curved_Wall_Angles_1.T_ITEM_Wood_Diagonal_Curved_Wall_Angles_1",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Curved_Half_Angle_Down_L_Invert_Stone.BP_Building_Wall_Diagonal_Curved_Half_Angle_Down_L_Invert_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Angle_Down_L_Invert"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Down_R",
-          "Type": {
-            "RowName": "Diagonal_Wall_Curved_Angle_Down_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Curved_Wall_Angles_2.T_ITEM_Wood_Diagonal_Curved_Wall_Angles_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Curved_Half_Angle_Down_R_Stone.BP_Building_Wall_Diagonal_Curved_Half_Angle_Down_R_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Angle_Down_R"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Down_R_Invert",
-          "Type": {
-            "RowName": "Diagonal_Wall_Curved_Angle_Down_R_Invert"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Curved_Wall_Angles_3.T_ITEM_Wood_Diagonal_Curved_Wall_Angles_3",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Curved_Half_Angle_Down_R_Invert_Stone.BP_Building_Wall_Diagonal_Curved_Half_Angle_Down_R_Invert_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Angle_Down_R_Invert"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Up_L",
-          "Type": {
-            "RowName": "Diagonal_Wall_Curved_Angle_Up_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Curved_Wall_Angles_4.T_ITEM_Wood_Diagonal_Curved_Wall_Angles_4",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Curved_Half_Angle_Up_L_Stone.BP_Building_Wall_Diagonal_Curved_Half_Angle_Up_L_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Angle_Up_L"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Up_L_Invert",
-          "Type": {
-            "RowName": "Diagonal_Wall_Curved_Angle_Up_L_Invert"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Curved_Wall_Angles_5.T_ITEM_Wood_Diagonal_Curved_Wall_Angles_5",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Curved_Half_Angle_Up_L_Invert_Stone.BP_Building_Wall_Diagonal_Curved_Half_Angle_Up_L_Invert_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Angle_Up_L_Invert"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Up_R",
-          "Type": {
-            "RowName": "Diagonal_Wall_Curved_Angle_Up_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Curved_Wall_Angles_6.T_ITEM_Wood_Diagonal_Curved_Wall_Angles_6",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Curved_Half_Angle_Up_R_Stone.BP_Building_Wall_Diagonal_Curved_Half_Angle_Up_R_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Angle_Up_R"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Up_R_Invert",
-          "Type": {
-            "RowName": "Diagonal_Wall_Curved_Angle_Up_R_Invert"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Curved_Wall_Angles_7.T_ITEM_Wood_Diagonal_Curved_Wall_Angles_7",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Curved_Half_Angle_Up_R_Invert_Stone.BP_Building_Wall_Diagonal_Curved_Half_Angle_Up_R_Invert_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Angle_Up_R_Invert"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Solid",
-          "Type": {
-            "RowName": "Diagonal_Wall_Curved_Solid"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Curved_Set_1.T_ITEM_Wood_Curved_Set_1",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Curved_Stone.BP_Building_Wall_Diagonal_Curved_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Diagonal_Wall_Curved_Solid"
-          }
-        },
-        {
           "Name": "Wood_Diagonal_Wall_Solid",
           "Type": {
             "RowName": "Diagonal_Wall_Solid"
@@ -8874,188 +4986,6 @@
           },
           "Skin": {
             "RowName": "Wood_Diagonal_Wall_Solid"
-          }
-        },
-        {
-          "Name": "Wood_Ramp_Curved",
-          "Type": {
-            "RowName": "Ramp_Curved"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Wall_Curved_4.T_ITEM_Wood_Wall_Curved_4",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Ramp_Curved_Stone.BP_Building_Ramp_Curved_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Ramp_Curved"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Down_L",
-          "Type": {
-            "RowName": "Roof_CurvedAngle_Down_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Roof_CurvedAngles_0.T_ITEM_Wood_Roof_CurvedAngles_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_RoofCurvedAngle_L_Down_Stone.BP_Building_RoofCurvedAngle_L_Down_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Roof_CurvedAngle_Down_L"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Down_L_Invert",
-          "Type": {
-            "RowName": "Roof_CurvedAngle_Down_L_Invert"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Roof_CurvedAngles_1.T_ITEM_Wood_Roof_CurvedAngles_1",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_RoofCurvedAngle_L_Down_Invert_Stone.BP_Building_RoofCurvedAngle_L_Down_Invert_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Roof_CurvedAngle_Down_L_Invert"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Down_R",
-          "Type": {
-            "RowName": "Roof_CurvedAngle_Down_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Roof_CurvedAngles_2.T_ITEM_Wood_Roof_CurvedAngles_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_RoofCurvedAngle_R_Down_Stone.BP_Building_RoofCurvedAngle_R_Down_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Roof_CurvedAngle_Down_R"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Down_R_Invert",
-          "Type": {
-            "RowName": "Roof_CurvedAngle_Down_R_Invert"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Roof_CurvedAngles_3.T_ITEM_Wood_Roof_CurvedAngles_3",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_RoofCurvedAngle_R_Down_Invert_Stone.BP_Building_RoofCurvedAngle_R_Down_Invert_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Roof_CurvedAngle_Down_R_Invert"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Up_L",
-          "Type": {
-            "RowName": "Roof_CurvedAngle_Up_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Roof_CurvedAngles_4.T_ITEM_Wood_Roof_CurvedAngles_4",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_RoofCurvedAngle_L_Up_Stone.BP_Building_RoofCurvedAngle_L_Up_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Roof_CurvedAngle_Up_L"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Up_L_Invert",
-          "Type": {
-            "RowName": "Roof_CurvedAngle_Up_L_Invert"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Roof_CurvedAngles_5.T_ITEM_Wood_Roof_CurvedAngles_5",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_RoofCurvedAngle_L_Up_Invert_Stone.BP_Building_RoofCurvedAngle_L_Up_Invert_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Roof_CurvedAngle_Up_L_Invert"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Up_R",
-          "Type": {
-            "RowName": "Roof_CurvedAngle_Up_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Roof_CurvedAngles_6.T_ITEM_Wood_Roof_CurvedAngles_6",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_RoofCurvedAngle_R_Up_Stone.BP_Building_RoofCurvedAngle_R_Up_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Roof_CurvedAngle_Up_R"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Up_R_Invert",
-          "Type": {
-            "RowName": "Roof_CurvedAngle_Up_R_Invert"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Roof_CurvedAngles_7.T_ITEM_Wood_Roof_CurvedAngles_7",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_RoofCurvedAngle_R_Up_Invert_Stone.BP_Building_RoofCurvedAngle_R_Up_Invert_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Roof_CurvedAngle_Up_R_Invert"
-          }
-        },
-        {
-          "Name": "Wood_Wall_Curved_Angle_L",
-          "Type": {
-            "RowName": "Wall_Curved_Angle_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Wall_Curved_0.T_ITEM_Wood_Wall_Curved_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Curved_Half_L_Stone.BP_Building_Wall_Curved_Half_L_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Wall_Curved_Angle_L"
-          }
-        },
-        {
-          "Name": "Wood_Wall_Curved_Angle_L_Invert",
-          "Type": {
-            "RowName": "Wall_Curved_Angle_L_Invert"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Wall_Curved_1.T_ITEM_Wood_Wall_Curved_1",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Curved_Half_L_Invert_Stone.BP_Building_Wall_Curved_Half_L_Invert_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Wall_Curved_Angle_L_Invert"
-          }
-        },
-        {
-          "Name": "Wood_Wall_Curved_Angle_R",
-          "Type": {
-            "RowName": "Wall_Curved_Angle_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Wall_Curved_2.T_ITEM_Wood_Wall_Curved_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Curved_Half_R_Stone.BP_Building_Wall_Curved_Half_R_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Wall_Curved_Angle_R"
-          }
-        },
-        {
-          "Name": "Wood_Wall_Curved_Angle_R_Invert",
-          "Type": {
-            "RowName": "Wall_Curved_Angle_R_Invert"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Wall_Curved_3.T_ITEM_Wood_Wall_Curved_3",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Curved_Half_R_Invert_Stone.BP_Building_Wall_Curved_Half_R_Invert_Stone_C",
-          "Audio": {
-            "RowName": "Wood"
-          },
-          "Skin": {
-            "RowName": "Wood_Wall_Curved_Angle_R_Invert"
           }
         }
       ]
@@ -9439,13 +5369,6 @@
           }
         },
         {
-          "Name": "TemperedGlass_Ramp_Stairs",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Glass/Ramp_Half_Glass/M_BLD_Ramp_Half_Glass_Tempered_B.M_BLD_Ramp_Half_Glass_Tempered_B",
-            "1": "/Game/ASS/BLD/Glass/Ramp_Half_Glass/M_BLD_Ramp_Half_Glass_Tempered_A.M_BLD_Ramp_Half_Glass_Tempered_A"
-          }
-        },
-        {
           "Name": "Thatch_CornerStair_L",
           "BaseMeshMaterialSlotOverrides": {
             "0": "/Game/ASS/BLD/Thatch/Stairs_Thatch/M_BLD_Stairs_Thatch_A.M_BLD_Stairs_Thatch_A",
@@ -9457,18 +5380,6 @@
           "BaseMeshMaterialSlotOverrides": {
             "0": "/Game/ASS/BLD/Thatch/Stairs_Thatch/M_BLD_Stairs_Thatch_A.M_BLD_Stairs_Thatch_A",
             "1": "/Game/ASS/BLD/Thatch/Stairs_Thatch/M_BLD_Stairs_Thatch_B.M_BLD_Stairs_Thatch_B"
-          }
-        },
-        {
-          "Name": "Wood_Beam_Curved_Diagonal_Down",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/BeamDiagonal_Wood/M_BLD_Beams_Wood_Beeswax_A.M_BLD_Beams_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Beam_Curved_Diagonal_Up",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/BeamDiagonal_Wood/M_BLD_Beams_Wood_Beeswax_A.M_BLD_Beams_Wood_Beeswax_A"
           }
         },
         {
@@ -9492,36 +5403,6 @@
           }
         },
         {
-          "Name": "Wood_Diagonal_Beam_Curved_Diagonal_Down_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/BeamDiagonal_Wood/M_BLD_Beams_Wood_Beeswax_A.M_BLD_Beams_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Diagonal_Down_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/BeamDiagonal_Wood/M_BLD_Beams_Wood_Beeswax_A.M_BLD_Beams_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Diagonal_Up_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/BeamDiagonal_Wood/M_BLD_Beams_Wood_Beeswax_A.M_BLD_Beams_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Diagonal_Up_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/BeamDiagonal_Wood/M_BLD_Beams_Wood_Beeswax_A.M_BLD_Beams_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Beam_Curved_Horizontal",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/BeamDiagonal_Wood/M_BLD_Beams_Wood_Beeswax_A.M_BLD_Beams_Wood_Beeswax_A"
-          }
-        },
-        {
           "Name": "Wood_Diagonal_Beam_Diagonal",
           "BaseMeshMaterialSlotOverrides": {
             "0": "/Game/ASS/BLD/Wood/BeamDiagonal_Wood/M_BLD_Beams_Wood_Beeswax_A.M_BLD_Beams_Wood_Beeswax_A"
@@ -9531,18 +5412,6 @@
           "Name": "Wood_Diagonal_Beam_Horizontal",
           "BaseMeshMaterialSlotOverrides": {
             "0": "/Game/ASS/BLD/Wood/BeamDiagonal_Wood/M_BLD_Beams_Wood_Beeswax_A.M_BLD_Beams_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Curved_Floor",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Floor_Wood/M_BLD_Floor_Wood_Beeswax_A.M_BLD_Floor_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Curved_Ramp_Roof",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Roof_Angle_Wood/M_BLD_Roof_Angle_Wood_Beeswax_A.M_BLD_Roof_Angle_Wood_Beeswax_A"
           }
         },
         {
@@ -9588,139 +5457,7 @@
           }
         },
         {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Down_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Down_L_Invert",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Down_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Down_R_Invert",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Up_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Up_L_Invert",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Up_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Angle_Up_R_Invert",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
-          "Name": "Wood_Diagonal_Wall_Curved_Solid",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
           "Name": "Wood_Diagonal_Wall_Solid",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
-          "Name": "Wood_Ramp_Curved",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Roof_Angle_Wood/M_BLD_Roof_Angle_Wood_Beeswax_A.M_BLD_Roof_Angle_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Down_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Roof_Angle_Wood/M_BLD_Roof_Angle_Wood_Beeswax_A.M_BLD_Roof_Angle_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Down_L_Invert",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Roof_Angle_Wood/M_BLD_Roof_Angle_Wood_Beeswax_A.M_BLD_Roof_Angle_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Down_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Roof_Angle_Wood/M_BLD_Roof_Angle_Wood_Beeswax_A.M_BLD_Roof_Angle_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Down_R_Invert",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Roof_Angle_Wood/M_BLD_Roof_Angle_Wood_Beeswax_A.M_BLD_Roof_Angle_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Up_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Roof_Angle_Wood/M_BLD_Roof_Angle_Wood_Beeswax_A.M_BLD_Roof_Angle_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Up_L_Invert",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Roof_Angle_Wood/M_BLD_Roof_Angle_Wood_Beeswax_A.M_BLD_Roof_Angle_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Up_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Roof_Angle_Wood/M_BLD_Roof_Angle_Wood_Beeswax_A.M_BLD_Roof_Angle_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Roof_CurvedAngle_Up_R_Invert",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Roof_Angle_Wood/M_BLD_Roof_Angle_Wood_Beeswax_A.M_BLD_Roof_Angle_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_Wall_Curved_Angle_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
-          "Name": "Wood_Wall_Curved_Angle_L_Invert",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
-          "Name": "Wood_Wall_Curved_Angle_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
-          }
-        },
-        {
-          "Name": "Wood_Wall_Curved_Angle_R_Invert",
           "BaseMeshMaterialSlotOverrides": {
             "0": "/Game/ASS/BLD/Wood/Wall_Solid_Wood/M_BLD_Wall_Solid_Wood_Beeswax.M_BLD_Wall_Solid_Wood_Beeswax"
           }
